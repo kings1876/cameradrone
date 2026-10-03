@@ -163,6 +163,8 @@ export const Footer: React.FC = () => {
             <span>·</span>
             <Link to="/shop" className="hover:text-slate-300">thermal drones</Link>
             <span>·</span>
+            <Link to="/shop" className="hover:text-slate-300">drone cameras &amp; sensors</Link>
+            <span>·</span>
             <Link to="/shop" className="hover:text-slate-300">drone batteries</Link>
           </div>
         </div>

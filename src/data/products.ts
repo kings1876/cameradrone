@@ -9,7 +9,12 @@ export const CATEGORIES: CategoryInfo[] = [
   {
     id: 'enterprise-drones',
     name: 'Enterprise & Thermal Drones',
-    subcategories: ['DJI Matrice', 'DJI Mavic 3 Enterprise', 'DJI Phantom 4']
+    subcategories: ['DJI Matrice', 'DJI Mavic 3 Enterprise', 'DJI Phantom 4', 'Autel & FLIR Drones']
+  },
+  {
+    id: 'cameras-sensors',
+    name: 'Cameras & Sensors',
+    subcategories: ['DJI Zenmuse Cameras', 'Thermal Cameras', 'Multispectral Cameras', 'Integration Kits']
   },
   {
     id: 'spraying-drones',
@@ -94,6 +99,58 @@ const seeds: Seed[] = [
     shortDescription: 'DJI Phantom 4 Multispectral drone for crop health and agronomy data.' },
   { name: 'DJI Phantom 4 Multispectral DRTK2', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Phantom 4', price: 14299, graphicType: 'enterprise-uav',
     shortDescription: 'DJI Phantom 4 Multispectral package including the D-RTK 2 mobile station.' },
+
+  // Cameras & Sensors
+  { name: 'DJI Zenmuse H30', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 8506, graphicType: 'dslr-gimbal',
+    shortDescription: 'DJI Zenmuse H30 multi-sensor payload for enterprise drones.' },
+  { name: 'DJI Zenmuse H30T', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 17335, graphicType: 'dslr-gimbal',
+    shortDescription: 'DJI Zenmuse H30T multi-sensor payload with thermal imaging.' },
+  { name: 'DJI Zenmuse L2 Lidar', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 21890, graphicType: 'dslr-gimbal',
+    shortDescription: 'DJI Zenmuse L2 LiDAR payload for aerial surveying and mapping.' },
+  { name: 'DJI Zenmuse P1', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 11400, graphicType: 'dslr-gimbal', inStock: false,
+    shortDescription: 'DJI Zenmuse P1 full-frame photogrammetry camera payload.' },
+  { name: 'DJI Zenmuse X7', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 2589, graphicType: 'dslr-gimbal',
+    shortDescription: 'DJI Zenmuse X7 interchangeable-lens aerial camera.' },
+  { name: 'DJI Zenmuse X5S', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 1809, graphicType: 'dslr-gimbal', inStock: false,
+    shortDescription: 'DJI Zenmuse X5S aerial camera for Inspire 2.' },
+  { name: 'DJI Zenmuse X4S', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 939, graphicType: 'dslr-gimbal',
+    shortDescription: 'DJI Zenmuse X4S aerial camera for Inspire 2.' },
+  { name: 'DJI Zenmuse Z3 Optical Zoom', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 1399, graphicType: 'dslr-gimbal',
+    shortDescription: 'DJI Zenmuse Z3 optical zoom camera.' },
+  { name: 'FLIR VUE TZ20', brand: 'FLIR', category: 'cameras-sensors', subcategory: 'Thermal Cameras', price: 11700, graphicType: 'dslr-gimbal',
+    shortDescription: 'FLIR VUE TZ20 dual thermal camera payload.' },
+  { name: 'DJI Mavic Pro FLIR Boson Thermal Ninja', brand: 'FLIR', category: 'cameras-sensors', subcategory: 'Thermal Cameras', price: 6999, graphicType: 'dslr-gimbal',
+    shortDescription: 'FLIR Boson thermal camera conversion for the DJI Mavic Pro.' },
+  { name: 'ADTI Agrowing Multispectral Matrice 300', brand: 'Agrowing', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 20850, graphicType: 'action-cam',
+    shortDescription: 'Agrowing multispectral camera system for the DJI Matrice 300.' },
+  { name: 'Sony A6000 Multispectral Dual Agrowing Camera', brand: 'Agrowing', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 4900, graphicType: 'action-cam',
+    shortDescription: 'Dual-sensor Agrowing multispectral camera based on the Sony A6000.' },
+  { name: 'Sony A7R Multispectral Quad Agrowing Camera', brand: 'Agrowing', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 16000, graphicType: 'action-cam',
+    shortDescription: 'Quad-sensor Agrowing multispectral camera based on the Sony A7R.' },
+  { name: 'Sony A7R Multispectral Sextuple Agrowing Camera', brand: 'Agrowing', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 21000, graphicType: 'action-cam',
+    shortDescription: 'Six-sensor Agrowing multispectral camera based on the Sony A7R.' },
+  { name: 'Micasense Altum PT', brand: 'MicaSense', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 28999, graphicType: 'action-cam',
+    shortDescription: 'MicaSense Altum-PT multispectral and thermal sensor.' },
+  { name: 'Micasense RedEdge P', brand: 'MicaSense', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 13999, graphicType: 'action-cam', inStock: false,
+    shortDescription: 'MicaSense RedEdge-P multispectral sensor.' },
+  { name: 'Slantrange 3PX Multispectral Sensor', brand: 'SlantRange', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 8199, graphicType: 'action-cam',
+    shortDescription: 'SlantRange 3PX multispectral sensor for crop analytics.' },
+  { name: 'Slantrange 4P Multispectral Sensor', brand: 'SlantRange', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 7900, graphicType: 'action-cam', inStock: false,
+    shortDescription: 'SlantRange 4P multispectral sensor for crop analytics. Pricing from $7,900 depending on option.' },
+  { name: 'Phantom 4 Integration Kit Rededge MX', brand: 'MicaSense', category: 'cameras-sensors', subcategory: 'Integration Kits', price: 930, graphicType: 'controller',
+    shortDescription: 'Integration kit for mounting a RedEdge-MX on the DJI Phantom 4.' },
+  { name: 'Phantom 4 Integration Kit Parrot Sequoia', brand: 'Parrot', category: 'cameras-sensors', subcategory: 'Integration Kits', price: 649, graphicType: 'controller',
+    shortDescription: 'Integration kit for mounting a Parrot Sequoia on the DJI Phantom 4.' },
+  { name: 'Mavic 2 Pro Parrot Sequoia Integration Kit', brand: 'Parrot', category: 'cameras-sensors', subcategory: 'Integration Kits', price: 649, graphicType: 'controller', inStock: false,
+    shortDescription: 'Integration kit for mounting a Parrot Sequoia on the DJI Mavic 2 Pro.' },
+  { name: 'Mavic Pro Integration Kit Parrot Sequoia', brand: 'Parrot', category: 'cameras-sensors', subcategory: 'Integration Kits', price: 649, graphicType: 'controller', inStock: false,
+    shortDescription: 'Integration kit for mounting a Parrot Sequoia on the DJI Mavic Pro.' },
+
+  // Autel & FLIR drones
+  { name: 'Autel Evo Max 4T Drone', brand: 'Autel', category: 'enterprise-drones', subcategory: 'Autel & FLIR Drones', price: 14999, graphicType: 'enterprise-uav',
+    shortDescription: 'Autel EVO Max 4T enterprise drone with thermal imaging.' },
+  { name: 'FLIR ION M440 Tactical Drone', brand: 'FLIR', category: 'enterprise-drones', subcategory: 'Autel & FLIR Drones', price: 27500, graphicType: 'enterprise-uav', inStock: false,
+    shortDescription: 'FLIR ION M440 tactical drone.' },
 
   // Spraying drones
   { name: 'XAG P30 Spraying Drone', brand: 'XAG', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 24000, graphicType: 'enterprise-uav', featured: true,

@@ -53,6 +53,14 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
       icon: Compass
     },
     {
+      title: 'Cameras & Sensors',
+      subtitle: 'Zenmuse, thermal and multispectral payloads',
+      path: '/shop',
+      category: 'cameras-sensors',
+      tag: 'Payloads',
+      icon: Camera
+    },
+    {
       title: 'Agricultural Spraying Drones',
       subtitle: 'XAG and BROUAV spraying systems',
       path: '/shop',
@@ -101,7 +109,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
           {categoryHighlights.map((cat, idx) => {
             const Icon = cat.icon;
             return (
