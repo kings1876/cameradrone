@@ -115,6 +115,46 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
           </div>
         </div>
 
+        {/* Shop by Category */}
+        <section aria-labelledby="shop-by-category" className="space-y-4">
+          <h2 id="shop-by-category" className="text-sm font-bold text-slate-400 uppercase tracking-wider">
+            Shop by Category
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {CATEGORIES.map(cat => {
+              const count = PRODUCTS.filter(p => p.category === cat.id).length;
+              const isActive = selectedCategory === cat.id;
+              return (
+                <button
+                  key={cat.id}
+                  type="button"
+                  aria-pressed={isActive}
+                  onClick={() => handleCategorySelect(isActive ? 'all' : cat.id)}
+                  className={`text-left p-5 rounded-2xl border transition-colors flex flex-col gap-3 h-full ${
+                    isActive
+                      ? 'bg-amber-500/10 border-amber-500/60'
+                      : 'bg-[#0f172a] border-slate-800 hover:border-amber-500/40'
+                  }`}
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <h3 className="text-base font-bold text-white font-display">{cat.name}</h3>
+                    <span className="text-[11px] font-mono text-amber-400 shrink-0">{count} items</span>
+                  </div>
+                  <ul className="space-y-1 text-xs text-slate-400">
+                    {cat.subcategories.map(sub => (
+                      <li key={sub}>• {sub}</li>
+                    ))}
+                  </ul>
+                  <span className="mt-auto inline-flex items-center gap-1 text-xs font-semibold text-amber-400">
+                    {isActive ? 'Showing this category' : 'Browse category'}
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </section>
+
         {/* Filters & Control Panel */}
         <div className="space-y-4 bg-[#0f172a] p-4 sm:p-6 rounded-2xl border border-slate-800 shadow-xl">
           {/* Level 1: Categories */}
