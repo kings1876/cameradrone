@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Zap className="w-3.5 h-3.5 text-amber-400" />
-                <span>Accepted Currency: USD · 10% Crypto Checkout Discount</span>
+                <span>Prices in AUD · 10% Crypto Checkout Discount</span>
               </div>
             </div>
           </div>
