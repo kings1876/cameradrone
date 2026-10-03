@@ -1,6 +1,19 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { ShoppingBag, Zap } from 'lucide-react';
+import { ShoppingBag, Zap, ChevronDown } from 'lucide-react';
+import { CATEGORIES } from '../data/products';
+
+const MORE_LINKS = [
+  { to: '/blog', label: 'Blog' },
+  { to: '/about', label: 'About' },
+  { to: '/contact', label: 'Contact' },
+  { to: '/faq', label: 'FAQ' }
+];
+
+const dropdownPanel =
+  'invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition-opacity absolute left-0 top-full z-50 min-w-[220px] bg-[#0f172a] border border-slate-800 rounded-xl shadow-2xl py-2';
+const dropdownItem =
+  'block px-4 py-2 text-xs text-slate-300 hover:text-amber-400 hover:bg-slate-900 whitespace-nowrap';
 
 interface NavbarProps {
   cartCount: number;
@@ -19,69 +32,6 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, openCart }) => {
           Camera Drone Sales Australia
         </Link>
 
-        {/* Zone 2: 4-6 clean text navigation links (exact user menu sequence) */}
-        <nav className="hidden md:flex items-center gap-7 text-sm font-medium">
-          <NavLink
-            to="/shop"
-            className={({ isActive }) =>
-              `whitespace-nowrap transition-colors py-1 hover:text-white ${
-                isActive
-                  ? 'text-amber-400 font-semibold border-b-2 border-amber-400'
-                  : 'text-slate-300'
-              }`
-            }
-          >
-            Shop
-          </NavLink>
-          <NavLink
-            to="/blog"
-            className={({ isActive }) =>
-              `whitespace-nowrap transition-colors py-1 hover:text-white ${
-                isActive
-                  ? 'text-amber-400 font-semibold border-b-2 border-amber-400'
-                  : 'text-slate-300'
-              }`
-            }
-          >
-            Blog
-          </NavLink>
-          <NavLink
-            to="/about"
-            className={({ isActive }) =>
-              `whitespace-nowrap transition-colors py-1 hover:text-white ${
-                isActive
-                  ? 'text-amber-400 font-semibold border-b-2 border-amber-400'
-                  : 'text-slate-300'
-              }`
-            }
-          >
-            About
-          </NavLink>
-          <NavLink
-            to="/contact"
-            className={({ isActive }) =>
-              `whitespace-nowrap transition-colors py-1 hover:text-white ${
-                isActive
-                  ? 'text-amber-400 font-semibold border-b-2 border-amber-400'
-                  : 'text-slate-300'
-              }`
-            }
-          >
-            Contact
-          </NavLink>
-          <NavLink
-            to="/faq"
-            className={({ isActive }) =>
-              `whitespace-nowrap transition-colors py-1 hover:text-white ${
-                isActive
-                  ? 'text-amber-400 font-semibold border-b-2 border-amber-400'
-                  : 'text-slate-300'
-              }`
-            }
-          >
-            FAQ
-          </NavLink>
-        </nav>
 
         {/* Zone 3: 1-2 primary actions */}
         <div className="flex items-center gap-3">
@@ -108,6 +58,60 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, openCart }) => {
           </button>
         </div>
       </div>
+
+      {/* Desktop category menu with subcategory dropdowns */}
+      <nav
+        aria-label="Product categories"
+        className="hidden md:block border-t border-slate-800/80 bg-[#080c13]"
+      >
+        <ul className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-11 flex items-center gap-1 text-[13px] font-medium">
+          {CATEGORIES.map(cat => (
+            <li key={cat.id} className="relative group h-full flex items-center">
+              <Link
+                to={`/shop?category=${cat.id}`}
+                className="inline-flex items-center gap-1 px-3 py-2 text-slate-300 hover:text-amber-400 whitespace-nowrap transition-colors"
+              >
+                {cat.name}
+                <ChevronDown className="w-3.5 h-3.5 opacity-70" />
+              </Link>
+              <ul className={dropdownPanel}>
+                <li>
+                  <Link to={`/shop?category=${cat.id}`} className={`${dropdownItem} font-semibold text-white`}>
+                    All {cat.name}
+                  </Link>
+                </li>
+                {cat.subcategories.map(sub => (
+                  <li key={sub}>
+                    <Link
+                      to={`/shop?category=${cat.id}&sub=${encodeURIComponent(sub)}`}
+                      className={dropdownItem}
+                    >
+                      {sub}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          ))}
+          <li className="relative group h-full flex items-center ml-auto">
+            <button
+              type="button"
+              className="inline-flex items-center gap-1 px-3 py-2 text-slate-300 hover:text-amber-400 whitespace-nowrap transition-colors"
+              aria-haspopup="true"
+            >
+              More
+              <ChevronDown className="w-3.5 h-3.5 opacity-70" />
+            </button>
+            <ul className={`${dropdownPanel} left-auto right-0 min-w-[160px]`}>
+              {MORE_LINKS.map(l => (
+                <li key={l.to}>
+                  <Link to={l.to} className={dropdownItem}>{l.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </li>
+        </ul>
+      </nav>
 
       {/* Mobile Navigation Row */}
       <div className="md:hidden flex items-center justify-around border-t border-slate-800/80 py-2.5 px-3 bg-[#080c13] text-xs">

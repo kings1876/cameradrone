@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { Search, SlidersHorizontal, Truck, Zap, ShieldCheck, ArrowRight, RotateCcw } from 'lucide-react';
 import { PRODUCTS, CATEGORIES } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
@@ -21,8 +21,15 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
   }, []);
 
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  const [selectedSubcategory, setSelectedSubcategory] = useState<string>('all');
+  const [searchParams] = useSearchParams();
+  const [selectedCategory, setSelectedCategory] = useState<string>(searchParams.get('category') || 'all');
+  const [selectedSubcategory, setSelectedSubcategory] = useState<string>(searchParams.get('sub') || 'all');
+
+  // Keep filters in sync when the top-nav category menu links here
+  useEffect(() => {
+    setSelectedCategory(searchParams.get('category') || 'all');
+    setSelectedSubcategory(searchParams.get('sub') || 'all');
+  }, [searchParams]);
   const [selectedBadge, setSelectedBadge] = useState<string>('all');
   const [sortBy, setSortBy] = useState<'featured' | 'price-low' | 'price-high'>('featured');
   const [page, setPage] = useState(1);
