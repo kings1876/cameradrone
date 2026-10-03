@@ -5,6 +5,8 @@ import { PRODUCTS, CATEGORIES } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
 import { Product } from '../types';
 
+const PAGE_SIZE = 12;
+
 interface ShopPageProps {
   onAddToCart: (product: Product) => void;
   addedProductId: string | null;
@@ -23,6 +25,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
   const [selectedSubcategory, setSelectedSubcategory] = useState<string>('all');
   const [selectedBadge, setSelectedBadge] = useState<string>('all');
   const [sortBy, setSortBy] = useState<'featured' | 'price-low' | 'price-high'>('featured');
+  const [page, setPage] = useState(1);
 
   const handleCategorySelect = (categoryId: string) => {
     setSelectedCategory(categoryId);
@@ -58,6 +61,29 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
   }, [selectedCategory, selectedSubcategory, selectedBadge, searchQuery, sortBy]);
 
   const activeCategoryObject = CATEGORIES.find(c => c.id === selectedCategory);
+
+  const totalPages = Math.max(1, Math.ceil(filteredProducts.length / PAGE_SIZE));
+  const currentPage = Math.min(page, totalPages);
+  const pageStart = (currentPage - 1) * PAGE_SIZE;
+  const pagedProducts = filteredProducts.slice(pageStart, pageStart + PAGE_SIZE);
+
+  useEffect(() => {
+    setPage(1);
+  }, [selectedCategory, selectedSubcategory, selectedBadge, searchQuery, sortBy]);
+
+  const goToPage = (n: number) => {
+    setPage(n);
+    document.getElementById('shop-results')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  const pageNumbers = useMemo(() => {
+    const nums: (number | '…')[] = [];
+    for (let i = 1; i <= totalPages; i++) {
+      if (i === 1 || i === totalPages || Math.abs(i - currentPage) <= 1) nums.push(i);
+      else if (nums[nums.length - 1] !== '…') nums.push('…');
+    }
+    return nums;
+  }, [totalPages, currentPage]);
 
   return (
     <div className="py-10 sm:py-14 bg-[#0b0f17] text-white">
@@ -224,9 +250,11 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
         </div>
 
         {/* Results Bar */}
-        <div className="flex items-center justify-between text-xs text-slate-400 pt-1">
+        <div id="shop-results" className="flex items-center justify-between text-xs text-slate-400 pt-1 scroll-mt-24">
           <span>
-            Displaying <strong className="text-white font-mono">{filteredProducts.length}</strong> items in Australian stock
+            Showing <strong className="text-white font-mono">
+              {filteredProducts.length === 0 ? 0 : pageStart + 1}–{pageStart + pagedProducts.length}
+            </strong> of <strong className="text-white font-mono">{filteredProducts.length}</strong> items
           </span>
 
           {(searchQuery || selectedCategory !== 'all' || selectedSubcategory !== 'all' || selectedBadge !== 'all') && (
@@ -267,7 +295,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
-            {filteredProducts.map(product => (
+            {pagedProducts.map(product => (
               <ProductCard
                 key={product.id}
                 product={product}
@@ -277,6 +305,47 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
               />
             ))}
           </div>
+        )}
+
+        {totalPages > 1 && (
+          <nav aria-label="Product pagination" className="flex flex-wrap items-center justify-center gap-1.5 pt-2">
+            <button
+              type="button"
+              onClick={() => goToPage(currentPage - 1)}
+              disabled={currentPage === 1}
+              className="px-3 py-2 text-xs font-semibold rounded-lg border border-slate-800 bg-slate-900 text-slate-300 hover:text-white disabled:opacity-40 disabled:cursor-not-allowed"
+            >
+              ← Prev
+            </button>
+            {pageNumbers.map((n, i) =>
+              n === '…' ? (
+                <span key={`gap-${i}`} className="px-2 text-slate-500" aria-hidden="true">…</span>
+              ) : (
+                <button
+                  key={n}
+                  type="button"
+                  onClick={() => goToPage(n)}
+                  aria-current={n === currentPage ? 'page' : undefined}
+                  aria-label={`Page ${n}`}
+                  className={`min-w-9 px-3 py-2 text-xs font-semibold rounded-lg border transition-colors ${
+                    n === currentPage
+                      ? 'bg-amber-500 text-slate-950 border-amber-500 font-bold'
+                      : 'bg-slate-900 text-slate-300 border-slate-800 hover:text-white'
+                  }`}
+                >
+                  {n}
+                </button>
+              )
+            )}
+            <button
+              type="button"
+              onClick={() => goToPage(currentPage + 1)}
+              disabled={currentPage === totalPages}
+              className="px-3 py-2 text-xs font-semibold rounded-lg border border-slate-800 bg-slate-900 text-slate-300 hover:text-white disabled:opacity-40 disabled:cursor-not-allowed"
+            >
+              Next →
+            </button>
+          </nav>
         )}
         </div>
         </div>
