@@ -1,0 +1,7 @@
+{
+  "name": "Camera Drone Sales Australia",
+  "description": "Australia's premier store for professional camera drones, DJI UAVs, cinema gimbals, and aerial imaging gear. Free nationwide delivery and 10% crypto discount.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
