@@ -19,10 +19,10 @@ export const BlogListPage: React.FC = () => {
             <span>Flight Intel & Hardware Guides</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight font-display">
-            Australian Drone & Optics Articles
+            Australian Drone Articles
           </h1>
           <p className="text-sm sm:text-base text-slate-400 leading-relaxed font-normal">
-            Independent equipment buying guides, CASA airspace regulations, and technical camera sensor breakdowns for Australian drone pilots and cinematographers.
+            Equipment buying guides and CASA airspace regulations for Australian drone pilots, surveyors and farmers.
           </p>
         </div>
 

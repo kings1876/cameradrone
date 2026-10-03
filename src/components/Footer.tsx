@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
               Camera Drone Sales Australia
             </h3>
             <p className="text-xs text-slate-400 leading-relaxed font-normal">
-              Australia’s premier destination for professional aerial imaging systems, DJI drones, 8K cinema UAVs, and mirrorless gimbal payloads. Founded on <strong>17 May 2018 in Australia</strong>.
+              Australian supplier of DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, and accessories. Founded on <strong>17 May 2018 in Australia</strong>.
             </p>
             <div className="pt-2 space-y-1.5 text-[11px] text-slate-400">
               <div className="flex items-center gap-2">
@@ -52,12 +52,12 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 text-xs">
               <li>
                 <Link to="/shop" className="hover:text-amber-400 transition-colors">
-                  Shop Drones & Payloads
+                  Shop Drones & Accessories
                 </Link>
               </li>
               <li>
                 <Link to="/blog" className="hover:text-amber-400 transition-colors">
-                  Flight & Optical Blog
+                  Drone Guides & Blog
                 </Link>
               </li>
               <li>
@@ -139,7 +139,7 @@ export const Footer: React.FC = () => {
         <div className="pt-8 border-t border-slate-800/80">
           <div className="mb-3">
             <span className="text-[11px] font-bold text-slate-300 uppercase tracking-wider">
-              Popular Flight Equipment & Search Categories
+              Popular Drones & Categories
             </span>
           </div>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-[11px] text-slate-500">
@@ -147,40 +147,30 @@ export const Footer: React.FC = () => {
             <span>·</span>
             <Link to="/shop" className="hover:text-slate-300">drone sales</Link>
             <span>·</span>
-            <Link to="/shop" className="hover:text-slate-300">drones on sale</Link>
+            <Link to="/product/dji-mavic-3-pro" className="hover:text-slate-300">dji mavic 3 pro</Link>
             <span>·</span>
-            <Link to="/product/dji-mavic-3-pro-cine-combo" className="hover:text-slate-300">dji drones for sale</Link>
+            <Link to="/product/dji-mini-4-pro" className="hover:text-slate-300">dji mini 4 pro</Link>
             <span>·</span>
-            <Link to="/product/dji-mini-4-pro-fly-more-combo" className="hover:text-slate-300">dji drone for sale</Link>
+            <Link to="/product/dji-air-3" className="hover:text-slate-300">dji air 3</Link>
             <span>·</span>
-            <Link to="/shop" className="hover:text-slate-300">camera drone sale</Link>
+            <Link to="/product/dji-inspire-3" className="hover:text-slate-300">dji inspire 3</Link>
             <span>·</span>
-            <Link to="/product/sony-alpha-7r-v-dslr-uav-cinema-rig" className="hover:text-slate-300">dslr for sale</Link>
+            <Link to="/product/dji-matrice-30" className="hover:text-slate-300">dji matrice 30</Link>
             <span>·</span>
-            <Link to="/shop" className="hover:text-slate-300">digital slr sale</Link>
+            <Link to="/product/dji-matrice-4-enterprise" className="hover:text-slate-300">dji matrice 4</Link>
             <span>·</span>
-            <Link to="/product/canon-eos-r5-c-cinema-uav-kit" className="hover:text-slate-300">slr cameras for sale</Link>
+            <Link to="/product/xag-p30-spraying-drone" className="hover:text-slate-300">spraying drone</Link>
             <span>·</span>
-            <Link to="/shop" className="hover:text-slate-300">dslr camera price in australia</Link>
+            <Link to="/shop" className="hover:text-slate-300">thermal drones</Link>
             <span>·</span>
-            <Link to="/product/gopro-hero13-black-aerial-creator-flight-pack" className="hover:text-slate-300">gopro on sale</Link>
-            <span>·</span>
-            <Link to="/product/gopro-hero13-black-aerial-creator-flight-pack" className="hover:text-slate-300">gopro for sale</Link>
-            <span>·</span>
-            <Link to="/product/phase-one-ixm-100mp-medium-format-payload" className="hover:text-slate-300">uav camera for sale</Link>
-            <span>·</span>
-            <Link to="/shop" className="hover:text-slate-300">video cameras for sale</Link>
-            <span>·</span>
-            <Link to="/shop" className="hover:text-slate-300">cameras on sale</Link>
-            <span>·</span>
-            <Link to="/shop" className="hover:text-slate-300">camcorders for sale</Link>
+            <Link to="/shop" className="hover:text-slate-300">drone batteries</Link>
           </div>
         </div>
 
         {/* Bottom Line */}
         <div className="pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-400">
           <p>© 2018–2026 Camera Drone Sales Australia. All rights reserved.</p>
-          <p>Prices quoted in USD · Free Express Shipping to all Australian addresses.</p>
+          <p>Prices quoted in AUD · Free Express Shipping to all Australian addresses.</p>
         </div>
       </div>
     </footer>

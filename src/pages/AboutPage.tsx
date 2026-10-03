@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { AboutSection } from '../components/AboutSection';
-import { ReviewsSection } from '../components/ReviewsSection';
 
 export const AboutPage: React.FC = () => {
   useEffect(() => {
@@ -11,7 +10,6 @@ export const AboutPage: React.FC = () => {
   return (
     <div className="bg-[#0b0f17]">
       <AboutSection />
-      <ReviewsSection />
     </div>
   );
 };

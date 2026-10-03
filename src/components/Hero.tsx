@@ -1,7 +1,6 @@
 import React from 'react';
 import { ArrowDown, Zap, Shield, Truck, Sparkles } from 'lucide-react';
 import { DroneGraphic } from './DroneGraphic';
-import { TRUSTPILOT_STATS } from '../data/content';
 
 interface HeroProps {
   onExploreClick: () => void;
@@ -33,7 +32,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) =
             </h1>
 
             <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed text-pretty">
-              Equipping Australian cinematographers, surveying crews, and aerial creators with flagship DJI drones, 8K ProRes cinema UAVs, and mirrorless gimbal payloads. Free nationwide express shipping on every flight system.
+              Equipping Australian creators, surveying crews, and farmers with DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, and batteries and accessories. Free nationwide express shipping on every order.
             </p>
 
             {/* Primary Action Buttons */}
@@ -60,11 +59,9 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) =
             {/* Adjacent Trust Badges & Metrics */}
             <div className="pt-6 border-t border-slate-800/80 grid grid-cols-2 sm:grid-cols-4 gap-4 text-left">
               <div>
-                <p className="text-xs text-slate-400">Trustpilot Rating</p>
-                <p className="text-base font-bold text-white tabular-nums flex items-center gap-1 mt-0.5">
-                  <span className="text-amber-400">★</span> 4.9 / 5.0
-                </p>
-                <p className="text-[11px] text-slate-400">2,480+ Australian reviews</p>
+                <p className="text-xs text-slate-400">Product Range</p>
+                <p className="text-base font-bold text-white mt-0.5">DJI, XAG &amp; More</p>
+                <p className="text-[11px] text-slate-400">Camera, enterprise &amp; agriculture</p>
               </div>
 
               <div>
@@ -92,8 +89,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) =
             <div className="relative mx-auto w-full max-w-[440px] bg-slate-900/60 border border-slate-800 rounded-2xl p-6 shadow-2xl backdrop-blur-sm">
               {/* Technical Telemetry Card Header */}
               <div className="flex items-center justify-between text-xs text-slate-400 border-b border-slate-800 pb-3 mb-4">
-                <span className="text-slate-200 font-semibold tracking-wide">FLAGSHIP CINEMA UAV RIG</span>
-                <span className="text-amber-400 font-mono">8K PRORES RAW</span>
+                <span className="text-slate-200 font-semibold tracking-wide">DJI CAMERA DRONES</span>
+                <span className="text-amber-400 font-mono">AUSTRALIAN STOCK</span>
               </div>
 
               {/* Central Precision SVG Schematic Drone Graphic */}
@@ -104,22 +101,22 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) =
               {/* Technical Specifications Callout Grid */}
               <div className="grid grid-cols-3 gap-2 pt-4 border-t border-slate-800 text-center">
                 <div className="p-2 bg-slate-950/60 rounded border border-slate-800/80">
-                  <span className="block text-[10px] text-slate-400">Full-Frame Sensor</span>
-                  <span className="text-xs font-bold text-white font-mono">8K / 75fps</span>
+                  <span className="block text-[10px] text-slate-400">Camera Drones</span>
+                  <span className="text-xs font-bold text-white font-mono">Mini · Air · Mavic</span>
                 </div>
                 <div className="p-2 bg-slate-950/60 rounded border border-slate-800/80">
-                  <span className="block text-[10px] text-slate-400">Flight Endurance</span>
-                  <span className="text-xs font-bold text-white font-mono">28 Mins</span>
+                  <span className="block text-[10px] text-slate-400">Enterprise</span>
+                  <span className="text-xs font-bold text-white font-mono">Matrice · Phantom</span>
                 </div>
                 <div className="p-2 bg-slate-950/60 rounded border border-slate-800/80">
-                  <span className="block text-[10px] text-slate-400">Transmission</span>
-                  <span className="text-xs font-bold text-sky-400 font-mono">15km O3 Pro</span>
+                  <span className="block text-[10px] text-slate-400">Agriculture</span>
+                  <span className="text-xs font-bold text-sky-400 font-mono">XAG · BROUAV</span>
                 </div>
               </div>
 
               <div className="mt-4 flex items-center justify-between text-[11px] text-slate-400 pt-2 border-t border-slate-800/60">
                 <span>Free Insured Courier Australia-Wide</span>
-                <span className="text-amber-400 font-medium">In Stock for Immediate Dispatch</span>
+                <span className="text-amber-400 font-medium">Australian Stock</span>
               </div>
             </div>
           </div>

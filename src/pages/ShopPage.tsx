@@ -93,10 +93,10 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
             <div>
               <h1 className="text-3xl sm:text-4xl font-black text-white font-display tracking-tight">
-                Camera Drones & Aerial Imaging Systems
+                Drones & Aerial Systems
               </h1>
               <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-2xl leading-relaxed">
-                Browse Australia’s premier selection of DJI drones, cinema UAV platforms, full-frame DSLR gimbal payloads, and precision optics.
+                Browse DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, and batteries and accessories.
               </p>
             </div>
 
@@ -188,7 +188,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
           {/* Search, Badges & Sorting */}
           <div className="grid grid-cols-1 sm:grid-cols-12 gap-3 items-center">
             {/* Search Input */}
-            <div className="sm:col-span-6 relative">
+            <div className="sm:col-span-8 relative">
               <Search className="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
               <input
                 type="text"
@@ -208,24 +208,8 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
               )}
             </div>
 
-            {/* Badge Filter */}
-            <div className="sm:col-span-3">
-              <select
-                value={selectedBadge}
-                onChange={(e) => setSelectedBadge(e.target.value)}
-                className="w-full bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-2 text-xs text-slate-300 focus:outline-hidden focus:border-amber-400"
-              >
-                <option value="all">All Product Badges</option>
-                <option value="Sale">Sale Discounts</option>
-                <option value="Popular">Most Popular</option>
-                <option value="Best Value">Best Value</option>
-                <option value="Premium">Cinema Premium</option>
-                <option value="New">New Release</option>
-              </select>
-            </div>
-
             {/* Sort Order */}
-            <div className="sm:col-span-3">
+            <div className="sm:col-span-4">
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value as any)}

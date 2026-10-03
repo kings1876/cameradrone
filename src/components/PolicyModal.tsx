@@ -31,7 +31,7 @@ export const PolicyModal: React.FC<PolicyModalProps> = ({ policy, onClose }) => 
             <h2 className="text-2xl font-bold text-white font-display">Australia Nationwide Shipping Policy</h2>
             <div className="space-y-3 text-xs text-slate-300 leading-relaxed font-normal">
               <p>
-                <strong>1. 100% Free Nationwide Express Delivery:</strong> All camera drones, cinema payloads, and accessories sold on Camera Drone Sales Australia qualify for complimentary Express Courier delivery to every Australian address.
+                <strong>1. 100% Free Nationwide Express Delivery:</strong> All drones and accessories sold on Camera Drone Sales Australia qualify for complimentary Express Courier delivery to every Australian address.
               </p>
               <p>
                 <strong>2. Coverage States & Territories:</strong> We ship daily to New South Wales (NSW), Victoria (VIC), Queensland (QLD), Western Australia (WA), South Australia (SA), Tasmania (TAS), Australian Capital Territory (ACT), and Northern Territory (NT).

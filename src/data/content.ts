@@ -1,165 +1,61 @@
-import { Review, BlogPost, FAQItem } from '../types';
-
-export const TRUSTPILOT_STATS = {
-  rating: 4.9,
-  maxRating: 5.0,
-  totalReviews: 2480,
-  satisfactionRate: '99.4%',
-  statusText: 'Excellent · Verified Australian Trustpilot Rating'
-};
-
-export const REVIEWS: Review[] = [
-  {
-    id: 'rev-1',
-    author: 'Lachlan Campbell',
-    location: 'Sydney, New South Wales',
-    rating: 5,
-    date: '18 September 2026',
-    droneModel: 'DJI Mavic 3 Pro Cine Flagship',
-    title: 'Flawless gear and immediate 10% crypto discount checkout!',
-    text: 'Ordered the Mavic 3 Pro Cine for our Sydney Harbour commercial documentary shoot. Selected the crypto payment option at checkout, paid in USDT with the 10% discount applied automatically, and received courier tracking within 2 hours. The package arrived in Bondi in pristine condition with Australian warranty paperwork.',
-    useCase: 'Cinema & Television',
-    verifiedPurchase: true
-  },
-  {
-    id: 'rev-2',
-    author: 'Dr. Marcus Vance',
-    location: 'Perth, Western Australia',
-    rating: 5,
-    date: '04 August 2026',
-    droneModel: 'DJI Matrice 350 RTK Enterprise UAV',
-    title: 'Surpasses every enterprise supplier in Australia for speed and technical support.',
-    text: 'We deploy UAVs for mining pit surveys across the Pilbara. Other Australian suppliers had 6-8 week lead times, but Camera Drone Sales Australia dispatched our Matrice 350 RTK same-day from warehouse stock. Firmware pre-updated and flight logs clean. Unmatched reliability.',
-    useCase: 'Surveying & Mining',
-    verifiedPurchase: true
-  },
-  {
-    id: 'rev-3',
-    author: 'Chloe Sutherland',
-    location: 'Byron Bay, New South Wales',
-    rating: 5,
-    date: '29 July 2026',
-    droneModel: 'DJI Mini 4 Pro Fly More Combo',
-    title: 'Perfect sub-249g travel companion for surf cinema',
-    text: 'The true vertical 4K mode on the Mini 4 Pro is incredible for social reels over the surf point. Being under 249 grams means no CASA operator registration hassle while traveling. The ND filter set makes midday Australian ocean glare completely disappear. 10/10 service!',
-    useCase: 'Landscape & Surf',
-    verifiedPurchase: true
-  },
-  {
-    id: 'rev-4',
-    author: 'Mitchell Rowe',
-    location: 'Melbourne, Victoria',
-    rating: 5,
-    date: '12 July 2026',
-    droneModel: 'Sony Alpha 7R V DSLR / Mirrorless UAV Rig',
-    title: 'Best price in Australia for full-frame 61MP aerial camera payloads',
-    text: 'I compared dslr camera prices in Australia across every camera shop and d1store competitor. Camera Drone Sales Australia had the most solid combo rig with balanced gimbal mounting already calibrated for our heavy-lift octocopter. The 8K footage is razor-sharp.',
-    useCase: 'Commercial Real Estate',
-    verifiedPurchase: true
-  },
-  {
-    id: 'rev-5',
-    author: 'Liam Fitzgerald',
-    location: 'Gold Coast, Queensland',
-    rating: 5,
-    date: '22 June 2026',
-    droneModel: 'DJI Avata 2 FPV Explorer Combo',
-    title: 'Insane flight sensation and ultra-smooth 4K footage',
-    text: 'The Goggles 3 micro-OLED screens make you feel like you are actually sitting inside the cockpit. Flying through tight rainforested valleys in the Gold Coast hinterland with rock-solid O4 transmission. Express delivery to QLD was completely free!',
-    useCase: 'Recreational Flight',
-    verifiedPurchase: true
-  },
-  {
-    id: 'rev-6',
-    author: 'Sophie Zhang',
-    location: 'Brisbane, Queensland',
-    rating: 5,
-    date: '03 June 2026',
-    droneModel: 'GoPro HERO13 Black Aerial Flight Pack',
-    title: 'Top-tier customer support and authentic Australian stock',
-    text: 'Purchased for mounting onto our custom FPV quad for action sports tracking. Arrived double-boxed with genuine Australian serial numbers and warranty registration. Great communication via the live chat when confirming battery transport guidelines.',
-    useCase: 'Cinema & Television',
-    verifiedPurchase: true
-  },
-  {
-    id: 'rev-7',
-    author: 'Harrison Bell',
-    location: 'Hobart, Tasmania',
-    rating: 5,
-    date: '15 May 2026',
-    droneModel: 'Autel EVO II Pro V3 6K Rugged Bundle',
-    title: 'No software geofencing makes all the difference in remote Tasmania',
-    text: 'Having zero forced geofencing unlock hoops when operating on remote coastal research contracts in southwest Tasmania is essential. The 6K 1-inch sensor captures incredible dynamic range in overcast weather. Outstanding retailer.',
-    useCase: 'Landscape & Surf',
-    verifiedPurchase: true
-  },
-  {
-    id: 'rev-8',
-    author: 'Darren O’Connor',
-    location: 'Adelaide, South Australia',
-    rating: 5,
-    date: '28 April 2026',
-    droneModel: 'DJI Inspire 3 Cinema UAV',
-    title: 'The gold standard for Australian film crews. White-glove delivery.',
-    text: 'Investing in the Inspire 3 was a major decision for our production studio. The team provided comprehensive technical pre-shipment checks, verified RTK satellite lock, and arranged tracked high-value security transit. Outstanding experience.',
-    useCase: 'Cinema & Television',
-    verifiedPurchase: true
-  }
-];
+import { BlogPost, FAQItem } from '../types';
 
 export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-1',
     slug: 'best-drone-for-sale-australia-2026-buyers-guide',
-    title: '2026 Australian Guide: Finding the Best Drone for Sale',
-    subtitle: 'From sub-249g travel quads to 8K cinema workhorses: comparing flight time, sensor sizes, and CASA laws.',
+    title: '2026 Australian Guide: Finding the Best DJI Drone for Sale',
+    subtitle: 'From sub-249g travel drones to professional cinema platforms: how to choose between DJI Mini, Air, Mavic 3 Pro and Inspire 3.',
     date: 'September 2026',
-    readTime: '6 min read',
+    readTime: '5 min read',
     author: 'Flight Operations Team',
     tags: ['Drone Sales', 'DJI Drones For Sale', 'CASA Regulations'],
-    excerpt: 'Searching for the best drone for sale in Australia? Whether you need a compact folding UAV for coastal surf photography or an 8K full-frame cinema flagship, here is everything you need to know about pricing, specs, and airspace safety.',
+    excerpt: 'Searching for the best DJI drone for sale in Australia? Here is how the Mini, Air, Mavic 3 Pro and Inspire 3 families differ, and what to check before you buy.',
     content: [
-      'The Australian drone market has advanced rapidly into 2026. Drone sales across Melbourne, Sydney, and Brisbane reflect a surging demand for both ultralight travel drones and heavy-lift cinema payloads.',
-      'If you are seeking drones on sale for recreational travel, sub-250g models like the DJI Mini 4 Pro remain the benchmark. Under Australia’s Civil Aviation Safety Authority (CASA) regulations, recreational drones under 249g do not require formal operator accreditation, though standard operating conditions (120m altitude limit, visual line-of-sight, and keeping 30m away from non-consenting individuals) always apply.',
-      'For film professionals, DJI drones for sale such as the Mavic 3 Pro Cine and Inspire 3 provide Apple ProRes 422 HQ recording, dual-operator master controls, and dynamic optical focal lengths ranging from 24mm to 166mm.',
-      'Before buying, consider: battery flight endurance, obstacle avoidance reliability in high Australian winds, and whether your workflow benefits from full-frame DSLR camera integration on multi-rotor platforms.'
+      'DJI’s consumer and prosumer range covers a wide spread of budgets and uses. Choosing the right model comes down to how and where you will fly, what you will shoot, and how much you want to carry.',
+      'The DJI Mini 4 Pro is the compact choice. Under 249 grams, it falls under the CASA exemption for recreational operators below 250g, though standard operating conditions (120m altitude limit, visual line-of-sight, and keeping 30m away from other people) always apply. It is available on its own, with the RC 2 screen controller, or in Fly More Combo packages with extra batteries.',
+      'The DJI Air 3 steps up to a larger foldable airframe and is offered as a standalone drone, a Fly More Combo, or a Fly More Combo with the RC 2 controller. It suits creators who want more capability than a Mini while staying portable.',
+      'For professional photo and video work, the DJI Mavic 3 Pro is the flagship in our DJI range, available standalone or as a Fly More Combo with either the DJI RC or the DJI RC Pro controller. At the top end, the DJI Inspire 3 is a dedicated cinema platform for film and broadcast crews.',
+      'Before buying, consider battery needs, controller preference, how portable the kit needs to be, and whether your flying is recreational or commercial. If you are unsure which package suits you, contact us and we will help you choose.'
     ],
-    targetKeywords: ['drone for sale', 'drone sales', 'drones on sale', 'dji drones for sale', 'dji drone for sale', 'camera drone sale']
+    targetKeywords: ['drone for sale', 'drone sales', 'dji drones for sale', 'dji drone for sale', 'dji mini 4 pro', 'dji mavic 3 pro']
   },
   {
     id: 'post-2',
-    slug: 'dslr-vs-dedicated-uav-camera-aerial-cinematography',
-    title: 'DSLR for Sale vs. Dedicated UAV Gimbal Cameras in 2026',
-    subtitle: 'Breaking down full-frame sensor dynamics, mirrorless optics, and gimbal payloads for Australian filmmakers.',
+    slug: 'enterprise-drones-matrice-mavic-3-enterprise-guide',
+    title: 'Enterprise Drones in Australia: Matrice, Mavic 3 Enterprise and Phantom 4',
+    subtitle: 'Choosing an enterprise drone for inspection, mapping, surveying and thermal work.',
     date: 'August 2026',
     readTime: '5 min read',
-    author: 'Optical Engineering Specialist',
-    tags: ['DSLR For Sale', 'Digital SLR Sale', 'Cameras On Sale'],
-    excerpt: 'Comparing traditional full-frame mirrorless digital SLR cameras mounted to aerial gimbals versus integrated drone camera sensors like the Hasselblad 4/3 CMOS.',
+    author: 'Enterprise Systems Specialist',
+    tags: ['Enterprise Drones', 'Thermal Drones', 'Surveying'],
+    excerpt: 'A practical overview of the DJI Matrice, Mavic 3 Enterprise and Phantom 4 lines and the kinds of work each is typically chosen for.',
     content: [
-      'Many cinematographers browse digital slr sales seeking maximum dynamic range and lens versatility. But how does an airborne DSLR camera compare to purpose-built UAV cameras?',
-      'High-resolution cameras like the Sony Alpha 7R V (61MP) provide incomparable detail for photogrammetry and large-scale print photography. When examining dslr camera prices in Australia, integrating a mirrorless body with a 3-axis UAV gimbal provides lens interchangeability from ultra-wide 16mm primes to 85mm portrait lenses.',
-      'However, integrated camera drones like the DJI Mavic 3 Pro Cine offer tighter aerodynamic flight performance, superior battery efficiency (40+ minutes vs 18 minutes on heavy lifters), and integrated flight telemetry directly recorded into the video metadata.',
-      'For pure cinema projects where lens character and anamorphic flares are paramount, SLR cameras for sale configured with lightweight carbon rigs remain the top pick on Australian commercial sets.'
+      'Enterprise drones are built for repeatable, data-driven work rather than casual flying: asset inspection, mapping, surveying, public safety and agriculture.',
+      'The DJI Matrice range, including the Matrice 30, Matrice 30T, Matrice 4 Enterprise and Matrice 4 Thermal, is aimed at inspection, public safety and industrial operators. Thermal variants add a thermal imaging payload for tasks such as infrastructure inspection and search operations.',
+      'The DJI Mavic 3 Enterprise and Mavic 3 Thermal offer a more compact, portable enterprise platform. The Mavic 3 Multispectral is aimed at crop monitoring and agronomy work.',
+      'The DJI Phantom 4 line, including the Phantom 4 Pro RTK SE and the Phantom 4 Multispectral, remains a common choice for surveying and precision agriculture workflows.',
+      'Stock and lead times can change quickly on enterprise models. Contact us to confirm availability, discuss accessories such as spare batteries, and talk through the best fit for your operation. Commercial operators should also confirm their CASA obligations before flying.'
     ],
-    targetKeywords: ['dslr for sale', 'digital slr sale', 'slr cameras for sale', 'dslr camera price in australia', 'cameras on sale', 'video cameras for sale']
+    targetKeywords: ['enterprise drones', 'dji matrice', 'thermal drone', 'dji mavic 3 enterprise', 'surveying drone']
   },
   {
     id: 'post-3',
-    slug: 'action-cams-gopro-on-sale-fpv-chase-drones',
-    title: 'Action Cams in Flight: GoPro for Sale & High-Speed FPV Chases',
-    subtitle: 'How the latest 5.3K action cameras and micro UAVs are transforming action sports and real estate walkthroughs.',
+    slug: 'agricultural-spraying-drones-australia-guide',
+    title: 'Agricultural Spraying Drones in Australia: What to Know Before You Buy',
+    subtitle: 'An introduction to spraying drones and multispectral crop monitoring for Australian farms.',
     date: 'July 2026',
     readTime: '4 min read',
-    author: 'FPV Operations Lead',
-    tags: ['GoPro On Sale', 'UAV Camera', 'Action Video'],
-    excerpt: 'Why creators hunting for GoPro on sale frequently mount action cams to high-velocity FPV quadcopters for cinematic one-take flythroughs.',
+    author: 'Agriculture Systems Lead',
+    tags: ['Spraying Drones', 'Agriculture', 'Multispectral'],
+    excerpt: 'Spraying drones are changing how Australian growers cover paddocks and orchards. Here is what to consider when choosing a system.',
     content: [
-      'FPV (First Person View) cinematography has redefined automotive commercials, luxury estate showcases, and coastal sports reels across Australia.',
-      'A rugged UAV camera for sale like the GoPro HERO13 Black weighs only 154 grams while outputting 5.3K 60fps with in-camera horizon leveling and GP-Log color. Mounted on agile platforms like the DJI Avata 2, pilots can squeeze through 1-meter gaps, skim ocean breaks, and transition indoors seamlessly.',
-      'When flying FPV in Australia, CASA rules require an observant visual spotter standing beside the pilot when wearing video goggles to maintain general situational awareness of surrounding airspace.'
+      'Agricultural spraying drones allow growers to apply products to crops quickly and accurately, including on terrain that is difficult to cover with ground machinery.',
+      'Our range includes spraying systems from XAG and BROUAV, with accessories such as DJI Agras batteries, chargers and spreading systems. Larger tank capacity generally means fewer refills but a larger investment, so match the system to the size of your operation.',
+      'Multispectral drones, such as the DJI Mavic 3 Multispectral and Phantom 4 Multispectral, support crop health monitoring and variable-rate planning by capturing data that is not visible to the naked eye.',
+      'Aerial application is regulated. Before buying or operating a spraying drone, check the CASA requirements and the chemical application rules that apply in your state or territory. Contact us to discuss the right system for your operation.'
     ],
-    targetKeywords: ['gopro on sale', 'gopro for sale', 'uav camera for sale', 'video cameras for sale', 'camcorders for sale']
+    targetKeywords: ['spraying drone', 'agricultural drone', 'xag spraying drone', 'multispectral drone', 'agras']
   }
 ];
 
@@ -192,13 +88,13 @@ export const FAQ_LIST: FAQItem[] = [
     id: 'faq-5',
     category: 'Warranty & Returns',
     question: 'Are all camera drones genuine Australian stock with local warranty?',
-    answer: 'Yes! Every drone, camera, and optical accessory sold through our store is 100% genuine Australian stock backed by manufacturer warranties and full Australian Consumer Law (ACL) consumer guarantees. You have direct access to local repair centres, local firmware support, and our Australian technician hotline.'
+    answer: 'Yes! Every drone and accessory sold through our store is genuine Australian stock backed by manufacturer warranties and full Australian Consumer Law (ACL) consumer guarantees. You have direct access to local repair centres, local firmware support, and our Australian technician hotline.'
   },
   {
     id: 'faq-6',
     category: 'Hardware & Selection',
-    question: 'Which is better for video: DJI Mavic 3 Pro Cine or a full-frame DSLR drone rig?',
-    answer: 'For 90% of commercial videographers and content creators, the DJI Mavic 3 Pro Cine is the ideal choice due to its 43-minute flight time, built-in triple optical Hasselblad lenses, and Apple ProRes workflow in a 958g foldable frame. For high-end feature film cinema or 60MP+ photogrammetry requiring specific cinema prime lenses or medium-format sensors, a heavy-lift rig with a Sony Alpha 7R V or Phase One payload is recommended.'
+    question: 'Which DJI drone should I choose: Mini 4 Pro, Air 3 or Mavic 3 Pro?',
+    answer: 'The DJI Mini 4 Pro is the most portable option and weighs under 249g. The DJI Air 3 is a larger foldable drone for creators who want more capability. The DJI Mavic 3 Pro is our flagship consumer model for professional photo and video work. For commercial inspection, mapping or agriculture, see our Enterprise & Thermal and Agricultural Spraying categories, or contact us and we will recommend a setup for your needs.'
   }
 ];
 
@@ -206,26 +102,6 @@ export const BRAND_MILESTONES = [
   {
     year: '17 May 2018',
     title: 'Founded in Australia',
-    description: 'Established by Australian aerial cinematography engineers to provide genuine high-performance camera drones and optics across the country.'
-  },
-  {
-    year: '2020',
-    title: 'Nationwide Distribution Hubs',
-    description: 'Expanded specialized climate-controlled fulfillment depots to ensure 24-48 hour delivery to Sydney, Melbourne, Brisbane, and Perth.'
-  },
-  {
-    year: '2022',
-    title: 'Pioneered Direct Crypto Checkout',
-    description: 'Introduced direct Bitcoin and multi-chain crypto settlements with a permanent 10% discount incentive for Australian tech creators.'
-  },
-  {
-    year: '2024',
-    title: '2,400+ Verified Trustpilot Reviews',
-    description: 'Recognized as Australia’s top-rated independent aerial imaging destination with a 4.9/5 star satisfaction score from certified pilots.'
-  },
-  {
-    year: '2026',
-    title: 'Next-Gen 8K & Commercial UAV Specialist',
-    description: 'Official specialist distributor for flagship 8K ProRes RAW cinema platforms, AI obstacle avoidance systems, and full-frame payloads.'
+    description: 'Camera Drone Sales Australia was established to supply genuine camera drones and accessories across the country.'
   }
 ];

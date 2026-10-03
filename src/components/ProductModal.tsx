@@ -121,7 +121,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
               {/* Specifications Table */}
               <div className="space-y-2 pt-2">
                 <h4 className="text-xs font-bold text-slate-200 uppercase tracking-wider">
-                  Technical Flight & Optical Specifications
+                  Technical Specifications
                 </h4>
                 <dl className="text-xs divide-y divide-slate-800/80 border border-slate-800 rounded-lg overflow-hidden bg-slate-950/40">
                   {product.specifications.sensor && (

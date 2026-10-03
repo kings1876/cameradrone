@@ -51,7 +51,7 @@ export const ContactSection: React.FC = () => {
                 Connect with Our Flight Specialists
               </h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">
-                Whether you need advice choosing between 8K cinema drones, assistance with CASA commercial classifications, or guidance on crypto checkout settlements, our Australian flight technicians are standing by.
+                Whether you need advice choosing between camera, enterprise and agricultural drones, assistance with CASA commercial classifications, or guidance on crypto checkout settlements, our Australian flight technicians are standing by.
               </p>
             </div>
 
@@ -185,7 +185,7 @@ export const ContactSection: React.FC = () => {
                       rows={4}
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
-                      placeholder="Describe your requirements, preferred payload, or flight location..."
+                      placeholder="Describe your requirements, preferred model, or flight location..."
                       className="w-full bg-slate-900 border border-slate-700 rounded-lg p-3 text-xs text-white placeholder-slate-500 focus:outline-hidden focus:border-amber-400"
                     />
                   </div>

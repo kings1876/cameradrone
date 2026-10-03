@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShieldCheck, Truck, Zap, Award, Compass, MapPin, CheckCircle } from 'lucide-react';
-import { BRAND_MILESTONES, TRUSTPILOT_STATS } from '../data/content';
+import { BRAND_MILESTONES } from '../data/content';
 
 export const AboutSection: React.FC = () => {
   return (
@@ -16,15 +16,15 @@ export const AboutSection: React.FC = () => {
             </div>
 
             <h2 className="text-3xl sm:text-4xl font-black text-white font-display tracking-tight leading-tight">
-              Pioneering High-Altitude Cinematography & UAV Systems in Australia
+              Camera, Enterprise & Agricultural Drones for Australia
             </h2>
 
             <div className="space-y-4 text-sm sm:text-base text-slate-300 font-normal leading-relaxed">
               <p>
-                Founded on <strong>17 May 2018 in Australia</strong>, Camera Drone Sales Australia was established by a team of aerial optics specialists and commercial UAV operators who demanded better hardware accessibility, uncompromised Australian warranty backing, and faster dispatch times.
+                Founded on <strong>17 May 2018 in Australia</strong>, Camera Drone Sales Australia supplies genuine drones and accessories to Australian creators, surveyors and farmers.
               </p>
               <p>
-                Unlike generic online electronics resellers or overseas drop-shippers, every flight system in our catalog—from compact travel drones like the DJI Mini 4 Pro to heavy-lift 8K cinema platforms like the DJI Inspire 3 and full-frame DSLR gimbal rigs—is <strong>100% genuine Australian stock</strong> supported by local consumer guarantees and CASA safety compliance.
+                Our catalog runs from compact travel drones like the DJI Mini 4 Pro and professional platforms like the DJI Mavic 3 Pro and Inspire 3, to DJI Matrice enterprise and thermal drones, XAG and BROUAV agricultural spraying drones, and batteries and accessories. Every item is <strong>genuine Australian stock</strong> supported by local consumer guarantees.
               </p>
               <p>
                 We distribute nationwide across New South Wales, Victoria, Queensland, Western Australia, South Australia, Tasmania, ACT, and the Northern Territory, backed by express courier logistics and a streamlined order form supporting modern cryptocurrency payments with a permanent 10% discount.
@@ -93,15 +93,6 @@ export const AboutSection: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="p-3 bg-slate-950/60 rounded-lg border border-slate-800">
-                  <div className="flex justify-between font-bold text-white mb-1">
-                    <span>Customer Trust Record</span>
-                    <span className="text-white font-mono">4.9 / 5.0 Rating</span>
-                  </div>
-                  <p className="text-slate-400 text-[11px]">
-                    Over 2,480+ verified Australian customer reviews on Trustpilot from commercial real estate, mining, and film creators.
-                  </p>
-                </div>
               </div>
 
               <div className="pt-2 text-[11px] text-slate-400 flex items-center gap-1.5">
@@ -119,7 +110,7 @@ export const AboutSection: React.FC = () => {
             <h3 className="text-2xl font-bold text-white font-display mt-1">Our Journey Since 2018</h3>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {BRAND_MILESTONES.map((milestone, idx) => (
               <div key={idx} className="p-4 bg-slate-900/60 rounded-xl border border-slate-800 space-y-2">
                 <span className="text-xs font-bold text-amber-400 font-mono block">{milestone.year}</span>

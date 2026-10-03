@@ -31,7 +31,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
       <div className="py-24 max-w-4xl mx-auto px-4 text-center space-y-4">
         <h1 className="text-2xl font-bold text-white font-display">Product Not Found</h1>
         <p className="text-sm text-slate-400">
-          The requested drone or payload model may have been updated or moved.
+          The requested drone or accessory may have been updated or moved.
         </p>
         <Link
           to="/shop"

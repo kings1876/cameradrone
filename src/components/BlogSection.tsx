@@ -13,15 +13,15 @@ export const BlogSection: React.FC = () => {
         <div className="max-w-3xl mb-12">
           {/* Zero-pill clean unboxed metadata */}
           <div className="flex items-center gap-2 text-xs text-amber-400 font-semibold uppercase tracking-wider mb-2">
-            <span>Flight & Optical Intel</span>
+            <span>Drone Buying Guides</span>
             <span aria-hidden="true">·</span>
-            <span>Australian Aerial Cinema</span>
+            <span>Australian Drone Market</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight font-display">
             Drone Insights & Equipment Guides
           </h2>
           <p className="text-sm sm:text-base text-slate-400 mt-2">
-            Authoritative buying guides, CASA regulatory updates, and optical comparisons to help you choose the best drone for sale in Australia.
+            Authoritative buying guides, and CASA regulatory updates to help you choose the right drone in Australia.
           </p>
         </div>
 

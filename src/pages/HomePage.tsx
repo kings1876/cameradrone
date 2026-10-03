@@ -14,7 +14,7 @@ import {
   Video
 } from 'lucide-react';
 import { PRODUCTS, CATEGORIES } from '../data/products';
-import { REVIEWS, BLOG_POSTS, TRUSTPILOT_STATS } from '../data/content';
+import { BLOG_POSTS } from '../data/content';
 import { ProductCard } from '../components/ProductCard';
 import { Hero } from '../components/Hero';
 import { Product } from '../types';
@@ -29,7 +29,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
-    document.title = 'Camera Drone Sales Australia | Premier DJI & Cinema UAVs';
+    document.title = 'Camera Drone Sales Australia | DJI, Enterprise & Agricultural Drones';
   }, []);
 
   // Featured 6 products for homepage showcase
@@ -151,7 +151,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
               Featured Camera Drones on Sale
             </h2>
             <p className="text-xs sm:text-sm text-slate-400 mt-1">
-              Top-performing platforms selected for Australian broadcast cinema, surveying, and travel creators.
+              A selection of popular camera, enterprise and agricultural drones from our Australian stock.
             </p>
           </div>
 
@@ -181,7 +181,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
         <div className="p-6 bg-gradient-to-r from-slate-900 via-[#101b30] to-slate-900 rounded-2xl border border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
           <div className="space-y-1 text-center sm:text-left">
             <h3 className="text-lg font-bold text-white font-display">
-              Looking for Specialized Payloads, Lenses or Enterprise UAVs?
+              Looking for Enterprise, Thermal or Spraying Drones?
             </h3>
             <p className="text-xs text-slate-400 max-w-xl">
               Visit our dedicated <strong>Shop Catalog</strong> to filter by category hierarchy, search specific models, or check stock availability.
@@ -201,10 +201,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <div className="text-center max-w-3xl mx-auto space-y-2">
             <span className="text-xs text-amber-400 font-semibold uppercase tracking-wider">
-              Australian Airspace Excellence Since 2018
+              Supplying Australian Pilots Since 2018
             </span>
             <h2 className="text-2xl sm:text-4xl font-black text-white font-display">
-              Why Australian Cinematographers Rely on Us
+              Why Australian Pilots Choose Us
             </h2>
             <p className="text-xs sm:text-sm text-slate-400">
               Founded on 17 May 2018 in Australia, we eliminate the risks of gray-market imports and delayed international shipping.
@@ -247,62 +247,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
         </div>
       </section>
 
-      {/* 5. Trustpilot Reviews Highlight */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
-          <div>
-            <div className="flex items-center gap-1 text-amber-400 text-xs mb-1">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-3.5 h-3.5 fill-amber-400" />
-              ))}
-              <span className="text-white font-bold ml-1">4.9 / 5.0 Rating</span>
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-black text-white font-display">
-              Trusted by 2,480+ Australian Pilots
-            </h2>
-            <p className="text-xs text-slate-400 mt-0.5">
-              Verified Trustpilot feedback from professional operators across Sydney, Melbourne, Perth, and Brisbane.
-            </p>
-          </div>
-
-          <Link
-            to="/about"
-            className="text-xs text-amber-400 hover:underline font-semibold"
-          >
-            Read Our Story & Full Reviews →
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {REVIEWS.slice(0, 3).map(rev => (
-            <div
-              key={rev.id}
-              className="p-5 bg-[#0f172a] rounded-xl border border-slate-800 space-y-3 flex flex-col justify-between"
-            >
-              <div className="space-y-2">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center text-amber-400 gap-0.5">
-                    {[...Array(rev.rating)].map((_, i) => (
-                      <Star key={i} className="w-3 h-3 fill-amber-400 text-amber-400" />
-                    ))}
-                  </div>
-                  <span className="text-[10px] text-emerald-400 font-mono">Verified AU Order</span>
-                </div>
-                <h4 className="text-xs font-bold text-white leading-snug">"{rev.title}"</h4>
-                <p className="text-xs text-slate-300 leading-relaxed line-clamp-3">
-                  {rev.text}
-                </p>
-              </div>
-
-              <div className="pt-3 border-t border-slate-800 text-[11px] text-slate-400">
-                <p className="font-bold text-white">{rev.author}</p>
-                <p className="text-[10px] text-amber-400/90 truncate">{rev.location} · {rev.droneModel}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* 6. Editorial Flight Intel Teaser */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <div className="p-8 bg-[#0f172a] border border-slate-800 rounded-2xl space-y-6">
@@ -312,7 +256,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
                 Flight Operations Knowledge
               </span>
               <h2 className="text-xl sm:text-2xl font-bold text-white font-display">
-                Latest Australian Drone & Optics Guides
+                Latest Australian Drone Guides
               </h2>
             </div>
             <Link
