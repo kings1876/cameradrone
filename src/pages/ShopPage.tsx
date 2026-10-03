@@ -116,113 +116,90 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
         </div>
 
         {/* Shop by Category */}
-        <section aria-labelledby="shop-by-category" className="space-y-4">
-          <h2 id="shop-by-category" className="text-sm font-bold text-slate-400 uppercase tracking-wider">
-            Shop by Category
+        <div className="grid grid-cols-1 lg:grid-cols-[260px_minmax(0,1fr)] gap-6 lg:gap-8 items-start">
+        {/* Left sidebar widget: categories */}
+        <aside
+          aria-labelledby="shop-by-category"
+          className="bg-[#0f172a] border border-slate-800 rounded-2xl p-4 shadow-xl lg:sticky lg:top-24"
+        >
+          <h2 id="shop-by-category" className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3 px-1">
+            Categories
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <ul className="space-y-1">
+            <li>
+              <button
+                type="button"
+                aria-pressed={selectedCategory === 'all'}
+                onClick={() => handleCategorySelect('all')}
+                className={`w-full flex items-center justify-between gap-2 px-3 py-2 rounded-lg text-sm text-left transition-colors ${
+                  selectedCategory === 'all'
+                    ? 'bg-amber-500 text-slate-950 font-bold'
+                    : 'text-slate-300 hover:bg-slate-900 hover:text-white'
+                }`}
+              >
+                <span>All Equipment</span>
+                <span className="text-[11px] font-mono opacity-80">{PRODUCTS.length}</span>
+              </button>
+            </li>
             {CATEGORIES.map(cat => {
               const count = PRODUCTS.filter(p => p.category === cat.id).length;
               const isActive = selectedCategory === cat.id;
               return (
-                <button
-                  key={cat.id}
-                  type="button"
-                  aria-pressed={isActive}
-                  onClick={() => handleCategorySelect(isActive ? 'all' : cat.id)}
-                  className={`text-left p-5 rounded-2xl border transition-colors flex flex-col gap-3 h-full ${
-                    isActive
-                      ? 'bg-amber-500/10 border-amber-500/60'
-                      : 'bg-[#0f172a] border-slate-800 hover:border-amber-500/40'
-                  }`}
-                >
-                  <div className="flex items-start justify-between gap-3">
-                    <h3 className="text-base font-bold text-white font-display">{cat.name}</h3>
-                    <span className="text-[11px] font-mono text-amber-400 shrink-0">{count} items</span>
-                  </div>
-                  <ul className="space-y-1 text-xs text-slate-400">
-                    {cat.subcategories.map(sub => (
-                      <li key={sub}>• {sub}</li>
-                    ))}
-                  </ul>
-                  <span className="mt-auto inline-flex items-center gap-1 text-xs font-semibold text-amber-400">
-                    {isActive ? 'Showing this category' : 'Browse category'}
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </span>
-                </button>
+                <li key={cat.id}>
+                  <button
+                    type="button"
+                    aria-pressed={isActive}
+                    onClick={() => handleCategorySelect(cat.id)}
+                    className={`w-full flex items-center justify-between gap-2 px-3 py-2 rounded-lg text-sm text-left transition-colors ${
+                      isActive
+                        ? 'bg-amber-500 text-slate-950 font-bold'
+                        : 'text-slate-300 hover:bg-slate-900 hover:text-white'
+                    }`}
+                  >
+                    <span>{cat.name}</span>
+                    <span className="text-[11px] font-mono opacity-80">{count}</span>
+                  </button>
+                  {isActive && (
+                    <ul className="mt-1 mb-2 ml-3 pl-3 border-l border-slate-800 space-y-0.5">
+                      <li>
+                        <button
+                          type="button"
+                          onClick={() => setSelectedSubcategory('all')}
+                          className={`w-full text-left px-2 py-1 text-xs rounded-md transition-colors ${
+                            selectedSubcategory === 'all'
+                              ? 'text-amber-400 font-bold'
+                              : 'text-slate-400 hover:text-white'
+                          }`}
+                        >
+                          All {cat.name}
+                        </button>
+                      </li>
+                      {cat.subcategories.map(sub => (
+                        <li key={sub}>
+                          <button
+                            type="button"
+                            onClick={() => setSelectedSubcategory(sub)}
+                            className={`w-full text-left px-2 py-1 text-xs rounded-md transition-colors ${
+                              selectedSubcategory === sub
+                                ? 'text-amber-400 font-bold'
+                                : 'text-slate-400 hover:text-white'
+                            }`}
+                          >
+                            {sub}
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
               );
             })}
-          </div>
-        </section>
+          </ul>
+        </aside>
 
+        <div className="space-y-8 min-w-0">
         {/* Filters & Control Panel */}
         <div className="space-y-4 bg-[#0f172a] p-4 sm:p-6 rounded-2xl border border-slate-800 shadow-xl">
-          {/* Level 1: Categories */}
-          <div className="flex flex-wrap items-center gap-2 border-b border-slate-800/80 pb-3">
-            <span className="text-xs font-bold text-slate-400 uppercase tracking-wider mr-1">
-              Category:
-            </span>
-            <button
-              type="button"
-              onClick={() => handleCategorySelect('all')}
-              className={`px-3 py-1.5 text-xs font-semibold rounded-lg transition-colors whitespace-nowrap ${
-                selectedCategory === 'all'
-                  ? 'bg-amber-500 text-slate-950 font-bold shadow-sm'
-                  : 'bg-slate-900 text-slate-300 hover:text-white border border-slate-800'
-              }`}
-            >
-              All Equipment ({PRODUCTS.length})
-            </button>
-            {CATEGORIES.map(cat => (
-              <button
-                key={cat.id}
-                type="button"
-                onClick={() => handleCategorySelect(cat.id)}
-                className={`px-3 py-1.5 text-xs font-semibold rounded-lg transition-colors whitespace-nowrap ${
-                  selectedCategory === cat.id
-                    ? 'bg-amber-500 text-slate-950 font-bold shadow-sm'
-                    : 'bg-slate-900 text-slate-300 hover:text-white border border-slate-800'
-                }`}
-              >
-                {cat.name}
-              </button>
-            ))}
-          </div>
-
-          {/* Level 2: Subcategories (if selected) */}
-          {availableSubcategories.length > 0 && (
-            <div className="flex flex-wrap items-center gap-2 p-2.5 bg-slate-950/60 rounded-xl border border-slate-800/80">
-              <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider mr-1">
-                Subcategory:
-              </span>
-              <button
-                type="button"
-                onClick={() => setSelectedSubcategory('all')}
-                className={`px-2.5 py-1 text-xs rounded-md transition-colors ${
-                  selectedSubcategory === 'all'
-                    ? 'bg-slate-800 text-amber-400 font-bold border border-amber-500/40'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-              >
-                All Subcategories
-              </button>
-              {availableSubcategories.map(sub => (
-                <button
-                  key={sub}
-                  type="button"
-                  onClick={() => setSelectedSubcategory(sub)}
-                  className={`px-2.5 py-1 text-xs rounded-md transition-colors ${
-                    selectedSubcategory === sub
-                      ? 'bg-slate-800 text-amber-400 font-bold border border-amber-500/40'
-                      : 'text-slate-400 hover:text-white'
-                  }`}
-                >
-                  {sub}
-                </button>
-              ))}
-            </div>
-          )}
-
           {/* Search, Badges & Sorting */}
           <div className="grid grid-cols-1 sm:grid-cols-12 gap-3 items-center">
             {/* Search Input */}
@@ -321,7 +298,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
             {filteredProducts.map(product => (
               <ProductCard
                 key={product.id}
@@ -333,6 +310,8 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
             ))}
           </div>
         )}
+        </div>
+        </div>
 
         {/* CASA Airspace Quick Reminder */}
         <div className="p-4 bg-amber-500/10 border border-amber-500/20 rounded-xl text-xs text-amber-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
