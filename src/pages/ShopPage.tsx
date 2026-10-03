@@ -159,28 +159,20 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
                     <span>{cat.name}</span>
                     <span className="text-[11px] font-mono opacity-80">{count}</span>
                   </button>
-                  {isActive && (
-                    <ul className="mt-1 mb-2 ml-3 pl-3 border-l border-slate-800 space-y-0.5">
-                      <li>
-                        <button
-                          type="button"
-                          onClick={() => setSelectedSubcategory('all')}
-                          className={`w-full text-left px-2 py-1 text-xs rounded-md transition-colors ${
-                            selectedSubcategory === 'all'
-                              ? 'text-amber-400 font-bold'
-                              : 'text-slate-400 hover:text-white'
-                          }`}
-                        >
-                          All {cat.name}
-                        </button>
-                      </li>
-                      {cat.subcategories.map(sub => (
+                  <ul className="mt-1 mb-2 ml-3 pl-3 border-l border-slate-800 space-y-0.5">
+                    {cat.subcategories.map(sub => {
+                      const subActive = isActive && selectedSubcategory === sub;
+                      return (
                         <li key={sub}>
                           <button
                             type="button"
-                            onClick={() => setSelectedSubcategory(sub)}
+                            aria-pressed={subActive}
+                            onClick={() => {
+                              setSelectedCategory(cat.id);
+                              setSelectedSubcategory(sub);
+                            }}
                             className={`w-full text-left px-2 py-1 text-xs rounded-md transition-colors ${
-                              selectedSubcategory === sub
+                              subActive
                                 ? 'text-amber-400 font-bold'
                                 : 'text-slate-400 hover:text-white'
                             }`}
@@ -188,9 +180,9 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
                             {sub}
                           </button>
                         </li>
-                      ))}
-                    </ul>
-                  )}
+                      );
+                    })}
+                  </ul>
                 </li>
               );
             })}
