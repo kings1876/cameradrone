@@ -37,36 +37,36 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
 
   const categoryHighlights = [
     {
-      title: 'Professional Cinema UAVs',
-      subtitle: '8K ProRes RAW & Hasselblad Systems',
+      title: 'DJI Camera Drones',
+      subtitle: 'DJI Mini, Air, Mavic 3 Pro and Inspire 3',
       path: '/shop',
       category: 'camera-drones',
-      tag: 'Cinema Tier',
+      tag: 'Photo & Video',
       icon: Video
     },
     {
-      title: 'Compact Foldable Travel Drones',
-      subtitle: 'Sub-249g Micro UAVs with 4K HDR',
+      title: 'Enterprise & Thermal Drones',
+      subtitle: 'DJI Matrice, Mavic 3 Enterprise and Phantom 4',
       path: '/shop',
-      category: 'camera-drones',
-      tag: 'CASA Micro Exempt',
+      category: 'enterprise-drones',
+      tag: 'Industrial',
       icon: Compass
     },
     {
-      title: 'DSLR & Mirrorless Aerial Rigs',
-      subtitle: 'Full-Frame 61MP Sensors on 3-Axis Gimbals',
+      title: 'Agricultural Spraying Drones',
+      subtitle: 'XAG and BROUAV spraying systems',
       path: '/shop',
-      category: 'cameras-payloads',
-      tag: 'Cinema Payloads',
-      icon: Camera
+      category: 'spraying-drones',
+      tag: 'Agriculture',
+      icon: Zap
     },
     {
-      title: 'FPV High-Speed Pursuit Drones',
-      subtitle: 'Micro-OLED Goggles 3 & 4K 60fps',
+      title: 'Batteries & Accessories',
+      subtitle: 'Intelligent flight batteries and chargers',
       path: '/shop',
-      category: 'camera-drones',
-      tag: 'Dynamic Chase',
-      icon: Zap
+      category: 'batteries',
+      tag: 'Accessories',
+      icon: Camera
     }
   ];
 

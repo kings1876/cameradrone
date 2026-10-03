@@ -18,19 +18,19 @@ export interface Product {
   slug: string;
   name: string;
   brand: string;
-  category: string; // 'camera-drones' | 'cameras-payloads' | 'accessories-optics'
+  category: string; // matches a CategoryInfo.id in data/products.ts
   categoryName: string;
   subcategory: string;
   price: number;
   originalPrice?: number;
   badge: ProductBadge;
   inStock: boolean;
-  rating: number;
-  reviewsCount: number;
+  rating?: number;
+  reviewsCount?: number;
   shortDescription: string;
   description: string;
   specifications: ProductSpecification;
-  inTheBox: string[];
+  inTheBox?: string[];
   graphicType: 'cinema-drone' | 'foldable-drone' | 'fpv-drone' | 'enterprise-uav' | 'dslr-gimbal' | 'action-cam' | 'controller' | 'battery';
   isFeatured?: boolean;
 }

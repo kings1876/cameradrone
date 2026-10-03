@@ -22,7 +22,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedSubcategory, setSelectedSubcategory] = useState<string>('all');
   const [selectedBadge, setSelectedBadge] = useState<string>('all');
-  const [sortBy, setSortBy] = useState<'featured' | 'price-low' | 'price-high' | 'rating'>('featured');
+  const [sortBy, setSortBy] = useState<'featured' | 'price-low' | 'price-high'>('featured');
 
   const handleCategorySelect = (categoryId: string) => {
     setSelectedCategory(categoryId);
@@ -46,20 +46,13 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
         const inBrand = p.brand.toLowerCase().includes(query);
         const inDesc = p.description.toLowerCase().includes(query);
         const inSubcat = p.subcategory.toLowerCase().includes(query);
-        const inKeywords = (
-          (query.includes('drone') && p.category === 'camera-drones') ||
-          (query.includes('dslr') && (p.category === 'cameras-payloads' || p.name.includes('DSLR'))) ||
-          (query.includes('gopro') && p.name.includes('GoPro')) ||
-          (query.includes('camera') && (p.category === 'cameras-payloads' || p.category === 'camera-drones')) ||
-          (query.includes('dji') && p.brand === 'DJI')
-        );
+        const inKeywords = p.categoryName.toLowerCase().includes(query);
         if (!inName && !inBrand && !inDesc && !inSubcat && !inKeywords) return false;
       }
       return true;
     }).sort((a, b) => {
       if (sortBy === 'price-low') return a.price - b.price;
       if (sortBy === 'price-high') return b.price - a.price;
-      if (sortBy === 'rating') return b.rating - a.rating;
       return (b.isFeatured ? 1 : 0) - (a.isFeatured ? 1 : 0);
     });
   }, [selectedCategory, selectedSubcategory, selectedBadge, searchQuery, sortBy]);
@@ -201,7 +194,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search by keywords: drone, dji, dslr, 8K, gopro, payload..."
+                placeholder="Search by keyword: mavic, matrice, mini, spraying, battery..."
                 className="w-full bg-slate-900 border border-slate-800 rounded-lg pl-9 pr-14 py-2 text-xs text-white placeholder-slate-500 focus:outline-hidden focus:border-amber-400"
               />
               {searchQuery && (
@@ -241,7 +234,6 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
                 <option value="featured">Sort: Featured Systems</option>
                 <option value="price-low">Price: Low to High</option>
                 <option value="price-high">Price: High to Low</option>
-                <option value="rating">Pilot Rating: High to Low</option>
               </select>
             </div>
           </div>

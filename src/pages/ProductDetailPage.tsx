@@ -107,7 +107,6 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               <div>
                 <div className="flex items-center justify-between text-xs text-slate-400 mb-1.5">
                   <span className="font-semibold text-slate-300 uppercase tracking-wider">{product.brand}</span>
-                  <span className="text-amber-400 font-medium">★ {product.rating} ({product.reviewsCount} verified reviews)</span>
                 </div>
                 <h1 className="text-2xl sm:text-3xl font-black text-white font-display leading-tight">
                   {product.name}
@@ -122,7 +121,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                 <div className="flex items-baseline justify-between">
                   <div className="flex items-baseline gap-2.5">
                     <span className="text-2xl sm:text-3xl font-extrabold text-white tabular-nums font-mono">
-                      ${product.price.toLocaleString()} USD
+                      ${product.price.toLocaleString()} AUD
                     </span>
                     {product.originalPrice && (
                       <span className="text-sm text-slate-400 line-through tabular-nums font-mono">
@@ -130,7 +129,11 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                       </span>
                     )}
                   </div>
-                  <span className="text-xs text-emerald-400 font-medium">In Stock (Dispatches in 24h)</span>
+                  {product.inStock ? (
+                    <span className="text-xs text-emerald-400 font-medium">In Stock (Australia)</span>
+                  ) : (
+                    <span className="text-xs text-red-400 font-medium">Currently Out of Stock</span>
+                  )}
                 </div>
 
                 <div className="flex items-center justify-between text-xs pt-2 border-t border-slate-800 text-amber-300">
@@ -149,6 +152,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               </p>
 
               {/* Specifications Table */}
+              {Object.values(product.specifications).some(Boolean) && (
               <div className="space-y-2">
                 <h3 className="text-xs font-bold text-slate-200 uppercase tracking-wider">
                   Technical Specifications
@@ -192,6 +196,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                   )}
                 </dl>
               </div>
+              )}
 
               {/* In The Box */}
               {product.inTheBox && product.inTheBox.length > 0 && (
@@ -217,7 +222,8 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                 <button
                   type="button"
                   onClick={() => onAddToCart(product)}
-                  className="py-3 px-4 text-xs font-bold text-slate-200 bg-slate-800 hover:bg-slate-700 hover:text-white rounded-lg border border-slate-700 transition-colors flex items-center justify-center gap-2 whitespace-nowrap"
+                  disabled={!product.inStock}
+                  className="disabled:opacity-40 disabled:cursor-not-allowed py-3 px-4 text-xs font-bold text-slate-200 bg-slate-800 hover:bg-slate-700 hover:text-white rounded-lg border border-slate-700 transition-colors flex items-center justify-center gap-2 whitespace-nowrap"
                 >
                   <ShoppingBag className="w-4 h-4" />
                   <span>Add to Shopping Bag</span>
@@ -226,7 +232,8 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                 <button
                   type="button"
                   onClick={() => onQuickCheckout(product)}
-                  className="py-3 px-4 text-xs font-bold text-slate-950 bg-amber-500 hover:bg-amber-400 rounded-lg transition-colors flex items-center justify-center gap-2 whitespace-nowrap shadow-md shadow-amber-500/15"
+                  disabled={!product.inStock}
+                  className="disabled:opacity-40 disabled:cursor-not-allowed py-3 px-4 text-xs font-bold text-slate-950 bg-amber-500 hover:bg-amber-400 rounded-lg transition-colors flex items-center justify-center gap-2 whitespace-nowrap shadow-md shadow-amber-500/15"
                 >
                   <Zap className="w-4 h-4 fill-slate-950" />
                   <span>Order Now (Crypto 10% Off)</span>

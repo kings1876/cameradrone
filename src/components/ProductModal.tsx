@@ -78,7 +78,6 @@ export const ProductModal: React.FC<ProductModalProps> = ({
               <div>
                 <div className="flex items-center justify-between text-xs text-slate-400 mb-1">
                   <span>{product.brand} · {product.subcategory}</span>
-                  <span className="text-amber-400 font-medium">★ {product.rating} ({product.reviewsCount} reviews)</span>
                 </div>
                 <h2 className="text-xl sm:text-2xl font-bold text-white font-display leading-tight">
                   {product.name}

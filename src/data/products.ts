@@ -3,480 +3,139 @@ import { Product, CategoryInfo } from '../types';
 export const CATEGORIES: CategoryInfo[] = [
   {
     id: 'camera-drones',
-    name: 'Camera Drones & UAVs',
-    subcategories: [
-      'Professional Cinema Drones',
-      'Compact & Foldable Travel Drones',
-      'FPV & Action Drones',
-      'Commercial Enterprise UAVs'
-    ]
+    name: 'DJI Camera Drones',
+    subcategories: ['DJI Mini & Air', 'DJI Mavic 3', 'DJI Inspire 3']
   },
   {
-    id: 'cameras-payloads',
-    name: 'Cameras & Aerial Payloads',
-    subcategories: [
-      'DSLR & Mirrorless Gimbal Cameras',
-      'Action & 360 Cams',
-      'Aerial Cinema Payloads'
-    ]
+    id: 'enterprise-drones',
+    name: 'Enterprise & Thermal Drones',
+    subcategories: ['DJI Matrice', 'DJI Mavic 3 Enterprise', 'DJI Phantom 4']
   },
   {
-    id: 'accessories-optics',
-    name: 'Accessories & Optics',
-    subcategories: [
-      'ND Filters & Cinema Optics',
-      'Smart Controllers & Transmitters',
-      'Intelligent Flight Batteries'
-    ]
+    id: 'spraying-drones',
+    name: 'Agricultural Spraying Drones',
+    subcategories: ['Spraying Drones', 'Spraying Drone Accessories']
+  },
+  {
+    id: 'batteries',
+    name: 'Batteries & Accessories',
+    subcategories: ['Drone Batteries']
   }
 ];
 
-export const PRODUCTS: Product[] = [
-  {
-    id: 'dji-inspire-3',
-    slug: 'dji-inspire-3-cinema-drone',
-    name: 'DJI Inspire 3 Full-Frame 8K Cinema UAV',
-    brand: 'DJI',
-    category: 'camera-drones',
-    categoryName: 'Camera Drones & UAVs',
-    subcategory: 'Professional Cinema Drones',
-    price: 16499,
-    originalPrice: 17299,
-    badge: 'Premium',
-    inStock: true,
-    rating: 5.0,
-    reviewsCount: 148,
-    shortDescription: 'The pinnacle of aerial cinematography. Full-frame 8K/75fps ProRes RAW with centimeter-level RTK positioning.',
-    description: 'Engineered for high-end film and television productions across Australia. The DJI Inspire 3 delivers full-frame 8K/75fps ProRes RAW and 8K/25fps CinemaDNG video, dual-native ISO, and omnidirectional obstacle sensing. Includes dual-operator control compatibility and centimeter-level RTK waypoint repeatability for precise aerial tracking shots.',
-    specifications: {
-      sensor: '35mm Full-Frame CMOS (Zenmuse X9-8K Air)',
-      videoResolution: '8K/75fps ProRes RAW, 8K/25fps CinemaDNG, 4K/120fps ProRes RAW',
-      photoResolution: '44.7 Megapixels RAW',
-      flightTime: 'Up to 28 minutes (dual hot-swappable TB51 batteries)',
-      maxSpeed: '94 km/h (26 m/s)',
-      transmissionRange: '15 km O3 Pro Video Transmission',
-      weight: '3,995 g',
-      casaCategory: 'Medium (<25kg) CASA ReOC / Operator Accreditation recommended',
-      gimbalStabilization: '3-Axis 360° Pan & 80° Tilt Upward Boost',
-      obstacleAvoidance: 'Omnidirectional visual + millimeter radar wave system'
-    },
-    inTheBox: [
-      'DJI Inspire 3 Aircraft Body',
-      'Zenmuse X9-8K Air Gimbal Camera & Case',
-      'DJI RC Plus Remote Controller with 7" High-Bright Display',
-      '6x TB51 Intelligent Flight Batteries',
-      'TB51 Intelligent Battery Charging Hub',
-      '3x Quick-Release Foldable Propellers (Pair)',
-      'PROSSD 1TB High-Speed Cinema Drive',
-      'Heavy-Duty Rolling Hard Case with Custom Foam'
-    ],
-    graphicType: 'cinema-drone',
-    isFeatured: true
-  },
-  {
-    id: 'dji-mavic-3-pro-cine',
-    slug: 'dji-mavic-3-pro-cine-combo',
-    name: 'DJI Mavic 3 Pro Cine Flagship Triple-Camera Drone',
-    brand: 'DJI',
-    category: 'camera-drones',
-    categoryName: 'Camera Drones & UAVs',
-    subcategory: 'Professional Cinema Drones',
-    price: 4799,
-    originalPrice: 4999,
-    badge: 'Popular',
-    inStock: true,
-    rating: 4.9,
-    reviewsCount: 512,
-    shortDescription: 'World’s first triple optical camera drone. Hasselblad 4/3 CMOS 5.1K with dual telephoto lenses and Apple ProRes encoding.',
-    description: 'Rated Australia’s favourite professional camera drone for landscape photographers and video creators. Features a triple-camera optical system: a Hasselblad 24mm f/2.8-f/11 4/3 CMOS, a 70mm medium telephoto, and a 166mm telephoto camera. All three cameras support Apple ProRes 422 HQ with a built-in 1TB SSD for seamless cinema workflow.',
-    specifications: {
-      sensor: 'Hasselblad 4/3 CMOS + 1/1.3" Medium Tele + 1/2" Tele',
-      videoResolution: '5.1K/50fps, 4K/120fps ProRes 422 HQ / D-Log M',
-      photoResolution: '20 MP Hasselblad RAW + 48 MP Medium Tele + 12 MP Tele',
-      flightTime: 'Up to 43 minutes per charge',
-      maxSpeed: '75.6 km/h (21 m/s)',
-      transmissionRange: '15 km O3+ FHD Video Feed',
-      weight: '958 g',
-      casaCategory: 'Micro / Standard CASA operating rules apply (<2kg)',
-      gimbalStabilization: '3-Axis Mechanical Gimbal (tilt, roll, pan)',
-      obstacleAvoidance: 'Omnidirectional APAS 5.0 with dual vision sensors'
-    },
-    inTheBox: [
-      'DJI Mavic 3 Pro Cine Drone (1TB SSD Built-In)',
-      'DJI RC Pro Remote Controller (1000-Nit 5.5" FHD)',
-      '3x Intelligent Flight Batteries',
-      '100W Desktop Battery Charging Hub',
-      'ND Filter Set (ND8/16/32/64)',
-      '6x Low-Noise Propellers (Pair)',
-      'Storage Cover & Shoulder Leather Bag',
-      '10Gbps High-Speed Lightspeed Data Cable'
-    ],
-    graphicType: 'foldable-drone',
-    isFeatured: true
-  },
-  {
-    id: 'dji-mini-4-pro',
-    slug: 'dji-mini-4-pro-fly-more-combo',
-    name: 'DJI Mini 4 Pro Fly More Combo (Sub-249g)',
-    brand: 'DJI',
-    category: 'camera-drones',
-    categoryName: 'Camera Drones & UAVs',
-    subcategory: 'Compact & Foldable Travel Drones',
-    price: 1099,
-    originalPrice: 1199,
-    badge: 'Best Value',
-    inStock: true,
-    rating: 4.9,
-    reviewsCount: 780,
-    shortDescription: 'Sub-249g ultra-lightweight travel drone. True vertical shooting, 4K/60fps HDR, and omnidirectional active obstacle sensing.',
-    description: 'The premier lightweight camera drone for sale in Australia. Weighing under 249 grams, it falls under the micro RPA category, exempting recreational pilots from mandatory registration under CASA while providing flagship imaging capabilities. Includes 4K/60fps HDR, 4K/100fps slow-motion, true vertical 9:16 rotation for social reels, and D-Log M 10-bit color.',
-    specifications: {
-      sensor: '1/1.3-inch CMOS Sensor with Dual Native ISO Fusion',
-      videoResolution: '4K/60fps HDR, 4K/100fps Slow Motion, FHD 200fps',
-      photoResolution: '48 Megapixels RAW',
-      flightTime: 'Up to 34 minutes (standard battery) / 45 min (Plus)',
-      maxSpeed: '57.6 km/h (16 m/s)',
-      transmissionRange: '20 km O4 FHD Video Transmission',
-      weight: '249 g (Takeoff Weight)',
-      casaCategory: 'Sub-250g Micro UAV (No CASA operator registration required)',
-      gimbalStabilization: '3-Axis Mechanical Gimbal with True 90° Vertical Rotation',
-      obstacleAvoidance: 'Omnidirectional Obstacle Sensing with 3D ToF Sensors'
-    },
-    inTheBox: [
-      'DJI Mini 4 Pro Drone',
-      'DJI RC 2 Remote Controller with Integrated 5.5" Screen',
-      '3x Intelligent Flight Batteries',
-      'Two-Way Charging Hub',
-      'Shoulder Carrying Case',
-      '3x Spare Propeller Pairs & Screws',
-      'Gimbal Protector & Propeller Holder'
-    ],
-    graphicType: 'foldable-drone',
-    isFeatured: true
-  },
-  {
-    id: 'autel-evo-ii-pro-v3',
-    slug: 'autel-evo-ii-pro-v3-rugged-bundle',
-    name: 'Autel EVO II Pro V3 6K Rugged Cinema Bundle',
-    brand: 'Autel Robotics',
-    category: 'camera-drones',
-    categoryName: 'Camera Drones & UAVs',
-    subcategory: 'Compact & Foldable Travel Drones',
-    price: 2199,
-    originalPrice: 2499,
-    badge: 'Sale',
-    inStock: true,
-    rating: 4.8,
-    reviewsCount: 164,
-    shortDescription: '6K 1-inch Sony CMOS sensor with adjustable f/2.8-f/11 aperture and no built-in geofencing restrictions.',
-    description: 'A favourite for Australian commercial operators and independent creators seeking complete freedom from rigid software flight locks. Equipped with a 1-inch Sony 20MP CMOS sensor shooting 6K video at 30fps and 4K at 60fps. Moonlight Algorithm 2.0 provides exceptional low-light clarity during dawn and dusk shoots.',
-    specifications: {
-      sensor: '1-inch Sony CMOS Sensor (Adjustable f/2.8-f/11)',
-      videoResolution: '6K/30fps, 4K/60fps HDR, 2.7K/120fps',
-      photoResolution: '20 Megapixels RAW (DNG)',
-      flightTime: 'Up to 40 minutes per charge',
-      maxSpeed: '72 km/h (20 m/s)',
-      transmissionRange: '15 km SkyLink 2.0 HD Transmission',
-      weight: '1,191 g',
-      casaCategory: 'Standard Sub-2kg Category',
-      gimbalStabilization: '3-Axis Precision Mechanical Gimbal',
-      obstacleAvoidance: '360° Omnidirectional with 19 groups of sensors'
-    },
-    inTheBox: [
-      'Autel EVO II Pro V3 Aircraft',
-      'Autel Smart Controller V3 (7.9" 2000-Nit Ultra-Bright Screen)',
-      '2x Intelligent Flight Batteries',
-      'Military-Grade Rugged Hard Waterproof Case',
-      'Multi-Charger & Car Adapter',
-      'Spare Propellers & Screwdriver'
-    ],
-    graphicType: 'foldable-drone',
-    isFeatured: false
-  },
-  {
-    id: 'dji-avata-2-explorer',
-    slug: 'dji-avata-2-fpv-explorer-combo',
-    name: 'DJI Avata 2 FPV Explorer Cinema Flight Pack',
-    brand: 'DJI',
-    category: 'camera-drones',
-    categoryName: 'Camera Drones & UAVs',
-    subcategory: 'FPV & Action Drones',
-    price: 1279,
-    originalPrice: 1399,
-    badge: 'New',
-    inStock: true,
-    rating: 4.9,
-    reviewsCount: 320,
-    shortDescription: 'Immersive first-person flight with built-in propeller guards, 4K/60fps HDR ultra-wide angle, and DJI Goggles 3.',
-    description: 'Take high-speed dynamic tracking shots across Australia’s surf breaks, racetracks, and interior architecture. The Avata 2 features integrated propeller ducting for safe tight-quarters maneuvering, RockSteady 3.0+ and HorizonSteady optical stabilization, and 4K/60fps super-wide 155° FOV recording with 10-bit D-Log M.',
-    specifications: {
-      sensor: '1/1.3-inch CMOS Sensor (155° Super-Wide FOV)',
-      videoResolution: '4K/60fps HDR, 2.7K/120fps Slow-Mo',
-      photoResolution: '12 Megapixels',
-      flightTime: 'Up to 23 minutes (Extended hovering)',
-      maxSpeed: '97 km/h (27 m/s) in Manual Mode',
-      transmissionRange: '13 km DJI O4 Video Transmission',
-      weight: '377 g',
-      casaCategory: 'Standard CASA Operating Rules (Spotter recommended for FPV)',
-      gimbalStabilization: 'Single-Axis Tilt Mechanical + EIS RockSteady 3.0+',
-      obstacleAvoidance: 'Downward and backward visual positioning sensors'
-    },
-    inTheBox: [
-      'DJI Avata 2 Drone with Integrated Propeller Guards',
-      'DJI Goggles 3 with Real View PiP & Micro-OLED Displays',
-      'DJI RC Motion 3 Controller',
-      '3x Intelligent Flight Batteries',
-      'Two-Way Charging Hub',
-      'Sling Bag & Spare Propeller Set'
-    ],
-    graphicType: 'fpv-drone',
-    isFeatured: true
-  },
-  {
-    id: 'dji-matrice-350-rtk',
-    slug: 'dji-matrice-350-rtk-enterprise-uav',
-    name: 'DJI Matrice 350 RTK Commercial Enterprise UAV',
-    brand: 'DJI Enterprise',
-    category: 'camera-drones',
-    categoryName: 'Camera Drones & UAVs',
-    subcategory: 'Commercial Enterprise UAVs',
-    price: 11500,
-    originalPrice: 12400,
-    badge: 'Premium',
-    inStock: true,
-    rating: 5.0,
-    reviewsCount: 74,
-    shortDescription: 'Flagship industrial & surveying UAV. IP55 weather resistance, 55-minute flight time, and 2.7kg multi-payload capacity.',
-    description: 'Built for Australian enterprise surveying, civil engineering, mining asset inspection, and emergency response. Upgraded with IP55 ingress protection against dust and torrential rain, arm-lock detection sensors, night-vision FPV camera, and support for dual downward and single upward gimbal configurations.',
-    specifications: {
-      sensor: 'Multi-Payload Compatible (Zenmuse H20N / H30 / P1 / L2)',
-      videoResolution: 'Up to 4K Cinema + Thermal FLIR + 200x Hybrid Optical Zoom',
-      photoResolution: '45 MP Full-Frame Photogrammetry with Zenmuse P1',
-      flightTime: 'Up to 55 minutes without payload (40 min with payload)',
-      maxSpeed: '82.8 km/h (23 m/s)',
-      transmissionRange: '20 km O3 Enterprise Transmission',
-      weight: '6,470 g (with two TB65 batteries)',
-      casaCategory: 'Commercial Sub-25kg Category (ReOC compliant)',
-      gimbalStabilization: 'Multi-Gimbal Mounting (Top & Bottom Dual)',
-      obstacleAvoidance: '6-Directional Sensing & CSM Radar Compatible'
-    },
-    inTheBox: [
-      'DJI Matrice 350 RTK Aircraft Body',
-      'DJI RC Plus Enterprise Controller',
-      '2x TB65 High-Capacity Flight Batteries',
-      'BS65 Intelligent Battery Station',
-      'Transport Rolling Pelican-Style Protective Case',
-      'Dual Downward Gimbal Connector',
-      'High-Altitude Low-Noise Propellers'
-    ],
-    graphicType: 'enterprise-uav',
-    isFeatured: false
-  },
-  {
-    id: 'sony-a7r-v-gimbal-rig',
-    slug: 'sony-alpha-7r-v-dslr-uav-cinema-rig',
-    name: 'Sony Alpha 7R V 61MP Full-Frame DSLR / Mirrorless UAV Rig',
-    brand: 'Sony',
-    category: 'cameras-payloads',
-    categoryName: 'Cameras & Aerial Payloads',
-    subcategory: 'DSLR & Mirrorless Gimbal Cameras',
-    price: 4899,
-    originalPrice: 5299,
-    badge: 'Popular',
-    inStock: true,
-    rating: 4.9,
-    reviewsCount: 215,
-    shortDescription: 'Ultimate 61MP resolution for aerial mapping & cinema. 8K video, AI-based autofocus, paired with 3-axis brushless UAV gimbal.',
-    description: 'Searching for a professional DSLR camera for sale with aerial mounting capability? The Sony Alpha 7R V features a 61.0 MP back-illuminated Exmor R CMOS full-frame sensor, 8K/24p and 4K/60p 10-bit 4:2:2 video, and an AI processing unit dedicated to subject recognition. Bundled with our custom carbon quick-release UAV stabilization cage.',
-    specifications: {
-      sensor: '61.0 MP 35mm Full-Frame Exmor R BSI CMOS Sensor',
-      videoResolution: '8K/24p, 4K/60p 10-bit 4:2:2 All-Intra, S-Cinetone',
-      photoResolution: '61.0 Megapixels RAW (9504 x 6336 pixels)',
-      flightTime: 'Powered via UAV V-mount or internal NP-FZ100 (530 shots)',
-      weight: '723 g (Body) / 1,450 g (Complete with Gimbal Cage)',
-      gimbalStabilization: '3-Axis Motorized Brushless UAV Gimbal with 32-bit AlexMos Controller',
-      casaCategory: 'Payload item for heavy-lift multi-rotors'
-    },
-    inTheBox: [
-      'Sony Alpha 7R V Mirrorless Camera Body',
-      'Professional 3-Axis Carbon UAV Gimbal Stabilizer',
-      'Sony FE 24-70mm f/2.8 GM II Lens Adapter Ring',
-      'HDMI to HD Video Downlink Transmitter Module',
-      '2x NP-FZ100 Rechargeable Lithium-Ion Batteries',
-      'USB-C Dual Charger & Remote Trigger Cable'
-    ],
-    graphicType: 'dslr-gimbal',
-    isFeatured: true
-  },
-  {
-    id: 'canon-eos-r5c-cinema',
-    slug: 'canon-eos-r5-c-cinema-uav-kit',
-    name: 'Canon EOS R5 C 8K Full-Frame Cinema Gimbal Camera',
-    brand: 'Canon',
-    category: 'cameras-payloads',
-    categoryName: 'Cameras & Aerial Payloads',
-    subcategory: 'DSLR & Mirrorless Gimbal Cameras',
-    price: 4599,
-    originalPrice: 4899,
-    badge: 'Best Value',
-    inStock: true,
-    rating: 4.9,
-    reviewsCount: 118,
-    shortDescription: 'True hybrid cinema camera. 8K/60p Cinema RAW Light internal recording with active cooling fan for unlimited flight capture.',
-    description: 'Designed for cinema aerial DP specialists across Australia. The Canon EOS R5 C combines Cinema EOS usability with the precision still photography of EOS R mirrorless. Records 8K/60p 12-bit RAW Light internally without thermal cutoff thanks to built-in thermal fan cooling.',
-    specifications: {
-      sensor: '45 Megapixel Full-Frame CMOS Sensor',
-      videoResolution: '8K/60p Cinema RAW Light, 4K/120p 10-bit 4:2:2 XF-AVC',
-      photoResolution: '45.0 Megapixels Continuous at 20fps',
-      weight: '680 g (Body only)',
-      gimbalStabilization: 'Precision 3-Axis Electronic & Mechanical UAV Interface',
-      casaCategory: 'Payload item for cinema heavy-lifters'
-    },
-    inTheBox: [
-      'Canon EOS R5 C Cinema Camera Body',
-      'UAV Mounting Plate & Remote Run/Stop Cable',
-      'RF to EF Lens Mount Adapter',
-      '2x LP-E6NH High-Capacity Batteries',
-      'Battery Charger & USB Power Adapter',
-      'Weather-Sealed Protective Case'
-    ],
-    graphicType: 'dslr-gimbal',
-    isFeatured: false
-  },
-  {
-    id: 'gopro-hero13-creator-pack',
-    slug: 'gopro-hero13-black-aerial-creator-flight-pack',
-    name: 'GoPro HERO13 Black Aerial Flight Pack',
-    brand: 'GoPro',
-    category: 'cameras-payloads',
-    categoryName: 'Cameras & Aerial Payloads',
-    subcategory: 'Action & 360 Cams',
-    price: 599,
-    originalPrice: 699,
-    badge: 'Sale',
-    inStock: true,
-    rating: 4.8,
-    reviewsCount: 432,
-    shortDescription: '5.3K/60fps video with HyperSmooth 6.0 video stabilization, magnetic latch mounting, and dual screens.',
-    description: 'Looking for genuine GoPro cameras on sale in Australia? The HERO13 Black delivers unbeatable action durability for FPV chase drones and ultra-lightweight UAV payloads. Captures 5.3K/60fps, 4K/120fps slow-motion, and 10-bit GP-Log video with Emmy-award winning HyperSmooth 6.0 video stabilization and 360° Horizon Lock.',
-    specifications: {
-      sensor: '1/1.9-inch CMOS Sensor (8:7 Aspect Ratio)',
-      videoResolution: '5.3K/60fps, 4K/120fps, 2.7K/240fps Super Slow-Mo',
-      photoResolution: '27 Megapixels RAW',
-      weight: '154 g',
-      gimbalStabilization: 'HyperSmooth 6.0 with 360° In-Camera Horizon Lock',
-      casaCategory: 'Ultra-lightweight universal payload'
-    },
-    inTheBox: [
-      'GoPro HERO13 Black Action Camera',
-      '2x Enduro Cold-Weather Batteries',
-      'HB-Series Macro Lens Mod with Auto-Detect',
-      'Curved & Flat Adhesive UAV Drone Mounts',
-      'Magnetic Latch Quick-Release Mount',
-      'High-Speed 128GB SanDisk Extreme MicroSDXC Card',
-      'Protective Zippered Travel Case'
-    ],
-    graphicType: 'action-cam',
-    isFeatured: true
-  },
-  {
-    id: 'phase-one-ixm-100',
-    slug: 'phase-one-ixm-100mp-medium-format-payload',
-    name: 'Phase One iXM 100MP Medium Format Aerial Payload',
-    brand: 'Phase One',
-    category: 'cameras-payloads',
-    categoryName: 'Cameras & Aerial Payloads',
-    subcategory: 'Aerial Cinema Payloads',
-    price: 21900,
-    originalPrice: 23500,
-    badge: 'Premium',
-    inStock: true,
-    rating: 5.0,
-    reviewsCount: 38,
-    shortDescription: 'Medium format metric camera engineered specifically for precision photogrammetry and ultra-high-resolution aerial surveying.',
-    description: 'The gold standard for Australian geospatial surveying, infrastructure mapping, and national park documentation. Incorporates a back-illuminated medium format sensor (43.9 x 32.9 mm) delivering an unprecedented 100 Megapixel dynamic range of 83dB with leaf shutter speeds up to 1/2500s.',
-    specifications: {
-      sensor: '100MP Medium Format Back-Illuminated CMOS (43.9 x 32.9 mm)',
-      photoResolution: '11664 x 8750 pixels (16-bit IIQ RAW)',
-      videoResolution: '4K/30p Uncompressed HDMI Live Stream',
-      weight: '630 g (Body without lens)',
-      gimbalStabilization: 'Gremsy / Ronin 2 Heavy-Lift Integration Kit',
-      casaCategory: 'Commercial Enterprise Surveying Payload'
-    },
-    inTheBox: [
-      'Phase One iXM 100MP Camera Body',
-      'Rodenstock 35mm f/4.0 Aerial Metric Lens',
-      'Universal Drone Gimbal Mechanical Interface',
-      'High-Speed XQD Memory Storage Module',
-      'Calibration Certificate & Optical Metrology Report',
-      'Heavy-Duty Watertight Flight Case'
-    ],
-    graphicType: 'dslr-gimbal',
-    isFeatured: false
-  },
-  {
-    id: 'dji-rc-plus-controller',
-    slug: 'dji-rc-plus-smart-controller',
-    name: 'DJI RC Plus High-Brightness 7" Enterprise Controller',
-    brand: 'DJI',
-    category: 'accessories-optics',
-    categoryName: 'Accessories & Optics',
-    subcategory: 'Smart Controllers & Transmitters',
-    price: 1749,
-    originalPrice: 1899,
-    badge: 'New',
-    inStock: true,
-    rating: 4.9,
-    reviewsCount: 89,
-    shortDescription: '7-inch 1,200-nit daylight viewable screen, IP54 dust/water resistance, and physical tactile buttons for all weather operations.',
-    description: 'Built for demanding Australian field conditions. Whether operating in scorching 45°C Pilbara heat or coastal spray, the RC Plus delivers 6 hours of continuous operation with internal + external hot-swappable batteries and quad-antenna O3 Enterprise transmission.',
-    specifications: {
-      sensor: '7-inch Ultra-Bright 1,200 cd/m² 1080p Touchscreen',
-      flightTime: '3.3 hours internal + 2.7 hours external WB37 battery',
-      weight: '1,250 g',
-      transmissionRange: 'Up to 20 km O3 Enterprise Feed',
-      obstacleAvoidance: 'IP54 Weather Sealed Operating Temperature: -20°C to 50°C'
-    },
-    inTheBox: [
-      'DJI RC Plus Controller',
-      'WB37 Intelligent Battery Pack',
-      'Ergonomic Shoulder Harness & Neck Strap',
-      'Spare Control Sticks (Pair)',
-      '65W High-Speed Fast Charger'
-    ],
-    graphicType: 'controller',
-    isFeatured: false
-  },
-  {
-    id: 'cinema-nd-filter-master-kit',
-    slug: 'master-airscrew-nd-cinema-filter-kit',
-    name: 'AeroOptics Cinema ND/PL Multi-Coated Filter Master Kit',
-    brand: 'AeroOptics',
-    category: 'accessories-optics',
-    categoryName: 'Accessories & Optics',
-    subcategory: 'ND Filters & Cinema Optics',
-    price: 289,
-    originalPrice: 349,
-    badge: 'Best Value',
-    inStock: true,
-    rating: 4.9,
-    reviewsCount: 410,
-    shortDescription: 'German Schott optical glass ND4, ND8, ND16, ND32, ND64 & circular polarizers with scratch-resistant oleophobic coating.',
-    description: 'Essential optical filtration for drone cinematography under harsh Australian sun. Includes precision-engineered aircraft-grade aluminum frames that do not stress lightweight drone gimbal balance motors. Eliminates glare off Australian ocean waters and maintains the cinematic 180° shutter rule.',
-    specifications: {
-      sensor: 'B270 German Schott Optical Glass',
-      weight: '1.2 g per filter (Gimbal Safe Calibration)',
-      gimbalStabilization: 'Ultralight CNC Aviation Aluminum Construction'
-    },
-    inTheBox: [
-      'ND8/PL Filter (Dawn/Dusk Ocean Cinematography)',
-      'ND16/PL Filter (Golden Hour & Afternoon)',
-      'ND32/PL Filter (Bright Australian Midday Sun)',
-      'ND64/PL Filter (Extreme Desert & Beach Illumination)',
-      'CPL Circular Polarizer Filter',
-      'Magnetic Hard Travel Case & Microfiber Cleaning Cloth'
-    ],
-    graphicType: 'battery',
-    isFeatured: false
-  }
+type Seed = {
+  name: string;
+  brand: string;
+  category: string;
+  subcategory: string;
+  price: number;
+  graphicType: Product['graphicType'];
+  shortDescription: string;
+  inStock?: boolean;
+  featured?: boolean;
+};
+
+const slugify = (s: string) =>
+  s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+const categoryName = (id: string) => CATEGORIES.find(c => c.id === id)!.name;
+
+const seeds: Seed[] = [
+  // DJI Mini & Air
+  { name: 'DJI Mini 4 Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1119, graphicType: 'foldable-drone', featured: true,
+    shortDescription: 'Compact sub-250g DJI camera drone for travel, content and everyday flying.' },
+  { name: 'DJI Mini 4 Pro RC 2', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1419, graphicType: 'foldable-drone',
+    shortDescription: 'DJI Mini 4 Pro supplied with the DJI RC 2 screen controller.' },
+  { name: 'DJI Mini 4 Pro Fly More Combo', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1699, graphicType: 'foldable-drone',
+    shortDescription: 'Mini 4 Pro with extra batteries and accessories for longer flying sessions.' },
+  { name: 'DJI Mini 4 Pro Fly More Combo Plus', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1799, graphicType: 'foldable-drone',
+    shortDescription: 'Fly More Combo Plus package for the DJI Mini 4 Pro.' },
+  { name: 'DJI Air 3', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1699, graphicType: 'foldable-drone', featured: true,
+    shortDescription: 'DJI Air 3 mid-size foldable camera drone for photo and video creators.' },
+  { name: 'DJI Air 3 Fly More Combo', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 2049, graphicType: 'foldable-drone',
+    shortDescription: 'DJI Air 3 with additional batteries and accessories in the Fly More Combo.' },
+  { name: 'DJI Air 3 Fly More Combo RC 2', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 2349, graphicType: 'foldable-drone',
+    shortDescription: 'DJI Air 3 Fly More Combo supplied with the DJI RC 2 screen controller.' },
+
+  // DJI Mavic 3
+  { name: 'DJI Mavic 3 Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mavic 3', price: 3099, graphicType: 'cinema-drone', featured: true,
+    shortDescription: 'Flagship DJI Mavic 3 Pro multi-camera drone for professional imaging.' },
+  { name: 'DJI Mavic 3 Pro Fly More Combo DJI RC', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mavic 3', price: 4199, graphicType: 'cinema-drone',
+    shortDescription: 'Mavic 3 Pro Fly More Combo with the standard DJI RC controller.' },
+  { name: 'DJI Mavic 3 Pro Fly More Combo DJI RC Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mavic 3', price: 5329, graphicType: 'cinema-drone',
+    shortDescription: 'Mavic 3 Pro Fly More Combo with the DJI RC Pro high-bright controller.' },
+
+  // DJI Inspire 3
+  { name: 'DJI Inspire 3', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Inspire 3', price: 20469, graphicType: 'cinema-drone', featured: true,
+    shortDescription: 'DJI Inspire 3 professional cinema drone for film and broadcast production.' },
+
+  // DJI Matrice
+  { name: 'DJI Matrice 30', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 12880, graphicType: 'enterprise-uav', featured: true,
+    shortDescription: 'DJI Matrice 30 compact, weather-resistant enterprise drone for inspection and public safety.' },
+  { name: 'DJI Matrice 30T', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 13270, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Matrice 30T enterprise drone with integrated thermal imaging.' },
+  { name: 'DJI Matrice 4 Enterprise', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 7395, graphicType: 'enterprise-uav', featured: true,
+    shortDescription: 'DJI Matrice 4 Enterprise drone for mapping, inspection and emergency response.' },
+  { name: 'DJI Matrice 4 Thermal', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 10159, graphicType: 'enterprise-uav', inStock: false,
+    shortDescription: 'DJI Matrice 4 Thermal enterprise drone with thermal imaging payload.' },
+
+  // DJI Mavic 3 Enterprise
+  { name: 'DJI Mavic 3 Enterprise', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Mavic 3 Enterprise', price: 6049, graphicType: 'enterprise-uav',
+    shortDescription: 'Compact DJI Mavic 3 Enterprise drone for mapping, surveying and inspection.' },
+  { name: 'DJI Mavic 3 Thermal', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Mavic 3 Enterprise', price: 8249, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Mavic 3 Thermal enterprise drone combining wide, tele and thermal cameras.' },
+  { name: 'DJI Mavic 3 Multispectral', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Mavic 3 Enterprise', price: 7919, graphicType: 'enterprise-uav', inStock: false,
+    shortDescription: 'DJI Mavic 3 Multispectral drone for precision agriculture and crop monitoring.' },
+
+  // DJI Phantom 4
+  { name: 'DJI Phantom 4 Pro RTK SE', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Phantom 4', price: 5700, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Phantom 4 Pro RTK SE survey and mapping drone.' },
+  { name: 'DJI Phantom 4 Multispectral', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Phantom 4', price: 9299, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Phantom 4 Multispectral drone for crop health and agronomy data.' },
+  { name: 'DJI Phantom 4 Multispectral DRTK2', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Phantom 4', price: 14299, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Phantom 4 Multispectral package including the D-RTK 2 mobile station.' },
+
+  // Spraying drones
+  { name: 'XAG P30 Spraying Drone', brand: 'XAG', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 24000, graphicType: 'enterprise-uav', featured: true,
+    shortDescription: 'XAG P30 agricultural spraying drone for crop protection.' },
+  { name: 'BROUAV D30L-8 Spraying Drone', brand: 'BROUAV', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 32000, graphicType: 'enterprise-uav',
+    shortDescription: 'BROUAV D30L-8 agricultural spraying drone.' },
+  { name: 'BROUAV D52L-8 Spraying Drone', brand: 'BROUAV', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 44800, graphicType: 'enterprise-uav',
+    shortDescription: 'BROUAV D52L-8 large-capacity agricultural spraying drone.' },
+  { name: 'BROUAV D72L-8 Spraying Drone', brand: 'BROUAV', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 54800, graphicType: 'enterprise-uav', inStock: false,
+    shortDescription: 'BROUAV D72L-8 heavy-capacity agricultural spraying drone.' },
+  { name: 'DJI Agras T30 Spreading System 3.0', brand: 'DJI', category: 'spraying-drones', subcategory: 'Spraying Drone Accessories', price: 1800, graphicType: 'controller',
+    shortDescription: 'Spreading System 3.0 accessory for the DJI Agras T30.' },
+  { name: 'DJI Agras T30 Battery', brand: 'DJI', category: 'spraying-drones', subcategory: 'Spraying Drone Accessories', price: 3600, graphicType: 'battery',
+    shortDescription: 'Replacement intelligent flight battery for the DJI Agras T30.' },
+  { name: 'DJI Agras T30 Battery Charger', brand: 'DJI', category: 'spraying-drones', subcategory: 'Spraying Drone Accessories', price: 3200, graphicType: 'battery',
+    shortDescription: 'Battery charger for the DJI Agras T30.' },
+  { name: 'DJI Agras T40 Battery', brand: 'DJI', category: 'spraying-drones', subcategory: 'Spraying Drone Accessories', price: 3699, graphicType: 'battery',
+    shortDescription: 'Replacement intelligent flight battery for the DJI Agras T40.' },
+
+  // Batteries
+  { name: 'DJI Air 3 Battery', brand: 'DJI', category: 'batteries', subcategory: 'Drone Batteries', price: 219, graphicType: 'battery',
+    shortDescription: 'Intelligent flight battery for the DJI Air 3.' },
+  { name: 'DJI Matrice 4 Battery', brand: 'DJI', category: 'batteries', subcategory: 'Drone Batteries', price: 280, graphicType: 'battery',
+    shortDescription: 'Intelligent flight battery for the DJI Matrice 4 series.' },
+  { name: 'DJI Mavic 3 Enterprise Battery Kit', brand: 'DJI', category: 'batteries', subcategory: 'Drone Batteries', price: 990, graphicType: 'battery', inStock: false,
+    shortDescription: 'Battery kit for the DJI Mavic 3 Enterprise series.' }
 ];
+
+export const PRODUCTS: Product[] = seeds.map((s, i) => ({
+  id: slugify(s.name),
+  slug: slugify(s.name),
+  name: s.name,
+  brand: s.brand,
+  category: s.category,
+  categoryName: categoryName(s.category),
+  subcategory: s.subcategory,
+  price: s.price,
+  badge: null,
+  inStock: s.inStock ?? true,
+  shortDescription: s.shortDescription,
+  description: `${s.shortDescription} Australian stock with free shipping Australia-wide. Contact us for availability, bundle options and advice on the right setup for your operation.`,
+  specifications: {},
+  graphicType: s.graphicType,
+  isFeatured: s.featured ?? false
+}));

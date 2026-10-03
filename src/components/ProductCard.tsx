@@ -91,12 +91,15 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             </div>
 
             <div className="text-right">
-              <span className="text-[11px] text-slate-400 font-medium">
-                ★ {product.rating.toFixed(1)} ({product.reviewsCount})
-              </span>
-              <span className="block text-[10px] text-emerald-400 font-medium">
-                In Stock (AU)
-              </span>
+              {product.inStock ? (
+                <span className="block text-[10px] text-emerald-400 font-medium">
+                  In Stock (AU)
+                </span>
+              ) : (
+                <span className="block text-[10px] text-red-400 font-medium">
+                  Out of Stock
+                </span>
+              )}
             </div>
           </div>
 
@@ -111,7 +114,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             <button
               type="button"
               onClick={() => onAddToCart(product)}
-              className={`w-full py-2 px-3 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1.5 whitespace-nowrap ${
+              disabled={!product.inStock}
+              className={`w-full py-2 px-3 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1.5 whitespace-nowrap disabled:opacity-40 disabled:cursor-not-allowed ${
                 isAdded
                   ? 'bg-emerald-600 text-white'
                   : 'bg-amber-500 hover:bg-amber-400 text-slate-950 shadow-sm hover:shadow-amber-500/20'
