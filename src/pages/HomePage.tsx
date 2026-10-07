@@ -41,6 +41,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
       subtitle: 'DJI Mini, Air, Mavic 3 Pro and Inspire 3',
       path: '/shop',
       category: 'camera-drones',
+      image: '/products/dji-mavic-3-pro.jpg',
       tag: 'Photo & Video',
       icon: Video
     },
@@ -49,6 +50,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
       subtitle: 'DJI Matrice, Mavic 3 Enterprise and Phantom 4',
       path: '/shop',
       category: 'enterprise-drones',
+      image: '/products/dji-matrice-30t.jpg',
       tag: 'Industrial',
       icon: Compass
     },
@@ -57,6 +59,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
       subtitle: 'Zenmuse, thermal and multispectral payloads',
       path: '/shop',
       category: 'cameras-sensors',
+      image: '/products/dji-zenmuse-h30t.jpg',
       tag: 'Payloads',
       icon: Camera
     },
@@ -65,6 +68,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
       subtitle: 'XAG and BROUAV spraying systems',
       path: '/shop',
       category: 'spraying-drones',
+      image: '/products/xag-p30-spraying-drone.jpg',
       tag: 'Agriculture',
       icon: Zap
     },
@@ -73,6 +77,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
       subtitle: 'Intelligent flight batteries and chargers',
       path: '/shop',
       category: 'batteries',
+      image: '/products/dji-air-3-battery.jpg',
       tag: 'Accessories',
       icon: Camera
     }
@@ -119,6 +124,9 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
                 className="group p-5 bg-[#0f172a] rounded-xl border border-slate-800 hover:border-amber-500/40 transition-all hover:-translate-y-1 flex flex-col justify-between space-y-4 shadow-sm hover:shadow-lg"
               >
                 <div className="space-y-3">
+                  <div className="bg-white rounded-lg h-28 flex items-center justify-center p-2">
+                    <img src={cat.image} alt={cat.title} loading="lazy" className="w-full h-full object-contain" />
+                  </div>
                   <div className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-amber-400 group-hover:bg-amber-500 group-hover:text-slate-950 transition-colors">
                     <Icon className="w-5 h-5" />
                   </div>
@@ -283,6 +291,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
                 to={`/blog/${post.slug}`}
                 className="group p-4 bg-slate-900/60 rounded-xl border border-slate-800 hover:border-slate-700 transition-colors block space-y-2"
               >
+                {post.image && (
+                  <div className="bg-white rounded-lg h-32 flex items-center justify-center p-2 mb-1">
+                    <img src={post.image} alt={post.imageAlt ?? post.title} loading="lazy" className="w-full h-full object-contain" />
+                  </div>
+                )}
                 <span className="text-[10px] font-mono text-amber-400 uppercase tracking-wider block">
                   {post.tags[0]} · {post.readTime}
                 </span>

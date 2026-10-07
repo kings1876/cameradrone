@@ -70,6 +70,8 @@ export interface BlogPost {
   author: string;
   tags: string[];
   excerpt: string;
+  image?: string;
+  imageAlt?: string;
   content: string[];
   targetKeywords: string[];
 }

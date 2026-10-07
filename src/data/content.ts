@@ -3,6 +3,8 @@ import { BlogPost, FAQItem } from '../types';
 export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-1',
+    image: '/products/dji-mavic-3-pro.jpg',
+    imageAlt: 'DJI Mavic 3 Pro drone',
     slug: 'best-drone-for-sale-australia-2026-buyers-guide',
     title: '2026 Australian Guide: Finding the Best DJI Drone for Sale',
     subtitle: 'From sub-249g travel drones to professional cinema platforms: how to choose between DJI Mini, Air, Mavic 3 Pro and Inspire 3.',
@@ -22,6 +24,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: 'post-2',
+    image: '/products/dji-matrice-30t.jpg',
+    imageAlt: 'DJI Matrice 30T enterprise drone',
     slug: 'enterprise-drones-matrice-mavic-3-enterprise-guide',
     title: 'Enterprise Drones in Australia: Matrice, Mavic 3 Enterprise and Phantom 4',
     subtitle: 'Choosing an enterprise drone for inspection, mapping, surveying and thermal work.',
@@ -41,6 +45,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: 'post-3',
+    image: '/products/xag-p30-spraying-drone.jpg',
+    imageAlt: 'XAG P30 agricultural spraying drone',
     slug: 'agricultural-spraying-drones-australia-guide',
     title: 'Agricultural Spraying Drones in Australia: What to Know Before You Buy',
     subtitle: 'An introduction to spraying drones and multispectral crop monitoring for Australian farms.',

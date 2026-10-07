@@ -1,6 +1,5 @@
 import React from 'react';
 import { ArrowDown, Zap, Shield, Truck, Sparkles } from 'lucide-react';
-import { DroneGraphic } from './DroneGraphic';
 
 interface HeroProps {
   onExploreClick: () => void;
@@ -94,8 +93,15 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) =
               </div>
 
               {/* Central Precision SVG Schematic Drone Graphic */}
-              <div className="py-4 flex justify-center">
-                <DroneGraphic type="cinema-drone" size="lg" className="w-full" />
+              <div className="my-4 bg-white rounded-xl h-56 flex items-center justify-center p-3">
+                <img
+                  src="/products/dji-mavic-3-pro.jpg"
+                  alt="DJI Mavic 3 Pro camera drone"
+                  width={1200}
+                  height={545}
+                  fetchPriority="high"
+                  className="w-full h-full object-contain"
+                />
               </div>
 
               {/* Technical Specifications Callout Grid */}

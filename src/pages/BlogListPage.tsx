@@ -32,8 +32,14 @@ export const BlogListPage: React.FC = () => {
             <Link
               key={post.id}
               to={`/blog/${post.slug}`}
-              className="group bg-[#0f172a] border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition-all flex flex-col justify-between hover:-translate-y-1 shadow-sm hover:shadow-xl"
+              className="group bg-[#0f172a] border border-slate-800 rounded-xl overflow-hidden hover:border-slate-700 transition-all flex flex-col justify-between hover:-translate-y-1 shadow-sm hover:shadow-xl"
             >
+              {post.image && (
+                <div className="bg-white h-44 flex items-center justify-center p-3 border-b border-slate-800">
+                  <img src={post.image} alt={post.imageAlt ?? post.title} loading="lazy" className="w-full h-full object-contain" />
+                </div>
+              )}
+              <div className="p-6 flex-1 flex flex-col justify-between">
               <div className="space-y-3">
                 <div className="flex items-center gap-2 text-[11px] text-slate-400">
                   <span className="font-semibold text-amber-400/90">{post.tags[0]}</span>
@@ -59,6 +65,7 @@ export const BlogListPage: React.FC = () => {
                   <span>Read Article</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </span>
+              </div>
               </div>
             </Link>
           ))}

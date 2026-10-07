@@ -73,6 +73,12 @@ export const BlogPostPage: React.FC = () => {
           </div>
         </header>
 
+        {post.image && (
+          <div className="bg-white rounded-2xl h-64 sm:h-80 flex items-center justify-center p-4">
+            <img src={post.image} alt={post.imageAlt ?? post.title} className="w-full h-full object-contain" />
+          </div>
+        )}
+
         {/* Article Prose Content */}
         <div className="space-y-5 text-sm sm:text-base text-slate-300 leading-relaxed font-normal">
           {post.content.map((para, i) => (
