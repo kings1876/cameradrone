@@ -39,6 +39,9 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
     "/products/dji-mavic-3-pro-2.jpg",
     "/products/dji-mavic-3-pro-3.jpg"
   ],
+  "dji-mavic-3-pro-fly-more-combo-dji-rc": [
+    "/products/dji-mavic-3-pro-fly-more-combo-dji-rc.jpg"
+  ],
   "dji-mavic-3-pro-fly-more-combo-dji-rc-pro": [
     "/products/dji-mavic-3-pro-fly-more-combo-dji-rc-pro.jpg",
     "/products/dji-mavic-3-pro-fly-more-combo-dji-rc-pro-2.jpg"
@@ -213,6 +216,38 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
   ],
   "xag-p30-spraying-drone": [
     "/products/xag-p30-spraying-drone.jpg"
+  ],
+  "brouav-d30l-8-spraying-drone": [
+    "/products/brouav-d30l-8-spraying-drone.jpg"
+  ],
+  "brouav-d52l-8-spraying-drone": [
+    "/products/brouav-d52l-8-spraying-drone.jpg"
+  ],
+  "brouav-d72l-8-spraying-drone": [
+    "/products/brouav-d72l-8-spraying-drone.jpg"
+  ],
+  "dji-agras-t30-spreading-system-3-0": [
+    "/products/dji-agras-t30-spreading-system-3-0.jpg",
+    "/products/dji-agras-t30-spreading-system-3-0-2.jpg",
+    "/products/dji-agras-t30-spreading-system-3-0-3.jpg"
+  ],
+  "dji-agras-t30-battery": [
+    "/products/dji-agras-t30-battery.jpg",
+    "/products/dji-agras-t30-battery-2.jpg"
+  ],
+  "dji-agras-t30-battery-charger": [
+    "/products/dji-agras-t30-battery-charger.jpg",
+    "/products/dji-agras-t30-battery-charger-2.jpg"
+  ],
+  "dji-agras-t40-battery": [
+    "/products/dji-agras-t40-battery.jpg"
+  ],
+  "dji-air-3-battery": [
+    "/products/dji-air-3-battery.jpg",
+    "/products/dji-air-3-battery-2.jpg"
+  ],
+  "dji-matrice-4-battery": [
+    "/products/dji-matrice-4-battery.jpg"
   ],
   "dji-mavic-3-enterprise-battery-kit": [
     "/products/dji-mavic-3-enterprise-battery-kit.jpg",
