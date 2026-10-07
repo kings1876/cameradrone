@@ -1,7 +1,7 @@
 import React from 'react';
 import { X, Trash2, Plus, Minus, Zap, Truck, ArrowRight } from 'lucide-react';
 import { CartItem } from '../types';
-import { DroneGraphic } from './DroneGraphic';
+import { ProductImage } from './ProductImage';
 
 interface CartDrawerProps {
   isOpen: boolean;
@@ -78,8 +78,8 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                   key={item.product.id}
                   className="p-3 bg-slate-950/60 rounded-xl border border-slate-800 flex gap-3 items-center"
                 >
-                  <div className="w-16 h-16 bg-slate-900 rounded-lg border border-slate-800 flex items-center justify-center p-1 shrink-0 overflow-hidden">
-                    <DroneGraphic type={item.product.graphicType} size="sm" />
+                  <div className={`w-16 h-16 rounded-lg border border-slate-800 flex items-center justify-center p-1 shrink-0 overflow-hidden ${item.product.images?.length ? 'bg-white' : 'bg-slate-900'}`}>
+                    <ProductImage product={item.product} size="sm" />
                   </div>
 
                   <div className="flex-1 min-w-0">
@@ -151,7 +151,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
               <div className="space-y-1 text-xs">
                 <div className="flex justify-between text-slate-400">
                   <span>Standard Subtotal:</span>
-                  <span className="font-mono tabular-nums text-slate-200">${subtotal.toLocaleString()} USD</span>
+                  <span className="font-mono tabular-nums text-slate-200">${subtotal.toLocaleString()} AUD</span>
                 </div>
                 <div className="flex justify-between text-slate-400">
                   <span>Nationwide Express Delivery:</span>
@@ -159,7 +159,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 </div>
                 <div className="flex justify-between text-base font-bold text-white pt-2 border-t border-slate-800">
                   <span>Crypto Order Total:</span>
-                  <span className="text-amber-400 font-mono tabular-nums">${cryptoTotal.toLocaleString()} USD</span>
+                  <span className="text-amber-400 font-mono tabular-nums">${cryptoTotal.toLocaleString()} AUD</span>
                 </div>
               </div>
 

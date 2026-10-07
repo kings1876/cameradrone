@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShoppingBag, Eye, Check } from 'lucide-react';
 import { Product } from '../types';
-import { DroneGraphic } from './DroneGraphic';
+import { ProductImage } from './ProductImage';
 
 interface ProductCardProps {
   product: Product;
@@ -38,9 +38,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({
       {/* Product Image Stage with Direct Canonical Link */}
       <Link
         to={`/product/${product.slug}`}
-        className="relative w-full h-56 sm:h-60 bg-gradient-to-b from-[#131d33] to-[#0c1322] flex items-center justify-center p-4 border-b border-slate-800/80 group-hover:from-[#17233d] transition-colors"
+        className={`relative w-full h-56 sm:h-60 flex items-center justify-center border-b border-slate-800/80 transition-colors ${
+          product.images?.length ? 'bg-white p-3' : 'bg-gradient-to-b from-[#131d33] to-[#0c1322] p-4 group-hover:from-[#17233d]'
+        }`}
       >
-        <DroneGraphic type={product.graphicType} size="md" className="group-hover:scale-105 transition-transform duration-300" />
+        <ProductImage product={product} size="md" className="group-hover:scale-105 transition-transform duration-300" />
 
         <div className="absolute inset-0 bg-slate-950/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
           <span className="inline-flex items-center gap-1 text-xs font-semibold text-white bg-slate-900/90 px-3 py-1.5 rounded-md border border-slate-700 shadow-md">

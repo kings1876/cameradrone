@@ -77,7 +77,7 @@ export const PolicyPage: React.FC = () => {
                   <strong>3. Pre-Flight Technical Support:</strong> If you experience firmware calibration errors or controller synchronization issues upon initial unboxing, our Australian technical desk provides direct assistance before initiating any warranty exchange.
                 </p>
                 <p>
-                  <strong>4. Crypto Refund Settlement:</strong> For orders placed with cryptocurrency (10% discount), verified refunds are returned in USDT (TRC-20) or equivalent cryptocurrency to your nominated receiving address based on the exact USD value paid.
+                  <strong>4. Crypto Refund Settlement:</strong> For orders placed with cryptocurrency (10% discount), verified refunds are returned in USDT (TRC-20) or equivalent cryptocurrency to your nominated receiving address based on the exact AUD value paid.
                 </p>
               </div>
             </div>

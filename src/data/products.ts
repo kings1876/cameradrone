@@ -1,4 +1,5 @@
 import { Product, CategoryInfo } from '../types';
+import { PRODUCT_IMAGES } from './productImages';
 
 export const CATEGORIES: CategoryInfo[] = [
   {
@@ -194,5 +195,6 @@ export const PRODUCTS: Product[] = seeds.map((s, i) => ({
   description: `${s.shortDescription} Australian stock with free shipping Australia-wide. Contact us for availability, bundle options and advice on the right setup for your operation.`,
   specifications: {},
   graphicType: s.graphicType,
+  images: PRODUCT_IMAGES[slugify(s.name)],
   isFeatured: s.featured ?? false
 }));

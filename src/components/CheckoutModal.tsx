@@ -88,9 +88,9 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
       destination_address: `${street}, ${city}, ${state} ${postcode}, Australia`,
       payment_method: `Crypto (${selectedCrypto}) - 10% Discount Applied`,
       items: items.map(i => `${i.product.name} (Qty: ${i.quantity}) - $${i.product.price * i.quantity}`).join('; '),
-      original_subtotal: `$${subtotal} USD`,
-      crypto_discount_saved: `-$${cryptoDiscount} USD`,
-      final_order_total: `$${total} USD`,
+      original_subtotal: `$${subtotal} AUD`,
+      crypto_discount_saved: `-$${cryptoDiscount} AUD`,
+      final_order_total: `$${total} AUD`,
       shipping: 'FREE Australia Nationwide Express Delivery',
       crypto_tx_hash: txHash || 'Pending confirmation via email / live chat',
       special_notes: flightNotes || 'None'
@@ -104,7 +104,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
         body: JSON.stringify({
           access_key: 'YOUR_ACCESS_KEY_OR_PENDING',
           to: 'koloonjo@gmail.com',
-          subject: `New Drone Order [${generatedOrderId}] - ${fullName} ($${total} USD)`,
+          subject: `New Drone Order [${generatedOrderId}] - ${fullName} ($${total} AUD)`,
           from_name: 'Camera Drone Sales Australia Order Engine',
           ...orderData
         })
@@ -168,7 +168,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
               </div>
               <div className="flex justify-between border-b border-slate-800/80 pb-2">
                 <span className="text-slate-400">Total Charged:</span>
-                <span className="text-white font-bold font-mono tabular-nums">${total.toLocaleString()} USD</span>
+                <span className="text-white font-bold font-mono tabular-nums">${total.toLocaleString()} AUD</span>
               </div>
               <div className="flex justify-between border-b border-slate-800/80 pb-2">
                 <span className="text-slate-400">Delivery Address:</span>
@@ -225,10 +225,10 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                 </div>
                 <div className="text-right">
                   <div className="text-slate-400 line-through text-[11px] font-mono">
-                    ${subtotal.toLocaleString()} USD
+                    ${subtotal.toLocaleString()} AUD
                   </div>
                   <div className="text-base font-extrabold text-amber-400 font-mono tabular-nums">
-                    ${total.toLocaleString()} USD (10% Crypto Discount Applied)
+                    ${total.toLocaleString()} AUD (10% Crypto Discount Applied)
                   </div>
                 </div>
               </div>
@@ -353,7 +353,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                   <span>Select Cryptocurrency (10% Discount)</span>
                 </h3>
                 <span className="text-[11px] text-amber-400 font-semibold font-mono">
-                  Deduction: -${cryptoDiscount.toLocaleString()} USD
+                  Deduction: -${cryptoDiscount.toLocaleString()} AUD
                 </span>
               </div>
 
@@ -434,7 +434,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                 ) : (
                   <>
                     <ShieldCheck className="w-4 h-4 fill-slate-950" />
-                    <span>Confirm Order & Secure Flight Allocation (${total.toLocaleString()} USD)</span>
+                    <span>Confirm Order & Secure Flight Allocation (${total.toLocaleString()} AUD)</span>
                   </>
                 )}
               </button>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { X, ShoppingBag, Zap, Shield, Truck, CheckCircle2, ChevronRight, Award } from 'lucide-react';
 import { Product } from '../types';
-import { DroneGraphic } from './DroneGraphic';
+import { ProductImage } from './ProductImage';
 
 interface ProductModalProps {
   product: Product | null;
@@ -49,8 +49,8 @@ export const ProductModal: React.FC<ProductModalProps> = ({
               )}
 
               {/* Graphic Stage */}
-              <div className="py-6 flex items-center justify-center">
-                <DroneGraphic type={product.graphicType} size="lg" />
+              <div className={`my-6 flex items-center justify-center rounded-xl ${product.images?.length ? 'bg-white h-72 p-3' : 'py-6'}`}>
+                <ProductImage product={product} size="lg" eager />
               </div>
             </div>
 
@@ -89,7 +89,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
                 <div className="flex items-baseline justify-between">
                   <div className="flex items-baseline gap-2.5">
                     <span className="text-2xl font-extrabold text-white tabular-nums font-mono">
-                      ${product.price.toLocaleString()} USD
+                      ${product.price.toLocaleString()} AUD
                     </span>
                     {product.originalPrice && (
                       <span className="text-sm text-slate-400 line-through tabular-nums font-mono">
@@ -108,7 +108,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
                     Pay with Crypto (10% Off):
                   </span>
                   <span className="text-sm font-bold font-mono text-amber-400 tabular-nums">
-                    ${cryptoPrice.toLocaleString()} USD (Save ${cryptoSavings.toLocaleString()})
+                    ${cryptoPrice.toLocaleString()} AUD (Save ${cryptoSavings.toLocaleString()})
                   </span>
                 </div>
               </div>

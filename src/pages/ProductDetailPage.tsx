@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, ShoppingBag, Zap, Truck, Shield, Award, CheckCircle2, ChevronRight, Share2 } from 'lucide-react';
 import { PRODUCTS } from '../data/products';
-import { DroneGraphic } from '../components/DroneGraphic';
+import { ProductImage } from '../components/ProductImage';
 import { Product } from '../types';
 
 interface ProductDetailPageProps {
@@ -18,6 +18,11 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
   const navigate = useNavigate();
 
   const product = PRODUCTS.find(p => p.slug === slug || p.id === slug);
+  const [activeImage, setActiveImage] = useState(0);
+
+  useEffect(() => {
+    setActiveImage(0);
+  }, [slug]);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
@@ -79,9 +84,28 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               </div>
 
               {/* Graphic Representation */}
-              <div className="py-10 flex items-center justify-center">
-                <DroneGraphic type={product.graphicType} size="lg" />
+              <div className={`my-6 flex items-center justify-center rounded-xl ${product.images?.length ? 'bg-white h-80 sm:h-96 p-4' : 'py-10'}`}>
+                <ProductImage product={product} src={product.images?.[activeImage]} size="lg" eager />
               </div>
+
+              {product.images && product.images.length > 1 && (
+                <div className="flex flex-wrap gap-2 pb-4" role="group" aria-label="Product images">
+                  {product.images.map((img, i) => (
+                    <button
+                      key={img}
+                      type="button"
+                      onClick={() => setActiveImage(i)}
+                      aria-label={`Show image ${i + 1} of ${product.images!.length}`}
+                      aria-pressed={i === activeImage}
+                      className={`w-16 h-16 bg-white rounded-lg p-1 border-2 transition-colors ${
+                        i === activeImage ? 'border-amber-500' : 'border-slate-700 hover:border-slate-500'
+                      }`}
+                    >
+                      <img src={img} alt="" loading="lazy" className="w-full h-full object-contain" />
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
 
             {/* Quality and Compliance Indicators */}
@@ -142,7 +166,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                     Pay with Crypto (10% Discount):
                   </span>
                   <span className="text-sm font-bold font-mono text-amber-400 tabular-nums">
-                    ${cryptoPrice.toLocaleString()} USD (Save ${cryptoSavings.toLocaleString()})
+                    ${cryptoPrice.toLocaleString()} AUD (Save ${cryptoSavings.toLocaleString()})
                   </span>
                 </div>
               </div>
