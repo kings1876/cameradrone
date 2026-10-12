@@ -6,7 +6,6 @@ import { BLOG_POSTS } from '../data/content';
 export const BlogListPage: React.FC = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
-    document.title = 'Drone Articles & Flight Guides | Camera Drone Sales Australia';
   }, []);
 
   return (

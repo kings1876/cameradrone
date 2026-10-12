@@ -26,9 +26,6 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
-    if (product) {
-      document.title = `${product.name} | Camera Drone Sales Australia`;
-    }
   }, [product, slug]);
 
   if (!product) {

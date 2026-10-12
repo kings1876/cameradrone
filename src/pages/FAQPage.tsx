@@ -4,7 +4,6 @@ import { FAQSection } from '../components/FAQSection';
 export const FAQPage: React.FC = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
-    document.title = 'CASA Regulations & Order FAQ | Camera Drone Sales Australia';
   }, []);
 
   return (

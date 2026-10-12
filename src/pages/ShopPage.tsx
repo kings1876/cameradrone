@@ -17,7 +17,6 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
-    document.title = 'Shop Camera Drones & UAVs | Camera Drone Sales Australia';
   }, []);
 
   const [searchQuery, setSearchQuery] = useState('');

@@ -11,9 +11,6 @@ export const BlogPostPage: React.FC = () => {
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
-    if (post) {
-      document.title = `${post.title} | Camera Drone Sales Australia`;
-    }
   }, [post, slug]);
 
   if (!post) {

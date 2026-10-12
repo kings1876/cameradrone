@@ -29,7 +29,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
-    document.title = 'Camera Drone Sales Australia | DJI, Enterprise & Agricultural Drones';
   }, []);
 
   // Featured 6 products for homepage showcase

@@ -12,7 +12,6 @@ interface OrderPageProps {
 export const OrderPage: React.FC<OrderPageProps> = ({ cartItems, onOrderSuccess }) => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
-    document.title = 'Order Form & Crypto Checkout (10% Off) | Camera Drone Sales Australia';
   }, []);
 
   // If cart is empty, allow picking a flagship item or prompt to browse

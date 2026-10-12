@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { Product, CartItem } from './types';
 import { Navbar } from './components/Navbar';
+import { RouteSeo } from './components/RouteSeo';
 import { CartDrawer } from './components/CartDrawer';
 import { Footer } from './components/Footer';
 import { LiveChatWidget } from './components/LiveChatWidget';
@@ -99,6 +100,7 @@ export default function App() {
       <ScrollToTop />
 
       {/* Global Top Bar Navigation with direct routing */}
+      <RouteSeo />
       <Navbar
         cartCount={totalCartCount}
         openCart={() => setIsCartOpen(true)}

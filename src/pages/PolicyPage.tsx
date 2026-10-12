@@ -8,13 +8,6 @@ export const PolicyPage: React.FC = () => {
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
-    const titles: Record<string, string> = {
-      shipping: 'Nationwide Shipping Policy | Camera Drone Sales Australia',
-      refund: 'Australian Returns & Refund Policy | Camera Drone Sales Australia',
-      privacy: 'Privacy & Cookie Notice | Camera Drone Sales Australia',
-      terms: 'Terms of Service & CASA Airspace | Camera Drone Sales Australia',
-    };
-    document.title = titles[path] || 'Customer Policies | Camera Drone Sales Australia';
   }, [path]);
 
   return (
