@@ -194,8 +194,8 @@ function metaFor(pathname: string, search: string): Meta {
     };
   }
 
-  if (pathname === '/order' || pathname === '/checkout') {
-    return { title: `Order Form | ${SITE_NAME}`, description: 'Place a drone order.', noindex: true };
+  if (pathname === '/order' || pathname === '/checkout' || pathname.startsWith('/order/') || pathname.startsWith('/admin')) {
+    return { title: pathname.startsWith('/admin') ? `Admin | ${SITE_NAME}` : `Order Form | ${SITE_NAME}`, description: 'Place a drone order.', noindex: true };
   }
 
   return { title: `Page not found | ${SITE_NAME}`, description: 'This page could not be found.', noindex: true };

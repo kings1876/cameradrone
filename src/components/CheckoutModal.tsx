@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { X, CheckCircle2, Copy, Check, Zap, Truck, ShieldCheck, AlertCircle } from 'lucide-react';
 import { CartItem } from '../types';
+import { makeOrderNumber, postForm } from '../lib/reply';
 
 interface CheckoutModalProps {
   isOpen: boolean;
@@ -26,8 +27,6 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
   const [postcode, setPostcode] = useState('');
   const [flightNotes, setFlightNotes] = useState('');
   const [selectedCrypto, setSelectedCrypto] = useState<'BTC' | 'ETH' | 'USDT' | 'SOL'>('USDT');
-  const [txHash, setTxHash] = useState('');
-  const [copied, setCopied] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [orderComplete, setOrderComplete] = useState(false);
   const [orderId, setOrderId] = useState('');
@@ -37,36 +36,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
   const cryptoDiscount = Math.round(subtotal * 0.1);
   const total = subtotal - cryptoDiscount;
 
-  const CRYPTO_WALLETS = {
-    USDT: {
-      network: 'USDT (TRC-20 Network)',
-      address: 'TY3e8DroneAusTether78s92kX9a239401v',
-      note: 'Zero network congestion, recommended for fastest dispatch.'
-    },
-    BTC: {
-      network: 'Bitcoin (BTC Native SegWit)',
-      address: 'bc1q8aerodroneaustraliaflight79x23908k',
-      note: 'Require 2 network confirmations before dispatch.'
-    },
-    ETH: {
-      network: 'Ethereum (ETH / ERC-20)',
-      address: '0x71C93a7D21E14b620593B62047b2c7C7cAEc89a0',
-      note: 'Standard Ethereum Mainnet transaction.'
-    },
-    SOL: {
-      network: 'Solana (SOL)',
-      address: 'AeroAusDrone7vB829xLkE8pQ19kL893mNxv992z',
-      note: 'Instant settlement within 5 seconds.'
-    }
-  };
-
-  const currentWallet = CRYPTO_WALLETS[selectedCrypto];
-
-  const handleCopy = (text: string) => {
-    navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2500);
-  };
+  const COIN_METHOD = { USDT: 'crypto-usdt', BTC: 'crypto-btc', ETH: 'crypto-eth', SOL: 'crypto-sol' } as const;
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -78,40 +48,19 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
     setIsSubmitting(true);
     setErrorMsg('');
 
-    const generatedOrderId = `AU-DRONE-${Math.floor(100000 + Math.random() * 900000)}`;
+    const generatedOrderId = makeOrderNumber();
 
-    const orderData = {
-      order_id: generatedOrderId,
-      customer_name: fullName,
-      customer_email: email,
-      customer_phone: phone,
-      destination_address: `${street}, ${city}, ${state} ${postcode}, Australia`,
-      payment_method: `Crypto (${selectedCrypto}) - 10% Discount Applied`,
-      items: items.map(i => `${i.product.name} (Qty: ${i.quantity}) - $${i.product.price * i.quantity}`).join('; '),
-      original_subtotal: `$${subtotal} AUD`,
-      crypto_discount_saved: `-$${cryptoDiscount} AUD`,
-      final_order_total: `$${total} AUD`,
-      shipping: 'FREE Australia Nationwide Express Delivery',
-      crypto_tx_hash: txHash || 'Pending confirmation via email / live chat',
-      special_notes: flightNotes || 'None'
-    };
-
-    try {
-      // Submit via Web3Forms API
-      await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({
-          access_key: 'YOUR_ACCESS_KEY_OR_PENDING',
-          to: 'koloonjo@gmail.com',
-          subject: `New Drone Order [${generatedOrderId}] - ${fullName} ($${total} AUD)`,
-          from_name: 'Camera Drone Sales Australia Order Engine',
-          ...orderData
-        })
-      });
-    } catch {
-      // Graceful fallback: Order still confirmed in client state
-    }
+    await postForm({
+      formName: 'order',
+      orderNumber: generatedOrderId,
+      customerName: fullName,
+      customerEmail: email,
+      customerPhone: phone,
+      address: `${street}, ${city}, ${state} ${postcode}, Australia`,
+      paymentMethod: COIN_METHOD[selectedCrypto],
+      notes: flightNotes,
+      items: items.map(i => ({ name: i.product.name, quantity: i.quantity, lineTotal: i.product.price * i.quantity }))
+    });
 
     setOrderId(generatedOrderId);
     setIsSubmitting(false);
@@ -154,20 +103,20 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                 Order ID: {orderId}
               </span>
               <h3 className="text-2xl font-bold text-white font-display">
-                Hardware Allocated & Scheduled for Dispatch
+                Order Received
               </h3>
               <p className="text-sm text-slate-300 max-w-lg mx-auto">
-                Thank you, <span className="text-white font-semibold">{fullName}</span>. An invoice and dispatch notification has been routed to <span className="text-white font-semibold">{email}</span>.
+                Thank you, <span className="text-white font-semibold">{fullName}</span>. A confirmation has been sent to <span className="text-white font-semibold">{email}</span>. Please watch for our follow-up email with your payment details.
               </p>
             </div>
 
             <div className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 text-left max-w-lg mx-auto space-y-2 text-xs">
               <div className="flex justify-between border-b border-slate-800/80 pb-2">
-                <span className="text-slate-400">Payment Status:</span>
-                <span className="text-amber-400 font-bold">10% Crypto Discount Applied</span>
+                <span className="text-slate-400">Next step:</span>
+                <span className="text-amber-400 font-bold">Payment details by email</span>
               </div>
               <div className="flex justify-between border-b border-slate-800/80 pb-2">
-                <span className="text-slate-400">Total Charged:</span>
+                <span className="text-slate-400">Total due (10% crypto discount applied):</span>
                 <span className="text-white font-bold font-mono tabular-nums">${total.toLocaleString()} AUD</span>
               </div>
               <div className="flex justify-between border-b border-slate-800/80 pb-2">
@@ -375,50 +324,9 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                 ))}
               </div>
 
-              {/* Active Wallet Details & Simulated QR Container */}
-              <div className="p-4 bg-slate-950/90 rounded-xl border border-slate-800 space-y-3">
-                <div className="flex items-center justify-between text-xs">
-                  <span className="text-slate-400 font-medium">Network:</span>
-                  <span className="text-amber-400 font-semibold font-mono">{currentWallet.network}</span>
-                </div>
-
-                <div>
-                  <label className="block text-[10px] text-slate-400 uppercase tracking-wider mb-1">
-                    Official Receiving Wallet Address
-                  </label>
-                  <div className="flex items-center gap-2 bg-slate-900 p-2 rounded-lg border border-slate-800">
-                    <code className="text-xs font-mono text-white truncate flex-1 select-all">
-                      {currentWallet.address}
-                    </code>
-                    <button
-                      type="button"
-                      onClick={() => handleCopy(currentWallet.address)}
-                      className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded flex items-center gap-1 text-xs shrink-0 transition-colors"
-                      title="Copy Wallet Address"
-                    >
-                      {copied ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
-                      <span className="text-[11px]">{copied ? 'Copied' : 'Copy'}</span>
-                    </button>
-                  </div>
-                </div>
-
-                <p className="text-[11px] text-slate-400 italic">
-                  Note: {currentWallet.note}
-                </p>
-
-                {/* Optional Transaction Hash Input */}
-                <div>
-                  <label className="block text-[11px] text-slate-300 mb-1">
-                    Transaction ID / TX Hash (Optional if sending now, or reply to email)
-                  </label>
-                  <input
-                    type="text"
-                    value={txHash}
-                    onChange={(e) => setTxHash(e.target.value)}
-                    placeholder="e.g. 0x8f2a... or blockchain transaction link"
-                    className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white placeholder-slate-500 font-mono focus:outline-hidden focus:border-amber-400"
-                  />
-                </div>
+              <div className="p-4 bg-slate-950/90 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
+                After you place the order we will email you the exact {selectedCrypto} payment details (address and network) for your
+                order. Please do not send any payment until you have received that email.
               </div>
             </div>
 

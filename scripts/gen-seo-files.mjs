@@ -39,6 +39,6 @@ fs.mkdirSync('public', { recursive: true });
 fs.writeFileSync('public/sitemap.xml', xml);
 fs.writeFileSync(
   'public/robots.txt',
-  `User-agent: *\nAllow: /\nDisallow: /order\nDisallow: /checkout\n\nSitemap: ${SITE_URL}/sitemap.xml\n`
+  `User-agent: *\nAllow: /\nDisallow: /order\nDisallow: /checkout\nDisallow: /admin\nDisallow: /api/\n\nSitemap: ${SITE_URL}/sitemap.xml\n`
 );
 console.log(`sitemap.xml: ${urls.length} URLs, robots.txt written (${SITE_URL})`);

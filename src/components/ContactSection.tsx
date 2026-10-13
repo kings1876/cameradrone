@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { postForm } from '../lib/reply';
 
 export const ContactSection: React.FC = () => {
   const [name, setName] = useState('');
@@ -14,24 +15,14 @@ export const ContactSection: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    try {
-      await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({
-          access_key: 'YOUR_ACCESS_KEY_OR_PENDING',
-          to: 'koloonjo@gmail.com',
-          subject: `Contact Inquiry: [${subject}] from ${name}`,
-          from_name: 'Camera Drone Sales Australia Support',
-          customer_name: name,
-          customer_email: email,
-          customer_phone: phone,
-          message_body: message
-        })
-      });
-    } catch {
-      // Graceful fallback
-    }
+    await postForm({
+      formName: 'contact',
+      name,
+      email,
+      phone,
+      message,
+      meta: { Subject: subject }
+    });
 
     setIsSubmitting(false);
     setSubmitted(true);
@@ -90,7 +81,7 @@ export const ContactSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Column: Web3Forms Contact Form */}
+          {/* Right Column: Contact Form */}
           <div className="lg:col-span-7">
             <div className="bg-[#0f172a] border border-slate-800 rounded-2xl p-6 sm:p-8 shadow-xl">
               {submitted ? (
@@ -122,7 +113,7 @@ export const ContactSection: React.FC = () => {
                       Send a Message to Flight Support
                     </h3>
                     <p className="text-xs text-slate-400">
-                      Powered by Web3Forms · Response routed directly to our operations inbox
+                      Your message goes straight to our operations inbox
                     </p>
                   </div>
 

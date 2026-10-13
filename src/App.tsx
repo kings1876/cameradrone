@@ -3,6 +3,12 @@ import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { Product, CartItem } from './types';
 import { Navbar } from './components/Navbar';
 import { RouteSeo } from './components/RouteSeo';
+import { AdminShell } from './pages/admin/AdminShell';
+import { AdminDashboard } from './pages/admin/AdminDashboard';
+import { AdminOrders, AdminOrderDetail } from './pages/admin/AdminOrders';
+import { AdminEnquiries, AdminEnquiryDetail } from './pages/admin/AdminEnquiries';
+import { SendPayment, ReplyEnquiry } from './pages/admin/AdminComposers';
+import { PaymentDetailsPage, ConfirmPaymentPage } from './pages/PaymentPages';
 import { CartDrawer } from './components/CartDrawer';
 import { Footer } from './components/Footer';
 import { LiveChatWidget } from './components/LiveChatWidget';
@@ -33,6 +39,7 @@ function ScrollToTop() {
 
 export default function App() {
   const navigate = useNavigate();
+  const routerLocation = useLocation();
 
   // Cart state persisted locally
   const [cartItems, setCartItems] = useState<CartItem[]>(() => {
@@ -93,6 +100,7 @@ export default function App() {
     navigate('/order');
   };
 
+  const isAdmin = routerLocation.pathname.startsWith('/admin');
   const totalCartCount = cartItems.reduce((sum, item) => sum + item.quantity, 0);
 
   return (
@@ -101,10 +109,10 @@ export default function App() {
 
       {/* Global Top Bar Navigation with direct routing */}
       <RouteSeo />
-      <Navbar
+      {!isAdmin && <Navbar
         cartCount={totalCartCount}
         openCart={() => setIsCartOpen(true)}
-      />
+      />}
 
       {/* Routed Content Pages with Individual URLs */}
       <main className="flex-1">
@@ -155,6 +163,18 @@ export default function App() {
               />
             }
           />
+          {/* Reply portal: customer payment pages + passcode-gated admin */}
+          <Route path="/order/payment-details" element={<PaymentDetailsPage />} />
+          <Route path="/order/confirm-payment" element={<ConfirmPaymentPage />} />
+          <Route path="/admin" element={<AdminShell />}>
+            <Route index element={<AdminDashboard />} />
+            <Route path="orders" element={<AdminOrders />} />
+            <Route path="orders/:id" element={<AdminOrderDetail />} />
+            <Route path="enquiries" element={<AdminEnquiries />} />
+            <Route path="enquiries/:id" element={<AdminEnquiryDetail />} />
+            <Route path="send-payment-email" element={<SendPayment />} />
+            <Route path="reply-enquiry" element={<ReplyEnquiry />} />
+          </Route>
           {/* Policy Pages */}
           <Route path="/shipping" element={<PolicyPage />} />
           <Route path="/refund" element={<PolicyPage />} />
@@ -182,13 +202,13 @@ export default function App() {
       />
 
       {/* Interactive Live Chat Widget */}
-      <LiveChatWidget />
+      {!isAdmin && <LiveChatWidget />}
 
       {/* Cookie Notice */}
-      <CookieBanner />
+      {!isAdmin && <CookieBanner />}
 
       {/* Global Footer with individual page links */}
-      <Footer />
+      {!isAdmin && <Footer />}
     </div>
   );
 }
