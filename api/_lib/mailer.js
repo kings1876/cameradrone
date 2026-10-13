@@ -25,7 +25,7 @@ function getTransport() {
 export async function sendMail({ to, subject, html, text, replyTo, attachments }) {
   if (!isMailConfigured()) return { sent: false, reason: 'not-configured' };
   try {
-    await getTransport().sendMail({
+    const info = await getTransport().sendMail({
       from: process.env.SMTP_FROM || process.env.SMTP_USER,
       to,
       subject,
@@ -34,9 +34,10 @@ export async function sendMail({ to, subject, html, text, replyTo, attachments }
       replyTo,
       attachments
     });
-    return { sent: true };
+    console.log('sendMail ok', JSON.stringify({ to: info.accepted, rejected: info.rejected, response: info.response, from: process.env.SMTP_FROM || process.env.SMTP_USER }));
+    return { sent: Array.isArray(info.accepted) ? info.accepted.length > 0 : true, accepted: info.accepted, rejected: info.rejected, response: info.response };
   } catch (err) {
-    console.error('sendMail failed:', err && err.message);
-    return { sent: false, reason: 'send-failed' };
+    console.error('sendMail failed:', err && err.code, err && err.responseCode, err && err.message);
+    return { sent: false, reason: 'send-failed', error: err && err.message };
   }
 }
