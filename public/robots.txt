@@ -3,4 +3,4 @@ Allow: /
 Disallow: /order
 Disallow: /checkout
 
-Sitemap: https://cameradrone.vercel.app/sitemap.xml
+Sitemap: https://droneforsale.com.au/sitemap.xml
