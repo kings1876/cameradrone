@@ -4,7 +4,7 @@ import { REPLY, money, findMethod, PAYMENT_TERMS } from '../../shared/order.js';
 // (Dark email bodies get force-inverted by Gmail/Zoho dark mode.)
 
 export const SITE_ORIGIN = () =>
-  (process.env.SITE_URL || process.env.VITE_SITE_URL || 'https://droneforsale.com.au').replace(/\/$/, '');
+  (process.env.SITE_URL || process.env.VITE_SITE_URL || 'https://cameradrone.vercel.app').replace(/\/$/, '');
 
 export function escapeHtml(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

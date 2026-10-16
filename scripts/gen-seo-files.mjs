@@ -1,7 +1,7 @@
 // Generates public/sitemap.xml and public/robots.txt from the product, category and blog data.
 import fs from 'fs';
 
-const SITE_URL = (process.env.VITE_SITE_URL || process.env.SITE_URL || 'https://droneforsale.com.au').replace(/\/$/, '');
+const SITE_URL = (process.env.VITE_SITE_URL || process.env.SITE_URL || 'https://cameradrone.vercel.app').replace(/\/$/, '');
 const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
 const products = fs.readFileSync('src/data/products.ts', 'utf8');
