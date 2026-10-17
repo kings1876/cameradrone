@@ -69,6 +69,7 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
     "/products/dji-matrice-4-enterprise-3.jpg"
   ],
   "dji-matrice-4-thermal": [
+    "/products/dji-matrice-4-thermal-cutout.jpg",
     "/products/dji-matrice-4-thermal.jpg",
     "/products/dji-matrice-4-thermal-2.jpg"
   ],
