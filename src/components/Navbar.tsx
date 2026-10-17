@@ -18,8 +18,9 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, openCart }) => {
   return (
     <header className="sticky top-0 z-40 w-full bg-[#0b0f17]/95 backdrop-blur-md border-b border-slate-800">
       <div className="bg-[#080c13] border-b border-slate-800/80">
-        <p className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1 text-[11px] text-slate-400 flex items-center justify-between gap-3">
-          <span className="font-semibold text-slate-300">{BUSINESS.name}</span>
+        <p className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1 text-[11px] sm:text-xs font-semibold text-amber-400 flex items-center justify-center gap-2 text-center">
+          <span>{BUSINESS.name}</span>
+          <span aria-hidden="true" className="text-amber-500/60">·</span>
           <span>{BUSINESS.abnDisplay}</span>
         </p>
       </div>
