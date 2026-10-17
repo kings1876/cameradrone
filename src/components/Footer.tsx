@@ -23,8 +23,8 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-3">
-            <Link to="/" aria-label="Drones for Sale — home" className="inline-block bg-white rounded-lg px-2 py-1">
-              <img src="/logo.png" alt="Drones for Sale" width={700} height={350} loading="lazy" className="h-14 w-auto" />
+            <Link to="/" aria-label="Drones for Sale — home" className="inline-block rounded-lg overflow-hidden">
+              <img src="/logo.png" alt="Drones for Sale" width={800} height={286} loading="lazy" className="h-16 w-auto" />
             </Link>
             <p className="text-xs text-slate-400 leading-relaxed font-normal">
               Australian supplier of DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, and accessories. Founded on <strong>17 May 2018 in Australia</strong>.

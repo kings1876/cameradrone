@@ -29,14 +29,14 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, openCart }) => {
         <Link
           to="/"
           aria-label="Drones for Sale — home"
-          className="shrink-0 bg-white rounded-lg px-2 py-0.5 hover:opacity-90 transition-opacity"
+          className="shrink-0 rounded-lg overflow-hidden hover:opacity-90 transition-opacity"
         >
           <img
             src="/logo.png"
             alt="Drones for Sale"
-            width={700}
-            height={350}
-            className="h-12 w-auto"
+            width={800}
+            height={286}
+            className="h-14 w-auto"
           />
         </Link>
 
