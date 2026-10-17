@@ -151,9 +151,7 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
     "/products/flir-vue-tz20-3.jpg"
   ],
   "dji-mavic-pro-flir-boson-thermal-ninja": [
-    "/products/dji-mavic-pro-flir-boson-thermal-ninja.jpg",
-    "/products/dji-mavic-pro-flir-boson-thermal-ninja-2.jpg",
-    "/products/dji-mavic-pro-flir-boson-thermal-ninja-3.jpg"
+    "/products/dji-mavic-pro-flir-boson-thermal-ninja-2.jpg"
   ],
   "adti-agrowing-multispectral-matrice-300": [
     "/products/adti-agrowing-multispectral-matrice-300.jpg"
@@ -188,21 +186,15 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
     "/products/slantrange-4p-multispectral-sensor-2.jpg"
   ],
   "phantom-4-integration-kit-rededge-mx": [
-    "/products/phantom-4-integration-kit-rededge-mx.jpg",
     "/products/phantom-4-integration-kit-rededge-mx-2.jpg"
   ],
   "phantom-4-integration-kit-parrot-sequoia": [
-    "/products/phantom-4-integration-kit-parrot-sequoia.jpg",
     "/products/phantom-4-integration-kit-parrot-sequoia-2.jpg"
   ],
   "mavic-2-pro-parrot-sequoia-integration-kit": [
     "/products/mavic-2-pro-parrot-sequoia-integration-kit.jpg",
     "/products/mavic-2-pro-parrot-sequoia-integration-kit-2.jpg",
     "/products/mavic-2-pro-parrot-sequoia-integration-kit-3.jpg"
-  ],
-  "mavic-pro-integration-kit-parrot-sequoia": [
-    "/products/mavic-pro-integration-kit-parrot-sequoia.jpg",
-    "/products/mavic-pro-integration-kit-parrot-sequoia-2.jpg"
   ],
   "autel-evo-max-4t-drone": [
     "/products/autel-evo-max-4t-drone.jpg",
