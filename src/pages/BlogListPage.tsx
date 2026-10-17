@@ -34,8 +34,11 @@ export const BlogListPage: React.FC = () => {
               className="group bg-[#0f172a] border border-slate-800 rounded-xl overflow-hidden hover:border-slate-700 transition-all flex flex-col justify-between hover:-translate-y-1 shadow-sm hover:shadow-xl"
             >
               {post.image && (
-                <div className="bg-white h-44 flex items-center justify-center p-3 border-b border-slate-800">
-                  <img src={post.image} alt={post.imageAlt ?? post.title} loading="lazy" className="w-full h-full object-contain" />
+                <div className="bg-slate-900 h-44 overflow-hidden border-b border-slate-800">
+                  <picture>
+                    <source srcSet={post.image.replace(/\.webp$/, '.avif')} type="image/avif" />
+                    <img src={post.image} alt={post.imageAlt ?? post.title} width={1600} height={900} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  </picture>
                 </div>
               )}
               <div className="p-6 flex-1 flex flex-col justify-between">

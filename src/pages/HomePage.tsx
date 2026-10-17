@@ -291,8 +291,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
                 className="group p-4 bg-slate-900/60 rounded-xl border border-slate-800 hover:border-slate-700 transition-colors block space-y-2"
               >
                 {post.image && (
-                  <div className="bg-white rounded-lg h-32 flex items-center justify-center p-2 mb-1">
-                    <img src={post.image} alt={post.imageAlt ?? post.title} loading="lazy" className="w-full h-full object-contain" />
+                  <div className="bg-slate-900 rounded-lg h-32 overflow-hidden mb-1">
+                    <picture>
+                    <source srcSet={post.image.replace(/\.webp$/, '.avif')} type="image/avif" />
+                    <img src={post.image} alt={post.imageAlt ?? post.title} width={1600} height={900} loading="lazy" className="w-full h-full object-cover" />
+                  </picture>
                   </div>
                 )}
                 <span className="text-[10px] font-mono text-amber-400 uppercase tracking-wider block">

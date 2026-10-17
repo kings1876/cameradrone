@@ -9,6 +9,21 @@ interface HeroProps {
 export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) => {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-[#0b0f17] via-[#0f172a] to-[#0b0f17] pt-12 pb-16 lg:pt-16 lg:pb-24 border-b border-slate-800">
+      {/* Lifestyle background photo, darkened so the headline stays readable */}
+      <picture>
+        <source srcSet="/images/home-hero.avif" type="image/avif" />
+        <img
+          src="/images/home-hero.webp"
+          alt=""
+          aria-hidden="true"
+          width={1920}
+          height={1080}
+          fetchPriority="high"
+          className="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none select-none"
+        />
+      </picture>
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0b0f17]/70 via-[#0b0f17]/40 to-[#0b0f17] pointer-events-none" />
+
       {/* Background optical radial gradient */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-sky-500/10 blur-[130px] pointer-events-none rounded-full" />
       <div className="absolute top-1/2 right-10 w-[450px] h-[300px] bg-amber-500/10 blur-[140px] pointer-events-none rounded-full" />
