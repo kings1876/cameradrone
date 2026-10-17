@@ -22,7 +22,7 @@ export const AboutSection: React.FC = () => {
 
             <div className="space-y-4 text-sm sm:text-base text-slate-300 font-normal leading-relaxed">
               <p>
-                Founded on <strong>17 May 2018 in Australia</strong>, Camera Drone Sales Australia supplies genuine drones and accessories to Australian creators, surveyors and farmers.
+                Founded on <strong>17 May 2018 in Australia</strong>, Drones for Sale supplies genuine drones and accessories to Australian creators, surveyors and farmers.
               </p>
               <p>
                 Our catalog runs from compact travel drones like the DJI Mini 4 Pro and professional platforms like the DJI Mavic 3 Pro and Inspire 3, to DJI Matrice enterprise and thermal drones, XAG and BROUAV agricultural spraying drones, and batteries and accessories. Every item is <strong>genuine Australian stock</strong> supported by local consumer guarantees.

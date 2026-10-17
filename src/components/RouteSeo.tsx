@@ -35,7 +35,7 @@ function metaFor(pathname: string, search: string): Meta {
 
   if (pathname === '/') {
     return {
-      title: 'DJI, Enterprise & Agricultural Drones | Camera Drones Australia',
+      title: 'DJI, Enterprise & Agricultural Drones | Drones for Sale',
       description:
         'Buy DJI camera drones, Matrice enterprise and thermal drones, Zenmuse payloads and agricultural spraying drones in Australia. Australian stock, free shipping.',
       jsonLd: [
@@ -70,7 +70,7 @@ function metaFor(pathname: string, search: string): Meta {
       };
     }
     return {
-      title: 'Shop Drones, Cameras & Sensors in Australia | Camera Drones Australia',
+      title: 'Shop Drones, Cameras & Sensors in Australia | Drones for Sale',
       description:
         'Browse DJI camera drones, enterprise and thermal drones, Zenmuse cameras and sensors, agricultural spraying drones, batteries and accessories.'
     };
@@ -119,7 +119,7 @@ function metaFor(pathname: string, search: string): Meta {
 
   if (pathname === '/blog') {
     return {
-      title: 'Drone Buying Guides & CASA Rules | Camera Drones Australia',
+      title: 'Drone Buying Guides & CASA Rules | Drones for Sale',
       description:
         'Buying guides for DJI, enterprise and agricultural drones in Australia, plus CASA rules explained for recreational and commercial pilots.'
     };
@@ -151,7 +151,7 @@ function metaFor(pathname: string, search: string): Meta {
 
   if (pathname === '/faq') {
     return {
-      title: 'CASA Drone Rules, Shipping & Warranty FAQ | Camera Drones Australia',
+      title: 'CASA Drone Rules, Shipping & Warranty FAQ | Drones for Sale',
       description: 'Answers on CASA drone flight rules, registration, shipping, payment and warranty when buying a drone in Australia.',
       jsonLd: [
         {
@@ -169,14 +169,14 @@ function metaFor(pathname: string, search: string): Meta {
 
   if (pathname === '/about') {
     return {
-      title: 'About Camera Drones Australia | Australian Drone Supplier',
-      description: 'Camera Drones Australia supplies DJI camera drones, enterprise and thermal drones, agricultural spraying drones and accessories across Australia.'
+      title: 'About Drones for Sale | Australian Drone Supplier',
+      description: 'Drones for Sale supplies DJI camera drones, enterprise and thermal drones, agricultural spraying drones and accessories across Australia.'
     };
   }
 
   if (pathname === '/contact') {
     return {
-      title: 'Contact Camera Drones Australia | Drone Enquiries',
+      title: 'Contact Drones for Sale | Drone Enquiries',
       description: 'Contact our team for help choosing a drone, enterprise payload or spraying system, or to confirm stock and delivery to your location.'
     };
   }
@@ -190,7 +190,7 @@ function metaFor(pathname: string, search: string): Meta {
     };
     return {
       title: `${names[pathname]} | ${SITE_NAME}`,
-      description: `${names[pathname]} for Camera Drones Australia.`
+      description: `${names[pathname]} for Drones for Sale.`
     };
   }
 

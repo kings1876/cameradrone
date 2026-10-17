@@ -23,7 +23,7 @@ function shell(title, bodyHtml) {
 ${bodyHtml}
 </td></tr>
 <tr><td style="padding:16px 28px;background:#f9fafb;font:12px Arial,Helvetica,sans-serif;color:#6b7280;border-top:1px solid #e5e7eb;">
-${escapeHtml(REPLY.siteName)} · Drones for Sale · ABN 91 658 710 173 · <a href="${SITE_ORIGIN()}" style="color:#6b7280;">${SITE_ORIGIN().replace(/^https?:\/\//, '')}</a>
+${escapeHtml(REPLY.siteName)} · ABN 91 658 710 173 · <a href="${SITE_ORIGIN()}" style="color:#6b7280;">${SITE_ORIGIN().replace(/^https?:\/\//, '')}</a>
 </td></tr>
 </table></td></tr></table></body></html>`;
 }

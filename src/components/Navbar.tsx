@@ -28,12 +28,12 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, openCart }) => {
         {/* Zone 1: Single text element Brand Zone linking to Home Page */}
         <Link
           to="/"
-          aria-label="Camera Drones Australia — home"
+          aria-label="Drones for Sale — home"
           className="shrink-0 bg-white rounded-lg px-2 py-0.5 hover:opacity-90 transition-opacity"
         >
           <img
             src="/logo.png"
-            alt="Camera Drones Australia"
+            alt="Drones for Sale"
             width={700}
             height={350}
             className="h-12 w-auto"

@@ -82,7 +82,7 @@ export const FAQ_LIST: FAQItem[] = [
     id: 'faq-3',
     category: 'Shipping & Delivery',
     question: 'How does Free Nationwide Shipping work across Australia?',
-    answer: 'All products purchased on Camera Drone Sales Australia qualify for 100% Free Nationwide Express Courier Delivery. We ship to every Australian state and territory: New South Wales, Victoria, Queensland, Western Australia, South Australia, Tasmania, Australian Capital Territory, and the Northern Territory. Metro orders (Sydney, Melbourne, Brisbane) typically arrive within 1–2 business days, while regional and WA deliveries arrive within 2–4 business days with signature on delivery and parcel tracking.'
+    answer: 'All products purchased on Drones for Sale qualify for 100% Free Nationwide Express Courier Delivery. We ship to every Australian state and territory: New South Wales, Victoria, Queensland, Western Australia, South Australia, Tasmania, Australian Capital Territory, and the Northern Territory. Metro orders (Sydney, Melbourne, Brisbane) typically arrive within 1–2 business days, while regional and WA deliveries arrive within 2–4 business days with signature on delivery and parcel tracking.'
   },
   {
     id: 'faq-4',
@@ -108,6 +108,6 @@ export const BRAND_MILESTONES = [
   {
     year: '17 May 2018',
     title: 'Founded in Australia',
-    description: 'Camera Drone Sales Australia was established to supply genuine camera drones and accessories across the country.'
+    description: 'Drones for Sale was established to supply genuine camera drones and accessories across the country.'
   }
 ];

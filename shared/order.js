@@ -2,7 +2,7 @@
 // No imports and no environment access, so the identical code runs in both places.
 
 export const REPLY = {
-  siteName: 'Camera Drones Australia',
+  siteName: 'Drones for Sale',
   orderPrefix: 'CDA',
   currency: { code: 'AUD', symbol: '$', locale: 'en-AU' },
   brand: { primary: '#f59e0b', headerDark: '#0b0f17' },
