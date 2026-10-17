@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
               <img src="/logo.png" alt="Drones for Sale" width={800} height={286} loading="lazy" className="h-16 w-auto" />
             </Link>
             <p className="text-xs text-slate-400 leading-relaxed font-normal">
-              Australian supplier of DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, and accessories.
+              Australian supplier of DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, and accessories. Founded on <strong>17 May 2018 in Australia</strong>.
             </p>
             <div className="pt-2 space-y-1.5 text-[11px] text-slate-400">
               <div className="flex items-center gap-2">

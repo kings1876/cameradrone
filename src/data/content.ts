@@ -103,3 +103,11 @@ export const FAQ_LIST: FAQItem[] = [
     answer: 'The DJI Mini 4 Pro is the most portable option and weighs under 249g. The DJI Air 3 is a larger foldable drone for creators who want more capability. The DJI Mavic 3 Pro is our flagship consumer model for professional photo and video work. For commercial inspection, mapping or agriculture, see our Enterprise & Thermal and Agricultural Spraying categories, or contact us and we will recommend a setup for your needs.'
   }
 ];
+
+export const BRAND_MILESTONES = [
+  {
+    year: '17 May 2018',
+    title: 'Founded in Australia',
+    description: 'Drones for Sale was established to supply genuine camera drones and accessories across the country.'
+  }
+];
