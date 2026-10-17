@@ -1,3 +1,4 @@
+import { BUSINESS } from '../business';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShieldAlert, Zap, Truck, MapPin } from 'lucide-react';
@@ -171,7 +172,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Line */}
         <div className="pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-400">
-          <p>© 2018–2026 Camera Drone Sales Australia. All rights reserved.</p>
+          <p>© 2026 {BUSINESS.name} · {BUSINESS.abnDisplay}. All rights reserved.</p>
           <p>Prices quoted in AUD · Free Express Shipping to all Australian addresses.</p>
         </div>
       </div>

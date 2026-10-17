@@ -1,6 +1,7 @@
 import React from 'react';
 import { ShieldCheck, Truck, Zap, Award, Compass, MapPin, CheckCircle } from 'lucide-react';
 import { BRAND_MILESTONES } from '../data/content';
+import { BUSINESS } from '../business';
 
 export const AboutSection: React.FC = () => {
   return (
@@ -97,7 +98,7 @@ export const AboutSection: React.FC = () => {
 
               <div className="pt-2 text-[11px] text-slate-400 flex items-center gap-1.5">
                 <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                <span>Operating Nationally Across Australia · Founded 17 May 2018</span>
+                <span>Operating Nationally Across Australia · {BUSINESS.name} · {BUSINESS.abnDisplay}</span>
               </div>
             </div>
           </div>
