@@ -15,7 +15,7 @@ export const LiveChatWidget: React.FC = () => {
     {
       id: 'msg-1',
       sender: 'agent',
-      text: "G'day! Welcome to Drones for Sale. I'm Marcus from the Sydney flight desk. How can I help you with drone specs, CASA rules, or claiming your 10% crypto discount today?",
+      text: "G'day! Welcome to Drones for Sale. How can I help you with drone specs, CASA rules, or claiming your 10% crypto discount today?",
       time: 'Just now'
     }
   ]);

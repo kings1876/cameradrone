@@ -1,6 +1,5 @@
 import React from 'react';
 import { ShieldCheck, Truck, Zap, Award, Compass, MapPin, CheckCircle } from 'lucide-react';
-import { BRAND_MILESTONES } from '../data/content';
 import { BUSINESS } from '../business';
 
 export const AboutSection: React.FC = () => {
@@ -12,8 +11,6 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-7 space-y-6">
             <div className="flex items-center gap-2 text-xs text-amber-400 font-semibold uppercase tracking-wider">
               <span>Authentic Australian Brand Story</span>
-              <span aria-hidden="true">·</span>
-              <span>Founded 17 May 2018</span>
             </div>
 
             <h2 className="text-3xl sm:text-4xl font-black text-white font-display tracking-tight leading-tight">
@@ -22,7 +19,7 @@ export const AboutSection: React.FC = () => {
 
             <div className="space-y-4 text-sm sm:text-base text-slate-300 font-normal leading-relaxed">
               <p>
-                Founded on <strong>17 May 2018 in Australia</strong>, Drones for Sale supplies genuine drones and accessories to Australian creators, surveyors and farmers.
+                Drones for Sale supplies genuine drones and accessories to Australian creators, surveyors and farmers.
               </p>
               <p>
                 Our catalog runs from compact travel drones like the DJI Mini 4 Pro and professional platforms like the DJI Mavic 3 Pro and Inspire 3, to DJI Matrice enterprise and thermal drones, XAG and BROUAV agricultural spraying drones, and batteries and accessories. Every item is <strong>genuine Australian stock</strong> supported by local consumer guarantees.
@@ -101,24 +98,6 @@ export const AboutSection: React.FC = () => {
                 <span>Operating Nationally Across Australia · {BUSINESS.name} · {BUSINESS.abnDisplay}</span>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Company Milestones Timeline */}
-        <div className="pt-8 border-t border-slate-800">
-          <div className="max-w-2xl mb-8">
-            <span className="text-xs font-semibold text-amber-400 uppercase tracking-wider">Historical Track Record</span>
-            <h3 className="text-2xl font-bold text-white font-display mt-1">Our Journey Since 2018</h3>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {BRAND_MILESTONES.map((milestone, idx) => (
-              <div key={idx} className="p-4 bg-slate-900/60 rounded-xl border border-slate-800 space-y-2">
-                <span className="text-xs font-bold text-amber-400 font-mono block">{milestone.year}</span>
-                <h4 className="text-sm font-bold text-white leading-snug">{milestone.title}</h4>
-                <p className="text-xs text-slate-400 leading-relaxed">{milestone.description}</p>
-              </div>
-            ))}
           </div>
         </div>
       </div>

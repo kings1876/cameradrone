@@ -21,8 +21,6 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) =
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 text-xs font-medium text-slate-400">
               <span className="text-amber-400 font-semibold tracking-wide uppercase">CASA Compliant Retailer</span>
               <span aria-hidden="true">·</span>
-              <span>Founded 17 May 2018 in Australia</span>
-              <span aria-hidden="true">·</span>
               <span className="text-emerald-400 font-medium">10% Crypto Discount</span>
             </div>
 

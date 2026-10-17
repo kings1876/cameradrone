@@ -216,13 +216,13 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <div className="text-center max-w-3xl mx-auto space-y-2">
             <span className="text-xs text-amber-400 font-semibold uppercase tracking-wider">
-              Supplying Australian Pilots Since 2018
+              Supplying Australian Pilots
             </span>
             <h2 className="text-2xl sm:text-4xl font-black text-white font-display">
               Why Australian Pilots Choose Us
             </h2>
             <p className="text-xs sm:text-sm text-slate-400">
-              Founded on 17 May 2018 in Australia, we eliminate the risks of gray-market imports and delayed international shipping.
+              We supply genuine Australian stock, so you avoid the risks of gray-market imports and delayed international shipping.
             </p>
           </div>
 
