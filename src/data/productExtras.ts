@@ -1,6 +1,32 @@
 // Third description paragraph per product: buying context written around the primary and supporting keywords
 // in keywords.ts. Kept separate from productDetails.ts so each page has unique, keyword-aware copy.
 export const PRODUCT_EXTRAS: Record<string, string> = {
+  'dji-agras-t100':
+    'DJI Agras T100 price enquiries are quoted with batteries, charger and set-up, so use the quote form for a full package. It also suits searches for dji t100 price and agricultural drones.',
+  'dji-agras-t70p':
+    'Buyers searching for agriculture spraying drone will find it here. It also suits searches for crop spraying drone and agricultural drones.',
+  'dji-agras-t50':
+    'Buyers searching for dji agras t50 price will find it here. It also suits searches for agricultural drones and drone sprayer.',
+  'dji-agras-t25p':
+    'Buyers searching for spray drone will find it here. It also suits searches for drone sprayer and agriculture drone spraying.',
+  'dji-dock-3':
+    'Dock pricing is for the dock unit; aircraft, packages and training are quoted separately, so use the quote form. Buyers searching for dji enterprise will find it here. It also suits searches for dji matrice and commercial drones for sale.',
+  'dji-dock-2':
+    'Dock pricing is for the dock unit; aircraft, packages and training are quoted separately, so use the quote form. Buyers searching for dji enterprise drones will find it here. It also suits searches for dji matrice and commercial drones australia.',
+  'dji-flycart-30':
+    'Request a quote for payload options, batteries and training. Buyers searching for drones for logistics will find it here. It also suits searches for heavy lift drone and heavy payload drones.',
+  'dji-flycart-100-basic-package':
+    'Request a quote to confirm package contents, payload options and training. Buyers searching for heavy lift drone will find it here. It also suits searches for drones for logistics and heavy payload drones.',
+  'livox-mid-70-lidar':
+    'Buyers searching for lidar 3d scanner will find it here. It also suits searches for drone lidar and lidar drone.',
+  'livox-tele-15-lidar':
+    'Buyers searching for drone lidar will find it here. It also suits searches for lidar drone and drone with lidar.',
+  'livox-mid-360s-lidar':
+    'Buyers searching for drone with lidar will find it here. It also suits searches for drone lidar and lidar drone.',
+  'livox-avia-lidar':
+    'Buyers searching for lidar drone will find it here. It also suits searches for drone with lidar.',
+  'livox-avia-2-lidar':
+    'Buyers searching for drone lidar scanner will find it here. It also suits searches for lidar drone.',
   'dji-mavic-4-pro-dji-rc-2':
     'Pair it with Mavic 4 Pro batteries, propellers and a parallel charging hub from our accessories range. It also suits searches for pro mavic drone.',
   'dji-mavic-4-pro-fly-more-combo-dji-rc-2':

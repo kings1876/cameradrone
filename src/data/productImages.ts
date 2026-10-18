@@ -1,5 +1,44 @@
 // Generated from the product photo folder. Keys are product slugs; the first image is the primary one.
 export const PRODUCT_IMAGES: Record<string, string[]> = {
+  "dji-agras-t100": [
+    "/products/dji-dji-agras-t100.jpg"
+  ],
+  "dji-agras-t70p": [
+    "/products/dji-dji-agras-t70p.jpg"
+  ],
+  "dji-agras-t50": [
+    "/products/dji-dji-agras-t50.jpg"
+  ],
+  "dji-agras-t25p": [
+    "/products/dji-dji-agras-t25p.jpg"
+  ],
+  "dji-dock-3": [
+    "/products/dji-dji-dock-3.jpg"
+  ],
+  "dji-dock-2": [
+    "/products/dji-dji-dock-2.jpg"
+  ],
+  "dji-flycart-30": [
+    "/products/dji-dji-flycart-30.jpg"
+  ],
+  "dji-flycart-100-basic-package": [
+    "/products/dji-dji-flycart-100-basic-package.jpg"
+  ],
+  "livox-mid-70-lidar": [
+    "/products/dji-livox-mid-70-lidar.jpg"
+  ],
+  "livox-tele-15-lidar": [
+    "/products/dji-livox-tele-15-lidar.jpg"
+  ],
+  "livox-mid-360s-lidar": [
+    "/products/dji-livox-mid-360s-lidar.jpg"
+  ],
+  "livox-avia-lidar": [
+    "/products/dji-livox-avia-lidar.jpg"
+  ],
+  "livox-avia-2-lidar": [
+    "/products/dji-livox-avia-2-lidar.jpg"
+  ],
   "dji-mavic-4-pro-dji-rc-2": [
     "/products/dji-dji-mavic-4-pro-dji-rc-2.jpg"
   ],

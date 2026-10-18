@@ -496,3 +496,21 @@ Neo 2 drone-only photo replaced with the high-resolution supplied image.
 | Zenmuse S1 | 2,099 | search and rescue drone (90, KD 17) | fire fighting uav; dji enterprise; dji matrice |
 | Zenmuse V1 | 1,499 | fire fighting uav (90, KD 18) | search and rescue drone; dji enterprise; dji matrice |
 | Manifold 3 | 2,190 | dji enterprise (260, KD 17) | dji matrice; dji enterprise drones; dji parts |
+
+## Agras, Docks, FlyCart and Livox added Oct 2026 (D1 Store AU prices; DJI/Livox official images)
+
+| Product | AUD | Primary keyword | Supporting |
+|---|---:|---|---|
+| DJI Agras T100 | 30,380 | dji agras t100 price (90, KD 4) | dji t100 price; agricultural drones; drone sprayer |
+| DJI Agras T70P | 20,380 | agriculture spraying drone (170, KD 22) | crop spraying drone; agricultural drones; drone spraying |
+| DJI Agras T50 | 21,999 | dji agras t50 price (70, KD 6) | agricultural drones; drone sprayer; dji agricultural drones |
+| DJI Agras T25P | 17,530 | spray drone (170, KD 7) | drone sprayer; agriculture drone spraying; spraying drones |
+| DJI Dock 3 | 19,999 | dji enterprise (260, KD 17) | dji matrice; commercial drones for sale; industrial drones for sale |
+| DJI Dock 2 | 12,850 | dji enterprise drones (70, KD 15) | dji matrice; commercial drones australia; industrial drones for sale |
+| DJI FlyCart 30 | 26,830 | drones for logistics (50, KD 17) | heavy lift drone; heavy payload drones; dji enterprise |
+| DJI FlyCart 100 (Basic Package) | 53,130 | heavy lift drone (140, KD 15) | drones for logistics; heavy payload drones; dji enterprise |
+| Livox Mid-70 LiDAR | 1,699 | lidar 3d scanner (90, KD 20) | drone lidar; lidar drone; drone with lidar |
+| Livox TELE-15 LiDAR | 2,099 | drone lidar (170, KD 20) | lidar drone; drone with lidar; lidar 3d scanner |
+| Livox Mid-360S LiDAR | 899 | drone with lidar (70, KD 20) | drone lidar; lidar drone; lidar 3d scanner |
+| Livox Avia LiDAR | 2,499 | lidar drone (320, KD 14) | drone lidar; drone with lidar; lidar 3d scanner |
+| Livox Avia 2 LiDAR | 4,720 | drone lidar scanner (50, KD 10) | drone lidar; lidar drone; lidar 3d scanner |

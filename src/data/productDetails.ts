@@ -15,6 +15,110 @@ export interface ProductDetail {
 const COMBO_BOX = ['Aircraft', 'Three Intelligent Flight Batteries', 'Two-way charging hub', 'Shoulder bag'];
 
 export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
+  'dji-agras-t100': {
+    overview:
+      'The DJI Agras T100 is DJI\'s flagship agricultural drone for spraying, spreading and lifting, with a 100 L spray tank and a 150 L spreading tank. It combines a 40 L/min spray flow with LiDAR, a penta-vision system and millimetre-wave radar for round-the-clock operation.',
+    bestFor:
+      'For large farms and spraying contractors who want the highest capacity in the Agras range. Request a quote for training, batteries and charging.',
+    highlights: ['100 L spraying tank, 40 L/min flow rate', '150 L spreading tank, 400 kg/min flow rate', 'Up to 100 kg lifting and 20 m/s operation speed'],
+    specs: [['Spraying tank', '100 L, 40 L/min flow rate'], ['Spreading tank', '150 L, 400 kg/min flow rate'], ['Lifting', 'Up to 100 kg'], ['Max operation speed', '20 m/s'], ['Obstacle sensing', 'LiDAR, penta-vision system and millimetre-wave radar']]
+  },
+  'dji-agras-t70p': {
+    overview:
+      'The DJI Agras T70P is an upgraded Agras drone for spraying, spreading and lifting, with a 70 L spray tank and dual atomisation centrifugal sprinklers. It carries up to 70 kg and DJI cites about a 20% increase in operating efficiency.',
+    bestFor:
+      'For farms and contractors covering fields and orchards who want a high-capacity sprayer with Safety System 3.0.',
+    highlights: ['70 L spraying tank, 40 L/min flow rate', '100 L spreading tank, 400 kg/min flow rate', 'Up to 65 kg lifting, 20 m/s operation speed'],
+    specs: [['Spraying tank', '70 L, 40 L/min flow rate'], ['Spreading tank', '100 L, 400 kg/min flow rate'], ['Lifting', 'Up to 65 kg'], ['Max payload', '70 kg'], ['Max operation speed', '20 m/s']]
+  },
+  'dji-agras-t50': {
+    overview:
+      'The DJI Agras T50 is a coaxial twin-rotor agricultural drone that carries a 40 kg spraying load or a 50 kg spreading load. A dual atomising spray system and a 16 L/min spray rate make it a proven workhorse for field and orchard work.',
+    bestFor:
+      'For farmers and contractors who want a capable all-round spray and spread drone, including orchard mode and variable rate application.',
+    highlights: ['40 kg spraying or 50 kg spreading payload', '16 L/min spray rate, 108 kg/min spreading rate', '2 km O3 transmission with orchard mode'],
+    specs: [['Spraying payload', '40 kg'], ['Spreading payload', '50 kg'], ['Spraying flow rate', '16 L/min'], ['Spreading flow rate', '108 kg/min'], ['Transmission', '2 km O3']]
+  },
+  'dji-agras-t25p': {
+    overview:
+      'The DJI Agras T25P is a compact, foldable agricultural drone built for solo operators, with 20 kg spraying and 25 kg spreading capacity. Quad-antenna O4 transmission, millimetre-wave radars and a tri-vision system support automatic, one-click operation.',
+    bestFor:
+      'For smaller farms and solo operators who want a portable sprayer that is easy to transport and set up.',
+    highlights: ['20 kg spraying and 25 kg spreading payload', 'Foldable and easy to transport', 'Safety System 3.0 with night-vision FPV camera'],
+    specs: [['Spraying payload', '20 kg'], ['Spreading payload', '25 kg'], ['Design', 'Foldable, solo-operator friendly'], ['Transmission', 'Quad-antenna O4']]
+  },
+  'dji-dock-3': {
+    overview:
+      'The DJI Dock 3 is an automated drone dock that launches, lands, charges and houses a compatible Matrice 4D series aircraft for remote operations. It lets security, inspection and emergency teams run repeat missions without a pilot on site.',
+    bestFor:
+      'For organisations planning autonomous drone-in-a-box programs for site security, inspection and response.',
+    highlights: ['Automated launch, landing and charging', 'Designed for the Matrice 4D and 4TD', 'Remote operation through DJI FlightHub 2'],
+    specs: [['Type', 'Automated drone dock'], ['Compatible aircraft', 'DJI Matrice 4D series'], ['Kit', 'Dock unit; aircraft sold separately']]
+  },
+  'dji-dock-2': {
+    overview:
+      'The DJI Dock 2 is an automated drone dock for the Matrice 3D series that enables remote, unattended missions. It is the more affordable DJI dock for routine inspection, mapping and security patrols.',
+    bestFor:
+      'For organisations that want to automate repeat missions with the Matrice 3D series.',
+    highlights: ['Automated launch, landing and charging', 'Designed for the Matrice 3D and 3TD', 'Remote operation through DJI FlightHub 2'],
+    specs: [['Type', 'Automated drone dock'], ['Compatible aircraft', 'DJI Matrice 3D series'], ['Kit', 'Dock unit; aircraft sold separately']]
+  },
+  'dji-flycart-30': {
+    overview:
+      'The DJI FlyCart 30 is DJI\'s heavy-lift delivery drone for moving cargo over difficult terrain. It uses a winch system for precise drop-off and suits remote logistics and supply runs.',
+    bestFor:
+      'For logistics, mining, utilities and emergency teams that need to move heavy payloads by air.',
+    highlights: ['Heavy-lift cargo delivery', 'Winch system for precise drop-off', 'Built for difficult terrain'],
+    specs: [['Type', 'Heavy-lift delivery drone'], ['Use', 'Cargo delivery and supply runs']]
+  },
+  'dji-flycart-100-basic-package': {
+    overview:
+      'The DJI FlyCart 100 (Basic Package) is DJI\'s next-generation delivery drone, supplied here as the Basic Package. It extends the FlyCart range for larger loads and longer logistics runs.',
+    bestFor:
+      'For logistics and industrial operators that need a larger delivery platform.',
+    highlights: ['Next-generation heavy-lift delivery platform', 'Basic Package', 'Built for demanding logistics'],
+    specs: [['Type', 'Heavy-lift delivery drone'], ['Kit', 'Basic Package']]
+  },
+  'livox-mid-70-lidar': {
+    overview:
+      'The Livox Mid-70 LiDAR is a compact Livox LiDAR sensor with a 70-degree circular field of view for drone mapping and robotics. Its non-repetitive scanning gives dense point clouds for mapping and obstacle detection.',
+    bestFor:
+      'For developers and survey integrators building LiDAR payloads.',
+    highlights: ['70-degree circular field of view', 'Compact and lightweight', 'For drone mapping and robotics'],
+    specs: [['Type', 'LiDAR sensor'], ['Field of view', '70.4 degrees (circular)']]
+  },
+  'livox-tele-15-lidar': {
+    overview:
+      'The Livox TELE-15 LiDAR is a long-range Livox LiDAR sensor with a narrow field of view for detecting distant objects. It suits applications that need reach rather than width, such as power-line and corridor mapping.',
+    bestFor:
+      'For integrators and survey teams building long-range LiDAR payloads.',
+    highlights: ['Long-range, narrow field of view', 'Compact LiDAR form factor', 'For corridor and long-distance sensing'],
+    specs: [['Type', 'LiDAR sensor'], ['Profile', 'Long range, narrow field of view']]
+  },
+  'livox-mid-360s-lidar': {
+    overview:
+      'The Livox Mid-360S LiDAR is a Livox LiDAR sensor with a 360-degree horizontal field of view for mapping and robotics. Its wide view makes it well suited to mobile mapping and autonomous navigation.',
+    bestFor:
+      'For developers and integrators working on mapping and autonomy.',
+    highlights: ['360-degree horizontal field of view', 'Compact LiDAR', 'For mapping and robotics'],
+    specs: [['Type', 'LiDAR sensor'], ['Field of view', '360 degrees horizontal']]
+  },
+  'livox-avia-lidar': {
+    overview:
+      'The Livox Avia LiDAR is a Livox LiDAR sensor designed for drone mapping and survey payloads. It records up to 240,000 points per second for detailed point clouds.',
+    bestFor:
+      'For surveyors and integrators who want a proven drone LiDAR sensor.',
+    highlights: ['Up to 240,000 points per second', 'Designed for drone payloads', 'Detailed point clouds'],
+    specs: [['Type', 'LiDAR sensor'], ['Point rate', 'Up to 240,000 points/s']]
+  },
+  'livox-avia-2-lidar': {
+    overview:
+      'The Livox Avia 2 LiDAR is the next-generation Livox Avia LiDAR sensor for drone mapping and survey payloads. It builds on the Avia for higher-grade surveying and inspection data.',
+    bestFor:
+      'For survey firms and integrators upgrading their LiDAR sensors.',
+    highlights: ['Next-generation Livox LiDAR', 'Designed for drone payloads', 'For survey and inspection'],
+    specs: [['Type', 'LiDAR sensor'], ['Series', 'Livox Avia']]
+  },
   'dji-mavic-4-pro-dji-rc-2': {
     overview:
       'The DJI Mavic 4 Pro (DJI RC 2) is DJI\'s flagship triple-camera drone, built around a 100 MP Hasselblad main camera and a 360-degree rotating Infinity Gimbal, supplied with the DJI RC 2. Often searched as the DJI Mavic Pro 4, it adds front-facing LiDAR for low-light obstacle sensing and flies for up to 51 minutes.',

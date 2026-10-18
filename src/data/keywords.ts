@@ -7,6 +7,19 @@ export interface KeywordSet {
 }
 
 export const PRODUCT_KEYWORDS: Record<string, KeywordSet> = {
+  "dji-agras-t100": { primary: "dji agras t100 price", supporting: ["dji t100 price", "agricultural drones", "drone sprayer"] },
+  "dji-agras-t70p": { primary: "agriculture spraying drone", supporting: ["crop spraying drone", "agricultural drones", "drone spraying"] },
+  "dji-agras-t50": { primary: "dji agras t50 price", supporting: ["agricultural drones", "drone sprayer", "dji agricultural drones"] },
+  "dji-agras-t25p": { primary: "spray drone", supporting: ["drone sprayer", "agriculture drone spraying", "spraying drones"] },
+  "dji-dock-3": { primary: "dji enterprise", supporting: ["dji matrice", "commercial drones for sale", "industrial drones for sale"] },
+  "dji-dock-2": { primary: "dji enterprise drones", supporting: ["dji matrice", "commercial drones australia", "industrial drones for sale"] },
+  "dji-flycart-30": { primary: "drones for logistics", supporting: ["heavy lift drone", "heavy payload drones", "dji enterprise"] },
+  "dji-flycart-100-basic-package": { primary: "heavy lift drone", supporting: ["drones for logistics", "heavy payload drones", "dji enterprise"] },
+  "livox-mid-70-lidar": { primary: "lidar 3d scanner", supporting: ["drone lidar", "lidar drone", "drone with lidar"] },
+  "livox-tele-15-lidar": { primary: "drone lidar", supporting: ["lidar drone", "drone with lidar", "lidar 3d scanner"] },
+  "livox-mid-360s-lidar": { primary: "drone with lidar", supporting: ["drone lidar", "lidar drone", "lidar 3d scanner"] },
+  "livox-avia-lidar": { primary: "lidar drone", supporting: ["drone lidar", "drone with lidar", "lidar 3d scanner"] },
+  "livox-avia-2-lidar": { primary: "drone lidar scanner", supporting: ["drone lidar", "lidar drone", "lidar 3d scanner"] },
   "dji-mavic-4-pro-dji-rc-2": { primary: "dji mavic pro 4", supporting: ["dji mavic pro", "pro mavic drone", "camera drones australia"] },
   "dji-mavic-4-pro-fly-more-combo-dji-rc-2": { primary: "pro mavic drone", supporting: ["dji mavic pro 4", "dji mavic pro", "drone camera"] },
   "dji-lito-1": { primary: "beginner drone with camera", supporting: ["drones for beginners", "mini drone with camera", "dji drone mini"] },
@@ -232,6 +245,9 @@ export const CATEGORY_KEYWORDS: Record<string, KeywordSet> = {
 };
 
 export const SUBCATEGORY_KEYWORDS: Record<string, KeywordSet> = {
+  "DJI Dock": { primary: "dji enterprise", supporting: ["dji matrice", "commercial drones for sale", "industrial drones for sale"] },
+  "Delivery Drones": { primary: "drones for logistics", supporting: ["heavy lift drone", "heavy payload drones", "dji enterprise"] },
+  "LiDAR Sensors": { primary: "lidar drone", supporting: ["drone lidar", "drone with lidar", "lidar 3d scanner"] },
   "DJI Lito": { primary: "beginner drone with camera", supporting: ["drones for beginners", "mini drone with camera", "dji drone mini"] },
   "DJI Mavic 4": { primary: "dji mavic pro 4", supporting: ["pro mavic drone", "dji mavic pro", "camera drones australia"] },
   "Bags & Covers": { primary: "drone bag", supporting: ["drone backpack", "drone case", "dji case"] },

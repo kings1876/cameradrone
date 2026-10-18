@@ -12,12 +12,12 @@ export const CATEGORIES: CategoryInfo[] = [
   {
     id: 'enterprise-drones',
     name: 'Enterprise & Thermal Drones',
-    subcategories: ['DJI Matrice', 'DJI Mavic 3 Enterprise', 'DJI Phantom 4', 'Autel & FLIR Drones', 'Enterprise Accessories']
+    subcategories: ['DJI Matrice', 'DJI Mavic 3 Enterprise', 'DJI Phantom 4', 'Autel & FLIR Drones', 'Enterprise Accessories', 'DJI Dock', 'Delivery Drones']
   },
   {
     id: 'cameras-sensors',
     name: 'Cameras & Sensors',
-    subcategories: ['DJI Zenmuse Cameras', 'Thermal Cameras', 'Multispectral Cameras', 'Integration Kits']
+    subcategories: ['DJI Zenmuse Cameras', 'Thermal Cameras', 'Multispectral Cameras', 'Integration Kits', 'LiDAR Sensors']
   },
   {
     id: 'spraying-drones',
@@ -502,7 +502,35 @@ const seeds: Seed[] = [
   { name: 'Zenmuse V1', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 1499, graphicType: 'dslr-gimbal',
     shortDescription: 'Zenmuse V1: dJI\'s first loudspeaker for multi-payload drone platforms, with high volume and long broadcast distance' },
   { name: 'Manifold 3', brand: 'DJI', category: 'enterprise-drones', subcategory: 'Enterprise Accessories', price: 2190, graphicType: 'controller',
-    shortDescription: 'Manifold 3: a high-performance onboard computing power box for DJI enterprise aircraft' }
+    shortDescription: 'Manifold 3: a high-performance onboard computing power box for DJI enterprise aircraft' },
+
+  // DJI Australia range (Oct 2026, DJI Store AU prices)
+  { name: 'DJI Agras T100', brand: 'DJI', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 30380, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Agras T100: dJI\'s flagship agricultural drone for spraying, spreading and lifting, with a 100 L spray tank and a 150 L spreading tank' },
+  { name: 'DJI Agras T70P', brand: 'DJI', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 20380, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Agras T70P: an upgraded Agras drone for spraying, spreading and lifting, with a 70 L spray tank and dual atomisation centrifugal sprinklers' },
+  { name: 'DJI Agras T50', brand: 'DJI', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 21999, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Agras T50: a coaxial twin-rotor agricultural drone that carries a 40 kg spraying load or a 50 kg spreading load' },
+  { name: 'DJI Agras T25P', brand: 'DJI', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 17530, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Agras T25P: a compact, foldable agricultural drone built for solo operators, with 20 kg spraying and 25 kg spreading capacity' },
+  { name: 'DJI Dock 3', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Dock', price: 19999, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Dock 3: an automated drone dock that launches, lands, charges and houses a compatible Matrice 4D series aircraft for remote operations' },
+  { name: 'DJI Dock 2', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Dock', price: 12850, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Dock 2: an automated drone dock for the Matrice 3D series that enables remote, unattended missions' },
+  { name: 'DJI FlyCart 30', brand: 'DJI', category: 'enterprise-drones', subcategory: 'Delivery Drones', price: 26830, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI FlyCart 30: dJI\'s heavy-lift delivery drone for moving cargo over difficult terrain' },
+  { name: 'DJI FlyCart 100 (Basic Package)', brand: 'DJI', category: 'enterprise-drones', subcategory: 'Delivery Drones', price: 53130, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI FlyCart 100 (Basic Package): dJI\'s next-generation delivery drone, supplied here as the Basic Package' },
+  { name: 'Livox Mid-70 LiDAR', brand: 'Livox', category: 'cameras-sensors', subcategory: 'LiDAR Sensors', price: 1699, graphicType: 'dslr-gimbal',
+    shortDescription: 'Livox Mid-70 LiDAR: a compact Livox LiDAR sensor with a 70-degree circular field of view for drone mapping and robotics' },
+  { name: 'Livox TELE-15 LiDAR', brand: 'Livox', category: 'cameras-sensors', subcategory: 'LiDAR Sensors', price: 2099, graphicType: 'dslr-gimbal',
+    shortDescription: 'Livox TELE-15 LiDAR: a long-range Livox LiDAR sensor with a narrow field of view for detecting distant objects' },
+  { name: 'Livox Mid-360S LiDAR', brand: 'Livox', category: 'cameras-sensors', subcategory: 'LiDAR Sensors', price: 899, graphicType: 'dslr-gimbal',
+    shortDescription: 'Livox Mid-360S LiDAR: a Livox LiDAR sensor with a 360-degree horizontal field of view for mapping and robotics' },
+  { name: 'Livox Avia LiDAR', brand: 'Livox', category: 'cameras-sensors', subcategory: 'LiDAR Sensors', price: 2499, graphicType: 'dslr-gimbal',
+    shortDescription: 'Livox Avia LiDAR: a Livox LiDAR sensor designed for drone mapping and survey payloads' },
+  { name: 'Livox Avia 2 LiDAR', brand: 'Livox', category: 'cameras-sensors', subcategory: 'LiDAR Sensors', price: 4720, graphicType: 'dslr-gimbal',
+    shortDescription: 'Livox Avia 2 LiDAR: the next-generation Livox Avia LiDAR sensor for drone mapping and survey payloads' }
 ];
 
 export const PRODUCTS: Product[] = seeds.map((s, i) => {
