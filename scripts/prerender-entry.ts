@@ -170,7 +170,7 @@ function preloadFor(path: string): string {
 function inject(template: string, path: string): string {
   const m = metaFor(path, '');
   const canonical = abs(m.canonical ?? path);
-  const image = m.image ?? abs('/logo.png');
+  const image = m.image ?? abs('/og-default.png');
   const h1 = m.h1 ?? H1[path] ?? m.title.split('|')[0].trim();
   const t = esc(m.title);
   const d = esc(m.description);

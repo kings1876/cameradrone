@@ -34,3 +34,10 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #334155;
 }
+
+/* Lift the chat button above the mobile sticky buy bar on product pages */
+@media (max-width: 639px) {
+  html[data-stickybar] .chat-widget {
+    bottom: 4.75rem;
+  }
+}

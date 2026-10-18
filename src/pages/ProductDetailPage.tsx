@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { PRODUCT_KEYWORDS } from '../data/keywords';
 import { isQuoteProduct } from './QuotePage';
@@ -9,6 +9,7 @@ import { ProductImage } from '../components/ProductImage';
 import { Product } from '../types';
 import { categoryPath } from '../routes';
 import { RelatedProducts } from '../components/RelatedProducts';
+import { StickyBuyBar } from '../components/StickyBuyBar';
 
 interface ProductDetailPageProps {
   onAddToCart: (product: Product) => void;
@@ -24,6 +25,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
 
   const product = PRODUCTS.find(p => p.slug === slug || p.id === slug);
   const [activeImage, setActiveImage] = useState(0);
+  const actionsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setActiveImage(0);
@@ -293,7 +295,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
             </div>
 
             {/* Actions Module */}
-            <div className="pt-6 border-t border-slate-800 space-y-3">
+            <div ref={actionsRef} className="pt-6 border-t border-slate-800 space-y-3">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <button
                   type="button"
@@ -337,7 +339,9 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
         </div>
 
         <RelatedProducts product={product} />
+        <div className="h-16 sm:hidden" aria-hidden="true" />
       </div>
+      <StickyBuyBar product={product} quote={isQuoteProduct(product.category)} watch={actionsRef} onAdd={onAddToCart} />
     </div>
   );
 };

@@ -355,7 +355,7 @@ export const RouteSeo: React.FC = () => {
     const m = metaFor(pathname, search);
     const path = pathname.replace(/\/$/, '') || '/';
     const canonical = abs(m.canonical ?? path);
-    const image = m.image ?? abs('/logo.png');
+    const image = m.image ?? abs('/og-default.png');
 
     document.title = m.title;
     setMeta('meta[name="description"]', metaTag('name', 'description'), 'content', m.description);
