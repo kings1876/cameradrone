@@ -291,7 +291,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {BLOG_POSTS.map(post => (
+            {BLOG_POSTS.slice(0, 3).map(post => (
               <Link
                 key={post.id}
                 to={`/blog/${post.slug}`}

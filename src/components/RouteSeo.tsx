@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { PRODUCTS, CATEGORIES } from '../data/products';
 import { BLOG_POSTS, FAQ_LIST } from '../data/content';
+import { blockWords } from '../lib/richText';
 import { SITE_URL, SITE_NAME } from '../seo';
 import { PRODUCT_KEYWORDS, CATEGORY_KEYWORDS, SUBCATEGORY_KEYWORDS, PAGE_KEYWORDS } from '../data/keywords';
 import { categoryPath, findCategory, findSubcategory } from '../routes';
@@ -23,20 +24,6 @@ const fit = (...c: string[]) => c.find(s => s.length <= 62) ?? c[c.length - 1];
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 export const abs = (p: string) => (p.startsWith('http') ? p : SITE_URL + p);
 
-const BLOG_META: Record<string, { title: string; description: string }> = {
-  'best-drone-for-sale-australia-2026-buyers-guide': {
-    title: 'Best DJI Drone for Sale in Australia: 2026 Guide',
-    description: 'Compare DJI Mini, Air, Mavic 3 Pro and Inspire 3 drones for sale in Australia and learn what to check before you buy.'
-  },
-  'enterprise-drones-matrice-mavic-3-enterprise-guide': {
-    title: 'Enterprise Drones Australia: Matrice & Mavic 3 Guide',
-    description: 'How DJI Matrice, Mavic 3 Enterprise and Phantom 4 suit inspection, mapping, surveying and thermal work in Australia.'
-  },
-  'agricultural-spraying-drones-australia-guide': {
-    title: 'Agricultural Spraying Drones Australia: Buyer Guide',
-    description: 'What to know before buying a spraying drone in Australia: tank size, flow rate, CASA rules and multispectral crop monitoring.'
-  }
-};
 
 const QUOTE_CATS = ['enterprise-drones', 'cameras-sensors', 'spraying-drones'];
 
@@ -247,8 +234,8 @@ export function metaFor(pathname: string, search: string): Meta {
     const post = BLOG_POSTS.find(x => x.slug === slug);
     if (!post) return { title: `Article not found | ${SITE_NAME}`, description: 'This article could not be found.', noindex: true };
     return {
-      title: BLOG_META[post.slug]?.title ?? fit(`${post.title} | ${SITE_NAME}`, post.title),
-      description: BLOG_META[post.slug]?.description ?? clip(post.excerpt, 155),
+      title: post.metaTitle,
+      description: post.metaDescription,
       image: post.image ? abs(post.image) : undefined,
       type: 'article',
       jsonLd: [
@@ -258,10 +245,31 @@ export function metaFor(pathname: string, search: string): Meta {
           headline: post.title,
           description: post.excerpt,
           ...(post.image ? { image: abs(post.image) } : {}),
-          author: { '@type': 'Organization', name: SITE_NAME },
+          datePublished: post.dateISO,
+          dateModified: post.modifiedISO,
+          wordCount: blockWords(post.content),
+          keywords: post.targetKeywords.join(', '),
+          inLanguage: 'en-AU',
+          author: { '@type': 'Organization', name: SITE_NAME, url: abs('/about') },
           publisher: { '@type': 'Organization', name: SITE_NAME, logo: { '@type': 'ImageObject', url: abs('/logo.png') } },
-          mainEntityOfPage: abs(`/blog/${post.slug}`)
-        }
+          mainEntityOfPage: { '@type': 'WebPage', '@id': abs(`/blog/${post.slug}`) }
+        },
+        crumbs([
+          { name: 'Home', path: '/' },
+          { name: 'Blog', path: '/blog' },
+          { name: post.title, path: `/blog/${post.slug}` }
+        ]),
+        ...(post.content.some(b => typeof b === 'object' && 'faq' in b)
+          ? [{
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: post.content.flatMap(b => (typeof b === 'object' && 'faq' in b ? b.faq : [])).map(f => ({
+                '@type': 'Question',
+                name: f.q,
+                acceptedAnswer: { '@type': 'Answer', text: f.a }
+              }))
+            }]
+          : [])
       ]
     };
   }

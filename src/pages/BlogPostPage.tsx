@@ -1,4 +1,4 @@
-import { blogParagraph } from '../data/pageCopy';
+import { BlogBody } from '../components/BlogBody';
 import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST } from '../lib/imageSets';
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
@@ -32,7 +32,7 @@ export const BlogPostPage: React.FC = () => {
   }
 
   // Recommended products for this post
-  const relatedProducts = PRODUCTS.slice(0, 3);
+  const relatedProducts = post.relatedProducts.map(slug => PRODUCTS.find(p => p.slug === slug)).filter((p): p is NonNullable<typeof p> => !!p);
 
   return (
     <article className="py-12 bg-[#0b0f17] text-slate-100">
@@ -53,7 +53,7 @@ export const BlogPostPage: React.FC = () => {
           <div className="flex flex-wrap items-center gap-2 text-xs text-amber-400 font-semibold uppercase tracking-wider">
             <span>{post.tags.join(' · ')}</span>
             <span aria-hidden="true">·</span>
-            <span className="text-slate-400 font-normal">{post.date}</span>
+            <time dateTime={post.dateISO} className="text-slate-400 font-normal">{post.date}</time>
             <span aria-hidden="true">·</span>
             <span className="text-slate-400 font-normal">{post.readTime}</span>
           </div>
@@ -82,26 +82,7 @@ export const BlogPostPage: React.FC = () => {
         )}
 
         {/* Article Prose Content */}
-        <div className="space-y-5 text-sm sm:text-base text-slate-300 leading-relaxed font-normal">
-          {post.content.map((para, i) => (
-            <p key={i}>{para}</p>
-          ))}
-          {blogParagraph(post.slug) && <p>{blogParagraph(post.slug)}</p>}
-        </div>
-
-        {/* Target Keywords Hub */}
-        <div className="p-4 bg-slate-900/60 rounded-xl border border-slate-800 space-y-2">
-          <span className="text-xs font-bold text-slate-300 uppercase tracking-wider block">
-            Indexed Flight & Hardware Topics
-          </span>
-          <div className="flex flex-wrap gap-1.5 text-xs text-amber-400 font-mono">
-            {post.targetKeywords.map((kw, i) => (
-              <span key={i} className="px-2.5 py-1 bg-slate-950 rounded border border-slate-800">
-                #{kw}
-              </span>
-            ))}
-          </div>
-        </div>
+        <BlogBody blocks={post.content} />
 
         {/* Recommended Flight Hardware Section */}
         <div className="pt-8 border-t border-slate-800 space-y-4">
@@ -109,7 +90,7 @@ export const BlogPostPage: React.FC = () => {
             <h2 className="text-lg font-bold text-white font-display">Featured Systems in This Article</h2>
             <Link to="/shop" className="text-xs text-amber-400 hover:underline">View All Equipment →</Link>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {relatedProducts.map(p => (
               <Link
                 key={p.id}

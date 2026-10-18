@@ -62,19 +62,34 @@ export interface Review {
   verifiedPurchase: boolean;
 }
 
+export type Block =
+  | string
+  | { h2: string }
+  | { h3: string }
+  | { ul: string[] }
+  | { table: { head: string[]; rows: string[][] } }
+  | { faq: { q: string; a: string }[] };
+
 export interface BlogPost {
   id: string;
   slug: string;
   title: string;
+  metaTitle: string;
+  metaDescription: string;
   subtitle: string;
+  /** Display date, e.g. "October 2026" */
   date: string;
+  dateISO: string;
+  modifiedISO: string;
   readTime: string;
   author: string;
   tags: string[];
   excerpt: string;
   image?: string;
   imageAlt?: string;
-  content: string[];
+  /** Product slugs featured at the end of the article */
+  relatedProducts: string[];
+  content: Block[];
   targetKeywords: string[];
 }
 

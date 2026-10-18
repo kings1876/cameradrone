@@ -1,5 +1,5 @@
 import { CATEGORIES, PRODUCTS } from './products';
-import { CATEGORY_KEYWORDS, SUBCATEGORY_KEYWORDS, BLOG_KEYWORDS } from './keywords';
+import { CATEGORY_KEYWORDS, SUBCATEGORY_KEYWORDS } from './keywords';
 
 // Keyword-aware copy for the pages that are not products. Every primary and supporting keyword for the page
 // (keywords.ts PAGE_KEYWORDS) appears in the sentence so search engines and shoppers see the same wording.
@@ -68,13 +68,6 @@ export const PAGE_EXTRA: Record<'home' | 'blog' | 'about' | 'contact' | 'quote',
   quote:
     'How quotes work: choose a product or describe what you need, add your quantity, timeline, location and CASA ReOC status, and submit the form. A specialist replies with pricing, availability and delivery details, usually within one business day. Quotes are free, there is no obligation, and no payment is taken on this form. Volume and reseller pricing is available for fleets, farms and survey businesses. What to include: the aircraft you fly or plan to buy, the payload or accessories you need, how many units, where they will be delivered and when you need them. Popular quote requests include DJI Matrice and Mavic 3 Enterprise aircraft, Zenmuse thermal and LiDAR payloads, Agras spraying drones and Dock systems, while consumer drones and batteries can be bought directly in the shop. Tips for a faster reply: include your postcode so we can confirm delivery, say whether you need training or set-up help, and mention any budget range or deadline. If you are unsure which product fits, choose the not listed option and describe the job, such as thermal roof inspections, crop spraying or LiDAR mapping, and we will recommend options. We review each request, confirm availability and email you a quote with pricing in AUD, delivery details and any accessories we recommend. Enterprise quotes often include batteries, charging hubs, carry cases, software licences and training, so mention anything you already own. Resellers and fleet buyers can list several products in the notes box, and farms can tell us the property size so we can recommend a sprayer, batteries and a generator. Your details are used only to reply to your request, as set out in our Privacy Notice.'
 };
-
-/** Closing keyword paragraph for a blog post, built from its keyword set. */
-export function blogParagraph(slug: string): string | null {
-  const kw = BLOG_KEYWORDS[slug];
-  if (!kw) return null;
-  return `If you are comparing options for ${kw.primary}, this guide connects to related searches such as ${list(kw.supporting)}. Browse the linked product categories for Australian pricing, specifications and quotes. Prices are in AUD with free shipping Australia-wide, enterprise and spraying products are quoted, and our specialists can recommend the right aircraft, batteries and accessories for your property or project.`;
-}
 
 type NoteProduct = { name: string; category: string; subcategory?: string };
 

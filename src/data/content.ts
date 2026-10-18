@@ -1,69 +1,9 @@
 import { BlogPost, FAQItem } from '../types';
 
-export const BLOG_POSTS: BlogPost[] = [
-  {
-    id: 'post-1',
-    image: '/images/blog-drone-buyers-guide.webp',
-    imageAlt: 'Aerial view of a coastline at sunset, the kind of shot a camera drone captures',
-    slug: 'best-drone-for-sale-australia-2026-buyers-guide',
-    title: '2026 Australian Guide: Finding the Best DJI Drone for Sale',
-    subtitle: 'From sub-249g travel drones to professional cinema platforms: how to choose between DJI Mini, Air, Mavic 3 Pro and Inspire 3.',
-    date: 'September 2026',
-    readTime: '5 min read',
-    author: 'Flight Operations Team',
-    tags: ['Drone Sales', 'DJI Drones For Sale', 'CASA Regulations'],
-    excerpt: 'Searching for the best DJI drone for sale in Australia? Here is how the Mini, Air, Mavic 3 Pro and Inspire 3 families differ, and what to check before you buy.',
-    content: [
-      'DJI’s consumer and prosumer range covers a wide spread of budgets and uses. Choosing the right model comes down to how and where you will fly, what you will shoot, and how much you want to carry.',
-      'The DJI Mini 4 Pro is the compact choice. Under 249 grams, it falls under the CASA exemption for recreational operators below 250g, though standard operating conditions (120m altitude limit, visual line-of-sight, and keeping 30m away from other people) always apply. It is available on its own, with the RC 2 screen controller, or in Fly More Combo packages with extra batteries.',
-      'The DJI Air 3 steps up to a larger foldable airframe and is offered as a standalone drone, a Fly More Combo, or a Fly More Combo with the RC 2 controller. It suits creators who want more capability than a Mini while staying portable.',
-      'For professional photo and video work, the DJI Mavic 3 Pro is the flagship in our DJI range, available standalone or as a Fly More Combo with either the DJI RC or the DJI RC Pro controller. At the top end, the DJI Inspire 3 is a dedicated cinema platform for film and broadcast crews.',
-      'Before buying, consider battery needs, controller preference, how portable the kit needs to be, and whether your flying is recreational or commercial. If you are unsure which package suits you, contact us and we will help you choose.'
-    ],
-    targetKeywords: ['drone for sale', 'drone sales', 'dji drones for sale', 'dji drone for sale', 'dji mini 4 pro', 'dji mavic 3 pro']
-  },
-  {
-    id: 'post-2',
-    image: '/images/blog-enterprise-drones-guide.webp',
-    imageAlt: 'Enterprise drone flying over open land on an inspection job',
-    slug: 'enterprise-drones-matrice-mavic-3-enterprise-guide',
-    title: 'Enterprise Drones in Australia: Matrice, Mavic 3 Enterprise and Phantom 4',
-    subtitle: 'Choosing an enterprise drone for inspection, mapping, surveying and thermal work.',
-    date: 'August 2026',
-    readTime: '5 min read',
-    author: 'Enterprise Systems Specialist',
-    tags: ['Enterprise Drones', 'Thermal Drones', 'Surveying'],
-    excerpt: 'A practical overview of the DJI Matrice, Mavic 3 Enterprise and Phantom 4 lines and the kinds of work each is typically chosen for.',
-    content: [
-      'Enterprise drones are built for repeatable, data-driven work rather than casual flying: asset inspection, mapping, surveying, public safety and agriculture.',
-      'The DJI Matrice range, including the Matrice 30, Matrice 30T, Matrice 4 Enterprise and Matrice 4 Thermal, is aimed at inspection, public safety and industrial operators. Thermal variants add a thermal imaging payload for tasks such as infrastructure inspection and search operations.',
-      'The DJI Mavic 3 Enterprise and Mavic 3 Thermal offer a more compact, portable enterprise platform. The Mavic 3 Multispectral is aimed at crop monitoring and agronomy work.',
-      'The DJI Phantom 4 line, including the Phantom 4 Pro RTK SE and the Phantom 4 Multispectral, remains a common choice for surveying and precision agriculture workflows.',
-      'Stock and lead times can change quickly on enterprise models. Contact us to confirm availability, discuss accessories such as spare batteries, and talk through the best fit for your operation. Commercial operators should also confirm their CASA obligations before flying.'
-    ],
-    targetKeywords: ['dji enterprise drones', 'dji matrice', 'thermal drone', 'thermal imaging drone', 'commercial drones for sale', 'drone mapping near me']
-  },
-  {
-    id: 'post-3',
-    image: '/images/blog-agricultural-spraying-guide.webp',
-    imageAlt: 'Agricultural spraying drone flying over crop rows',
-    slug: 'agricultural-spraying-drones-australia-guide',
-    title: 'Agricultural Spraying Drones in Australia: What to Know Before You Buy',
-    subtitle: 'An introduction to spraying drones and multispectral crop monitoring for Australian farms.',
-    date: 'July 2026',
-    readTime: '4 min read',
-    author: 'Agriculture Systems Lead',
-    tags: ['Spraying Drones', 'Agriculture', 'Multispectral'],
-    excerpt: 'Spraying drones are changing how Australian growers cover paddocks and orchards. Here is what to consider when choosing a system.',
-    content: [
-      'Agricultural spraying drones allow growers to apply products to crops quickly and accurately, including on terrain that is difficult to cover with ground machinery.',
-      'Our range includes spraying systems from XAG and BROUAV, with accessories such as DJI Agras batteries, chargers and spreading systems. Larger tank capacity generally means fewer refills but a larger investment, so match the system to the size of your operation.',
-      'Multispectral drones, such as the DJI Mavic 3 Multispectral and Phantom 4 Multispectral, support crop health monitoring and variable-rate planning by capturing data that is not visible to the naked eye.',
-      'Aerial application is regulated. Before buying or operating a spraying drone, check the CASA requirements and the chemical application rules that apply in your state or territory. Contact us to discuss the right system for your operation.'
-    ],
-    targetKeywords: ['spray drone', 'drone sprayer', 'agricultural drones', 'crop spraying drone', 'multispectral drone', 'dji agras t40 price']
-  }
-];
+import { BLOG_POSTS as ALL_POSTS } from './blogPosts';
+
+/** Newest first. */
+export const BLOG_POSTS: BlogPost[] = [...ALL_POSTS].sort((a, b) => b.dateISO.localeCompare(a.dateISO));
 
 export const FAQ_LIST: FAQItem[] = [
   {

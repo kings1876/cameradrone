@@ -7,8 +7,9 @@ import { SITE_URL, SITE_NAME } from '../src/seo';
 import { metaFor, abs } from '../src/components/RouteSeo';
 import { categoryPath, slugify } from '../src/routes';
 import { categoryIntro } from '../src/data/categoryCopy';
+import { blocksToHtml } from '../src/lib/richText';
 import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST, HERO_WIDTHS, HERO_FULL } from '../src/lib/imageSets';
-import { PAGE_COPY, PAGE_EXTRA, seoParagraphs, blogParagraph, productNotes } from '../src/data/pageCopy';
+import { PAGE_COPY, PAGE_EXTRA, seoParagraphs, productNotes } from '../src/data/pageCopy';
 import { POLICIES, POLICY_INTRO, POLICY_HELP, POLICY_MORE } from '../src/data/policies';
 import { relatedFor } from '../src/components/RelatedProducts';
 import { BUSINESS } from '../src/business';
@@ -115,8 +116,9 @@ function bodyFor(pathname: string, h1: string, description: string): string {
       crumbList([['/', 'Home'], ['/blog', 'Blog'], ['', post.title]]) +
         `<article><h1>${esc(post.title)}</h1><p>${esc(post.subtitle)}</p>` +
         (post.image ? `<picture><source srcset="${esc(respSet(post.image, 'avif', BLOG_WIDTHS, BLOG_FULL))}" sizes="${BLOG_SIZES_POST}" type="image/avif"><img src="${esc(post.image.replace(/\.webp$/, '-800.webp'))}" srcset="${esc(respSet(post.image, 'webp', BLOG_WIDTHS, BLOG_FULL))}" sizes="${BLOG_SIZES_POST}" alt="${esc(post.imageAlt || post.title)}" width="1200" height="675" fetchpriority="high" decoding="async"></picture>` : '') +
-        post.content.map(t => `<p>${esc(t)}</p>`).join('') +
-        (blogParagraph(post.slug) ? `<p>${esc(blogParagraph(post.slug)!)}</p>` : '') +
+        `<p><time datetime="${post.dateISO}">${esc(post.date)}</time> · ${esc(post.readTime)} · ${esc(post.author)}</p>` +
+        blocksToHtml(post.content) +
+        (post.relatedProducts.length ? `<h2>Featured products</h2>${productList(post.relatedProducts.map(sl => PRODUCTS.find(p => p.slug === sl)).filter((p): p is NonNullable<typeof p> => !!p))}` : '') +
         `<h2>Shop related products</h2><ul>${CATEGORIES.map(c => `<li>${link(categoryPath(c.id), c.name)}</li>`).join('')}</ul></article>`
     );
   }

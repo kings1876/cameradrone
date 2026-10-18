@@ -812,3 +812,8 @@ Each product has one transactional primary (price / buy / sale / model-purchase 
 ## Pages and blog posts: keyword copy (Oct 2026)
 
 Home, shop, blog index, FAQ, About, Contact, every category and every subcategory page now contain their primary and all supporting keywords in the visible copy and in the prerendered HTML (`src/data/pageCopy.ts`). Blog posts have measured commercial keyword sets in `BLOG_KEYWORDS` (`src/data/keywords.ts`): best drone photography (guide), commercial drones (enterprise guide), agriculture drones (spraying guide).
+
+
+## Blog posts (Oct 2026)
+
+Nine buying guides (about 900 to 1,100 words each) with comparison tables, an in-article contents list, FAQ sections, Article, BreadcrumbList and FAQPage structured data, and 20 or more internal links to products and categories. Each post's `targetKeywords` (in `src/data/blogPosts.ts`) appear in its text. Meta titles are 60 characters or less and meta descriptions 120 to 160.
