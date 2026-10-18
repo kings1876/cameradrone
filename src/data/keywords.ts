@@ -7,6 +7,10 @@ export interface KeywordSet {
 }
 
 export const PRODUCT_KEYWORDS: Record<string, KeywordSet> = {
+  "dji-dock-3-survey-package": { primary: "commercial drones for sale", supporting: ["dji matrice", "drone mapping near me", "industrial drones for sale"] },
+  "dji-dock-3-thermal-package": { primary: "thermal drone", supporting: ["dji thermal drone", "thermal drones australia", "dji enterprise"] },
+  "dji-terra-agriculture-1-year-3-devices": { primary: "drone mapping near me", supporting: ["uav for farming", "agriculture uav drone", "dji agricultural drones"] },
+  "dji-modify-flagship-permanent-licence": { primary: "lidar drone", supporting: ["drone lidar", "drone lidar scanner", "lidar 3d scanner"] },
   "dji-agras-t100": { primary: "dji agras t100 price", supporting: ["dji t100 price", "agricultural drones", "drone sprayer"] },
   "dji-agras-t70p": { primary: "agriculture spraying drone", supporting: ["crop spraying drone", "agricultural drones", "drone spraying"] },
   "dji-agras-t50": { primary: "dji agras t50 price", supporting: ["agricultural drones", "drone sprayer", "dji agricultural drones"] },
@@ -245,6 +249,7 @@ export const CATEGORY_KEYWORDS: Record<string, KeywordSet> = {
 };
 
 export const SUBCATEGORY_KEYWORDS: Record<string, KeywordSet> = {
+  "Enterprise Software": { primary: "drone mapping near me", supporting: ["lidar drone", "dji enterprise", "dji matrice"] },
   "DJI Dock": { primary: "dji enterprise", supporting: ["dji matrice", "commercial drones for sale", "industrial drones for sale"] },
   "Delivery Drones": { primary: "drones for logistics", supporting: ["heavy lift drone", "heavy payload drones", "dji enterprise"] },
   "LiDAR Sensors": { primary: "lidar drone", supporting: ["drone lidar", "drone with lidar", "lidar 3d scanner"] },

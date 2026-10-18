@@ -1,5 +1,19 @@
 // Generated from the product photo folder. Keys are product slugs; the first image is the primary one.
 export const PRODUCT_IMAGES: Record<string, string[]> = {
+  "dji-dock-3-survey-package": [
+    "/products/dji-dji-dock-3-survey-package.jpg",
+    "/products/dji-dji-matrice-4d-worry-free-flagship-combo.jpg"
+  ],
+  "dji-dock-3-thermal-package": [
+    "/products/dji-dji-dock-3-thermal-package.jpg",
+    "/products/dji-dji-matrice-4td-worry-free-flagship-combo.jpg"
+  ],
+  "dji-terra-agriculture-1-year-3-devices": [
+    "/products/dji-dji-terra-agriculture-1-year-3-devices.jpg"
+  ],
+  "dji-modify-flagship-permanent-licence": [
+    "/products/dji-dji-modify-flagship-permanent-licence.jpg"
+  ],
   "dji-agras-t100": [
     "/products/dji-dji-agras-t100.jpg"
   ],

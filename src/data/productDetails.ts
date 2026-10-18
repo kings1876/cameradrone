@@ -15,6 +15,40 @@ export interface ProductDetail {
 const COMBO_BOX = ['Aircraft', 'Three Intelligent Flight Batteries', 'Two-way charging hub', 'Shoulder bag'];
 
 export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
+  'dji-dock-3-survey-package': {
+    overview:
+      'The DJI Dock 3 Survey Package is a Dock 3 package built for mapping and survey, with a Matrice 4D aircraft, Care Enterprise Plus, DJI Terra Pro for a year, and accessories. It gives survey teams the dock, an aircraft, mapping software and a controller in one purchase.',
+    bestFor:
+      'For survey and mapping organisations starting automated, remote drone-in-a-box missions.',
+    highlights: ['Dock 3 with a Matrice 4D aircraft', 'Care Enterprise Plus and DJI Terra Pro (1 year) included', 'RC Plus 2 Enterprise controller and extra battery'],
+    specs: [['Dock', 'DJI Dock 3'], ['Aircraft', 'DJI Matrice 4D'], ['Software', 'DJI Terra Pro, 1 year (Matrice 4 series)'], ['Coverage', 'DJI Care Enterprise Plus (Matrice 4D)'], ['Use', 'Automated survey and mapping missions']],
+    inTheBox: ['DJI Dock 3', 'DJI Matrice 4D', 'DJI Care Enterprise Plus (Matrice 4D)', 'DJI Terra Pro, 1 year', 'Matrice 4D Series Intelligent Flight Battery', 'Low-Noise Anti-Ice Propellers', 'DJI RC Plus 2 Enterprise Enhanced', 'RC Plus 2 Strap and Bracket Kit', '256 GB microSD card']
+  },
+  'dji-dock-3-thermal-package': {
+    overview:
+      'The DJI Dock 3 Thermal Package is a Dock 3 package with a thermal Matrice 4TD aircraft, Care Enterprise Plus, a speaker and a spotlight for public safety and security. It adds thermal imaging, loudspeaker and spotlight capability to automated dock missions.',
+    bestFor:
+      'For emergency services and security teams planning thermal, around-the-clock drone-in-a-box operations.',
+    highlights: ['Dock 3 with a thermal Matrice 4TD aircraft', 'AS1 speaker and AL1 spotlight included', 'RC Plus 2 Enterprise controller and extra battery'],
+    specs: [['Dock', 'DJI Dock 3'], ['Aircraft', 'DJI Matrice 4TD (thermal)'], ['Coverage', 'DJI Care Enterprise Plus (Matrice 4TD)'], ['Payload accessories', 'DJI AS1 Speaker and AL1 Spotlight'], ['Use', 'Automated thermal security and response missions']],
+    inTheBox: ['DJI Dock 3', 'DJI Matrice 4TD', 'DJI Care Enterprise Plus (Matrice 4TD)', 'Matrice 4D Series Intelligent Flight Battery', 'DJI AS1 Speaker', 'DJI AL1 Spotlight', 'Low-Noise Anti-Ice Propellers', 'DJI RC Plus 2 Enterprise', 'RC Plus 2 Strap and Bracket Kit', '256 GB microSD card']
+  },
+  'dji-terra-agriculture-1-year-3-devices': {
+    overview:
+      'The DJI Terra Agriculture (1 Year, 3 Devices) is a one-year DJI Terra Agriculture licence for up to three devices, used to process crop maps and field data. It turns drone imagery into maps for prescriptions and field analysis.',
+    bestFor:
+      'For agronomists and ag service providers who process their own drone data.',
+    highlights: ['One-year licence', 'Up to three devices', 'Agriculture mapping workflow'],
+    specs: [['Type', 'Software licence'], ['Term', '1 year'], ['Devices', '3']]
+  },
+  'dji-modify-flagship-permanent-licence': {
+    overview:
+      'The DJI Modify Flagship (Permanent Licence) is the permanent Flagship licence for DJI Modify, software for editing and classifying 3D point clouds and models. It helps survey teams clean and refine LiDAR and photogrammetry outputs.',
+    bestFor:
+      'For survey and mapping firms who work with point clouds from Zenmuse L2 and similar sensors.',
+    highlights: ['Permanent Flagship licence', 'Point cloud and model editing', 'Works with LiDAR and photogrammetry data'],
+    specs: [['Type', 'Software licence'], ['Edition', 'Flagship, permanent']]
+  },
   'dji-agras-t100': {
     overview:
       'The DJI Agras T100 is DJI\'s flagship agricultural drone for spraying, spreading and lifting, with a 100 L spray tank and a 150 L spreading tank. It combines a 40 L/min spray flow with LiDAR, a penta-vision system and millimetre-wave radar for round-the-clock operation.',

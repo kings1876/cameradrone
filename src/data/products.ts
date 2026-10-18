@@ -12,7 +12,7 @@ export const CATEGORIES: CategoryInfo[] = [
   {
     id: 'enterprise-drones',
     name: 'Enterprise & Thermal Drones',
-    subcategories: ['DJI Matrice', 'DJI Mavic 3 Enterprise', 'DJI Phantom 4', 'Autel & FLIR Drones', 'Enterprise Accessories', 'DJI Dock', 'Delivery Drones']
+    subcategories: ['DJI Matrice', 'DJI Mavic 3 Enterprise', 'DJI Phantom 4', 'Autel & FLIR Drones', 'Enterprise Accessories', 'DJI Dock', 'Delivery Drones', 'Enterprise Software']
   },
   {
     id: 'cameras-sensors',
@@ -530,7 +530,17 @@ const seeds: Seed[] = [
   { name: 'Livox Avia LiDAR', brand: 'Livox', category: 'cameras-sensors', subcategory: 'LiDAR Sensors', price: 2499, graphicType: 'dslr-gimbal',
     shortDescription: 'Livox Avia LiDAR: a Livox LiDAR sensor designed for drone mapping and survey payloads' },
   { name: 'Livox Avia 2 LiDAR', brand: 'Livox', category: 'cameras-sensors', subcategory: 'LiDAR Sensors', price: 4720, graphicType: 'dslr-gimbal',
-    shortDescription: 'Livox Avia 2 LiDAR: the next-generation Livox Avia LiDAR sensor for drone mapping and survey payloads' }
+    shortDescription: 'Livox Avia 2 LiDAR: the next-generation Livox Avia LiDAR sensor for drone mapping and survey payloads' },
+
+  // DJI Australia range (Oct 2026, DJI Store AU prices)
+  { name: 'DJI Dock 3 Survey Package', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Dock', price: 30828, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Dock 3 Survey Package: a Dock 3 package built for mapping and survey, with a Matrice 4D aircraft, Care Enterprise Plus, DJI Terra Pro for a year, and accessories' },
+  { name: 'DJI Dock 3 Thermal Package', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Dock', price: 34278, graphicType: 'enterprise-uav',
+    shortDescription: 'DJI Dock 3 Thermal Package: a Dock 3 package with a thermal Matrice 4TD aircraft, Care Enterprise Plus, a speaker and a spotlight for public safety and security' },
+  { name: 'DJI Terra Agriculture (1 Year, 3 Devices)', brand: 'DJI', category: 'enterprise-drones', subcategory: 'Enterprise Software', price: 490, graphicType: 'dslr-gimbal',
+    shortDescription: 'DJI Terra Agriculture (1 Year, 3 Devices): a one-year DJI Terra Agriculture licence for up to three devices, used to process crop maps and field data' },
+  { name: 'DJI Modify Flagship (Permanent Licence)', brand: 'DJI', category: 'enterprise-drones', subcategory: 'Enterprise Software', price: 6100, graphicType: 'dslr-gimbal',
+    shortDescription: 'DJI Modify Flagship (Permanent Licence): the permanent Flagship licence for DJI Modify, software for editing and classifying 3D point clouds and models' }
 ];
 
 export const PRODUCTS: Product[] = seeds.map((s, i) => {

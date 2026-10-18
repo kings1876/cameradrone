@@ -514,3 +514,12 @@ Neo 2 drone-only photo replaced with the high-resolution supplied image.
 | Livox Mid-360S LiDAR | 899 | drone with lidar (70, KD 20) | drone lidar; lidar drone; lidar 3d scanner |
 | Livox Avia LiDAR | 2,499 | lidar drone (320, KD 14) | drone lidar; drone with lidar; lidar 3d scanner |
 | Livox Avia 2 LiDAR | 4,720 | drone lidar scanner (50, KD 10) | drone lidar; lidar drone; lidar 3d scanner |
+
+## Dock 3 packages and enterprise software added Oct 2026 (D1 Store AU prices; DJI/Livox official images)
+
+| Product | AUD | Primary keyword | Supporting |
+|---|---:|---|---|
+| DJI Dock 3 Survey Package | 30,828 | commercial drones for sale (50, KD 19) | dji matrice; drone mapping near me; industrial drones for sale |
+| DJI Dock 3 Thermal Package | 34,278 | thermal drone (880, KD 11) | dji thermal drone; thermal drones australia; dji enterprise |
+| DJI Terra Agriculture (1 Year, 3 Devices) | 490 | drone mapping near me (50, KD 9) | uav for farming; agriculture uav drone; dji agricultural drones |
+| DJI Modify Flagship (Permanent Licence) | 6,100 | lidar drone (320, KD 14) | drone lidar; drone lidar scanner; lidar 3d scanner |

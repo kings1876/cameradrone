@@ -1,6 +1,14 @@
 // Third description paragraph per product: buying context written around the primary and supporting keywords
 // in keywords.ts. Kept separate from productDetails.ts so each page has unique, keyword-aware copy.
 export const PRODUCT_EXTRAS: Record<string, string> = {
+  'dji-dock-3-survey-package':
+    'Package contents can change with stock and are confirmed on quote, so use the quote form for training and installation options. Buyers searching for commercial drones for sale will find it here. It also suits searches for dji matrice and drone mapping near me.',
+  'dji-dock-3-thermal-package':
+    'Package contents can change with stock and are confirmed on quote, so use the quote form for training and installation options. Buyers searching for thermal drone will find it here. It also suits searches for dji thermal drone and thermal drones australia.',
+  'dji-terra-agriculture-1-year-3-devices':
+    'This is a software licence, so request a quote to confirm the edition, seats and delivery. Buyers searching for drone mapping near me will find it here. It also suits searches for uav for farming and agriculture uav drone.',
+  'dji-modify-flagship-permanent-licence':
+    'This is a software licence, so request a quote to confirm the edition, seats and delivery. Buyers searching for lidar drone will find it here. It also suits searches for drone lidar and drone lidar scanner.',
   'dji-agras-t100':
     'DJI Agras T100 price enquiries are quoted with batteries, charger and set-up, so use the quote form for a full package. It also suits searches for dji t100 price and agricultural drones.',
   'dji-agras-t70p':
