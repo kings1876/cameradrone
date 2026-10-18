@@ -581,23 +581,23 @@ Each product has one transactional primary (price / buy / sale / model-purchase 
 | DJI Matrice 30 | 10,989 | dji matrice (390) | commercial drones australia (50); camera uav (880); drone camera (2400) |
 | DJI Matrice 30T | 14,917 | dji matrice 30t price | thermal imaging camera (2400); infrared camera (1000); thermal drone (880); drone with thermal camera (260); thermal imager (480) |
 | DJI Matrice 4 Enterprise | 7,395 | dji matrice 4 enterprise price | dji matrice 4 (170); camera uav (880); commercial drones australia (50) |
-| DJI Matrice 4 Thermal | 10,159 | flir thermal camera price (50) | dji matrice 4 (170); infrared camera (1000); thermal drone (880); drone with thermal camera (260); thermal imager (480) |
+| DJI Matrice 4 Thermal | 10,159 | dji matrice 4 thermal price | dji matrice 4 (170); infrared camera (1000); thermal drone (880); drone with thermal camera (260); thermal imager (480) |
 | DJI Mavic 3 Enterprise | 6,049 | dji mavic 3 enterprise price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
-| DJI Mavic 3 Thermal | 8,249 | flir t-series thermal imaging camera (70) | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
+| DJI Mavic 3 Thermal | 8,249 | dji mavic 3 thermal price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
 | DJI Mavic 3 Multispectral | 7,919 | dji mavic 3 multispectral price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
 | DJI Phantom 4 Pro RTK SE | 5,700 | dji phantom 4 price (50) | phantom 4 (210); dji phantom 4 battery (140); phantom 4 drone (140); phantom 4 quadcopter drone (110); phantom 4 uav (110) |
 | DJI Phantom 4 Multispectral | 9,299 | dji phantom 4 multispectral price | phantom 4 (210); dji phantom 4 battery (140); phantom 4 drone (140); phantom 4 quadcopter drone (110); phantom 4 uav (110) |
 | DJI Phantom 4 Multispectral DRTK2 | 14,299 | dji phantom 4 multispectral drtk2 price | phantom 4 (210); dji phantom 4 battery (140); phantom 4 drone (140); phantom 4 quadcopter drone (110); phantom 4 uav (110) |
-| DJI Zenmuse H30 | 8,495 | dji zenmuse h30 price | dji zenmuse l3 (50); zenmuse l3 (50); commercial drones australia (50); camera uav (880) |
-| DJI Zenmuse H30T | 17,335 | buy thermal imaging camera (70) | dji zenmuse l3 (50); zenmuse l3 (50); thermal drone (880); drone with thermal camera (260); thermal imager (480) |
-| DJI Zenmuse L2 Lidar | 23,880 | dji zenmuse l2 lidar price | dji zenmuse l3 (50); zenmuse l3 (50); lidar drone (320); lidar drones (110); drone lidar scanner (50) |
-| DJI Zenmuse P1 | 11,400 | dji zenmuse p1 price | dji zenmuse l3 (50); zenmuse l3 (50); camera uav (880); commercial drones australia (50) |
-| DJI Zenmuse X7 | 2,589 | dji zenmuse x7 price | dji zenmuse l3 (50); zenmuse l3 (50); commercial drones australia (50); camera uav (880) |
-| DJI Zenmuse X5S | 1,809 | dji zenmuse x5s price | dji zenmuse l3 (50); zenmuse l3 (50); camera uav (880); commercial drones australia (50) |
-| DJI Zenmuse X4S | 939 | dji zenmuse x4s price | dji zenmuse l3 (50); zenmuse l3 (50); commercial drones australia (50); camera uav (880) |
-| DJI Zenmuse Z3 Optical Zoom | 1,399 | dji zenmuse z3 optical zoom price | dji zenmuse l3 (50); zenmuse l3 (50); camera uav (880); commercial drones australia (50) |
+| DJI Zenmuse H30 | 8,495 | dji zenmuse h30 price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| DJI Zenmuse H30T | 17,335 | buy thermal imaging camera (70) | thermal drone (880); drone with thermal camera (260); thermal imager (480); flir infrared cameras (210); thermal drones (390) |
+| DJI Zenmuse L2 Lidar | 23,880 | dji zenmuse l2 lidar price | lidar drone (320); lidar drones (110); drone lidar scanner (50); drone lidar (170); drone with lidar (70) |
+| DJI Zenmuse P1 | 11,400 | dji zenmuse p1 price | camera uav (880); commercial drones australia (50); drone camera (2400) |
+| DJI Zenmuse X7 | 2,589 | dji zenmuse x7 price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| DJI Zenmuse X5S | 1,809 | dji zenmuse x5s price | camera uav (880); commercial drones australia (50); drone camera (2400) |
+| DJI Zenmuse X4S | 939 | dji zenmuse x4s price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| DJI Zenmuse Z3 Optical Zoom | 1,399 | dji zenmuse z3 optical zoom price | camera uav (880); commercial drones australia (50); drone camera (2400) |
 | FLIR VUE TZ20 | 11,700 | flir systems australia (110) | drone with thermal camera (260); thermal imager (480); flir infrared cameras (210); thermal drones (390); thermal imaging camera (2400) |
-| DJI Mavic Pro FLIR Boson Thermal Ninja | 6,999 | dji mavic pro flir boson thermal ninja price | thermal imager (480); flir infrared cameras (210); thermal drones (390); thermal imaging camera (2400); infrared camera (1000) |
+| DJI Mavic Pro FLIR Boson Thermal Ninja | 6,999 | thermal imaging camera price (70) | thermal imager (480); flir infrared cameras (210); thermal drones (390); thermal imaging camera (2400); infrared camera (1000) |
 | ADTI Agrowing Multispectral Matrice 300 | 20,850 | adti agrowing multispectral matrice 300 price | agriculture uav drone (260); precision agriculture drones (90); multispectral drone (50); uav for farming (590) |
 | Sony A6000 Multispectral Dual Agrowing Camera | 4,900 | sony a6000 multispectral dual agrowing camera price | precision agriculture drones (90); multispectral drone (50); uav for farming (590); agriculture uav drone (260) |
 | Sony A7R Multispectral Quad Agrowing Camera | 16,000 | sony a7r multispectral quad agrowing camera price | multispectral drone (50); uav for farming (590); agriculture uav drone (260); precision agriculture drones (90) |
@@ -620,7 +620,7 @@ Each product has one transactional primary (price / buy / sale / model-purchase 
 | DJI Agras T30 Battery Charger | 3,200 | dji agras t30 battery charger price | drone sprayer (320); drone spraying (320); crop spraying drone (110); agriculture spraying drone (170); spray drone (170) |
 | DJI Agras T40 Battery | 3,699 | dji agras t40 (110) | drone spraying (320); crop spraying drone (110); agriculture spraying drone (170); spray drone (170); ag drone sprayer (140) |
 | DJI Air 3 Battery | 219 | dji air 3 battery price | air 3s (320); dji air 3 drone (260); dji air 3s vs mini 5 pro (70); dji mini 5 pro vs air 3s (70); dji air 3s accessories (50) |
-| DJI Matrice 4 Battery | 280 | dji matrice 4 battery price | dji matrice 4 (170); commercial drones australia (50); camera uav (880) |
+| DJI Matrice 4 Battery | 280 | dji matrice 4 battery price | dji matrice 4 (170); dji battery (390); dji drone battery (140); dji batteries (70); drone battery dji (110) |
 | DJI Mavic 3 Enterprise Battery Kit | 990 | dji mavic 3 enterprise battery kit price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
 | DJI Air 3S (DJI RC-N3) | 1,699 | dji air 3s price (90) | air 3s (320); dji air 3s vs mini 5 pro (70); dji mini 5 pro vs air 3s (70); dji air 3s accessories (50); dji air 3 drone (260) |
 | DJI Air 3S Fly More Combo (DJI RC-N3) | 2,129 | dji air 3s drone (390) | air 3s (320); dji air 3s vs mini 5 pro (70); dji mini 5 pro vs air 3s (70); dji air 3s accessories (50); dji air 3 price (50) |
@@ -652,14 +652,14 @@ Each product has one transactional primary (price / buy / sale / model-purchase 
 | DJI Flip Propellers | 19 | dji flip propellers price | dji flip (2900); dji flip battery (140); dji flip review (90); dji flip vs neo (50); dji flip vs mini 4 pro (50) |
 | DJI Neo Propellers | 8 | dji neo propellers price | dji neo fly more combo (1300); dji neo 2 case (260); dji neo controller (260); dji neo2 fly more combo (260); dji neo 2 drones (210) |
 | DJI Inspire 3 Propeller Guard | 459 | dji inspire 3 propeller guard price | drone filming (50); commercial drones australia (50); drone camera (2400); videographer drone (50) |
-| DJI RC 2 Remote Controller | 549 | dji rc 2 remote controller price | dji rc 2 (590); rc drone (390); commercial drones (260); rc drones (140); dji rc-n2 (110) |
-| DJI RC-N3 Remote Controller | 165 | dji rc n3 remote controller price | dji rc 2 (590); rc drone (390); commercial drones (260); rc drones (140); dji rc-n2 (110) |
-| DJI RC Motion 3 | 139 | dji rc motion 3 price | dji rc 2 (590); rc drone (390); commercial drones (260); rc drones (140); dji rc-n2 (110) |
-| DJI RC Remote Controller | 399 | dji rc remote controller price | dji rc 2 (590); rc drone (390); commercial drones (260); rc drones (140); dji rc-n2 (110) |
-| DJI RC Pro Remote Controller | 1,529 | dji rc pro remote controller price | dji rc 2 (590); rc drone (390); commercial drones (260); rc drones (140); dji rc-n2 (110) |
-| DJI FPV Remote Controller 3 | 229 | dji air unit (90) | fpv drone kit (390); fpv goggles (320); fpv battery (210); fpv camera (170); battery fpv (170) |
-| DJI Goggles N3 | 359 | dji goggle 3 (90) | dji goggles (590); fpv goggles (320); goggles for drone (110); drone goggles (110); fpv drone goggles (110) |
-| DJI O4 Air Unit | 189 | dji transmission (140) | dji mavic accessories (50); drone case (90); drone bag (140); camera drones australia (110); drone accessories australia (210) |
+| DJI RC 2 Remote Controller | 549 | dji rc 2 remote controller price | dji rc controls (50); dji remotes (50); drone remote control drone (110); remote control dji (210) |
+| DJI RC-N3 Remote Controller | 165 | dji rc n3 remote controller price | dji remotes (50); drone remote control drone (110); remote control dji (210); dji rc controls (50) |
+| DJI RC Motion 3 | 139 | dji rc motion 3 price | drone remote control drone (110); remote control dji (210); dji rc controls (50); dji remotes (50) |
+| DJI RC Remote Controller | 399 | dji rc remote controller price | remote control dji (210); dji rc controls (50); dji remotes (50); drone remote control drone (110) |
+| DJI RC Pro Remote Controller | 1,529 | dji rc pro remote controller price | dji rc controls (50); dji remotes (50); drone remote control drone (110); remote control dji (210) |
+| DJI FPV Remote Controller 3 | 229 | dji fpv remote controller 3 price | dji remotes (50); drone remote control drone (110); remote control dji (210); dji rc controls (50) |
+| DJI Goggles N3 | 359 | dji goggles n3 price | dji goggles (590); dji goggles 3 vs n3 (90); dji fpv glasses (50); fpv goggles dji (70); avata goggles (50) |
+| DJI O4 Air Unit | 189 | dji air unit (90) | dji mavic accessories (50); drone case (90); drone bag (140); camera drones australia (110); drone accessories australia (210) |
 | DJI O4 Air Unit Pro | 349 | dji o4 air unit pro (260) | drone case (90); drone bag (140); camera drones australia (110); drone accessories australia (210); dji mavic accessories (50) |
 | DJI Air 3S ND Filter Set (ND8/32/128) | 159 | dji air 3s nd filter set nd8 32 128 price | air 3s (320); dji air 3s vs mini 5 pro (70); dji mini 5 pro vs air 3s (70); dji air 3s accessories (50); dji air 3 drone (260) |
 | DJI Mavic 3 Pro ND Filter Set (ND8/16/32/64) | 229 | dji mavic 3 pro nd filter set nd8 16 32 64 price | dji mavic 3 pro (1600); dj1 mavic 3 pro (110); mavic 3 pro cine (70); mavic 3 pro fly more combo (50); dji mavic accessories (50) |
@@ -669,9 +669,9 @@ Each product has one transactional primary (price / buy / sale / model-purchase 
 | DJI Mavic 3 Pro Storage Cover | 49 | dji mavic 3 pro storage cover price | dji mavic 3 pro (1600); dj1 mavic 3 pro (110); mavic 3 pro cine (70); mavic 3 pro fly more combo (50); mavic 3 (390) |
 | DJI Mavic 4 Pro (DJI RC 2) | 3,099 | dji mavic 4 pro price (90) | dj1 mavic 4 pro (480); drone remote control drone (110); remote control dji (210); dji rc controls (50); dji remotes (50) |
 | DJI Mavic 4 Pro Fly More Combo (DJI RC 2) | 4,039 | dji mavic 4 pro fly more combo rc 2 price | dj1 mavic 4 pro (480); remote control dji (210); dji rc controls (50); dji remotes (50); drone remote control drone (110) |
-| DJI Lito 1 | 539 | drones sale (260) | drones for beginners (260); beginner drone with camera (110); mini drone with camera (170); dji drone mini (210); fly more combo (50) |
+| DJI Lito 1 | 539 | dji lito 1 price | drones for beginners (260); beginner drone with camera (110); mini drone with camera (170); dji drone mini (210); fly more combo (50) |
 | DJI Lito 1 Fly More Combo (DJI RC-N3) | 779 | dji lito 1 fly more combo rc n3 price | dji rc controls (50); dji remotes (50); drone remote control drone (110); remote control dji (210) |
-| DJI Lito X1 | 619 | nano drones (50) | beginner drone with camera (110); mini drone with camera (170); dji drone mini (210); fly more combo (50); drones for beginners (260) |
+| DJI Lito X1 | 619 | dji lito x1 price | beginner drone with camera (110); mini drone with camera (170); dji drone mini (210); fly more combo (50); drones for beginners (260) |
 | DJI Lito X1 Fly More Combo (DJI RC-N3) | 899 | dji lito x1 fly more combo rc n3 price | dji remotes (50); drone remote control drone (110); remote control dji (210); dji rc controls (50) |
 | DJI Lito X1 Fly More Combo (DJI RC 2) | 1,069 | dji lito x1 fly more combo rc 2 price | drone remote control drone (110); remote control dji (210); dji rc controls (50); dji remotes (50) |
 | DJI Lito X1 Fly More Combo Plus (DJI RC 2) | 1,199 | dji lito x1 fly more combo plus rc 2 price | remote control dji (210); dji rc controls (50); dji remotes (50); drone remote control drone (110) |
@@ -710,66 +710,66 @@ Each product has one transactional primary (price / buy / sale / model-purchase 
 | DJI Mavic 4 Pro Intelligent Flight Battery | 279 | dji 4 pro battery (50) | dj1 mavic 4 pro (480); dji drone 4k pro (50); camera drones australia (110); dji mavic accessories (50) |
 | DJI Mavic 4 Pro Propellers | 29 | dji mavic 4 pro propellers price | dj1 mavic 4 pro (480); camera drones australia (110); dji mavic accessories (50); dji drone 4k pro (50) |
 | DJI Mavic 4 Pro Parallel Charging Hub | 159 | dji mavic 4 pro parallel charging hub price | dj1 mavic 4 pro (480); dji mavic accessories (50); dji drone 4k pro (50); camera drones australia (110) |
-| DJI Goggles 3 | 869 | dji goggles 3 price | dji goggles (590); fpv goggles (320); goggles for drone (110); drone goggles (110); fpv drone goggles (110) |
-| DJI Goggles Carry More Backpack | 169 | dji goggles carry more backpack price | dji goggles (590); fpv goggles (320); goggles for drone (110); drone goggles (110); fpv drone goggles (110) |
+| DJI Goggles 3 | 869 | dji goggles 3 (1000) | dji goggles 3 vs n3 (90); dji fpv glasses (50); fpv goggles dji (70); avata goggles (50); dji goggles (590) |
+| DJI Goggles Carry More Backpack | 169 | dji goggles carry more backpack price | dji fpv glasses (50); fpv goggles dji (70); avata goggles (50); dji goggles (590); dji goggles 3 vs n3 (90) |
 | DJI Sling Bag | 129 | dji sling bag price | drone bag (140); camera drones australia (110); drone accessories australia (210); dji mavic accessories (50); drone case (90) |
-| DJI 65W Portable Charger | 49 | dji 65w portable charger price | dji battery (390); dji drone battery (140); dji batteries (70); drone battery dji (110); dji drone charger (90) |
+| DJI 65W Portable Charger | 49 | dji 65w portable charger price | dji drone battery (140); dji batteries (70); drone battery dji (110); dji drone charger (90); drone battery charger (50) |
 | DJI Mavic 3 Series Low-Noise Propellers | 29 | dji mavic 3 series low noise propellers price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
 | DJI Mavic 3 Storage Cover | 49 | dji mavic 3 storage cover price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
 | DJI Mavic 3 Classic Storage Cover | 49 | dji mavic 3 classic storage cover price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
 | DJI Mavic 3 Classic Wide-Angle Lens | 169 | dji mavic 3 classic wide angle lens price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
-| DJI RC Motion 2 | 279 | dji rc motion 2 price | dji rc 2 (590); rc drone (390); commercial drones (260); rc drones (140); dji rc-n2 (110) |
+| DJI RC Motion 2 | 279 | dji rc motion 2 price | dji remotes (50); drone remote control drone (110); remote control dji (210); dji rc controls (50) |
 | DJI Motion Controller | 229 | dji motion controller price | drone remote control drone (110); remote control dji (210); dji rc controls (50); dji remotes (50) |
-| DJI RC/RC 2 Control Sticks | 19 | dji rc rc 2 control sticks price | dji rc 2 (590); rc drone (390); commercial drones (260); rc drones (140); dji rc-n2 (110) |
-| DJI RC Pro 2 | 1,529 | dji rc pro 2 price | dji rc 2 (590); rc drone (390); commercial drones (260); rc drones (140); dji rc-n2 (110) |
-| DJI FPV Propellers | 19 | dji fpv propellers price | fpv drone kit (390); fpv goggles (320); fpv battery (210); fpv camera (170); battery fpv (170) |
-| DJI FPV Goggles Battery | 49 | dji fpv goggles battery price | dji goggles (590); fpv goggles (320); goggles for drone (110); drone goggles (110); fpv drone goggles (110) |
-| DJI FPV Goggles Antenna (Dual Band) | 29 | dji fpv goggles antenna dual band price | dji goggles (590); fpv goggles (320); goggles for drone (110); drone goggles (110); fpv drone goggles (110) |
-| DJI Matrice 400 2510F Propeller | 63 | dji matrice 400 2510f propeller price | camera uav (880); commercial drones australia (50); drone camera (2400) |
-| BS100 Intelligent Battery Station | 2,100 | dji bs100 intelligent battery station price | commercial drones australia (50); camera uav (880); drone camera (2400) |
-| DJI Matrice 400 Third Gimbal Connector | 230 | dji matrice 400 third gimbal connector price | camera uav (880); commercial drones australia (50); drone camera (2400) |
-| DJI Matrice 400 Dual Gimbal Connector | 390 | dji matrice 400 dual gimbal connector price | commercial drones australia (50); camera uav (880); drone camera (2400) |
-| DJI Matrice 400 Gimbal Damper | 20 | dji matrice 400 gimbal damper price | camera uav (880); commercial drones australia (50); drone camera (2400) |
-| DJI Matrice 4D Series Low-Noise Anti-Ice Propellers | 50 | dji matrice 4d series low noise anti ice propellers price | dji matrice 4 (170); commercial drones australia (50); camera uav (880) |
-| DJI Matrice 4D Series 240W Charging Hub | 140 | dji matrice 4d series 240w charging hub price | dji matrice 4 (170); camera uav (880); commercial drones australia (50) |
-| DJI Matrice 4 Obstacle Sensing Module | 2,380 | dji matrice 4 obstacle sensing module price | dji matrice 4 (170); commercial drones australia (50); camera uav (880) |
-| DJI Matrice 4 Series Charging Hub (200W) | 140 | dji matrice 4 series charging hub 200w price | dji matrice 4 (170); camera uav (880); commercial drones australia (50) |
+| DJI RC/RC 2 Control Sticks | 19 | dji rc rc 2 control sticks price | remote control dji (210); dji rc controls (50); dji remotes (50); drone remote control drone (110) |
+| DJI RC Pro 2 | 1,529 | dji rc pro 2 price | dji rc controls (50); dji remotes (50); drone remote control drone (110); remote control dji (210) |
+| DJI FPV Propellers | 19 | dji fpv propellers price | drone propeller (140); drone propellers (110); dji propellers (70); drone props (110) |
+| DJI FPV Goggles Battery | 49 | dji fpv goggles battery price | fpv goggles dji (70); avata goggles (50); dji goggles (590); dji goggles 3 vs n3 (90); dji fpv glasses (50) |
+| DJI FPV Goggles Antenna (Dual Band) | 29 | dji fpv goggles antenna dual band price | avata goggles (50); dji goggles (590); dji goggles 3 vs n3 (90); dji fpv glasses (50); fpv goggles dji (70) |
+| DJI Matrice 400 2510F Propeller | 63 | dji matrice 400 2510f propeller price | drone propellers (110); dji propellers (70); drone props (110); drone propeller (140) |
+| BS100 Intelligent Battery Station | 2,100 | dji bs100 intelligent battery station price | dji batteries (70); drone battery dji (110); dji drone charger (90); drone battery charger (50); dji battery (390) |
+| DJI Matrice 400 Third Gimbal Connector | 230 | dji matrice 400 third gimbal connector price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| DJI Matrice 400 Dual Gimbal Connector | 390 | dji matrice 400 dual gimbal connector price | camera uav (880); commercial drones australia (50); drone camera (2400) |
+| DJI Matrice 400 Gimbal Damper | 20 | dji matrice 400 gimbal damper price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| DJI Matrice 4D Series Low-Noise Anti-Ice Propellers | 50 | dji matrice 4d series low noise anti ice propellers price | dji matrice 4 (170); dji propellers (70); drone props (110); drone propeller (140); drone propellers (110) |
+| DJI Matrice 4D Series 240W Charging Hub | 140 | dji matrice 4d series 240w charging hub price | dji matrice 4 (170); drone battery dji (110); dji drone charger (90); drone battery charger (50); dji battery (390) |
+| DJI Matrice 4 Obstacle Sensing Module | 2,380 | dji matrice 4 obstacle sensing module price | dji matrice 4 (170); camera uav (880); commercial drones australia (50) |
+| DJI Matrice 4 Series Charging Hub (200W) | 140 | dji matrice 4 series charging hub 200w price | dji matrice 4 (170); dji drone charger (90); drone battery charger (50); dji battery (390); dji drone battery (140) |
 | DJI Matrice 4 Series Carrying Case Strap | 80 | dji matrice 4 series carrying case strap price | dji matrice 4 (170); commercial drones australia (50); camera uav (880) |
-| DJI Matrice 4D Series Battery | 450 | dji matrice 4d series battery price | dji matrice 4 (170); camera uav (880); commercial drones australia (50) |
-| DJI RC Plus 2 Enterprise Enhanced | 2,170 | dji rc plus 2 enterprise enhanced price | dji rc 2 (590); rc drone (390); commercial drones (260); rc drones (140); dji rc-n2 (110) |
-| DJI RC Plus 2 Strap and Bracket Kit | 105 | dji rc plus 2 strap and bracket kit price | dji rc 2 (590); rc drone (390); commercial drones (260); rc drones (140); dji rc-n2 (110) |
+| DJI Matrice 4D Series Battery | 450 | dji matrice 4d series battery price | dji matrice 4 (170); drone battery charger (50); dji battery (390); dji drone battery (140); dji batteries (70) |
+| DJI RC Plus 2 Enterprise Enhanced | 2,170 | dji rc plus 2 enterprise enhanced price | dji remotes (50); drone remote control drone (110); remote control dji (210); dji rc controls (50) |
+| DJI RC Plus 2 Strap and Bracket Kit | 105 | dji rc plus 2 strap and bracket kit price | drone remote control drone (110); remote control dji (210); dji rc controls (50); dji remotes (50) |
 | DJI RC Plus (Inspire 3) | 2,170 | dji rc plus inspire 3 price | remote control dji (210); dji rc controls (50); dji remotes (50); drone remote control drone (110) |
-| DJI RC Plus Height-Adjustable Control Sticks | 29 | dji rc plus height adjustable control sticks price | dji rc 2 (590); rc drone (390); commercial drones (260); rc drones (140); dji rc-n2 (110) |
-| DJI AL1 Spotlight | 460 | dji al1 spotlight price | commercial drones australia (50); camera uav (880); drone camera (2400) |
-| DJI AS1 Speaker | 340 | dji as1 speaker price | camera uav (880); commercial drones australia (50); drone camera (2400) |
-| D-RTK 3 Multifunctional Station | 2,320 | dji d rtk 3 multifunctional station price | commercial drones australia (50); camera uav (880); drone camera (2400) |
-| D-RTK 3 Survey Pole and Tripod Kit | 460 | dji d rtk 3 survey pole and tripod kit price | camera uav (880); commercial drones australia (50); drone camera (2400) |
+| DJI RC Plus Height-Adjustable Control Sticks | 29 | dji rc plus height adjustable control sticks price | dji rc controls (50); dji remotes (50); drone remote control drone (110); remote control dji (210) |
+| DJI AL1 Spotlight | 460 | dji al1 spotlight price | camera uav (880); commercial drones australia (50); drone camera (2400) |
+| DJI AS1 Speaker | 340 | dji as1 speaker price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| D-RTK 3 Multifunctional Station | 2,320 | dji d rtk 3 multifunctional station price | camera uav (880); commercial drones australia (50); drone camera (2400) |
+| D-RTK 3 Survey Pole and Tripod Kit | 460 | dji d rtk 3 survey pole and tripod kit price | commercial drones australia (50); camera uav (880); drone camera (2400) |
 | DJI High-Bright Remote Monitor | 2,119 | dji high bright remote monitor price | dji remotes (50); drone remote control drone (110); remote control dji (210); dji rc controls (50) |
 | DJI Inspire 3 Foldable Quick-Release Propellers (Pair) | 99 | dji inspire 3 foldable quick release propellers pair price | commercial drones australia (50); drone camera (2400); videographer drone (50); drone filming (50) |
-| Zenmuse H30T Infrared Density Filter | 230 | dji zenmuse h30t infrared density filter price | dji zenmuse l3 (50); zenmuse l3 (50); thermal imaging camera (2400); infrared camera (1000); thermal drone (880) |
+| Zenmuse H30T Infrared Density Filter | 230 | dji zenmuse h30t infrared density filter price | thermal imaging camera (2400); infrared camera (1000); thermal drone (880); drone with thermal camera (260); thermal imager (480) |
 | DJI Matrice 4T Plus Combo | 11,248 | dji matrice 4t plus combo price | dji matrice 4 (170); infrared camera (1000); thermal drone (880); drone with thermal camera (260); thermal imager (480) |
-| DJI Matrice 4E Plus Combo | 8,360 | dji matrice 4e plus combo price | dji matrice 4 (170); commercial drones australia (50); camera uav (880) |
-| DJI Matrice 4D Worry-Free Flagship Combo | 12,040 | dji matrice 4d worry free flagship combo price | dji matrice 4 (170); camera uav (880); commercial drones australia (50) |
+| DJI Matrice 4E Plus Combo | 8,360 | dji matrice 4e plus combo price | dji matrice 4 (170); camera uav (880); commercial drones australia (50) |
+| DJI Matrice 4D Worry-Free Flagship Combo | 12,040 | dji matrice 4d worry free flagship combo price | dji matrice 4 (170); commercial drones australia (50); camera uav (880) |
 | DJI Matrice 4TD Worry-Free Flagship Combo | 15,470 | dji matrice 4td worry free flagship combo price | dji matrice 4 (170); thermal drone (880); drone with thermal camera (260); thermal imager (480); flir infrared cameras (210) |
-| DJI Matrice 400 Worry-Free Plus Combo | 18,550 | dji matrice 400 worry free plus combo price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| DJI Matrice 400 Worry-Free Plus Combo | 18,550 | dji matrice 400 worry free plus combo price | camera uav (880); commercial drones australia (50); drone camera (2400) |
 | Matrice 30T Worry-Free Basic Combo | 14,917 | dji matrice 30t worry free basic combo price | drone with thermal camera (260); thermal imager (480); flir infrared cameras (210); thermal drones (390); thermal imaging camera (2400) |
-| Matrice 30 Worry-Free Basic Combo | 10,989 | dji matrice 30 worry free basic combo price | camera uav (880); commercial drones australia (50); drone camera (2400) |
+| Matrice 30 Worry-Free Basic Combo | 10,989 | dji matrice 30 worry free basic combo price | commercial drones australia (50); camera uav (880); drone camera (2400) |
 | Matrice 30T Worry-Free Plus Combo | 15,473 | dji matrice 30t worry free plus combo price | thermal imager (480); flir infrared cameras (210); thermal drones (390); thermal imaging camera (2400); infrared camera (1000) |
-| Matrice 30 Worry-Free Plus Combo | 11,363 | dji matrice 30 worry free plus combo price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| Matrice 30 Worry-Free Plus Combo | 11,363 | dji matrice 30 worry free plus combo price | camera uav (880); commercial drones australia (50); drone camera (2400) |
 | DJI Mavic 3E Worry-Free Basic Combo | 6,049 | dji mavic 3e worry free basic combo price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
 | DJI Mavic 3E Worry-Free Plus Combo | 8,279 | dji mavic 3e worry free plus combo price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
 | DJI Mavic 3T Worry-Free Basic Combo | 8,249 | dji mavic 3t worry free basic combo price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
 | DJI Mavic 3T Worry-Free Plus Combo | 10,679 | dji mavic 3t worry free plus combo price | dji mavic 3 pro (1600); mavic 3 (390); dj1 mavic 3 pro (110); mavic 3 pro cine (70); dji mavic 3 thermal drone (70) |
-| Zenmuse H30 Worry-Free Basic Combo | 8,495 | dji zenmuse h30 worry free basic combo price | dji zenmuse l3 (50); zenmuse l3 (50); camera uav (880); commercial drones australia (50) |
-| Zenmuse L2 Worry-Free Basic Combo | 23,880 | dji zenmuse l2 worry free basic combo price | dji zenmuse l3 (50); zenmuse l3 (50); lidar drones (110); drone lidar scanner (50); drone lidar (170) |
-| Zenmuse H30 Worry-Free Plus Combo | 9,215 | dji zenmuse h30 worry free plus combo price | dji zenmuse l3 (50); zenmuse l3 (50); commercial drones australia (50); camera uav (880) |
-| Zenmuse L2 Worry-Free Plus Combo | 25,870 | dji zenmuse l2 worry free plus combo price | dji zenmuse l3 (50); zenmuse l3 (50); drone lidar scanner (50); drone lidar (170); drone with lidar (70) |
-| Zenmuse L3 Worry-Free Plus Combo | 27,410 | dji l3 (70) | dji zenmuse l3 (50); zenmuse l3 (50); drone lidar (170); drone with lidar (70); lidar 3d scanner (90) |
-| Zenmuse P1 and DJI Care Plus | 13,765 | dji zenmuse p1 and dji care plus price | dji zenmuse l3 (50); zenmuse l3 (50); camera uav (880); commercial drones australia (50) |
-| Zenmuse H20 and DJI Care Plus | 7,246 | thermal camera amazon (50) | dji zenmuse l3 (50); zenmuse l3 (50); flir infrared cameras (210); thermal drones (390); thermal imaging camera (2400) |
-| Zenmuse S1 | 2,099 | dji zenmuse s1 price | dji zenmuse l3 (50); zenmuse l3 (50); commercial drones australia (50); camera uav (880) |
-| Zenmuse V1 | 1,499 | dji zenmuse v1 price | dji zenmuse l3 (50); zenmuse l3 (50); camera uav (880); commercial drones australia (50) |
-| Manifold 3 | 2,190 | dji manifold 3 price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| Zenmuse H30 Worry-Free Basic Combo | 8,495 | dji zenmuse h30 worry free basic combo price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| Zenmuse L2 Worry-Free Basic Combo | 23,880 | dji zenmuse l2 worry free basic combo price | lidar drones (110); drone lidar scanner (50); drone lidar (170); drone with lidar (70); lidar 3d scanner (90) |
+| Zenmuse H30 Worry-Free Plus Combo | 9,215 | dji zenmuse h30 worry free plus combo price | camera uav (880); commercial drones australia (50); drone camera (2400) |
+| Zenmuse L2 Worry-Free Plus Combo | 25,870 | dji zenmuse l2 worry free plus combo price | drone lidar scanner (50); drone lidar (170); drone with lidar (70); lidar 3d scanner (90); lidar drone (320) |
+| Zenmuse L3 Worry-Free Plus Combo | 27,410 | dji l3 (70) | drone lidar (170); drone with lidar (70); lidar 3d scanner (90); lidar drone (320); lidar drones (110) |
+| Zenmuse P1 and DJI Care Plus | 13,765 | dji zenmuse p1 and dji care plus price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| Zenmuse H20 and DJI Care Plus | 7,246 | dji zenmuse h20 and dji care plus price | flir infrared cameras (210); thermal drones (390); thermal imaging camera (2400); infrared camera (1000); thermal drone (880) |
+| Zenmuse S1 | 2,099 | dji zenmuse s1 price | camera uav (880); commercial drones australia (50); drone camera (2400) |
+| Zenmuse V1 | 1,499 | dji zenmuse v1 price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+| Manifold 3 | 2,190 | dji manifold 3 price | camera uav (880); commercial drones australia (50); drone camera (2400) |
 | DJI Agras T100 | 30,380 | dji agras t100 price (90) | crop spraying drone (110); agriculture spraying drone (170); spray drone (170); ag drone sprayer (140); drone sprayer (320) |
 | DJI Agras T70P | 20,380 | dji agras t70p price | agriculture spraying drone (170); spray drone (170); ag drone sprayer (140); drone sprayer (320); drone spraying (320) |
 | DJI Agras T50 | 21,999 | dji agras t50 price (70) | agras t50 (50); spray drone (170); ag drone sprayer (140); drone sprayer (320); drone spraying (320) |
@@ -806,4 +806,4 @@ Each product has one transactional primary (price / buy / sale / model-purchase 
 | DJI AP100 Parachute | 1,700 | dji ap100 parachute price | delivery drone (140); drones for logistics (50); delivery drones (260) |
 | DJI FC100 Parachute Kit | 4,620 | dji fc100 parachute kit price | drones for logistics (50); delivery drones (260); delivery drone (140) |
 | DJI Dock 3 Vehicle-Mounted Gimbal Mount | 490 | dji dock 3 vehicle mounted gimbal mount price | delivery drones (260); delivery drone (140); drones for logistics (50) |
-| DJI O4 Ground Station | 3,570 | dji o4 ground station price | camera uav (880); commercial drones australia (50); drone camera (2400) |
+| DJI O4 Ground Station | 3,570 | dji o4 ground station price | commercial drones australia (50); camera uav (880); drone camera (2400) |
