@@ -15,6 +15,166 @@ export interface ProductDetail {
 const COMBO_BOX = ['Aircraft', 'Three Intelligent Flight Batteries', 'Two-way charging hub', 'Shoulder bag'];
 
 export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
+  'dji-agras-db1560-intelligent-flight-battery': {
+    overview:
+      'The DJI Agras DB1560 Intelligent Flight Battery is the intelligent flight battery for the DJI Agras T50 and T40. It is a high-capacity pack that keeps spraying and spreading jobs running.',
+    bestFor:
+      'For T50 and T40 operators who need spares to cover a full day of work.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras T50 and T40', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras T50 and T40'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-agras-db2160-intelligent-flight-battery': {
+    overview:
+      'The DJI Agras DB2160 Intelligent Flight Battery is the intelligent flight battery for the DJI Agras T100. It powers the largest Agras sprayer through long, heavy-payload missions.',
+    bestFor:
+      'For T100 operators who need extra battery capacity.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras T100', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras T100'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-agras-db800-intelligent-flight-battery': {
+    overview:
+      'The DJI Agras DB800 Intelligent Flight Battery is the intelligent flight battery for the DJI Agras T30, T25 and T20P class aircraft. A spare pack keeps a spray drone working while the others charge.',
+    bestFor:
+      'For operators of compatible mid-size Agras aircraft.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras T30, T25 and T20P', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras T30, T25 and T20P'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-db2000-intelligent-flight-battery': {
+    overview:
+      'The DJI DB2000 Intelligent Flight Battery is the intelligent flight battery for the DJI FlyCart 30 delivery drone. It supports heavy-lift delivery missions.',
+    bestFor:
+      'For FlyCart 30 operators who need spare packs.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI FlyCart 30', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI FlyCart 30'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-c10000-intelligent-power-supply': {
+    overview:
+      'The DJI C10000 Intelligent Power Supply is an intelligent power supply that charges DJI Agras flight batteries. It speeds up battery turnaround on busy spraying days.',
+    bestFor:
+      'For operators running DB1560 and DB800 batteries in the field.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras T50, T40 and compatible aircraft', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras T50, T40 and compatible aircraft'], ['Type', 'Intelligent charger']]
+  },
+  'dji-c12000-intelligent-power-supply': {
+    overview:
+      'The DJI C12000 Intelligent Power Supply is an intelligent power supply that charges the DJI Agras T100 batteries. It is built for the high-capacity T100 battery packs.',
+    bestFor:
+      'For T100 operators who need faster charging.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras T100', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras T100'], ['Type', 'Intelligent charger']]
+  },
+  'dji-c8000-intelligent-battery-station': {
+    overview:
+      'The DJI C8000 Intelligent Battery Station is an intelligent battery station for the DJI FlyCart delivery drones. It charges delivery-drone batteries in a controlled, repeatable way.',
+    bestFor:
+      'For logistics teams running FlyCart batteries.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI FlyCart 30', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI FlyCart 30'], ['Type', 'Battery station']]
+  },
+  'dji-agras-t50-atomized-sprinkler-package': {
+    overview:
+      'The DJI Agras T50 Atomized Sprinkler Package is an atomised sprinkler package for the DJI Agras T50. Atomised nozzles refine droplet size for better coverage.',
+    bestFor:
+      'For T50 operators spraying crops that need fine droplets.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras T50', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras T50'], ['Type', 'Sprinkler package']]
+  },
+  'dji-agras-t50-spreading-system': {
+    overview:
+      'The DJI Agras T50 Spreading System is a granular spreading system for the DJI Agras T50. It lets the T50 spread seed, fertiliser and other granular material.',
+    bestFor:
+      'For farms that want to seed and fertilise with the T50.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras T50', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras T50'], ['Type', 'Spreading system']]
+  },
+  'dji-150l-spreading-system': {
+    overview:
+      'The DJI 150L Spreading System is a 150 L spreading system for the DJI Agras T100. Its large hopper cuts refill trips on broadacre seeding and fertilising.',
+    bestFor:
+      'For T100 operators spreading over large areas.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras T100', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras T100'], ['Type', 'Spreading system']]
+  },
+  'dji-agras-t100-mist-nozzle-package': {
+    overview:
+      'The DJI Agras T100 Mist Nozzle Package is a mist nozzle package for the DJI Agras T100. Mist nozzles improve atomisation and penetration for orchard and canopy spraying.',
+    bestFor:
+      'For T100 operators spraying orchards and dense crops.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras T100', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras T100'], ['Type', 'Mist nozzle package']]
+  },
+  'dji-agras-t100-lift-system-kit': {
+    overview:
+      'The DJI Agras T100 Lift System Kit is a lift system kit that lets the DJI Agras T100 carry and lower loads. It extends the T100 beyond spraying to lifting and delivery work.',
+    bestFor:
+      'For T100 operators who also carry loads on the farm.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras T100', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras T100'], ['Type', 'Lift system kit']]
+  },
+  'dji-d14000ie-multifunctional-inverter-generator': {
+    overview:
+      'The DJI D14000iE Multifunctional Inverter Generator is a multifunctional inverter generator for powering chargers in the field. It supplies the power needed to charge Agras batteries away from the mains.',
+    bestFor:
+      'For operators working on remote properties.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras charging stations', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras charging stations'], ['Type', 'Inverter generator']]
+  },
+  'dji-agras-d12000i-charging-extension-cable': {
+    overview:
+      'The DJI Agras D12000i Charging Extension Cable is a charging extension cable for the D12000i generator and DJI Agras chargers. It extends reach between the generator and the charging station.',
+    bestFor:
+      'For field charging set-ups.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras charging stations', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras charging stations'], ['Type', 'Charging extension cable']]
+  },
+  'dji-db2100-battery-adapter-cable': {
+    overview:
+      'The DJI DB2100 Battery Adapter Cable is a battery adapter cable for DJI Agras flight batteries. It adapts the battery connection for compatible charging and power set-ups.',
+    bestFor:
+      'For T100-class operators with specialised charging needs.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Agras T100', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Agras T100'], ['Type', 'Battery adapter cable']]
+  },
+  'dji-dual-battery-lifting-system': {
+    overview:
+      'The DJI Dual Battery Lifting System is a dual battery lifting system for the DJI FlyCart. It lets the delivery drone carry and lift heavier loads.',
+    bestFor:
+      'For logistics teams needing extra lifting capacity.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI FlyCart 100', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI FlyCart 100'], ['Type', 'Lifting system']]
+  },
+  'dji-ap100-parachute': {
+    overview:
+      'The DJI AP100 Parachute is a parachute system for the DJI Matrice 400. It adds a safety layer for flights over people or sensitive sites.',
+    bestFor:
+      'For operators who need a parachute for regulated or high-risk flights.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Matrice 400', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Matrice 400'], ['Type', 'Parachute']]
+  },
+  'dji-fc100-parachute-kit': {
+    overview:
+      'The DJI FC100 Parachute Kit is a parachute kit for the DJI FlyCart 100. It adds recovery protection for heavy delivery flights.',
+    bestFor:
+      'For logistics operators flying over populated or sensitive areas.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI FlyCart 100', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI FlyCart 100'], ['Type', 'Parachute kit']]
+  },
+  'dji-dock-3-vehicle-mounted-gimbal-mount': {
+    overview:
+      'The DJI Dock 3 Vehicle-Mounted Gimbal Mount is a vehicle-mounted gimbal mount for the DJI Dock 3. It lets teams mount the dock gimbal system on a vehicle.',
+    bestFor:
+      'For mobile drone-in-a-box deployments.',
+    highlights: ['Genuine DJI accessory', 'Made for DJI Dock 3', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Dock 3'], ['Type', 'Gimbal mount']]
+  },
+  'dji-o4-ground-station': {
+    overview:
+      'The DJI O4 Ground Station is a ground station that extends and relays the video link for DJI enterprise aircraft. It helps keep a strong connection during long-range operations.',
+    bestFor:
+      'For enterprise teams running long-range missions.',
+    highlights: ['Genuine DJI accessory', 'Made for compatible DJI enterprise aircraft', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'compatible DJI enterprise aircraft'], ['Type', 'Ground station']]
+  },
   'dji-dock-3-survey-package': {
     overview:
       'The DJI Dock 3 Survey Package is a Dock 3 package built for mapping and survey, with a Matrice 4D aircraft, Care Enterprise Plus, DJI Terra Pro for a year, and accessories. It gives survey teams the dock, an aircraft, mapping software and a controller in one purchase.',

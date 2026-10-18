@@ -497,7 +497,7 @@ Neo 2 drone-only photo replaced with the high-resolution supplied image.
 | Zenmuse V1 | 1,499 | fire fighting uav (90, KD 18) | search and rescue drone; dji enterprise; dji matrice |
 | Manifold 3 | 2,190 | dji enterprise (260, KD 17) | dji matrice; dji enterprise drones; dji parts |
 
-## Agras, Docks, FlyCart and Livox added Oct 2026 (D1 Store AU prices; DJI/Livox official images)
+## Agras, Docks, FlyCart and Livox added (Oct 2026)
 
 | Product | AUD | Primary keyword | Supporting |
 |---|---:|---|---|
@@ -515,7 +515,7 @@ Neo 2 drone-only photo replaced with the high-resolution supplied image.
 | Livox Avia LiDAR | 2,499 | lidar drone (320, KD 14) | drone lidar; drone with lidar; lidar 3d scanner |
 | Livox Avia 2 LiDAR | 4,720 | drone lidar scanner (50, KD 10) | drone lidar; lidar drone; lidar 3d scanner |
 
-## Dock 3 packages and enterprise software added Oct 2026 (D1 Store AU prices; DJI/Livox official images)
+## Dock 3 packages and enterprise software added (Oct 2026)
 
 | Product | AUD | Primary keyword | Supporting |
 |---|---:|---|---|
@@ -523,3 +523,28 @@ Neo 2 drone-only photo replaced with the high-resolution supplied image.
 | DJI Dock 3 Thermal Package | 34,278 | thermal drone (880, KD 11) | dji thermal drone; thermal drones australia; dji enterprise |
 | DJI Terra Agriculture (1 Year, 3 Devices) | 490 | drone mapping near me (50, KD 9) | uav for farming; agriculture uav drone; dji agricultural drones |
 | DJI Modify Flagship (Permanent Licence) | 6,100 | lidar drone (320, KD 14) | drone lidar; drone lidar scanner; lidar 3d scanner |
+
+## Agras, FlyCart and enterprise accessories added (D1 Store AU prices and photos) (Oct 2026)
+
+| Product | AUD | Primary keyword | Supporting |
+|---|---:|---|---|
+| DJI Agras DB1560 Intelligent Flight Battery | 3,850 | dji t40 (90, KD 24) | dji agras t40; dji agras t40 price; dji drone battery |
+| DJI Agras DB2160 Intelligent Flight Battery | 4,080 | dji t100 price (70, KD 4) | dji agras t100 price; agricultural drones; drone battery |
+| DJI Agras DB800 Intelligent Flight Battery | 3,190 | dji drone battery (140, KD 22) | drone battery; dji agras t40; dji parts |
+| DJI DB2000 Intelligent Flight Battery | 3,670 | heavy payload drones (50, KD 19) | drones for logistics; dji drone battery; dji enterprise |
+| DJI C10000 Intelligent Power Supply | 2,310 | dji drone charger (90, KD 21) | drone battery charger; dji t40; dji parts |
+| DJI C12000 Intelligent Power Supply | 2,380 | drone battery charger (50, KD 10) | dji drone charger; dji t100 price; dji parts |
+| DJI C8000 Intelligent Battery Station | 2,310 | drones for logistics (50, KD 17) | drone battery charger; heavy lift drone; dji enterprise |
+| DJI Agras T50 Atomized Sprinkler Package | 1,100 | drone spraying (320, KD 12) | spraying drones; drone sprayer; dji agras t50 price |
+| DJI Agras T50 Spreading System | 2,200 | drone weed spraying (110, KD 12) | agricultural drones; dji agricultural drones; dji agras t50 price |
+| DJI 150L Spreading System | 3,010 | dji agricultural drones (110, KD 12) | agricultural drones; dji agras t100 price; drone spraying |
+| DJI Agras T100 Mist Nozzle Package | 2,170 | crop spraying drone (110, KD 8) | drone spraying; dji agras t100 price; spray drone |
+| DJI Agras T100 Lift System Kit | 1,460 | heavy lift drone (140, KD 15) | dji agras t100 price; agricultural drones; drone sprayer |
+| DJI D14000iE Multifunctional Inverter Generator | 5,190 | agricultural drones (320, KD 20) | dji agricultural drones; drone sprayer; dji parts |
+| DJI Agras D12000i Charging Extension Cable | 399 | dji parts (50, KD 7) | dji agricultural drones; dji drone charger; agricultural drones |
+| DJI DB2100 Battery Adapter Cable | 327 | dji parts (50, KD 7) | dji agricultural drones; drone battery; agricultural drones |
+| DJI Dual Battery Lifting System | 3,990 | heavy lift drone (140, KD 15) | drones for logistics; heavy payload drones; dji enterprise |
+| DJI AP100 Parachute | 1,700 | dji enterprise (260, KD 17) | dji matrice; dji parts; dji enterprise drones |
+| DJI FC100 Parachute Kit | 4,620 | drones for logistics (50, KD 17) | heavy lift drone; dji enterprise; heavy payload drones |
+| DJI Dock 3 Vehicle-Mounted Gimbal Mount | 490 | dji enterprise (260, KD 17) | dji parts; dji matrice; commercial drones for sale |
+| DJI O4 Ground Station | 3,570 | dji enterprise (260, KD 17) | dji controller; dji parts; dji matrice |

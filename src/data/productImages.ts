@@ -1,5 +1,65 @@
 // Generated from the product photo folder. Keys are product slugs; the first image is the primary one.
 export const PRODUCT_IMAGES: Record<string, string[]> = {
+  "dji-agras-db1560-intelligent-flight-battery": [
+    "/products/dji-dji-agras-db1560-intelligent-flight-battery.jpg"
+  ],
+  "dji-agras-db2160-intelligent-flight-battery": [
+    "/products/dji-dji-agras-db2160-intelligent-flight-battery.jpg"
+  ],
+  "dji-agras-db800-intelligent-flight-battery": [
+    "/products/dji-dji-agras-db800-intelligent-flight-battery.jpg"
+  ],
+  "dji-db2000-intelligent-flight-battery": [
+    "/products/dji-dji-db2000-intelligent-flight-battery.jpg"
+  ],
+  "dji-c10000-intelligent-power-supply": [
+    "/products/dji-dji-c10000-intelligent-power-supply.jpg"
+  ],
+  "dji-c12000-intelligent-power-supply": [
+    "/products/dji-dji-c12000-intelligent-power-supply.jpg"
+  ],
+  "dji-c8000-intelligent-battery-station": [
+    "/products/dji-dji-c8000-intelligent-battery-station.jpg"
+  ],
+  "dji-agras-t50-atomized-sprinkler-package": [
+    "/products/dji-dji-agras-t50-atomized-sprinkler-package.jpg"
+  ],
+  "dji-agras-t50-spreading-system": [
+    "/products/dji-dji-agras-t50-spreading-system.jpg"
+  ],
+  "dji-150l-spreading-system": [
+    "/products/dji-dji-150l-spreading-system.jpg"
+  ],
+  "dji-agras-t100-mist-nozzle-package": [
+    "/products/dji-dji-agras-t100-mist-nozzle-package.jpg"
+  ],
+  "dji-agras-t100-lift-system-kit": [
+    "/products/dji-dji-agras-t100-lift-system-kit.jpg"
+  ],
+  "dji-d14000ie-multifunctional-inverter-generator": [
+    "/products/dji-dji-d14000ie-multifunctional-inverter-generator.jpg"
+  ],
+  "dji-agras-d12000i-charging-extension-cable": [
+    "/products/dji-dji-agras-d12000i-charging-extension-cable.jpg"
+  ],
+  "dji-db2100-battery-adapter-cable": [
+    "/products/dji-dji-db2100-battery-adapter-cable.jpg"
+  ],
+  "dji-dual-battery-lifting-system": [
+    "/products/dji-dji-dual-battery-lifting-system.jpg"
+  ],
+  "dji-ap100-parachute": [
+    "/products/dji-dji-ap100-parachute.jpg"
+  ],
+  "dji-fc100-parachute-kit": [
+    "/products/dji-dji-fc100-parachute-kit.jpg"
+  ],
+  "dji-dock-3-vehicle-mounted-gimbal-mount": [
+    "/products/dji-dji-dock-3-vehicle-mounted-gimbal-mount.jpg"
+  ],
+  "dji-o4-ground-station": [
+    "/products/dji-dji-o4-ground-station.jpg"
+  ],
   "dji-dock-3-survey-package": [
     "/products/dji-dji-dock-3-survey-package.jpg",
     "/products/dji-dji-matrice-4d-worry-free-flagship-combo.jpg"

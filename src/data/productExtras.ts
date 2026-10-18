@@ -1,6 +1,46 @@
 // Third description paragraph per product: buying context written around the primary and supporting keywords
 // in keywords.ts. Kept separate from productDetails.ts so each page has unique, keyword-aware copy.
 export const PRODUCT_EXTRAS: Record<string, string> = {
+  'dji-agras-db1560-intelligent-flight-battery':
+    'Buyers searching for dji t40 will find it here. It also suits searches for dji agras t40 and dji agras t40 price.',
+  'dji-agras-db2160-intelligent-flight-battery':
+    'Buyers searching for dji t100 price will find it here. It also suits searches for dji agras t100 price and agricultural drones.',
+  'dji-agras-db800-intelligent-flight-battery':
+    'Buyers searching for dji drone battery will find it here. It also suits searches for dji agras t40.',
+  'dji-db2000-intelligent-flight-battery':
+    'Buyers searching for heavy payload drones will find it here. It also suits searches for drones for logistics and dji drone battery.',
+  'dji-c10000-intelligent-power-supply':
+    'Buyers searching for dji drone charger will find it here. It also suits searches for drone battery charger and dji t40.',
+  'dji-c12000-intelligent-power-supply':
+    'Buyers searching for drone battery charger will find it here. It also suits searches for dji drone charger and dji t100 price.',
+  'dji-c8000-intelligent-battery-station':
+    'Buyers searching for drones for logistics will find it here. It also suits searches for drone battery charger and heavy lift drone.',
+  'dji-agras-t50-atomized-sprinkler-package':
+    'Buyers searching for drone spraying will find it here. It also suits searches for spraying drones and drone sprayer.',
+  'dji-agras-t50-spreading-system':
+    'Buyers searching for drone weed spraying will find it here. It also suits searches for agricultural drones and dji agricultural drones.',
+  'dji-150l-spreading-system':
+    'Buyers searching for dji agricultural drones will find it here. It also suits searches for dji agras t100 price.',
+  'dji-agras-t100-mist-nozzle-package':
+    'Buyers searching for crop spraying drone will find it here. It also suits searches for drone spraying and dji agras t100 price.',
+  'dji-agras-t100-lift-system-kit':
+    'Buyers searching for heavy lift drone will find it here. It also suits searches for dji agras t100 price and agricultural drones.',
+  'dji-d14000ie-multifunctional-inverter-generator':
+    'Buyers searching for agricultural drones will find it here. It also suits searches for dji agricultural drones and drone sprayer.',
+  'dji-agras-d12000i-charging-extension-cable':
+    'Buyers searching for dji parts will find it here. It also suits searches for dji agricultural drones and dji drone charger.',
+  'dji-db2100-battery-adapter-cable':
+    'Buyers searching for dji parts will find it here. It also suits searches for dji agricultural drones and drone battery.',
+  'dji-dual-battery-lifting-system':
+    'Buyers searching for heavy lift drone will find it here. It also suits searches for drones for logistics and heavy payload drones.',
+  'dji-ap100-parachute':
+    'Buyers searching for dji enterprise will find it here. It also suits searches for dji parts.',
+  'dji-fc100-parachute-kit':
+    'Buyers searching for drones for logistics will find it here. It also suits searches for heavy lift drone and dji enterprise.',
+  'dji-dock-3-vehicle-mounted-gimbal-mount':
+    'Buyers searching for dji enterprise will find it here. It also suits searches for dji parts and dji matrice.',
+  'dji-o4-ground-station':
+    'It also suits searches for dji controller and dji parts.',
   'dji-dock-3-survey-package':
     'Package contents can change with stock and are confirmed on quote, so use the quote form for training and installation options. Buyers searching for commercial drones for sale will find it here. It also suits searches for dji matrice and drone mapping near me.',
   'dji-dock-3-thermal-package':
