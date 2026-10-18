@@ -29,7 +29,7 @@ export const PRODUCT_KEYWORDS: Record<string, KeywordSet> = {
   "dji-o4-ground-station": { primary: "dji o4 ground station price", supporting: ["commercial drones australia", "camera uav", "drone camera"] },
   "dji-dock-3-survey-package": { primary: "dji dock 3 survey package price", supporting: ["delivery drone", "drones for logistics", "delivery drones"] },
   "dji-dock-3-thermal-package": { primary: "dji dock 3 thermal package price", supporting: ["drones for logistics", "delivery drones", "delivery drone"] },
-  "dji-terra-agriculture-1-year-3-devices": { primary: "dji terra agriculture 1 year, 3 devices price", supporting: ["drone lidar", "drone with lidar", "lidar 3d scanner", "lidar drone", "lidar drones"] },
+  "dji-terra-agriculture-1-year-3-devices": { primary: "dji terra agriculture 1 year 3 devices price", supporting: ["drone lidar", "drone with lidar", "lidar 3d scanner", "lidar drone", "lidar drones"] },
   "dji-modify-flagship-permanent-licence": { primary: "dji modify flagship permanent licence price", supporting: ["drone with lidar", "lidar 3d scanner", "lidar drone", "lidar drones", "drone lidar scanner"] },
   "dji-agras-t100": { primary: "dji agras t100 price", supporting: ["crop spraying drone", "agriculture spraying drone", "spray drone", "ag drone sprayer", "drone sprayer"] },
   "dji-agras-t70p": { primary: "dji agras t70p price", supporting: ["agriculture spraying drone", "spray drone", "ag drone sprayer", "drone sprayer", "drone spraying"] },

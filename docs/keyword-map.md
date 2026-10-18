@@ -785,7 +785,7 @@ Each product has one transactional primary (price / buy / sale / model-purchase 
 | Livox Avia 2 LiDAR | 4,720 | livox avia 2 lidar price | drone lidar scanner (50); drone lidar (170); drone with lidar (70); lidar 3d scanner (90); lidar drone (320) |
 | DJI Dock 3 Survey Package | 30,828 | dji dock 3 survey package price | delivery drone (140); drones for logistics (50); delivery drones (260) |
 | DJI Dock 3 Thermal Package | 34,278 | dji dock 3 thermal package price | drones for logistics (50); delivery drones (260); delivery drone (140) |
-| DJI Terra Agriculture (1 Year, 3 Devices) | 490 | dji terra agriculture 1 year, 3 devices price | drone lidar (170); drone with lidar (70); lidar 3d scanner (90); lidar drone (320); lidar drones (110) |
+| DJI Terra Agriculture (1 Year, 3 Devices) | 490 | dji terra agriculture 1 year 3 devices price | drone lidar (170); drone with lidar (70); lidar 3d scanner (90); lidar drone (320); lidar drones (110) |
 | DJI Modify Flagship (Permanent Licence) | 6,100 | dji modify flagship permanent licence price | drone with lidar (70); lidar 3d scanner (90); lidar drone (320); lidar drones (110); drone lidar scanner (50) |
 | DJI Agras DB1560 Intelligent Flight Battery | 3,850 | dji t40 (90) | drone sprayer (320); drone spraying (320); crop spraying drone (110); agriculture spraying drone (170); spray drone (170) |
 | DJI Agras DB2160 Intelligent Flight Battery | 4,080 | dji agras db2160 intelligent flight battery price | drone spraying (320); crop spraying drone (110); agriculture spraying drone (170); spray drone (170); ag drone sprayer (140) |
