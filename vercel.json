@@ -6,11 +6,11 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/order", "destination": "/index.html" },
-    { "source": "/order/:path*", "destination": "/index.html" },
-    { "source": "/checkout", "destination": "/index.html" },
-    { "source": "/admin", "destination": "/index.html" },
-    { "source": "/admin/:path*", "destination": "/index.html" }
+    { "source": "/order", "destination": "/" },
+    { "source": "/order/:path*", "destination": "/" },
+    { "source": "/checkout", "destination": "/" },
+    { "source": "/admin", "destination": "/" },
+    { "source": "/admin/:path*", "destination": "/" }
   ],
   "redirects": [
     {
