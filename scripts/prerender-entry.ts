@@ -114,7 +114,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
     return main(
       crumbList([['/', 'Home'], ['/blog', 'Blog'], ['', post.title]]) +
         `<article><h1>${esc(post.title)}</h1><p>${esc(post.subtitle)}</p>` +
-        (post.image ? `<img src="${esc(post.image)}" alt="${esc(post.imageAlt || post.title)}" width="1200" height="675" fetchpriority="high" decoding="async">` : '') +
+        (post.image ? `<picture><source srcset="${esc(respSet(post.image, 'avif', BLOG_WIDTHS, BLOG_FULL))}" sizes="${BLOG_SIZES_POST}" type="image/avif"><img src="${esc(post.image.replace(/\.webp$/, '-800.webp'))}" srcset="${esc(respSet(post.image, 'webp', BLOG_WIDTHS, BLOG_FULL))}" sizes="${BLOG_SIZES_POST}" alt="${esc(post.imageAlt || post.title)}" width="1200" height="675" fetchpriority="high" decoding="async"></picture>` : '') +
         post.content.map(t => `<p>${esc(t)}</p>`).join('') +
         (blogParagraph(post.slug) ? `<p>${esc(blogParagraph(post.slug)!)}</p>` : '') +
         `<h2>Shop related products</h2><ul>${CATEGORIES.map(c => `<li>${link(categoryPath(c.id), c.name)}</li>`).join('')}</ul></article>`
