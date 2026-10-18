@@ -171,8 +171,6 @@ const seeds: Seed[] = [
     shortDescription: 'Integration kit for mounting a Parrot Sequoia on the DJI Phantom 4.' },
   { name: 'Mavic 2 Pro Parrot Sequoia Integration Kit', brand: 'Parrot', category: 'cameras-sensors', subcategory: 'Integration Kits', price: 649, graphicType: 'controller', inStock: false,
     shortDescription: 'Integration kit for mounting a Parrot Sequoia on the DJI Mavic 2 Pro.' },
-  { name: 'Mavic Pro Integration Kit Parrot Sequoia', brand: 'Parrot', category: 'cameras-sensors', subcategory: 'Integration Kits', price: 649, graphicType: 'controller', inStock: false,
-    shortDescription: 'Integration kit for mounting a Parrot Sequoia on the DJI Mavic Pro.' },
 
   // Autel & FLIR drones
   { name: 'Autel Evo Max 4T Drone', brand: 'Autel', category: 'enterprise-drones', subcategory: 'Autel & FLIR Drones', price: 14999, graphicType: 'enterprise-uav',

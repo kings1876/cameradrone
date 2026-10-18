@@ -748,15 +748,6 @@ export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
     highlights: ['Mount kit for a Parrot Sequoia on a Mavic 2 Pro', 'Portable foldable platform', 'Low-cost multispectral upgrade'],
     specs: [['Compatible aircraft', 'DJI Mavic 2 Pro'], ['Compatible sensor', 'Parrot Sequoia']]
   },
-  'mavic-pro-integration-kit-parrot-sequoia': {
-    overview:
-      'The Mavic Pro Integration Kit for Parrot Sequoia mounts a Parrot Sequoia on a DJI Mavic Pro drone. It extends the life of your Mavic Pro as a compact multispectral aircraft.',
-    bestFor:
-      'For Mavic Pro owners who want to move into crop monitoring without buying another drone.',
-    highlights: ['Mount kit for a Parrot Sequoia on a Mavic Pro', 'Compact, portable platform', 'Works with your existing aircraft'],
-    specs: [['Compatible aircraft', 'DJI Mavic Pro'], ['Compatible sensor', 'Parrot Sequoia']]
-  },
-
   // ---------------- Autel and FLIR drones ----------------
   'autel-evo-max-4t-drone': {
     overview:

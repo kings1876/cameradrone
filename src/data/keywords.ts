@@ -60,7 +60,6 @@ export const PRODUCT_KEYWORDS: Record<string, KeywordSet> = {
   "phantom-4-integration-kit-rededge-mx": { primary: "phantom 4 drone", supporting: ["rededge", "phantom 4", "phantom 4 uav", "multispectral drone"] },
   "phantom-4-integration-kit-parrot-sequoia": { primary: "phantom 4 quadcopter drone", supporting: ["phantom 4", "phantom 4 uav", "uav for farming", "multispectral drone"] },
   "mavic-2-pro-parrot-sequoia-integration-kit": { primary: "mavic drone 2", supporting: ["uav for farming", "multispectral drone", "agriculture uav drone"] },
-  "mavic-pro-integration-kit-parrot-sequoia": { primary: "mavic pro drone", supporting: ["dji mavic pro accessories", "uav for farming", "multispectral drone"] },
   "autel-evo-max-4t-drone": { primary: "thermal drones australia", supporting: ["thermal imaging drone", "thermal drone", "commercial drones for sale", "uav for sale australia"] },
   "flir-ion-m440-tactical-drone": { primary: "flir australia", supporting: ["flir thermal cameras", "uav for sale australia", "commercial drones australia", "fire fighting uav"] },
   "xag-p30-spraying-drone": { primary: "spray drone", supporting: ["drone sprayer", "agriculture spraying drone", "crop spraying drone", "agricultural drones"] },

@@ -264,7 +264,6 @@ Volume = monthly AU searches; KD = keyword difficulty; T = transactional (others
 | Phantom 4 Integration Kit Rededge MX | phantom 4 drone (140, KD 19) | rededge (90, KD 12, T); phantom 4 (210, KD 8); phantom 4 uav (110, KD 7); multispectral drone (50, KD 6) |
 | Phantom 4 Integration Kit Parrot Sequoia | phantom 4 quadcopter drone (110, KD 6) | phantom 4 (210, KD 8); phantom 4 uav (110, KD 7); uav for farming (590, KD 8); multispectral drone (50, KD 6) |
 | Mavic 2 Pro Parrot Sequoia Integration Kit | mavic drone 2 (110, KD 9) | uav for farming (590, KD 8); multispectral drone (50, KD 6); agriculture uav drone (260, KD 8) |
-| Mavic Pro Integration Kit Parrot Sequoia | mavic pro drone (140, KD 10) | dji mavic pro accessories (90, KD 6); uav for farming (590, KD 8); multispectral drone (50, KD 6) |
 | Autel Evo Max 4T Drone | thermal drones australia (70, KD 6) | thermal imaging drone (140, KD 8); thermal drone (880, KD 11); commercial drones for sale (50, KD 19, T); uav for sale australia (210, KD 24, T) |
 | FLIR ION M440 Tactical Drone | flir australia (110, KD 17) | flir thermal cameras (880, KD 13); uav for sale australia (210, KD 24, T); commercial drones australia (50, KD 12); fire fighting uav (90, KD 18, T) |
 | XAG P30 Spraying Drone | spray drone (170, KD 7) | drone sprayer (320, KD 9); agriculture spraying drone (170, KD 22); crop spraying drone (110, KD 8); agricultural drones (320, KD 20) |

@@ -107,8 +107,6 @@ export const PRODUCT_EXTRAS: Record<string, string> = {
     'Looking for a Phantom 4 quadcopter drone that can carry a multispectral sensor? This kit mounts a Parrot Sequoia on the Phantom 4, and it turns the Phantom 4 UAV into a UAV for farming. Ask for the multispectral drone options and sensor pairing that suit you.',
   'mavic-2-pro-parrot-sequoia-integration-kit':
     'The Mavic 2 Pro is a Mavic drone 2 owners love for portability, and this kit adds a Parrot Sequoia. It turns the Mavic 2 Pro into a UAV for farming and a lightweight multispectral drone, and an agriculture UAV drone for small farms. Stock is limited, so ask for current availability.',
-  'mavic-pro-integration-kit-parrot-sequoia':
-    'A Mavic Pro drone becomes a small multispectral platform with this kit. It stretches the life of your aircraft, works with DJI Mavic Pro accessories you already own, and turns it into a UAV for farming with a Parrot Sequoia. Stock is limited, so contact us about availability.',
   'autel-evo-max-4t-drone':
     'Thermal drones Australia buyers have more choice than just DJI, and the EVO Max 4T is a strong alternative. As a thermal imaging drone it supports inspection and public safety work, and a thermal drone with a laser rangefinder fits commercial drones for sale lists. Ask us for a UAV for sale Australia quote including batteries and cases.',
   'flir-ion-m440-tactical-drone':
