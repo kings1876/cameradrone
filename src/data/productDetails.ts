@@ -15,6 +15,844 @@ export interface ProductDetail {
 const COMBO_BOX = ['Aircraft', 'Three Intelligent Flight Batteries', 'Two-way charging hub', 'Shoulder bag'];
 
 export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
+  'dji-mavic-4-pro-dji-rc-2': {
+    overview:
+      'The DJI Mavic 4 Pro (DJI RC 2) is DJI\'s flagship triple-camera drone, built around a 100 MP Hasselblad main camera and a 360-degree rotating Infinity Gimbal, supplied with the DJI RC 2. Often searched as the DJI Mavic Pro 4, it adds front-facing LiDAR for low-light obstacle sensing and flies for up to 51 minutes.',
+    bestFor:
+      'Built for professional creators, filmmakers and real estate and tourism shooters who need cinema-grade imaging from a folding drone.',
+    highlights: ['100 MP Hasselblad 4/3 main camera plus 70 mm and 168 mm tele cameras', '360-degree rotating Infinity Gimbal', 'Up to 51 min flight time and 30 km transmission'],
+    specs: [['Main camera', '100 MP 4/3 CMOS Hasselblad, 28 mm eq.'], ['Medium tele camera', '48 MP, 70 mm eq.'], ['Tele camera', '50 MP, 168 mm eq.'], ['Gimbal', '360-degree rotating Infinity Gimbal'], ['Obstacle sensing', 'Omnidirectional with front-facing LiDAR'], ['Max flight time', 'Up to 51 min'], ['Transmission range', 'Up to 30 km'], ['Controller', 'DJI RC 2']]
+  },
+  'dji-mavic-4-pro-fly-more-combo-dji-rc-2': {
+    overview:
+      'The DJI Mavic 4 Pro Fly More Combo (DJI RC 2) is the Mavic 4 Pro with the DJI RC 2, extra batteries and the Fly More accessories for long shoot days. The extra power makes the 51-minute flagship practical for full-day commercial and film work.',
+    bestFor:
+      'Perfect for professionals who know they need the Mavic 4 Pro and want it ready for long jobs.',
+    highlights: ['Triple camera system with a 100 MP Hasselblad main camera', 'Fly More kit with extra batteries', 'DJI RC 2 screen controller'],
+    specs: [['Main camera', '100 MP 4/3 CMOS Hasselblad'], ['Max flight time per battery', 'Up to 51 min'], ['Transmission range', 'Up to 30 km'], ['Controller', 'DJI RC 2']],
+    inTheBox: ['Mavic 4 Pro aircraft', 'DJI RC 2 controller', 'Fly More kit: extra Intelligent Flight Batteries', 'Charging hub', 'Shoulder bag']
+  },
+  'dji-lito-1': {
+    overview:
+      'The DJI Lito 1 is an easy-to-fly beginner camera drone under 249 g with a 1/2-inch sensor, 4K/60 video and omnidirectional obstacle sensing. ActiveTrack keeps your subject in frame while obstacle sensing helps new pilots fly with confidence.',
+    bestFor:
+      'Ideal for first-time pilots, families and travellers who want an affordable, simple drone with 4K video.',
+    highlights: ['Under 249 g and palm-sized when folded', '4K/60 fps video and 8K photos', 'Omnidirectional obstacle sensing and ActiveTrack'],
+    specs: [['Camera sensor', '1/2-inch'], ['Video', '4K up to 60 fps, 4K/100 fps slow motion'], ['Photos', 'Up to 8K'], ['Take-off weight', 'Under 249 g'], ['Obstacle sensing', 'Omnidirectional'], ['Video transmission', 'Up to 15 km']]
+  },
+  'dji-lito-1-fly-more-combo-dji-rc-n3': {
+    overview:
+      'The DJI Lito 1 Fly More Combo (DJI RC-N3) is the Lito 1 with extra batteries and the DJI RC-N3 controller for longer beginner flights. It is the better-value way to buy the Lito 1 if you plan to fly for more than one battery at a time.',
+    bestFor:
+      'A good pick for beginners who want spare power in the box and plan to fly regularly.',
+    highlights: ['Fly More kit with extra batteries', '4K/60 fps video, under 249 g', 'DJI RC-N3 controller'],
+    specs: [['Camera sensor', '1/2-inch'], ['Video', '4K up to 60 fps'], ['Take-off weight', 'Under 249 g'], ['Controller', 'DJI RC-N3 (uses your smartphone)']],
+    inTheBox: ['Lito 1 aircraft', 'DJI RC-N3 controller', 'Fly More kit: extra Intelligent Flight Batteries', 'Charging hub']
+  },
+  'dji-lito-x1': {
+    overview:
+      'The DJI Lito X1 is a premium beginner drone with a 1/1.3-inch sensor, 4K/60 HDR video, forward-facing LiDAR and omnidirectional obstacle sensing. It brings pro-level image quality and safer flying to a sub-249 g drone that is simple enough to use on day one.',
+    bestFor:
+      'Best for beginners who want a step-up camera, and for travel and social creators.',
+    highlights: ['1/1.3-inch sensor with f/1.7 aperture', '4K/60 HDR and 10-bit D-Log M', 'Forward-facing LiDAR with omnidirectional sensing'],
+    specs: [['Camera sensor', '1/1.3-inch CMOS, f/1.7'], ['Video', '4K up to 60 fps HDR, 4K/100 fps slow motion, 10-bit D-Log M'], ['Photos', 'Up to 8K'], ['Take-off weight', 'Under 249 g'], ['Obstacle sensing', 'Omnidirectional with forward LiDAR'], ['Video transmission', 'Up to 15 km']]
+  },
+  'dji-lito-x1-fly-more-combo-dji-rc-n3': {
+    overview:
+      'The DJI Lito X1 Fly More Combo (DJI RC-N3) is the Lito X1 with extra batteries and the DJI RC-N3 controller. It keeps the 1/1.3-inch camera flying for longer outings at a friendly price.',
+    bestFor:
+      'Ideal for travellers and beginners who want spare batteries without paying for a screen controller.',
+    highlights: ['Fly More kit with extra batteries', '1/1.3-inch camera, 4K/60 HDR', 'DJI RC-N3 controller'],
+    specs: [['Camera sensor', '1/1.3-inch CMOS'], ['Video', '4K up to 60 fps HDR'], ['Take-off weight', 'Under 249 g'], ['Controller', 'DJI RC-N3 (uses your smartphone)']],
+    inTheBox: ['Lito X1 aircraft', 'DJI RC-N3 controller', 'Fly More kit: extra Intelligent Flight Batteries', 'Charging hub']
+  },
+  'dji-lito-x1-fly-more-combo-dji-rc-2': {
+    overview:
+      'The DJI Lito X1 Fly More Combo (DJI RC 2) is the Lito X1 Fly More kit with the DJI RC 2 screen controller. The built-in screen means no phone and a faster set-up.',
+    bestFor:
+      'Best for beginners who want a bright screen controller and spare batteries from day one.',
+    highlights: ['DJI RC 2 controller with built-in screen', 'Fly More kit with extra batteries', '1/1.3-inch camera, 4K/60 HDR'],
+    specs: [['Camera sensor', '1/1.3-inch CMOS'], ['Video', '4K up to 60 fps HDR'], ['Take-off weight', 'Under 249 g'], ['Controller', 'DJI RC 2 with built-in screen']],
+    inTheBox: ['Lito X1 aircraft', 'DJI RC 2 controller', 'Fly More kit: extra Intelligent Flight Batteries', 'Charging hub']
+  },
+  'dji-lito-x1-fly-more-combo-plus-dji-rc-2': {
+    overview:
+      'The DJI Lito X1 Fly More Combo Plus (DJI RC 2) is the top Lito X1 kit with the DJI RC 2 and the higher-capacity Plus batteries. The Plus batteries extend flight time for the longest sessions in the Lito range.',
+    bestFor:
+      'Ideal for creators who want maximum endurance from a beginner-friendly drone.',
+    highlights: ['Plus batteries for longer flights', 'DJI RC 2 controller with built-in screen', '1/1.3-inch camera, 4K/60 HDR'],
+    specs: [['Camera sensor', '1/1.3-inch CMOS'], ['Video', '4K up to 60 fps HDR'], ['Controller', 'DJI RC 2 with built-in screen'], ['Batteries', 'Intelligent Flight Battery Plus']],
+    inTheBox: ['Lito X1 aircraft', 'DJI RC 2 controller', 'Fly More Plus kit: Plus batteries', 'Charging hub']
+  },
+  'dji-mini-5-pro-fly-more-combo-plus-dji-rc-2': {
+    overview:
+      'The DJI Mini 5 Pro Fly More Combo Plus (DJI RC 2) is the Mini 5 Pro with the DJI RC 2 and the larger Plus battery for the longest flights the Mini 5 Pro can offer. The Plus batteries extend flight time, though the aircraft is then heavier than 250 g.',
+    bestFor:
+      'Best for pilots who want maximum endurance from the 1-inch Mini 5 Pro. Check CASA rules for aircraft over 250 g.',
+    highlights: ['Plus batteries for maximum flight time', '1-inch 50 MP camera', 'DJI RC 2 controller with built-in screen'],
+    specs: [['Camera sensor', '1-inch CMOS, 50 MP'], ['Batteries', 'Intelligent Flight Battery Plus'], ['Controller', 'DJI RC 2 with built-in screen'], ['CASA note', 'With the Plus battery the aircraft exceeds 250 g']],
+    inTheBox: ['Mini 5 Pro aircraft', 'DJI RC 2 controller', 'Fly More Plus kit: Plus batteries', 'Charging hub']
+  },
+  'dji-neo-2-motion-fly-more-combo': {
+    overview:
+      'The DJI Neo 2 Motion Fly More Combo is the palm-sized Neo 2 with goggles, a motion controller and extra batteries for immersive flying. The motion controller steers the Neo 2 with simple hand movements while the goggles give a first-person view.',
+    bestFor:
+      'Great for beginners who want a fun, immersive first FPV-style flight experience.',
+    highlights: ['Goggles and motion controller included', 'Extra batteries for longer sessions', 'About 151 g, 4K video'],
+    specs: [['Take-off weight', 'About 151 g'], ['Video', '4K up to 60 fps'], ['Kit', 'Neo 2 with goggles, motion controller and extra batteries']],
+    inTheBox: ['Neo 2 aircraft', 'DJI Goggles N3', 'Motion controller', 'Extra Intelligent Flight Batteries']
+  },
+  'dji-neo-fly-more-combo': {
+    overview:
+      'The DJI Neo Fly More Combo is the original palm-sized Neo with a DJI RC-N3 controller and three batteries. At about 135 g it is easy to carry everywhere, and the extra batteries stretch a short flying session.',
+    bestFor:
+      'A budget-friendly beginner drone for families, cyclists and runners.',
+    highlights: ['About 135 g, palm-sized', 'Three batteries and a DJI RC-N3 controller', '4K video with follow-me modes'],
+    specs: [['Take-off weight', 'About 135 g'], ['Video', '4K'], ['Controller', 'DJI RC-N3']],
+    inTheBox: ['Neo aircraft', 'DJI RC-N3 controller', 'Three Intelligent Flight Batteries']
+  },
+  'dji-neo-motion-fly-more-combo': {
+    overview:
+      'The DJI Neo Motion Fly More Combo is the original Neo with goggles, a motion controller and extra batteries. It gives beginners an immersive, gesture-controlled way to fly the pocket-sized Neo.',
+    bestFor:
+      'A fun starter kit for pilots who want first-person flying without a complicated set-up.',
+    highlights: ['Goggles and motion controller included', 'About 135 g and palm-sized', '4K video'],
+    specs: [['Take-off weight', 'About 135 g'], ['Video', '4K'], ['Kit', 'Neo with goggles, motion controller and extra batteries']],
+    inTheBox: ['Neo aircraft', 'DJI Goggles N3', 'Motion controller', 'Extra Intelligent Flight Batteries']
+  },
+  'dji-avata-2-drone-only': {
+    overview:
+      'The DJI Avata 2 (Drone Only) is the Avata 2 FPV drone, drone only, for pilots who already own goggles and a controller. The 1/1.3-inch camera, protected propellers and 155-degree field of view make it a popular cinematic FPV drone.',
+    bestFor:
+      'Best for existing DJI FPV pilots adding an aircraft to goggles and a controller they already own.',
+    highlights: ['1/1.3-inch 12 MP camera, 4K up to 60 fps', 'Protected propellers, 155-degree field of view', 'Up to 23 min flight time'],
+    specs: [['Camera', '1/1.3-inch CMOS, 12 MP'], ['Video', '4K up to 60 fps'], ['Take-off weight', 'About 377 g'], ['Max flight time', 'Up to 23 min'], ['Kit', 'Drone only']]
+  },
+  'dji-avata-2-fly-smart-combo-single-battery': {
+    overview:
+      'The DJI Avata 2 Fly Smart Combo (Single Battery) is the Avata 2 with Goggles N3, the RC Motion 3 and one battery, the lower-cost Fly Smart kit. It is the simplest way to start with immersive FPV on the Avata 2.',
+    bestFor:
+      'Ideal for first-time FPV pilots who want everything needed to fly in one box.',
+    highlights: ['Goggles N3 and RC Motion 3 included', '1/1.3-inch camera, 4K up to 60 fps', 'Up to 23 min flight time'],
+    specs: [['Camera', '1/1.3-inch CMOS, 12 MP'], ['Video', '4K up to 60 fps'], ['Take-off weight', 'About 377 g'], ['Goggles', 'DJI Goggles N3'], ['Controller', 'DJI RC Motion 3']],
+    inTheBox: ['Avata 2 aircraft', 'DJI Goggles N3', 'DJI RC Motion 3', 'One Intelligent Flight Battery']
+  },
+  'dji-avata-2-fly-smart-combo-three-batteries': {
+    overview:
+      'The DJI Avata 2 Fly Smart Combo (Three Batteries) is the Avata 2 Fly Smart kit with Goggles N3, the RC Motion 3, three batteries and a charging hub. Three batteries give a full session of immersive flying without waiting to recharge.',
+    bestFor:
+      'Perfect for regular FPV pilots who want spare power in the box.',
+    highlights: ['Three batteries and a charging hub', 'Goggles N3 and RC Motion 3 included', '4K up to 60 fps'],
+    specs: [['Camera', '1/1.3-inch CMOS, 12 MP'], ['Video', '4K up to 60 fps'], ['Max flight time per battery', 'Up to 23 min'], ['Goggles', 'DJI Goggles N3'], ['Controller', 'DJI RC Motion 3']],
+    inTheBox: ['Avata 2 aircraft', 'DJI Goggles N3', 'DJI RC Motion 3', 'Three Intelligent Flight Batteries', 'Two-Way Charging Hub']
+  },
+  'dji-avata-pro-view-combo-new': {
+    overview:
+      'The DJI Avata Pro-View Combo (New) is the original Avata FPV drone with DJI Goggles 2 and a motion controller. It remains a capable, ready-to-fly FPV kit for cinematic flying.',
+    bestFor:
+      'Suitable for pilots who want a complete first-generation Avata kit with goggles and a motion controller.',
+    highlights: ['Goggles and motion controller included', 'Compact cinewhoop-style FPV drone', 'Protected propellers'],
+    specs: [['Kit', 'Avata aircraft with goggles and motion controller'], ['Type', 'FPV cinewhoop-style drone']],
+    inTheBox: ['Avata aircraft', 'DJI Goggles', 'Motion controller']
+  },
+  'dji-avata-no-rc': {
+    overview:
+      'The DJI Avata (No RC) is the original Avata FPV aircraft with no controller or goggles in the box. It is the lowest-cost way to add an Avata if you already own a compatible controller and goggles.',
+    bestFor:
+      'Best for existing DJI FPV owners who want another airframe.',
+    highlights: ['Aircraft only', 'Protected propellers', 'Compatible with DJI goggles and controllers'],
+    specs: [['Kit', 'Aircraft only, no controller or goggles'], ['Type', 'FPV cinewhoop-style drone']]
+  },
+  'dji-mini-4k': {
+    overview:
+      'The DJI Mini 4K is an entry-level sub-250 g 4K camera drone with a 3-axis gimbal. It is a simple, lightweight way into 4K aerial video at a very friendly price.',
+    bestFor:
+      'A good first drone for beginners, travellers and hobbyists.',
+    highlights: ['Sub-250 g 4K camera drone', '3-axis gimbal for stable footage', 'Easy to fly for beginners'],
+    specs: [['Video', '4K'], ['Take-off weight', 'Under 250 g'], ['Gimbal', '3-axis']]
+  },
+  'dji-mini-3-dji-rc-n1': {
+    overview:
+      'The DJI Mini 3 (DJI RC-N1) is a compact sub-249 g camera drone with a 1/1.3-inch sensor, supplied with the DJI RC-N1 phone-based controller. It is lightweight, folds small and gives sharp 4K video at an easy price.',
+    bestFor:
+      'A great value pick for travellers and beginners who want a capable camera drone.',
+    highlights: ['Sub-249 g camera drone', '1/1.3-inch sensor', 'DJI RC-N1 controller'],
+    specs: [['Take-off weight', 'Under 249 g'], ['Camera sensor', '1/1.3-inch CMOS'], ['Controller', 'DJI RC-N1 (uses your smartphone)']]
+  },
+  'dji-mini-3-dji-rc': {
+    overview:
+      'The DJI Mini 3 (DJI RC) is the Mini 3 with the DJI RC screen controller included. The built-in screen means no phone and a quicker set-up.',
+    bestFor:
+      'Best for Mini 3 buyers who want a screen controller from the start.',
+    highlights: ['DJI RC screen controller', 'Sub-249 g camera drone', '1/1.3-inch sensor'],
+    specs: [['Take-off weight', 'Under 249 g'], ['Camera sensor', '1/1.3-inch CMOS'], ['Controller', 'DJI RC with built-in screen']]
+  },
+  'dji-mini-3-fly-more-combo-dji-rc': {
+    overview:
+      'The DJI Mini 3 Fly More Combo (DJI RC) is the Mini 3 Fly More Combo with the DJI RC screen controller and extra batteries. The extra batteries make the compact Mini 3 practical for a full day of travel flying.',
+    bestFor:
+      'Ideal for travellers who want spare power and a screen controller.',
+    highlights: ['Fly More kit with extra batteries', 'DJI RC screen controller', 'Sub-249 g camera drone'],
+    specs: [['Take-off weight', 'Under 249 g'], ['Camera sensor', '1/1.3-inch CMOS'], ['Controller', 'DJI RC with built-in screen']],
+    inTheBox: ['Mini 3 aircraft', 'DJI RC controller', 'Fly More kit: extra Intelligent Flight Batteries', 'Charging hub', 'Shoulder bag']
+  },
+  'dji-mavic-3-pro-cine-premium-combo-dji-rc-pro': {
+    overview:
+      'The DJI Mavic 3 Pro Cine Premium Combo (DJI RC Pro) is the Cine Premium kit for the Mavic 3 Pro with the DJI RC Pro, built for high-bitrate professional recording. It adds fast internal storage and Apple ProRes recording for post-production workflows.',
+    bestFor:
+      'Aimed at film-makers and agencies who need the Mavic 3 Pro\'s three cameras with cinema-grade recording.',
+    highlights: ['Cine kit for high-bitrate recording', 'Hasselblad main camera plus two tele cameras', 'DJI RC Pro high-bright controller'],
+    specs: [['Cameras', '4/3 CMOS wide, 70 mm medium tele, 166 mm tele'], ['Controller', 'DJI RC Pro with high-bright screen'], ['Recording', 'Cine edition: Apple ProRes']],
+    inTheBox: ['Mavic 3 Pro Cine aircraft', 'DJI RC Pro controller', 'Fly More kit', 'Fast internal storage']
+  },
+  'dji-lito-1-intelligent-flight-battery': {
+    overview:
+      'The DJI Lito 1 Intelligent Flight Battery is the intelligent flight battery for the DJI Lito 1. A spare pack doubles the time you can spend in the air.',
+    bestFor:
+      'A sensible add-on for DJI Lito 1 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Lito 1', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Lito 1'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-lito-1-charging-hub': {
+    overview:
+      'The DJI Lito 1 Charging Hub is a battery charging hub for the DJI Lito 1. It charges several batteries from one place so spares are ready.',
+    bestFor:
+      'A sensible add-on for DJI Lito 1 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Lito 1', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Lito 1'], ['Type', 'Battery charging hub']]
+  },
+  'dji-lito-x1-intelligent-flight-battery': {
+    overview:
+      'The DJI Lito X1 Intelligent Flight Battery is the intelligent flight battery for the DJI Lito X1. A spare pack keeps a day of beginner flying going.',
+    bestFor:
+      'A sensible add-on for DJI Lito X1 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Lito X1', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Lito X1'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-lito-series-intelligent-flight-battery-plus': {
+    overview:
+      'The DJI Lito Series Intelligent Flight Battery Plus is the higher-capacity Plus battery for the Lito series. It extends flight time compared with the standard pack.',
+    bestFor:
+      'A sensible add-on for DJI Lito X1 and Lito 1 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Lito X1 and Lito 1', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Lito X1 and Lito 1'], ['Type', 'Intelligent flight battery Plus']]
+  },
+  'dji-lito-x1-charging-hub': {
+    overview:
+      'The DJI Lito X1 Charging Hub is a battery charging hub for the DJI Lito X1. It keeps spare batteries charged and ready.',
+    bestFor:
+      'A sensible add-on for DJI Lito X1 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Lito X1', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Lito X1'], ['Type', 'Battery charging hub']]
+  },
+  'dji-avata-360-intelligent-flight-battery': {
+    overview:
+      'The DJI Avata 360 Intelligent Flight Battery is the intelligent flight battery for the DJI Avata 360. A spare pack lets you shoot more 360-degree lines in one outing.',
+    bestFor:
+      'A sensible add-on for DJI Avata 360 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Avata 360', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Avata 360'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-avata-360-propellers': {
+    overview:
+      'The DJI Avata 360 Propellers is a set of propellers for the DJI Avata 360. A spare set gets you flying again quickly after a knock.',
+    bestFor:
+      'A sensible add-on for DJI Avata 360 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Avata 360', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Avata 360'], ['Type', 'Propellers']]
+  },
+  'dji-avata-360-charging-hub': {
+    overview:
+      'The DJI Avata 360 Charging Hub is a charging hub for the DJI Avata 360 batteries. It charges multiple Avata 360 batteries from one input.',
+    bestFor:
+      'A sensible add-on for DJI Avata 360 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Avata 360', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Avata 360'], ['Type', 'Battery charging hub']]
+  },
+  'dji-avata-360-replacement-lens-kit-with-tools': {
+    overview:
+      'The DJI Avata 360 Replacement Lens Kit With Tools is a replacement lens kit with tools for the DJI Avata 360. It lets you swap a scratched or damaged 360-degree lens.',
+    bestFor:
+      'A sensible add-on for DJI Avata 360 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Avata 360', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Avata 360'], ['Type', 'Replacement lens kit']]
+  },
+  'dji-avata-360-replacement-lens': {
+    overview:
+      'The DJI Avata 360 Replacement Lens is a replacement lens for the DJI Avata 360. It restores image quality if a lens is damaged.',
+    bestFor:
+      'A sensible add-on for DJI Avata 360 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Avata 360', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Avata 360'], ['Type', 'Replacement lens']]
+  },
+  'dji-neo-2-intelligent-flight-battery': {
+    overview:
+      'The DJI Neo 2 Intelligent Flight Battery is the intelligent flight battery for the DJI Neo 2. A spare Neo 2 battery is the easiest way to extend a short session.',
+    bestFor:
+      'A sensible add-on for DJI Neo 2 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Neo 2', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Neo 2'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-neo-2-two-way-charging-hub': {
+    overview:
+      'The DJI Neo 2 Two-Way Charging Hub is a two-way charging hub for the DJI Neo 2. It charges multiple Neo 2 batteries.',
+    bestFor:
+      'A sensible add-on for DJI Neo 2 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Neo 2', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Neo 2'], ['Type', 'Battery charging hub']]
+  },
+  'dji-neo-2-propellers': {
+    overview:
+      'The DJI Neo 2 Propellers is a propeller set for the DJI Neo 2. A spare set is a very low-cost safeguard.',
+    bestFor:
+      'A sensible add-on for DJI Neo 2 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Neo 2', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Neo 2'], ['Type', 'Propellers']]
+  },
+  'dji-neo-2-digital-transceiver': {
+    overview:
+      'The DJI Neo 2 Digital Transceiver is the digital transceiver that lets the DJI Neo 2 connect to compatible controllers and goggles. Without it the Neo 2 cannot use the longer-range control options.',
+    bestFor:
+      'A sensible add-on for DJI Neo 2 owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Neo 2', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Neo 2'], ['Type', 'Digital transceiver']]
+  },
+  'dji-mini-5-pro-intelligent-flight-battery': {
+    overview:
+      'The DJI Mini 5 Pro Intelligent Flight Battery is the standard intelligent flight battery for the DJI Mini 5 Pro. It keeps the Mini 5 Pro under 250 g with up to 36 minutes of flight.',
+    bestFor:
+      'A sensible add-on for DJI Mini 5 Pro owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mini 5 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mini 5 Pro'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-mini-5-pro-intelligent-flight-battery-plus': {
+    overview:
+      'The DJI Mini 5 Pro Intelligent Flight Battery Plus is the higher-capacity Plus battery for the DJI Mini 5 Pro. It extends flight time, though the aircraft is then heavier than 250 g.',
+    bestFor:
+      'A sensible add-on for DJI Mini 5 Pro owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mini 5 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mini 5 Pro'], ['Type', 'Intelligent flight battery Plus']]
+  },
+  'dji-mini-5-pro-two-way-charging-hub': {
+    overview:
+      'The DJI Mini 5 Pro Two-Way Charging Hub is a two-way charging hub for the DJI Mini 5 Pro. It charges multiple Mini 5 Pro batteries from one input.',
+    bestFor:
+      'A sensible add-on for DJI Mini 5 Pro owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mini 5 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mini 5 Pro'], ['Type', 'Battery charging hub']]
+  },
+  'dji-mini-5-pro-propeller': {
+    overview:
+      'The DJI Mini 5 Pro Propeller is a propeller set for the DJI Mini 5 Pro. A spare set keeps a Mini 5 Pro flying after a prop strike.',
+    bestFor:
+      'A sensible add-on for DJI Mini 5 Pro owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mini 5 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mini 5 Pro'], ['Type', 'Propellers']]
+  },
+  'dji-mavic-4-pro-intelligent-flight-battery': {
+    overview:
+      'The DJI Mavic 4 Pro Intelligent Flight Battery is the intelligent flight battery for the DJI Mavic 4 Pro. It supports the flagship\'s flight time of up to 51 minutes.',
+    bestFor:
+      'A sensible add-on for DJI Mavic 4 Pro owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mavic 4 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mavic 4 Pro'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-mavic-4-pro-propellers': {
+    overview:
+      'The DJI Mavic 4 Pro Propellers is a propeller set for the DJI Mavic 4 Pro. A spare set keeps a professional shoot on schedule.',
+    bestFor:
+      'A sensible add-on for DJI Mavic 4 Pro owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mavic 4 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mavic 4 Pro'], ['Type', 'Propellers']]
+  },
+  'dji-mavic-4-pro-parallel-charging-hub': {
+    overview:
+      'The DJI Mavic 4 Pro Parallel Charging Hub is a parallel charging hub for the DJI Mavic 4 Pro. It charges Mavic 4 Pro batteries in sequence for fast turnaround.',
+    bestFor:
+      'A sensible add-on for DJI Mavic 4 Pro owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mavic 4 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mavic 4 Pro'], ['Type', 'Parallel battery charging hub']]
+  },
+  'dji-goggles-3': {
+    overview:
+      'The DJI Goggles 3 is DJI\'s premium FPV goggles with micro-OLED displays for immersive flying. The headset gives pilots a sharp, low-latency first-person view and works with compatible DJI FPV drones.',
+    bestFor:
+      'Best for FPV and Avata pilots who want the flagship goggles experience.',
+    highlights: ['Genuine DJI accessory', 'Official DJI product', 'Quick to fit'],
+    specs: [['Type', 'FPV goggles']]
+  },
+  'dji-goggles-carry-more-backpack': {
+    overview:
+      'The DJI Goggles Carry More Backpack is a backpack designed to carry DJI goggles, a drone and accessories. It keeps an FPV kit organised for travel.',
+    bestFor:
+      'A sensible add-on for DJI pilots.',
+    highlights: ['Genuine DJI accessory', 'Official DJI product', 'Quick to fit'],
+    specs: [['Type', 'Carry bag']]
+  },
+  'dji-sling-bag': {
+    overview:
+      'The DJI Sling Bag is a compact sling bag for a DJI drone and accessories. It keeps a small kit close to hand.',
+    bestFor:
+      'A sensible add-on for DJI pilots.',
+    highlights: ['Genuine DJI accessory', 'Official DJI product', 'Quick to fit'],
+    specs: [['Type', 'Sling bag']]
+  },
+  'dji-65w-portable-charger': {
+    overview:
+      'The DJI 65W Portable Charger is a 65 W portable charger for DJI batteries and devices. A compact charger is handy for travel and field charging.',
+    bestFor:
+      'A sensible add-on for DJI pilots.',
+    highlights: ['Genuine DJI accessory', 'Official DJI product', 'Quick to fit'],
+    specs: [['Type', 'Portable charger']]
+  },
+  'dji-mavic-3-series-low-noise-propellers': {
+    overview:
+      'The DJI Mavic 3 Series Low-Noise Propellers is a low-noise propeller set for the Mavic 3 series. Low-noise props reduce the sound of the aircraft in flight.',
+    bestFor:
+      'A sensible add-on for DJI Mavic 3 series owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mavic 3 series', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mavic 3 series'], ['Type', 'Low-noise propellers']]
+  },
+  'dji-mavic-3-storage-cover': {
+    overview:
+      'The DJI Mavic 3 Storage Cover is a protective storage cover for the Mavic 3 gimbal camera. It keeps the camera protected in storage and transit.',
+    bestFor:
+      'A sensible add-on for DJI Mavic 3 series owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mavic 3 series', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mavic 3 series'], ['Type', 'Storage cover']]
+  },
+  'dji-mavic-3-classic-storage-cover': {
+    overview:
+      'The DJI Mavic 3 Classic Storage Cover is a protective storage cover for the Mavic 3 Classic. It protects the gimbal camera when the aircraft is not in use.',
+    bestFor:
+      'A sensible add-on for DJI Mavic 3 Classic owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mavic 3 Classic', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mavic 3 Classic'], ['Type', 'Storage cover']]
+  },
+  'dji-mavic-3-classic-wide-angle-lens': {
+    overview:
+      'The DJI Mavic 3 Classic Wide-Angle Lens is a clip-on wide-angle lens for the Mavic 3 Classic. It widens the field of view for sweeping landscapes.',
+    bestFor:
+      'A sensible add-on for DJI Mavic 3 Classic owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mavic 3 Classic', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mavic 3 Classic'], ['Type', 'Wide-angle lens']]
+  },
+  'dji-rc-motion-2': {
+    overview:
+      'The DJI RC Motion 2 is a motion controller that steers compatible DJI drones with hand movements. It makes immersive flying simple for beginners.',
+    bestFor:
+      'A sensible add-on for DJI pilots.',
+    highlights: ['Genuine DJI accessory', 'Official DJI product', 'Quick to fit'],
+    specs: [['Type', 'Motion controller']]
+  },
+  'dji-motion-controller': {
+    overview:
+      'The DJI Motion Controller is a motion controller for compatible DJI drones. Its one-handed control is simple to learn.',
+    bestFor:
+      'A sensible add-on for DJI pilots.',
+    highlights: ['Genuine DJI accessory', 'Official DJI product', 'Quick to fit'],
+    specs: [['Type', 'Motion controller']]
+  },
+  'dji-rc-rc-2-control-sticks': {
+    overview:
+      'The DJI RC/RC 2 Control Sticks is replacement control sticks for the DJI RC and RC 2. Spare sticks are a small, low-cost spare for field repairs.',
+    bestFor:
+      'A sensible add-on for DJI pilots.',
+    highlights: ['Genuine DJI accessory', 'Official DJI product', 'Quick to fit'],
+    specs: [['Type', 'Control sticks']]
+  },
+  'dji-rc-pro-2': {
+    overview:
+      'The DJI RC Pro 2 is a professional high-bright screen controller for compatible DJI aircraft. The bright display stays readable in strong sun for demanding shoots.',
+    bestFor:
+      'For professional pilots who need a bright, capable controller.',
+    highlights: ['Genuine DJI accessory', 'Official DJI product', 'Quick to fit'],
+    specs: [['Type', 'Screen controller']]
+  },
+  'dji-fpv-propellers': {
+    overview:
+      'The DJI FPV Propellers is a propeller set for the original DJI FPV drone. Spare props keep a racing-style FPV session going.',
+    bestFor:
+      'A sensible add-on for DJI FPV owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI FPV', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI FPV'], ['Type', 'Propellers']]
+  },
+  'dji-fpv-goggles-battery': {
+    overview:
+      'The DJI FPV Goggles Battery is a spare battery for DJI FPV goggles. A spare battery keeps an FPV session going.',
+    bestFor:
+      'A sensible add-on for DJI FPV owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI FPV', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI FPV'], ['Type', 'Goggles battery']]
+  },
+  'dji-fpv-goggles-antenna-dual-band': {
+    overview:
+      'The DJI FPV Goggles Antenna (Dual Band) is a dual-band antenna for DJI FPV goggles. A better antenna can help keep the video link stable.',
+    bestFor:
+      'A sensible add-on for DJI FPV owners.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI FPV', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI FPV'], ['Type', 'Goggles antenna']]
+  },
+  'dji-matrice-400-2510f-propeller': {
+    overview:
+      'The DJI Matrice 400 2510F Propeller is a replacement 2510F propeller for the DJI Matrice 400. Spare props keep a heavy-lift enterprise aircraft in service.',
+    bestFor:
+      'For DJI Matrice 400 operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Matrice 400', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Matrice 400'], ['Type', 'Propeller']]
+  },
+  'bs100-intelligent-battery-station': {
+    overview:
+      'The BS100 Intelligent Battery Station is an intelligent battery station that charges enterprise flight batteries quickly. It is designed for teams that rotate batteries through long missions.',
+    bestFor:
+      'For DJI enterprise operators and teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Official DJI product', 'Request a quote for fleet pricing'],
+    specs: [['Type', 'Battery station']]
+  },
+  'dji-matrice-400-third-gimbal-connector': {
+    overview:
+      'The DJI Matrice 400 Third Gimbal Connector is a connector that adds a third gimbal mount to the DJI Matrice 400. It lets the heavy-lift platform carry an extra payload.',
+    bestFor:
+      'For DJI Matrice 400 operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Matrice 400', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Matrice 400'], ['Type', 'Gimbal connector']]
+  },
+  'dji-matrice-400-dual-gimbal-connector': {
+    overview:
+      'The DJI Matrice 400 Dual Gimbal Connector is a dual gimbal connector for the DJI Matrice 400. It lets the aircraft carry two gimbal payloads at once.',
+    bestFor:
+      'For DJI Matrice 400 operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Matrice 400', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Matrice 400'], ['Type', 'Gimbal connector']]
+  },
+  'dji-matrice-400-gimbal-damper': {
+    overview:
+      'The DJI Matrice 400 Gimbal Damper is a replacement gimbal damper for the DJI Matrice 400. Fresh dampers keep payload footage smooth.',
+    bestFor:
+      'For DJI Matrice 400 operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Matrice 400', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Matrice 400'], ['Type', 'Gimbal damper']]
+  },
+  'dji-matrice-4d-series-low-noise-anti-ice-propellers': {
+    overview:
+      'The DJI Matrice 4D Series Low-Noise Anti-Ice Propellers is low-noise anti-ice propellers for the DJI Matrice 4D series. They suit cold conditions where ice build-up is a risk.',
+    bestFor:
+      'For DJI Matrice 4D series operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Matrice 4D series', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Matrice 4D series'], ['Type', 'Propellers']]
+  },
+  'dji-matrice-4d-series-240w-charging-hub': {
+    overview:
+      'The DJI Matrice 4D Series 240W Charging Hub is a 240 W charging hub for the DJI Matrice 4D series. It charges Matrice 4D batteries faster for busy operations.',
+    bestFor:
+      'For DJI Matrice 4D series operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Matrice 4D series', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Matrice 4D series'], ['Type', 'Battery charging hub']]
+  },
+  'dji-matrice-4-obstacle-sensing-module': {
+    overview:
+      'The DJI Matrice 4 Obstacle Sensing Module is an obstacle sensing module for the DJI Matrice 4 series. It adds obstacle sensing to support safer enterprise flights.',
+    bestFor:
+      'For DJI Matrice 4 series operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Matrice 4 series', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Matrice 4 series'], ['Type', 'Obstacle sensing module']]
+  },
+  'dji-matrice-4-series-charging-hub-200w': {
+    overview:
+      'The DJI Matrice 4 Series Charging Hub (200W) is a 200 W charging hub for the DJI Matrice 4 series. It speeds up battery turnaround for Matrice 4E and 4T teams.',
+    bestFor:
+      'For DJI Matrice 4 series operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Matrice 4 series', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Matrice 4 series'], ['Type', 'Battery charging hub']]
+  },
+  'dji-matrice-4-series-carrying-case-strap': {
+    overview:
+      'The DJI Matrice 4 Series Carrying Case Strap is a carrying strap for the DJI Matrice 4 series case. It makes the case easier to carry between sites.',
+    bestFor:
+      'For DJI Matrice 4 series operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Matrice 4 series', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Matrice 4 series'], ['Type', 'Case strap']]
+  },
+  'dji-matrice-4d-series-battery': {
+    overview:
+      'The DJI Matrice 4D Series Battery is the intelligent flight battery for the DJI Matrice 4D series. A spare pack keeps dock and field operations running.',
+    bestFor:
+      'For DJI Matrice 4D series operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Matrice 4D series', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Matrice 4D series'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-rc-plus-2-enterprise-enhanced': {
+    overview:
+      'The DJI RC Plus 2 Enterprise Enhanced is an enhanced enterprise screen controller for compatible DJI enterprise aircraft. Its large bright display is built for demanding field work.',
+    bestFor:
+      'For DJI enterprise operators and teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Official DJI product', 'Request a quote for fleet pricing'],
+    specs: [['Type', 'Enterprise screen controller']]
+  },
+  'dji-rc-plus-2-strap-and-bracket-kit': {
+    overview:
+      'The DJI RC Plus 2 Strap and Bracket Kit is a strap and bracket kit for the DJI RC Plus 2. It makes long sessions with the controller more comfortable.',
+    bestFor:
+      'For DJI enterprise operators and teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Official DJI product', 'Request a quote for fleet pricing'],
+    specs: [['Type', 'Strap and bracket kit']]
+  },
+  'dji-rc-plus-inspire-3': {
+    overview:
+      'The DJI RC Plus (Inspire 3) is the RC Plus controller for the DJI Inspire 3. It is the controller matched to the Inspire 3 for cinema production.',
+    bestFor:
+      'For DJI Inspire 3 operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Inspire 3', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Inspire 3'], ['Type', 'Screen controller']]
+  },
+  'dji-rc-plus-height-adjustable-control-sticks': {
+    overview:
+      'The DJI RC Plus Height-Adjustable Control Sticks is height-adjustable control sticks for the DJI RC Plus. Adjustable sticks let pilots tune the controller to their grip.',
+    bestFor:
+      'For DJI enterprise operators and teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Official DJI product', 'Request a quote for fleet pricing'],
+    specs: [['Type', 'Control sticks']]
+  },
+  'dji-al1-spotlight': {
+    overview:
+      'The DJI AL1 Spotlight is a spotlight accessory for compatible DJI enterprise aircraft. It lights up scenes for night search and inspection.',
+    bestFor:
+      'For DJI enterprise operators and teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Official DJI product', 'Request a quote for fleet pricing'],
+    specs: [['Type', 'Spotlight']]
+  },
+  'dji-as1-speaker': {
+    overview:
+      'The DJI AS1 Speaker is a loudspeaker accessory for compatible DJI enterprise aircraft. It broadcasts messages from the air for public safety use.',
+    bestFor:
+      'For DJI enterprise operators and teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Official DJI product', 'Request a quote for fleet pricing'],
+    specs: [['Type', 'Speaker']]
+  },
+  'd-rtk-3-multifunctional-station': {
+    overview:
+      'The D-RTK 3 Multifunctional Station is a multifunctional RTK station that provides centimetre-level positioning corrections. It is used for mapping and precision flying with compatible DJI enterprise aircraft.',
+    bestFor:
+      'For DJI enterprise operators and teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Official DJI product', 'Request a quote for fleet pricing'],
+    specs: [['Type', 'RTK station']]
+  },
+  'd-rtk-3-survey-pole-and-tripod-kit': {
+    overview:
+      'The D-RTK 3 Survey Pole and Tripod Kit is a survey pole and tripod kit for the D-RTK 3 station. It lets surveyors set up the station accurately on site.',
+    bestFor:
+      'For DJI enterprise operators and teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Official DJI product', 'Request a quote for fleet pricing'],
+    specs: [['Type', 'Survey pole and tripod kit']]
+  },
+  'dji-high-bright-remote-monitor': {
+    overview:
+      'The DJI High-Bright Remote Monitor is a high-bright remote monitor for professional and enterprise shooting. It gives crews a bright, large display in daylight.',
+    bestFor:
+      'For DJI enterprise operators and teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Official DJI product', 'Request a quote for fleet pricing'],
+    specs: [['Type', 'Remote monitor']]
+  },
+  'dji-inspire-3-foldable-quick-release-propellers-pair': {
+    overview:
+      'The DJI Inspire 3 Foldable Quick-Release Propellers (Pair) is foldable quick-release propellers for the DJI Inspire 3. Spare props keep a cinema shoot on schedule.',
+    bestFor:
+      'For DJI Inspire 3 operators and enterprise teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Made for the DJI Inspire 3', 'Request a quote for fleet pricing'],
+    specs: [['Compatible aircraft', 'DJI Inspire 3'], ['Type', 'Propellers (pair)']]
+  },
+  'zenmuse-h30t-infrared-density-filter': {
+    overview:
+      'The Zenmuse H30T Infrared Density Filter is an infrared density filter for the Zenmuse H30T. It protects and conditions the thermal camera for demanding scenes.',
+    bestFor:
+      'For DJI enterprise operators and teams.',
+    highlights: ['Genuine DJI enterprise accessory', 'Official DJI product', 'Request a quote for fleet pricing'],
+    specs: [['Type', 'Infrared filter']]
+  },
+  'dji-matrice-4t-plus-combo': {
+    overview:
+      'The DJI Matrice 4T Plus Combo is the Matrice 4T thermal enterprise drone in a Plus bundle with Care coverage and extra batteries. It combines a 640x512 thermal camera with 48 MP wide, medium tele and tele cameras and a laser rangefinder.',
+    bestFor:
+      'For public safety, inspection and search and rescue teams that want the thermal Matrice 4T with protection included.',
+    highlights: ['640x512 thermal camera plus 48 MP cameras', 'Up to 49 min flight time', 'Plus bundle with Care coverage'],
+    specs: [['Thermal camera', '640x512, 12 µm, uncooled VOx'], ['Wide camera', '1/1.3-inch CMOS, 48 MP'], ['Max flight time', 'Up to 49 min'], ['Take-off weight', '1,219 g'], ['Bundle', 'Plus combo with Care Enterprise coverage']]
+  },
+  'dji-matrice-4e-plus-combo': {
+    overview:
+      'The DJI Matrice 4E Plus Combo is the Matrice 4E mapping and inspection drone in a Plus bundle with Care coverage. A 4/3 CMOS mechanical-shutter wide camera and two telephoto cameras make it ideal for mapping and inspection.',
+    bestFor:
+      'For surveyors and inspection teams who want the Matrice 4E with protection included.',
+    highlights: ['4/3 CMOS wide camera with mechanical shutter', 'Up to 49 min flight time', 'Plus bundle with Care coverage'],
+    specs: [['Wide camera', '4/3 CMOS, 20 MP, mechanical shutter'], ['Max flight time', 'Up to 49 min'], ['Take-off weight', '1,219 g'], ['Bundle', 'Plus combo with Care Enterprise coverage']]
+  },
+  'dji-matrice-4d-worry-free-flagship-combo': {
+    overview:
+      'The DJI Matrice 4D Worry-Free Flagship Combo is the Matrice 4D, the aircraft designed for DJI Dock 3 autonomous operations, in a Worry-Free Flagship bundle. It is built for automated dock missions in security, inspection and emergency response.',
+    bestFor:
+      'For organisations planning autonomous drone-in-a-box operations with the Dock 3.',
+    highlights: ['Designed for DJI Dock 3 operations', 'Flagship bundle with Care coverage', 'Enterprise-grade multi-sensor payload'],
+    specs: [['Use', 'Dock-ready enterprise aircraft'], ['Bundle', 'Worry-Free Flagship combo']]
+  },
+  'dji-matrice-4td-worry-free-flagship-combo': {
+    overview:
+      'The DJI Matrice 4TD Worry-Free Flagship Combo is the thermal Matrice 4TD, the dock-ready thermal aircraft, in a Worry-Free Flagship bundle. It adds thermal imaging to automated Dock 3 missions for night security and rescue.',
+    bestFor:
+      'For emergency services and security teams planning thermal drone-in-a-box operations.',
+    highlights: ['Thermal dock-ready aircraft', 'Flagship bundle with Care coverage', 'Designed for DJI Dock 3'],
+    specs: [['Use', 'Dock-ready thermal enterprise aircraft'], ['Bundle', 'Worry-Free Flagship combo']]
+  },
+  'dji-matrice-400-worry-free-plus-combo': {
+    overview:
+      'The DJI Matrice 400 Worry-Free Plus Combo is DJI\'s heavy-lift Matrice 400 enterprise platform in a Worry-Free Plus bundle with Care coverage. It carries multiple payloads, with dual and third gimbal connectors available, for demanding inspection and survey work.',
+    bestFor:
+      'For specialist operators and public safety agencies needing a heavy-lift multi-payload aircraft.',
+    highlights: ['Heavy-lift multi-payload platform', 'Worry-Free Plus bundle with Care coverage', 'Dual and third gimbal options'],
+    specs: [['Class', 'Heavy-lift enterprise aircraft'], ['Bundle', 'Worry-Free Plus combo']]
+  },
+  'matrice-30t-worry-free-basic-combo': {
+    overview:
+      'The Matrice 30T Worry-Free Basic Combo is the Matrice 30T thermal enterprise drone bundled with DJI Care Enterprise Basic. It combines a 640x512 radiometric thermal camera with wide, zoom and laser rangefinder payloads in an IP55 aircraft.',
+    bestFor:
+      'For public safety, power-line and solar inspection teams who want thermal capability with protection included.',
+    highlights: ['640x512 radiometric thermal camera', 'IP55 and up to 41 min flight time', 'DJI Care Enterprise Basic included'],
+    specs: [['Thermal camera', '640x512, 12 µm, radiometric'], ['Max flight time', 'Up to 41 min'], ['Ingress protection', 'IP55'], ['Bundle', 'Aircraft with DJI Care Enterprise Basic']]
+  },
+  'matrice-30-worry-free-basic-combo': {
+    overview:
+      'The Matrice 30 Worry-Free Basic Combo is the Matrice 30 compact enterprise drone bundled with DJI Care Enterprise Basic. It carries a wide camera, a zoom camera and a laser rangefinder in a weather-resistant, foldable airframe.',
+    bestFor:
+      'For inspection and public safety crews who want a portable IP55 aircraft with protection included.',
+    highlights: ['IP55 and up to 41 min flight time', 'Wide, zoom and laser rangefinder', 'DJI Care Enterprise Basic included'],
+    specs: [['Cameras', '12 MP wide, 48 MP zoom (5-16x optical)'], ['Max flight time', 'Up to 41 min'], ['Ingress protection', 'IP55'], ['Bundle', 'Aircraft with DJI Care Enterprise Basic']]
+  },
+  'matrice-30t-worry-free-plus-combo': {
+    overview:
+      'The Matrice 30T Worry-Free Plus Combo is the Matrice 30T thermal enterprise drone bundled with DJI Care Enterprise Plus. It combines a 640x512 radiometric thermal camera with wide, zoom and laser rangefinder payloads in an IP55 aircraft.',
+    bestFor:
+      'For public safety, power-line and solar inspection teams who want thermal capability with protection included.',
+    highlights: ['640x512 radiometric thermal camera', 'IP55 and up to 41 min flight time', 'DJI Care Enterprise Plus included'],
+    specs: [['Thermal camera', '640x512, 12 µm, radiometric'], ['Max flight time', 'Up to 41 min'], ['Ingress protection', 'IP55'], ['Bundle', 'Aircraft with DJI Care Enterprise Plus']]
+  },
+  'matrice-30-worry-free-plus-combo': {
+    overview:
+      'The Matrice 30 Worry-Free Plus Combo is the Matrice 30 compact enterprise drone bundled with DJI Care Enterprise Plus. It carries a wide camera, a zoom camera and a laser rangefinder in a weather-resistant, foldable airframe.',
+    bestFor:
+      'For inspection and public safety crews who want a portable IP55 aircraft with protection included.',
+    highlights: ['IP55 and up to 41 min flight time', 'Wide, zoom and laser rangefinder', 'DJI Care Enterprise Plus included'],
+    specs: [['Cameras', '12 MP wide, 48 MP zoom (5-16x optical)'], ['Max flight time', 'Up to 41 min'], ['Ingress protection', 'IP55'], ['Bundle', 'Aircraft with DJI Care Enterprise Plus']]
+  },
+  'dji-mavic-3e-worry-free-basic-combo': {
+    overview:
+      'The DJI Mavic 3E Worry-Free Basic Combo is the Mavic 3 Enterprise mapping and inspection drone bundled with DJI Care Enterprise Basic. A 4/3 CMOS mechanical-shutter wide camera and a 56x hybrid zoom camera suit mapping and inspection.',
+    bestFor:
+      'For survey firms and councils who want a compact mapping drone with protection included.',
+    highlights: ['Mechanical shutter for mapping', '56x hybrid zoom camera', 'DJI Care Enterprise Basic included'],
+    specs: [['Wide camera', '4/3 CMOS, 20 MP, mechanical shutter'], ['Max flight time', 'Up to 45 min'], ['Bundle', 'Aircraft with DJI Care Enterprise Basic']]
+  },
+  'dji-mavic-3e-worry-free-plus-combo': {
+    overview:
+      'The DJI Mavic 3E Worry-Free Plus Combo is the Mavic 3 Enterprise in a Plus combo with DJI Care Enterprise Plus. It adds extra protection to a compact mapping aircraft.',
+    bestFor:
+      'For survey teams that want fuller Care coverage with the Mavic 3 Enterprise.',
+    highlights: ['Mechanical shutter for mapping', '56x hybrid zoom camera', 'DJI Care Enterprise Plus coverage'],
+    specs: [['Wide camera', '4/3 CMOS, 20 MP, mechanical shutter'], ['Max flight time', 'Up to 45 min'], ['Bundle', 'Plus combo with DJI Care Enterprise Plus']]
+  },
+  'dji-mavic-3t-worry-free-basic-combo': {
+    overview:
+      'The DJI Mavic 3T Worry-Free Basic Combo is the Mavic 3 Thermal drone bundled with DJI Care Enterprise Basic. It adds a 640x512 thermal camera to the compact Mavic 3 Enterprise platform.',
+    bestFor:
+      'For roof, solar, fire and rescue crews who want a portable thermal drone with protection included.',
+    highlights: ['640x512 thermal camera', '48 MP wide and 56x hybrid zoom cameras', 'DJI Care Enterprise Basic included'],
+    specs: [['Thermal camera', '640x512 uncooled VOx'], ['Max flight time', 'Up to 45 min'], ['Bundle', 'Aircraft with DJI Care Enterprise Basic']]
+  },
+  'dji-mavic-3t-worry-free-plus-combo': {
+    overview:
+      'The DJI Mavic 3T Worry-Free Plus Combo is the Mavic 3 Thermal in a Plus combo with DJI Care Enterprise Plus. It combines portable thermal imaging with fuller Care coverage.',
+    bestFor:
+      'For thermal inspection teams that want extra protection.',
+    highlights: ['640x512 thermal camera', 'DJI Care Enterprise Plus coverage', 'Compact, portable aircraft'],
+    specs: [['Thermal camera', '640x512 uncooled VOx'], ['Max flight time', 'Up to 45 min'], ['Bundle', 'Plus combo with DJI Care Enterprise Plus']]
+  },
+  'zenmuse-h30-worry-free-basic-combo': {
+    overview:
+      'The Zenmuse H30 Worry-Free Basic Combo is the Zenmuse H30 multi-sensor payload bundled with DJI Care Enterprise Basic. It combines a 48 MP wide camera, a 34x optical zoom camera and a laser rangefinder.',
+    bestFor:
+      'For Matrice 350 RTK and 300 RTK operators who want protection with the payload.',
+    highlights: ['48 MP wide and 40 MP zoom (34x optical)', 'Laser rangefinder to 3,000 m', 'DJI Care Enterprise Basic included'],
+    specs: [['Wide camera', '1/1.3-inch CMOS, 48 MP'], ['Zoom camera', '40 MP, 34x optical'], ['Laser rangefinder', '3-3,000 m'], ['Bundle', 'Payload with DJI Care Enterprise Basic']]
+  },
+  'zenmuse-l2-worry-free-basic-combo': {
+    overview:
+      'The Zenmuse L2 Worry-Free Basic Combo is the Zenmuse L2 LiDAR payload bundled with DJI Care Enterprise Basic. It integrates a frame-based LiDAR, a 4/3 CMOS RGB camera and a high-accuracy IMU for colourised point clouds.',
+    bestFor:
+      'For survey, forestry and construction teams who want drone LiDAR with protection included.',
+    highlights: ['Frame-based LiDAR with up to 5 returns', '20 MP RGB camera for colourised point clouds', 'DJI Care Enterprise Basic included'],
+    specs: [['Point rate', 'Up to 240,000 points/s (single return)'], ['Detection range', 'Up to 450 m at 50% reflectivity'], ['RGB camera', '4/3 CMOS, 20 MP'], ['Bundle', 'Payload with DJI Care Enterprise Basic']]
+  },
+  'zenmuse-h30-worry-free-plus-combo': {
+    overview:
+      'The Zenmuse H30 Worry-Free Plus Combo is the Zenmuse H30 multi-sensor payload bundled with DJI Care Enterprise Plus. It combines a 48 MP wide camera, a 34x optical zoom camera and a laser rangefinder.',
+    bestFor:
+      'For Matrice 350 RTK and 300 RTK operators who want protection with the payload.',
+    highlights: ['48 MP wide and 40 MP zoom (34x optical)', 'Laser rangefinder to 3,000 m', 'DJI Care Enterprise Plus included'],
+    specs: [['Wide camera', '1/1.3-inch CMOS, 48 MP'], ['Zoom camera', '40 MP, 34x optical'], ['Laser rangefinder', '3-3,000 m'], ['Bundle', 'Payload with DJI Care Enterprise Plus']]
+  },
+  'zenmuse-l2-worry-free-plus-combo': {
+    overview:
+      'The Zenmuse L2 Worry-Free Plus Combo is the Zenmuse L2 LiDAR payload bundled with DJI Care Enterprise Plus. It integrates a frame-based LiDAR, a 4/3 CMOS RGB camera and a high-accuracy IMU for colourised point clouds.',
+    bestFor:
+      'For survey, forestry and construction teams who want drone LiDAR with protection included.',
+    highlights: ['Frame-based LiDAR with up to 5 returns', '20 MP RGB camera for colourised point clouds', 'DJI Care Enterprise Plus included'],
+    specs: [['Point rate', 'Up to 240,000 points/s (single return)'], ['Detection range', 'Up to 450 m at 50% reflectivity'], ['RGB camera', '4/3 CMOS, 20 MP'], ['Bundle', 'Payload with DJI Care Enterprise Plus']]
+  },
+  'zenmuse-l3-worry-free-plus-combo': {
+    overview:
+      'The Zenmuse L3 Worry-Free Plus Combo is the Zenmuse L3 LiDAR payload in a Worry-Free Plus bundle with Care coverage. It is DJI\'s newer LiDAR payload for high-accuracy surveying and mapping.',
+    bestFor:
+      'For survey and mapping firms upgrading their drone LiDAR capability.',
+    highlights: ['Newer-generation DJI LiDAR payload', 'Worry-Free Plus bundle with Care coverage', 'For high-accuracy mapping'],
+    specs: [['Type', 'LiDAR payload'], ['Bundle', 'Worry-Free Plus combo']]
+  },
+  'zenmuse-p1-and-dji-care-plus': {
+    overview:
+      'The Zenmuse P1 and DJI Care Plus is the Zenmuse P1 full-frame photogrammetry camera bundled with DJI Care Plus. A 45 MP full-frame sensor with a global mechanical shutter delivers survey-grade imagery.',
+    bestFor:
+      'For surveyors and mapping companies who want the P1 with protection included.',
+    highlights: ['45 MP full-frame sensor', 'Global mechanical shutter', 'DJI Care Plus included'],
+    specs: [['Sensor', 'Full-frame, 45 MP'], ['Lens options', '24, 35 or 50 mm (f/2.8)'], ['Bundle', 'Payload with DJI Care Plus']]
+  },
+  'zenmuse-h20-and-dji-care-plus': {
+    overview:
+      'The Zenmuse H20 and DJI Care Plus is the Zenmuse H20 multi-sensor payload bundled with DJI Care Plus. It combines a zoom camera, a wide camera and a laser rangefinder for inspection and public safety.',
+    bestFor:
+      'For Matrice 300 RTK and compatible-aircraft operators who want the H20 with protection included.',
+    highlights: ['Zoom and wide cameras', 'Laser rangefinder', 'DJI Care Plus included'],
+    specs: [['Type', 'Multi-sensor payload'], ['Bundle', 'Payload with DJI Care Plus']]
+  },
+  'zenmuse-s1': {
+    overview:
+      'The Zenmuse S1 is DJI\'s first spotlight for multi-payload drone platforms, using LEP technology for high brightness and long illumination distance. It supports multiple lighting modes for public safety, emergency rescue and night inspection.',
+    bestFor:
+      'For public safety, rescue and inspection teams flying at night.',
+    highlights: ['First DJI spotlight for multi-payload platforms', 'High brightness and long illumination distance', 'Multiple lighting modes'],
+    specs: [['Type', 'Spotlight payload'], ['Technology', 'LEP']]
+  },
+  'zenmuse-v1': {
+    overview:
+      'The Zenmuse V1 is DJI\'s first loudspeaker for multi-payload drone platforms, with high volume and long broadcast distance. It supports multiple broadcast modes for public safety and emergency rescue.',
+    bestFor:
+      'For emergency services that need to broadcast from the air.',
+    highlights: ['First DJI loudspeaker for multi-payload platforms', 'High volume and long broadcast distance', 'Multiple broadcast modes'],
+    specs: [['Type', 'Loudspeaker payload']]
+  },
+  'manifold-3': {
+    overview:
+      'The Manifold 3 is a high-performance onboard computing power box for DJI enterprise aircraft. It runs custom applications on the aircraft and must be used with the matching accessory kit.',
+    bestFor:
+      'For developers and enterprise teams building custom onboard computing workflows.',
+    highlights: ['Compact onboard computer', 'Open computing platform', 'Needs the matching accessory kit'],
+    specs: [['Type', 'Onboard computing power box'], ['Note', 'Requires the matching accessory kit; cannot operate on its own']]
+  },
   'dji-air-3s-dji-rc-n3': {
     overview:
       'The DJI Air 3S (DJI RC-N3) is a dual-camera travel drone with a 1-inch wide camera and a 3x medium tele camera, supplied with the DJI RC-N3 controller. The 1-inch sensor and forward LiDAR help it capture clean footage in low light, and it flies for up to 45 minutes.',

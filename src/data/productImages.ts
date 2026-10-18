@@ -1,5 +1,314 @@
 // Generated from the product photo folder. Keys are product slugs; the first image is the primary one.
 export const PRODUCT_IMAGES: Record<string, string[]> = {
+  "dji-mavic-4-pro-dji-rc-2": [
+    "/products/dji-dji-mavic-4-pro-dji-rc-2.jpg"
+  ],
+  "dji-mavic-4-pro-fly-more-combo-dji-rc-2": [
+    "/products/dji-dji-mavic-4-pro-fly-more-combo-dji-rc-2.jpg"
+  ],
+  "dji-lito-1": [
+    "/products/dji-dji-lito-1.jpg"
+  ],
+  "dji-lito-1-fly-more-combo-dji-rc-n3": [
+    "/products/dji-dji-lito-1-fly-more-combo-dji-rc-n3.jpg"
+  ],
+  "dji-lito-x1": [
+    "/products/dji-dji-lito-x1.jpg"
+  ],
+  "dji-lito-x1-fly-more-combo-dji-rc-n3": [
+    "/products/dji-dji-lito-x1-fly-more-combo-dji-rc-n3.jpg"
+  ],
+  "dji-lito-x1-fly-more-combo-dji-rc-2": [
+    "/products/dji-dji-lito-x1-fly-more-combo-dji-rc-2.jpg"
+  ],
+  "dji-lito-x1-fly-more-combo-plus-dji-rc-2": [
+    "/products/dji-dji-lito-x1-fly-more-combo-plus-dji-rc-2.jpg"
+  ],
+  "dji-mini-5-pro-fly-more-combo-plus-dji-rc-2": [
+    "/products/dji-dji-mini-5-pro-fly-more-combo-plus-dji-rc-2.jpg"
+  ],
+  "dji-neo-2-motion-fly-more-combo": [
+    "/products/dji-dji-neo-2-motion-fly-more-combo.jpg"
+  ],
+  "dji-neo-fly-more-combo": [
+    "/products/dji-dji-neo-fly-more-combo.jpg"
+  ],
+  "dji-neo-motion-fly-more-combo": [
+    "/products/dji-dji-neo-motion-fly-more-combo.jpg"
+  ],
+  "dji-avata-2-drone-only": [
+    "/products/dji-dji-avata-2-drone-only.jpg"
+  ],
+  "dji-avata-2-fly-smart-combo-single-battery": [
+    "/products/dji-dji-avata-2-fly-smart-combo-single-battery.jpg"
+  ],
+  "dji-avata-2-fly-smart-combo-three-batteries": [
+    "/products/dji-dji-avata-2-fly-smart-combo-three-batteries.jpg"
+  ],
+  "dji-avata-pro-view-combo-new": [
+    "/products/dji-dji-avata-pro-view-combo-new.jpg"
+  ],
+  "dji-avata-no-rc": [
+    "/products/dji-dji-avata-no-rc.jpg"
+  ],
+  "dji-mini-4k": [
+    "/products/dji-dji-mini-4k.jpg"
+  ],
+  "dji-mini-3-dji-rc-n1": [
+    "/products/dji-dji-mini-3-dji-rc-n1.jpg"
+  ],
+  "dji-mini-3-dji-rc": [
+    "/products/dji-dji-mini-3-dji-rc.jpg"
+  ],
+  "dji-mini-3-fly-more-combo-dji-rc": [
+    "/products/dji-dji-mini-3-fly-more-combo-dji-rc.jpg"
+  ],
+  "dji-mavic-3-pro-cine-premium-combo-dji-rc-pro": [
+    "/products/dji-dji-mavic-3-pro-cine-premium-combo-dji-rc-pro.jpg"
+  ],
+  "dji-lito-1-intelligent-flight-battery": [
+    "/products/dji-dji-lito-1-intelligent-flight-battery.jpg"
+  ],
+  "dji-lito-1-charging-hub": [
+    "/products/dji-dji-lito-1-charging-hub.jpg"
+  ],
+  "dji-lito-x1-intelligent-flight-battery": [
+    "/products/dji-dji-lito-x1-intelligent-flight-battery.jpg"
+  ],
+  "dji-lito-series-intelligent-flight-battery-plus": [
+    "/products/dji-dji-lito-series-intelligent-flight-battery-plus.jpg"
+  ],
+  "dji-lito-x1-charging-hub": [
+    "/products/dji-dji-lito-x1-charging-hub.jpg"
+  ],
+  "dji-avata-360-intelligent-flight-battery": [
+    "/products/dji-dji-avata-360-intelligent-flight-battery.jpg"
+  ],
+  "dji-avata-360-propellers": [
+    "/products/dji-dji-avata-360-propellers.jpg"
+  ],
+  "dji-avata-360-charging-hub": [
+    "/products/dji-dji-avata-360-charging-hub.jpg"
+  ],
+  "dji-avata-360-replacement-lens-kit-with-tools": [
+    "/products/dji-dji-avata-360-replacement-lens-kit-with-tools.jpg"
+  ],
+  "dji-avata-360-replacement-lens": [
+    "/products/dji-dji-avata-360-replacement-lens.jpg"
+  ],
+  "dji-neo-2-intelligent-flight-battery": [
+    "/products/dji-dji-neo-2-intelligent-flight-battery.jpg"
+  ],
+  "dji-neo-2-two-way-charging-hub": [
+    "/products/dji-dji-neo-2-two-way-charging-hub.jpg"
+  ],
+  "dji-neo-2-propellers": [
+    "/products/dji-dji-neo-2-propellers.jpg"
+  ],
+  "dji-neo-2-digital-transceiver": [
+    "/products/dji-dji-neo-2-digital-transceiver.jpg"
+  ],
+  "dji-mini-5-pro-intelligent-flight-battery": [
+    "/products/dji-dji-mini-5-pro-intelligent-flight-battery.jpg"
+  ],
+  "dji-mini-5-pro-intelligent-flight-battery-plus": [
+    "/products/dji-dji-mini-5-pro-intelligent-flight-battery-plus.jpg"
+  ],
+  "dji-mini-5-pro-two-way-charging-hub": [
+    "/products/dji-dji-mini-5-pro-two-way-charging-hub.jpg"
+  ],
+  "dji-mini-5-pro-propeller": [
+    "/products/dji-dji-mini-5-pro-propeller.jpg"
+  ],
+  "dji-mavic-4-pro-intelligent-flight-battery": [
+    "/products/dji-dji-mavic-4-pro-intelligent-flight-battery.jpg"
+  ],
+  "dji-mavic-4-pro-propellers": [
+    "/products/dji-dji-mavic-4-pro-propellers.jpg"
+  ],
+  "dji-mavic-4-pro-parallel-charging-hub": [
+    "/products/dji-dji-mavic-4-pro-parallel-charging-hub.jpg"
+  ],
+  "dji-goggles-3": [
+    "/products/dji-dji-goggles-3.jpg"
+  ],
+  "dji-goggles-carry-more-backpack": [
+    "/products/dji-dji-goggles-carry-more-backpack.jpg"
+  ],
+  "dji-sling-bag": [
+    "/products/dji-dji-sling-bag.jpg"
+  ],
+  "dji-65w-portable-charger": [
+    "/products/dji-dji-65w-portable-charger.jpg"
+  ],
+  "dji-mavic-3-series-low-noise-propellers": [
+    "/products/dji-dji-mavic-3-series-low-noise-propellers.jpg"
+  ],
+  "dji-mavic-3-storage-cover": [
+    "/products/dji-dji-mavic-3-storage-cover.jpg"
+  ],
+  "dji-mavic-3-classic-storage-cover": [
+    "/products/dji-dji-mavic-3-classic-storage-cover.jpg"
+  ],
+  "dji-mavic-3-classic-wide-angle-lens": [
+    "/products/dji-dji-mavic-3-classic-wide-angle-lens.jpg"
+  ],
+  "dji-rc-motion-2": [
+    "/products/dji-dji-rc-motion-2.jpg"
+  ],
+  "dji-motion-controller": [
+    "/products/dji-dji-motion-controller.jpg"
+  ],
+  "dji-rc-rc-2-control-sticks": [
+    "/products/dji-dji-rc-rc-2-control-sticks.jpg"
+  ],
+  "dji-rc-pro-2": [
+    "/products/dji-dji-rc-pro-2.jpg"
+  ],
+  "dji-fpv-propellers": [
+    "/products/dji-dji-fpv-propellers.jpg"
+  ],
+  "dji-fpv-goggles-battery": [
+    "/products/dji-dji-fpv-goggles-battery.jpg"
+  ],
+  "dji-fpv-goggles-antenna-dual-band": [
+    "/products/dji-dji-fpv-goggles-antenna-dual-band.jpg"
+  ],
+  "dji-matrice-400-2510f-propeller": [
+    "/products/dji-dji-matrice-400-2510f-propeller.jpg"
+  ],
+  "bs100-intelligent-battery-station": [
+    "/products/dji-bs100-intelligent-battery-station.jpg"
+  ],
+  "dji-matrice-400-third-gimbal-connector": [
+    "/products/dji-dji-matrice-400-third-gimbal-connector.jpg"
+  ],
+  "dji-matrice-400-dual-gimbal-connector": [
+    "/products/dji-dji-matrice-400-dual-gimbal-connector.jpg"
+  ],
+  "dji-matrice-400-gimbal-damper": [
+    "/products/dji-dji-matrice-400-gimbal-damper.jpg"
+  ],
+  "dji-matrice-4d-series-low-noise-anti-ice-propellers": [
+    "/products/dji-dji-matrice-4d-series-low-noise-anti-ice-propellers.jpg"
+  ],
+  "dji-matrice-4d-series-240w-charging-hub": [
+    "/products/dji-dji-matrice-4d-series-240w-charging-hub.jpg"
+  ],
+  "dji-matrice-4-obstacle-sensing-module": [
+    "/products/dji-dji-matrice-4-obstacle-sensing-module.jpg"
+  ],
+  "dji-matrice-4-series-charging-hub-200w": [
+    "/products/dji-dji-matrice-4-series-charging-hub-200w.jpg"
+  ],
+  "dji-matrice-4-series-carrying-case-strap": [
+    "/products/dji-dji-matrice-4-series-carrying-case-strap.jpg"
+  ],
+  "dji-matrice-4d-series-battery": [
+    "/products/dji-dji-matrice-4d-series-battery.jpg"
+  ],
+  "dji-rc-plus-2-enterprise-enhanced": [
+    "/products/dji-dji-rc-plus-2-enterprise-enhanced.jpg"
+  ],
+  "dji-rc-plus-2-strap-and-bracket-kit": [
+    "/products/dji-dji-rc-plus-2-strap-and-bracket-kit.jpg"
+  ],
+  "dji-rc-plus-inspire-3": [
+    "/products/dji-dji-rc-plus-inspire-3.jpg"
+  ],
+  "dji-rc-plus-height-adjustable-control-sticks": [
+    "/products/dji-dji-rc-plus-height-adjustable-control-sticks.jpg"
+  ],
+  "dji-al1-spotlight": [
+    "/products/dji-dji-al1-spotlight.jpg"
+  ],
+  "dji-as1-speaker": [
+    "/products/dji-dji-as1-speaker.jpg"
+  ],
+  "d-rtk-3-multifunctional-station": [
+    "/products/dji-d-rtk-3-multifunctional-station.jpg"
+  ],
+  "d-rtk-3-survey-pole-and-tripod-kit": [
+    "/products/dji-d-rtk-3-survey-pole-and-tripod-kit.jpg"
+  ],
+  "dji-high-bright-remote-monitor": [
+    "/products/dji-dji-high-bright-remote-monitor.jpg"
+  ],
+  "dji-inspire-3-foldable-quick-release-propellers-pair": [
+    "/products/dji-dji-inspire-3-foldable-quick-release-propellers-pair.jpg"
+  ],
+  "zenmuse-h30t-infrared-density-filter": [
+    "/products/dji-zenmuse-h30t-infrared-density-filter.jpg"
+  ],
+  "dji-matrice-4t-plus-combo": [
+    "/products/dji-dji-matrice-4t-plus-combo.jpg"
+  ],
+  "dji-matrice-4e-plus-combo": [
+    "/products/dji-dji-matrice-4e-plus-combo.jpg"
+  ],
+  "dji-matrice-4d-worry-free-flagship-combo": [
+    "/products/dji-dji-matrice-4d-worry-free-flagship-combo.jpg"
+  ],
+  "dji-matrice-4td-worry-free-flagship-combo": [
+    "/products/dji-dji-matrice-4td-worry-free-flagship-combo.jpg"
+  ],
+  "dji-matrice-400-worry-free-plus-combo": [
+    "/products/dji-dji-matrice-400-worry-free-plus-combo.jpg"
+  ],
+  "matrice-30t-worry-free-basic-combo": [
+    "/products/dji-matrice-30t-worry-free-basic-combo.jpg"
+  ],
+  "matrice-30-worry-free-basic-combo": [
+    "/products/dji-matrice-30-worry-free-basic-combo.jpg"
+  ],
+  "matrice-30t-worry-free-plus-combo": [
+    "/products/dji-matrice-30t-worry-free-plus-combo.jpg"
+  ],
+  "matrice-30-worry-free-plus-combo": [
+    "/products/dji-matrice-30-worry-free-plus-combo.jpg"
+  ],
+  "dji-mavic-3e-worry-free-basic-combo": [
+    "/products/dji-dji-mavic-3e-worry-free-basic-combo.jpg"
+  ],
+  "dji-mavic-3e-worry-free-plus-combo": [
+    "/products/dji-dji-mavic-3e-worry-free-plus-combo.jpg"
+  ],
+  "dji-mavic-3t-worry-free-basic-combo": [
+    "/products/dji-dji-mavic-3t-worry-free-basic-combo.jpg"
+  ],
+  "dji-mavic-3t-worry-free-plus-combo": [
+    "/products/dji-dji-mavic-3t-worry-free-plus-combo.jpg"
+  ],
+  "zenmuse-h30-worry-free-basic-combo": [
+    "/products/dji-zenmuse-h30-worry-free-basic-combo.jpg"
+  ],
+  "zenmuse-l2-worry-free-basic-combo": [
+    "/products/dji-zenmuse-l2-worry-free-basic-combo.jpg"
+  ],
+  "zenmuse-h30-worry-free-plus-combo": [
+    "/products/dji-zenmuse-h30-worry-free-plus-combo.jpg"
+  ],
+  "zenmuse-l2-worry-free-plus-combo": [
+    "/products/dji-zenmuse-l2-worry-free-plus-combo.jpg"
+  ],
+  "zenmuse-l3-worry-free-plus-combo": [
+    "/products/dji-zenmuse-l3-worry-free-plus-combo.jpg"
+  ],
+  "zenmuse-p1-and-dji-care-plus": [
+    "/products/dji-zenmuse-p1-and-dji-care-plus.jpg"
+  ],
+  "zenmuse-h20-and-dji-care-plus": [
+    "/products/dji-zenmuse-h20-and-dji-care-plus.jpg"
+  ],
+  "zenmuse-s1": [
+    "/products/dji-zenmuse-s1.jpg"
+  ],
+  "zenmuse-v1": [
+    "/products/dji-zenmuse-v1.jpg"
+  ],
+  "manifold-3": [
+    "/products/dji-manifold-3.jpg"
+  ],
   "dji-air-3s-dji-rc-n3": [
     "/products/dji-cover-air-3s.jpg"
   ],

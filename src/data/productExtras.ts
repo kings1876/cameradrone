@@ -1,6 +1,212 @@
 // Third description paragraph per product: buying context written around the primary and supporting keywords
 // in keywords.ts. Kept separate from productDetails.ts so each page has unique, keyword-aware copy.
 export const PRODUCT_EXTRAS: Record<string, string> = {
+  'dji-mavic-4-pro-dji-rc-2':
+    'Pair it with Mavic 4 Pro batteries, propellers and a parallel charging hub from our accessories range. It also suits searches for pro mavic drone.',
+  'dji-mavic-4-pro-fly-more-combo-dji-rc-2':
+    'Buyers searching for pro mavic drone will find it here. It also suits searches for dji mavic pro 4 and dji mavic pro.',
+  'dji-lito-1':
+    'It also suits searches for a beginner drone with camera or the best drones for beginners in Australia. It also suits searches for mini drone with camera.',
+  'dji-lito-1-fly-more-combo-dji-rc-n3':
+    'Buyers searching for drones for beginners will find it here. It also suits searches for beginner drone with camera.',
+  'dji-lito-x1':
+    'Buyers searching for dji drone mini will find it here. It also suits searches for mini drone with camera and beginner drone with camera.',
+  'dji-lito-x1-fly-more-combo-dji-rc-n3':
+    'Buyers searching for mini drone with camera will find it here. It also suits searches for dji drone mini.',
+  'dji-lito-x1-fly-more-combo-dji-rc-2':
+    'Buyers searching for beginner drone with camera will find it here. It also suits searches for mini drone with camera.',
+  'dji-lito-x1-fly-more-combo-plus-dji-rc-2':
+    'Buyers searching for drones for beginners will find it here. It also suits searches for beginner drone with camera.',
+  'dji-mini-5-pro-fly-more-combo-plus-dji-rc-2':
+    'Buyers searching for dji mini 5 pro plus will find it here. It also suits searches for dji mini 5 pro price australia.',
+  'dji-neo-2-motion-fly-more-combo':
+    'Buyers searching for dji neo 2 combo will find it here. It also suits searches for dji neo 2 drones and dji neo 2 fly more.',
+  'dji-neo-fly-more-combo':
+    'Buyers searching for dji neo drone fly more combo will find it here. It also suits searches for dji neo reviews and dji neo bag.',
+  'dji-neo-motion-fly-more-combo':
+    'Buyers searching for dji neo drone fly more combo will find it here. It also suits searches for dji neo reviews and drone dji neo.',
+  'dji-avata-2-drone-only':
+    'Buyers searching for dji fpv drone will find it here. It also suits searches for dji avata 2 drones and dji goggle 3.',
+  'dji-avata-2-fly-smart-combo-single-battery':
+    'Buyers searching for dji avata fly smart combo will find it here. It also suits searches for dji fpv drone and dji avata 2 drones.',
+  'dji-avata-2-fly-smart-combo-three-batteries':
+    'Buyers searching for dji fpv drone will find it here. It also suits searches for dji avata fly smart combo and dji avata 2 drones.',
+  'dji-avata-pro-view-combo-new':
+    'Buyers searching for dji fpv drone will find it here. It also suits searches for dji fpv glasses.',
+  'dji-avata-no-rc':
+    'Buyers searching for dji fpv drone will find it here. It also suits searches for dji goggle and avata goggles.',
+  'dji-mini-4k':
+    'Many buyers add Mini 4K accessories and a Mini 4K case, and the Fly More Combo adds extra batteries. Buyers searching for dji mini 4k drone will find it here. It also suits searches for dji mini 4k accessories and dji mini 4k case.',
+  'dji-mini-3-dji-rc-n1':
+    'Buyers searching for dji drone mini will find it here. It also suits searches for dji mini 3 vs mini 3 pro and mini drone with camera.',
+  'dji-mini-3-dji-rc':
+    'Buyers searching for mini drone with camera will find it here. It also suits searches for dji drone mini and dji mini 3 vs mini 3 pro.',
+  'dji-mini-3-fly-more-combo-dji-rc':
+    'Buyers searching for dji drone mini will find it here. It also suits searches for mini drone with camera.',
+  'dji-mavic-3-pro-cine-premium-combo-dji-rc-pro':
+    'It also suits searches for dji mavic accessories.',
+  'dji-lito-1-intelligent-flight-battery':
+    'Buyers searching for dji drone battery will find it here. It also suits searches for drone batteries.',
+  'dji-lito-1-charging-hub':
+    'Buyers searching for drone battery charger will find it here. It also suits searches for dji drone charger and drone batteries.',
+  'dji-lito-x1-intelligent-flight-battery':
+    'Buyers searching for dji drone battery will find it here. It also suits searches for drone batteries.',
+  'dji-lito-series-intelligent-flight-battery-plus':
+    'Buyers searching for dji drone battery will find it here. It also suits searches for drone batteries.',
+  'dji-lito-x1-charging-hub':
+    'Buyers searching for drone battery charger will find it here. It also suits searches for dji drone charger and drone batteries.',
+  'dji-avata-360-intelligent-flight-battery':
+    'Buyers searching for dji drone battery will find it here. It also suits searches for drone batteries.',
+  'dji-avata-360-propellers':
+    'Buyers searching for drone propeller will find it here. It also suits searches for drone propellers and dji propellers.',
+  'dji-avata-360-charging-hub':
+    'Buyers searching for drone battery charger will find it here. It also suits searches for dji drone charger and drone batteries.',
+  'dji-avata-360-replacement-lens-kit-with-tools':
+    'Buyers searching for dji parts will find it here. It also suits searches for drone parts and dji drone accessories.',
+  'dji-avata-360-replacement-lens':
+    'Buyers searching for drone parts will find it here. It also suits searches for dji parts.',
+  'dji-neo-2-intelligent-flight-battery':
+    'Buyers searching for dji neo 2 au will find it here. It also suits searches for dji drone battery and drone battery.',
+  'dji-neo-2-two-way-charging-hub':
+    'Buyers searching for dji neo 2 controller will find it here. It also suits searches for dji drone charger and drone battery charger.',
+  'dji-neo-2-propellers':
+    'Buyers searching for dji neo 2 drones will find it here. It also suits searches for drone propeller and drone props.',
+  'dji-neo-2-digital-transceiver':
+    'Buyers searching for dji neo 2 controller will find it here. It also suits searches for dji neo 2 drones and dji remote control.',
+  'dji-mini-5-pro-intelligent-flight-battery':
+    'Buyers searching for dji mini 5 pro accessories will find it here. It also suits searches for dji drone battery.',
+  'dji-mini-5-pro-intelligent-flight-battery-plus':
+    'Buyers searching for dji mini 5 pro plus will find it here. It also suits searches for dji mini 5 pro accessories.',
+  'dji-mini-5-pro-two-way-charging-hub':
+    'Buyers searching for dji mini 5 pro accessories will find it here. It also suits searches for dji drone charger.',
+  'dji-mini-5-pro-propeller':
+    'Buyers searching for dji mini 5 pro accessories will find it here. It also suits searches for drone propeller.',
+  'dji-mavic-4-pro-intelligent-flight-battery':
+    'Buyers searching for dji mavic pro 4 will find it here. It also suits searches for dji drone battery.',
+  'dji-mavic-4-pro-propellers':
+    'Buyers searching for drone propellers will find it here. It also suits searches for dji propellers.',
+  'dji-mavic-4-pro-parallel-charging-hub':
+    'Buyers searching for dji drone charger will find it here. It also suits searches for drone battery charger and dji mavic pro 4.',
+  'dji-goggles-3':
+    'Buyers searching for dji goggle 3 will find it here.',
+  'dji-goggles-carry-more-backpack':
+    'Buyers searching for drone bag will find it here. It also suits searches for drone backpack and drone case.',
+  'dji-sling-bag':
+    'Buyers searching for drone bag will find it here. It also suits searches for drone case and drone backpack.',
+  'dji-65w-portable-charger':
+    'Buyers searching for dji drone charger will find it here. It also suits searches for drone battery charger and drone batteries.',
+  'dji-mavic-3-series-low-noise-propellers':
+    'Buyers searching for drone propeller will find it here. It also suits searches for dji propellers.',
+  'dji-mavic-3-storage-cover':
+    'Buyers searching for drone case will find it here. It also suits searches for dji case.',
+  'dji-mavic-3-classic-storage-cover':
+    'Buyers searching for drone case will find it here. It also suits searches for dji case.',
+  'dji-mavic-3-classic-wide-angle-lens':
+    'Buyers searching for dji mavic accessories will find it here. It also suits searches for dji drone accessories.',
+  'dji-rc-motion-2':
+    'Buyers searching for dji controller will find it here. It also suits searches for dji remote control and dji rc controller.',
+  'dji-motion-controller':
+    'Buyers searching for dji remote control will find it here. It also suits searches for dji controller and dji rc controller.',
+  'dji-rc-rc-2-control-sticks':
+    'Buyers searching for dji rc controls will find it here. It also suits searches for dji rc remote and dji controller.',
+  'dji-rc-pro-2':
+    'Buyers searching for dji controller will find it here. It also suits searches for dji rc controller and dji remote control.',
+  'dji-fpv-propellers':
+    'Buyers searching for drone props will find it here. It also suits searches for drone propeller.',
+  'dji-fpv-goggles-battery':
+    'Buyers searching for dji goggle will find it here. It also suits searches for dji fpv glasses.',
+  'dji-fpv-goggles-antenna-dual-band':
+    'Buyers searching for dji goggle will find it here. It also suits searches for dji fpv glasses.',
+  'dji-matrice-400-2510f-propeller':
+    'Buyers searching for dji parts will find it here. It also suits searches for dji enterprise.',
+  'bs100-intelligent-battery-station':
+    'It also suits searches for dji matrice and dji enterprise drones.',
+  'dji-matrice-400-third-gimbal-connector':
+    'Buyers searching for dji enterprise will find it here. It also suits searches for dji enterprise drones.',
+  'dji-matrice-400-dual-gimbal-connector':
+    'Buyers searching for dji enterprise will find it here. It also suits searches for dji enterprise drones.',
+  'dji-matrice-400-gimbal-damper':
+    'Buyers searching for dji parts will find it here.',
+  'dji-matrice-4d-series-low-noise-anti-ice-propellers':
+    'Buyers searching for drone propeller will find it here. It also suits searches for dji propellers.',
+  'dji-matrice-4d-series-240w-charging-hub':
+    'Buyers searching for drone battery charger will find it here. It also suits searches for dji drone charger.',
+  'dji-matrice-4-obstacle-sensing-module':
+    'Buyers searching for dji enterprise will find it here. It also suits searches for dji enterprise drones.',
+  'dji-matrice-4-series-charging-hub-200w':
+    'Buyers searching for drone battery charger will find it here. It also suits searches for dji drone charger.',
+  'dji-matrice-4-series-carrying-case-strap':
+    'Buyers searching for dji enterprise will find it here. It also suits searches for dji enterprise drones.',
+  'dji-matrice-4d-series-battery':
+    'Buyers searching for dji drone battery will find it here.',
+  'dji-rc-plus-2-enterprise-enhanced':
+    'Buyers searching for dji controller will find it here. It also suits searches for dji rc controller.',
+  'dji-rc-plus-2-strap-and-bracket-kit':
+    'Buyers searching for dji parts will find it here. It also suits searches for dji controller.',
+  'dji-rc-plus-inspire-3':
+    'Buyers searching for dji controller will find it here. It also suits searches for dji rc controller and dji remote control.',
+  'dji-rc-plus-height-adjustable-control-sticks':
+    'Buyers searching for dji rc controls will find it here. It also suits searches for dji controller.',
+  'dji-al1-spotlight':
+    'It also suits searches for dji matrice and search and rescue drone.',
+  'dji-as1-speaker':
+    'It also suits searches for dji matrice and search and rescue drone.',
+  'd-rtk-3-multifunctional-station':
+    'It also suits searches for drone mapping near me and dji matrice.',
+  'd-rtk-3-survey-pole-and-tripod-kit':
+    'It also suits searches for drone mapping near me and dji enterprise drones.',
+  'dji-high-bright-remote-monitor':
+    'It also suits searches for videographer drone and drone filming.',
+  'dji-inspire-3-foldable-quick-release-propellers-pair':
+    'Buyers searching for drone propeller will find it here. It also suits searches for dji propellers and videographer drone.',
+  'zenmuse-h30t-infrared-density-filter':
+    'Buyers searching for thermal camera for drone will find it here. It also suits searches for thermal imaging camera for drone and dji thermal.',
+  'dji-matrice-4t-plus-combo':
+    'Request a quote to confirm the exact bundle contents. Buyers searching for thermal drones australia will find it here. It also suits searches for thermal imaging drone.',
+  'dji-matrice-4e-plus-combo':
+    'Request a quote to confirm the exact bundle contents. Buyers searching for dji enterprise drones will find it here. It also suits searches for drone mapping near me.',
+  'dji-matrice-4d-worry-free-flagship-combo':
+    'Request a quote for dock packages and training. Buyers searching for dji enterprise will find it here. It also suits searches for commercial drones for sale.',
+  'dji-matrice-4td-worry-free-flagship-combo':
+    'Request a quote for dock packages and training. It also suits searches for dji thermal drone and thermal drones australia.',
+  'dji-matrice-400-worry-free-plus-combo':
+    'Request a quote for payloads and accessories. Buyers searching for heavy lift drone will find it here. It also suits searches for dji enterprise drones.',
+  'matrice-30t-worry-free-basic-combo':
+    'Buyers searching for dji thermal drone will find it here. It also suits searches for dji matrice and thermal drones australia.',
+  'matrice-30-worry-free-basic-combo':
+    'Buyers searching for dji matrice will find it here. It also suits searches for dji enterprise and commercial drones for sale.',
+  'matrice-30t-worry-free-plus-combo':
+    'Buyers searching for dji thermal drone will find it here. It also suits searches for dji matrice and thermal drones australia.',
+  'matrice-30-worry-free-plus-combo':
+    'Buyers searching for dji matrice will find it here. It also suits searches for dji enterprise and commercial drones for sale.',
+  'dji-mavic-3e-worry-free-basic-combo':
+    'Buyers searching for dji enterprise will find it here. It also suits searches for dji enterprise drones and commercial drones for sale.',
+  'dji-mavic-3e-worry-free-plus-combo':
+    'Buyers searching for commercial drones for sale will find it here. It also suits searches for dji enterprise and dji enterprise drones.',
+  'dji-mavic-3t-worry-free-basic-combo':
+    'Buyers searching for dji mavic 3 thermal drone will find it here. It also suits searches for thermal drones australia.',
+  'dji-mavic-3t-worry-free-plus-combo':
+    'Buyers searching for thermal imaging drone will find it here. It also suits searches for thermal drone and dji thermal drone.',
+  'zenmuse-h30-worry-free-basic-combo':
+    'Buyers searching for uav camera for sale will find it here. It also suits searches for camera uav and dji enterprise.',
+  'zenmuse-l2-worry-free-basic-combo':
+    'Buyers searching for lidar drone will find it here. It also suits searches for drone with lidar.',
+  'zenmuse-h30-worry-free-plus-combo':
+    'Buyers searching for uav camera for sale will find it here. It also suits searches for camera uav and dji enterprise.',
+  'zenmuse-l2-worry-free-plus-combo':
+    'Buyers searching for lidar drone will find it here. It also suits searches for drone with lidar.',
+  'zenmuse-l3-worry-free-plus-combo':
+    'It also suits searches for dji zenmuse l3.',
+  'zenmuse-p1-and-dji-care-plus':
+    'Buyers searching for camera for drone price will find it here. It also suits searches for camera uav and uav camera for sale.',
+  'zenmuse-h20-and-dji-care-plus':
+    'Buyers searching for thermal camera for drone will find it here. It also suits searches for thermal imaging camera for drone and uav thermal camera.',
+  'zenmuse-s1':
+    'Buyers searching for search and rescue drone will find it here. It also suits searches for fire fighting uav and dji enterprise.',
+  'zenmuse-v1':
+    'Buyers searching for fire fighting uav will find it here. It also suits searches for search and rescue drone and dji enterprise.',
+  'manifold-3':
+    'It also suits searches for dji matrice and dji enterprise drones.',
   'dji-air-3s-dji-rc-n3':
     'Many pilots search for the DJI Air 3S price before comparing it with the Mini 5 Pro, and this listing is in AUD with local stock. It also suits searches for dji air 3s accessories.',
   'dji-air-3s-fly-more-combo-dji-rc-n3':

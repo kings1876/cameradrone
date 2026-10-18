@@ -364,7 +364,7 @@ Neo 2 drone-only photo replaced with the high-resolution supplied image.
 | DJI Avata 2 Two-Way Charging Hub | 79 | drone battery charger (50, KD 10) | dji drone charger; dji avata 2 drones; dji fpv drone |
 | DJI Flip Parallel Charging Hub | 69 | dji flip battery (140, KD 20) | drone battery charger; dji drone charger; dji flip vs neo |
 | DJI Neo Two-Way Charging Hub | 49 | drone dji neo (50, KD 17) | drone battery charger; dji neo bag; dji neo review |
-| DJI Mavic 3 Series 100W Battery Charging Hub | 140 | mavic drone battery (140, KD 9) | dji drone charger; drone battery charger; mavic battery |
+| DJI Mavic 3 Series 100W Battery Charging Hub | 119 | mavic drone battery (140, KD 9) | dji drone charger; drone battery charger; mavic battery |
 | DJI Air 3 Series Low-Noise Propellers | 39 | drone propeller (140, KD 9) | drone propellers; dji propellers; dji air 3s accessories |
 | DJI Air 3 Series Propeller Guard | 38 | drone propeller (140, KD 9) | dji air 3s accessories; dji propellers; drone props |
 | DJI Mini 3/Lito Series Propellers | 19 | dji mini 3 props (70, KD 21) | dji mini 3 propellers; dji propellers; drone props |
@@ -388,3 +388,111 @@ Neo 2 drone-only photo replaced with the high-resolution supplied image.
 | DJI Mini 4 Pro Wide-Angle Lens | 49 | dji mini 4 pro accessories (140, KD 20) | dji mini 4 pro filters; dji drone accessories; drone accessories australia |
 | DJI Mavic 3 Pro Wide-Angle Lens | 229 | dji mavic accessories (50, KD 13) | mavic 3; dji drone accessories; drone accessories australia |
 | DJI Mavic 3 Pro Storage Cover | 49 | dji mavic accessories (50, KD 13) | mavic 3; dji drone accessories; drone case |
+
+## DJI Australia range added Oct 2026 (official DJI Store AU prices and product images)
+
+| Product | AUD | Primary keyword | Supporting |
+|---|---:|---|---|
+| DJI Mavic 4 Pro (DJI RC 2) | 3,099 | dji mavic pro 4 (720, KD 21) | dji mavic pro; pro mavic drone; camera drones australia |
+| DJI Mavic 4 Pro Fly More Combo (DJI RC 2) | 4,039 | pro mavic drone (320, KD 13) | dji mavic pro 4; dji mavic pro; drone camera |
+| DJI Lito 1 | 539 | beginner drone with camera (110, KD 20) | drones for beginners; mini drone with camera; dji drone mini |
+| DJI Lito 1 Fly More Combo (DJI RC-N3) | 779 | drones for beginners (260, KD 21) | beginner drone with camera; mini drone with camera; fly more combo |
+| DJI Lito X1 | 619 | dji drone mini (210, KD 22) | mini drone with camera; beginner drone with camera; drones for beginners |
+| DJI Lito X1 Fly More Combo (DJI RC-N3) | 899 | mini drone with camera (170, KD 19) | dji drone mini; beginner drone with camera; fly more combo |
+| DJI Lito X1 Fly More Combo (DJI RC 2) | 1,069 | beginner drone with camera (110, KD 20) | mini drone with camera; dji drone mini; fly more combo |
+| DJI Lito X1 Fly More Combo Plus (DJI RC 2) | 1,199 | drones for beginners (260, KD 21) | beginner drone with camera; dji drone mini; fly more combo |
+| DJI Mini 5 Pro Fly More Combo Plus (DJI RC 2) | 1,799 | dji mini 5 pro plus (50, KD 19) | dji mini 5 pro; dji mini 5 pro price australia; dji mini 5 pro accessories |
+| DJI Neo 2 Motion Fly More Combo | 989 | dji neo 2 combo (110, KD 15) | dji neo 2 drones; dji neo 2 fly more; dji neo 2 review |
+| DJI Neo Fly More Combo | 459 | dji neo drone fly more combo (50, KD 17) | dji neo reviews; dji neo bag; drone dji neo |
+| DJI Neo Motion Fly More Combo | 709 | dji neo drone fly more combo (50, KD 17) | dji neo reviews; drone dji neo; dji neo bag |
+| DJI Avata 2 (Drone Only) | 649 | dji fpv drone (880, KD 17) | dji avata 2 drones; dji goggle 3; fpv goggles |
+| DJI Avata 2 Fly Smart Combo (Single Battery) | 1,049 | dji avata fly smart combo (50, KD 15) | dji fpv drone; dji avata 2 drones; dji goggle 3 |
+| DJI Avata 2 Fly Smart Combo (Three Batteries) | 1,279 | dji fpv drone (880, KD 17) | dji avata fly smart combo; dji avata 2 drones; dji fpv glasses |
+| DJI Avata Pro-View Combo (New) | 1,089 | dji fpv drone (880, KD 17) | dji goggle; dji fpv glasses; avata goggles |
+| DJI Avata (No RC) | 439 | dji fpv drone (880, KD 17) | dji goggle; avata goggles; fpv goggles |
+| DJI Mini 4K | 449 | dji mini 4k drone (2,400, KD 17) | dji mini 4k accessories; dji mini 4k case; dji mini 4k combo |
+| DJI Mini 3 (DJI RC-N1) | 509 | dji drone mini (210, KD 22) | dji mini 3 vs mini 3 pro; mini drone with camera; dji mini 3 case |
+| DJI Mini 3 (DJI RC) | 659 | mini drone with camera (170, KD 19) | dji drone mini; dji mini 3 vs mini 3 pro; dji mini 3 case |
+| DJI Mini 3 Fly More Combo (DJI RC) | 839 | dji drone mini (210, KD 22) | mini drone with camera; dji mini 3 case; fly more combo |
+| DJI Mavic 3 Pro Cine Premium Combo (DJI RC Pro) | 6,239 | mavic 3 pro cine (70, KD 15) | mavic 3; dji mavic accessories; camera drones australia |
+| DJI Lito 1 Intelligent Flight Battery | 79 | dji drone battery (140, KD 22) | drone battery; drone batteries; dji drone accessories |
+| DJI Lito 1 Charging Hub | 69 | drone battery charger (50, KD 10) | dji drone charger; drone batteries; dji parts |
+| DJI Lito X1 Intelligent Flight Battery | 99 | dji drone battery (140, KD 22) | drone battery; drone batteries; dji drone accessories |
+| DJI Lito Series Intelligent Flight Battery Plus | 159 | dji drone battery (140, KD 22) | drone battery; drone batteries; dji drone accessories |
+| DJI Lito X1 Charging Hub | 69 | drone battery charger (50, KD 10) | dji drone charger; drone batteries; dji parts |
+| DJI Avata 360 Intelligent Flight Battery | 119 | dji drone battery (140, KD 22) | drone battery; drone batteries; dji drone accessories |
+| DJI Avata 360 Propellers | 19 | drone propeller (140, KD 9) | drone propellers; dji propellers; drone props |
+| DJI Avata 360 Charging Hub | 79 | drone battery charger (50, KD 10) | dji drone charger; drone batteries; dji parts |
+| DJI Avata 360 Replacement Lens Kit With Tools | 59 | dji parts (50, KD 7) | drone parts; dji drone accessories; dji avata 360 drone |
+| DJI Avata 360 Replacement Lens | 49 | drone parts (170, KD 17) | dji parts; dji drone accessories; dji avata 360 |
+| DJI Neo 2 Intelligent Flight Battery | 129 | dji neo 2 au (70, KD 19) | dji drone battery; drone battery; dji neo 2 drones |
+| DJI Neo 2 Two-Way Charging Hub | 79 | dji neo 2 controller (110, KD 21) | dji drone charger; drone battery charger; dji neo 2 drones |
+| DJI Neo 2 Propellers | 24 | dji neo 2 drones (210, KD 17) | drone propeller; drone props; dji propellers |
+| DJI Neo 2 Digital Transceiver | 59 | dji neo 2 controller (110, KD 21) | dji neo 2 drones; dji remote control; dji controller |
+| DJI Mini 5 Pro Intelligent Flight Battery | 99 | dji mini 5 pro accessories (110, KD 19) | dji mini 5 pro; dji drone battery; drone battery |
+| DJI Mini 5 Pro Intelligent Flight Battery Plus | 149 | dji mini 5 pro plus (50, KD 19) | dji mini 5 pro; dji mini 5 pro accessories; drone batteries |
+| DJI Mini 5 Pro Two-Way Charging Hub | 69 | dji mini 5 pro accessories (110, KD 19) | dji mini 5 pro; dji drone charger; drone battery charger |
+| DJI Mini 5 Pro Propeller | 19 | dji mini 5 pro accessories (110, KD 19) | dji mini 5 pro; drone propeller; dji propellers |
+| DJI Mavic 4 Pro Intelligent Flight Battery | 279 | dji mavic pro 4 (720, KD 21) | dji drone battery; mavic drone battery; dji mavic pro |
+| DJI Mavic 4 Pro Propellers | 29 | drone propellers (110, KD 11) | drone propeller; dji propellers; dji mavic pro 4 |
+| DJI Mavic 4 Pro Parallel Charging Hub | 159 | dji drone charger (90, KD 21) | drone battery charger; dji mavic pro 4; mavic battery |
+| DJI Goggles 3 | 869 | dji goggle 3 (90, KD 20) | dji goggle; fpv goggles; dji fpv glasses |
+| DJI Goggles Carry More Backpack | 169 | drone bag (140, KD 20) | drone backpack; drone case; dji case |
+| DJI Sling Bag | 129 | drone bag (140, KD 20) | drone case; drone backpack; dji case |
+| DJI 65W Portable Charger | 49 | dji drone charger (90, KD 21) | drone battery charger; drone batteries; dji parts |
+| DJI Mavic 3 Series Low-Noise Propellers | 29 | drone propeller (140, KD 9) | dji propellers; drone props; mavic 3 |
+| DJI Mavic 3 Storage Cover | 49 | drone case (90, KD 12) | dji case; dji mavic accessories; mavic 3 |
+| DJI Mavic 3 Classic Storage Cover | 49 | drone case (90, KD 12) | dji case; dji mavic accessories; mavic 3 |
+| DJI Mavic 3 Classic Wide-Angle Lens | 169 | dji mavic accessories (50, KD 13) | mavic 3; dji drone accessories; drone accessories australia |
+| DJI RC Motion 2 | 279 | dji controller (590, KD 24) | dji remote control; dji rc controller; dji goggle |
+| DJI Motion Controller | 229 | dji remote control (70, KD 20) | dji controller; dji rc controller; dji goggle |
+| DJI RC/RC 2 Control Sticks | 19 | dji rc controls (50, KD 14) | dji rc remote; dji controller; dji parts |
+| DJI RC Pro 2 | 1,529 | dji controller (590, KD 24) | dji rc controller; dji remote control; dji rc remote |
+| DJI FPV Propellers | 19 | drone props (110, KD 8) | drone propeller; dji propellers; dji fpv drone |
+| DJI FPV Goggles Battery | 49 | dji goggle (50, KD 16) | fpv goggles; dji fpv glasses; fpv batteries |
+| DJI FPV Goggles Antenna (Dual Band) | 29 | dji goggle (50, KD 16) | fpv goggles; dji fpv glasses; dji parts |
+| DJI Matrice 400 2510F Propeller | 63 | dji parts (50, KD 7) | dji matrice; dji enterprise; drone propeller |
+| BS100 Intelligent Battery Station | 2,100 | dji enterprise (260, KD 17) | dji matrice; dji enterprise drones; dji parts |
+| DJI Matrice 400 Third Gimbal Connector | 230 | dji enterprise (260, KD 17) | dji matrice; dji enterprise drones; dji parts |
+| DJI Matrice 400 Dual Gimbal Connector | 390 | dji enterprise (260, KD 17) | dji matrice; dji enterprise drones; dji parts |
+| DJI Matrice 400 Gimbal Damper | 20 | dji parts (50, KD 7) | dji matrice; dji enterprise; dji parts |
+| DJI Matrice 4D Series Low-Noise Anti-Ice Propellers | 50 | drone propeller (140, KD 9) | dji propellers; dji matrice; dji enterprise |
+| DJI Matrice 4D Series 240W Charging Hub | 140 | drone battery charger (50, KD 10) | dji drone charger; dji matrice; dji enterprise |
+| DJI Matrice 4 Obstacle Sensing Module | 2,380 | dji enterprise (260, KD 17) | dji matrice; dji enterprise drones; dji parts |
+| DJI Matrice 4 Series Charging Hub (200W) | 140 | drone battery charger (50, KD 10) | dji drone charger; dji matrice; dji enterprise |
+| DJI Matrice 4 Series Carrying Case Strap | 80 | dji enterprise (260, KD 17) | dji matrice; dji enterprise drones; dji parts |
+| DJI Matrice 4D Series Battery | 450 | dji drone battery (140, KD 22) | drone battery; dji matrice; dji enterprise |
+| DJI RC Plus 2 Enterprise Enhanced | 2,170 | dji controller (590, KD 24) | dji enterprise; dji rc controller; dji matrice |
+| DJI RC Plus 2 Strap and Bracket Kit | 105 | dji parts (50, KD 7) | dji enterprise; dji controller; dji matrice |
+| DJI RC Plus (Inspire 3) | 2,170 | dji controller (590, KD 24) | dji rc controller; dji remote control; videographer drone |
+| DJI RC Plus Height-Adjustable Control Sticks | 29 | dji rc controls (50, KD 14) | dji controller; dji enterprise; dji parts |
+| DJI AL1 Spotlight | 460 | dji enterprise (260, KD 17) | dji matrice; search and rescue drone; fire fighting uav |
+| DJI AS1 Speaker | 340 | dji enterprise (260, KD 17) | dji matrice; search and rescue drone; fire fighting uav |
+| D-RTK 3 Multifunctional Station | 2,320 | dji enterprise (260, KD 17) | drone mapping near me; dji matrice; dji enterprise drones |
+| D-RTK 3 Survey Pole and Tripod Kit | 460 | dji enterprise (260, KD 17) | drone mapping near me; dji enterprise drones; dji parts |
+| DJI High-Bright Remote Monitor | 2,119 | dji enterprise (260, KD 17) | videographer drone; drone filming; dji parts |
+| DJI Inspire 3 Foldable Quick-Release Propellers (Pair) | 99 | drone propeller (140, KD 9) | dji propellers; videographer drone; drone props |
+| Zenmuse H30T Infrared Density Filter | 230 | thermal camera for drone (50, KD 10) | thermal imaging camera for drone; dji thermal; dji parts |
+| DJI Matrice 4T Plus Combo | 11,248 | thermal drones australia (70, KD 6) | thermal imaging drone; dji thermal drone; dji matrice |
+| DJI Matrice 4E Plus Combo | 8,360 | dji enterprise drones (70, KD 15) | dji matrice; drone mapping near me; commercial drones for sale |
+| DJI Matrice 4D Worry-Free Flagship Combo | 12,040 | dji enterprise (260, KD 17) | dji matrice; commercial drones for sale; industrial drones for sale |
+| DJI Matrice 4TD Worry-Free Flagship Combo | 15,470 | thermal drone (880, KD 11) | dji thermal drone; thermal drones australia; dji enterprise |
+| DJI Matrice 400 Worry-Free Plus Combo | 18,550 | heavy lift drone (140, KD 15) | dji matrice; dji enterprise drones; industrial drones for sale |
+| Matrice 30T Worry-Free Basic Combo | 14,917 | dji thermal drone (320, KD 10) | dji matrice; thermal drones australia; dji enterprise drones |
+| Matrice 30 Worry-Free Basic Combo | 10,989 | dji matrice (390, KD 15) | dji enterprise; commercial drones for sale; industrial drones for sale |
+| Matrice 30T Worry-Free Plus Combo | 15,473 | dji thermal drone (320, KD 10) | dji matrice; thermal drones australia; dji enterprise drones |
+| Matrice 30 Worry-Free Plus Combo | 11,363 | dji matrice (390, KD 15) | dji enterprise; commercial drones for sale; industrial drones for sale |
+| DJI Mavic 3E Worry-Free Basic Combo | 6,049 | dji enterprise (260, KD 17) | dji enterprise drones; commercial drones for sale; drone mapping near me |
+| DJI Mavic 3E Worry-Free Plus Combo | 8,279 | commercial drones for sale (50, KD 19) | dji enterprise; dji enterprise drones; commercial drones australia |
+| DJI Mavic 3T Worry-Free Basic Combo | 8,249 | dji mavic 3 thermal drone (70, KD 12) | thermal drone; thermal drones australia; dji thermal drone |
+| DJI Mavic 3T Worry-Free Plus Combo | 10,679 | thermal imaging drone (140, KD 8) | thermal drone; dji thermal drone; thermal camera drone |
+| Zenmuse H30 Worry-Free Basic Combo | 8,495 | uav camera for sale (170, KD 22) | camera uav; dji enterprise; camera for drone price |
+| Zenmuse L2 Worry-Free Basic Combo | 23,880 | lidar drone (320, KD 14) | drone lidar; drone with lidar; lidar 3d scanner |
+| Zenmuse H30 Worry-Free Plus Combo | 9,215 | uav camera for sale (170, KD 22) | camera uav; dji enterprise; camera for drone price |
+| Zenmuse L2 Worry-Free Plus Combo | 25,870 | lidar drone (320, KD 14) | drone lidar; drone with lidar; lidar 3d scanner |
+| Zenmuse L3 Worry-Free Plus Combo | 27,410 | zenmuse l3 (50, KD 15) | dji zenmuse l3; drone lidar; lidar drone |
+| Zenmuse P1 and DJI Care Plus | 13,765 | camera for drone price (140, KD 22) | camera uav; uav camera for sale; drone mapping near me |
+| Zenmuse H20 and DJI Care Plus | 7,246 | thermal camera for drone (50, KD 10) | thermal imaging camera for drone; uav thermal camera; dji thermal |
+| Zenmuse S1 | 2,099 | search and rescue drone (90, KD 17) | fire fighting uav; dji enterprise; dji matrice |
+| Zenmuse V1 | 1,499 | fire fighting uav (90, KD 18) | search and rescue drone; dji enterprise; dji matrice |
+| Manifold 3 | 2,190 | dji enterprise (260, KD 17) | dji matrice; dji enterprise drones; dji parts |
