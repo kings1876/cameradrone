@@ -153,24 +153,24 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
-            <div>
+          <div className="flex flex-col items-center gap-4 text-center">
+            <div className="w-full">
               <h1 className="text-3xl sm:text-4xl font-black text-white font-display tracking-tight">
                 {shopHeading}
               </h1>
-              <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-2xl leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-3xl leading-relaxed">
                 {intro
                   ? `${intro.lead} ${intro.why}`
                   : 'Browse DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, cameras and sensors, and batteries and accessories, all priced in AUD with free shipping Australia-wide.'}
               </p>
               {(routeCategory ? seoParagraphs(routeCategory.id, routeSub) : [PAGE_COPY.shop]).map(t => (
-                <p key={t} className="text-xs sm:text-sm text-slate-400 mt-2 max-w-2xl leading-relaxed">
+                <p key={t} className="text-xs sm:text-sm text-slate-400 mt-2 max-w-3xl leading-relaxed">
                   {t}
                 </p>
               ))}
             </div>
 
-            <div className="text-right shrink-0">
+            <div className="text-center shrink-0">
               <span className="text-xs text-slate-400">
                 Active Catalog Inventory: <strong className="text-white font-mono">{filteredProducts.length}</strong> systems
               </span>
