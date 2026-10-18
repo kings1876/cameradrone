@@ -8,7 +8,7 @@ import { metaFor, abs } from '../src/components/RouteSeo';
 import { categoryPath, slugify } from '../src/routes';
 import { categoryIntro } from '../src/data/categoryCopy';
 import { PAGE_COPY, PAGE_EXTRA, seoParagraphs, blogParagraph, productNotes } from '../src/data/pageCopy';
-import { POLICIES, POLICY_INTRO, POLICY_HELP } from '../src/data/policies';
+import { POLICIES, POLICY_INTRO, POLICY_HELP, POLICY_MORE } from '../src/data/policies';
 import { relatedFor } from '../src/components/RelatedProducts';
 import { BUSINESS } from '../src/business';
 import { webpSrcSet, IMAGE_SIZES } from '../src/components/ProductImage';
@@ -59,7 +59,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
   if (pathname === '/') {
     const featured = PRODUCTS.filter(p => p.isFeatured).slice(0, 12);
     return main(
-      `<h1>Premier Camera Drones For Sale in Australia</h1><p>${esc(description)}</p><p>${esc(PAGE_COPY.home)}</p>` +
+      `<h1>Premier Camera Drones For Sale in Australia</h1><p>${esc(description)}</p><p>${esc(PAGE_COPY.home)}</p><p>${esc(PAGE_EXTRA.home)}</p>` +
         `<h2>Shop drones by category</h2><ul>${CATEGORIES.map(c => `<li>${link(categoryPath(c.id), c.name)}</li>`).join('')}</ul>` +
         `<h2>Featured drones and equipment</h2>${productList(featured)}` +
         `<h2>Buying guides</h2><ul>${BLOG_POSTS.map(b => `<li>${link(`/blog/${b.slug}`, b.title)}</li>`).join('')}</ul>`
@@ -104,7 +104,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
 
   if (pathname === '/blog') {
     return main(
-      `<h1>${esc(h1)}</h1><p>${esc(description)}</p><p>${esc(PAGE_COPY.blog)}</p><ul>${BLOG_POSTS.map(b => `<li>${link(`/blog/${b.slug}`, b.title)} – ${esc(b.excerpt)}</li>`).join('')}</ul>`
+      `<h1>${esc(h1)}</h1><p>${esc(description)}</p><p>${esc(PAGE_COPY.blog)}</p><p>${esc(PAGE_EXTRA.blog)}</p><ul>${BLOG_POSTS.map(b => `<li>${link(`/blog/${b.slug}`, b.title)} – ${esc(b.excerpt)}</li>`).join('')}</ul>`
     );
   }
 
@@ -129,7 +129,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
   const key = pathname.slice(1) as keyof typeof POLICIES;
   if (POLICIES[key]) {
     const pol = POLICIES[key];
-    return main(`<h1>${esc(pol.h1)}</h1><p>${esc(POLICY_INTRO[key])}</p>${pol.paras.map(([t, x]) => `<p><strong>${esc(t)}</strong> ${esc(x)}</p>`).join('')}<p>${esc(POLICY_HELP)}</p>`);
+    return main(`<h1>${esc(pol.h1)}</h1><p>${esc(POLICY_INTRO[key])}</p>${pol.paras.map(([t, x]) => `<p><strong>${esc(t)}</strong> ${esc(x)}</p>`).join('')}<p>${esc(POLICY_MORE)}</p><p>${esc(POLICY_HELP)}</p>`);
   }
   const extras = pathname === '/about' ? [PAGE_COPY.about, PAGE_EXTRA.about] : pathname === '/contact' ? [PAGE_COPY.contact, PAGE_EXTRA.contact] : pathname === '/quote' ? [PAGE_EXTRA.quote] : [];
   return main(`<h1>${esc(h1)}</h1><p>${esc(description)}</p>${extras.map(t => `<p>${esc(t)}</p>`).join('')}`);

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ArrowLeft, Truck, RotateCcw, ShieldCheck, FileText } from 'lucide-react';
-import { POLICIES, POLICY_INTRO, POLICY_HELP } from '../data/policies';
+import { POLICIES, POLICY_INTRO, POLICY_HELP, POLICY_MORE } from '../data/policies';
 
 const ICONS = { shipping: Truck, refund: RotateCcw, privacy: ShieldCheck, terms: FileText };
 
@@ -45,6 +45,7 @@ export const PolicyPage: React.FC = () => {
                     <strong>{title}</strong> {text}
                   </p>
                 ))}
+                <p>{POLICY_MORE}</p>
                 <p>{POLICY_HELP}</p>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { PAGE_COPY } from '../data/pageCopy';
+import { PAGE_COPY, PAGE_EXTRA } from '../data/pageCopy';
 import { Link } from 'react-router-dom';
 import { Calendar, Clock, ArrowRight, BookOpen } from 'lucide-react';
 import { BLOG_POSTS } from '../data/content';
@@ -25,6 +25,7 @@ export const BlogListPage: React.FC = () => {
             Equipment buying guides and CASA airspace regulations for Australian drone pilots, surveyors and farmers.
           </p>
           <p className="text-sm text-slate-400 leading-relaxed">{PAGE_COPY.blog}</p>
+          <p className="text-sm text-slate-400 leading-relaxed">{PAGE_EXTRA.blog}</p>
         </div>
 
         {/* Blog Post Cards Grid with Direct URL Routing */}

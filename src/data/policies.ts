@@ -119,5 +119,8 @@ export const POLICY_INTRO: Record<keyof typeof POLICIES, string> = {
     'These terms apply to every order, quote request and visit to this website. They cover your responsibilities under Australian drone rules, commercial operator requirements, pricing and availability, product information, quoted products and the law that governs your purchase.'
 };
 
+export const POLICY_MORE =
+  'You can also read our Shipping Policy, Refund Policy, Privacy Notice and Terms of Service, which together explain delivery, returns, how your information is handled and the rules that apply to every order. Questions about an order can be sent through the Contact page with your order number, and we reply by email, usually within one business day.';
+
 export const POLICY_HELP =
   'Need help? Read the FAQ for answers on CASA rules, shipping, warranty and crypto payments, use the Contact page to reach a specialist, or browse the full catalogue of camera, enterprise and spraying drones, batteries and accessories. Drones for Sale is operated under ABN 91 658 710 173.';

@@ -18,7 +18,7 @@ import { BLOG_POSTS } from '../data/content';
 import { ProductCard } from '../components/ProductCard';
 import { Hero } from '../components/Hero';
 import { Product } from '../types';
-import { PAGE_COPY } from '../data/pageCopy';
+import { PAGE_COPY, PAGE_EXTRA } from '../data/pageCopy';
 
 interface HomePageProps {
   onAddToCart: (product: Product) => void;
@@ -265,6 +265,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
         <p className="text-sm text-slate-400 leading-relaxed max-w-4xl">{PAGE_COPY.home}</p>
+        <p className="text-sm text-slate-400 leading-relaxed max-w-4xl mt-3">{PAGE_EXTRA.home}</p>
       </section>
 
       {/* 6. Editorial Flight Intel Teaser */}
