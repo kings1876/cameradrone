@@ -33,10 +33,13 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, openCart }) => {
           className="shrink-0 rounded-lg overflow-hidden hover:opacity-90 transition-opacity"
         >
           <img
-            src="/logo.png"
+            src="/logo-360.webp"
+            srcSet="/logo-360.webp 360w, /logo-720.webp 720w"
+            sizes="157px"
             alt="Drones for Sale"
             width={800}
             height={286}
+            fetchPriority="high"
             className="h-14 w-auto"
           />
         </Link>

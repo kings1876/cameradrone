@@ -3,6 +3,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShieldAlert, Zap, Truck, MapPin } from 'lucide-react';
 
+const POPULAR: [string, string][] = [
+  ['/category/camera-drones', 'DJI camera drones'],
+  ['/category/camera-drones/dji-mini-and-air', 'DJI Mini and Air drones'],
+  ['/category/camera-drones/dji-neo-and-fpv', 'Neo and FPV drones'],
+  ['/category/enterprise-drones', 'Enterprise and thermal drones'],
+  ['/category/enterprise-drones/dji-matrice', 'DJI Matrice drones'],
+  ['/category/cameras-sensors', 'Drone cameras and sensors'],
+  ['/category/spraying-drones', 'Agricultural spraying drones'],
+  ['/category/batteries', 'Drone batteries and accessories'],
+  ['/product/dji-mavic-4-pro-dji-rc-2', 'DJI Mavic 4 Pro'],
+  ['/product/dji-mini-5-pro-dji-rc-n3', 'DJI Mini 5 Pro'],
+  ['/product/dji-agras-t100', 'DJI Agras T100'],
+  ['/product/dji-matrice-4-thermal', 'DJI Matrice 4 Thermal']
+];
+
 export const Footer: React.FC = () => {
   return (
     <footer className="bg-[#070b12] text-slate-400 border-t border-slate-800 text-xs">
@@ -24,7 +39,7 @@ export const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-3">
             <Link to="/" aria-label="Drones for Sale — home" className="inline-block rounded-lg overflow-hidden">
-              <img src="/logo.png" alt="Drones for Sale" width={800} height={286} loading="lazy" className="h-16 w-auto" />
+              <img src="/logo-360.webp" srcSet="/logo-360.webp 360w, /logo-720.webp 720w" sizes="180px" alt="Drones for Sale" width={800} height={286} loading="lazy" className="h-16 w-auto" />
             </Link>
             <p className="text-xs text-slate-400 leading-relaxed font-normal">
               Australian supplier of DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, and accessories. Founded on <strong>17 May 2018 in Australia</strong>.
@@ -141,39 +156,17 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* SEO Category & Keyword Directory */}
-        <div className="pt-8 border-t border-slate-800/80">
-          <div className="mb-3">
-            <span className="text-[11px] font-bold text-slate-300 uppercase tracking-wider">
-              Popular Drones & Categories
-            </span>
-          </div>
-          <div className="flex flex-wrap gap-x-4 gap-y-2 text-[11px] text-slate-400">
-            <Link to="/shop" className="hover:text-slate-300">drone for sale</Link>
-            <span>·</span>
-            <Link to="/shop" className="hover:text-slate-300">drone sales</Link>
-            <span>·</span>
-            <Link to="/product/dji-mavic-3-pro" className="hover:text-slate-300">dji mavic 3 pro</Link>
-            <span>·</span>
-            <Link to="/product/dji-mini-4-pro" className="hover:text-slate-300">dji mini 4 pro</Link>
-            <span>·</span>
-            <Link to="/product/dji-air-3" className="hover:text-slate-300">dji air 3</Link>
-            <span>·</span>
-            <Link to="/product/dji-inspire-3" className="hover:text-slate-300">dji inspire 3</Link>
-            <span>·</span>
-            <Link to="/product/dji-matrice-30" className="hover:text-slate-300">dji matrice 30</Link>
-            <span>·</span>
-            <Link to="/product/dji-matrice-4-enterprise" className="hover:text-slate-300">dji matrice 4</Link>
-            <span>·</span>
-            <Link to="/product/xag-p30-spraying-drone" className="hover:text-slate-300">spraying drone</Link>
-            <span>·</span>
-            <Link to="/shop" className="hover:text-slate-300">thermal drones</Link>
-            <span>·</span>
-            <Link to="/shop" className="hover:text-slate-300">drone cameras &amp; sensors</Link>
-            <span>·</span>
-            <Link to="/shop" className="hover:text-slate-300">drone batteries</Link>
-          </div>
-        </div>
+        {/* Popular categories and products: distinct, descriptive internal links */}
+        <nav aria-label="Popular categories and products" className="pt-8 border-t border-slate-800/80">
+          <h2 className="text-[11px] font-bold text-slate-300 uppercase tracking-wider mb-2">Popular drones and categories</h2>
+          <ul className="flex flex-wrap gap-x-5 text-[11px] text-slate-400">
+            {POPULAR.map(([to, label]) => (
+              <li key={to}>
+                <Link to={to} className="inline-block py-2 hover:text-slate-200 transition-colors">{label}</Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
 
         {/* Bottom Line */}
         <div className="pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-400">
