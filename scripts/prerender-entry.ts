@@ -87,7 +87,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
     return main(
       crumbList([['/', 'Home'], ['/shop', 'Shop'], [categoryPath(p.category), p.categoryName], [categoryPath(p.category, p.subcategory), p.subcategory], ['', p.name]]) +
         `<article><h1>${esc(p.name)}</h1><p>${esc(p.brand)} · ${esc(p.categoryName)} · ${esc(p.subcategory)}</p>` +
-        (img ? `<img src="${esc(img)}" alt="${esc(p.name)}" width="600" height="600">` : '') +
+        (img ? `<img src="${esc(img)}" alt="${esc(p.name)}" width="600" height="600" loading="lazy" decoding="async">` : '') +
         `<p><strong>${money(p.price)} AUD</strong> · ${p.inStock ? 'In stock in Australia' : 'Out of stock'} · Free shipping Australia-wide</p>` +
         p.description.split('\n\n').map(t => `<p>${esc(t)}</p>`).join('') +
         (p.highlights?.length ? `<h2>Key features</h2><ul>${p.highlights.map(h => `<li>${esc(h)}</li>`).join('')}</ul>` : '') +
@@ -111,7 +111,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
     return main(
       crumbList([['/', 'Home'], ['/blog', 'Blog'], ['', post.title]]) +
         `<article><h1>${esc(post.title)}</h1><p>${esc(post.subtitle)}</p>` +
-        (post.image ? `<img src="${esc(post.image)}" alt="${esc(post.imageAlt || post.title)}" width="1200" height="675">` : '') +
+        (post.image ? `<img src="${esc(post.image)}" alt="${esc(post.imageAlt || post.title)}" width="1200" height="675" loading="lazy" decoding="async">` : '') +
         post.content.map(t => `<p>${esc(t)}</p>`).join('') +
         `<h2>Shop related products</h2><ul>${CATEGORIES.map(c => `<li>${link(categoryPath(c.id), c.name)}</li>`).join('')}</ul></article>`
     );
