@@ -54,3 +54,8 @@
     bottom: 4.75rem;
   }
 }
+
+/* Paragraphs use the full width of their container instead of a narrow reading column */
+p[class*="max-w-"] {
+  max-width: none !important;
+}
