@@ -23,7 +23,12 @@ export const REPLY = {
       discountPct: 10,
       wallet: { address: 'bc1qkh6y6wqm8clgrdg3act8vt8j4d20hnn5up9lzh', network: 'Bitcoin mainnet (native SegWit, bc1q…)' }
     },
-    { id: 'crypto-eth', label: 'Crypto — Ethereum (ETH)', discountPct: 10 },
+    {
+      id: 'crypto-eth',
+      label: 'Crypto — Ethereum (ETH)',
+      discountPct: 10,
+      wallet: { address: '0x71e590e953d8DBf7a2d8a4Fa58Ea55c3c57A6f8C', network: 'Ethereum mainnet (ERC-20)' }
+    },
     { id: 'crypto-sol', label: 'Crypto — Solana (SOL)', discountPct: 10 }
   ]
 };
