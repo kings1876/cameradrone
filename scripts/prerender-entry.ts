@@ -9,6 +9,7 @@ import { categoryPath, slugify } from '../src/routes';
 import { categoryIntro } from '../src/data/categoryCopy';
 import { relatedFor } from '../src/components/RelatedProducts';
 import { BUSINESS } from '../src/business';
+import { webpSrcSet, IMAGE_SIZES } from '../src/components/ProductImage';
 
 const esc = (s: string) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -143,6 +144,14 @@ export interface Page {
   html: string;
 }
 
+function preloadFor(path: string): string {
+  if (!path.startsWith('/product/')) return '';
+  const p = PRODUCTS.find(x => '/product/' + x.slug === path);
+  const img = p?.images?.[0];
+  const set = img ? webpSrcSet(img) : null;
+  return set ? `<link rel="preload" as="image" type="image/webp" imagesrcset="${esc(set)}" imagesizes="${esc(IMAGE_SIZES)}" fetchpriority="high" />` : '';
+}
+
 function inject(template: string, path: string): string {
   const m = metaFor(path, '');
   const canonical = abs(m.canonical ?? path);
@@ -159,6 +168,7 @@ function inject(template: string, path: string): string {
     .replace(/(<meta property="og:type" content=")[^"]*(")/, (_m, a, z) => a + (m.type === 'article' ? 'article' : 'website') + z);
   const extra =
     `<link rel="canonical" href="${esc(canonical)}" />` +
+    preloadFor(path) +
     `<meta property="og:url" content="${esc(canonical)}" />` +
     `<meta property="og:image" content="${esc(image)}" />` +
     `<meta name="twitter:title" content="${t}" />` +

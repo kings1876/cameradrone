@@ -154,7 +154,7 @@ export const OrderPage: React.FC<OrderPageProps> = ({ cartItems, onOrderSuccess 
                   {items.map(item => (
                     <div key={item.product.id} className="py-2 flex justify-between items-center text-slate-300">
                       <span className="truncate max-w-[280px] sm:max-w-md font-medium text-white">
-                        {item.product.name} <span className="text-slate-500 font-mono">x{item.quantity}</span>
+                        {item.product.name} <span className="text-slate-400 font-mono">x{item.quantity}</span>
                       </span>
                       <span className="font-mono text-white tabular-nums shrink-0 font-bold">
                         ${(item.product.price * item.quantity).toLocaleString()} AUD

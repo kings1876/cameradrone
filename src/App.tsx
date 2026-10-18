@@ -1,14 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { Product, CartItem } from './types';
 import { Navbar } from './components/Navbar';
 import { RouteSeo } from './components/RouteSeo';
-import { AdminShell } from './pages/admin/AdminShell';
-import { AdminDashboard } from './pages/admin/AdminDashboard';
-import { AdminOrders, AdminOrderDetail } from './pages/admin/AdminOrders';
-import { AdminEnquiries, AdminEnquiryDetail } from './pages/admin/AdminEnquiries';
-import { SendPayment, ReplyEnquiry } from './pages/admin/AdminComposers';
-import { PaymentDetailsPage, ConfirmPaymentPage } from './pages/PaymentPages';
+const AdminShell = lazy(() => import('./pages/admin/AdminShell').then(m => ({ default: m.AdminShell })));
+const AdminDashboard = lazy(() => import('./pages/admin/AdminDashboard').then(m => ({ default: m.AdminDashboard })));
+const AdminOrders = lazy(() => import('./pages/admin/AdminOrders').then(m => ({ default: m.AdminOrders })));
+const AdminOrderDetail = lazy(() => import('./pages/admin/AdminOrders').then(m => ({ default: m.AdminOrderDetail })));
+const AdminEnquiries = lazy(() => import('./pages/admin/AdminEnquiries').then(m => ({ default: m.AdminEnquiries })));
+const AdminEnquiryDetail = lazy(() => import('./pages/admin/AdminEnquiries').then(m => ({ default: m.AdminEnquiryDetail })));
+const SendPayment = lazy(() => import('./pages/admin/AdminComposers').then(m => ({ default: m.SendPayment })));
+const ReplyEnquiry = lazy(() => import('./pages/admin/AdminComposers').then(m => ({ default: m.ReplyEnquiry })));
+const PaymentDetailsPage = lazy(() => import('./pages/PaymentPages').then(m => ({ default: m.PaymentDetailsPage })));
+const ConfirmPaymentPage = lazy(() => import('./pages/PaymentPages').then(m => ({ default: m.ConfirmPaymentPage })));
 import { CartDrawer } from './components/CartDrawer';
 import { Footer } from './components/Footer';
 import { LiveChatWidget } from './components/LiveChatWidget';
@@ -118,6 +122,7 @@ export default function App() {
 
       {/* Routed Content Pages with Individual URLs */}
       <main className="flex-1">
+        <Suspense fallback={null}>
         <Routes>
           {/* Home Page: Distinct from Shop Catalog */}
           <Route
@@ -195,6 +200,7 @@ export default function App() {
           {/* Catch-all: real 404 page (noindex via RouteSeo) */}
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
+        </Suspense>
       </main>
 
       {/* Slide-out Cart Drawer */}

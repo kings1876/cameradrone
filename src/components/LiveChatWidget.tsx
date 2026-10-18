@@ -99,9 +99,9 @@ export const LiveChatWidget: React.FC = () => {
                 <span className="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-emerald-500 border-2 border-[#0f172a]" />
               </div>
               <div>
-                <h4 className="text-xs font-bold text-white flex items-center gap-1">
+                <h2 className="text-xs font-bold text-white flex items-center gap-1">
                   <span>Flight Operations Desk</span>
-                </h4>
+                </h2>
                 <p className="text-[10px] text-emerald-400">Sydney / Melbourne · Online</p>
               </div>
             </div>

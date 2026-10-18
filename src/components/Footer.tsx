@@ -47,9 +47,9 @@ export const Footer: React.FC = () => {
 
           {/* Navigation Links with Individual URLs */}
           <div>
-            <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-3">
+            <h2 className="text-xs font-bold text-white uppercase tracking-wider mb-3">
               Store Navigation
-            </h4>
+            </h2>
             <ul className="space-y-2 text-xs">
               <li>
                 <Link to="/shop" className="hover:text-amber-400 transition-colors">
@@ -91,9 +91,9 @@ export const Footer: React.FC = () => {
 
           {/* Customer Policy Pages with Individual URLs */}
           <div>
-            <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-3">
+            <h2 className="text-xs font-bold text-white uppercase tracking-wider mb-3">
               Customer Policies
-            </h4>
+            </h2>
             <ul className="space-y-2 text-xs">
               <li>
                 <Link to="/shipping" className="hover:text-amber-400 transition-colors">
@@ -120,9 +120,9 @@ export const Footer: React.FC = () => {
 
           {/* Payment & Security */}
           <div>
-            <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-3">
+            <h2 className="text-xs font-bold text-white uppercase tracking-wider mb-3">
               Direct Crypto Settlement
-            </h4>
+            </h2>
             <p className="text-[11px] text-slate-400 mb-2 leading-relaxed">
               Save 10% on every order when paying with cryptocurrency. Zero credit card processing fees.
             </p>
@@ -148,7 +148,7 @@ export const Footer: React.FC = () => {
               Popular Drones & Categories
             </span>
           </div>
-          <div className="flex flex-wrap gap-x-4 gap-y-2 text-[11px] text-slate-500">
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-[11px] text-slate-400">
             <Link to="/shop" className="hover:text-slate-300">drone for sale</Link>
             <span>·</span>
             <Link to="/shop" className="hover:text-slate-300">drone sales</Link>

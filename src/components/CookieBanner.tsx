@@ -20,7 +20,7 @@ export const CookieBanner: React.FC = () => {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-4 left-4 z-40 max-w-sm bg-[#0f172a] border border-slate-800 rounded-xl p-4 shadow-2xl text-xs text-slate-300">
+    <div role="region" aria-label="Cookie notice" className="fixed bottom-4 left-4 z-40 max-w-sm bg-[#0f172a] border border-slate-800 rounded-xl p-4 shadow-2xl text-xs text-slate-300">
       <div className="flex items-start gap-3">
         <Cookie className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
         <div className="space-y-2">

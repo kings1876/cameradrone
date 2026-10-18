@@ -44,7 +44,7 @@ export const FAQSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => {
         {/* Search & Filter Tabs */}
         <div className="space-y-4">
           <div className="relative">
-            <Search className="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
               value={searchTerm}

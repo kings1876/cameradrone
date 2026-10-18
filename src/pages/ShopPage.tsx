@@ -247,7 +247,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
           <div className="grid grid-cols-1 sm:grid-cols-12 gap-3 items-center">
             {/* Search Input */}
             <div className="sm:col-span-8 relative">
-              <Search className="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+              <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
               <input
                 type="text"
                 value={searchQuery}
@@ -341,7 +341,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
             </button>
             {pageNumbers.map((n, i) =>
               n === '…' ? (
-                <span key={`gap-${i}`} className="px-2 text-slate-500" aria-hidden="true">…</span>
+                <span key={`gap-${i}`} className="px-2 text-slate-400" aria-hidden="true">…</span>
               ) : (
                 <button
                   key={n}

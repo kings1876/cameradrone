@@ -66,7 +66,7 @@ export const BlogPostPage: React.FC = () => {
 
           <div className="flex items-center justify-between text-xs text-slate-400 pt-2">
             <span>Author: <strong>{post.author}</strong></span>
-            <span className="font-mono text-slate-500">/blog/{post.slug}</span>
+            <span className="font-mono text-slate-400">/blog/{post.slug}</span>
           </div>
         </header>
 

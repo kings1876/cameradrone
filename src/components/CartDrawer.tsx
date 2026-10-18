@@ -57,7 +57,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
           <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4">
             {items.length === 0 ? (
               <div className="h-full flex flex-col items-center justify-center text-center space-y-3 py-12">
-                <div className="w-16 h-16 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-500">
+                <div className="w-16 h-16 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400">
                   <Truck className="w-8 h-8" />
                 </div>
                 <h3 className="text-base font-bold text-white">Your bag is empty</h3>
@@ -103,7 +103,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                   <div className="flex flex-col items-end gap-1.5 shrink-0">
                     <button
                       onClick={() => onRemoveItem(item.product.id)}
-                      className="text-slate-500 hover:text-rose-400 transition-colors p-1"
+                      className="text-slate-400 hover:text-rose-400 transition-colors p-1"
                       aria-label="Remove item"
                     >
                       <Trash2 className="w-3.5 h-3.5" />

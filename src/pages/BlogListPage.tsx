@@ -60,7 +60,7 @@ export const BlogListPage: React.FC = () => {
 
               <div className="pt-6 border-t border-slate-800/80 mt-6 flex items-center justify-between text-xs text-slate-400">
                 <span className="flex items-center gap-1.5">
-                  <Calendar className="w-3.5 h-3.5 text-slate-500" />
+                  <Calendar className="w-3.5 h-3.5 text-slate-400" />
                   <span>{post.date}</span>
                 </span>
                 <span className="inline-flex items-center gap-1 text-amber-400 font-semibold group-hover:translate-x-1 transition-transform">

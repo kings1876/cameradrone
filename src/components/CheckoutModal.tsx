@@ -158,7 +158,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                 {items.map(item => (
                   <div key={item.product.id} className="py-1.5 flex justify-between items-center text-slate-300">
                     <span className="truncate max-w-[280px] sm:max-w-md">
-                      {item.product.name} <span className="text-slate-500 font-mono">x{item.quantity}</span>
+                      {item.product.name} <span className="text-slate-400 font-mono">x{item.quantity}</span>
                     </span>
                     <span className="font-mono text-white tabular-nums shrink-0">
                       ${(item.product.price * item.quantity).toLocaleString()}
