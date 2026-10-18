@@ -1,5 +1,28 @@
 // Generated from the product photo folder. Keys are product slugs; the first image is the primary one.
 export const PRODUCT_IMAGES: Record<string, string[]> = {
+  "dji-mini-5-pro-dji-rc-n3": [
+    "/products/dji-mini-5-pro-dji-rc-n3.jpg",
+    "/products/dji-mini-5-pro-dji-rc-n3-2.jpg"
+  ],
+  "dji-mini-5-pro-fly-more-combo-dji-rc-n3": [
+    "/products/dji-mini-5-pro-dji-rc-n3.jpg",
+    "/products/dji-mini-5-pro-dji-rc-n3-2.jpg"
+  ],
+  "dji-mini-5-pro-fly-more-combo-dji-rc-2": [
+    "/products/dji-mini-5-pro-dji-rc-n3-2.jpg"
+  ],
+  "dji-neo-2-drone-only": [
+    "/products/dji-neo-2-drone-only.jpg"
+  ],
+  "dji-neo-2-fly-more-combo-drone-only": [
+    "/products/dji-neo-2-drone-only.jpg"
+  ],
+  "dji-avata-2-fly-more-combo-single-battery": [
+    "/products/dji-avata-2-fly-more-combo-single-battery.jpg"
+  ],
+  "dji-avata-2-fly-more-combo-three-batteries": [
+    "/products/dji-avata-2-fly-more-combo-single-battery.jpg"
+  ],
   "dji-mini-4-pro": [
     "/products/dji-mini-4-pro.jpg",
     "/products/dji-mini-4-pro-2.jpg",

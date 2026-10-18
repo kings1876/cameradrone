@@ -50,13 +50,13 @@ const categoryName = (id: string) => CATEGORIES.find(c => c.id === id)!.name;
 
 const seeds: Seed[] = [
   // DJI Mini & Air
-  { name: 'DJI Mini 5 Pro (DJI RC-N3)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1119, graphicType: 'foldable-drone',
+  { name: 'DJI Mini 5 Pro (DJI RC-N3)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1119, graphicType: 'foldable-drone', featured: true,
     shortDescription: 'DJI Mini 5 Pro with a 1-inch 50 MP camera in a sub-250 g drone, supplied with the DJI RC-N3 controller.' },
   { name: 'DJI Mini 5 Pro Fly More Combo (DJI RC-N3)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1419, graphicType: 'foldable-drone',
     shortDescription: 'DJI Mini 5 Pro Fly More Combo with extra batteries and the DJI RC-N3 controller.' },
   { name: 'DJI Mini 5 Pro Fly More Combo (DJI RC 2)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1699, graphicType: 'foldable-drone',
     shortDescription: 'DJI Mini 5 Pro Fly More Combo with extra batteries and the DJI RC 2 screen controller.' },
-  { name: 'DJI Mini 4 Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1119, graphicType: 'foldable-drone',
+  { name: 'DJI Mini 4 Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1119, graphicType: 'foldable-drone', featured: true,
     shortDescription: 'Compact sub-250g DJI camera drone for travel, content and everyday flying.' },
   { name: 'DJI Mini 4 Pro RC 2', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1419, graphicType: 'foldable-drone',
     shortDescription: 'DJI Mini 4 Pro supplied with the DJI RC 2 screen controller.' },
