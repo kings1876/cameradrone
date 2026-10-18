@@ -76,6 +76,8 @@ const seeds: Seed[] = [
     shortDescription: 'DJI Neo 2 palm-sized 4K camera drone, drone only, for easy follow-me and selfie shots.' },
   { name: 'DJI Neo 2 Fly More Combo (Drone Only)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 549, graphicType: 'foldable-drone',
     shortDescription: 'DJI Neo 2 Fly More Combo with extra batteries for longer shoots, drone only (no controller).' },
+  { name: 'DJI Neo 2 Fly More Combo (DJI RC-N3)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 709, graphicType: 'foldable-drone',
+    shortDescription: 'DJI Neo 2 Fly More Combo with the DJI RC-N3 controller, digital transceiver and extra batteries.' },
   { name: 'DJI Avata 2 Fly More Combo (Single Battery)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 1269, graphicType: 'fpv-drone',
     shortDescription: 'DJI Avata 2 immersive FPV drone with Goggles 3 and RC Motion 3, single-battery Fly More Combo.' },
   { name: 'DJI Avata 2 Fly More Combo (Three Batteries)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 1559, graphicType: 'fpv-drone', inStock: false,

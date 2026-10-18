@@ -7,6 +7,7 @@ export interface KeywordSet {
 }
 
 export const PRODUCT_KEYWORDS: Record<string, KeywordSet> = {
+  "dji-neo-2-fly-more-combo-dji-rc-n3": { primary: "dji neo 2 controller", supporting: ["dji neo 2 fly more", "dji neo 2 au", "dji neo 2 sale", "dji neo 2 carry case"] },
   "dji-avata-360-fly-more-combo-dji-rc-2": { primary: "dji avata 360", supporting: ["dji avata 360 drone", "dji fpv drone", "360 video drone", "drones with 360 degree camera"] },
   "dji-avata-360-dji-rc-2": { primary: "dji avata 360 drone", supporting: ["dji avata 360", "dji rc 2", "360 video drone", "dji fpv drone"] },
   "dji-avata-360-drone-only": { primary: "drones with 360 degree camera", supporting: ["dji avata 360", "360 video drone", "dji fpv drone", "dji avata 360 drone"] },

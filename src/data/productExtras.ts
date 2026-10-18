@@ -29,6 +29,8 @@ export const PRODUCT_EXTRAS: Record<string, string> = {
     'Among DJI Avata 2 drones this single-battery pack is the entry point, and it is a complete DJI FPV drone kit with Goggles 3. Check the DJI Avata 2 weight if you are weighing it against other FPV options, add fpv goggles accessories, and upgrade to a three-battery kit when you want longer sessions.',
   'dji-avata-2-fly-more-combo-three-batteries':
     'A DJI FPV drone with three batteries lets you fly a whole shoot without waiting. This is among the DJI Avata 2 drones for sale, with a DJI Goggle 3 headset, the DJI Avata fly smart combo style of kit, and the immersive DJI FPV glasses experience. Ask us for the latest lead time.',
+  'dji-neo-2-fly-more-combo-dji-rc-n3':
+    'Many buyers want the DJI Neo 2 fly more kit with a real remote, and this is the one. The DJI Neo 2 controller included here is the RC-N3, so you get a more precise, longer-range connection. Compare it against the DJI Neo 2 sale pricing on the drone-only kits, and add a DJI Neo 2 carry case for the DJI Neo 2 AU travel set-up.',
   'dji-avata-360-fly-more-combo-dji-rc-2':
     'Searching for the DJI Avata 360? This Fly More Combo is the full kit, and the DJI Avata 360 drone family is built around one idea: shoot first, frame later. It is a DJI FPV drone for 360 video drone work, and one of the few drones with a 360 degree camera that can also fly in a classic single-lens mode.',
   'dji-avata-360-dji-rc-2':

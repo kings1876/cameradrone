@@ -231,6 +231,21 @@ export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
     inTheBox: ['Avata 2 aircraft', 'DJI Goggles 3', 'DJI RC Motion 3', 'Three Intelligent Flight Batteries', 'Charging hub']
   },
 
+  'dji-neo-2-fly-more-combo-dji-rc-n3': {
+    overview:
+      'The DJI Neo 2 Fly More Combo with the DJI RC-N3 gives you the palm-sized Neo 2 plus a proper controller, a digital transceiver and extra batteries. If you were searching for a DJI Neo 2 controller kit, this is the version that lets you fly with sticks instead of gestures alone.',
+    bestFor:
+      'Ideal for pilots who want more range and precise control than the drone-only kit offers, plus the extra batteries to keep a family day or event shoot going.',
+    highlights: ['DJI RC-N3 controller and digital transceiver included', 'Extra batteries for longer sessions', 'About 151 g with 4K video up to 60 fps'],
+    specs: [
+      ['Take-off weight', 'About 151 g (without digital transceiver)'],
+      ['Video', '4K up to 60 fps'],
+      ['Max flight time per battery', 'Up to about 19 min'],
+      ['Obstacle sensing', 'Omnidirectional'],
+      ['Controller', 'DJI RC-N3 with digital transceiver']
+    ],
+    inTheBox: ['Neo 2 aircraft', 'DJI RC-N3 controller', 'Digital transceiver', 'Extra Intelligent Flight Batteries']
+  },
   // ---------------- DJI Avata 360 ----------------
   'dji-avata-360-fly-more-combo-dji-rc-2': {
     overview:
