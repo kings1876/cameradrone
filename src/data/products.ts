@@ -56,13 +56,13 @@ const seeds: Seed[] = [
     shortDescription: 'DJI Mini 5 Pro Fly More Combo with extra batteries and the DJI RC-N3 controller.' },
   { name: 'DJI Mini 5 Pro Fly More Combo (DJI RC 2)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1699, graphicType: 'foldable-drone',
     shortDescription: 'DJI Mini 5 Pro Fly More Combo with extra batteries and the DJI RC 2 screen controller.' },
-  { name: 'DJI Mini 4 Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1119, graphicType: 'foldable-drone', featured: true,
+  { name: 'DJI Mini 4 Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 949, graphicType: 'foldable-drone', featured: true,
     shortDescription: 'Compact sub-250g DJI camera drone for travel, content and everyday flying.' },
-  { name: 'DJI Mini 4 Pro RC 2', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1419, graphicType: 'foldable-drone',
+  { name: 'DJI Mini 4 Pro RC 2', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1209, graphicType: 'foldable-drone',
     shortDescription: 'DJI Mini 4 Pro supplied with the DJI RC 2 screen controller.' },
-  { name: 'DJI Mini 4 Pro Fly More Combo', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1699, graphicType: 'foldable-drone',
+  { name: 'DJI Mini 4 Pro Fly More Combo', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1449, graphicType: 'foldable-drone',
     shortDescription: 'Mini 4 Pro with extra batteries and accessories for longer flying sessions.' },
-  { name: 'DJI Mini 4 Pro Fly More Combo Plus', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1799, graphicType: 'foldable-drone',
+  { name: 'DJI Mini 4 Pro Fly More Combo Plus', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1529, graphicType: 'foldable-drone',
     shortDescription: 'Fly More Combo Plus package for the DJI Mini 4 Pro.' },
   { name: 'DJI Air 3', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mini & Air', price: 1699, graphicType: 'foldable-drone', featured: true,
     shortDescription: 'DJI Air 3 mid-size foldable camera drone for photo and video creators.' },
@@ -91,11 +91,11 @@ const seeds: Seed[] = [
     shortDescription: 'DJI Avata 360 Fly More Combo with the DJI RC 2 and extra batteries for longer 360-degree FPV shoots.' },
 
   // DJI Mavic 3
-  { name: 'DJI Mavic 3 Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mavic 3', price: 3099, graphicType: 'cinema-drone', featured: true,
+  { name: 'DJI Mavic 3 Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mavic 3', price: 2789, graphicType: 'cinema-drone', featured: true,
     shortDescription: 'Flagship DJI Mavic 3 Pro multi-camera drone for professional imaging.' },
-  { name: 'DJI Mavic 3 Pro Fly More Combo DJI RC', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mavic 3', price: 4199, graphicType: 'cinema-drone',
+  { name: 'DJI Mavic 3 Pro Fly More Combo DJI RC', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mavic 3', price: 3779, graphicType: 'cinema-drone',
     shortDescription: 'Mavic 3 Pro Fly More Combo with the standard DJI RC controller.' },
-  { name: 'DJI Mavic 3 Pro Fly More Combo DJI RC Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mavic 3', price: 5329, graphicType: 'cinema-drone',
+  { name: 'DJI Mavic 3 Pro Fly More Combo DJI RC Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mavic 3', price: 4799, graphicType: 'cinema-drone',
     shortDescription: 'Mavic 3 Pro Fly More Combo with the DJI RC Pro high-bright controller.' },
 
   // DJI Inspire 3
