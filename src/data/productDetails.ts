@@ -1717,7 +1717,7 @@ export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
     overview:
       'The DJI Avata 2 Fly More Combo with three batteries is the DJI FPV drone kit for pilots who want to keep flying: aircraft, Goggles 3, RC Motion 3 and two extra batteries. It is the version most FPV creators choose for a full session.',
     bestFor:
-      'Ideal for regular FPV pilots and videographers who want enough batteries for a shoot day. It is currently sold out at some retailers, so ask for the latest lead time.',
+      'Ideal for regular FPV pilots and videographers who want enough batteries for a shoot day.',
     highlights: ['Three batteries for about three times the flying time', 'Goggles 3 and RC Motion 3 included', '1/1.3-inch camera, 4K up to 60 fps'],
     specs: [
       ['Camera', '1/1.3-inch CMOS, 12 MP, 155° field of view'],
@@ -1781,7 +1781,7 @@ export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
     overview:
       'The DJI Avata 360 drone only kit is the lowest-cost entry among drones with a 360-degree camera, with the aircraft and no controller. It suits pilots who already own a compatible DJI controller or goggles.',
     bestFor:
-      'Best for existing DJI FPV pilots who want to add a 360 aircraft without paying for another controller. Currently sold out at some retailers, so ask for the latest lead time.',
+      'Best for existing DJI FPV pilots who want to add a 360 aircraft without paying for another controller.',
     highlights: ['360-degree camera, 8K at 60 fps HDR', 'About 455 g with integrated propeller guard', 'Omnidirectional obstacle sensing'],
     specs: [
       ['Camera', '360-degree dual-lens system, 8K at 60 fps with HDR'],
@@ -2264,7 +2264,7 @@ export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
     overview:
       'The FLIR ION M440 is a small tactical drone for short-range reconnaissance with dual visible cameras and a FLIR Boson thermal camera. It is a FLIR Australia option for defence and public-safety buyers.',
     bestFor:
-      'For government, security and public-safety buyers who need a backpack-portable UAS with thermal. Note that stock is limited, so ask for availability.',
+      'For government, security and public-safety buyers who need a backpack-portable UAS with thermal.',
     highlights: ['Dual 12 MP visible cameras plus Boson 320 thermal', 'About 35 min flight time', 'Blue sUAS listed platform'],
     specs: [
       ['Thermal camera', 'FLIR Boson 320 (320×256)'],
@@ -2307,7 +2307,7 @@ export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
     overview:
       'The BROUAV D72L-8 is a heavy-capacity agricultural spraying drone with a 72 L tank. It is a very large agricultural drone and a serious heavy-lift option for broadacre operations.',
     bestFor:
-      'Aimed at large-scale farms and contractors who need the maximum payload and area per flight, including weed spraying and crop protection. Currently out of stock, so request a quote for lead time.',
+      'Aimed at large-scale farms and contractors who need the maximum payload and area per flight, including weed spraying and crop protection.',
     highlights: ['72 L tank and 72 kg payload', 'Eight-rotor heavy-lift design', 'Maximum area per flight in the BROUAV range'],
     specs: [['Tank capacity', '72 L'], ['Max payload', '72 kg'], ['Rotors', '8']]
   },
@@ -2372,7 +2372,7 @@ export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
     overview:
       'The DJI Mavic 3 Enterprise Battery Kit adds extra batteries for the Mavic 3 Enterprise series. A kit is the most efficient way to keep a mapping job going without a charging break.',
     bestFor:
-      'For surveyors and inspectors running Mavic 3 Enterprise, Thermal or Multispectral aircraft who need to extend a flight day. Currently out of stock, so ask for lead time.',
+      'For surveyors and inspectors running Mavic 3 Enterprise, Thermal or Multispectral aircraft who need to extend a flight day.',
     highlights: ['Battery kit for the Mavic 3 Enterprise series', 'Extend field time between charges', 'Genuine DJI batteries'],
     specs: [['Compatible aircraft', 'DJI Mavic 3 Enterprise, Mavic 3 Thermal, Mavic 3 Multispectral']]
   }

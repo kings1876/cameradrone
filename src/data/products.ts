@@ -80,10 +80,10 @@ const seeds: Seed[] = [
     shortDescription: 'DJI Neo 2 Fly More Combo with the DJI RC-N3 controller, digital transceiver and extra batteries.' },
   { name: 'DJI Avata 2 Fly More Combo (Single Battery)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 1269, graphicType: 'fpv-drone',
     shortDescription: 'DJI Avata 2 immersive FPV drone with Goggles 3 and RC Motion 3, single-battery Fly More Combo.' },
-  { name: 'DJI Avata 2 Fly More Combo (Three Batteries)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 1559, graphicType: 'fpv-drone', inStock: false,
+  { name: 'DJI Avata 2 Fly More Combo (Three Batteries)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 1559, graphicType: 'fpv-drone',
     shortDescription: 'DJI Avata 2 immersive FPV drone with Goggles 3 and RC Motion 3, three-battery Fly More Combo.' },
 
-  { name: 'DJI Avata 360 (Drone Only)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 799, graphicType: 'fpv-drone', inStock: false,
+  { name: 'DJI Avata 360 (Drone Only)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 799, graphicType: 'fpv-drone',
     shortDescription: 'DJI Avata 360 immersive FPV drone with a 360-degree camera system, drone only (no controller).' },
   { name: 'DJI Avata 360 (DJI RC 2)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 1159, graphicType: 'fpv-drone',
     shortDescription: 'DJI Avata 360 with a 360-degree camera system, supplied with the DJI RC 2 screen controller.' },
@@ -109,7 +109,7 @@ const seeds: Seed[] = [
     shortDescription: 'DJI Matrice 30T enterprise drone with integrated thermal imaging.' },
   { name: 'DJI Matrice 4 Enterprise', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 7395, graphicType: 'enterprise-uav', featured: true,
     shortDescription: 'DJI Matrice 4 Enterprise drone for mapping, inspection and emergency response.' },
-  { name: 'DJI Matrice 4 Thermal', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 10159, graphicType: 'enterprise-uav', inStock: false,
+  { name: 'DJI Matrice 4 Thermal', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 10159, graphicType: 'enterprise-uav',
     shortDescription: 'DJI Matrice 4 Thermal enterprise drone with thermal imaging payload.' },
 
   // DJI Mavic 3 Enterprise
@@ -117,7 +117,7 @@ const seeds: Seed[] = [
     shortDescription: 'Compact DJI Mavic 3 Enterprise drone for mapping, surveying and inspection.' },
   { name: 'DJI Mavic 3 Thermal', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Mavic 3 Enterprise', price: 8249, graphicType: 'enterprise-uav',
     shortDescription: 'DJI Mavic 3 Thermal enterprise drone combining wide, tele and thermal cameras.' },
-  { name: 'DJI Mavic 3 Multispectral', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Mavic 3 Enterprise', price: 7919, graphicType: 'enterprise-uav', inStock: false,
+  { name: 'DJI Mavic 3 Multispectral', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Mavic 3 Enterprise', price: 7919, graphicType: 'enterprise-uav',
     shortDescription: 'DJI Mavic 3 Multispectral drone for precision agriculture and crop monitoring.' },
 
   // DJI Phantom 4
@@ -135,11 +135,11 @@ const seeds: Seed[] = [
     shortDescription: 'DJI Zenmuse H30T multi-sensor payload with thermal imaging.' },
   { name: 'DJI Zenmuse L2 Lidar', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 23880, graphicType: 'dslr-gimbal',
     shortDescription: 'DJI Zenmuse L2 LiDAR payload for aerial surveying and mapping.' },
-  { name: 'DJI Zenmuse P1', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 11400, graphicType: 'dslr-gimbal', inStock: false,
+  { name: 'DJI Zenmuse P1', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 11400, graphicType: 'dslr-gimbal',
     shortDescription: 'DJI Zenmuse P1 full-frame photogrammetry camera payload.' },
   { name: 'DJI Zenmuse X7', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 2589, graphicType: 'dslr-gimbal',
     shortDescription: 'DJI Zenmuse X7 interchangeable-lens aerial camera.' },
-  { name: 'DJI Zenmuse X5S', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 1809, graphicType: 'dslr-gimbal', inStock: false,
+  { name: 'DJI Zenmuse X5S', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 1809, graphicType: 'dslr-gimbal',
     shortDescription: 'DJI Zenmuse X5S aerial camera for Inspire 2.' },
   { name: 'DJI Zenmuse X4S', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 939, graphicType: 'dslr-gimbal',
     shortDescription: 'DJI Zenmuse X4S aerial camera for Inspire 2.' },
@@ -159,23 +159,23 @@ const seeds: Seed[] = [
     shortDescription: 'Six-sensor Agrowing multispectral camera based on the Sony A7R.' },
   { name: 'Micasense Altum PT', brand: 'MicaSense', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 28999, graphicType: 'action-cam',
     shortDescription: 'MicaSense Altum-PT multispectral and thermal sensor.' },
-  { name: 'Micasense RedEdge P', brand: 'MicaSense', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 13999, graphicType: 'action-cam', inStock: false,
+  { name: 'Micasense RedEdge P', brand: 'MicaSense', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 13999, graphicType: 'action-cam',
     shortDescription: 'MicaSense RedEdge-P multispectral sensor.' },
   { name: 'Slantrange 3PX Multispectral Sensor', brand: 'SlantRange', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 8199, graphicType: 'action-cam',
     shortDescription: 'SlantRange 3PX multispectral sensor for crop analytics.' },
-  { name: 'Slantrange 4P Multispectral Sensor', brand: 'SlantRange', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 7900, graphicType: 'action-cam', inStock: false,
+  { name: 'Slantrange 4P Multispectral Sensor', brand: 'SlantRange', category: 'cameras-sensors', subcategory: 'Multispectral Cameras', price: 7900, graphicType: 'action-cam',
     shortDescription: 'SlantRange 4P multispectral sensor for crop analytics. Pricing from $7,900 depending on option.' },
   { name: 'Phantom 4 Integration Kit Rededge MX', brand: 'MicaSense', category: 'cameras-sensors', subcategory: 'Integration Kits', price: 930, graphicType: 'controller',
     shortDescription: 'Integration kit for mounting a RedEdge-MX on the DJI Phantom 4.' },
   { name: 'Phantom 4 Integration Kit Parrot Sequoia', brand: 'Parrot', category: 'cameras-sensors', subcategory: 'Integration Kits', price: 649, graphicType: 'controller',
     shortDescription: 'Integration kit for mounting a Parrot Sequoia on the DJI Phantom 4.' },
-  { name: 'Mavic 2 Pro Parrot Sequoia Integration Kit', brand: 'Parrot', category: 'cameras-sensors', subcategory: 'Integration Kits', price: 649, graphicType: 'controller', inStock: false,
+  { name: 'Mavic 2 Pro Parrot Sequoia Integration Kit', brand: 'Parrot', category: 'cameras-sensors', subcategory: 'Integration Kits', price: 649, graphicType: 'controller',
     shortDescription: 'Integration kit for mounting a Parrot Sequoia on the DJI Mavic 2 Pro.' },
 
   // Autel & FLIR drones
   { name: 'Autel Evo Max 4T Drone', brand: 'Autel', category: 'enterprise-drones', subcategory: 'Autel & FLIR Drones', price: 14999, graphicType: 'enterprise-uav',
     shortDescription: 'Autel EVO Max 4T enterprise drone with thermal imaging.' },
-  { name: 'FLIR ION M440 Tactical Drone', brand: 'FLIR', category: 'enterprise-drones', subcategory: 'Autel & FLIR Drones', price: 27500, graphicType: 'enterprise-uav', inStock: false,
+  { name: 'FLIR ION M440 Tactical Drone', brand: 'FLIR', category: 'enterprise-drones', subcategory: 'Autel & FLIR Drones', price: 27500, graphicType: 'enterprise-uav',
     shortDescription: 'FLIR ION M440 tactical drone.' },
 
   // Spraying drones
@@ -185,7 +185,7 @@ const seeds: Seed[] = [
     shortDescription: 'BROUAV D30L-8 agricultural spraying drone.' },
   { name: 'BROUAV D52L-8 Spraying Drone', brand: 'BROUAV', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 44800, graphicType: 'enterprise-uav',
     shortDescription: 'BROUAV D52L-8 large-capacity agricultural spraying drone.' },
-  { name: 'BROUAV D72L-8 Spraying Drone', brand: 'BROUAV', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 54800, graphicType: 'enterprise-uav', inStock: false,
+  { name: 'BROUAV D72L-8 Spraying Drone', brand: 'BROUAV', category: 'spraying-drones', subcategory: 'Spraying Drones', price: 54800, graphicType: 'enterprise-uav',
     shortDescription: 'BROUAV D72L-8 heavy-capacity agricultural spraying drone.' },
   { name: 'DJI Agras T30 Spreading System 3.0', brand: 'DJI', category: 'spraying-drones', subcategory: 'Spraying Drone Accessories', price: 1800, graphicType: 'controller',
     shortDescription: 'Spreading System 3.0 accessory for the DJI Agras T30.' },
@@ -201,7 +201,7 @@ const seeds: Seed[] = [
     shortDescription: 'Intelligent flight battery for the DJI Air 3.' },
   { name: 'DJI Matrice 4 Battery', brand: 'DJI', category: 'batteries', subcategory: 'Drone Batteries', price: 280, graphicType: 'battery',
     shortDescription: 'Intelligent flight battery for the DJI Matrice 4 series.' },
-  { name: 'DJI Mavic 3 Enterprise Battery Kit', brand: 'DJI', category: 'batteries', subcategory: 'Drone Batteries', price: 990, graphicType: 'battery', inStock: false,
+  { name: 'DJI Mavic 3 Enterprise Battery Kit', brand: 'DJI', category: 'batteries', subcategory: 'Drone Batteries', price: 990, graphicType: 'battery',
     shortDescription: 'Battery kit for the DJI Mavic 3 Enterprise series.' },
 
   // Added from DJI range (Oct 2026)
