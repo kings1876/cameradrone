@@ -1,10 +1,15 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ArrowLeft, Truck, RotateCcw, ShieldCheck, FileText } from 'lucide-react';
+import { POLICIES, POLICY_INTRO, POLICY_HELP } from '../data/policies';
+
+const ICONS = { shipping: Truck, refund: RotateCcw, privacy: ShieldCheck, terms: FileText };
 
 export const PolicyPage: React.FC = () => {
   const location = useLocation();
   const path = location.pathname.replace('/', '');
+  const policy = POLICIES[path as keyof typeof POLICIES];
+  const Icon = ICONS[path as keyof typeof ICONS];
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
@@ -24,100 +29,23 @@ export const PolicyPage: React.FC = () => {
         </div>
 
         <div className="bg-[#0f172a] border border-slate-800 rounded-2xl p-6 sm:p-10 shadow-2xl">
-          {path === 'shipping' && (
+          {policy && (
             <div className="space-y-5">
               <div className="flex items-center gap-2 text-xs text-amber-400 font-semibold uppercase tracking-wider">
-                <Truck className="w-4 h-4" />
-                <span>Logistics & Express Delivery</span>
+                <Icon className="w-4 h-4" />
+                <span>{policy.eyebrow}</span>
               </div>
               <h1 className="text-2xl sm:text-3xl font-black text-white font-display">
-                Australia Nationwide Shipping Policy
+                {policy.h1}
               </h1>
               <div className="space-y-4 text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
-                <p>
-                  <strong>1. 100% Free Nationwide Express Delivery:</strong> All drones and accessories sold on Drones for Sale qualify for complimentary Express Courier delivery to every Australian address.
-                </p>
-                <p>
-                  <strong>2. Coverage States & Territories:</strong> We ship daily to New South Wales (NSW), Victoria (VIC), Queensland (QLD), Western Australia (WA), South Australia (SA), Tasmania (TAS), Australian Capital Territory (ACT), and Northern Territory (NT).
-                </p>
-                <p>
-                  <strong>3. Transit Durations:</strong> Metro capital city orders (Sydney, Melbourne, Brisbane) typically arrive within 1–2 business days. Regional and Western Australia addresses arrive in 2–4 business days.
-                </p>
-                <p>
-                  <strong>4. Security & Lithium Battery Safety:</strong> All orders are dispatched in reinforced, shock-resistant outer packaging with full transit insurance and signature-on-delivery tracking. High-capacity intelligent flight batteries comply strictly with Australian IATA air cargo transport regulations.
-                </p>
-              </div>
-            </div>
-          )}
-
-          {path === 'refund' && (
-            <div className="space-y-5">
-              <div className="flex items-center gap-2 text-xs text-amber-400 font-semibold uppercase tracking-wider">
-                <RotateCcw className="w-4 h-4" />
-                <span>Customer Protection</span>
-              </div>
-              <h1 className="text-2xl sm:text-3xl font-black text-white font-display">
-                Australian Returns & Refund Policy
-              </h1>
-              <div className="space-y-4 text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
-                <p>
-                  <strong>1. Australian Consumer Law (ACL) Guarantees:</strong> Our goods come with guarantees that cannot be excluded under the Australian Consumer Law. You are entitled to a replacement or refund for a major hardware failure and compensation for any other reasonably foreseeable loss or damage.
-                </p>
-                <p>
-                  <strong>2. 30-Day Change-of-Mind Returns:</strong> Unopened, sealed flight hardware in its original manufacturer packaging with undamaged factory seals may be returned within 30 days of receipt.
-                </p>
-                <p>
-                  <strong>3. Pre-Flight Technical Support:</strong> If you experience firmware calibration errors or controller synchronization issues upon initial unboxing, our Australian technical desk provides direct assistance before initiating any warranty exchange.
-                </p>
-                <p>
-                  <strong>4. Crypto Refund Settlement:</strong> For orders placed with cryptocurrency (10% discount), verified refunds are returned in USDT (TRC-20) or equivalent cryptocurrency to your nominated receiving address based on the exact AUD value paid.
-                </p>
-              </div>
-            </div>
-          )}
-
-          {path === 'privacy' && (
-            <div className="space-y-5">
-              <div className="flex items-center gap-2 text-xs text-amber-400 font-semibold uppercase tracking-wider">
-                <ShieldCheck className="w-4 h-4" />
-                <span>Data Protection</span>
-              </div>
-              <h1 className="text-2xl sm:text-3xl font-black text-white font-display">
-                Privacy & Cookie Notice
-              </h1>
-              <div className="space-y-4 text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
-                <p>
-                  <strong>1. Collection of Order Information:</strong> We collect only necessary details (name, email, delivery address, phone number) required to fulfill your physical equipment shipment across Australia.
-                </p>
-                <p>
-                  <strong>2. No Data Reselling:</strong> We never sell, lease, or monetize your contact or telemetry data with third parties or advertising brokers.
-                </p>
-                <p>
-                  <strong>3. Cookies:</strong> Essential session cookies are utilized strictly to preserve your cart manifest and active filtering preferences during navigation.
-                </p>
-              </div>
-            </div>
-          )}
-
-          {path === 'terms' && (
-            <div className="space-y-5">
-              <div className="flex items-center gap-2 text-xs text-amber-400 font-semibold uppercase tracking-wider">
-                <FileText className="w-4 h-4" />
-                <span>Legal Disclosures</span>
-              </div>
-              <h1 className="text-2xl sm:text-3xl font-black text-white font-display">
-                Terms of Service & CASA Airspace Notice
-              </h1>
-              <div className="space-y-4 text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
-                <p>
-                  <strong>1. Civil Aviation Safety Authority (CASA) Compliance:</strong> Buyers agree to fly all unmanned aerial vehicles (UAVs) in strict accordance with Australian civil aviation safety regulations. Recreational flyers must observe the 120m altitude ceiling, maintain direct visual line of sight, and maintain a minimum distance of 30 metres from other people.
-                </p>
-                <p>
-                  <strong>2. Commercial Operations (ReOC):</strong> Commercial pilots operating drones heavier than 2kg are responsible for holding valid RePL and ReOC accreditation where required by CASA.
-                </p>
-                <p>
-                  <strong>3. Governing Law:</strong> These terms are governed by the laws of Australia and the states and territories in which the hardware is delivered.
-                </p>
+                <p>{POLICY_INTRO[path as keyof typeof POLICIES]}</p>
+                {policy.paras.map(([title, text]) => (
+                  <p key={title}>
+                    <strong>{title}</strong> {text}
+                  </p>
+                ))}
+                <p>{POLICY_HELP}</p>
               </div>
             </div>
           )}

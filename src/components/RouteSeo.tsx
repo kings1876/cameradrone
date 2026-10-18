@@ -132,9 +132,9 @@ export function metaFor(pathname: string, search: string): Meta {
       return {
         title: sub
           ? fit(`${label}: ${items.length} Products for Sale | ${SITE_NAME}`, `${label}: Shop ${items.length} Products`, label)
-          : fit(`${label} for Sale in Australia | ${SITE_NAME}`, `${label} for Sale in Australia`, label),
+          : fit(`${label} for Sale in Australia | ${SITE_NAME}`, `Buy ${label} in Australia | ${SITE_NAME}`, `Buy ${label} Online | ${SITE_NAME}`, `${label} | ${SITE_NAME}`),
         description: catDesc,
-        noindex: !!sub && items.length < 3,
+        noindex: false,
         canonical: canonicalPath,
         h1: `${label} for Sale in Australia`,
         jsonLd: [
@@ -177,7 +177,7 @@ export function metaFor(pathname: string, search: string): Meta {
     const url = abs(`/product/${p.slug}`);
     const kw = PRODUCT_KEYWORDS[p.slug];
     return {
-      title: fit(`${p.name} for Sale in Australia | ${SITE_NAME}`, `${p.name} for Sale Australia | ${SITE_NAME}`, `${p.name} | ${SITE_NAME}`, p.name),
+      title: fit(`${p.name} for Sale in Australia | ${SITE_NAME}`, `${p.name} for Sale Australia | ${SITE_NAME}`, `${p.name} | ${SITE_NAME}`, `Buy ${p.name}`),
       description: productDescription(p),
       image,
       type: 'product',

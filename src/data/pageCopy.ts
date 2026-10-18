@@ -1,4 +1,4 @@
-import { CATEGORIES } from './products';
+import { CATEGORIES, PRODUCTS } from './products';
 import { CATEGORY_KEYWORDS, SUBCATEGORY_KEYWORDS, BLOG_KEYWORDS } from './keywords';
 
 // Keyword-aware copy for the pages that are not products. Every primary and supporting keyword for the page
@@ -20,15 +20,47 @@ export const PAGE_COPY: Record<'home' | 'shop' | 'blog' | 'faq' | 'about' | 'con
 
 const list = (a: string[]) => (a.length === 1 ? a[0] : a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1]);
 
-/** Keyword paragraph for a category or subcategory page, built from its keyword set. */
-export function seoParagraph(categoryId?: string, sub?: string): string | null {
+const CATEGORY_NOTES: Record<string, string> = {
+  'camera-drones':
+    'How to choose: sub-250 g Mini and Lito models suit travel and beginners, the Air and Mavic ranges add larger sensors and longer flight time, and the Avata and Neo lines are built for FPV and quick social video. Every listing shows the controller included in the kit so you can compare like with like.',
+  'enterprise-drones':
+    'How to choose: Matrice aircraft carry interchangeable payloads for inspection, mapping and public safety, Mavic 3 Enterprise and Thermal suit portable surveying, and Dock systems automate repeat missions. Enterprise aircraft are quoted, so send a quote request with your use case and we will confirm the right combo, accessories and delivery.',
+  'cameras-sensors':
+    'How to choose: payload compatibility depends on your aircraft, so tell us which drone you fly. Zenmuse and Livox payloads cover thermal, zoom, mapping and LiDAR work, while MicaSense, Agrowing and SlantRange sensors measure crop health. Send a quote request and we will confirm mounting, firmware and software before you order.',
+  'spraying-drones':
+    'How to choose: match tank capacity and spray width to the size of your property, and budget for batteries, a charger and a generator. Agras aircraft suit large paddocks and orchards, while smaller sprayers suit tighter blocks. Prices cover the aircraft only, so request a quote that bundles the extras you need.',
+  batteries:
+    'How to choose: always match a battery, charging hub, propeller set or filter to the exact aircraft model named on the product page, because parts for one family are not always interchangeable. Genuine DJI parts keep flight time, balance and safety features intact.'
+};
+
+/** Keyword paragraphs for a category or subcategory page: keyword sentence, buying notes and a product summary. */
+export function seoParagraphs(categoryId?: string, sub?: string): string[] {
   const cat = CATEGORIES.find(c => c.id === categoryId);
-  if (!cat) return null;
+  if (!cat) return [];
   const kw = (sub && SUBCATEGORY_KEYWORDS[sub]) || CATEGORY_KEYWORDS[cat.id];
-  if (!kw) return null;
-  const label = sub && SUBCATEGORY_KEYWORDS[sub] ? `our ${sub} range` : `our ${cat.name} range`;
-  return `Shoppers searching for ${kw.primary} will find ${label} here with Australian pricing. Related searches include ${list(kw.supporting)}, and every product page lists specifications and compatible accessories.`;
+  const out: string[] = [];
+  if (kw) {
+    const label = sub && SUBCATEGORY_KEYWORDS[sub] ? `our ${sub} range` : `our ${cat.name} range`;
+    out.push(`Shoppers searching for ${kw.primary} will find ${label} here with Australian pricing. Related searches include ${list(kw.supporting)}, and every product page lists specifications and compatible accessories.`);
+  }
+  if (CATEGORY_NOTES[cat.id]) out.push(CATEGORY_NOTES[cat.id]);
+  const items = PRODUCTS.filter(p => p.category === cat.id && (!sub || p.subcategory === sub));
+  if (items.length) {
+    const prices = items.map(p => p.price);
+    const names = items.slice(0, 6).map(p => `${p.name} (A$${p.price.toLocaleString('en-AU')})`);
+    out.push(`${sub ?? cat.name} currently lists ${items.length} ${items.length === 1 ? 'product' : 'products'} from A$${Math.min(...prices).toLocaleString('en-AU')} to A$${Math.max(...prices).toLocaleString('en-AU')}, including ${list(names)}. Free shipping applies to every order in Australia, and quoted products include set-up advice.`);
+  }
+  return out;
 }
+
+export const PAGE_EXTRA: Record<'about' | 'contact' | 'quote', string> = {
+  about:
+    'Drones for Sale is operated under ABN 91 658 710 173 and supplies genuine drones and accessories to Australian creators, surveyors and farmers. Consumer drones and accessories can be bought online with free shipping Australia-wide, while enterprise, sensor and spraying products are supplied by quote with advice on set-up and CASA requirements. Our Australian stock carries local consumer guarantees. Customers buy from us for genuine stock, AUD pricing with free express shipping Australia-wide, a 10% discount for cryptocurrency payments, 30-day change-of-mind returns on unopened hardware, and specialists who can advise on CASA rules, payloads and set-up.',
+  contact:
+    'Use the contact form for product advice, order questions and quote requests. Include your drone model, your location and what you want to achieve so a specialist can reply with the right options, usually within one business day. Quick answers: delivery is free to every Australian address, capital city orders typically arrive within 1 to 2 business days and regional and Western Australian orders within 2 to 4 business days, and unopened hardware can be returned within 30 days. The Shipping Policy and Refund Policy have the full details.',
+  quote:
+    'How quotes work: choose a product or describe what you need, add your quantity, timeline, location and CASA ReOC status, and submit the form. A specialist replies with pricing, availability and delivery details, usually within one business day. Quotes are free, there is no obligation, and no payment is taken on this form. Volume and reseller pricing is available for fleets, farms and survey businesses. What to include: the aircraft you fly or plan to buy, the payload or accessories you need, how many units, where they will be delivered and when you need them. Popular quote requests include DJI Matrice and Mavic 3 Enterprise aircraft, Zenmuse thermal and LiDAR payloads, Agras spraying drones and Dock systems, while consumer drones and batteries can be bought directly in the shop.'
+};
 
 /** Closing keyword paragraph for a blog post, built from its keyword set. */
 export function blogParagraph(slug: string): string | null {

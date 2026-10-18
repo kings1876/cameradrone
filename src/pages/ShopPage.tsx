@@ -3,7 +3,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate, useSearchParams, useParams, Link } from 'react-router-dom';
 import { categoryPath, findCategory, findSubcategory } from '../routes';
 import { categoryIntro } from '../data/categoryCopy';
-import { PAGE_COPY, seoParagraph } from '../data/pageCopy';
+import { PAGE_COPY, seoParagraphs } from '../data/pageCopy';
 import { Search, SlidersHorizontal, Truck, Zap, ShieldCheck, ArrowRight, RotateCcw } from 'lucide-react';
 import { PRODUCTS, CATEGORIES } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
@@ -163,9 +163,11 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
                   ? `${intro.lead} ${intro.why}`
                   : 'Browse DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, cameras and sensors, and batteries and accessories, all priced in AUD with free shipping Australia-wide.'}
               </p>
-              <p className="text-xs sm:text-sm text-slate-400 mt-2 max-w-2xl leading-relaxed">
-                {routeCategory ? seoParagraph(routeCategory.id, routeSub) : PAGE_COPY.shop}
-              </p>
+              {(routeCategory ? seoParagraphs(routeCategory.id, routeSub) : [PAGE_COPY.shop]).map(t => (
+                <p key={t} className="text-xs sm:text-sm text-slate-400 mt-2 max-w-2xl leading-relaxed">
+                  {t}
+                </p>
+              ))}
             </div>
 
             <div className="text-right shrink-0">

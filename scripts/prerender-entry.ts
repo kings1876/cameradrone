@@ -7,7 +7,8 @@ import { SITE_URL, SITE_NAME } from '../src/seo';
 import { metaFor, abs } from '../src/components/RouteSeo';
 import { categoryPath, slugify } from '../src/routes';
 import { categoryIntro } from '../src/data/categoryCopy';
-import { PAGE_COPY, seoParagraph, blogParagraph } from '../src/data/pageCopy';
+import { PAGE_COPY, PAGE_EXTRA, seoParagraphs, blogParagraph } from '../src/data/pageCopy';
+import { POLICIES, POLICY_INTRO, POLICY_HELP } from '../src/data/policies';
 import { relatedFor } from '../src/components/RelatedProducts';
 import { BUSINESS } from '../src/business';
 import { webpSrcSet, IMAGE_SIZES } from '../src/components/ProductImage';
@@ -76,7 +77,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
     if (sub) crumbs.push(['', sub]);
     const subs = cat && !sub ? `<h2>${esc(cat.name)} subcategories</h2><ul>${cat.subcategories.map(s => `<li>${link(categoryPath(cat.id, s), s)}</li>`).join('')}</ul>` : '';
     return main(
-      `${crumbList(crumbs)}<h1>${esc(h1)}</h1><p>${esc(intro ? `${intro.lead} ${intro.why}` : description)}</p><p>${esc((cat ? seoParagraph(cat.id, sub) : null) ?? PAGE_COPY.shop)}</p>` +
+      `${crumbList(crumbs)}<h1>${esc(h1)}</h1><p>${esc(intro ? `${intro.lead} ${intro.why}` : description)}</p>${(cat ? seoParagraphs(cat.id, sub) : [PAGE_COPY.shop]).map(t => `<p>${esc(t)}</p>`).join('')}` +
         subs + `<h2>${esc(String(items.length))} products</h2>${productList(items)}`
     );
   }
@@ -95,7 +96,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
         (p.specRows?.length ? `<h2>Specifications</h2><table><tbody>${p.specRows.map(([k, v]) => `<tr><th scope="row">${esc(k)}</th><td>${esc(v)}</td></tr>`).join('')}</tbody></table>` : '') +
         (p.inTheBox?.length ? `<h2>In the box</h2><ul>${p.inTheBox.map(b => `<li>${esc(b)}</li>`).join('')}</ul>` : '') +
         (['enterprise-drones', 'cameras-sensors', 'spraying-drones'].includes(p.category)
-          ? `<p>${link(`/quote?product=${p.slug}`, 'Request a quote for volume and reseller pricing')}</p>` : '') +
+          ? `<p>${link('/quote', 'Request a quote for volume and reseller pricing')}</p>` : '') +
         `</article>` +
         `<h2>More ${esc(p.subcategory)} products</h2>${productList(rel)}`
     );
@@ -125,8 +126,13 @@ function bodyFor(pathname: string, h1: string, description: string): string {
     );
   }
 
-  const extra = pathname === '/about' ? PAGE_COPY.about : pathname === '/contact' ? PAGE_COPY.contact : '';
-  return main(`<h1>${esc(h1)}</h1><p>${esc(description)}</p>${extra ? `<p>${esc(extra)}</p>` : ''}`);
+  const key = pathname.slice(1) as keyof typeof POLICIES;
+  if (POLICIES[key]) {
+    const pol = POLICIES[key];
+    return main(`<h1>${esc(pol.h1)}</h1><p>${esc(POLICY_INTRO[key])}</p>${pol.paras.map(([t, x]) => `<p><strong>${esc(t)}</strong> ${esc(x)}</p>`).join('')}<p>${esc(POLICY_HELP)}</p>`);
+  }
+  const extras = pathname === '/about' ? [PAGE_COPY.about, PAGE_EXTRA.about] : pathname === '/contact' ? [PAGE_COPY.contact, PAGE_EXTRA.contact] : pathname === '/quote' ? [PAGE_EXTRA.quote] : [];
+  return main(`<h1>${esc(h1)}</h1><p>${esc(description)}</p>${extras.map(t => `<p>${esc(t)}</p>`).join('')}`);
 }
 
 const H1: Record<string, string> = {
@@ -238,7 +244,7 @@ export function sitemapXml(): string {
 export function robotsTxt(): string {
   const bots = ['GPTBot', 'ChatGPT-User', 'OAI-SearchBot', 'ClaudeBot', 'Claude-Web', 'Claude-SearchBot', 'Claude-User', 'Bingbot', 'PerplexityBot', 'Applebot', 'Amazonbot', 'CCBot', 'Google-Extended', 'Meta-ExternalAgent', 'cohere-ai'];
   return (
-    `User-agent: *\nAllow: /\nDisallow: /order\nDisallow: /checkout\nDisallow: /admin\nDisallow: /api/\nContent-Signal: search=yes, ai-input=yes, ai-train=no\n\n` +
+    `User-agent: *\nAllow: /\nDisallow: /order\nDisallow: /checkout\nDisallow: /admin\nDisallow: /api/\n\n` +
     bots.map(b => `User-agent: ${b}\nAllow: /\nDisallow: /admin\nDisallow: /api/\n`).join('\n') +
     `\nSitemap: ${SITE_URL}/sitemap.xml\n`
   );

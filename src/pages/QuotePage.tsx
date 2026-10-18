@@ -3,6 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom';
 import { CheckCircle2, ShieldCheck, Clock, Send } from 'lucide-react';
 import { PRODUCTS } from '../data/products';
 import { postForm } from '../lib/reply';
+import { PAGE_EXTRA } from '../data/pageCopy';
 
 /** Categories that are quoted rather than bought straight from the cart. */
 export const QUOTE_CATEGORIES = ['enterprise-drones', 'cameras-sensors', 'spraying-drones'];
@@ -121,6 +122,7 @@ export const QuotePage: React.FC = () => {
             Tell us what you need and we'll come back with pricing, availability and delivery for commercial drones, thermal and multispectral sensors,
             LiDAR payloads and agricultural spray drones. Volume and reseller pricing available.
           </p>
+          <p className="text-sm text-slate-300 leading-relaxed">{PAGE_EXTRA.quote}</p>
           <ul className="space-y-3 text-xs text-slate-300">
             <li className="flex gap-2.5">
               <Clock className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" /> Reply within one business day
