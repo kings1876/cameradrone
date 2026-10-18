@@ -313,3 +313,9 @@ Volume = monthly AU searches; KD = keyword difficulty; T = transactional (others
 | faq | register drone australia (110, KD 21, T) | register drone (110, KD 15, T); register drones (110, KD 15, T); registered drones (90, KD 12, T); drone licence perth (140, KD 14); drone licence brisbane (90, KD 19) |
 | contact | drone repairs near me (210, KD 8, T) | drone repair near me (110, KD 8, T); dji repair near me (90, KD 19, T); dji australia official service centre (90, KD 24, T); drone repairs perth (70, KD 21) |
 | about | uav companies australia (210, KD 21) | drone sales (480, KD 23, T); dji enterprise drones (70, KD 15, T); commercial drones australia (50, KD 12) |
+
+## On-page implementation notes (Oct 2026)
+
+- Each product has a three-paragraph description (overview, best-for, buying notes), key features, a specifications table and, where known, an in-the-box list. Copy lives in `src/data/productDetails.ts` and `src/data/productExtras.ts`.
+- Every description contains the product's primary keyword and at least two supporting keywords (checked by script). Specs are limited to manufacturer-published figures; unconfirmed items (e.g. Agrowing band counts, BROUAV flow rates) are deliberately left out and confirmed on quote.
+- Accessory and battery pages are shorter (about 75-105 words of description) by design.

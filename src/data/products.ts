@@ -1,5 +1,7 @@
 import { Product, CategoryInfo } from '../types';
 import { PRODUCT_IMAGES } from './productImages';
+import { PRODUCT_DETAILS } from './productDetails';
+import { PRODUCT_EXTRAS } from './productExtras';
 
 export const CATEGORIES: CategoryInfo[] = [
   {
@@ -180,9 +182,12 @@ const seeds: Seed[] = [
     shortDescription: 'Battery kit for the DJI Mavic 3 Enterprise series.' }
 ];
 
-export const PRODUCTS: Product[] = seeds.map((s, i) => ({
-  id: slugify(s.name),
-  slug: slugify(s.name),
+export const PRODUCTS: Product[] = seeds.map((s, i) => {
+  const slug = slugify(s.name);
+  const detail = PRODUCT_DETAILS[slug];
+  return {
+  id: slug,
+  slug,
   name: s.name,
   brand: s.brand,
   category: s.category,
@@ -192,9 +197,15 @@ export const PRODUCTS: Product[] = seeds.map((s, i) => ({
   badge: null,
   inStock: s.inStock ?? true,
   shortDescription: s.shortDescription,
-  description: `${s.shortDescription} Australian stock with free shipping Australia-wide. Contact us for availability, bundle options and advice on the right setup for your operation.`,
+  description: detail
+    ? [detail.overview, detail.bestFor, PRODUCT_EXTRAS[slug]].filter(Boolean).join('\n\n')
+    : `${s.shortDescription} Australian stock with free shipping Australia-wide. Contact us for availability, bundle options and advice on the right setup for your operation.`,
   specifications: {},
+  highlights: detail?.highlights,
+  specRows: detail?.specs,
+  inTheBox: detail?.inTheBox,
   graphicType: s.graphicType,
   images: PRODUCT_IMAGES[slugify(s.name)],
   isFeatured: s.featured ?? false
-}));
+  };
+});

@@ -170,9 +170,41 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                 </div>
               </div>
 
-              <p className="text-sm text-slate-300 leading-relaxed font-normal">
-                {product.description}
-              </p>
+              <div className="space-y-3">
+                {product.description.split('\n\n').map((para, i) => (
+                  <p key={i} className="text-sm text-slate-300 leading-relaxed font-normal">
+                    {para}
+                  </p>
+                ))}
+              </div>
+
+              {product.highlights && product.highlights.length > 0 && (
+                <div className="space-y-1.5">
+                  <h2 className="text-xs font-bold text-slate-200 uppercase tracking-wider">Key features</h2>
+                  <ul className="space-y-1.5 text-sm text-slate-300">
+                    {product.highlights.map(h => (
+                      <li key={h} className="flex gap-2">
+                        <span className="text-amber-400" aria-hidden="true">•</span>
+                        <span>{h}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {product.specRows && product.specRows.length > 0 && (
+                <div className="space-y-2">
+                  <h2 className="text-xs font-bold text-slate-200 uppercase tracking-wider">Specifications</h2>
+                  <dl className="text-xs divide-y divide-slate-800/80 border border-slate-800 rounded-lg overflow-hidden bg-slate-950/40">
+                    {product.specRows.map(([label, value]) => (
+                      <div key={label} className="grid grid-cols-3 p-2.5">
+                        <dt className="text-slate-400">{label}</dt>
+                        <dd className="col-span-2 text-white font-medium">{value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
+              )}
 
               {PRODUCT_KEYWORDS[product.slug] && (
                 <div className="space-y-1.5">

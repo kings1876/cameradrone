@@ -115,7 +115,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
 
               {/* Description Prose */}
               <p className="text-sm text-slate-300 leading-relaxed font-normal">
-                {product.description}
+                <span className="whitespace-pre-line">{product.description}</span>
               </p>
 
               {/* Specifications Table */}

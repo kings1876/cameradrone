@@ -31,6 +31,8 @@ export interface Product {
   description: string;
   specifications: ProductSpecification;
   inTheBox?: string[];
+  highlights?: string[];
+  specRows?: [string, string][];
   images?: string[];
   graphicType: 'cinema-drone' | 'foldable-drone' | 'fpv-drone' | 'enterprise-uav' | 'dslr-gimbal' | 'action-cam' | 'controller' | 'battery';
   isFeatured?: boolean;

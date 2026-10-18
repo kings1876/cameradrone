@@ -100,10 +100,13 @@ function metaFor(pathname: string, search: string): Meta {
           '@context': 'https://schema.org',
           '@type': 'Product',
           name: p.name,
-          description: p.shortDescription,
+          description: p.description.split('\n\n')[0],
           brand: { '@type': 'Brand', name: p.brand },
           category: `${p.categoryName} > ${p.subcategory}`,
           ...(kw ? { keywords: [kw.primary, ...kw.supporting].join(', ') } : {}),
+          ...(p.specRows?.length
+            ? { additionalProperty: p.specRows.map(([name, value]) => ({ '@type': 'PropertyValue', name, value })) }
+            : {}),
           ...(p.images?.length ? { image: p.images.map(abs) } : {}),
           url,
           offers: {
