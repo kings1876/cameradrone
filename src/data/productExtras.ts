@@ -296,7 +296,7 @@ export const PRODUCT_EXTRAS: Record<string, string> = {
   'dji-neo-drone-only':
     'Read a DJI Neo review before you buy, pick up a DJI Neo bag for travel, and see why a drone DJI Neo is the usual beginner pick. Buyers searching for dji neo drone reviews will find it here.',
   'dji-mini-4k-fly-more-combo':
-    'People often search for the DJI Mini 4K drone, DJI Mini 4K accessories and a DJI Mini 4K case together, so we list the main spares and add-ons nearby. Price from an Australian retailer; confirm before ordering.',
+    'People often search for the DJI Mini 4K drone, DJI Mini 4K accessories and a DJI Mini 4K case together, so we list the main spares and add-ons nearby.',
   'dji-mini-4-pro-intelligent-flight-battery':
     'Buyers searching for dji mini 4 pro battery will find it here. It also suits searches for dji mini 4 pro batteries.',
   'dji-mini-4-pro-mini-3-series-intelligent-flight-battery-plus':
