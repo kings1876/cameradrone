@@ -3,7 +3,8 @@ import { ShieldCheck, Truck, Zap, Award, Compass, MapPin, CheckCircle } from 'lu
 import { BRAND_MILESTONES } from '../data/content';
 import { BUSINESS } from '../business';
 
-export const AboutSection: React.FC = () => {
+export const AboutSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => {
+  const Title = asH1 ? 'h1' : 'h2';
   return (
     <section className="py-16 bg-[#0c1322] text-white border-y border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
@@ -16,9 +17,9 @@ export const AboutSection: React.FC = () => {
               <span>Founded 17 May 2018</span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl font-black text-white font-display tracking-tight leading-tight">
+            <Title className="text-3xl sm:text-4xl font-black text-white font-display tracking-tight leading-tight">
               Camera, Enterprise & Agricultural Drones for Australia
-            </h2>
+            </Title>
 
             <div className="space-y-4 text-sm sm:text-base text-slate-300 font-normal leading-relaxed">
               <p>

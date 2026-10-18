@@ -6,6 +6,8 @@ import { ArrowLeft, ShoppingBag, Zap, Truck, Shield, Award, CheckCircle2, Chevro
 import { PRODUCTS } from '../data/products';
 import { ProductImage } from '../components/ProductImage';
 import { Product } from '../types';
+import { categoryPath } from '../routes';
+import { RelatedProducts } from '../components/RelatedProducts';
 
 interface ProductDetailPageProps {
   onAddToCart: (product: Product) => void;
@@ -58,9 +60,9 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
         <nav className="flex items-center gap-2 text-xs text-slate-400">
           <Link to="/shop" className="hover:text-white transition-colors">Shop</Link>
           <ChevronRight className="w-3.5 h-3.5 text-slate-600" />
-          <span>{product.categoryName}</span>
+          <Link to={categoryPath(product.category)} className="hover:text-white transition-colors">{product.categoryName}</Link>
           <ChevronRight className="w-3.5 h-3.5 text-slate-600" />
-          <span>{product.subcategory}</span>
+          <Link to={categoryPath(product.category, product.subcategory)} className="hover:text-white transition-colors">{product.subcategory}</Link>
           <ChevronRight className="w-3.5 h-3.5 text-slate-600" />
           <span className="text-slate-200 truncate">{product.name}</span>
         </nav>
@@ -332,6 +334,8 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
             </div>
           </div>
         </div>
+
+        <RelatedProducts product={product} />
       </div>
     </div>
   );

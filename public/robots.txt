@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /order
-Disallow: /checkout
-Disallow: /admin
-Disallow: /api/
-
-Sitemap: https://dronesonsale.com.au/sitemap.xml

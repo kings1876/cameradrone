@@ -4,11 +4,15 @@ import { PRODUCTS, CATEGORIES } from '../data/products';
 import { BLOG_POSTS, FAQ_LIST } from '../data/content';
 import { SITE_URL, SITE_NAME } from '../seo';
 import { PRODUCT_KEYWORDS, CATEGORY_KEYWORDS, SUBCATEGORY_KEYWORDS, PAGE_KEYWORDS } from '../data/keywords';
+import { categoryPath, findCategory, findSubcategory } from '../routes';
+import { categoryIntro } from '../data/categoryCopy';
 
-interface Meta {
+export interface Meta {
   title: string;
   description: string;
   noindex?: boolean;
+  canonical?: string;
+  h1?: string;
   image?: string;
   type?: 'website' | 'product' | 'article';
   jsonLd?: object[];
@@ -17,7 +21,48 @@ interface Meta {
 const clip = (s: string, n: number) => (s.length <= n ? s : s.slice(0, n - 1).trimEnd() + '…');
 const fit = (...c: string[]) => c.find(s => s.length <= 62) ?? c[c.length - 1];
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-const abs = (p: string) => (p.startsWith('http') ? p : SITE_URL + p);
+export const abs = (p: string) => (p.startsWith('http') ? p : SITE_URL + p);
+
+const BLOG_META: Record<string, { title: string; description: string }> = {
+  'best-drone-for-sale-australia-2026-buyers-guide': {
+    title: 'Best DJI Drone for Sale in Australia: 2026 Guide',
+    description: 'Compare DJI Mini, Air, Mavic 3 Pro and Inspire 3 drones for sale in Australia and learn what to check before you buy.'
+  },
+  'enterprise-drones-matrice-mavic-3-enterprise-guide': {
+    title: 'Enterprise Drones Australia: Matrice & Mavic 3 Guide',
+    description: 'How DJI Matrice, Mavic 3 Enterprise and Phantom 4 suit inspection, mapping, surveying and thermal work in Australia.'
+  },
+  'agricultural-spraying-drones-australia-guide': {
+    title: 'Agricultural Spraying Drones Australia: Buyer Guide',
+    description: 'What to know before buying a spraying drone in Australia: tank size, flow rate, CASA rules and multispectral crop monitoring.'
+  }
+};
+
+const QUOTE_CATS = ['enterprise-drones', 'cameras-sensors', 'spraying-drones'];
+
+/** Unique, readable meta description for a product: name, price, two key features and a call to action. */
+function productDescription(p: (typeof PRODUCTS)[number]): string {
+  const cta = QUOTE_CATS.includes(p.category) ? ' Request a quote.' : ' Free shipping Australia-wide.';
+  const base = `${p.name} for sale in Australia, $${p.price.toLocaleString()} AUD.`;
+  const max = 155 - cta.length;
+  let d = base;
+  for (const h of p.highlights ?? []) {
+    const next = `${d} ${h}.`;
+    if (next.length <= max) d = next;
+  }
+  if (d === base && p.highlights?.[0]) {
+    // first feature is long: trim it at a word boundary so the description is never empty of detail
+    const room = max - base.length - 2;
+    const cut = p.highlights[0].slice(0, Math.max(0, room));
+    const trimmed = cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:\s]+$/, '');
+    if (trimmed.length > 20) d = `${base} ${trimmed}.`;
+  }
+  if (d.length < 95) {
+    const extra = ` Genuine ${p.brand} ${p.subcategory.toLowerCase()} with Australian warranty.`;
+    if ((d + extra).length <= max) d += extra;
+  }
+  return d + cta;
+}
 
 function crumbs(items: { name: string; path: string }[]) {
   return {
@@ -32,51 +77,95 @@ function crumbs(items: { name: string; path: string }[]) {
   };
 }
 
-function metaFor(pathname: string, search: string): Meta {
+export function metaFor(pathname: string, search: string): Meta {
   const params = new URLSearchParams(search);
 
   if (pathname === '/') {
     return {
       title: 'Drones for Sale Australia | DJI, Enterprise & Spraying Drones',
       description:
-        'Drone sales in Australia: DJI camera drones on sale, commercial drones for sale, Matrice enterprise and thermal drones, and agricultural spray drones. Australian stock, free shipping.',
+        'Buy DJI camera drones, enterprise and thermal drones, spray drones, cameras, sensors and accessories in Australia. AUD pricing, free shipping.',
       jsonLd: [
         {
           '@context': 'https://schema.org',
           '@type': 'WebSite',
           name: SITE_NAME,
-          url: SITE_URL + '/'
+          url: SITE_URL + '/',
+          potentialAction: {
+            '@type': 'SearchAction',
+            target: { '@type': 'EntryPoint', urlTemplate: SITE_URL + '/shop?q={search_term_string}' },
+            'query-input': 'required name=search_term_string'
+          }
         }
       ]
     };
   }
 
-  if (pathname === '/shop') {
-    const cat = CATEGORIES.find(c => c.id === params.get('category'));
-    const sub = params.get('sub');
+  if (pathname === '/shop' || pathname.startsWith('/category/')) {
+    const legacyCat = pathname === '/shop' ? findCategory(params.get('category') ?? undefined) : undefined;
+    const parts = pathname.replace(/\/$/, '').split('/');
+    const cat = legacyCat ?? (pathname.startsWith('/category/') ? findCategory(parts[2]) : undefined);
+    const sub = legacyCat
+      ? (params.get('sub') && legacyCat.subcategories.includes(params.get('sub')!) ? params.get('sub')! : undefined)
+      : findSubcategory(cat, parts[3]);
+    if (pathname.startsWith('/category/') && !cat) {
+      return { title: `Page not found | ${SITE_NAME}`, description: 'This category could not be found.', noindex: true };
+    }
     if (cat) {
-      const validSub = sub && cat.subcategories.includes(sub) ? sub : null;
-      const label = validSub ?? cat.name;
-      const kw = (validSub && SUBCATEGORY_KEYWORDS[validSub]) || CATEGORY_KEYWORDS[cat.id];
+      const label = sub ?? cat.name;
+      const kw = (sub && SUBCATEGORY_KEYWORDS[sub]) || CATEGORY_KEYWORDS[cat.id];
+      const intro = categoryIntro(cat.id, sub);
+      const items = PRODUCTS.filter(p => p.category === cat.id && (!sub || p.subcategory === sub));
+      const canonicalPath = categoryPath(cat.id, sub);
+      const path = [
+        { name: 'Home', path: '/' },
+        { name: 'Shop', path: '/shop' },
+        { name: cat.name, path: categoryPath(cat.id) },
+        ...(sub ? [{ name: sub, path: canonicalPath }] : [])
+      ];
+      const priceRange = `$${Math.min(...items.map(i => i.price)).toLocaleString()} to $${Math.max(...items.map(i => i.price)).toLocaleString()} AUD`;
+      let catDesc = `Shop ${items.length} ${label} products in Australia from ${priceRange}. Free shipping.`;
+      for (const nm of [items.slice(0, 2).map(i => i.name).join(' and '), items[0]?.name ?? '']) {
+        const withNames = `Shop ${items.length} ${label} products in Australia from ${priceRange}, including ${nm}. Free shipping.`;
+        if (nm && withNames.length <= 155) { catDesc = withNames; break; }
+      }
       return {
-        title: fit(`${label} for Sale in Australia | ${SITE_NAME}`, `${label} for Sale in Australia`, label),
-        description: clip(
-          `Shop ${label} in Australia: ${kw ? `${kw.primary}, ${kw.supporting.slice(0, 2).join(', ')}` : cat.name}. Australian stock, free nationwide shipping. Compare models and prices.`,
-          158
-        ),
+        title: sub
+          ? fit(`${label}: ${items.length} Products for Sale | ${SITE_NAME}`, `${label}: Shop ${items.length} Products`, label)
+          : fit(`${label} for Sale in Australia | ${SITE_NAME}`, `${label} for Sale in Australia`, label),
+        description: catDesc,
+        noindex: !!sub && items.length < 3,
+        canonical: canonicalPath,
+        h1: `${label} for Sale in Australia`,
         jsonLd: [
-          crumbs([
-            { name: 'Home', path: '/' },
-            { name: 'Shop', path: '/shop' },
-            { name: cat.name, path: `/shop?category=${cat.id}` }
-          ])
+          crumbs(path),
+          {
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: `${label} for Sale in Australia`,
+            description: intro ? `${intro.lead} ${intro.why}` : undefined,
+            url: abs(canonicalPath),
+            mainEntity: {
+              '@type': 'ItemList',
+              numberOfItems: items.length,
+              itemListElement: items.slice(0, 24).map((p, i) => ({
+                '@type': 'ListItem',
+                position: i + 1,
+                url: abs(`/product/${p.slug}`),
+                name: p.name
+              }))
+            }
+          }
         ]
       };
     }
     return {
       title: 'Drone Sales Australia: Shop Drones & Sensors | Drones for Sale',
       description:
-        'Drone sales in Australia: drones on sale, DJI camera drones, commercial drones for sale, thermal and multispectral sensors, spray drones, batteries and accessories.'
+        'Drone sales in Australia: DJI camera drones, commercial drones, thermal and multispectral sensors, spray drones, batteries and accessories.',
+      canonical: '/shop',
+      h1: 'Drones for Sale in Australia',
+      jsonLd: [crumbs([{ name: 'Home', path: '/' }, { name: 'Shop', path: '/shop' }])]
     };
   }
 
@@ -89,10 +178,7 @@ function metaFor(pathname: string, search: string): Meta {
     const kw = PRODUCT_KEYWORDS[p.slug];
     return {
       title: fit(`${p.name} for Sale in Australia | ${SITE_NAME}`, `${p.name} for Sale Australia | ${SITE_NAME}`, `${p.name} | ${SITE_NAME}`, p.name),
-      description: clip(
-        `${p.shortDescription} ${kw ? `${cap(kw.primary)}, ${kw.supporting.slice(0, 2).join(', ')}. ` : ''}$${p.price.toLocaleString()} AUD, Australian stock, free shipping.`,
-        158
-      ),
+      description: productDescription(p),
       image,
       type: 'product',
       jsonLd: [
@@ -108,12 +194,19 @@ function metaFor(pathname: string, search: string): Meta {
             ? { additionalProperty: p.specRows.map(([name, value]) => ({ '@type': 'PropertyValue', name, value })) }
             : {}),
           ...(p.images?.length ? { image: p.images.map(abs) } : {}),
+          sku: p.slug,
           url,
           offers: {
             '@type': 'Offer',
             url,
             priceCurrency: 'AUD',
             price: p.price,
+            priceValidUntil: new Date(Date.now() + 365 * 86400000).toISOString().slice(0, 10),
+            shippingDetails: {
+              '@type': 'OfferShippingDetails',
+              shippingRate: { '@type': 'MonetaryAmount', value: 0, currency: 'AUD' },
+              shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'AU' }
+            },
             availability: p.inStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
             itemCondition: 'https://schema.org/NewCondition',
             seller: { '@type': 'Organization', name: SITE_NAME }
@@ -122,7 +215,8 @@ function metaFor(pathname: string, search: string): Meta {
         crumbs([
           { name: 'Home', path: '/' },
           { name: 'Shop', path: '/shop' },
-          { name: p.categoryName, path: `/shop?category=${p.category}` },
+          { name: p.categoryName, path: categoryPath(p.category) },
+          { name: p.subcategory, path: categoryPath(p.category, p.subcategory) },
           { name: p.name, path: `/product/${p.slug}` }
         ])
       ]
@@ -142,8 +236,8 @@ function metaFor(pathname: string, search: string): Meta {
     const post = BLOG_POSTS.find(x => x.slug === slug);
     if (!post) return { title: `Article not found | ${SITE_NAME}`, description: 'This article could not be found.', noindex: true };
     return {
-      title: fit(`${post.title} | ${SITE_NAME}`, post.title),
-      description: clip(post.excerpt, 158),
+      title: BLOG_META[post.slug]?.title ?? fit(`${post.title} | ${SITE_NAME}`, post.title),
+      description: BLOG_META[post.slug]?.description ?? clip(post.excerpt, 155),
       image: post.image ? abs(post.image) : undefined,
       type: 'article',
       jsonLd: [
@@ -190,7 +284,7 @@ function metaFor(pathname: string, search: string): Meta {
     return {
       title: 'Request a Quote: Commercial, Thermal & Spray Drones',
       description:
-        'Request a quote on commercial drones, thermal and multispectral sensors, LiDAR payloads and agricultural spray drones. Australian stock, volume and reseller pricing.'
+        'Request a quote on commercial drones, thermal and multispectral sensors, LiDAR payloads and spray drones. Volume and reseller pricing.'
     };
   }
 
@@ -208,9 +302,15 @@ function metaFor(pathname: string, search: string): Meta {
       '/privacy': 'Privacy Notice',
       '/terms': 'Terms of Service'
     };
+    const policyDesc: Record<string, string> = {
+      '/shipping': 'Shipping policy for Drones for Sale: free insured express courier to every Australian state and territory on drones and accessories.',
+      '/refund': 'Refund policy for Drones for Sale: returns, warranty and Australian Consumer Law guarantees on genuine Australian stock.',
+      '/privacy': 'Privacy notice for Drones for Sale: how we collect, use and protect your personal information when you order or enquire.',
+      '/terms': 'Terms of service for Drones for Sale covering orders, payment, delivery and use of this website.'
+    };
     return {
       title: `${names[pathname]} | ${SITE_NAME}`,
-      description: `${names[pathname]} for Drones for Sale.`
+      description: policyDesc[pathname]
     };
   }
 
@@ -243,8 +343,7 @@ export const RouteSeo: React.FC = () => {
   useEffect(() => {
     const m = metaFor(pathname, search);
     const path = pathname.replace(/\/$/, '') || '/';
-    const keepQuery = path === '/shop' && new URLSearchParams(search).has('category');
-    const canonical = abs(path + (keepQuery ? search : ''));
+    const canonical = abs(m.canonical ?? path);
     const image = m.image ?? abs('/logo.png');
 
     document.title = m.title;

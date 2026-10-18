@@ -24,6 +24,7 @@ import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
 import { FAQPage } from './pages/FAQPage';
 import { QuotePage } from './pages/QuotePage';
+import { NotFoundPage } from './pages/NotFoundPage';
 import { OrderPage } from './pages/OrderPage';
 import { PolicyPage } from './pages/PolicyPage';
 
@@ -128,6 +129,15 @@ export default function App() {
             path="/shop"
             element={<ShopPage onAddToCart={handleAddToCart} addedProductId={addedProductId} />}
           />
+          {/* Category and subcategory pages (crawlable paths) */}
+          <Route
+            path="/category/:cat"
+            element={<ShopPage onAddToCart={handleAddToCart} addedProductId={addedProductId} />}
+          />
+          <Route
+            path="/category/:cat/:sub"
+            element={<ShopPage onAddToCart={handleAddToCart} addedProductId={addedProductId} />}
+          />
           {/* Product Detail Page */}
           <Route
             path="/product/:slug"
@@ -182,11 +192,8 @@ export default function App() {
           <Route path="/refund" element={<PolicyPage />} />
           <Route path="/privacy" element={<PolicyPage />} />
           <Route path="/terms" element={<PolicyPage />} />
-          {/* Catch-all */}
-          <Route
-            path="*"
-            element={<HomePage onAddToCart={handleAddToCart} addedProductId={addedProductId} />}
-          />
+          {/* Catch-all: real 404 page (noindex via RouteSeo) */}
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
 

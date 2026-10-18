@@ -3,6 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import { ShoppingBag, Zap, ChevronDown } from 'lucide-react';
 import { CATEGORIES } from '../data/products';
 import { BUSINESS } from '../business';
+import { categoryPath } from '../routes';
 
 const dropdownPanel =
   'invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition-opacity absolute left-0 top-full z-50 min-w-[220px] bg-[#0f172a] border border-slate-800 rounded-xl shadow-2xl py-2';
@@ -76,7 +77,7 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, openCart }) => {
           {CATEGORIES.map(cat => (
             <li key={cat.id} className="relative group h-full flex items-center">
               <Link
-                to={`/shop?category=${cat.id}`}
+                to={categoryPath(cat.id)}
                 className="inline-flex items-center gap-1 px-3 py-2 text-slate-300 hover:text-amber-400 whitespace-nowrap transition-colors"
               >
                 {cat.name}
@@ -84,14 +85,14 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, openCart }) => {
               </Link>
               <ul className={dropdownPanel}>
                 <li>
-                  <Link to={`/shop?category=${cat.id}`} className={`${dropdownItem} font-semibold text-white`}>
+                  <Link to={categoryPath(cat.id)} className={`${dropdownItem} font-semibold text-white`}>
                     All {cat.name}
                   </Link>
                 </li>
                 {cat.subcategories.map(sub => (
                   <li key={sub}>
                     <Link
-                      to={`/shop?category=${cat.id}&sub=${encodeURIComponent(sub)}`}
+                      to={categoryPath(cat.id, sub)}
                       className={dropdownItem}
                     >
                       {sub}

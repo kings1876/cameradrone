@@ -8,7 +8,7 @@ export const FAQPage: React.FC = () => {
 
   return (
     <div className="bg-[#0b0f17] py-8">
-      <FAQSection />
+      <FAQSection asH1 />
     </div>
   );
 };

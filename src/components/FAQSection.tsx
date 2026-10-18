@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, Search, HelpCircle, ShieldAlert } from 'lucide-react';
 import { FAQ_LIST } from '../data/content';
 
-export const FAQSection: React.FC = () => {
+export const FAQSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => {
+  const Title = asH1 ? 'h1' : 'h2';
   const [searchTerm, setSearchTerm] = useState('');
   const [openIds, setOpenIds] = useState<string[]>(['faq-1', 'faq-4']);
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
@@ -32,9 +33,9 @@ export const FAQSection: React.FC = () => {
             <HelpCircle className="w-4 h-4" />
             <span>Pilot Knowledge Base</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-white font-display tracking-tight">
+          <Title className="text-3xl sm:text-4xl font-black text-white font-display tracking-tight">
             Frequently Asked Questions
-          </h2>
+          </Title>
           <p className="text-sm text-slate-400 max-w-xl mx-auto">
             Clear guidelines on Australian CASA flight rules, 10% crypto payment deductions, warranty protection, and nationwide express shipping.
           </p>

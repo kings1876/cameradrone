@@ -3,7 +3,8 @@ import { Mail, Phone, MapPin, Clock, Send, CheckCircle2, ShieldCheck } from 'luc
 import { postForm } from '../lib/reply';
 import { BUSINESS } from '../business';
 
-export const ContactSection: React.FC = () => {
+export const ContactSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => {
+  const Title = asH1 ? 'h1' : 'h2';
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
@@ -39,9 +40,9 @@ export const ContactSection: React.FC = () => {
               <span className="text-xs text-amber-400 font-semibold uppercase tracking-wider block mb-1">
                 Australian Support Operations
               </span>
-              <h2 className="text-3xl sm:text-4xl font-black text-white font-display tracking-tight">
+              <Title className="text-3xl sm:text-4xl font-black text-white font-display tracking-tight">
                 Connect with Our Flight Specialists
-              </h2>
+              </Title>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">
                 Whether you need advice choosing between camera, enterprise and agricultural drones, assistance with CASA commercial classifications, or guidance on crypto checkout settlements, our Australian flight technicians are standing by.
               </p>

@@ -8,7 +8,7 @@ export const AboutPage: React.FC = () => {
 
   return (
     <div className="bg-[#0b0f17]">
-      <AboutSection />
+      <AboutSection asH1 />
     </div>
   );
 };

@@ -1,6 +1,8 @@
 import { PRODUCT_KEYWORDS } from '../data/keywords';
 import React, { useState, useMemo, useEffect } from 'react';
-import { useNavigate, useSearchParams, Link } from 'react-router-dom';
+import { useNavigate, useSearchParams, useParams, Link } from 'react-router-dom';
+import { categoryPath, findCategory, findSubcategory } from '../routes';
+import { categoryIntro } from '../data/categoryCopy';
 import { Search, SlidersHorizontal, Truck, Zap, ShieldCheck, ArrowRight, RotateCcw } from 'lucide-react';
 import { PRODUCTS, CATEGORIES } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
@@ -21,23 +23,34 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
   }, []);
 
   const [searchParams] = useSearchParams();
+  const { cat: catParam, sub: subParam } = useParams<{ cat?: string; sub?: string }>();
   const [searchQuery, setSearchQuery] = useState(searchParams.get('q') || '');
-  const [selectedCategory, setSelectedCategory] = useState<string>(searchParams.get('category') || 'all');
-  const [selectedSubcategory, setSelectedSubcategory] = useState<string>(searchParams.get('sub') || 'all');
 
-  // Keep filters in sync when the top-nav category menu links here
+  // Category and subcategory come from the crawlable path: /category/<id>/<sub-slug>
+  const routeCategory = findCategory(catParam);
+  const routeSub = findSubcategory(routeCategory, subParam);
+  const selectedCategory: string = routeCategory?.id ?? 'all';
+  const selectedSubcategory: string = routeSub ?? 'all';
+
+  // Old /shop?category=...&sub=... links redirect to the canonical path
   useEffect(() => {
-    setSelectedCategory(searchParams.get('category') || 'all');
-    setSelectedSubcategory(searchParams.get('sub') || 'all');
+    const legacy = searchParams.get('category');
+    if (legacy && !catParam && findCategory(legacy)) {
+      navigate(categoryPath(legacy, searchParams.get('sub')), { replace: true });
+    }
+  }, [searchParams, catParam, navigate]);
+
+  useEffect(() => {
     setSearchQuery(searchParams.get('q') || '');
   }, [searchParams]);
   const [selectedBadge, setSelectedBadge] = useState<string>('all');
   const [sortBy, setSortBy] = useState<'featured' | 'price-low' | 'price-high'>('featured');
   const [page, setPage] = useState(1);
 
-  const handleCategorySelect = (categoryId: string) => {
-    setSelectedCategory(categoryId);
-    setSelectedSubcategory('all');
+  const resetFilters = () => {
+    setSearchQuery('');
+    setSelectedBadge('all');
+    navigate('/shop');
   };
 
   const availableSubcategories = useMemo(() => {
@@ -73,6 +86,8 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
   const activeCategoryObject = CATEGORIES.find(c => c.id === selectedCategory);
   const shopHeading = selectedSubcategory !== 'all' ? `${selectedSubcategory} for Sale in Australia` : activeCategoryObject ? `${activeCategoryObject.name} for Sale in Australia` : 'Drones for Sale in Australia';
 
+  const intro = categoryIntro(routeCategory?.id, routeSub);
+
   const totalPages = Math.max(1, Math.ceil(filteredProducts.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);
   const pageStart = (currentPage - 1) * PAGE_SIZE;
@@ -105,11 +120,21 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
             <div className="flex items-center gap-2">
               <Link to="/" className="hover:text-white transition-colors">Home</Link>
               <span>/</span>
-              <span className="text-amber-400 font-semibold">Shop Catalog</span>
+              <Link to="/shop" className={activeCategoryObject ? 'hover:text-white transition-colors' : 'text-amber-400 font-semibold'}>Shop Catalog</Link>
               {activeCategoryObject && (
                 <>
                   <span>/</span>
-                  <span className="text-slate-200">{activeCategoryObject.name}</span>
+                  {routeSub ? (
+                    <Link to={categoryPath(activeCategoryObject.id)} className="hover:text-white transition-colors">{activeCategoryObject.name}</Link>
+                  ) : (
+                    <span className="text-slate-200">{activeCategoryObject.name}</span>
+                  )}
+                  {routeSub && (
+                    <>
+                      <span>/</span>
+                      <span className="text-slate-200">{routeSub}</span>
+                    </>
+                  )}
                 </>
               )}
             </div>
@@ -133,7 +158,9 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
                 {shopHeading}
               </h1>
               <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-2xl leading-relaxed">
-                Browse DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, and batteries and accessories.
+                {intro
+                  ? `${intro.lead} ${intro.why}`
+                  : 'Browse DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, cameras and sensors, and batteries and accessories, all priced in AUD with free shipping Australia-wide.'}
               </p>
             </div>
 
@@ -157,10 +184,9 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
           </h2>
           <ul className="space-y-1">
             <li>
-              <button
-                type="button"
-                aria-pressed={selectedCategory === 'all'}
-                onClick={() => handleCategorySelect('all')}
+              <Link
+                to="/shop"
+                aria-current={selectedCategory === 'all' ? 'page' : undefined}
                 className={`w-full flex items-center justify-between gap-2 px-3 py-2 rounded-lg text-sm text-left transition-colors ${
                   selectedCategory === 'all'
                     ? 'bg-amber-500 text-slate-950 font-bold'
@@ -169,17 +195,16 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
               >
                 <span>All Equipment</span>
                 <span className="text-[11px] font-mono opacity-80">{PRODUCTS.length}</span>
-              </button>
+              </Link>
             </li>
             {CATEGORIES.map(cat => {
               const count = PRODUCTS.filter(p => p.category === cat.id).length;
               const isActive = selectedCategory === cat.id;
               return (
                 <li key={cat.id}>
-                  <button
-                    type="button"
-                    aria-pressed={isActive}
-                    onClick={() => handleCategorySelect(cat.id)}
+                  <Link
+                    to={categoryPath(cat.id)}
+                    aria-current={isActive && selectedSubcategory === 'all' ? 'page' : undefined}
                     className={`w-full flex items-center justify-between gap-2 px-3 py-2 rounded-lg text-sm text-left transition-colors ${
                       isActive
                         ? 'bg-amber-500 text-slate-950 font-bold'
@@ -188,27 +213,23 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
                   >
                     <span>{cat.name}</span>
                     <span className="text-[11px] font-mono opacity-80">{count}</span>
-                  </button>
+                  </Link>
                   <ul className="mt-1 mb-2 ml-3 pl-3 border-l border-slate-800 space-y-0.5">
                     {cat.subcategories.map(sub => {
                       const subActive = isActive && selectedSubcategory === sub;
                       return (
                         <li key={sub}>
-                          <button
-                            type="button"
-                            aria-pressed={subActive}
-                            onClick={() => {
-                              setSelectedCategory(cat.id);
-                              setSelectedSubcategory(sub);
-                            }}
-                            className={`w-full text-left px-2 py-1 text-xs rounded-md transition-colors ${
+                          <Link
+                            to={categoryPath(cat.id, sub)}
+                            aria-current={subActive ? 'page' : undefined}
+                            className={`block w-full text-left px-2 py-1 text-xs rounded-md transition-colors ${
                               subActive
                                 ? 'text-amber-400 font-bold'
                                 : 'text-slate-400 hover:text-white'
                             }`}
                           >
                             {sub}
-                          </button>
+                          </Link>
                         </li>
                       );
                     })}
@@ -270,12 +291,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
 
           {(searchQuery || selectedCategory !== 'all' || selectedSubcategory !== 'all' || selectedBadge !== 'all') && (
             <button
-              onClick={() => {
-                setSearchQuery('');
-                setSelectedCategory('all');
-                setSelectedSubcategory('all');
-                setSelectedBadge('all');
-              }}
+              onClick={resetFilters}
               className="text-amber-400 hover:underline inline-flex items-center gap-1 text-[11px]"
             >
               <RotateCcw className="w-3 h-3" />
@@ -293,12 +309,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
             </p>
             <button
               type="button"
-              onClick={() => {
-                setSearchQuery('');
-                setSelectedCategory('all');
-                setSelectedSubcategory('all');
-                setSelectedBadge('all');
-              }}
+              onClick={resetFilters}
               className="px-4 py-2 text-xs font-semibold text-slate-950 bg-amber-500 rounded-lg"
             >
               Reset Filters & Show All
