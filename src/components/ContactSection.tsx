@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { PAGE_COPY } from '../data/pageCopy';
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle2, ShieldCheck } from 'lucide-react';
 import { postForm } from '../lib/reply';
 import { BUSINESS } from '../business';
@@ -46,6 +47,7 @@ export const ContactSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) =
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">
                 Whether you need advice choosing between camera, enterprise and agricultural drones, assistance with CASA commercial classifications, or guidance on crypto checkout settlements, our Australian flight technicians are standing by.
               </p>
+              {asH1 && <p className="text-sm text-slate-300 mt-3 leading-relaxed">{PAGE_COPY.contact}</p>}
             </div>
 
             <div className="space-y-4 pt-4 border-t border-slate-800 text-xs">

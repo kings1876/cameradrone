@@ -1,4 +1,5 @@
 import React from 'react';
+import { PAGE_COPY } from '../data/pageCopy';
 import { ShieldCheck, Truck, Zap, Award, Compass, MapPin, CheckCircle } from 'lucide-react';
 import { BRAND_MILESTONES } from '../data/content';
 import { BUSINESS } from '../business';
@@ -28,6 +29,7 @@ export const AboutSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => 
               <p>
                 Our catalog runs from compact travel drones like the DJI Mini 4 Pro and professional platforms like the DJI Mavic 3 Pro and Inspire 3, to DJI Matrice enterprise and thermal drones, XAG and BROUAV agricultural spraying drones, and batteries and accessories. Every item is <strong>genuine Australian stock</strong> supported by local consumer guarantees.
               </p>
+              {asH1 && <p>{PAGE_COPY.about}</p>}
               <p>
                 We distribute nationwide across New South Wales, Victoria, Queensland, Western Australia, South Australia, Tasmania, ACT, and the Northern Territory, backed by express courier logistics and a streamlined order form supporting modern cryptocurrency payments with a permanent 10% discount.
               </p>

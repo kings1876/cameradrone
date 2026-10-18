@@ -306,3 +306,10 @@ export const PAGE_KEYWORDS: Record<string, KeywordSet> = {
   "contact": { primary: "drone repairs near me", supporting: ["drone repair near me", "dji repair near me", "dji australia official service centre", "drone repairs perth"] },
   "about": { primary: "uav companies australia", supporting: ["drone sales", "dji enterprise drones", "commercial drones australia"] },
 };
+
+// Blog posts: measured commercial-intent terms (Semrush AU, docs/keyword-research-au-2026-10.csv)
+export const BLOG_KEYWORDS: Record<string, KeywordSet> = {
+  "best-drone-for-sale-australia-2026-buyers-guide": { primary: "best drone photography", supporting: ["drone camera", "camera drones australia", "4k camera drone", "dji neo drone review"] },
+  "enterprise-drones-matrice-mavic-3-enterprise-guide": { primary: "commercial drones", supporting: ["dji matrice 4", "commercial drones australia", "dji mavic 3 thermal drone", "infrared inspection camera", "thermal imaging inspection camera"] },
+  "agricultural-spraying-drones-australia-guide": { primary: "agriculture drones", supporting: ["agricultural drone", "uav for farming", "crop spraying drone", "agriculture drone spraying", "drone sprayer"] },
+};

@@ -7,6 +7,7 @@ import { SITE_URL, SITE_NAME } from '../src/seo';
 import { metaFor, abs } from '../src/components/RouteSeo';
 import { categoryPath, slugify } from '../src/routes';
 import { categoryIntro } from '../src/data/categoryCopy';
+import { PAGE_COPY, seoParagraph, blogParagraph } from '../src/data/pageCopy';
 import { relatedFor } from '../src/components/RelatedProducts';
 import { BUSINESS } from '../src/business';
 import { webpSrcSet, IMAGE_SIZES } from '../src/components/ProductImage';
@@ -57,7 +58,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
   if (pathname === '/') {
     const featured = PRODUCTS.filter(p => p.isFeatured).slice(0, 12);
     return main(
-      `<h1>Premier Camera Drones For Sale in Australia</h1><p>${esc(description)}</p>` +
+      `<h1>Premier Camera Drones For Sale in Australia</h1><p>${esc(description)}</p><p>${esc(PAGE_COPY.home)}</p>` +
         `<h2>Shop drones by category</h2><ul>${CATEGORIES.map(c => `<li>${link(categoryPath(c.id), c.name)}</li>`).join('')}</ul>` +
         `<h2>Featured drones and equipment</h2>${productList(featured)}` +
         `<h2>Buying guides</h2><ul>${BLOG_POSTS.map(b => `<li>${link(`/blog/${b.slug}`, b.title)}</li>`).join('')}</ul>`
@@ -75,7 +76,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
     if (sub) crumbs.push(['', sub]);
     const subs = cat && !sub ? `<h2>${esc(cat.name)} subcategories</h2><ul>${cat.subcategories.map(s => `<li>${link(categoryPath(cat.id, s), s)}</li>`).join('')}</ul>` : '';
     return main(
-      `${crumbList(crumbs)}<h1>${esc(h1)}</h1><p>${esc(intro ? `${intro.lead} ${intro.why}` : description)}</p>` +
+      `${crumbList(crumbs)}<h1>${esc(h1)}</h1><p>${esc(intro ? `${intro.lead} ${intro.why}` : description)}</p><p>${esc((cat ? seoParagraph(cat.id, sub) : null) ?? PAGE_COPY.shop)}</p>` +
         subs + `<h2>${esc(String(items.length))} products</h2>${productList(items)}`
     );
   }
@@ -102,7 +103,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
 
   if (pathname === '/blog') {
     return main(
-      `<h1>${esc(h1)}</h1><p>${esc(description)}</p><ul>${BLOG_POSTS.map(b => `<li>${link(`/blog/${b.slug}`, b.title)} – ${esc(b.excerpt)}</li>`).join('')}</ul>`
+      `<h1>${esc(h1)}</h1><p>${esc(description)}</p><p>${esc(PAGE_COPY.blog)}</p><ul>${BLOG_POSTS.map(b => `<li>${link(`/blog/${b.slug}`, b.title)} – ${esc(b.excerpt)}</li>`).join('')}</ul>`
     );
   }
 
@@ -113,17 +114,19 @@ function bodyFor(pathname: string, h1: string, description: string): string {
         `<article><h1>${esc(post.title)}</h1><p>${esc(post.subtitle)}</p>` +
         (post.image ? `<img src="${esc(post.image)}" alt="${esc(post.imageAlt || post.title)}" width="1200" height="675" loading="lazy" decoding="async">` : '') +
         post.content.map(t => `<p>${esc(t)}</p>`).join('') +
+        (blogParagraph(post.slug) ? `<p>${esc(blogParagraph(post.slug)!)}</p>` : '') +
         `<h2>Shop related products</h2><ul>${CATEGORIES.map(c => `<li>${link(categoryPath(c.id), c.name)}</li>`).join('')}</ul></article>`
     );
   }
 
   if (pathname === '/faq') {
     return main(
-      `<h1>${esc(h1)}</h1>` + FAQ_LIST.map(f => `<h2>${esc(f.question)}</h2><p>${esc(f.answer)}</p>`).join('')
+      `<h1>${esc(h1)}</h1><p>${esc(PAGE_COPY.faq)}</p>` + FAQ_LIST.map(f => `<h2>${esc(f.question)}</h2><p>${esc(f.answer)}</p>`).join('')
     );
   }
 
-  return main(`<h1>${esc(h1)}</h1><p>${esc(description)}</p>`);
+  const extra = pathname === '/about' ? PAGE_COPY.about : pathname === '/contact' ? PAGE_COPY.contact : '';
+  return main(`<h1>${esc(h1)}</h1><p>${esc(description)}</p>${extra ? `<p>${esc(extra)}</p>` : ''}`);
 }
 
 const H1: Record<string, string> = {

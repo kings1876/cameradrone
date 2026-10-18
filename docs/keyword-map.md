@@ -807,3 +807,8 @@ Each product has one transactional primary (price / buy / sale / model-purchase 
 | DJI FC100 Parachute Kit | 4,620 | dji fc100 parachute kit price | drones for logistics (50); delivery drones (260); delivery drone (140) |
 | DJI Dock 3 Vehicle-Mounted Gimbal Mount | 490 | dji dock 3 vehicle mounted gimbal mount price | delivery drones (260); delivery drone (140); drones for logistics (50) |
 | DJI O4 Ground Station | 3,570 | dji o4 ground station price | commercial drones australia (50); camera uav (880); drone camera (2400) |
+
+
+## Pages and blog posts: keyword copy (Oct 2026)
+
+Home, shop, blog index, FAQ, About, Contact, every category and every subcategory page now contain their primary and all supporting keywords in the visible copy and in the prerendered HTML (`src/data/pageCopy.ts`). Blog posts have measured commercial keyword sets in `BLOG_KEYWORDS` (`src/data/keywords.ts`): best drone photography (guide), commercial drones (enterprise guide), agriculture drones (spraying guide).

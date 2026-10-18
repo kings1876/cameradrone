@@ -1,3 +1,4 @@
+import { blogParagraph } from '../data/pageCopy';
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, Tag, Share2, BookOpen } from 'lucide-react';
@@ -84,6 +85,7 @@ export const BlogPostPage: React.FC = () => {
           {post.content.map((para, i) => (
             <p key={i}>{para}</p>
           ))}
+          {blogParagraph(post.slug) && <p>{blogParagraph(post.slug)}</p>}
         </div>
 
         {/* Target Keywords Hub */}

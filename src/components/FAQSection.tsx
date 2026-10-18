@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { PAGE_COPY } from '../data/pageCopy';
 import { ChevronDown, ChevronUp, Search, HelpCircle, ShieldAlert } from 'lucide-react';
 import { FAQ_LIST } from '../data/content';
 
@@ -40,6 +41,7 @@ export const FAQSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => {
           <p className="text-sm text-slate-400 max-w-xl mx-auto">
             Clear guidelines on Australian CASA flight rules, 10% crypto payment deductions, warranty protection, and nationwide express shipping.
           </p>
+          {asH1 && <p className="text-sm text-slate-400 max-w-xl mx-auto mt-3">{PAGE_COPY.faq}</p>}
         </div>
 
         {/* Search & Filter Tabs */}
