@@ -90,7 +90,7 @@ export const QuotePage: React.FC = () => {
 
   if (done?.ok) {
     return (
-      <main className="min-h-[60vh] bg-[#0b0f17] text-white">
+      <div className="min-h-[60vh] bg-[#0b0f17] text-white">
         <div className="max-w-xl mx-auto px-4 py-20 text-center space-y-4">
           <CheckCircle2 className="w-12 h-12 text-emerald-400 mx-auto" />
           <h1 className="text-3xl font-black font-display">Quote request received</h1>
@@ -107,12 +107,12 @@ export const QuotePage: React.FC = () => {
             </Link>
           </div>
         </div>
-      </main>
+      </div>
     );
   }
 
   return (
-    <main className="bg-[#0b0f17] text-white">
+    <div className="bg-[#0b0f17] text-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 sm:py-14 grid grid-cols-1 lg:grid-cols-5 gap-10">
         <div className="lg:col-span-2 space-y-5">
           <span className="text-xs text-amber-400 font-semibold uppercase tracking-wider">Enterprise, sensors &amp; spraying</span>
@@ -133,7 +133,7 @@ export const QuotePage: React.FC = () => {
             </li>
           </ul>
           <p className="text-xs text-slate-400">
-            Looking for a consumer drone or battery? <Link to="/shop" className="text-amber-400 hover:underline">Shop and buy online</Link>.
+            Looking for a consumer drone or battery? <Link to="/shop" className="text-amber-400 underline">Shop and buy online</Link>.
           </p>
         </div>
 
@@ -250,6 +250,6 @@ export const QuotePage: React.FC = () => {
           </button>
         </form>
       </div>
-    </main>
+    </div>
   );
 };

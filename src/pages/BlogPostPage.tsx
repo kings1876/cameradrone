@@ -103,7 +103,7 @@ export const BlogPostPage: React.FC = () => {
         {/* Recommended Flight Hardware Section */}
         <div className="pt-8 border-t border-slate-800 space-y-4">
           <div className="flex items-center justify-between">
-            <h3 className="text-lg font-bold text-white font-display">Featured Systems in This Article</h3>
+            <h2 className="text-lg font-bold text-white font-display">Featured Systems in This Article</h2>
             <Link to="/shop" className="text-xs text-amber-400 hover:underline">View All Equipment →</Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -114,9 +114,9 @@ export const BlogPostPage: React.FC = () => {
                 className="p-3.5 bg-[#0f172a] rounded-xl border border-slate-800 hover:border-amber-500/50 transition-colors block group"
               >
                 <span className="text-[10px] font-mono text-amber-400 uppercase tracking-wider block">{p.brand}</span>
-                <h4 className="text-xs font-bold text-white group-hover:text-amber-400 transition-colors truncate mt-0.5">
+                <h3 className="text-xs font-bold text-white group-hover:text-amber-400 transition-colors truncate mt-0.5">
                   {p.name}
-                </h4>
+                </h3>
                 <div className="flex justify-between items-baseline mt-2 text-xs font-mono">
                   <span className="text-white font-bold">${p.price.toLocaleString()}</span>
                   <span className="text-emerald-400 text-[10px]">Free AU Delivery</span>

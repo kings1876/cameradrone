@@ -269,6 +269,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
             {/* Sort Order */}
             <div className="sm:col-span-4">
               <select
+                aria-label="Sort products"
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value as any)}
                 className="w-full bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-2 text-xs text-slate-300 focus:outline-hidden focus:border-amber-400"

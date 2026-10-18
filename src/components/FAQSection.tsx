@@ -4,6 +4,7 @@ import { FAQ_LIST } from '../data/content';
 
 export const FAQSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => {
   const Title = asH1 ? 'h1' : 'h2';
+  const Item = asH1 ? 'h2' : 'h3';
   const [searchTerm, setSearchTerm] = useState('');
   const [openIds, setOpenIds] = useState<string[]>(['faq-1', 'faq-4']);
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
@@ -109,9 +110,9 @@ export const FAQSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => {
                       <span className="text-[10px] text-amber-400 font-mono uppercase tracking-wider block mb-1">
                         {faq.category}
                       </span>
-                      <h3 className="text-sm font-bold text-white font-display">
+                      <Item className="text-sm font-bold text-white font-display">
                         {faq.question}
-                      </h3>
+                      </Item>
                     </div>
                     <span className="text-slate-400 shrink-0">
                       {isOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}

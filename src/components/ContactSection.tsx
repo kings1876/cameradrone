@@ -52,7 +52,7 @@ export const ContactSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) =
               <div className="flex items-start gap-3.5 p-3.5 bg-slate-900/60 rounded-xl border border-slate-800">
                 <MapPin className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-white uppercase tracking-wider text-[11px]">National Headquarters & Dispatch</h4>
+                  <p className="font-bold text-white uppercase tracking-wider text-[11px]">National Headquarters & Dispatch</p>
                   <p className="text-slate-300 mt-0.5">Nationwide Warehousing & Logistics Hubs, Australia</p>
                   <p className="text-slate-400 text-[10px] mt-0.5">Dispatches daily to NSW, VIC, QLD, WA, SA, TAS, ACT, NT</p>
                 </div>
@@ -61,7 +61,7 @@ export const ContactSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) =
               <div className="flex items-start gap-3.5 p-3.5 bg-slate-900/60 rounded-xl border border-slate-800">
                 <Mail className="w-5 h-5 text-sky-400 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-white uppercase tracking-wider text-[11px]">Direct Inquiries & Order Desk</h4>
+                  <p className="font-bold text-white uppercase tracking-wider text-[11px]">Direct Inquiries & Order Desk</p>
                   <p className="mt-0.5 font-mono"><a href="mailto:koloonjo@gmail.com" className="text-slate-300 hover:text-amber-400 underline-offset-2 hover:underline">koloonjo@gmail.com</a></p>
                   <p className="text-slate-400 text-[10px] mt-0.5">Priority response within 1 business hour</p>
                 </div>
@@ -70,7 +70,7 @@ export const ContactSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) =
               <div className="flex items-start gap-3.5 p-3.5 bg-slate-900/60 rounded-xl border border-slate-800">
                 <ShieldCheck className="w-5 h-5 text-sky-400 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-white uppercase tracking-wider text-[11px]">Business Details</h4>
+                  <p className="font-bold text-white uppercase tracking-wider text-[11px]">Business Details</p>
                   <p className="text-slate-300 mt-0.5">{BUSINESS.name}</p>
                   <p className="text-slate-400 text-[10px] mt-0.5">{BUSINESS.abnDisplay}</p>
                 </div>
@@ -79,7 +79,7 @@ export const ContactSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) =
               <div className="flex items-start gap-3.5 p-3.5 bg-slate-900/60 rounded-xl border border-slate-800">
                 <Clock className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-white uppercase tracking-wider text-[11px]">Operating Hours</h4>
+                  <p className="font-bold text-white uppercase tracking-wider text-[11px]">Operating Hours</p>
                   <p className="text-slate-300 mt-0.5">Monday – Saturday: 8:30 AM – 6:00 PM AEST</p>
                   <p className="text-slate-400 text-[10px] mt-0.5">Sunday: Priority flight order dispatch & live chat</p>
                 </div>
@@ -100,9 +100,9 @@ export const ContactSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) =
                   <div className="w-14 h-14 bg-emerald-950 rounded-full border border-emerald-500/50 flex items-center justify-center mx-auto text-emerald-400">
                     <CheckCircle2 className="w-8 h-8" />
                   </div>
-                  <h3 className="text-xl font-bold text-white font-display">
+                  <h2 className="text-xl font-bold text-white font-display">
                     Inquiry Transmitted Successfully
-                  </h3>
+                  </h2>
                   <p className="text-xs text-slate-300 max-w-md mx-auto">
                     Thank you, <span className="text-white font-semibold">{name}</span>. An Australian flight operations specialist has received your message and will respond to <span className="text-white font-semibold">{email}</span> promptly.
                   </p>
@@ -120,9 +120,9 @@ export const ContactSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) =
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div className="border-b border-slate-800 pb-3">
-                    <h3 className="text-lg font-bold text-white font-display">
+                    <h2 className="text-lg font-bold text-white font-display">
                       Send a Message to Flight Support
-                    </h3>
+                    </h2>
                     <p className="text-xs text-slate-400">
                       Your message goes straight to our operations inbox
                     </p>
@@ -166,7 +166,7 @@ export const ContactSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) =
                     </div>
                     <div>
                       <label className="block text-[11px] text-slate-300 mb-1">Inquiry Topic *</label>
-                      <select
+                      <select aria-label="Enquiry subject"
                         value={subject}
                         onChange={(e) => setSubject(e.target.value)}
                         className="w-full bg-slate-900 border border-slate-700 rounded-lg px-2.5 py-2 text-xs text-white focus:outline-hidden focus:border-amber-400"

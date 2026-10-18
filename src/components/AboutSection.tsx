@@ -38,28 +38,28 @@ export const AboutSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => 
               <div className="flex gap-3">
                 <ShieldCheck className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="text-xs font-bold text-white uppercase tracking-wider">100% Australian Stock & Warranty</h4>
+                  <p className="text-xs font-bold text-white uppercase tracking-wider">100% Australian Stock & Warranty</p>
                   <p className="text-xs text-slate-400 mt-0.5">Full Australian Consumer Law (ACL) coverage and local service centres.</p>
                 </div>
               </div>
               <div className="flex gap-3">
                 <Truck className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="text-xs font-bold text-white uppercase tracking-wider">Free Nationwide Express Delivery</h4>
+                  <p className="text-xs font-bold text-white uppercase tracking-wider">Free Nationwide Express Delivery</p>
                   <p className="text-xs text-slate-400 mt-0.5">Fully insured signature-on-delivery tracking across all states and regional hubs.</p>
                 </div>
               </div>
               <div className="flex gap-3">
                 <Zap className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="text-xs font-bold text-white uppercase tracking-wider">10% Instant Crypto Checkout</h4>
+                  <p className="text-xs font-bold text-white uppercase tracking-wider">10% Instant Crypto Checkout</p>
                   <p className="text-xs text-slate-400 mt-0.5">Direct multi-chain settlement in USDT, BTC, ETH, and SOL with immediate deduction.</p>
                 </div>
               </div>
               <div className="flex gap-3">
                 <Award className="w-5 h-5 text-sky-400 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="text-xs font-bold text-white uppercase tracking-wider">CASA Safety Accreditation</h4>
+                  <p className="text-xs font-bold text-white uppercase tracking-wider">CASA Safety Accreditation</p>
                   <p className="text-xs text-slate-400 mt-0.5">Pre-flight advisory and flight envelope guidance from certified pilots.</p>
                 </div>
               </div>
@@ -71,7 +71,7 @@ export const AboutSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => 
             <div className="p-6 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-5 shadow-xl">
               <div className="border-b border-slate-800 pb-3">
                 <span className="text-[11px] text-amber-400 font-mono uppercase tracking-wider">Australian Market Comparison</span>
-                <h3 className="text-lg font-bold text-white font-display mt-0.5">Why Pilots Choose Our Operations</h3>
+                <h2 className="text-lg font-bold text-white font-display mt-0.5">Why Pilots Choose Our Operations</h2>
               </div>
 
               <div className="space-y-3 text-xs">
@@ -109,14 +109,14 @@ export const AboutSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => 
         <div className="pt-8 border-t border-slate-800">
           <div className="max-w-2xl mb-8">
             <span className="text-xs font-semibold text-amber-400 uppercase tracking-wider">Historical Track Record</span>
-            <h3 className="text-2xl font-bold text-white font-display mt-1">Our Journey Since 2018</h3>
+            <h2 className="text-2xl font-bold text-white font-display mt-1">Our Journey Since 2018</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {BRAND_MILESTONES.map((milestone, idx) => (
               <div key={idx} className="p-4 bg-slate-900/60 rounded-xl border border-slate-800 space-y-2">
                 <span className="text-xs font-bold text-amber-400 font-mono block">{milestone.year}</span>
-                <h4 className="text-sm font-bold text-white leading-snug">{milestone.title}</h4>
+                <h3 className="text-sm font-bold text-white leading-snug">{milestone.title}</h3>
                 <p className="text-xs text-slate-400 leading-relaxed">{milestone.description}</p>
               </div>
             ))}
