@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { PRODUCTS, CATEGORIES } from '../data/products';
 import { BLOG_POSTS, FAQ_LIST } from '../data/content';
-import { blockWords } from '../lib/richText';
 import { SITE_URL, SITE_NAME } from '../seo';
 import { PRODUCT_KEYWORDS, CATEGORY_KEYWORDS, SUBCATEGORY_KEYWORDS, PAGE_KEYWORDS } from '../data/keywords';
 import { categoryPath, findCategory, findSubcategory } from '../routes';
@@ -247,7 +246,7 @@ export function metaFor(pathname: string, search: string): Meta {
           ...(post.image ? { image: abs(post.image) } : {}),
           datePublished: post.dateISO,
           dateModified: post.modifiedISO,
-          wordCount: blockWords(post.content),
+          wordCount: post.wordCount,
           keywords: post.targetKeywords.join(', '),
           inLanguage: 'en-AU',
           author: { '@type': 'Organization', name: SITE_NAME, url: abs('/about') },
@@ -259,11 +258,11 @@ export function metaFor(pathname: string, search: string): Meta {
           { name: 'Blog', path: '/blog' },
           { name: post.title, path: `/blog/${post.slug}` }
         ]),
-        ...(post.content.some(b => typeof b === 'object' && 'faq' in b)
+        ...(post.faq.length
           ? [{
               '@context': 'https://schema.org',
               '@type': 'FAQPage',
-              mainEntity: post.content.flatMap(b => (typeof b === 'object' && 'faq' in b ? b.faq : [])).map(f => ({
+              mainEntity: post.faq.map(f => ({
                 '@type': 'Question',
                 name: f.q,
                 acceptedAnswer: { '@type': 'Answer', text: f.a }

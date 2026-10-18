@@ -1,9 +1,9 @@
-import { BlogPost, FAQItem } from '../types';
+import { BlogSummary, FAQItem } from '../types';
 
-import { BLOG_POSTS as ALL_POSTS } from './blogPosts';
+import { BLOG_SUMMARIES } from './blogMeta';
 
-/** Newest first. */
-export const BLOG_POSTS: BlogPost[] = [...ALL_POSTS].sort((a, b) => b.dateISO.localeCompare(a.dateISO));
+/** Newest first. Article bodies live in blogPosts.ts and load on demand. */
+export const BLOG_POSTS: BlogSummary[] = BLOG_SUMMARIES;
 
 export const FAQ_LIST: FAQItem[] = [
   {

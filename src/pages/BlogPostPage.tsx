@@ -1,6 +1,7 @@
 import { BlogBody } from '../components/BlogBody';
 import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST } from '../lib/imageSets';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Block } from '../types';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, Tag, Share2, BookOpen } from 'lucide-react';
 import { BLOG_POSTS } from '../data/content';
@@ -10,6 +11,20 @@ export const BlogPostPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
 
   const post = BLOG_POSTS.find(p => p.slug === slug || p.id === slug);
+  const [body, setBody] = useState<Block[] | null>(null);
+
+  // Article bodies are a separate chunk, fetched when an article is opened.
+  useEffect(() => {
+    let live = true;
+    setBody(null);
+    import('../data/blogPosts').then(m => {
+      const full = m.BLOG_POSTS.find(p => p.slug === slug || p.id === slug);
+      if (live && full) setBody(full.content);
+    });
+    return () => {
+      live = false;
+    };
+  }, [slug]);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
@@ -82,7 +97,7 @@ export const BlogPostPage: React.FC = () => {
         )}
 
         {/* Article Prose Content */}
-        <BlogBody blocks={post.content} />
+        {body ? <BlogBody blocks={body} /> : <p className="text-sm text-slate-400">Loading article…</p>}
 
         {/* Recommended Flight Hardware Section */}
         <div className="pt-8 border-t border-slate-800 space-y-4">

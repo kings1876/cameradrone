@@ -93,6 +93,8 @@ export interface BlogPost {
   targetKeywords: string[];
 }
 
+export type BlogSummary = Omit<BlogPost, 'content'> & { wordCount: number; faq: { q: string; a: string }[] };
+
 export interface FAQItem {
   id: string;
   category: 'CASA Regulations' | 'Shipping & Delivery' | 'Crypto & Discounts' | 'Warranty & Returns' | 'Hardware & Selection';
