@@ -75,7 +75,7 @@ export const BlogPostPage: React.FC = () => {
           <div className="bg-slate-900 rounded-2xl h-64 sm:h-96 overflow-hidden">
             <picture>
                     <source srcSet={post.image.replace(/\.webp$/, '.avif')} type="image/avif" />
-                    <img src={post.image} alt={post.imageAlt ?? post.title} width={1600} height={900} className="w-full h-full object-cover" />
+                    <img src={post.image} alt={post.imageAlt ?? post.title} width={1600} height={900} fetchPriority="high" className="w-full h-full object-cover" />
                   </picture>
           </div>
         )}

@@ -113,7 +113,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
     return main(
       crumbList([['/', 'Home'], ['/blog', 'Blog'], ['', post.title]]) +
         `<article><h1>${esc(post.title)}</h1><p>${esc(post.subtitle)}</p>` +
-        (post.image ? `<img src="${esc(post.image)}" alt="${esc(post.imageAlt || post.title)}" width="1200" height="675" loading="lazy" decoding="async">` : '') +
+        (post.image ? `<img src="${esc(post.image)}" alt="${esc(post.imageAlt || post.title)}" width="1200" height="675" fetchpriority="high" decoding="async">` : '') +
         post.content.map(t => `<p>${esc(t)}</p>`).join('') +
         (blogParagraph(post.slug) ? `<p>${esc(blogParagraph(post.slug)!)}</p>` : '') +
         `<h2>Shop related products</h2><ul>${CATEGORIES.map(c => `<li>${link(categoryPath(c.id), c.name)}</li>`).join('')}</ul></article>`
@@ -154,6 +154,11 @@ export interface Page {
 }
 
 function preloadFor(path: string): string {
+  if (path === '/') return '<link rel="preload" as="image" type="image/avif" href="/images/home-hero.avif" fetchpriority="high" />';
+  if (path.startsWith('/blog/')) {
+    const post = BLOG_POSTS.find(b => '/blog/' + b.slug === path);
+    return post?.image ? `<link rel="preload" as="image" type="image/avif" href="${esc(post.image.replace(/\.webp$/, '.avif'))}" fetchpriority="high" />` : '';
+  }
   if (!path.startsWith('/product/')) return '';
   const p = PRODUCTS.find(x => '/product/' + x.slug === path);
   const img = p?.images?.[0];
