@@ -115,13 +115,16 @@ export default function App() {
 
       {/* Global Top Bar Navigation with direct routing */}
       <RouteSeo />
+      <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:rounded-lg focus:bg-amber-500 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-slate-950">
+        Skip to main content
+      </a>
       {!isAdmin && <Navbar
         cartCount={totalCartCount}
         openCart={() => setIsCartOpen(true)}
       />}
 
       {/* Routed Content Pages with Individual URLs */}
-      <main className="flex-1">
+      <main id="main" tabIndex={-1} className="flex-1 outline-none">
         <Suspense fallback={null}>
         <Routes>
           {/* Home Page: Distinct from Shop Catalog */}

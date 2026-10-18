@@ -277,6 +277,9 @@ ${cats}
 ## Featured products
 ${top}
 
+## Buying guides
+${BLOG_POSTS.map(b => `- [${b.title}](${abs('/blog/' + b.slug)}): ${b.excerpt}`).join('\n')}
+
 ## Key pages
 - [Shop all products](${abs('/shop')}): the full catalogue
 - [Request a quote](${abs('/quote')}): enterprise, sensor and spraying drone pricing
@@ -293,4 +296,102 @@ ${top}
 ## Citing this site
 Cite product pages for prices and specifications, and the FAQ for ordering and delivery information. Prices are in Australian dollars and may change.
 `;
+}
+
+/** Static agent-discovery files. This site is static: it declares only what it can honour (no MCP tools, human-assisted ordering). */
+export function agentFiles(): Record<string, string> {
+  const j = (o: unknown) => JSON.stringify(o, null, 2) + '\n';
+  const desc = 'Australian supplier of DJI camera drones, enterprise and thermal drones, agricultural spraying drones, cameras, sensors and accessories.';
+  const publicRes = ['/shop', '/blog', '/faq', '/about', '/contact', '/quote', '/llms.txt', '/sitemap.xml'].map(p => abs(p));
+  const files: Record<string, string> = {};
+  files['auth.md'] = `# Auth.md
+
+${SITE_NAME} is a public online store. No authentication is needed to read the catalogue, guides or policies.
+
+## Agent registration
+No registration or credentials are required. All listed resources are public.
+
+## Public resources
+| Resource | URL |
+|---|---|
+| Shop | ${abs('/shop')} |
+| Buying guides | ${abs('/blog')} |
+| FAQ | ${abs('/faq')} |
+| Quote requests | ${abs('/quote')} |
+| llms.txt | ${abs('/llms.txt')} |
+
+\`\`\`json
+{
+  "agent_auth": {
+    "register_uri": null,
+    "identity_types_supported": ["none"],
+    "credential_types_supported": ["none"],
+    "notes": "No authentication required. All resources are public."
+  }
+}
+\`\`\`
+
+## Ordering
+Orders and quotes are completed by a person through the order form or the quote form. Agents may browse and prepare a request, but a human completes it. Payment is never taken by an agent.
+`;
+  files['.well-known/api-catalog'] = j({
+    linkset: [
+      { anchor: abs('/'), 'service-doc': [{ href: abs('/faq') }], title: SITE_NAME },
+      { anchor: abs('/shop'), type: 'text/html', title: SITE_NAME + ' product catalogue' },
+      { anchor: abs('/sitemap.xml'), type: 'application/xml', title: 'Sitemap' }
+    ]
+  });
+  files['.well-known/agent-skills/index.json'] = j({
+    $schema: 'https://agentskills.io/schema/v0.2.0/index.json',
+    name: SITE_NAME,
+    url: abs('/'),
+    description: desc,
+    skills: [
+      ['browse-products', 'navigation', 'Browse the full product catalogue by category', '/shop'],
+      ['read-buying-guides', 'content', 'Buying guides on drones, thermal, LiDAR, FPV and spraying', '/blog'],
+      ['request-quote', 'commerce', 'Request a quote for enterprise, sensor and spraying drones', '/quote'],
+      ['contact', 'support', 'Contact the team for product advice', '/contact']
+    ].map(([name, type, description, p]) => ({ name, type, description, url: abs(p), sha256: 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855' }))
+  });
+  files['.well-known/mcp/server-card.json'] = j({
+    $schema: 'https://modelcontextprotocol.io/schemas/server-card/v1.json',
+    serverInfo: { name: SITE_NAME, version: '1.0.0', description: desc, homepage: abs('/') },
+    transport: { type: 'none', note: 'Static website. No live MCP endpoint; resources are public pages.' },
+    capabilities: {
+      resources: [
+        { name: 'product-catalogue', description: 'Full product catalogue', uri: abs('/shop') },
+        { name: 'buying-guides', description: 'Buying guides', uri: abs('/blog') },
+        { name: 'faq', description: 'CASA, shipping, payment and warranty answers', uri: abs('/faq') }
+      ],
+      commerce: { ordering: 'human-assisted (order form or quote form)', currency: 'AUD', ships: 'Australia-wide, free' }
+    }
+  });
+  files['.well-known/oauth-protected-resource'] = j({
+    resource: abs('/'), resource_name: SITE_NAME + ' public catalogue', authorization_servers: [], scopes_supported: [], bearer_methods_supported: [],
+    resource_documentation: abs('/auth.md'), note: 'All resources are public. No OAuth tokens are required.'
+  });
+  files['.well-known/oauth-authorization-server'] = j({
+    issuer: abs('/'), authorization_endpoint: null, token_endpoint: null, jwks_uri: null, grant_types_supported: [], response_types_supported: [], scopes_supported: [],
+    note: SITE_NAME + ' has no protected APIs.', public_resources: publicRes,
+    agent_auth: { register_uri: null, identity_types_supported: ['none'], credential_types_supported: ['none'], notes: 'No registration required.' }
+  });
+  files['.well-known/openid-configuration'] = j({
+    issuer: abs('/'), note: SITE_NAME + ' does not operate an OpenID Connect provider.', public_site: true,
+    authorization_endpoint: null, token_endpoint: null, userinfo_endpoint: null, jwks_uri: null, scopes_supported: [], response_types_supported: [], grant_types_supported: [], subject_types_supported: [], id_token_signing_alg_values_supported: []
+  });
+  files['.well-known/acp.json'] = j({
+    protocol: { name: 'acp', version: '0.1.0' }, name: SITE_NAME, description: desc, api_base_url: abs('/'), homepage: abs('/'), transports: ['https'],
+    capabilities: { services: ['product-catalogue', 'buying-guides', 'faq', 'quote'], ordering: 'human-assisted', currency: 'AUD' },
+    contact: { page: abs('/contact') }, legal: { region: 'Australia', ships_to: 'Australia', product_type: 'drones and accessories' }
+  });
+  files['.well-known/ucp'] = j({
+    ucp: '1.0', protocol_version: '1.0', spec: 'https://ucp.dev/specification/overview/', schema: 'https://ucp.dev/schema/v1.json', site: abs('/'), name: SITE_NAME, description: desc,
+    services: [
+      { id: 'product-catalogue', type: 'catalog', url: abs('/shop'), description: 'Full product catalogue' },
+      { id: 'quote', type: 'commerce', url: abs('/quote'), description: 'Request a quote (human-assisted)' }
+    ],
+    capabilities: ['browse', 'inquiry', 'content'], currency: 'AUD',
+    endpoints: { catalog: abs('/shop'), contact: abs('/contact'), llms_txt: abs('/llms.txt'), api_catalog: abs('/.well-known/api-catalog') }
+  });
+  return files;
 }

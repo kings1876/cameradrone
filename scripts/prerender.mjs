@@ -29,5 +29,10 @@ for (const page of pages) {
 fs.writeFileSync('dist/sitemap.xml', mod.sitemapXml());
 fs.writeFileSync('dist/robots.txt', mod.robotsTxt());
 fs.writeFileSync('dist/llms.txt', mod.llmsTxt());
+for (const [rel, body] of Object.entries(mod.agentFiles())) {
+  const dest = path.join('dist', rel);
+  fs.mkdirSync(path.dirname(dest), { recursive: true });
+  fs.writeFileSync(dest, body);
+}
 fs.rmSync(out, { force: true });
 console.log(`prerendered ${pages.length} pages + sitemap.xml, robots.txt, llms.txt`);

@@ -279,6 +279,7 @@ export function metaFor(pathname: string, search: string): Meta {
       title: 'Register a Drone in Australia: CASA FAQ | Drones for Sale',
       description: 'How to register a drone in Australia, CASA flight rules, shipping, payment and warranty answers when buying a drone.',
       jsonLd: [
+        crumbs([{ name: 'Home', path: '/' }, { name: 'FAQ', path: '/faq' }]),
         {
           '@context': 'https://schema.org',
           '@type': 'FAQPage',
@@ -295,7 +296,11 @@ export function metaFor(pathname: string, search: string): Meta {
   if (pathname === '/about') {
     return {
       title: 'About Drones for Sale | Australian Drone Supplier',
-      description: 'Drones for Sale supplies DJI camera drones, enterprise and thermal drones, agricultural spraying drones and accessories across Australia.'
+      description: 'Drones for Sale supplies DJI camera drones, enterprise and thermal drones, agricultural spraying drones and accessories across Australia.',
+      jsonLd: [
+        { '@context': 'https://schema.org', '@type': 'AboutPage', name: 'About Drones for Sale', url: abs('/about'), inLanguage: 'en-AU' },
+        crumbs([{ name: 'Home', path: '/' }, { name: 'About', path: '/about' }])
+      ]
     };
   }
 
@@ -310,7 +315,11 @@ export function metaFor(pathname: string, search: string): Meta {
   if (pathname === '/contact') {
     return {
       title: 'Contact Drones for Sale | Drone Enquiries',
-      description: 'Contact our team for help choosing a drone, enterprise payload or spraying system, or to confirm stock and delivery to your location.'
+      description: 'Contact our team for help choosing a drone, enterprise payload or spraying system, or to confirm stock and delivery to your location.',
+      jsonLd: [
+        { '@context': 'https://schema.org', '@type': 'ContactPage', name: 'Contact Drones for Sale', url: abs('/contact'), inLanguage: 'en-AU' },
+        crumbs([{ name: 'Home', path: '/' }, { name: 'Contact', path: '/contact' }])
+      ]
     };
   }
 
@@ -325,7 +334,7 @@ export function metaFor(pathname: string, search: string): Meta {
       '/shipping': 'Shipping policy for Drones for Sale: free insured express courier to every Australian state and territory on drones and accessories.',
       '/refund': 'Refund policy for Drones for Sale: returns, warranty and Australian Consumer Law guarantees on genuine Australian stock.',
       '/privacy': 'Privacy notice for Drones for Sale: how we collect, use and protect your personal information when you order or enquire.',
-      '/terms': 'Terms of service for Drones for Sale covering orders, payment, delivery and use of this website.'
+      '/terms': 'Terms of service for Drones for Sale covering CASA responsibilities, orders, pricing, payment, delivery and use of this website in Australia.'
     };
     return {
       title: `${names[pathname]} | ${SITE_NAME}`,
