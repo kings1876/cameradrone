@@ -16,7 +16,7 @@ export const CATEGORY_COPY: Record<string, { lead: string; why: string }> = {
   },
   'cameras-sensors': {
     lead:
-      'Drone cameras and sensors for inspection, mapping and agriculture: DJI Zenmuse H30, L2, L3 and P1 payloads, FLIR thermal cameras, MicaSense, Agrowing and SlantRange multispectral sensors, Sequoia integration kits and Livox LiDAR.',
+      'Thermal imaging cameras and drone sensors for inspection, mapping and agriculture: the DJI Zenmuse H30T infrared camera, FLIR thermal cameras and other infrared camera payloads for thermal drones, plus Zenmuse L2, L3 and P1 payloads, MicaSense, Agrowing and SlantRange multispectral sensors, Sequoia integration kits and Livox LiDAR.',
     why:
       'Compatibility depends on your aircraft, so request a quote and we will confirm the right payload and mounting before you order.'
   },
