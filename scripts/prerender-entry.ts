@@ -7,7 +7,7 @@ import { SITE_URL, SITE_NAME } from '../src/seo';
 import { metaFor, abs } from '../src/components/RouteSeo';
 import { categoryPath, slugify } from '../src/routes';
 import { categoryIntro } from '../src/data/categoryCopy';
-import { PAGE_COPY, PAGE_EXTRA, seoParagraphs, blogParagraph } from '../src/data/pageCopy';
+import { PAGE_COPY, PAGE_EXTRA, seoParagraphs, blogParagraph, productNotes } from '../src/data/pageCopy';
 import { POLICIES, POLICY_INTRO, POLICY_HELP } from '../src/data/policies';
 import { relatedFor } from '../src/components/RelatedProducts';
 import { BUSINESS } from '../src/business';
@@ -91,7 +91,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
         `<article><h1>${esc(p.name)}</h1><p>${esc(p.brand)} · ${esc(p.categoryName)} · ${esc(p.subcategory)}</p>` +
         (img ? `<img src="${esc(img)}" alt="${esc(p.name)}" width="600" height="600" loading="lazy" decoding="async">` : '') +
         `<p><strong>${money(p.price)} AUD</strong> · ${p.inStock ? 'In stock in Australia' : 'Out of stock'} · Free shipping Australia-wide</p>` +
-        p.description.split('\n\n').map(t => `<p>${esc(t)}</p>`).join('') +
+        [...p.description.split('\n\n'), ...productNotes(p)].map(t => `<p>${esc(t)}</p>`).join('') +
         (p.highlights?.length ? `<h2>Key features</h2><ul>${p.highlights.map(h => `<li>${esc(h)}</li>`).join('')}</ul>` : '') +
         (p.specRows?.length ? `<h2>Specifications</h2><table><tbody>${p.specRows.map(([k, v]) => `<tr><th scope="row">${esc(k)}</th><td>${esc(v)}</td></tr>`).join('')}</tbody></table>` : '') +
         (p.inTheBox?.length ? `<h2>In the box</h2><ul>${p.inTheBox.map(b => `<li>${esc(b)}</li>`).join('')}</ul>` : '') +

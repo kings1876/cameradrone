@@ -4,6 +4,7 @@ import { PRODUCT_KEYWORDS } from '../data/keywords';
 import { isQuoteProduct } from './QuotePage';
 import { ArrowLeft, ShoppingBag, Zap, Truck, Shield, Award, CheckCircle2, ChevronRight, Share2 } from 'lucide-react';
 import { PRODUCTS } from '../data/products';
+import { productNotes } from '../data/pageCopy';
 import { ProductImage } from '../components/ProductImage';
 import { Product } from '../types';
 import { categoryPath } from '../routes';
@@ -173,7 +174,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               </div>
 
               <div className="space-y-3">
-                {product.description.split('\n\n').map((para, i) => (
+                {[...product.description.split('\n\n'), ...productNotes(product)].map((para, i) => (
                   <p key={i} className="text-sm text-slate-300 leading-relaxed font-normal">
                     {para}
                   </p>

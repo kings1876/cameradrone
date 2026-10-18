@@ -205,7 +205,18 @@ export function metaFor(pathname: string, search: string): Meta {
             shippingDetails: {
               '@type': 'OfferShippingDetails',
               shippingRate: { '@type': 'MonetaryAmount', value: 0, currency: 'AUD' },
-              shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'AU' }
+              shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'AU' },
+              deliveryTime: {
+                '@type': 'ShippingDeliveryTime',
+                handlingTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 1, unitCode: 'DAY' },
+                transitTime: { '@type': 'QuantitativeValue', minValue: 1, maxValue: 4, unitCode: 'DAY' }
+              }
+            },
+            hasMerchantReturnPolicy: {
+              '@type': 'MerchantReturnPolicy',
+              applicableCountry: 'AU',
+              returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+              merchantReturnDays: 30
             },
             availability: p.inStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
             itemCondition: 'https://schema.org/NewCondition',

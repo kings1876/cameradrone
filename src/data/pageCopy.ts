@@ -68,3 +68,44 @@ export function blogParagraph(slug: string): string | null {
   if (!kw) return null;
   return `If you are comparing options for ${kw.primary}, this guide connects to related searches such as ${list(kw.supporting)}. Browse the linked product categories for Australian pricing, specifications and quotes.`;
 }
+
+type NoteProduct = { name: string; category: string; subcategory?: string };
+
+const noteKind = (p: NoteProduct): string => {
+  const sub = p.subcategory ?? '';
+  if (sub === 'Drone Batteries') return 'battery';
+  if (sub === 'Charging Hubs') return 'charger';
+  if (sub === 'Propellers & Guards') return 'props';
+  if (sub === 'Filters & Lenses') return 'optics';
+  if (sub === 'Controllers & Goggles') return 'controls';
+  if (sub === 'Bags & Covers') return 'bag';
+  if (p.category === 'camera-drones') return 'aircraft';
+  if (p.category === 'cameras-sensors') return 'payload';
+  if (p.category === 'spraying-drones') return sub === 'Spraying Drone Accessories' ? 'spray-part' : 'spray';
+  return sub === 'Enterprise Accessories' || sub === 'Enterprise Software' ? 'ent-part' : 'ent';
+};
+
+/** Practical buying notes and delivery terms shown under every product description. */
+export function productNotes(p: NoteProduct): string[] {
+  const n = p.name;
+  const kind = noteKind(p);
+  const advice: Record<string, string> = {
+    battery: `Match the ${n} to the aircraft named in its title, because intelligent flight batteries are built for specific models. Keep spare batteries charged before a flying day, store them in a cool, dry place and follow the manufacturer's battery safety guidance.`,
+    charger: `Check that the ${n} lists your battery model before you order. Charge batteries on a hard, non-flammable surface, never leave them charging unattended, and use the hub only with the batteries and power supply it is designed for.`,
+    props: `Replace propellers as a matching set and check them for chips, cracks or bends before every flight. The ${n} is listed for the aircraft named in its title, so confirm your model first and keep a spare set in your kit.`,
+    optics: `Check that the ${n} is listed for your exact aircraft and camera before you order. Clean the lens or filter surface with a microfibre cloth before fitting, and carry it in a protective case so it stays free of scratches.`,
+    controls: `Check which aircraft and kit the ${n} pairs with before you order. After unboxing, update the aircraft, battery and controller firmware together, and confirm the link works before taking it to a flying site.`,
+    bag: `The ${n} protects your drone and accessories in transport. Check the listed dimensions and compatible models against your kit before you order so batteries, propellers and the controller all fit.`,
+    aircraft: `Before your first flight with the ${n}, update the firmware, charge every battery and read the CASA guidance for your aircraft weight class and local airspace. Some uses require registration or accreditation, so check the rules before you fly.`,
+    payload: `Payload compatibility depends on your aircraft, mount and firmware, so tell us which drone you fly before you order the ${n}. We confirm mounting, power, software and licence needs in the quote so the payload works on day one.`,
+    spray: `Match the ${n} to the size of your property, and budget for batteries, a charger, a generator and training. Commercial spraying has CASA and chemical-use requirements, so confirm your accreditation and local rules before operating.`,
+    'spray-part': `Confirm that the ${n} is listed for your exact spraying aircraft before you order. We can advise on the right battery, charger, nozzle or spreader combination so you are not left waiting on a missing part in the spraying season.`,
+    ent: `The ${n} is supplied by quote so we can confirm the combo, payloads, batteries, software and training that suit your operation. Commercial flying may require CASA accreditation, so tell us your use case and whether you hold a ReOC.`,
+    'ent-part': `Confirm that the ${n} is listed for your aircraft and payload before you order. Send a quote request with your drone model and use case and a specialist will confirm compatibility, availability and delivery.`
+  };
+  const quoted = ['payload', 'spray', 'spray-part', 'ent', 'ent-part'].includes(kind);
+  const delivery = quoted
+    ? `Quoted products ship free to any Australian address with signature-on-delivery tracking and transit insurance. Request a quote for pricing, availability and delivery. Unopened hardware can be returned within 30 days, and Australian Consumer Law guarantees apply.`
+    : `Every order ships free to any Australian address by express courier with signature-on-delivery tracking and transit insurance. Unopened hardware can be returned within 30 days, and Australian Consumer Law guarantees apply. Contact us if you need help choosing the right kit.`;
+  return [advice[kind], delivery];
+}
