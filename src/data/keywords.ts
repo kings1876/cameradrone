@@ -7,6 +7,13 @@ export interface KeywordSet {
 }
 
 export const PRODUCT_KEYWORDS: Record<string, KeywordSet> = {
+  "dji-mini-5-pro-dji-rc-n3": { primary: "dji mini 5 pro", supporting: ["mini 5 pro", "dji mini 5 pro price australia", "dji mini 5 pro review", "dji mini 5 pro accessories"] },
+  "dji-mini-5-pro-fly-more-combo-dji-rc-n3": { primary: "dji mini 5 pro fly more combo dji", supporting: ["dji mini 5 pro combo", "dji mini 5 pro sale", "dji mini 5 pro case", "dji mini 5 pro vs mini 4 pro"] },
+  "dji-mini-5-pro-fly-more-combo-dji-rc-2": { primary: "dji mini pro 5", supporting: ["dji 5 mini pro", "dji mini 5 pro combo", "dji mini 5 pro price australia", "dji mini 5 pro accessories"] },
+  "dji-neo-2-drone-only": { primary: "dji neo 2 drone only", supporting: ["dji neo 2 price", "dji neo 2 drones", "dji neo 2 review", "dji neo 2 case"] },
+  "dji-neo-2-fly-more-combo-drone-only": { primary: "dji neo 2 4k drone fly more combo", supporting: ["dji neo2 fly more combo", "neo 2 fly more combo", "dji neo 2 combo", "dji neo 2 fly more"] },
+  "dji-avata-2-fly-more-combo-single-battery": { primary: "dji avata 2 drones", supporting: ["dji fpv drone", "dji goggle 3", "dji avata 2 weight", "fpv goggles"] },
+  "dji-avata-2-fly-more-combo-three-batteries": { primary: "dji fpv drone", supporting: ["dji avata 2 drones", "dji goggle 3", "dji avata fly smart combo", "dji fpv glasses"] },
   "dji-mini-4-pro": { primary: "dji mini 4 pro price australia", supporting: ["dji mini 4 pro australia", "dji mini 4 pro sale", "dji mini 4 pro review", "dji mini 4 pro accessories"] },
   "dji-mini-4-pro-rc-2": { primary: "dji mini 4 pro drone dji rc 2", supporting: ["dji rc 2", "dji mini 4 pro australia", "dji mini 4 pro price australia"] },
   "dji-mini-4-pro-fly-more-combo": { primary: "dji mini 4 pro fly more combo best price", supporting: ["dji mini fly more combo", "fly more combo", "dji mini 4 pro batteries", "dji mini 4 pro sale"] },
@@ -74,6 +81,7 @@ export const CATEGORY_KEYWORDS: Record<string, KeywordSet> = {
 };
 
 export const SUBCATEGORY_KEYWORDS: Record<string, KeywordSet> = {
+  "DJI Neo & FPV": { primary: "dji neo 2 price", supporting: ["dji fpv drone", "dji avata 2 drones", "dji goggle 3", "dji neo 2 drones"] },
   "DJI Mini & Air": { primary: "dji mini 4 pro australia", supporting: ["dji drone mini", "mini drone with camera", "dji mini fly more combo", "dji mini 4 pro accessories"] },
   "DJI Mavic 3": { primary: "mavic 3", supporting: ["mavic 3 pro cine", "mavic 3 pro fly more combo", "dji mavic accessories"] },
   "DJI Inspire 3": { primary: "videographer drone", supporting: ["drone filming", "commercial drones australia"] },

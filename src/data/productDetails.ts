@@ -124,6 +124,113 @@ export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
     inTheBox: ['Aircraft', 'DJI RC 2 controller', 'Three Intelligent Flight Batteries', 'Two-way charging hub', 'Shoulder bag']
   },
 
+  // ---------------- DJI Mini 5 Pro, Neo 2, Avata 2 ----------------
+  'dji-mini-5-pro-dji-rc-n3': {
+    overview:
+      'The DJI Mini 5 Pro puts a 1-inch 50 MP sensor into a drone that weighs under 250 g, the largest camera DJI has fitted to a Mini. It is supplied with the DJI RC-N3 controller, which uses your smartphone as the screen.',
+    bestFor:
+      'Ideal for travel, landscape, real estate and social creators who want near-professional image quality in a drone that stays in the sub-250 g class for simple CASA compliance.',
+    highlights: ['1-inch 50 MP camera in a sub-250 g drone', 'Omnidirectional obstacle sensing', 'Supplied with the DJI RC-N3 controller'],
+    specs: [
+      ['Camera sensor', '1-inch CMOS, 50 MP'],
+      ['Lens', '24 mm equivalent, f/1.8, 84° field of view'],
+      ['Take-off weight', 'Under 250 g (about 249.9 g)'],
+      ['Max flight time', 'Up to 36 min (standard battery)'],
+      ['Obstacle sensing', 'Omnidirectional'],
+      ['Controller', 'DJI RC-N3 (uses your smartphone)']
+    ]
+  },
+  'dji-mini-5-pro-fly-more-combo-dji-rc-n3': {
+    overview:
+      'The DJI Mini 5 Pro Fly More Combo DJI RC-N3 adds extra batteries and a charging hub to the 1-inch Mini 5 Pro, so one outing can cover several flights. It is the value way to buy this sub-250 g camera drone if you are happy to fly with a smartphone and the RC-N3.',
+    bestFor:
+      'Perfect for creators who fly for hours rather than minutes, such as holiday, wedding-guest and property shooters who want spare power without paying for the RC 2 screen.',
+    highlights: ['Fly More kit with extra batteries and charging hub', 'Same 1-inch 50 MP camera and sub-250 g body', 'DJI RC-N3 controller'],
+    specs: [
+      ['Camera sensor', '1-inch CMOS, 50 MP'],
+      ['Take-off weight', 'Under 250 g (standard battery)'],
+      ['Max flight time per battery', 'Up to 36 min'],
+      ['Obstacle sensing', 'Omnidirectional'],
+      ['Controller', 'DJI RC-N3 (uses your smartphone)']
+    ],
+    inTheBox: ['Aircraft', 'DJI RC-N3 controller', 'Fly More kit: extra Intelligent Flight Batteries', 'Charging hub']
+  },
+  'dji-mini-5-pro-fly-more-combo-dji-rc-2': {
+    overview:
+      'The DJI Mini 5 Pro Fly More Combo with the DJI RC 2 is the complete kit: the 1-inch Mini 5 Pro, extra batteries, a charging hub and a controller with a built-in screen. People often search for it as the DJI Mini Pro 5 or the DJI 5 Mini Pro, and this is the full-spec version.',
+    bestFor:
+      'Best for pilots who want no phone, a bright screen and the longest day of flying from a sub-250 g drone.',
+    highlights: ['DJI RC 2 controller with built-in screen', 'Fly More kit with extra batteries and charging hub', '1-inch 50 MP camera, under 250 g'],
+    specs: [
+      ['Camera sensor', '1-inch CMOS, 50 MP'],
+      ['Take-off weight', 'Under 250 g (standard battery)'],
+      ['Max flight time per battery', 'Up to 36 min'],
+      ['Obstacle sensing', 'Omnidirectional'],
+      ['Controller', 'DJI RC 2 with built-in screen']
+    ],
+    inTheBox: ['Aircraft', 'DJI RC 2 controller', 'Fly More kit: extra Intelligent Flight Batteries', 'Charging hub']
+  },
+  'dji-neo-2-drone-only': {
+    overview:
+      'The DJI Neo 2 is a palm-sized camera drone that weighs about 151 g, built for easy selfies, follow-me shots and social video. This is the DJI Neo 2 drone only option: the aircraft with its battery and no controller in the kit.',
+    bestFor:
+      'A friendly first drone for beginners, families and vloggers who want 4K video with obstacle sensing and no fuss. Choose the Fly More Combo if you plan to fly longer.',
+    highlights: ['About 151 g and palm-sized', '4K video up to 60 fps', 'Omnidirectional obstacle sensing'],
+    specs: [
+      ['Take-off weight', 'About 151 g'],
+      ['Video', '4K up to 60 fps'],
+      ['Max flight time', 'Up to about 19 min'],
+      ['Obstacle sensing', 'Omnidirectional'],
+      ['Kit', 'Drone only, controller not included']
+    ]
+  },
+  'dji-neo-2-fly-more-combo-drone-only': {
+    overview:
+      'The DJI Neo 2 4K drone Fly More Combo gives you the palm-sized Neo 2 with extra batteries for longer sessions. It is the better value Neo 2 pack for events, holidays and content days.',
+    bestFor:
+      'Great for beginners and creators who want extra flight time rather than a controller upgrade, with a light body that is easy to carry everywhere.',
+    highlights: ['Extra batteries for longer shoots', '4K video up to 60 fps', 'About 151 g, omnidirectional obstacle sensing'],
+    specs: [
+      ['Take-off weight', 'About 151 g'],
+      ['Video', '4K up to 60 fps'],
+      ['Max flight time per battery', 'Up to about 19 min'],
+      ['Obstacle sensing', 'Omnidirectional'],
+      ['Kit', 'Fly More Combo, drone only (no controller)']
+    ]
+  },
+  'dji-avata-2-fly-more-combo-single-battery': {
+    overview:
+      'The DJI Avata 2 is an immersive FPV drone with a 1/1.3-inch camera, protected propellers and a 155° field of view, flown with Goggles 3 and the RC Motion 3. This single-battery Fly More Combo is the cheapest way into the Avata 2 experience.',
+    bestFor:
+      'Perfect for first-time FPV pilots and content creators who want cinematic, swooping shots without building a racing drone. Buy a second or third battery later if you want longer sessions.',
+    highlights: ['1/1.3-inch 12 MP camera with 4K up to 60 fps', 'Goggles 3 micro-OLED display and RC Motion 3', 'Up to 23 min flight time'],
+    specs: [
+      ['Camera', '1/1.3-inch CMOS, 12 MP, 155° field of view'],
+      ['Video', '4K up to 60 fps'],
+      ['Take-off weight', 'About 377 g'],
+      ['Max flight time', 'Up to 23 min'],
+      ['Goggles', 'DJI Goggles 3, 1080p micro-OLED, up to 100 Hz'],
+      ['Controller', 'DJI RC Motion 3']
+    ],
+    inTheBox: ['Avata 2 aircraft', 'DJI Goggles 3', 'DJI RC Motion 3', 'One Intelligent Flight Battery']
+  },
+  'dji-avata-2-fly-more-combo-three-batteries': {
+    overview:
+      'The DJI Avata 2 Fly More Combo with three batteries is the DJI FPV drone kit for pilots who want to keep flying: aircraft, Goggles 3, RC Motion 3 and two extra batteries. It is the version most FPV creators choose for a full session.',
+    bestFor:
+      'Ideal for regular FPV pilots and videographers who want enough batteries for a shoot day. It is currently sold out at some retailers, so ask for the latest lead time.',
+    highlights: ['Three batteries for about three times the flying time', 'Goggles 3 and RC Motion 3 included', '1/1.3-inch camera, 4K up to 60 fps'],
+    specs: [
+      ['Camera', '1/1.3-inch CMOS, 12 MP, 155° field of view'],
+      ['Video', '4K up to 60 fps'],
+      ['Take-off weight', 'About 377 g'],
+      ['Max flight time per battery', 'Up to 23 min'],
+      ['Goggles', 'DJI Goggles 3, 1080p micro-OLED, up to 100 Hz'],
+      ['Controller', 'DJI RC Motion 3']
+    ],
+    inTheBox: ['Avata 2 aircraft', 'DJI Goggles 3', 'DJI RC Motion 3', 'Three Intelligent Flight Batteries', 'Charging hub']
+  },
+
   // ---------------- DJI Mavic 3 / Inspire ----------------
   'dji-mavic-3-pro': {
     overview:

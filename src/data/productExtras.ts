@@ -15,6 +15,20 @@ export const PRODUCT_EXTRAS: Record<string, string> = {
     'If you want a drone with 4K camera quality and enough batteries to shoot all day, this is the pack. It is a drone camera that handles weddings, property and travel, and the Fly More Combo keeps DJI drone battery stock on hand. Add any DJI drone accessories you need at checkout.',
   'dji-air-3-fly-more-combo-rc-2':
     'This bundle pairs the aircraft with the DJI RC 2 remote controller, so there is no phone to set up. Searching for a drone camera with a screen controller included? This DJI RC 2 pack ships as a complete camera drones Australia kit, with the Fly More batteries and DJI drone accessories you need to start filming.',
+  'dji-mini-5-pro-dji-rc-n3':
+    'Searching for the DJI Mini 5 Pro price Australia pilots are paying? Our price is listed in AUD with local stock behind it. Before you buy, read a DJI Mini 5 Pro review, compare the Mini 5 Pro against the Mini 4 Pro, and add DJI Mini 5 Pro accessories such as spare batteries and a carry case.',
+  'dji-mini-5-pro-fly-more-combo-dji-rc-n3':
+    'This is the DJI Mini 5 Pro combo for pilots who want extra batteries at the lowest kit price. Check the DJI Mini 5 Pro sale pricing against the RC 2 version, grab a DJI Mini 5 Pro case for travel, and see how the DJI Mini 5 Pro vs Mini 4 Pro comparison favours the new 1-inch sensor.',
+  'dji-mini-5-pro-fly-more-combo-dji-rc-2':
+    'Many buyers type the model backwards and search for a DJI 5 Mini Pro, and this RC 2 kit is the one they usually want. It is the premium DJI Mini 5 Pro combo, with the clearest screen. Check the DJI Mini 5 Pro price Australia listings for the other kits, and add DJI Mini 5 Pro accessories at checkout.',
+  'dji-neo-2-drone-only':
+    'Looking for the DJI Neo 2 price? The drone-only kit is the lowest-cost way in. Read a DJI Neo 2 review to see how it flies, pick a DJI Neo 2 case for travel, and browse our other DJI Neo 2 drones if you want a combo or extra batteries.',
+  'dji-neo-2-fly-more-combo-drone-only':
+    'Pilots search for the DJI Neo 2 4K drone Fly More Combo because the extra batteries matter on a small drone. This DJI Neo2 fly more combo suits events and holidays, and it is one of the popular Neo 2 fly more combo kits. Compare it with the DJI Neo 2 combo options and the DJI Neo 2 fly more listings in our range.',
+  'dji-avata-2-fly-more-combo-single-battery':
+    'Among DJI Avata 2 drones this single-battery pack is the entry point, and it is a complete DJI FPV drone kit with Goggles 3. Check the DJI Avata 2 weight if you are weighing it against other FPV options, add fpv goggles accessories, and upgrade to a three-battery kit when you want longer sessions.',
+  'dji-avata-2-fly-more-combo-three-batteries':
+    'A DJI FPV drone with three batteries lets you fly a whole shoot without waiting. This is among the DJI Avata 2 drones for sale, with a DJI Goggle 3 headset, the DJI Avata fly smart combo style of kit, and the immersive DJI FPV glasses experience. Ask us for the latest lead time.',
   'dji-mavic-3-pro':
     'Pilots searching for the Mavic 3 choose the Pro version for its three focal lengths. The Mavic 3 Pro Cine edition adds high-bitrate recording for post-production work, and the standard unit here suits photographers and content teams. Look at DJI Mavic accessories such as ND filters and batteries to complete a kit, and see our drone camera range for alternatives.',
   'dji-mavic-3-pro-fly-more-combo-dji-rc':

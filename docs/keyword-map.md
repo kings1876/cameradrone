@@ -319,3 +319,18 @@ Volume = monthly AU searches; KD = keyword difficulty; T = transactional (others
 - Each product has a three-paragraph description (overview, best-for, buying notes), key features, a specifications table and, where known, an in-the-box list. Copy lives in `src/data/productDetails.ts` and `src/data/productExtras.ts`.
 - Every description contains the product's primary keyword and at least two supporting keywords (checked by script). Specs are limited to manufacturer-published figures; unconfirmed items (e.g. Agrowing band counts, BROUAV flow rates) are deliberately left out and confirmed on quote.
 - Accessory and battery pages are shorter (about 75-105 words of description) by design.
+
+## Added Oct 2026: Mini 5 Pro, Neo 2, Avata 2 (prices checked against D1 Store AU, an authorised DJI retailer)
+
+| Product | Price (AUD) | Source note |
+|---|---|---|
+| DJI Mini 5 Pro (DJI RC-N3) | 1,119 | D1 Store listing |
+| DJI Mini 5 Pro Fly More Combo (DJI RC-N3) | 1,419 | TechRadar launch pricing / D1 Store |
+| DJI Mini 5 Pro Fly More Combo (DJI RC 2) | 1,699 | D1 Store |
+| DJI Neo 2 (Drone Only) | 409 | D1 Store |
+| DJI Neo 2 Fly More Combo (Drone Only) | 549 | D1 Store |
+| DJI Avata 2 Fly More Combo (Single Battery) | 1,269 | D1 Store |
+| DJI Avata 2 Fly More Combo (Three Batteries) | 1,559 | D1 Store (sold out there; listed out of stock here) |
+
+Photos pending: official DJI images must be supplied or confirmed usable by the owner (image-sourcing skill forbids scraping or AI-faking specific models). Products show the illustration fallback until then.
+Opportunity: "dji avata 360" 1,600/mo (KD 24, T) - new product, D1 lists drone only A$799 and Fly More Combo A$1,619.
