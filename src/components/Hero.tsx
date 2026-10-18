@@ -35,9 +35,9 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) =
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Editorial Headline & Value Propositions */}
-          <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
+          <div className="lg:col-span-7 space-y-6 text-center">
             {/* Clean unboxed metadata lead-in */}
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 text-xs font-medium text-slate-400">
+            <div className="flex flex-wrap items-center justify-center gap-2 text-xs font-medium text-slate-400">
               <span className="text-amber-400 font-semibold tracking-wide uppercase">CASA Compliant Retailer</span>
               <span aria-hidden="true">·</span>
               <span>Founded 17 May 2018 in Australia</span>
@@ -49,12 +49,12 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) =
               Premier Camera Drones For Sale in Australia
             </h1>
 
-            <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed text-pretty">
+            <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto font-normal leading-relaxed text-pretty">
               Equipping Australian creators, surveying crews, and farmers with DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, and batteries and accessories. Free nationwide express shipping on every order.
             </p>
 
             {/* Primary Action Buttons */}
-            <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3.5">
+            <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3.5">
               <button
                 type="button"
                 onClick={onExploreClick}
@@ -75,7 +75,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) =
             </div>
 
             {/* Adjacent Trust Badges & Metrics */}
-            <div className="pt-6 border-t border-slate-800/80 grid grid-cols-2 sm:grid-cols-4 gap-4 text-left">
+            <div className="pt-6 border-t border-slate-800/80 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
               <div>
                 <p className="text-xs text-slate-400">Product Range</p>
                 <p className="text-base font-bold text-white mt-0.5">DJI, XAG &amp; More</p>

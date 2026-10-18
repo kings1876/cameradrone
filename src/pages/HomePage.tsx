@@ -196,7 +196,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
 
         {/* Banner leading to dedicated Shop Page */}
         <div className="p-6 bg-gradient-to-r from-slate-900 via-[#101b30] to-slate-900 rounded-2xl border border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
-          <div className="space-y-1 text-center sm:text-left">
+          <div className="space-y-1 text-center">
             <h3 className="text-lg font-bold text-white font-display">
               Looking for Enterprise, Thermal or Spraying Drones?
             </h3>

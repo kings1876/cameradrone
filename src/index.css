@@ -10,6 +10,19 @@
     letter-spacing: -0.02em;
   }
 
+  /* Paragraphs and headings are centred site-wide; utilities such as text-left / text-right still override per element */
+  p,
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  p[class*="max-w-"] {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .font-mono, .tabular-nums {
     font-family: 'JetBrains Mono', monospace;
     font-variant-numeric: tabular-nums;

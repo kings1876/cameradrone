@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
     <footer className="bg-[#070b12] text-slate-400 border-t border-slate-800 text-xs">
       {/* CASA Airspace Banner */}
       <div className="bg-slate-950 border-b border-slate-800/80 py-4 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center">
           <div className="flex items-center gap-2 text-amber-400 font-semibold uppercase tracking-wider text-[11px]">
             <ShieldAlert className="w-4 h-4 shrink-0" />
             <span>CASA Australian Airspace Compliance</span>
