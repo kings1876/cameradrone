@@ -14,8 +14,8 @@ export const BlogListPage: React.FC = () => {
     <div className="py-16 bg-[#0b0f17] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Header */}
-        <div className="max-w-3xl space-y-3">
-          <div className="flex items-center gap-2 text-xs text-amber-400 font-semibold uppercase tracking-wider">
+        <div className="max-w-3xl mx-auto space-y-3 text-center">
+          <div className="flex items-center justify-center gap-2 text-xs text-amber-400 font-semibold uppercase tracking-wider">
             <BookOpen className="w-4 h-4" />
             <span>Flight Intel & Hardware Guides</span>
           </div>

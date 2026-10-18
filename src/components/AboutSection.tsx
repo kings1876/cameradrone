@@ -110,7 +110,7 @@ export const AboutSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => 
 
         {/* Company Milestones Timeline */}
         <div className="pt-8 border-t border-slate-800">
-          <div className="max-w-2xl mb-8">
+          <div className="max-w-2xl mx-auto text-center mb-8">
             <span className="text-xs font-semibold text-amber-400 uppercase tracking-wider">Historical Track Record</span>
             <h2 className="text-2xl font-bold text-white font-display mt-1">Our Journey Since 2018</h2>
           </div>

@@ -86,7 +86,7 @@ export const BlogPostPage: React.FC = () => {
 
         {/* Recommended Flight Hardware Section */}
         <div className="pt-8 border-t border-slate-800 space-y-4">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col items-center gap-2 text-center">
             <h2 className="text-lg font-bold text-white font-display">Featured Systems in This Article</h2>
             <Link to="/shop" className="text-xs text-amber-400 hover:underline">View All Equipment →</Link>
           </div>

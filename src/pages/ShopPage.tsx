@@ -380,7 +380,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
         </div>
 
         {/* CASA Airspace Quick Reminder */}
-        <div className="p-4 bg-amber-500/10 border border-amber-500/20 rounded-xl text-xs text-amber-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-center">
+        <div className="p-4 bg-amber-500/10 border border-amber-500/20 rounded-xl text-xs text-amber-200 flex flex-col items-center justify-center gap-3 text-center">
           <div>
             <span className="font-bold text-amber-300 uppercase tracking-wider block text-[11px]">
               CASA Regulatory Reminder for Australian Flights
