@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { PRODUCTS, CATEGORIES } from '../data/products';
 import { BLOG_POSTS, FAQ_LIST } from '../data/content';
 import { SITE_URL, SITE_NAME } from '../seo';
+import { PRODUCT_KEYWORDS, CATEGORY_KEYWORDS, SUBCATEGORY_KEYWORDS, PAGE_KEYWORDS } from '../data/keywords';
 
 interface Meta {
   title: string;
@@ -15,6 +16,7 @@ interface Meta {
 
 const clip = (s: string, n: number) => (s.length <= n ? s : s.slice(0, n - 1).trimEnd() + '…');
 const fit = (...c: string[]) => c.find(s => s.length <= 62) ?? c[c.length - 1];
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 const abs = (p: string) => (p.startsWith('http') ? p : SITE_URL + p);
 
 function crumbs(items: { name: string; path: string }[]) {
@@ -35,9 +37,9 @@ function metaFor(pathname: string, search: string): Meta {
 
   if (pathname === '/') {
     return {
-      title: 'DJI, Enterprise & Agricultural Drones | Drones for Sale',
+      title: 'Drones for Sale Australia | DJI, Enterprise & Spraying Drones',
       description:
-        'Buy DJI camera drones, Matrice enterprise and thermal drones, Zenmuse payloads and agricultural spraying drones in Australia. Australian stock, free shipping.',
+        'Drone sales in Australia: DJI camera drones on sale, commercial drones for sale, Matrice enterprise and thermal drones, and agricultural spray drones. Australian stock, free shipping.',
       jsonLd: [
         {
           '@context': 'https://schema.org',
@@ -53,11 +55,13 @@ function metaFor(pathname: string, search: string): Meta {
     const cat = CATEGORIES.find(c => c.id === params.get('category'));
     const sub = params.get('sub');
     if (cat) {
-      const label = sub && cat.subcategories.includes(sub) ? sub : cat.name;
+      const validSub = sub && cat.subcategories.includes(sub) ? sub : null;
+      const label = validSub ?? cat.name;
+      const kw = (validSub && SUBCATEGORY_KEYWORDS[validSub]) || CATEGORY_KEYWORDS[cat.id];
       return {
         title: fit(`${label} for Sale in Australia | ${SITE_NAME}`, `${label} for Sale in Australia`, label),
         description: clip(
-          `Shop ${label} in Australia. ${cat.name} with Australian stock and free nationwide shipping. Compare models and prices.`,
+          `Shop ${label} in Australia: ${kw ? `${kw.primary}, ${kw.supporting.slice(0, 2).join(', ')}` : cat.name}. Australian stock, free nationwide shipping. Compare models and prices.`,
           158
         ),
         jsonLd: [
@@ -70,9 +74,9 @@ function metaFor(pathname: string, search: string): Meta {
       };
     }
     return {
-      title: 'Shop Drones, Cameras & Sensors in Australia | Drones for Sale',
+      title: 'Drone Sales Australia: Shop Drones & Sensors | Drones for Sale',
       description:
-        'Browse DJI camera drones, enterprise and thermal drones, Zenmuse cameras and sensors, agricultural spraying drones, batteries and accessories.'
+        'Drone sales in Australia: drones on sale, DJI camera drones, commercial drones for sale, thermal and multispectral sensors, spray drones, batteries and accessories.'
     };
   }
 
@@ -82,9 +86,13 @@ function metaFor(pathname: string, search: string): Meta {
     if (!p) return { title: `Product not found | ${SITE_NAME}`, description: 'This product could not be found.', noindex: true };
     const image = p.images?.[0] ? abs(p.images[0]) : undefined;
     const url = abs(`/product/${p.slug}`);
+    const kw = PRODUCT_KEYWORDS[p.slug];
     return {
       title: fit(`${p.name} for Sale in Australia | ${SITE_NAME}`, `${p.name} for Sale Australia | ${SITE_NAME}`, `${p.name} | ${SITE_NAME}`, p.name),
-      description: clip(`${p.shortDescription} $${p.price.toLocaleString()} AUD. Australian stock, free shipping Australia-wide.`, 158),
+      description: clip(
+        `${p.shortDescription} ${kw ? `${cap(kw.primary)}, ${kw.supporting.slice(0, 2).join(', ')}. ` : ''}$${p.price.toLocaleString()} AUD, Australian stock, free shipping.`,
+        158
+      ),
       image,
       type: 'product',
       jsonLd: [
@@ -95,6 +103,7 @@ function metaFor(pathname: string, search: string): Meta {
           description: p.shortDescription,
           brand: { '@type': 'Brand', name: p.brand },
           category: `${p.categoryName} > ${p.subcategory}`,
+          ...(kw ? { keywords: [kw.primary, ...kw.supporting].join(', ') } : {}),
           ...(p.images?.length ? { image: p.images.map(abs) } : {}),
           url,
           offers: {
@@ -119,9 +128,9 @@ function metaFor(pathname: string, search: string): Meta {
 
   if (pathname === '/blog') {
     return {
-      title: 'Drone Buying Guides & CASA Rules | Drones for Sale',
+      title: 'Best Drones for Beginners Australia | Drones for Sale',
       description:
-        'Buying guides for DJI, enterprise and agricultural drones in Australia, plus CASA rules explained for recreational and commercial pilots.'
+        'Buying guides and reviews for drones for beginners, DJI camera drones, enterprise and spray drones in Australia, plus CASA rules explained for pilots.'
     };
   }
 
@@ -151,8 +160,8 @@ function metaFor(pathname: string, search: string): Meta {
 
   if (pathname === '/faq') {
     return {
-      title: 'CASA Drone Rules, Shipping & Warranty FAQ | Drones for Sale',
-      description: 'Answers on CASA drone flight rules, registration, shipping, payment and warranty when buying a drone in Australia.',
+      title: 'Register a Drone in Australia: CASA FAQ | Drones for Sale',
+      description: 'How to register a drone in Australia, CASA flight rules, shipping, payment and warranty answers when buying a drone.',
       jsonLd: [
         {
           '@context': 'https://schema.org',

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
+import { PRODUCT_KEYWORDS } from '../data/keywords';
 import { ArrowLeft, ShoppingBag, Zap, Truck, Shield, Award, CheckCircle2, ChevronRight, Share2 } from 'lucide-react';
 import { PRODUCTS } from '../data/products';
 import { ProductImage } from '../components/ProductImage';
@@ -171,6 +172,24 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               <p className="text-sm text-slate-300 leading-relaxed font-normal">
                 {product.description}
               </p>
+
+              {PRODUCT_KEYWORDS[product.slug] && (
+                <div className="space-y-1.5">
+                  <h2 className="text-xs font-bold text-slate-200 uppercase tracking-wider">Related searches</h2>
+                  <ul className="flex flex-wrap gap-1.5">
+                    {[PRODUCT_KEYWORDS[product.slug].primary, ...PRODUCT_KEYWORDS[product.slug].supporting].map(k => (
+                      <li key={k}>
+                        <Link
+                          to={`/shop?q=${encodeURIComponent(k)}`}
+                          className="inline-block px-2.5 py-1 text-xs rounded-full border border-slate-700 text-slate-300 hover:border-amber-500 hover:text-amber-400 transition-colors"
+                        >
+                          {k}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
               {/* Specifications Table */}
               {Object.values(product.specifications).some(Boolean) && (

@@ -1,0 +1,100 @@
+// Keyword map from Semrush (Australia, Oct 2026). Source: docs/keyword-research-au-2026-10.csv
+// primary = the one term the page is built around (title, H1 intent, first sentence of the description)
+// supporting = related terms worked into the meta description and on-page copy
+export interface KeywordSet {
+  primary: string;
+  supporting: string[];
+}
+
+export const PRODUCT_KEYWORDS: Record<string, KeywordSet> = {
+  "dji-mini-4-pro": { primary: "dji mini 4 pro price australia", supporting: ["dji mini 4 pro australia", "dji mini 4 pro sale", "dji mini 4 pro review", "dji mini 4 pro accessories"] },
+  "dji-mini-4-pro-rc-2": { primary: "dji mini 4 pro drone dji rc 2", supporting: ["dji rc 2", "dji mini 4 pro australia", "dji mini 4 pro price australia"] },
+  "dji-mini-4-pro-fly-more-combo": { primary: "dji mini 4 pro fly more combo best price", supporting: ["dji mini fly more combo", "fly more combo", "dji mini 4 pro batteries", "dji mini 4 pro sale"] },
+  "dji-mini-4-pro-fly-more-combo-plus": { primary: "dji mini fly more combo", supporting: ["fly more combo", "dji mini 4 pro australia", "dji mini 4 pro batteries", "dji mini 4 pro accessories"] },
+  "dji-air-3": { primary: "camera drones australia", supporting: ["drone camera", "4k camera drone", "drone with 4k camera", "dji drone battery"] },
+  "dji-air-3-fly-more-combo": { primary: "drone with 4k camera", supporting: ["drone camera", "camera drones australia", "dji drone battery", "dji drone accessories"] },
+  "dji-air-3-fly-more-combo-rc-2": { primary: "dji rc 2 remote controller", supporting: ["dji rc 2", "drone camera", "camera drones australia", "dji drone accessories"] },
+  "dji-mavic-3-pro": { primary: "mavic 3", supporting: ["mavic 3 pro cine", "dji mavic accessories", "camera drones australia", "drone camera"] },
+  "dji-mavic-3-pro-fly-more-combo-dji-rc": { primary: "mavic 3 pro fly more combo", supporting: ["mavic 3", "dji rc controller", "dji mavic accessories"] },
+  "dji-mavic-3-pro-fly-more-combo-dji-rc-pro": { primary: "mavic 3 pro cine", supporting: ["mavic 3 pro fly more combo", "mavic 3", "dji controller", "dji rc controller"] },
+  "dji-inspire-3": { primary: "videographer drone", supporting: ["drone filming", "commercial drones australia", "drone camera", "heavy lift drone"] },
+  "dji-matrice-30": { primary: "dji matrice", supporting: ["dji enterprise", "commercial drones for sale", "industrial drones for sale", "commercial drones australia"] },
+  "dji-matrice-30t": { primary: "dji thermal drone", supporting: ["dji matrice", "thermal drone", "thermal drones australia", "dji enterprise drones"] },
+  "dji-matrice-4-enterprise": { primary: "dji enterprise drones", supporting: ["dji matrice", "drone mapping near me", "commercial drones for sale", "dji enterprise"] },
+  "dji-matrice-4-thermal": { primary: "thermal imaging drone", supporting: ["dji thermal drone", "thermal drone", "thermal camera drone", "thermal drones australia"] },
+  "dji-mavic-3-enterprise": { primary: "dji enterprise", supporting: ["dji enterprise drones", "commercial drones for sale", "drone mapping near me", "commercial drones australia"] },
+  "dji-mavic-3-thermal": { primary: "dji mavic 3 thermal drone", supporting: ["thermal drone", "thermal drones australia", "dji thermal drone", "thermal imaging drone"] },
+  "dji-mavic-3-multispectral": { primary: "multispectral drone", supporting: ["agriculture uav drone", "uav for farming", "dji agricultural drones", "best drones for agriculture"] },
+  "dji-phantom-4-pro-rtk-se": { primary: "phantom 4", supporting: ["phantom 4 uav", "phantom 4 drone", "dji phantom 4 price", "drone mapping near me"] },
+  "dji-phantom-4-multispectral": { primary: "uav for farming", supporting: ["multispectral drone", "agriculture uav drone", "phantom 4", "dji agricultural drones"] },
+  "dji-phantom-4-multispectral-drtk2": { primary: "agriculture uav drone", supporting: ["multispectral drone", "uav for farming", "phantom 4", "dji phantom 4 price"] },
+  "dji-zenmuse-h30": { primary: "camera uav", supporting: ["thermal camera for drone", "uav camera for sale", "dji enterprise", "camera for drone price"] },
+  "dji-zenmuse-h30t": { primary: "thermal imaging camera for drone", supporting: ["uav thermal camera", "thermal camera drone", "dji thermal", "thermal camera for drone"] },
+  "dji-zenmuse-l2-lidar": { primary: "lidar drone", supporting: ["drone lidar", "drone with lidar", "lidar 3d scanner", "drone lidar scanner"] },
+  "dji-zenmuse-p1": { primary: "camera for drone price", supporting: ["camera uav", "uav camera for sale", "drone mapping near me"] },
+  "dji-zenmuse-x7": { primary: "uav camera for sale", supporting: ["camera uav", "camera for drone price", "camera for rc drone"] },
+  "dji-zenmuse-x5s": { primary: "camera for rc drone", supporting: ["camera uav", "uav camera for sale", "camera for drone price"] },
+  "dji-zenmuse-x4s": { primary: "camera for drone price", supporting: ["camera uav", "uav camera for sale", "camera for rc drone"] },
+  "dji-zenmuse-z3-optical-zoom": { primary: "camera uav", supporting: ["uav camera for sale", "camera for drone price", "camera for rc drone"] },
+  "flir-vue-tz20": { primary: "flir thermal cameras", supporting: ["flir australia", "flir thermal camera price", "uav thermal", "uav thermal camera"] },
+  "dji-mavic-pro-flir-boson-thermal-ninja": { primary: "thermal camera drone", supporting: ["dji mavic pro", "flir thermal cameras", "dji mavic pro price", "thermal drone camera"] },
+  "adti-agrowing-multispectral-matrice-300": { primary: "multispectral drone", supporting: ["uav for farming", "agriculture uav drone", "camera uav", "dji matrice"] },
+  "sony-a6000-multispectral-dual-agrowing-camera": { primary: "uav for farming", supporting: ["multispectral drone", "agriculture uav drone", "camera uav"] },
+  "sony-a7r-multispectral-quad-agrowing-camera": { primary: "agriculture uav drone", supporting: ["multispectral drone", "uav for farming", "camera uav"] },
+  "sony-a7r-multispectral-sextuple-agrowing-camera": { primary: "best drones for agriculture", supporting: ["multispectral drone", "uav for farming", "agriculture uav drone"] },
+  "micasense-altum-pt": { primary: "uav thermal imaging camera", supporting: ["thermal imaging camera uav", "multispectral drone", "uav for farming", "uav thermal"] },
+  "micasense-rededge-p": { primary: "rededge", supporting: ["multispectral drone", "uav for farming", "agriculture uav drone", "camera uav"] },
+  "slantrange-3px-multispectral-sensor": { primary: "dji agricultural drones", supporting: ["agriculture uav drone", "uav for farming", "multispectral drone"] },
+  "slantrange-4p-multispectral-sensor": { primary: "agricultural drones", supporting: ["agriculture uav drone", "uav for farming", "multispectral drone"] },
+  "phantom-4-integration-kit-rededge-mx": { primary: "phantom 4 drone", supporting: ["rededge", "phantom 4", "phantom 4 uav", "multispectral drone"] },
+  "phantom-4-integration-kit-parrot-sequoia": { primary: "phantom 4 quadcopter drone", supporting: ["phantom 4", "phantom 4 uav", "uav for farming", "multispectral drone"] },
+  "mavic-2-pro-parrot-sequoia-integration-kit": { primary: "mavic drone 2", supporting: ["uav for farming", "multispectral drone", "agriculture uav drone"] },
+  "mavic-pro-integration-kit-parrot-sequoia": { primary: "mavic pro drone", supporting: ["dji mavic pro accessories", "uav for farming", "multispectral drone"] },
+  "autel-evo-max-4t-drone": { primary: "thermal drones australia", supporting: ["thermal imaging drone", "thermal drone", "commercial drones for sale", "uav for sale australia"] },
+  "flir-ion-m440-tactical-drone": { primary: "flir australia", supporting: ["flir thermal cameras", "uav for sale australia", "commercial drones australia", "fire fighting uav"] },
+  "xag-p30-spraying-drone": { primary: "spray drone", supporting: ["drone sprayer", "agriculture spraying drone", "crop spraying drone", "agricultural drones"] },
+  "brouav-d30l-8-spraying-drone": { primary: "drone sprayer", supporting: ["spraying drone", "agricultural drone spraying", "drone for spray", "weed spraying drone"] },
+  "brouav-d52l-8-spraying-drone": { primary: "crop spraying drone", supporting: ["crop spraying drones", "drone spraying", "heavy payload drones", "agricultural drones"] },
+  "brouav-d72l-8-spraying-drone": { primary: "agriculture spraying drone", supporting: ["agricultural drones", "spraying drones", "drone weed spraying", "heavy lift drone"] },
+  "dji-agras-t30-spreading-system-3-0": { primary: "dji agricultural drones", supporting: ["dji agriculture drones", "dji t40", "drone spraying"] },
+  "dji-agras-t30-battery": { primary: "dji drone battery", supporting: ["drone battery", "dji agras t40", "dji parts"] },
+  "dji-agras-t30-battery-charger": { primary: "dji drone charger", supporting: ["drone battery charger", "drone battery", "dji parts"] },
+  "dji-agras-t40-battery": { primary: "dji t40", supporting: ["dji agras t40", "dji agras t40 price", "dji drone battery", "dji parts"] },
+  "dji-air-3-battery": { primary: "dji drone battery", supporting: ["drone battery", "drone batteries", "dji drone accessories"] },
+  "dji-matrice-4-battery": { primary: "drone batteries", supporting: ["drone battery", "dji matrice", "dji enterprise"] },
+  "dji-mavic-3-enterprise-battery-kit": { primary: "mavic drone battery", supporting: ["mavic battery", "dji drone battery", "drone batteries"] },
+};
+
+export const CATEGORY_KEYWORDS: Record<string, KeywordSet> = {
+  "camera-drones": { primary: "camera drones australia", supporting: ["drone camera", "4k camera drone", "drones for beginners", "drone for sale", "drones on sale"] },
+  "enterprise-drones": { primary: "commercial drones for sale", supporting: ["dji enterprise drones", "dji matrice", "thermal drone", "industrial drones for sale", "uav for sale australia"] },
+  "cameras-sensors": { primary: "camera uav", supporting: ["uav camera for sale", "thermal imaging camera for drone", "uav thermal camera", "camera for drone price", "multispectral drone"] },
+  "spraying-drones": { primary: "spray drone", supporting: ["drone sprayer", "agricultural drones", "crop spraying drone", "drone spraying", "agriculture spraying drone"] },
+  "batteries": { primary: "dji drone battery", supporting: ["drone battery", "drone batteries", "drone battery charger", "dji drone accessories", "dji parts"] },
+};
+
+export const SUBCATEGORY_KEYWORDS: Record<string, KeywordSet> = {
+  "DJI Mini & Air": { primary: "dji mini 4 pro australia", supporting: ["dji drone mini", "mini drone with camera", "dji mini fly more combo", "dji mini 4 pro accessories"] },
+  "DJI Mavic 3": { primary: "mavic 3", supporting: ["mavic 3 pro cine", "mavic 3 pro fly more combo", "dji mavic accessories"] },
+  "DJI Inspire 3": { primary: "videographer drone", supporting: ["drone filming", "commercial drones australia"] },
+  "DJI Matrice": { primary: "dji matrice", supporting: ["dji enterprise", "dji thermal drone", "commercial drones for sale"] },
+  "DJI Mavic 3 Enterprise": { primary: "dji enterprise", supporting: ["dji mavic 3 thermal drone", "multispectral drone", "dji enterprise drones"] },
+  "DJI Phantom 4": { primary: "phantom 4", supporting: ["phantom 4 uav", "phantom 4 drone", "dji phantom 4 price"] },
+  "Autel & FLIR Drones": { primary: "flir australia", supporting: ["thermal drones australia", "thermal imaging drone", "uav for sale australia"] },
+  "DJI Zenmuse Cameras": { primary: "uav camera for sale", supporting: ["camera uav", "camera for drone price", "lidar drone", "thermal camera for drone"] },
+  "Thermal Cameras": { primary: "flir thermal cameras", supporting: ["thermal imaging camera for drone", "uav thermal camera", "flir australia", "thermal camera drone"] },
+  "Multispectral Cameras": { primary: "multispectral drone", supporting: ["uav for farming", "agriculture uav drone", "rededge"] },
+  "Integration Kits": { primary: "phantom 4 drone", supporting: ["rededge", "phantom 4 uav", "dji mavic pro accessories", "multispectral drone"] },
+  "Spraying Drones": { primary: "spray drone", supporting: ["drone sprayer", "crop spraying drone", "agriculture spraying drone"] },
+  "Spraying Drone Accessories": { primary: "dji t40", supporting: ["dji agras t40", "dji agricultural drones", "drone battery charger"] },
+  "Drone Batteries": { primary: "dji drone battery", supporting: ["drone battery", "drone batteries", "mavic drone battery"] },
+};
+
+export const PAGE_KEYWORDS: Record<string, KeywordSet> = {
+  "home": { primary: "drone for sale", supporting: ["drone sales", "drones on sale", "drone sale", "commercial drones for sale", "uav for sale australia", "drone camera"] },
+  "shop": { primary: "drone sales australia", supporting: ["drones on sale", "drone for sale", "commercial drones for sale", "drone accessories australia", "camera drones australia"] },
+  "blog": { primary: "best drones for beginners australia", supporting: ["drones for beginners", "top rated drones for beginners", "dji mini 3 reviews", "dji neo review", "dji mini 5 pro review"] },
+  "faq": { primary: "register drone australia", supporting: ["register drone", "register drones", "registered drones", "drone licence perth", "drone licence brisbane"] },
+  "contact": { primary: "drone repairs near me", supporting: ["drone repair near me", "dji repair near me", "dji australia official service centre", "drone repairs perth"] },
+  "about": { primary: "uav companies australia", supporting: ["drone sales", "dji enterprise drones", "commercial drones australia"] },
+};

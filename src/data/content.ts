@@ -41,7 +41,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'The DJI Phantom 4 line, including the Phantom 4 Pro RTK SE and the Phantom 4 Multispectral, remains a common choice for surveying and precision agriculture workflows.',
       'Stock and lead times can change quickly on enterprise models. Contact us to confirm availability, discuss accessories such as spare batteries, and talk through the best fit for your operation. Commercial operators should also confirm their CASA obligations before flying.'
     ],
-    targetKeywords: ['enterprise drones', 'dji matrice', 'thermal drone', 'dji mavic 3 enterprise', 'surveying drone']
+    targetKeywords: ['dji enterprise drones', 'dji matrice', 'thermal drone', 'thermal imaging drone', 'commercial drones for sale', 'drone mapping near me']
   },
   {
     id: 'post-3',
@@ -61,7 +61,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Multispectral drones, such as the DJI Mavic 3 Multispectral and Phantom 4 Multispectral, support crop health monitoring and variable-rate planning by capturing data that is not visible to the naked eye.',
       'Aerial application is regulated. Before buying or operating a spraying drone, check the CASA requirements and the chemical application rules that apply in your state or territory. Contact us to discuss the right system for your operation.'
     ],
-    targetKeywords: ['spraying drone', 'agricultural drone', 'xag spraying drone', 'multispectral drone', 'agras']
+    targetKeywords: ['spray drone', 'drone sprayer', 'agricultural drones', 'crop spraying drone', 'multispectral drone', 'dji agras t40 price']
   }
 ];
 

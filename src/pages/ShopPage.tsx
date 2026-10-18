@@ -1,3 +1,4 @@
+import { PRODUCT_KEYWORDS } from '../data/keywords';
 import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { Search, SlidersHorizontal, Truck, Zap, ShieldCheck, ArrowRight, RotateCcw } from 'lucide-react';
@@ -19,8 +20,8 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, []);
 
-  const [searchQuery, setSearchQuery] = useState('');
   const [searchParams] = useSearchParams();
+  const [searchQuery, setSearchQuery] = useState(searchParams.get('q') || '');
   const [selectedCategory, setSelectedCategory] = useState<string>(searchParams.get('category') || 'all');
   const [selectedSubcategory, setSelectedSubcategory] = useState<string>(searchParams.get('sub') || 'all');
 
@@ -28,6 +29,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
   useEffect(() => {
     setSelectedCategory(searchParams.get('category') || 'all');
     setSelectedSubcategory(searchParams.get('sub') || 'all');
+    setSearchQuery(searchParams.get('q') || '');
   }, [searchParams]);
   const [selectedBadge, setSelectedBadge] = useState<string>('all');
   const [sortBy, setSortBy] = useState<'featured' | 'price-low' | 'price-high'>('featured');
@@ -56,7 +58,9 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
         const inDesc = p.description.toLowerCase().includes(query);
         const inSubcat = p.subcategory.toLowerCase().includes(query);
         const inKeywords = p.categoryName.toLowerCase().includes(query);
-        if (!inName && !inBrand && !inDesc && !inSubcat && !inKeywords) return false;
+        const kw = PRODUCT_KEYWORDS[p.slug];
+        const inKeywordMap = !!kw && [kw.primary, ...kw.supporting].some(k => k === query.trim());
+        if (!inName && !inBrand && !inDesc && !inSubcat && !inKeywords && !inKeywordMap) return false;
       }
       return true;
     }).sort((a, b) => {
@@ -67,6 +71,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
   }, [selectedCategory, selectedSubcategory, selectedBadge, searchQuery, sortBy]);
 
   const activeCategoryObject = CATEGORIES.find(c => c.id === selectedCategory);
+  const shopHeading = selectedSubcategory !== 'all' ? `${selectedSubcategory} for Sale in Australia` : activeCategoryObject ? `${activeCategoryObject.name} for Sale in Australia` : 'Drones for Sale in Australia';
 
   const totalPages = Math.max(1, Math.ceil(filteredProducts.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);
@@ -125,7 +130,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
             <div>
               <h1 className="text-3xl sm:text-4xl font-black text-white font-display tracking-tight">
-                Drones & Aerial Systems
+                {shopHeading}
               </h1>
               <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-2xl leading-relaxed">
                 Browse DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, and batteries and accessories.
