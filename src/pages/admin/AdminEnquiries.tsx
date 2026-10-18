@@ -4,7 +4,7 @@ import { ArrowLeft, Trash2 } from 'lucide-react';
 import { useAdmin, StatusBadge, fmtDate } from './AdminShell';
 import { StoredEnquiry } from '../../lib/reply';
 
-const FILTERS = ['all', 'contact', 'wholesale', 'new', 'replied'] as const;
+const FILTERS = ['all', 'quote', 'contact', 'wholesale', 'new', 'replied'] as const;
 
 export const AdminEnquiries: React.FC = () => {
   const { api } = useAdmin();

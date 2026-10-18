@@ -74,7 +74,7 @@ export default async function handler(req, res) {
     });
   }
 
-  if (formName === 'contact' || formName === 'wholesale') {
+  if (formName === 'contact' || formName === 'wholesale' || formName === 'quote') {
     const email = clip(body.email, 200);
     const message = clip(body.message, 5000);
     if (!EMAIL_RE.test(email) || !message || !clip(body.name, 120)) {
@@ -82,7 +82,7 @@ export default async function handler(req, res) {
     }
     const meta = {};
     if (body.meta && typeof body.meta === 'object') {
-      for (const [k, v] of Object.entries(body.meta).slice(0, 10)) meta[clip(k, 40)] = clip(v, 200);
+      for (const [k, v] of Object.entries(body.meta).slice(0, 14)) meta[clip(k, 40)] = clip(v, 200);
     }
     const enquiry = {
       id: generateEnquiryId(),
@@ -99,8 +99,8 @@ export default async function handler(req, res) {
     const shop = shopNewEnquiryEmail(enquiry);
     const ack = enquiryAckEmail(enquiry);
     const [shopRes] = await Promise.all([
-      sendMail({ to: destination(formName), replyTo: enquiry.email, ...shop }),
-      sendMail({ to: enquiry.email, replyTo: destination(formName), ...ack })
+      sendMail({ to: destination(formName === 'quote' ? 'wholesale' : formName), replyTo: enquiry.email, ...shop }),
+      sendMail({ to: enquiry.email, replyTo: destination(formName === 'quote' ? 'wholesale' : formName), ...ack })
     ]);
     return res.status(200).json({ ok: true, id: enquiry.id, stored, emailed: shopRes.sent });
   }

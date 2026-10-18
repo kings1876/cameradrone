@@ -23,6 +23,7 @@ import { BlogPostPage } from './pages/BlogPostPage';
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
 import { FAQPage } from './pages/FAQPage';
+import { QuotePage } from './pages/QuotePage';
 import { OrderPage } from './pages/OrderPage';
 import { PolicyPage } from './pages/PolicyPage';
 
@@ -143,6 +144,7 @@ export default function App() {
           {/* Info Pages */}
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/quote" element={<QuotePage />} />
           <Route path="/faq" element={<FAQPage />} />
           {/* Order / Checkout Pages */}
           <Route

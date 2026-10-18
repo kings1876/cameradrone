@@ -83,19 +83,22 @@ export function orderConfirmationEmail(order) {
 
 export function shopNewEnquiryEmail(enq) {
   const meta = Object.entries(enq.meta || {}).map(([k, v]) => field(k, v));
-  const html = shell(`New ${enq.type} enquiry`, [
+  const label = enq.type === 'quote' ? 'quote request' : `${enq.type} enquiry`;
+  const html = shell(`New ${label}`, [
     fields([field('Name', enq.name), field('Email', enq.email), field('Phone', enq.phone || '—'), ...meta]),
     divider(),
     `<p style="white-space:pre-wrap;margin:0 0 14px;">${escapeHtml(enq.message)}</p>`,
     button(`${SITE_ORIGIN()}/admin/enquiries/${encodeURIComponent(enq.id)}`, 'Reply in portal')
   ].join(''));
-  return { subject: `New ${enq.type} enquiry from ${enq.name} (${enq.id})`, html };
+  return { subject: `New ${label} from ${enq.name} (${enq.id})`, html };
 }
 
 export function enquiryAckEmail(enq) {
   const html = shell('We got your message', [
     p(`Hi ${escapeHtml(enq.name)},`),
-    p(`Thanks for contacting ${escapeHtml(REPLY.siteName)}. We've received your message and will reply by email as soon as we can.`),
+    p(enq.type === 'quote'
+      ? `Thanks for requesting a quote from ${escapeHtml(REPLY.siteName)}. A specialist will review your requirements and reply by email with pricing, availability and delivery details — usually within one business day.`
+      : `Thanks for contacting ${escapeHtml(REPLY.siteName)}. We've received your message and will reply by email as soon as we can.`),
     callout(`<span style="white-space:pre-wrap;">${escapeHtml(enq.message)}</span>`)
   ].join(''));
   return { subject: `We received your message (${enq.id})`, html };

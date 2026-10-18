@@ -183,6 +183,14 @@ function metaFor(pathname: string, search: string): Meta {
     };
   }
 
+  if (pathname === '/quote') {
+    return {
+      title: 'Request a Quote: Commercial, Thermal & Spray Drones',
+      description:
+        'Request a quote on commercial drones, thermal and multispectral sensors, LiDAR payloads and agricultural spray drones. Australian stock, volume and reseller pricing.'
+    };
+  }
+
   if (pathname === '/contact') {
     return {
       title: 'Contact Drones for Sale | Drone Enquiries',

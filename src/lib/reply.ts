@@ -25,7 +25,7 @@ export interface StoredOrder {
 
 export interface StoredEnquiry {
   id: string;
-  type: 'contact' | 'wholesale';
+  type: 'contact' | 'wholesale' | 'quote';
   name: string;
   email: string;
   phone?: string;

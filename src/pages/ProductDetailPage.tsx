@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { PRODUCT_KEYWORDS } from '../data/keywords';
+import { isQuoteProduct } from './QuotePage';
 import { ArrowLeft, ShoppingBag, Zap, Truck, Shield, Award, CheckCircle2, ChevronRight, Share2 } from 'lucide-react';
 import { PRODUCTS } from '../data/products';
 import { ProductImage } from '../components/ProductImage';
@@ -279,6 +280,15 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                   <span>Order Now (Crypto 10% Off)</span>
                 </button>
               </div>
+
+              {isQuoteProduct(product.category) && (
+                <Link
+                  to={`/quote?product=${encodeURIComponent(product.slug)}`}
+                  className="block w-full text-center py-3 px-4 text-xs font-bold text-amber-300 border border-amber-500/60 hover:bg-amber-500/10 rounded-lg transition-colors"
+                >
+                  Request a quote — volume &amp; reseller pricing
+                </Link>
+              )}
 
               <div className="flex items-center justify-between text-[11px] text-slate-400">
                 <Link to="/shop" className="text-amber-400 hover:underline flex items-center gap-1">

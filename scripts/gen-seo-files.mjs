@@ -21,6 +21,7 @@ const urls = [
   ...blogSlugs.map(s => [`/blog/${s}`, 0.6]),
   ['/faq', 0.5],
   ['/about', 0.4],
+  ['/quote', 0.7],
   ['/contact', 0.4],
   ['/shipping', 0.2],
   ['/refund', 0.2],
