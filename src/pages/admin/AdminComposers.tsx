@@ -22,11 +22,24 @@ export const SendPayment: React.FC = () => {
         setMethodId(d.order.paymentMethod);
         if (d.order.paymentDetails) {
           setDetail(d.order.paymentDetails.fields.map((f: { label: string; value: string }) => `${f.label}: ${f.value}`).join('\n'));
+        } else {
+          const w = (findMethod(d.order.paymentMethod) as { wallet?: { address: string; network: string } } | null)?.wallet;
+          if (w) setDetail(`Wallet address: ${w.address}\nNetwork: ${w.network}\nReference: ${id}`);
         }
       })
       .catch(e => setError(e.message));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
+
+  const walletText = (mid: string) => {
+    const w = (findMethod(mid) as { wallet?: { address: string; network: string } } | null)?.wallet;
+    return w ? `Wallet address: ${w.address}\nNetwork: ${w.network}\nReference: ${id}` : '';
+  };
+  const changeMethod = (mid: string) => {
+    // Swap the pre-filled wallet text only when the box is empty or still holds the previous method's default.
+    if (!detail.trim() || detail === walletText(methodId)) setDetail(walletText(mid));
+    setMethodId(mid);
+  };
 
   const preview = parsePaymentDetail(detail);
 
@@ -59,7 +72,7 @@ export const SendPayment: React.FC = () => {
       </p>
 
       <label className="block text-xs text-slate-400" htmlFor="method">Payment method</label>
-      <select id="method" value={methodId} onChange={e => setMethodId(e.target.value)} className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm">
+      <select id="method" value={methodId} onChange={e => changeMethod(e.target.value)} className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm">
         {REPLY.methods.map(m => (
           <option key={m.id} value={m.id}>{m.label}</option>
         ))}

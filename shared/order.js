@@ -8,11 +8,21 @@ export const REPLY = {
   brand: { primary: '#f59e0b', headerDark: '#0b0f17' },
   // Order-confirmation email and shop notifications go here unless CONTACT_EMAIL / ORDER_EMAIL are set in Vercel.
   fallbackEmail: 'koloonjo@gmail.com',
-  // Payment methods offered at checkout. The real payment details (wallet address, bank account...) are never
-  // hard-coded: the operator pastes them in the admin portal after the order arrives.
+  // Payment methods offered at checkout. A method may carry a `wallet` (receiving address the operator owns and
+  // supplied); the admin composer pre-fills it and checkout shows it. Methods without one are pasted per order in admin.
   methods: [
-    { id: 'crypto-usdt', label: 'Crypto — USDT (TRC-20)', discountPct: 10 },
-    { id: 'crypto-btc', label: 'Crypto — Bitcoin (BTC)', discountPct: 10 },
+    {
+      id: 'crypto-usdt',
+      label: 'Crypto — USDT (TRC-20)',
+      discountPct: 10,
+      wallet: { address: 'TBnrAF6yjaYyUBXFGDzDUdkUG7EZr6qrFN', network: 'Tron (TRC-20)' }
+    },
+    {
+      id: 'crypto-btc',
+      label: 'Crypto — Bitcoin (BTC)',
+      discountPct: 10,
+      wallet: { address: 'bc1qkh6y6wqm8clgrdg3act8vt8j4d20hnn5up9lzh', network: 'Bitcoin mainnet (native SegWit, bc1q…)' }
+    },
     { id: 'crypto-eth', label: 'Crypto — Ethereum (ETH)', discountPct: 10 },
     { id: 'crypto-sol', label: 'Crypto — Solana (SOL)', discountPct: 10 }
   ]
