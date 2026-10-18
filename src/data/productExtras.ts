@@ -1,6 +1,96 @@
 // Third description paragraph per product: buying context written around the primary and supporting keywords
 // in keywords.ts. Kept separate from productDetails.ts so each page has unique, keyword-aware copy.
 export const PRODUCT_EXTRAS: Record<string, string> = {
+  'dji-air-3s-dji-rc-n3':
+    'Many pilots search for the DJI Air 3S price before comparing it with the Mini 5 Pro, and this listing is in AUD with local stock. It also suits searches for dji air 3s accessories.',
+  'dji-air-3s-fly-more-combo-dji-rc-n3':
+    'The air 3s Fly More kit is the best-value way to buy this aircraft, and DJI Air 3S accessories such as filters and a wide-angle lens fit it too.',
+  'dji-air-3s-fly-more-combo-dji-rc-2':
+    'Pair it with DJI Air 3S accessories such as ND filters and a wide-angle lens, and compare the air 3s kits and the DJI Air 3S price across our listings.',
+  'dji-flip-dji-rc-n3':
+    'Buyers comparing the DJI Flip vs Neo or the DJI Flip vs Mini 4 Pro should also check the DJI Flip battery options, since spare packs double the flying time.',
+  'dji-flip-dji-rc-2':
+    'The DJI Flip vs Neo question comes down to camera, range and controls: the Flip has the larger sensor and a longer flight time, and DJI Flip battery spares are available in our batteries range. It also suits searches for dji flip vs mini 4 pro.',
+  'dji-flip-fly-more-combo-dji-rc-2':
+    'If you are weighing the DJI Flip vs Mini 4 Pro, the Flip is cheaper with built-in guards, and you can add a DJI Flip battery or charging hub later. It also suits searches for dji flip vs neo.',
+  'dji-neo-drone-only':
+    'Read a DJI Neo review before you buy, pick up a DJI Neo bag for travel, and see why a drone DJI Neo is the usual beginner pick. Buyers searching for dji neo drone reviews will find it here.',
+  'dji-mini-4k-fly-more-combo':
+    'People often search for the DJI Mini 4K drone, DJI Mini 4K accessories and a DJI Mini 4K case together, so we list the main spares and add-ons nearby. Price from an Australian retailer; confirm before ordering.',
+  'dji-mini-4-pro-intelligent-flight-battery':
+    'Buyers searching for dji mini 4 pro battery will find it here. It also suits searches for dji mini 4 pro batteries.',
+  'dji-mini-4-pro-mini-3-series-intelligent-flight-battery-plus':
+    'Buyers searching for dji mini 3 batteries will find it here. It also suits searches for dji mini battery and dji 3 battery.',
+  'dji-mini-3-series-intelligent-flight-battery':
+    'Buyers searching for dji mini battery will find it here. It also suits searches for dji mini 3 batteries and dji 3 battery.',
+  'dji-avata-2-intelligent-flight-battery':
+    'Buyers searching for dji drone battery will find it here. It also suits searches for dji avata 2 drones.',
+  'dji-flip-intelligent-flight-battery':
+    'Buyers searching for dji flip battery will find it here. It also suits searches for dji drone battery and drone battery.',
+  'dji-neo-intelligent-flight-battery':
+    'Buyers searching for drone dji neo will find it here. It also suits searches for dji neo bag and dji neo review.',
+  'dji-air-3s-intelligent-flight-battery':
+    'It also suits searches for dji air 3s accessories and dji drone battery.',
+  'dji-mavic-3-series-intelligent-flight-battery':
+    'Buyers searching for mavic drone battery will find it here. It also suits searches for mavic battery and dji drone battery.',
+  'dji-mini-4-pro-mini-3-series-two-way-charging-hub':
+    'Buyers searching for drone battery charger will find it here. It also suits searches for dji mini 3 battery charger and dji drone charger.',
+  'dji-air-3-series-battery-charging-hub':
+    'Buyers searching for dji drone charger will find it here. It also suits searches for drone battery charger and dji air 3s accessories.',
+  'dji-avata-2-two-way-charging-hub':
+    'Buyers searching for drone battery charger will find it here. It also suits searches for dji drone charger and dji avata 2 drones.',
+  'dji-flip-parallel-charging-hub':
+    'Buyers searching for dji flip battery will find it here. It also suits searches for drone battery charger and dji drone charger.',
+  'dji-neo-two-way-charging-hub':
+    'Buyers searching for drone dji neo will find it here. It also suits searches for drone battery charger and dji neo bag.',
+  'dji-mavic-3-series-100w-battery-charging-hub':
+    'Buyers searching for mavic drone battery will find it here. It also suits searches for dji drone charger and drone battery charger.',
+  'dji-air-3-series-low-noise-propellers':
+    'Buyers searching for drone propeller will find it here. It also suits searches for drone propellers and dji propellers.',
+  'dji-air-3-series-propeller-guard':
+    'Buyers searching for drone propeller will find it here. It also suits searches for dji air 3s accessories and dji propellers.',
+  'dji-mini-3-lito-series-propellers':
+    'Buyers searching for dji mini 3 props will find it here. It also suits searches for dji mini 3 propellers and dji propellers.',
+  'dji-mini-4-pro-360-propeller-guard':
+    'Buyers searching for dji mini 4 pro accessories will find it here. It also suits searches for drone propeller and dji propellers.',
+  'dji-avata-2-propellers':
+    'Buyers searching for drone propellers will find it here. It also suits searches for dji propellers.',
+  'dji-flip-propellers':
+    'Buyers searching for drone props will find it here. It also suits searches for drone propeller and dji propellers.',
+  'dji-neo-propellers':
+    'Buyers searching for drone props will find it here. It also suits searches for drone propeller and dji propellers.',
+  'dji-inspire-3-propeller-guard':
+    'Buyers searching for drone propeller will find it here. It also suits searches for dji propellers and drone props.',
+  'dji-rc-2-remote-controller':
+    'It also suits searches for dji controller.',
+  'dji-rc-n3-remote-controller':
+    'Buyers searching for dji rc controller will find it here. It also suits searches for dji remote control and dji controller.',
+  'dji-rc-motion-3':
+    'Buyers searching for dji controller will find it here. It also suits searches for dji remote control and dji rc controller.',
+  'dji-rc-remote-controller':
+    'Buyers searching for dji rc controller will find it here. It also suits searches for dji controller and dji rc 2 remote controller.',
+  'dji-rc-pro-remote-controller':
+    'Buyers searching for dji controller will find it here. It also suits searches for dji rc controller and dji remote control.',
+  'dji-fpv-remote-controller-3':
+    'Buyers searching for dji fpv controller will find it here. It also suits searches for dji fpv controller 3 and dji fpv drone.',
+  'dji-goggles-n3':
+    'It also suits searches for dji fpv glasses.',
+  'dji-o4-air-unit':
+    'Buyers searching for dji fpv drone will find it here. It also suits searches for dji o4 air unit pro and dji o3 air unit.',
+  'dji-o4-air-unit-pro':
+    'It also suits searches for dji o3 air unit and dji fpv drone.',
+  'dji-air-3s-nd-filter-set-nd8-32-128':
+    'Buyers searching for dji air 3s accessories will find it here. It also suits searches for dji drone accessories.',
+  'dji-mavic-3-pro-nd-filter-set-nd8-16-32-64':
+    'Buyers searching for dji mavic accessories will find it here. It also suits searches for dji drone accessories.',
+  'dji-air-3s-wide-angle-lens':
+    'Buyers searching for dji air 3s accessories will find it here. It also suits searches for dji drone accessories.',
+  'dji-mini-4-pro-wide-angle-lens':
+    'Buyers searching for dji mini 4 pro accessories will find it here. It also suits searches for dji mini 4 pro filters and dji drone accessories.',
+  'dji-mavic-3-pro-wide-angle-lens':
+    'Buyers searching for dji mavic accessories will find it here. It also suits searches for dji drone accessories.',
+  'dji-mavic-3-pro-storage-cover':
+    'Buyers searching for dji mavic accessories will find it here. It also suits searches for dji drone accessories.',
   'dji-mini-4-pro':
     'Searching for the DJI Mini 4 Pro price Australia pilots can rely on? Our listing is in Australian dollars with local stock behind it. Compare this DJI Mini 4 Pro Australia listing with our Fly More Combos, read a DJI Mini 4 Pro review before you decide, and add DJI Mini 4 Pro accessories such as spare batteries and a case at checkout.',
   'dji-mini-4-pro-rc-2':

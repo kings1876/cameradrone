@@ -338,3 +338,53 @@ Avata 360 added (D1 Store AU prices): Drone Only A$799 (sold out there), with DJ
 
 Neo 2 Fly More Combo (DJI RC-N3) added at A09 (D1 Store 'Fly More Combo'; matches the supplied kit photo with RC-N3, transceiver and batteries). Avata 360 photos added (clean DJI image).
 Neo 2 drone-only photo replaced with the high-resolution supplied image.
+
+## Range added Oct 2026 (DJI Store images, D1 Store AU prices)
+
+| Product | AUD | Primary keyword | Supporting |
+|---|---:|---|---|
+| DJI Air 3S (DJI RC-N3) | 1,699 | dji air 3s price (90, KD 15) | air 3s; dji air 3s accessories; dji mini 5 pro vs air 3s |
+| DJI Air 3S Fly More Combo (DJI RC-N3) | 2,129 | air 3s (320, KD 17) | dji air 3s price; dji air 3s accessories; fly more combo |
+| DJI Air 3S Fly More Combo (DJI RC 2) | 2,429 | dji air 3s accessories (50, KD 8) | air 3s; dji air 3s price; fly more combo |
+| DJI Flip (DJI RC-N3) | 559 | dji flip battery (140, KD 20) | dji flip vs mini 4 pro; dji flip vs neo; dji drone mini |
+| DJI Flip (DJI RC 2) | 759 | dji flip vs neo (50, KD 12) | dji flip battery; dji flip vs mini 4 pro; dji drone mini |
+| DJI Flip Fly More Combo (DJI RC 2) | 919 | dji flip vs mini 4 pro (50, KD 13) | dji flip battery; dji flip vs neo; dji drone mini |
+| DJI Neo (Drone Only) | 249 | dji neo drone reviews (50, KD 15) | dji neo review; dji neo bag; drone dji neo |
+| DJI Mini 4K Fly More Combo | 619 | dji mini 4k drone (2,400, KD 17) | dji mini 4k accessories; dji mini 4k case; dji mini 4k combo |
+| DJI Mini 4 Pro Intelligent Flight Battery | 99 | dji mini 4 pro battery (320, KD 22) | dji mini 4 pro batteries; mini 4 pro battery; dji drone battery |
+| DJI Mini 4 Pro/Mini 3 Series Intelligent Flight Battery Plus | 149 | dji mini 3 batteries (110, KD 21) | dji mini battery; dji 3 battery; dji mini 4 pro batteries |
+| DJI Mini 3 Series Intelligent Flight Battery | 99 | dji mini battery (110, KD 21) | dji mini 3 batteries; dji 3 battery; dji drone battery |
+| DJI Avata 2 Intelligent Flight Battery | 119 | dji drone battery (140, KD 22) | drone battery; dji avata 2 drones; dji fpv drone |
+| DJI Flip Intelligent Flight Battery | 99 | dji flip battery (140, KD 20) | dji drone battery; drone battery; dji flip vs neo |
+| DJI Neo Intelligent Flight Battery | 59 | drone dji neo (50, KD 17) | dji neo bag; dji neo review; drone battery |
+| DJI Air 3S Intelligent Flight Battery | 219 | air 3s (320, KD 17) | dji air 3s accessories; dji drone battery; drone battery |
+| DJI Mavic 3 Series Intelligent Flight Battery | 219 | mavic drone battery (140, KD 9) | mavic battery; dji drone battery; drone batteries |
+| DJI Mini 4 Pro/Mini 3 Series Two-Way Charging Hub | 69 | drone battery charger (50, KD 10) | dji mini 3 battery charger; dji drone charger; drone batteries |
+| DJI Air 3 Series Battery Charging Hub | 129 | dji drone charger (90, KD 21) | drone battery charger; dji air 3s accessories; drone batteries |
+| DJI Avata 2 Two-Way Charging Hub | 79 | drone battery charger (50, KD 10) | dji drone charger; dji avata 2 drones; dji fpv drone |
+| DJI Flip Parallel Charging Hub | 69 | dji flip battery (140, KD 20) | drone battery charger; dji drone charger; dji flip vs neo |
+| DJI Neo Two-Way Charging Hub | 49 | drone dji neo (50, KD 17) | drone battery charger; dji neo bag; dji neo review |
+| DJI Mavic 3 Series 100W Battery Charging Hub | 140 | mavic drone battery (140, KD 9) | dji drone charger; drone battery charger; mavic battery |
+| DJI Air 3 Series Low-Noise Propellers | 39 | drone propeller (140, KD 9) | drone propellers; dji propellers; dji air 3s accessories |
+| DJI Air 3 Series Propeller Guard | 38 | drone propeller (140, KD 9) | dji air 3s accessories; dji propellers; drone props |
+| DJI Mini 3/Lito Series Propellers | 19 | dji mini 3 props (70, KD 21) | dji mini 3 propellers; dji propellers; drone props |
+| DJI Mini 4 Pro 360° Propeller Guard | 49 | dji mini 4 pro accessories (140, KD 20) | drone propeller; dji propellers; drone props |
+| DJI Avata 2 Propellers | 19 | drone propellers (110, KD 11) | drone propeller; dji propellers; drone props |
+| DJI Flip Propellers | 19 | drone props (110, KD 8) | drone propeller; dji propellers; dji flip battery |
+| DJI Neo Propellers | 8 | drone props (110, KD 8) | drone propeller; dji propellers; drone dji neo |
+| DJI Inspire 3 Propeller Guard | 459 | drone propeller (140, KD 9) | dji propellers; drone props; videographer drone |
+| DJI RC 2 Remote Controller | 549 | dji rc 2 (590, KD 19) | dji rc 2 remote controller; dji controller; dji rc controller |
+| DJI RC-N3 Remote Controller | 165 | dji rc controller (390, KD 23) | dji remote control; dji controller; dji rc n1 |
+| DJI RC Motion 3 | 139 | dji controller (590, KD 24) | dji remote control; dji rc controller; dji fpv controller |
+| DJI RC Remote Controller | 399 | dji rc controller (390, KD 23) | dji controller; dji rc 2 remote controller; dji remote control |
+| DJI RC Pro Remote Controller | 1,529 | dji controller (590, KD 24) | dji rc controller; dji remote control; dji rc remote |
+| DJI FPV Remote Controller 3 | 229 | dji fpv controller (140, KD 16) | dji fpv controller 3; dji fpv drone; fpv drone controller |
+| DJI Goggles N3 | 359 | dji goggle (50, KD 16) | fpv goggles; dji fpv glasses; avata goggles |
+| DJI O4 Air Unit | 189 | dji fpv drone (880, KD 17) | dji o4 air unit pro; dji o3 air unit; diy drone kit |
+| DJI O4 Air Unit Pro | 349 | dji o4 air unit pro (260, KD 18) | dji o3 air unit; dji fpv drone; diy drone kit |
+| DJI Air 3S ND Filter Set (ND8/32/128) | 159 | dji air 3s accessories (50, KD 8) | air 3s; dji drone accessories; drone accessories australia |
+| DJI Mavic 3 Pro ND Filter Set (ND8/16/32/64) | 229 | dji mavic accessories (50, KD 13) | mavic 3; dji drone accessories; drone accessories australia |
+| DJI Air 3S Wide-Angle Lens | 99 | dji air 3s accessories (50, KD 8) | air 3s; dji drone accessories; drone accessories australia |
+| DJI Mini 4 Pro Wide-Angle Lens | 49 | dji mini 4 pro accessories (140, KD 20) | dji mini 4 pro filters; dji drone accessories; drone accessories australia |
+| DJI Mavic 3 Pro Wide-Angle Lens | 229 | dji mavic accessories (50, KD 13) | mavic 3; dji drone accessories; drone accessories australia |
+| DJI Mavic 3 Pro Storage Cover | 49 | dji mavic accessories (50, KD 13) | mavic 3; dji drone accessories; drone case |

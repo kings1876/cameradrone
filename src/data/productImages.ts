@@ -1,5 +1,140 @@
 // Generated from the product photo folder. Keys are product slugs; the first image is the primary one.
 export const PRODUCT_IMAGES: Record<string, string[]> = {
+  "dji-air-3s-dji-rc-n3": [
+    "/products/dji-cover-air-3s.jpg"
+  ],
+  "dji-air-3s-fly-more-combo-dji-rc-n3": [
+    "/products/dji-cover-air-3s.jpg"
+  ],
+  "dji-air-3s-fly-more-combo-dji-rc-2": [
+    "/products/dji-cover-air-3s.jpg"
+  ],
+  "dji-flip-dji-rc-n3": [
+    "/products/dji-cover-flip.jpg"
+  ],
+  "dji-flip-dji-rc-2": [
+    "/products/dji-cover-flip-rc-2.jpg"
+  ],
+  "dji-flip-fly-more-combo-dji-rc-2": [
+    "/products/dji-cover-flip-fmc.jpg"
+  ],
+  "dji-neo-drone-only": [
+    "/products/dji-cover-neo.jpg"
+  ],
+  "dji-mini-4k-fly-more-combo": [
+    "/products/dji-cover-mini-4k-fmc.jpg"
+  ],
+  "dji-mini-4-pro-intelligent-flight-battery": [
+    "/products/dji-cover-mini-4-pro-battery.jpg"
+  ],
+  "dji-mini-4-pro-mini-3-series-intelligent-flight-battery-plus": [
+    "/products/dji-cover-mini-3-pro-battery-plus.jpg"
+  ],
+  "dji-mini-3-series-intelligent-flight-battery": [
+    "/products/dji-cover-mini-3-pro-battery.jpg"
+  ],
+  "dji-avata-2-intelligent-flight-battery": [
+    "/products/dji-cover-avata-2-battery.jpg"
+  ],
+  "dji-flip-intelligent-flight-battery": [
+    "/products/dji-cover-flip-battery.jpg"
+  ],
+  "dji-neo-intelligent-flight-battery": [
+    "/products/dji-cover-neo-battery.jpg"
+  ],
+  "dji-air-3s-intelligent-flight-battery": [
+    "/products/dji-cover-air-3s-battery.jpg"
+  ],
+  "dji-mavic-3-series-intelligent-flight-battery": [
+    "/products/dji-cover-mavic-3-battery.jpg"
+  ],
+  "dji-mini-4-pro-mini-3-series-two-way-charging-hub": [
+    "/products/dji-cover-mini-3-pro-hub.jpg"
+  ],
+  "dji-air-3-series-battery-charging-hub": [
+    "/products/dji-cover-air-3-hub.jpg"
+  ],
+  "dji-avata-2-two-way-charging-hub": [
+    "/products/dji-cover-avata-2-hub.jpg"
+  ],
+  "dji-flip-parallel-charging-hub": [
+    "/products/dji-cover-flip-hub.jpg"
+  ],
+  "dji-neo-two-way-charging-hub": [
+    "/products/dji-cover-neo-hub.jpg"
+  ],
+  "dji-mavic-3-series-100w-battery-charging-hub": [
+    "/products/dji-cover-mavic-3-hub.jpg"
+  ],
+  "dji-air-3-series-low-noise-propellers": [
+    "/products/dji-cover-air-3-lownoise-props.jpg"
+  ],
+  "dji-air-3-series-propeller-guard": [
+    "/products/dji-cover-air-3-guard.jpg"
+  ],
+  "dji-mini-3-lito-series-propellers": [
+    "/products/dji-cover-mini-3-props.jpg"
+  ],
+  "dji-mini-4-pro-360-propeller-guard": [
+    "/products/dji-cover-mini-4-pro-guard.jpg"
+  ],
+  "dji-avata-2-propellers": [
+    "/products/dji-cover-avata-2-props.jpg"
+  ],
+  "dji-flip-propellers": [
+    "/products/dji-cover-flip-props.jpg"
+  ],
+  "dji-neo-propellers": [
+    "/products/dji-cover-neo-props.jpg"
+  ],
+  "dji-inspire-3-propeller-guard": [
+    "/products/dji-cover-inspire-3-guard.jpg"
+  ],
+  "dji-rc-2-remote-controller": [
+    "/products/dji-cover-rc-2.jpg"
+  ],
+  "dji-rc-n3-remote-controller": [
+    "/products/dji-cover-rc-n3.jpg"
+  ],
+  "dji-rc-motion-3": [
+    "/products/dji-cover-rc-motion-3.jpg"
+  ],
+  "dji-rc-remote-controller": [
+    "/products/dji-cover-rc.jpg"
+  ],
+  "dji-rc-pro-remote-controller": [
+    "/products/dji-cover-rc-pro.jpg"
+  ],
+  "dji-fpv-remote-controller-3": [
+    "/products/dji-cover-fpv-controller-3.jpg"
+  ],
+  "dji-goggles-n3": [
+    "/products/dji-cover-goggles-n3.jpg"
+  ],
+  "dji-o4-air-unit": [
+    "/products/dji-cover-o4-air-unit.jpg"
+  ],
+  "dji-o4-air-unit-pro": [
+    "/products/dji-cover-o4-air-unit-pro.jpg"
+  ],
+  "dji-air-3s-nd-filter-set-nd8-32-128": [
+    "/products/dji-cover-air-3s-nd.jpg"
+  ],
+  "dji-mavic-3-pro-nd-filter-set-nd8-16-32-64": [
+    "/products/dji-cover-mavic-3-pro-nd.jpg"
+  ],
+  "dji-air-3s-wide-angle-lens": [
+    "/products/dji-cover-air-3s-wide-lens.jpg"
+  ],
+  "dji-mini-4-pro-wide-angle-lens": [
+    "/products/dji-cover-mini-4-pro-wide-lens.jpg"
+  ],
+  "dji-mavic-3-pro-wide-angle-lens": [
+    "/products/dji-cover-mavic-3-pro-wide-lens.jpg"
+  ],
+  "dji-mavic-3-pro-storage-cover": [
+    "/products/dji-cover-mavic-3-pro-storage-cover.jpg"
+  ],
   "dji-neo-2-fly-more-combo-dji-rc-n3": [
     "/products/dji-neo-2-fly-more-combo-dji-rc-n3.jpg"
   ],

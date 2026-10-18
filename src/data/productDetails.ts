@@ -15,6 +15,369 @@ export interface ProductDetail {
 const COMBO_BOX = ['Aircraft', 'Three Intelligent Flight Batteries', 'Two-way charging hub', 'Shoulder bag'];
 
 export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
+  'dji-air-3s-dji-rc-n3': {
+    overview:
+      'The DJI Air 3S (DJI RC-N3) is a dual-camera travel drone with a 1-inch wide camera and a 3x medium tele camera, supplied with the DJI RC-N3 controller. The 1-inch sensor and forward LiDAR help it capture clean footage in low light, and it flies for up to 45 minutes.',
+    bestFor:
+      'Ideal for travel, landscape and property creators who want a step up from a Mini without moving to a pro-level aircraft.',
+    highlights: ['1-inch 50 MP wide camera plus 70 mm medium tele', 'Up to 45 min flight time', 'Omnidirectional sensing with forward LiDAR'],
+    specs: [['Wide camera', '1-inch CMOS, 50 MP'], ['Medium tele camera', '1/1.3-inch CMOS, 48 MP, 70 mm eq.'], ['Video', '4K up to 120 fps'], ['Max flight time', 'Up to 45 min'], ['Take-off weight', 'About 724 g'], ['Controller', 'DJI RC-N3 (uses your smartphone)']]
+  },
+  'dji-air-3s-fly-more-combo-dji-rc-n3': {
+    overview:
+      'The DJI Air 3S Fly More Combo (DJI RC-N3) is the Air 3S with extra batteries, a charging hub and a shoulder bag, supplied with the DJI RC-N3 controller. The extra batteries turn the 45-minute Air 3S into an all-day travel and shoot kit.',
+    bestFor:
+      'Best for creators who fly for hours and want spare power without paying for the RC 2 screen.',
+    highlights: ['Fly More kit with extra batteries and charging hub', '1-inch 50 MP wide camera plus medium tele', 'DJI RC-N3 controller'],
+    specs: [['Wide camera', '1-inch CMOS, 50 MP'], ['Video', '4K up to 120 fps'], ['Max flight time per battery', 'Up to 45 min'], ['Controller', 'DJI RC-N3']],
+    inTheBox: ['Air 3S aircraft', 'DJI RC-N3 controller', 'Fly More kit: extra Intelligent Flight Batteries', 'Charging hub', 'Shoulder bag']
+  },
+  'dji-air-3s-fly-more-combo-dji-rc-2': {
+    overview:
+      'The DJI Air 3S Fly More Combo (DJI RC 2) is the Air 3S Fly More kit with the DJI RC 2 screen controller. It is the complete Air 3S package: dual cameras, extra batteries and a built-in-screen controller.',
+    bestFor:
+      'Perfect for pilots who want no phone, a bright screen and the longest day of flying.',
+    highlights: ['DJI RC 2 controller with built-in screen', 'Extra batteries, hub and shoulder bag', '1-inch 50 MP wide camera plus medium tele'],
+    specs: [['Wide camera', '1-inch CMOS, 50 MP'], ['Video', '4K up to 120 fps'], ['Max flight time per battery', 'Up to 45 min'], ['Controller', 'DJI RC 2 with built-in screen']],
+    inTheBox: ['Air 3S aircraft', 'DJI RC 2 controller', 'Fly More kit: extra Intelligent Flight Batteries', 'Charging hub', 'Shoulder bag']
+  },
+  'dji-flip-dji-rc-n3': {
+    overview:
+      'The DJI Flip (DJI RC-N3) is a foldable vlog drone with built-in propeller guards, a 1/1.3-inch camera and 4K/60 video, supplied with the DJI RC-N3. It is about 249 g and flies for up to 31 minutes, with guards that make it friendlier around people and objects.',
+    bestFor:
+      'A great first camera drone for vloggers, families and travellers who want an easy, safer-feeling aircraft.',
+    highlights: ['About 249 g with built-in propeller guards', '1/1.3-inch camera, 4K up to 60 fps', 'Up to 31 min flight time'],
+    specs: [['Camera sensor', '1/1.3-inch CMOS, 48 MP'], ['Video', '4K up to 60 fps'], ['Max flight time', 'Up to 31 min'], ['Take-off weight', 'About 249 g'], ['Controller', 'DJI RC-N3']]
+  },
+  'dji-flip-dji-rc-2': {
+    overview:
+      'The DJI Flip (DJI RC 2) is the DJI Flip with the DJI RC 2 screen controller included. The RC 2\'s built-in 5.5-inch screen means no phone and a faster set-up in the field.',
+    bestFor:
+      'Best for creators who fly often outdoors and want a bright screen from day one.',
+    highlights: ['DJI RC 2 controller with built-in screen', 'Built-in propeller guards', '4K up to 60 fps'],
+    specs: [['Camera sensor', '1/1.3-inch CMOS, 48 MP'], ['Video', '4K up to 60 fps'], ['Max flight time', 'Up to 31 min'], ['Controller', 'DJI RC 2 with built-in screen']]
+  },
+  'dji-flip-fly-more-combo-dji-rc-2': {
+    overview:
+      'The DJI Flip Fly More Combo (DJI RC 2) is the DJI Flip kit with the DJI RC 2, two additional batteries, a charging hub and a shoulder bag. It is the most complete way to buy the Flip for travel and content days.',
+    bestFor:
+      'Ideal for vloggers and families who want several flights per outing and a bag to carry it all.',
+    highlights: ['Two extra batteries and a charging hub', 'DJI RC 2 screen controller', 'Shoulder bag included'],
+    specs: [['Camera sensor', '1/1.3-inch CMOS, 48 MP'], ['Video', '4K up to 60 fps'], ['Max flight time per battery', 'Up to 31 min'], ['Controller', 'DJI RC 2 with built-in screen']],
+    inTheBox: ['Flip aircraft', 'DJI RC 2 controller', 'Two additional Intelligent Flight Batteries', 'Battery charging hub', 'Shoulder bag']
+  },
+  'dji-neo-drone-only': {
+    overview:
+      'The DJI Neo (Drone Only) is a tiny, palm-sized 4K camera drone designed to follow you hands-free, sold as the drone only. At about 135 g it is one of the easiest drones to carry and fly.',
+    bestFor:
+      'A fun starter drone for beginners, cyclists and runners who want effortless follow-me shots. Use the Fly More kits for longer sessions.',
+    highlights: ['About 135 g and palm-sized', '4K video', 'Follow-me and selfie modes'],
+    specs: [['Take-off weight', 'About 135 g'], ['Video', '4K'], ['Kit', 'Drone only, controller not included']]
+  },
+  'dji-mini-4k-fly-more-combo': {
+    overview:
+      'The DJI Mini 4K Fly More Combo is an entry-level sub-250 g 4K drone sold as a Fly More Combo with extra batteries and a controller. It is a simple, lightweight way into 4K aerial video at a very friendly price.',
+    bestFor:
+      'The best-value starter drone for beginners and travellers who want 4K without the cost of a Mini 4 Pro.',
+    highlights: ['Sub-250 g 4K camera drone', 'Fly More Combo with extra batteries', '3-axis gimbal for stable footage'],
+    specs: [['Video', '4K'], ['Take-off weight', 'Under 250 g'], ['Kit', 'Fly More Combo (extra batteries included)']]
+  },
+  'dji-mini-4-pro-intelligent-flight-battery': {
+    overview:
+      'The DJI Mini 4 Pro Intelligent Flight Battery is the intelligent flight battery for the DJI Mini 4 Pro. It gives the Mini 4 Pro up to 34 minutes of flight on the standard pack.',
+    bestFor:
+      'Buy a spare for the DJI Mini 4 Pro so a single outing is never limited to one flight.',
+    highlights: ['Genuine DJI intelligent flight battery', 'Made for the DJI Mini 4 Pro', 'Easy to swap in the field'],
+    specs: [['Compatible aircraft', 'DJI Mini 4 Pro'], ['Type', 'Intelligent flight battery'], ['Flight time on aircraft', 'Up to 34 min']]
+  },
+  'dji-mini-4-pro-mini-3-series-intelligent-flight-battery-plus': {
+    overview:
+      'The DJI Mini 4 Pro/Mini 3 Series Intelligent Flight Battery Plus is the intelligent flight battery for the DJI Mini 4 Pro and Mini 3 series. The higher-capacity Plus battery extends flight time, though the aircraft is then heavier than 250 g.',
+    bestFor:
+      'Buy a spare for the DJI Mini 4 Pro and Mini 3 series so a single outing is never limited to one flight.',
+    highlights: ['Genuine DJI intelligent flight battery', 'Made for the DJI Mini 4 Pro and Mini 3 series', 'Easy to swap in the field'],
+    specs: [['Compatible aircraft', 'DJI Mini 4 Pro and Mini 3 series'], ['Type', 'Intelligent flight battery'], ['CASA note', 'With the Plus battery the aircraft exceeds 250 g']]
+  },
+  'dji-mini-3-series-intelligent-flight-battery': {
+    overview:
+      'The DJI Mini 3 Series Intelligent Flight Battery is the intelligent flight battery for the DJI Mini 3 series. It is the standard pack that keeps the Mini 3 series under 250 g.',
+    bestFor:
+      'Buy a spare for the DJI Mini 3 series so a single outing is never limited to one flight.',
+    highlights: ['Genuine DJI intelligent flight battery', 'Made for the DJI Mini 3 series', 'Easy to swap in the field'],
+    specs: [['Compatible aircraft', 'DJI Mini 3 series'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-avata-2-intelligent-flight-battery': {
+    overview:
+      'The DJI Avata 2 Intelligent Flight Battery is the intelligent flight battery for the DJI Avata 2. It powers the Avata 2 for up to 23 minutes of FPV flight.',
+    bestFor:
+      'Buy a spare for the DJI Avata 2 so a single outing is never limited to one flight.',
+    highlights: ['Genuine DJI intelligent flight battery', 'Made for the DJI Avata 2', 'Easy to swap in the field'],
+    specs: [['Compatible aircraft', 'DJI Avata 2'], ['Type', 'Intelligent flight battery'], ['Flight time on aircraft', 'Up to 23 min']]
+  },
+  'dji-flip-intelligent-flight-battery': {
+    overview:
+      'The DJI Flip Intelligent Flight Battery is the intelligent flight battery for the DJI Flip. It supports flights of up to 31 minutes on the Flip.',
+    bestFor:
+      'Buy a spare for the DJI Flip so a single outing is never limited to one flight.',
+    highlights: ['Genuine DJI intelligent flight battery', 'Made for the DJI Flip', 'Easy to swap in the field'],
+    specs: [['Compatible aircraft', 'DJI Flip'], ['Type', 'Intelligent flight battery'], ['Flight time on aircraft', 'Up to 31 min']]
+  },
+  'dji-neo-intelligent-flight-battery': {
+    overview:
+      'The DJI Neo Intelligent Flight Battery is the intelligent flight battery for the DJI Neo. A spare Neo battery is the simplest way to extend a short, fun flying session.',
+    bestFor:
+      'Buy a spare for the DJI Neo so a single outing is never limited to one flight.',
+    highlights: ['Genuine DJI intelligent flight battery', 'Made for the DJI Neo', 'Easy to swap in the field'],
+    specs: [['Compatible aircraft', 'DJI Neo'], ['Type', 'Intelligent flight battery']]
+  },
+  'dji-air-3s-intelligent-flight-battery': {
+    overview:
+      'The DJI Air 3S Intelligent Flight Battery is the intelligent flight battery for the DJI Air 3S. It supports flights of up to 45 minutes on the Air 3S.',
+    bestFor:
+      'Buy a spare for the DJI Air 3S so a single outing is never limited to one flight.',
+    highlights: ['Genuine DJI intelligent flight battery', 'Made for the DJI Air 3S', 'Easy to swap in the field'],
+    specs: [['Compatible aircraft', 'DJI Air 3S'], ['Type', 'Intelligent flight battery'], ['Flight time on aircraft', 'Up to 45 min']]
+  },
+  'dji-mavic-3-series-intelligent-flight-battery': {
+    overview:
+      'The DJI Mavic 3 Series Intelligent Flight Battery is the intelligent flight battery for the DJI Mavic 3 series. It is the 5,000 mAh pack for the Mavic 3 family.',
+    bestFor:
+      'Buy a spare for the DJI Mavic 3 series so a single outing is never limited to one flight.',
+    highlights: ['Genuine DJI intelligent flight battery', 'Made for the DJI Mavic 3 series', 'Easy to swap in the field'],
+    specs: [['Compatible aircraft', 'DJI Mavic 3 series'], ['Type', 'Intelligent flight battery'], ['Capacity', '5,000 mAh, 77 Wh']]
+  },
+  'dji-mini-4-pro-mini-3-series-two-way-charging-hub': {
+    overview:
+      'The DJI Mini 4 Pro/Mini 3 Series Two-Way Charging Hub is a battery charging hub for the DJI Mini 4 Pro and Mini 3 series. A two-way hub charges multiple batteries and keeps spares ready.',
+    bestFor:
+      'Ideal for DJI Mini 4 Pro and Mini 3 series pilots who own several batteries and want to recharge them in one place.',
+    highlights: ['Charges multiple batteries', 'Made for the DJI Mini 4 Pro and Mini 3 series', 'Genuine DJI charging accessory'],
+    specs: [['Compatible aircraft', 'DJI Mini 4 Pro and Mini 3 series'], ['Type', 'Battery charging hub']]
+  },
+  'dji-air-3-series-battery-charging-hub': {
+    overview:
+      'The DJI Air 3 Series Battery Charging Hub is a battery charging hub for the DJI Air 3 and Air 3S. It charges the Air 3 series batteries in a row so a full day of flying is covered.',
+    bestFor:
+      'Ideal for DJI Air 3 and Air 3S pilots who own several batteries and want to recharge them in one place.',
+    highlights: ['Charges multiple batteries', 'Made for the DJI Air 3 and Air 3S', 'Genuine DJI charging accessory'],
+    specs: [['Compatible aircraft', 'DJI Air 3 and Air 3S'], ['Type', 'Battery charging hub']]
+  },
+  'dji-avata-2-two-way-charging-hub': {
+    overview:
+      'The DJI Avata 2 Two-Way Charging Hub is a battery charging hub for the DJI Avata 2. A two-way hub charges multiple Avata 2 batteries from one input.',
+    bestFor:
+      'Ideal for DJI Avata 2 pilots who own several batteries and want to recharge them in one place.',
+    highlights: ['Charges multiple batteries', 'Made for the DJI Avata 2', 'Genuine DJI charging accessory'],
+    specs: [['Compatible aircraft', 'DJI Avata 2'], ['Type', 'Battery charging hub']]
+  },
+  'dji-flip-parallel-charging-hub': {
+    overview:
+      'The DJI Flip Parallel Charging Hub is a battery charging hub for the DJI Flip. A parallel hub charges Flip batteries in sequence so spares are ready.',
+    bestFor:
+      'Ideal for DJI Flip pilots who own several batteries and want to recharge them in one place.',
+    highlights: ['Charges multiple batteries', 'Made for the DJI Flip', 'Genuine DJI charging accessory'],
+    specs: [['Compatible aircraft', 'DJI Flip'], ['Type', 'Battery charging hub']]
+  },
+  'dji-neo-two-way-charging-hub': {
+    overview:
+      'The DJI Neo Two-Way Charging Hub is a battery charging hub for the DJI Neo. A two-way hub charges multiple Neo batteries.',
+    bestFor:
+      'Ideal for DJI Neo pilots who own several batteries and want to recharge them in one place.',
+    highlights: ['Charges multiple batteries', 'Made for the DJI Neo', 'Genuine DJI charging accessory'],
+    specs: [['Compatible aircraft', 'DJI Neo'], ['Type', 'Battery charging hub']]
+  },
+  'dji-mavic-3-series-100w-battery-charging-hub': {
+    overview:
+      'The DJI Mavic 3 Series 100W Battery Charging Hub is a battery charging hub for the DJI Mavic 3 series. A 100 W hub charges Mavic 3 series batteries quickly in sequence.',
+    bestFor:
+      'Ideal for DJI Mavic 3 series pilots who own several batteries and want to recharge them in one place.',
+    highlights: ['Charges multiple batteries', 'Made for the DJI Mavic 3 series', 'Genuine DJI charging accessory'],
+    specs: [['Compatible aircraft', 'DJI Mavic 3 series'], ['Type', 'Battery charging hub']]
+  },
+  'dji-air-3-series-low-noise-propellers': {
+    overview:
+      'The DJI Air 3 Series Low-Noise Propellers is a propeller set for the DJI Air 3 and Air 3S. Low-noise props cut the sound of the aircraft in flight.',
+    bestFor:
+      'Useful for DJI Air 3 and Air 3S owners who want a spare set ready after a knock or a long season of flying.',
+    highlights: ['Genuine DJI part', 'Made for the DJI Air 3 and Air 3S', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Air 3 and Air 3S'], ['Type', 'Propellers']]
+  },
+  'dji-air-3-series-propeller-guard': {
+    overview:
+      'The DJI Air 3 Series Propeller Guard is a propeller guard for the DJI Air 3 and Air 3S. Guards protect the props and add confidence when flying close to objects.',
+    bestFor:
+      'Useful for DJI Air 3 and Air 3S owners who want a spare set ready after a knock or a long season of flying.',
+    highlights: ['Genuine DJI part', 'Made for the DJI Air 3 and Air 3S', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Air 3 and Air 3S'], ['Type', 'Propeller guard']]
+  },
+  'dji-mini-3-lito-series-propellers': {
+    overview:
+      'The DJI Mini 3/Lito Series Propellers is a propeller set for the DJI Mini 3 series and Lito series. A spare set keeps a Mini or Lito flying after a prop strike.',
+    bestFor:
+      'Useful for DJI Mini 3 series and Lito series owners who want a spare set ready after a knock or a long season of flying.',
+    highlights: ['Genuine DJI part', 'Made for the DJI Mini 3 series and Lito series', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mini 3 series and Lito series'], ['Type', 'Propellers']]
+  },
+  'dji-mini-4-pro-360-propeller-guard': {
+    overview:
+      'The DJI Mini 4 Pro 360° Propeller Guard is a propeller guard for the DJI Mini 4 Pro. The 360° guard protects the propellers in tight spaces.',
+    bestFor:
+      'Useful for DJI Mini 4 Pro owners who want a spare set ready after a knock or a long season of flying.',
+    highlights: ['Genuine DJI part', 'Made for the DJI Mini 4 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mini 4 Pro'], ['Type', 'Propeller guard']]
+  },
+  'dji-avata-2-propellers': {
+    overview:
+      'The DJI Avata 2 Propellers is a propeller set for the DJI Avata 2. Spare props let you recover quickly after a crash or a close pass.',
+    bestFor:
+      'Useful for DJI Avata 2 owners who want a spare set ready after a knock or a long season of flying.',
+    highlights: ['Genuine DJI part', 'Made for the DJI Avata 2', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Avata 2'], ['Type', 'Propellers']]
+  },
+  'dji-flip-propellers': {
+    overview:
+      'The DJI Flip Propellers is a propeller set for the DJI Flip. A spare propeller pair keeps a Flip in the air after a knock.',
+    bestFor:
+      'Useful for DJI Flip owners who want a spare set ready after a knock or a long season of flying.',
+    highlights: ['Genuine DJI part', 'Made for the DJI Flip', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Flip'], ['Type', 'Propellers']]
+  },
+  'dji-neo-propellers': {
+    overview:
+      'The DJI Neo Propellers is a propeller set for the DJI Neo. A spare Neo prop set is a very low-cost way to be ready for a crash.',
+    bestFor:
+      'Useful for DJI Neo owners who want a spare set ready after a knock or a long season of flying.',
+    highlights: ['Genuine DJI part', 'Made for the DJI Neo', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Neo'], ['Type', 'Propellers']]
+  },
+  'dji-inspire-3-propeller-guard': {
+    overview:
+      'The DJI Inspire 3 Propeller Guard is a propeller guard for the DJI Inspire 3. A guard lets an Inspire 3 crew fly closer to objects and people on set.',
+    bestFor:
+      'Useful for DJI Inspire 3 owners who want a spare set ready after a knock or a long season of flying.',
+    highlights: ['Genuine DJI part', 'Made for the DJI Inspire 3', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Inspire 3'], ['Type', 'Propeller guard']]
+  },
+  'dji-rc-2-remote-controller': {
+    overview:
+      'The DJI RC 2 Remote Controller is the screen controller with a 5.5-inch 1080p display for compatible DJI drones. The built-in bright screen removes the need for a phone.',
+    bestFor:
+      'A good upgrade for pilots who fly in sunlight and want a controller with its own display.',
+    highlights: ['5.5-inch 1080p built-in screen', 'No phone needed', 'Works with compatible DJI aircraft'],
+    specs: [['Display', '5.5-inch 1080p, 700 nits'], ['Type', 'Screen remote controller']]
+  },
+  'dji-rc-n3-remote-controller': {
+    overview:
+      'The DJI RC-N3 Remote Controller is a compact controller that uses your smartphone as the screen. It is a light, affordable way to fly compatible DJI drones.',
+    bestFor:
+      'Suits beginners and travellers who already have a phone and want to keep costs down.',
+    highlights: ['Uses your smartphone as the screen', 'Compact and light', 'Works with compatible DJI aircraft'],
+    specs: [['Type', 'Phone-based remote controller']]
+  },
+  'dji-rc-motion-3': {
+    overview:
+      'The DJI RC Motion 3 is a motion controller that steers compatible DJI drones with hand and wrist movements. Its simple one-handed control makes immersive FPV flying approachable.',
+    bestFor:
+      'A natural fit for Avata 2 and other motion-controlled flying, alongside a pair of goggles.',
+    highlights: ['One-handed motion control', 'Works with compatible FPV drones', 'Genuine DJI controller'],
+    specs: [['Type', 'Motion controller']]
+  },
+  'dji-rc-remote-controller': {
+    overview:
+      'The DJI RC Remote Controller is the original DJI RC screen controller for compatible aircraft. A built-in display and long-range support make it a solid controller for the Mavic 3 family.',
+    bestFor:
+      'Best for owners of compatible DJI aircraft who want a screen controller without a phone.',
+    highlights: ['Built-in screen', 'Compatible with supported DJI aircraft', 'Genuine DJI controller'],
+    specs: [['Type', 'Screen remote controller']]
+  },
+  'dji-rc-pro-remote-controller': {
+    overview:
+      'The DJI RC Pro Remote Controller is a high-bright professional screen controller for compatible DJI aircraft. It stays readable in strong sun and is designed for demanding shoots.',
+    bestFor:
+      'For professional and enterprise pilots who need a bright, rugged controller.',
+    highlights: ['High-bright screen', 'Professional-grade controller', 'Genuine DJI accessory'],
+    specs: [['Type', 'High-bright screen controller']]
+  },
+  'dji-fpv-remote-controller-3': {
+    overview:
+      'The DJI FPV Remote Controller 3 is a joystick-style FPV controller for DJI FPV flying. Familiar stick control makes manual FPV flying precise.',
+    bestFor:
+      'Best for FPV pilots who want stick control rather than a motion controller.',
+    highlights: ['Stick-based FPV control', 'Genuine DJI controller', 'Made for DJI FPV systems'],
+    specs: [['Type', 'FPV remote controller']]
+  },
+  'dji-goggles-n3': {
+    overview:
+      'The DJI Goggles N3 is an entry-level FPV goggles headset for compatible DJI drones. It brings the immersive first-person view to Avata 2 and similar aircraft at a lower price.',
+    bestFor:
+      'A good pick for FPV beginners who want goggles without the cost of the flagship Goggles 3.',
+    highlights: ['Immersive FPV view', 'Works with compatible DJI drones', 'Genuine DJI goggles'],
+    specs: [['Type', 'FPV goggles']]
+  },
+  'dji-o4-air-unit': {
+    overview:
+      'The DJI O4 Air Unit is a compact digital video transmission unit for custom FPV builds. It gives builders a DJI digital FPV video link for their own airframes.',
+    bestFor:
+      'For FPV builders and hobbyists putting together a custom drone.',
+    highlights: ['Compact digital video link', 'For custom builds', 'Genuine DJI module'],
+    specs: [['Type', 'Digital video transmission unit']]
+  },
+  'dji-o4-air-unit-pro': {
+    overview:
+      'The DJI O4 Air Unit Pro is a premium digital video transmission and camera unit for custom FPV builds. The Pro unit adds a higher-grade camera for pilots who want the best DJI digital FPV image on a custom build.',
+    bestFor:
+      'Best for experienced FPV builders and racers.',
+    highlights: ['Pro-grade camera and transmission', 'For custom FPV builds', 'Genuine DJI module'],
+    specs: [['Type', 'Digital video transmission and camera unit']]
+  },
+  'dji-air-3s-nd-filter-set-nd8-32-128': {
+    overview:
+      'The DJI Air 3S ND Filter Set (ND8/32/128) is a three-filter ND set for the Air 3S. ND filters let you keep a cinematic shutter speed in bright light.',
+    bestFor:
+      'A smart add-on for DJI Air 3S owners who want more control over their footage.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Air 3S', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Air 3S'], ['Type', 'ND filter set']]
+  },
+  'dji-mavic-3-pro-nd-filter-set-nd8-16-32-64': {
+    overview:
+      'The DJI Mavic 3 Pro ND Filter Set (ND8/16/32/64) is a four-filter ND set for the Mavic 3 Pro. The set covers bright-day shooting for the Mavic 3 Pro\'s cameras.',
+    bestFor:
+      'A smart add-on for DJI Mavic 3 Pro owners who want more control over their footage.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mavic 3 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mavic 3 Pro'], ['Type', 'ND filter set']]
+  },
+  'dji-air-3s-wide-angle-lens': {
+    overview:
+      'The DJI Air 3S Wide-Angle Lens is a clip-on wide-angle lens for the Air 3S. It widens the field of view for expansive landscape and interior shots.',
+    bestFor:
+      'A smart add-on for DJI Air 3S owners who want more control over their footage.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Air 3S', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Air 3S'], ['Type', 'Wide-angle lens']]
+  },
+  'dji-mini-4-pro-wide-angle-lens': {
+    overview:
+      'The DJI Mini 4 Pro Wide-Angle Lens is a clip-on wide-angle lens for the Mini 4 Pro. It adds a wider view for real estate and travel shots.',
+    bestFor:
+      'A smart add-on for DJI Mini 4 Pro owners who want more control over their footage.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mini 4 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mini 4 Pro'], ['Type', 'Wide-angle lens']]
+  },
+  'dji-mavic-3-pro-wide-angle-lens': {
+    overview:
+      'The DJI Mavic 3 Pro Wide-Angle Lens is a clip-on wide-angle lens for the Mavic 3 Pro. It widens the main camera\'s field of view for sweeping scenes.',
+    bestFor:
+      'A smart add-on for DJI Mavic 3 Pro owners who want more control over their footage.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mavic 3 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mavic 3 Pro'], ['Type', 'Wide-angle lens']]
+  },
+  'dji-mavic-3-pro-storage-cover': {
+    overview:
+      'The DJI Mavic 3 Pro Storage Cover is a protective storage cover for the Mavic 3 Pro gimbal camera. It keeps the camera protected when the aircraft is stored or carried.',
+    bestFor:
+      'A smart add-on for DJI Mavic 3 Pro owners who want more control over their footage.',
+    highlights: ['Genuine DJI accessory', 'Made for the DJI Mavic 3 Pro', 'Quick to fit'],
+    specs: [['Compatible aircraft', 'DJI Mavic 3 Pro'], ['Type', 'Storage cover']]
+  },
   // ---------------- DJI Mini & Air ----------------
   'dji-mini-4-pro': {
     overview:
