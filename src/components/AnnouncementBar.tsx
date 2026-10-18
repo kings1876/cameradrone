@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, Truck, BadgePercent, RotateCcw, MessageSquareQuote, PackageCheck } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Truck, BadgePercent, RotateCcw, MessageSquareQuote, PackageCheck, ShieldCheck } from 'lucide-react';
 import { BUSINESS } from '../business';
 
 const MESSAGES = [
@@ -28,6 +28,23 @@ export const AnnouncementBar: React.FC = () => {
   const btn = 'p-1 rounded text-slate-400 hover:text-amber-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400';
 
   return (
+    <>
+    <div className="bg-[#05080d] border-b border-slate-800/80">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 h-8 flex items-center justify-center gap-2 text-[11px] sm:text-sm">
+        <ShieldCheck aria-hidden="true" className="w-4 h-4 shrink-0 text-amber-400" />
+        <span className="font-semibold text-slate-200 truncate">
+          {BUSINESS.name} ({BUSINESS.tradingName}) <span aria-hidden="true" className="text-slate-500">·</span> {BUSINESS.abnDisplay}
+        </span>
+        <a
+          href={BUSINESS.abrUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="shrink-0 font-semibold text-amber-400 underline underline-offset-2 hover:text-amber-300"
+        >
+          Verify on ABR
+        </a>
+      </div>
+    </div>
     <div
       className="bg-[#080c13] border-b border-slate-800/80"
       onMouseEnter={() => setPaused(true)}
@@ -36,9 +53,7 @@ export const AnnouncementBar: React.FC = () => {
       onBlur={() => setPaused(false)}
     >
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 h-7 flex items-center justify-between gap-2 text-[11px] sm:text-xs">
-        <div className="hidden md:block w-56 shrink-0 font-semibold text-amber-400">
-          {BUSINESS.name} <span aria-hidden="true" className="text-amber-500/60">·</span> {BUSINESS.abnDisplay}
-        </div>
+        <div className="hidden md:block w-56 shrink-0" aria-hidden="true" />
         <div className="flex-1 min-w-0 flex items-center justify-center gap-1">
           <button type="button" aria-label="Previous announcement" onClick={() => step(-1)} className={btn}>
             <ChevronLeft className="w-3.5 h-3.5" />
@@ -59,5 +74,6 @@ export const AnnouncementBar: React.FC = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
