@@ -46,7 +46,7 @@ export const LiveChatWidget: React.FC = () => {
       const lower = query.toLowerCase();
 
       if (lower.includes('crypto') || lower.includes('discount') || lower.includes('10%')) {
-        reply = "Great question! When checking out via our Order Form, select 'Crypto' (BTC, ETH, USDT, or SOL) and a 10% discount is automatically deducted from your total. We process hardware allocation immediately once the transaction hash is received.";
+        reply = "Great question! When checking out via our Order Form, select 'Crypto' (BTC, ETH or USDT) and a 10% discount is automatically deducted from your total. We process hardware allocation immediately once the transaction hash is received.";
       } else if (lower.includes('casa') || lower.includes('rule') || lower.includes('altitude') || lower.includes('limit')) {
         reply = "Under CASA Australian drone rules, maximum flight altitude is 120 metres (400ft) above ground level. You must keep your UAV within visual line-of-sight and stay at least 30 metres away from other people. For sub-249g drones like the DJI Mini 4 Pro, no recreational registration is required!";
       } else if (lower.includes('delivery') || lower.includes('ship') || lower.includes('express') || lower.includes('time')) {

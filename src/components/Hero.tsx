@@ -91,7 +91,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) =
               <div>
                 <p className="text-xs text-slate-400">Crypto Settlement</p>
                 <p className="text-base font-bold text-amber-400 tabular-nums mt-0.5">10% Instant Off</p>
-                <p className="text-[11px] text-slate-400">BTC · ETH · USDT · SOL</p>
+                <p className="text-[11px] text-slate-400">BTC · ETH · USDT</p>
               </div>
 
               <div>

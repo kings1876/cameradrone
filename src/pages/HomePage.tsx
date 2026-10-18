@@ -241,7 +241,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
               <Zap className="w-8 h-8 text-amber-400" />
               <h3 className="text-sm font-bold text-white font-display">10% Crypto Incentive</h3>
               <p className="text-xs text-slate-400 leading-relaxed">
-                Direct blockchain settlement in USDT, BTC, ETH, and SOL with an automatic 10% discount deducted at checkout.
+                Direct blockchain settlement in USDT, BTC and ETH with an automatic 10% discount deducted at checkout.
               </p>
             </div>
 

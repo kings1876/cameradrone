@@ -26,7 +26,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
   const [state, setState] = useState('NSW');
   const [postcode, setPostcode] = useState('');
   const [flightNotes, setFlightNotes] = useState('');
-  const [selectedCrypto, setSelectedCrypto] = useState<'BTC' | 'ETH' | 'USDT' | 'SOL'>('USDT');
+  const [selectedCrypto, setSelectedCrypto] = useState<'BTC' | 'ETH' | 'USDT'>('USDT');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [orderComplete, setOrderComplete] = useState(false);
   const [orderId, setOrderId] = useState('');
@@ -36,7 +36,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
   const cryptoDiscount = Math.round(subtotal * 0.1);
   const total = subtotal - cryptoDiscount;
 
-  const COIN_METHOD = { USDT: 'crypto-usdt', BTC: 'crypto-btc', ETH: 'crypto-eth', SOL: 'crypto-sol' } as const;
+  const COIN_METHOD = { USDT: 'crypto-usdt', BTC: 'crypto-btc', ETH: 'crypto-eth' } as const;
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -308,7 +308,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
 
               {/* Currency Selector Buttons */}
               <div className="grid grid-cols-4 gap-2">
-                {(['USDT', 'BTC', 'ETH', 'SOL'] as const).map((coin) => (
+                {(['USDT', 'BTC', 'ETH'] as const).map((coin) => (
                   <button
                     key={coin}
                     type="button"

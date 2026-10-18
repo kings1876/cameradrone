@@ -88,7 +88,7 @@ export const FAQ_LIST: FAQItem[] = [
     id: 'faq-4',
     category: 'Crypto & Discounts',
     question: 'How do I claim the 10% Crypto payment discount at checkout?',
-    answer: 'When you place your order via our secure Order Form, select "Crypto" as your payment method. An automatic 10% discount is instantly deducted from your total order value. We accept Bitcoin (BTC), Ethereum (ETH), USDT (TRC20 / ERC20), and Solana (SOL). You will receive our verified wallet address and QR code, and upon transmitting your transaction hash, our dispatch team immediately allocates and secures your hardware.'
+    answer: 'When you place your order via our secure Order Form, select "Crypto" as your payment method. An automatic 10% discount is instantly deducted from your total order value. We accept Bitcoin (BTC), Ethereum (ETH) and USDT (TRC-20). You will receive our verified wallet address and network, and upon transmitting your transaction hash, our dispatch team immediately allocates and secures your hardware.'
   },
   {
     id: 'faq-5',

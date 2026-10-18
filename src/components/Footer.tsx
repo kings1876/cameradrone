@@ -146,7 +146,6 @@ export const Footer: React.FC = () => {
               <span className="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-slate-300">BTC</span>
               <span className="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-slate-300">ETH</span>
               <span className="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-slate-300">USDT</span>
-              <span className="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-slate-300">SOL</span>
             </div>
             <Link
               to="/order"

@@ -56,7 +56,7 @@ export const AboutSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) => 
                 <Zap className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
                 <div>
                   <p className="text-xs font-bold text-white uppercase tracking-wider">10% Instant Crypto Checkout</p>
-                  <p className="text-xs text-slate-400 mt-0.5">Direct multi-chain settlement in USDT, BTC, ETH, and SOL with immediate deduction.</p>
+                  <p className="text-xs text-slate-400 mt-0.5">Direct multi-chain settlement in USDT, BTC and ETH with immediate deduction.</p>
                 </div>
               </div>
               <div className="flex gap-3">

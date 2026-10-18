@@ -28,8 +28,7 @@ export const REPLY = {
       label: 'Crypto — Ethereum (ETH)',
       discountPct: 10,
       wallet: { address: '0x71e590e953d8DBf7a2d8a4Fa58Ea55c3c57A6f8C', network: 'Ethereum mainnet (ERC-20)' }
-    },
-    { id: 'crypto-sol', label: 'Crypto — Solana (SOL)', discountPct: 10 }
+    }
   ]
 };
 
