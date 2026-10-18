@@ -4,6 +4,443 @@ import { BlogPost } from '../types';
 // product pages so these guides do not go stale. Inline links use [text](/path).
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: 'post-10',
+    slug: 'thermal-camera-vs-thermal-drone-infrared-inspections',
+    title: 'Thermal Camera vs Thermal Drone: Choosing an Infrared Camera for Inspections',
+    metaTitle: 'Thermal Camera vs Thermal Drone: Which to Buy?',
+    metaDescription: 'Thermal camera or thermal drone? Compare infrared cameras, payloads and DJI thermal aircraft for inspections in Australia, with specs and buying advice.',
+    subtitle: 'When a thermal imaging camera on a drone beats a handheld, and which infrared cameras and aircraft we supply.',
+    date: 'October 2026',
+    dateISO: '2026-10-18',
+    modifiedISO: '2026-10-18',
+    readTime: '8 min read',
+    author: 'Enterprise Systems Specialist',
+    tags: ['Thermal Camera', 'Infrared Cameras', 'Inspections'],
+    excerpt: 'A thermal camera on the ground and a thermal drone solve different problems. Here is how to choose an infrared camera for roofs, solar farms, power lines and search work.',
+    image: '/images/blog-thermal-camera-vs-drone.webp',
+    imageAlt: 'Zenmuse H30T thermal payload, FLIR Vue TZ20 and DJI Matrice 4 Thermal',
+    relatedProducts: ['dji-zenmuse-h30t', 'flir-vue-tz20', 'dji-matrice-4-thermal', 'dji-mavic-3-thermal'],
+    content: [
+      'If you need to see heat, you have two broad choices: a thermal camera you carry, or a thermal imaging camera flown on a drone. Both are infrared cameras that turn temperature differences into an image, but they suit different jobs. This guide compares them, explains the specifications that matter and shows the thermal camera options we supply in Australia.',
+      { h2: 'What a thermal camera actually measures' },
+      'An infrared thermal camera does not see in the dark the way a night-vision camera does. It detects infrared radiation given off by objects and turns the differences into an image, so a hot connection, a failing solar cell or a person in a paddock stands out against a cooler background. A radiometric thermal camera goes further and records a temperature value for each pixel, which is what you need for inspection reports.',
+      { h2: 'Ground camera or drone: how to decide' },
+      { table: {
+        head: ['Factor', 'Ground thermal camera', 'Thermal drone'],
+        rows: [
+          ['Coverage', 'One spot at a time', 'Whole roofs, solar farms, lines and paddocks in one flight'],
+          ['Access', 'Needs safe ground or ladder access', 'Reaches roofs, towers and rough terrain without climbing'],
+          ['Detail', 'Close, high-detail views', 'Depends on altitude, lens and sensor resolution'],
+          ['Cost', 'Lower for a single camera', 'Higher, but one aircraft covers many jobs'],
+          ['Typical use', 'Switchboards, plant rooms, building checks', 'Roof, solar, power line, search and rescue and agricultural work']
+        ]
+      } },
+      'Many teams end up with both: a ground camera for close checks and a drone for coverage. If your work is mostly large or hard-to-reach assets, start with the drone.',
+      'Fixed-site checks, such as switchboards and plant, are often done with an industrial thermal imaging camera on a tripod or in hand. A drone takes the same kind of measurement to places a person cannot easily reach.',
+      { h2: 'Thermal imaging camera specifications that matter' },
+      { ul: [
+        '**Thermal resolution.** More pixels mean more detail at distance. Most enterprise drones use 640×512; the top payloads reach 1280×1024.',
+        '**Sensitivity (NETD).** A lower figure, such as 50 mK or less, reveals smaller temperature differences.',
+        '**Field of view.** A wide lens covers more ground; a narrow lens reaches further.',
+        '**Radiometric measurement.** Needed if you report absolute temperatures.',
+        '**Visual cameras.** A good wide and zoom camera alongside the thermal sensor tells you what you are looking at.',
+        '**Weather rating.** An ingress protection (IP) rating shows how well the camera handles dust and water.'
+      ] },
+      { h2: 'Thermal camera options we supply' },
+      { table: {
+        head: ['Option', 'Thermal sensor', 'Notes'],
+        rows: [
+          ['[Zenmuse H30T](/product/dji-zenmuse-h30t)', '1280×1024 uncooled VOx, 30 fps, -20 to 1,600°C', '48 MP wide, 40 MP zoom (34× optical), laser rangefinder 3 to 3,000 m, 920 g'],
+          ['[FLIR Vue TZ20](/product/flir-vue-tz20)', 'Dual FLIR Boson 640×512, 12 µm LWIR', '95° wide and 18° narrow fields of view, about 640 g, IP44'],
+          ['[DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal)', '640×512, 12 µm, uncooled VOx, 50 mK or less', 'Complete aircraft, up to 49 min flight, 1,219 g'],
+          ['[DJI Mavic 3 Thermal](/product/dji-mavic-3-thermal)', '640×512 uncooled VOx', 'Portable aircraft, up to 45 min flight, 920 g'],
+          ['[DJI Matrice 30T](/product/dji-matrice-30t)', '640×512, 12 µm, radiometric', 'Rugged, IP55, up to 41 min flight']
+        ]
+      } },
+      { h2: 'Payload or complete aircraft?' },
+      'If you already fly a compatible enterprise aircraft, a thermal payload such as the [Zenmuse H30T](/product/dji-zenmuse-h30t) or the [FLIR Vue TZ20](/product/flir-vue-tz20) adds an infrared camera for far less than a new drone. If you are starting from scratch, a complete thermal aircraft is simpler: the [DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal) and [Mavic 3 Thermal](/product/dji-mavic-3-thermal) arrive with the camera, software and batteries ready to fly. Browse every [thermal camera](/category/cameras-sensors/thermal-cameras) and [Zenmuse camera](/category/cameras-sensors/dji-zenmuse-cameras).',
+      { h2: 'Common inspection jobs' },
+      { ul: [
+        '**Roof and building checks:** find moisture, missing insulation and heat loss from the air.',
+        '**Solar farms:** locate hot cells, failed strings and connection faults quickly.',
+        '**Power lines and substations:** spot hot joints and failing components without shutting down.',
+        '**Search and rescue:** a person or animal stands out in low light.',
+        '**Agriculture and wildlife:** survey livestock and irrigation from above.'
+      ] },
+      'For a deeper look at the aircraft, read our [thermal drones guide](/blog/thermal-drones-australia-guide) and the [enterprise drones guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide). A drone with a heat camera and a laser rangefinder can also measure the distance to the fault you have found.',
+      { h2: 'Getting started in Australia' },
+      'Commercial flying has CASA requirements, including accreditation or a ReOC depending on the aircraft weight and the work, so confirm yours before you fly for hire. Send a [quote request](/quote) with your inspection type and any aircraft you already own, and we will recommend the right thermal camera Australia-wide delivery included. Questions first? [Contact us](/contact).',
+      { faq: [
+        { q: 'Is a thermal camera the same as an infrared camera?', a: 'In practice, yes. A thermal imaging camera is an infrared camera that detects heat radiation and shows it as an image. Radiometric versions also report temperatures.' },
+        { q: 'Can a thermal drone replace a handheld thermal camera?', a: 'For large or hard-to-reach assets, yes, because one flight covers far more ground. For close checks inside plant rooms, a handheld still has a place.' },
+        { q: 'What thermal resolution do I need for inspections?', a: 'A 640×512 sensor suits most roof, solar and line inspections. Choose 1280×1024 if you need more detail at greater distance.' }
+      ] }
+    ],
+    targetKeywords: ['thermal camera', 'infrared cameras', 'infrared thermal camera', 'thermal camera australia', 'industrial thermal imaging camera']
+  },
+  {
+    id: 'post-11',
+    slug: 'dji-neo-2-fly-more-combo-guide',
+    title: 'DJI Neo 2 Fly More Combo: Which Neo 2 Kit Should You Buy?',
+    metaTitle: 'DJI Neo 2 Fly More Combo: Which Kit to Buy?',
+    metaDescription: 'DJI Neo 2 Fly More Combo explained: drone only, RC-N3 and Motion kits compared, plus batteries, transceiver and what to buy first in Australia.',
+    subtitle: 'The Neo 2 comes in four kits. Here is what is in each one and who should buy which.',
+    date: 'October 2026',
+    dateISO: '2026-10-18',
+    modifiedISO: '2026-10-18',
+    readTime: '6 min read',
+    author: 'Flight Operations Team',
+    tags: ['DJI Neo 2', 'Fly More Combo', 'Accessories'],
+    excerpt: 'Confused by the DJI Neo 2 kits? We explain the drone-only, Fly More Combo, RC-N3 and Motion Fly More Combo options and who each one suits.',
+    image: '/images/blog-neo2-kits.webp',
+    imageAlt: 'DJI Neo 2 drone only, Fly More Combo with RC-N3 and Motion Fly More Combo',
+    relatedProducts: ['dji-neo-2-drone-only', 'dji-neo-2-fly-more-combo-dji-rc-n3', 'dji-neo-2-motion-fly-more-combo', 'dji-neo-2-intelligent-flight-battery'],
+    content: [
+      'The DJI Neo 2 is one of the most popular small drones in Australia, and it is sold in several kits. Choosing the wrong one is the most common mistake: some include a controller, some do not, and the extra batteries are what actually let you keep flying. This guide explains each Neo 2 kit, adds a short DJI Neo 2 review of what the drone does well, and tells you which to buy.',
+      { h2: 'DJI Neo 2 in brief' },
+      'The [DJI Neo 2](/product/dji-neo-2-drone-only) weighs about 151 g, shoots 4K video up to 60 fps, senses obstacles in every direction and flies for up to about 19 minutes per battery. It is built for selfies, follow-me shots and social video. For a wider comparison, read our [DJI Neo 2 vs Flip vs Mini 4 Pro guide](/blog/dji-neo-2-vs-dji-flip-vs-dji-mini-4-pro).',
+      { h2: 'The four Neo 2 kits compared' },
+      { table: {
+        head: ['Kit', 'What is included', 'Controller', 'Best for'],
+        rows: [
+          ['[DJI Neo 2 (Drone Only)](/product/dji-neo-2-drone-only)', 'Aircraft with its battery', 'None', 'Phone-only flying and lowest cost'],
+          ['[DJI Neo 2 Fly More Combo (Drone Only)](/product/dji-neo-2-fly-more-combo-drone-only)', 'Aircraft plus extra batteries', 'None', 'Longer sessions without a controller'],
+          ['[DJI Neo 2 Fly More Combo (DJI RC-N3)](/product/dji-neo-2-fly-more-combo-dji-rc-n3)', 'Aircraft, RC-N3, digital transceiver, extra batteries', 'DJI RC-N3', 'The best all-round kit'],
+          ['[DJI Neo 2 Motion Fly More Combo](/product/dji-neo-2-motion-fly-more-combo)', 'Aircraft, Goggles N3, motion controller, extra batteries', 'Motion controller', 'Immersive hand-motion flying']
+        ]
+      } },
+      { h2: 'Drone only: the simplest start' },
+      'The drone-only kit gives you the aircraft and its battery, with no controller included. It is the cheapest way in and suits people who will fly with the app on their phone and only need short sessions. Be aware that one battery means a single 19-minute flight at most, so most owners add a spare [Neo 2 battery](/product/dji-neo-2-intelligent-flight-battery) soon after.',
+      { h2: 'Neo 2 Fly More Combo (drone only)' },
+      'The [Fly More Combo without a controller](/product/dji-neo-2-fly-more-combo-drone-only) adds extra batteries, which is the upgrade that matters most for travel, events and content days. It is a good value pick for people who already have the control method they want. If you search for a DJI Neo2 fly more combo, this is the pack that usually fits.',
+      { h2: 'Neo 2 Fly More Combo with the DJI RC-N3' },
+      'The [Neo 2 Fly More Combo with the DJI RC-N3](/product/dji-neo-2-fly-more-combo-dji-rc-n3) is our recommended Neo 2 kit. It includes the RC-N3 controller, a digital transceiver and extra batteries, so you get proper stick control, a stronger link and plenty of flight time in one box. The RC-N3 uses your smartphone as the screen. The digital transceiver is what connects the Neo 2 to compatible controllers and goggles, and you can also buy it separately as the [DJI Neo 2 Digital Transceiver](/product/dji-neo-2-digital-transceiver).',
+      { h2: 'Neo 2 Motion Fly More Combo' },
+      'The [Motion Fly More Combo](/product/dji-neo-2-motion-fly-more-combo) adds Goggles N3, a motion controller and extra batteries. You steer by moving your hand, which makes immersive flying simple for beginners. Choose it if the first-person view is what attracts you to the Neo 2. See also our [FPV guide](/blog/dji-avata-360-vs-avata-2-fpv-drone-guide) for goggles and controllers.',
+      { h2: 'Accessories to add' },
+      { ul: [
+        'Spare [Neo 2 batteries](/product/dji-neo-2-intelligent-flight-battery) for longer sessions.',
+        'The [two-way charging hub](/product/dji-neo-2-two-way-charging-hub) to charge several batteries at once.',
+        'Spare [Neo 2 propellers](/product/dji-neo-2-propellers), because they are cheap and quick to swap.',
+        'A [controller or goggles](/category/batteries/controllers-and-goggles) if your kit did not include one.'
+      ] },
+      'Browse everything in [DJI Neo and FPV](/category/camera-drones/dji-neo-and-fpv). Our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) explains how to look after them.',
+      { h2: 'Buying a Neo 2 kit from us' },
+      'Every Neo 2 kit we sell is genuine Australian stock with the manufacturer warranty and Australian Consumer Law guarantees. Shipping is free across Australia, unopened hardware can be returned within 30 days and crypto payments get a 10% discount at checkout. If you are unsure which kit suits your plans, [contact us](/contact) and we will help you choose before you order.',
+      { h2: 'Which Neo 2 kit should you buy?' },
+      { ul: [
+        '**Lowest cost:** the drone-only kit, then add a battery.',
+        '**Most flying time without a controller:** the Fly More Combo (drone only).',
+        '**Best all-round:** the Fly More Combo with the RC-N3.',
+        '**Immersive flying:** the Motion Fly More Combo.'
+      ] },
+      'New to drones? Start with our guide to the [best drones for beginners in Australia](/blog/best-drones-for-beginners-australia).',
+      { faq: [
+        { q: 'Does the DJI Neo 2 come with a controller?', a: 'Only some kits. The drone-only and the drone-only Fly More Combo have no controller, the RC-N3 combo includes one and the Motion combo includes a motion controller and goggles.' },
+        { q: 'How long does a DJI Neo 2 battery last?', a: 'Up to about 19 minutes per battery, which is why the Fly More Combos with extra batteries are popular.' },
+        { q: 'Do I need the digital transceiver?', a: 'You need it to connect the Neo 2 to compatible controllers and goggles. The RC-N3 combo includes one, and you can also buy it separately.' }
+      ] }
+    ],
+    targetKeywords: ['dji neo 2', 'dji neo 2 review', 'dji neo2 fly more combo', 'dji neo 2 motion fly more combo', 'dji neo 2 digital transceiver', 'dji neo 2 battery']
+  },
+  {
+    id: 'post-12',
+    slug: 'agricultural-drones-weed-control-seeding-crop-monitoring',
+    title: 'Agricultural Drones in Australia: Weed Control, Seeding and Crop Monitoring',
+    metaTitle: 'Agricultural Drones in Australia: A Practical Guide',
+    metaDescription: 'How agricultural drones work for weed control, aerial seeding and crop monitoring in Australia, with DJI Agras, spreaders and multispectral options compared.',
+    subtitle: 'Three jobs an agriculture drone does well, and the equipment that goes with each.',
+    date: 'October 2026',
+    dateISO: '2026-10-18',
+    modifiedISO: '2026-10-18',
+    readTime: '8 min read',
+    author: 'Agriculture Systems Lead',
+    tags: ['Agricultural Drones', 'Weed Control', 'Seeding'],
+    excerpt: 'Farming and drones go together for spraying, spreading and crop health checks. We explain weed control, aerial seeding and monitoring and the equipment each needs.',
+    image: '/images/blog-agricultural-drones.webp',
+    imageAlt: 'DJI Agras T25P, T50 and T100 agricultural drones',
+    relatedProducts: ['dji-agras-t25p', 'dji-agras-t50', 'dji-agras-t100', 'dji-mavic-3-multispectral'],
+    content: [
+      'An agricultural drone is a flying tool for three main jobs: applying liquids, spreading granules and checking crop health. Farming and drones now fit together on everything from small orchards to large broadacre properties, because one operator can cover ground quickly without driving over wet or uneven paddocks. This guide explains weed control, aerial seeding and crop monitoring, and the equipment each needs.',
+      { h2: 'Agriculture drones and the jobs they do' },
+      { table: {
+        head: ['Job', 'What the drone does', 'Equipment'],
+        rows: [
+          ['Weed control', 'Applies targeted treatments over paddocks and fence lines', 'Spraying drone with nozzles or atomised sprinklers'],
+          ['Aerial seeding and fertiliser', 'Spreads seed, fertiliser or other granules', 'Spreading system on a heavy-lift aircraft'],
+          ['Crop monitoring', 'Maps plant health to show where to act', 'Multispectral camera and analysis software']
+        ]
+      } },
+      { h2: 'Agriculture drone spraying for weed control' },
+      'Agriculture drone spraying lets you treat weeds without driving across wet ground, and it reaches steep or awkward blocks that ground machinery struggles with. A spraying drone for drone weed control carries a tank and nozzles and flies a programmed route, applying product at a set rate. Match the tank size to the area you treat: the [DJI Agras T25P](/product/dji-agras-t25p) carries 20 kg for small properties and orchards, the [Agras T50](/product/dji-agras-t50) carries 40 kg, and the [Agras T100](/product/dji-agras-t100) is the heavy-lift flagship with a 100 L spraying tank. See our [agricultural spraying drones guide](/blog/agricultural-spraying-drones-australia-guide) for a full comparison.',
+      { h2: 'Aerial seeding and fertiliser spreading' },
+      'An aerial seeding drone swaps the spray tank for a spreading system that drops seed or granules over the paddock. This suits over-sowing pasture, cover crops and fertiliser top-ups, particularly where ground access is limited. The Agras range carries spreading systems as well as spray systems: the T25P has a 25 kg spreading payload, the T50 a 50 kg payload, and the T100 a 150 L spreading tank. Add the [T50 spreading system](/product/dji-agras-t50-spreading-system) or the [150L spreading system](/product/dji-150l-spreading-system) to match your aircraft.',
+      { h2: 'Crop monitoring with multispectral drones' },
+      'Knowing where to act saves product and time. A multispectral drone captures light that the eye cannot see, such as near-infrared and red edge, to show plant vigour across a paddock. The [DJI Mavic 3 Multispectral](/product/dji-mavic-3-multispectral) carries four 5 MP multispectral cameras plus a 4/3 RGB camera and built-in RTK. Our [multispectral cameras](/category/cameras-sensors/multispectral-cameras) and [DJI Terra Agriculture](/product/dji-terra-agriculture-1-year-3-devices) software turn the images into maps you can use to plan treatments. Combine them with a sprayer for variable-rate work.',
+      { h2: 'What you need besides the aircraft' },
+      { ul: [
+        '**Batteries and charging:** heavy aircraft need several large batteries; see the Agras [batteries](/product/dji-agras-db1560-intelligent-flight-battery) and [C10000 power supply](/product/dji-c10000-intelligent-power-supply).',
+        '**A generator** so charging continues in the field: the [D14000iE generator](/product/dji-d14000ie-multifunctional-inverter-generator).',
+        '**Nozzles and spreaders** matched to the product you apply.',
+        '**Training and accreditation:** CASA and chemical-use rules apply to commercial application.'
+      ] },
+      'Browse every [spraying drone](/category/spraying-drones/spraying-drones) and [spraying accessory](/category/spraying-drones/spraying-drone-accessories) we supply.',
+      { h2: 'Running a farm or contracting business' },
+      'Landholders often start with a compact drone for their own paddocks. Contractors choose larger aircraft to cover more hectares per day and add a second battery set so they never wait. Ask what regional demand looks like: operators across Victoria and other states search for drone spraying services in their area, which creates a market for contractors with the right accreditation.',
+      { h2: 'Planning the season' },
+      'Treatment windows are short, so plan equipment before the busy period. Order batteries and spare parts early, test the aircraft on a small block before the main job and calibrate the spray rate against the label. Set up a simple record for each flight with the product, rate, wind and area so you can show what was applied. Keep a second set of nozzles, filters and propellers on hand, because a small part can stop a whole day of work. If you contract to neighbours, agree the paddock boundaries, buffer zones and sensitive areas in advance and check the wind direction before every flight.',
+      { h2: 'Rules and responsible use' },
+      'Commercial spraying has CASA and state chemical-use requirements. Confirm your accreditation, keep application records and read the label of every product before you apply it. Our [quote form](/quote) bundles the aircraft, batteries, charger and set-up for your property. Questions? [Contact us](/contact).',
+      { faq: [
+        { q: 'What is the best agricultural drone for a small farm?', a: 'The DJI Agras T25P is the most practical for small properties and orchards because it folds and one person can handle it. Larger farms and contractors choose the T50, T70P or T100.' },
+        { q: 'Can an agricultural drone spread seed as well as spray?', a: 'Yes. The Agras range carries spreading systems for seed and fertiliser as well as spraying systems.' },
+        { q: 'How does a multispectral drone help?', a: 'It maps plant health across a paddock so you can target treatments where they are needed instead of treating everything.' }
+      ] }
+    ],
+    targetKeywords: ['agricultural drone', 'agriculture drones', 'agriculture drone spraying', 'farming and drones', 'drone weed control', 'aerial seeding drone']
+  },
+  {
+    id: 'post-13',
+    slug: 'waterproof-drones-ip-ratings-explained',
+    title: 'Waterproof Drones: Are Any DJI Drones Water Resistant?',
+    metaTitle: 'Waterproof Drones: Are DJI Drones Water Resistant?',
+    metaDescription: 'Looking for a waterproof drone? IP ratings explained, which DJI and FLIR products are water resistant, and how to protect your drone around water.',
+    subtitle: 'What waterproof and water resistant really mean for a drone, and what to buy if you work in wet conditions.',
+    date: 'October 2026',
+    dateISO: '2026-10-18',
+    modifiedISO: '2026-10-18',
+    readTime: '6 min read',
+    author: 'Enterprise Systems Specialist',
+    tags: ['Waterproof Drones', 'IP Rating', 'Enterprise Drones'],
+    excerpt: 'Most drones are not waterproof. We explain IP ratings, which enterprise aircraft are water resistant and how to protect your drone near water.',
+    image: '/images/blog-waterproof-drones.webp',
+    imageAlt: 'DJI Matrice 30T and FLIR Vue TZ20, products with ingress protection ratings',
+    relatedProducts: ['dji-matrice-30t', 'flir-vue-tz20', 'dji-matrice-4-enterprise', 'dji-mini-4-pro'],
+    content: [
+      'People often search for a waterproof drone, and the honest answer is that very few drones are fully waterproof. Most consumer drones, including every small DJI camera drone we sell, are not designed to get wet. A few enterprise aircraft carry an ingress protection rating that makes them water resistant. This guide explains what the ratings mean and what to buy if you fly in wet conditions.',
+      { h2: 'Waterproof, water resistant and IP ratings' },
+      'The terms are used loosely, so check the rating. An IP (ingress protection) rating has two digits: the first is protection against dust and solid objects, the second is protection against water. A higher second digit means better water protection, but a rating such as IP55 means protected against dust and low-pressure water jets, not that the drone can be submerged. Drones that are waterproof in the sense of floating or diving belong to a separate category and are not what we sell.',
+      { table: {
+        head: ['Rating', 'Dust', 'Water', 'In practice'],
+        rows: [
+          ['IP44', 'Protected against solid objects over 1 mm', 'Splashing water from any direction', 'Light rain or splashes only'],
+          ['IP55', 'Dust protected', 'Low-pressure water jets from any direction', 'Rain and wash-down, not submersion']
+        ]
+      } },
+      { h2: 'Water resistant drone and waterproof UAV options in our range' },
+      'The most capable water resistant drone we supply, and the nearest thing to a waterproof UAV for inspection work, is the [DJI Matrice 30T](/product/dji-matrice-30t), rated IP55 with a radiometric thermal camera, a 12 MP wide camera and a 48 MP zoom camera. It is built for industrial and public-safety teams who cannot wait for perfect weather. The [FLIR Vue TZ20](/product/flir-vue-tz20) thermal payload has an IP44 rating, which handles splashes but not heavy rain. Browse the [DJI Matrice range](/category/enterprise-drones/dji-matrice) for other enterprise aircraft and check each product page for its rating.',
+      { h2: 'Humid, coastal and dusty conditions' },
+      'Water is not the only enemy. Salt air near the coast corrodes connectors and bearings, fine dust works into gimbals and fans, and humidity causes condensation inside a cold aircraft that is carried into a warm vehicle. After a coastal or dusty flight, wipe the aircraft with a slightly damp cloth, check the gimbal moves freely and let the drone dry fully before it goes back in its bag. Keep silica packs in the case and store batteries somewhere cool and dry.',
+      { h2: 'Choosing for emergency services and inspections' },
+      'Teams that respond to incidents or inspect assets in all weather should treat an ingress rating as a requirement, not a bonus. Pair a rated aircraft with a rated payload and spare batteries so a shower does not end the mission, and keep a protective case in the vehicle. For planning a purchase, our team can match the aircraft, payload and accessories to your conditions.',
+      { h2: 'Consumer drones and water' },
+      'Small camera drones such as the [DJI Mini 4 Pro](/product/dji-mini-4-pro) are not waterproof, and flying them in rain, spray or fog can damage the electronics. If you fly near water for filming, the risk is not only rain: a landing on water, a gust that pushes the drone down or a sea mist can end a flight and an aircraft. Plan return-to-home heights and flight paths so that a failure does not put the drone over open water.',
+      { h2: 'How to protect a drone near water' },
+      { ul: [
+        'Check the forecast and do not fly in rain unless the aircraft is rated for it.',
+        'Avoid launching from wet ground or sand that can get into the motors and gimbal.',
+        'Keep the drone and batteries dry in a [protective bag or case](/category/batteries/bags-and-covers) between flights.',
+        'Wipe the aircraft down and let it dry fully after exposure to damp air.',
+        'Use [propeller guards](/category/batteries/propellers-and-guards) near obstacles and keep a safe margin from water surfaces.'
+      ] },
+      { h2: 'Do you need a waterproof drone?' },
+      'If you inspect assets outdoors regularly, such as power lines, solar farms, pipelines or emergency scenes, an IP-rated aircraft like the Matrice 30T is worth the investment, because it keeps working when the weather turns. For hobby filming and travel, a small drone and careful planning is usually enough. Not sure which suits you? Use our [quote form](/quote) and tell us where and how you fly, or read the [enterprise drones guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide).',
+      { h2: 'A note on water drones' },
+      'The term water drone can mean an underwater or surface vehicle, which is a different product from a flying drone. We supply flying drones, payloads and accessories. If you need to inspect underwater, you need a specialist vehicle, and a flying drone can still help by surveying the shoreline and surrounding area from above.',
+      { faq: [
+        { q: 'Are DJI drones waterproof?', a: 'Most are not. Small DJI camera drones are not designed to get wet. Some enterprise aircraft, such as the Matrice 30T, carry an IP rating for water resistance.' },
+        { q: 'What does IP55 mean on a drone?', a: 'It means the drone is dust protected and resists low-pressure water jets from any direction. It does not mean it can be submerged.' },
+        { q: 'Can I fly my drone in light rain?', a: 'Only if the manufacturer rates it for that. Otherwise avoid rain, spray and fog, which can damage the electronics.' }
+      ] }
+    ],
+    targetKeywords: ['waterproof drone', 'drones that are waterproof', 'water resistant drone', 'waterproof uav', 'waterproof drones', 'water drone']
+  },
+  {
+    id: 'post-14',
+    slug: 'dji-controllers-explained-rc-n3-rc-2-rc-pro',
+    title: 'DJI Controllers Explained: RC-N3, RC 2, RC Pro, RC Plus and Motion',
+    metaTitle: 'DJI Controllers Explained: RC-N3, RC 2 and RC Pro',
+    metaDescription: 'Which DJI remote controller do you need? RC-N3, RC 2, RC Pro, RC Plus, motion and FPV controllers compared, with what each is for and where to buy in Australia.',
+    subtitle: 'Phone-based, screen, motion and FPV controllers: how they differ and how to choose the right one.',
+    date: 'October 2026',
+    dateISO: '2026-10-18',
+    modifiedISO: '2026-10-18',
+    readTime: '7 min read',
+    author: 'Flight Operations Team',
+    tags: ['DJI Controllers', 'RC 2', 'FPV'],
+    excerpt: 'A DJI remote controller can use your phone, a built-in screen, motion control or sticks. We explain the main options and which suits which drone and pilot.',
+    image: '/images/blog-dji-controllers.webp',
+    imageAlt: 'DJI RC-N3, DJI RC 2 and DJI RC Pro remote controllers',
+    relatedProducts: ['dji-rc-n3-remote-controller', 'dji-rc-2-remote-controller', 'dji-rc-pro-remote-controller', 'dji-rc-motion-3'],
+    content: [
+      'Choosing the right controller changes how a drone feels to fly. A modern DJI remote controller can use your smartphone as the screen, have a bright screen built in, steer by hand motion or give you classic stick control for FPV. Not every controller works with every aircraft, so this guide explains the main types, what each is for and how to choose. Whether you want a remote DJI pilots can use with a phone, an RC DJI kit with a built-in screen or the DJI FPV controller 3 for manual flying, the choice depends on your aircraft. Browse the full range of [controllers and goggles](/category/batteries/controllers-and-goggles).',
+      { h2: 'The four types of DJI RC controller' },
+      { table: {
+        head: ['Type', 'Examples', 'Screen', 'Best for'],
+        rows: [
+          ['Phone-based', '[DJI RC-N3](/product/dji-rc-n3-remote-controller)', 'Your smartphone', 'Light, affordable, everyday flying'],
+          ['Built-in screen', '[DJI RC 2](/product/dji-rc-2-remote-controller), [DJI RC](/product/dji-rc-remote-controller)', '5.5-inch bright display on RC 2', 'No phone needed, easier in sunlight'],
+          ['High-bright and professional', '[DJI RC Pro](/product/dji-rc-pro-remote-controller), [RC Plus (Inspire 3)](/product/dji-rc-plus-inspire-3), [RC Plus 2 Enterprise](/product/dji-rc-plus-2-enterprise-enhanced)', 'Large, high-bright screens', 'Cinema work and demanding field jobs'],
+          ['Motion and FPV', '[RC Motion 3](/product/dji-rc-motion-3), [RC Motion 2](/product/dji-rc-motion-2), [FPV Remote Controller 3](/product/dji-fpv-remote-controller-3)', 'Goggles', 'Immersive and FPV flying']
+        ]
+      } },
+      { h2: 'DJI RC-N3: the phone-based controller' },
+      'The [DJI RC-N3](/product/dji-rc-n3-remote-controller) is a compact controller that uses your smartphone as the screen. It is light and affordable, which makes it the default in many Fly More Combos, including the [Mini 5 Pro](/product/dji-mini-5-pro-dji-rc-n3), [Air 3S](/product/dji-air-3s-dji-rc-n3) and [Flip](/product/dji-flip-dji-rc-n3). If you already own a phone you like flying with, this is the most cost-effective choice. Older owners will also see the RC-N1 and RC-N2 mentioned for earlier aircraft; check compatibility before you buy.',
+      { h2: 'DJI RC 2: the built-in screen' },
+      'The [DJI RC 2](/product/dji-rc-2-remote-controller) has a 5.5-inch 1080p display with 700 nits of brightness, so you do not need a phone and the picture stays readable in sunlight. It suits pilots who fly often, want a tidy setup and prefer not to tie up their phone. It is offered with many aircraft, such as the [Mini 4 Pro RC 2](/product/dji-mini-4-pro-rc-2), the [Air 3S Fly More Combo](/product/dji-air-3s-fly-more-combo-dji-rc-2) and the [Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2), and is also sold on its own for compatible drones.',
+      { h2: 'DJI RC and RC Pro: the Mavic 3 family' },
+      'The original [DJI RC](/product/dji-rc-remote-controller) is a screen controller with long-range support, a good match for the Mavic 3 family. The [DJI RC Pro](/product/dji-rc-pro-remote-controller) is a high-bright professional controller that stays readable in strong sun and is designed for demanding shoots. See the [Mavic 3 Pro Fly More Combo with RC Pro](/product/dji-mavic-3-pro-fly-more-combo-dji-rc-pro).',
+      { h2: 'RC Plus and enterprise controllers' },
+      'Enterprise and cinema aircraft use larger controllers. The [RC Plus (Inspire 3)](/product/dji-rc-plus-inspire-3) is matched to the Inspire 3, and the [RC Plus 2 Enterprise Enhanced](/product/dji-rc-plus-2-enterprise-enhanced) has a large bright display built for field work. A UAV controller for a commercial aircraft usually comes in the combo, so confirm what is included in your kit. Browse [enterprise accessories](/category/enterprise-drones/enterprise-accessories) for straps, brackets and sticks.',
+      { h2: 'Motion controllers and FPV controllers' },
+      'A motion controller steers the drone with hand and wrist movements, which makes immersive flying approachable. The [DJI RC Motion 3](/product/dji-rc-motion-3), [RC Motion 2](/product/dji-rc-motion-2) and [DJI Motion Controller](/product/dji-motion-controller) pair with goggles. If you prefer manual stick control for FPV, the [DJI FPV Remote Controller 3](/product/dji-fpv-remote-controller-3) is the joystick-style option. Add [Goggles 3](/product/dji-goggles-3) or the lower-cost [Goggles N3](/product/dji-goggles-n3) for the first-person view. Our [FPV guide](/blog/dji-avata-360-vs-avata-2-fpv-drone-guide) explains the kits.',
+      { h2: 'How to choose a controller for your RC drone' },
+      { ul: [
+        '**Check compatibility first.** Each controller works with specific aircraft; the product page lists them.',
+        '**Phone or screen?** The RC-N3 is lighter and cheaper; the RC 2 and RC Pro avoid using your phone.',
+        '**Sunlight.** Choose a high-bright screen if you fly outdoors in strong light.',
+        '**Flying style.** Pick a motion controller for immersive flying, or sticks for manual FPV.',
+        '**Spare controller.** A second controller is useful insurance on commercial jobs.'
+      ] },
+      'If you are buying your first aircraft, the [guide to the best drones for beginners](/blog/best-drones-for-beginners-australia) shows which kits include which controller.',
+      { h2: 'Buying a remote for your DJI drone' },
+      'Searching for a remote for your DJI drone? Tell us your aircraft and we will point you to the right controller. [Contact us](/contact) with your model, or browse the [shop](/shop).',
+      { faq: [
+        { q: 'What is the difference between the DJI RC-N3 and the RC 2?', a: 'The RC-N3 uses your smartphone as the screen and is lighter and cheaper. The RC 2 has a built-in 5.5-inch bright screen, so you do not need a phone.' },
+        { q: 'Can I use any DJI controller with any drone?', a: 'No. Each controller works with specific aircraft, so check the compatibility on the product page before you buy.' },
+        { q: 'Which controller is best for FPV?', a: 'For immersive flying with goggles, a motion controller is the easiest to learn, and the FPV Remote Controller 3 gives stick control for manual flying.' }
+      ] }
+    ],
+    targetKeywords: ['rc drone', 'remote dji', 'rc dji', 'uav controller', 'dji fpv controller 3', 'fpv controller']
+  },
+  {
+    id: 'post-15',
+    slug: 'best-drones-for-real-estate-and-aerial-photography',
+    title: 'Best Drones for Real Estate and Aerial Photography in Australia',
+    metaTitle: 'Best Drones for Real Estate and Aerial Photography',
+    metaDescription: 'Compare the best drones for real estate photography and video in Australia: Mini 4 Pro, Air 3S, Mavic 3 Pro and Mavic 4 Pro, plus accessories and CASA basics.',
+    subtitle: 'Which camera drone suits property marketing, and what to know before you take paid work.',
+    date: 'October 2026',
+    dateISO: '2026-10-18',
+    modifiedISO: '2026-10-18',
+    readTime: '7 min read',
+    author: 'Flight Operations Team',
+    tags: ['Real Estate Drones', 'Aerial Photography', 'DJI'],
+    excerpt: 'Property photography and video need sharp stills, steady footage and reliable flights. We compare the best DJI drones for real estate and aerial work.',
+    image: '/images/blog-real-estate-drones.webp',
+    imageAlt: 'DJI Mini 4 Pro, DJI Air 3S and DJI Mavic 4 Pro camera drones',
+    relatedProducts: ['dji-mini-4-pro', 'dji-air-3s-dji-rc-n3', 'dji-mavic-3-pro', 'dji-mavic-4-pro-dji-rc-2'],
+    content: [
+      'Drone photography has become a standard part of marketing a property. A good aerial shot shows the block, the street, the view and the surroundings in a way that ground photos cannot, and the best drone photography starts with the right aircraft. If you have ever searched for drone photography near me, you will know many agents now expect it as standard. This guide compares the best drones for real estate photography and video in Australia, and explains the accessories and rules you need to know before you start charging for flights.',
+      { h2: 'What a real estate drone needs' },
+      { ul: [
+        '**A large sensor.** Larger sensors give cleaner images in the low light of dawn and dusk, when properties look their best.',
+        '**Good dynamic range.** Bright skies and dark roofs in one frame need a camera that holds detail.',
+        '**Smooth video.** A stable gimbal and 4K video make the walk-through clips clients expect.',
+        '**Reliable obstacle sensing.** Trees, wires and rooflines are close, so sensing helps keep the aircraft safe.',
+        '**Portability.** You will carry the kit to many properties a week.'
+      ] },
+      { h2: 'Real estate drones compared' },
+      { table: {
+        head: ['Drone', 'Camera', 'Max flight time', 'Weight', 'Best for'],
+        rows: [
+          ['[DJI Mini 4 Pro](/product/dji-mini-4-pro)', '1/1.3-inch CMOS, 48 MP, 4K up to 100 fps', 'Up to 34 min', 'Under 249 g', 'Starting out and tight budgets'],
+          ['[DJI Mini 5 Pro](/product/dji-mini-5-pro-dji-rc-n3)', '1-inch CMOS, 50 MP', 'Up to 36 min', 'Under 250 g', 'Best small camera drone'],
+          ['[DJI Air 3S](/product/dji-air-3s-dji-rc-n3)', '1-inch 50 MP wide plus 48 MP medium tele, 4K up to 120 fps', 'Up to 45 min', 'About 724 g', 'Everyday paid work'],
+          ['[DJI Mavic 3 Pro](/product/dji-mavic-3-pro)', '4/3 20 MP wide plus two tele cameras, 5.1K video', 'Up to 43 min', '958 g', 'High-end property video'],
+          ['[DJI Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2)', '100 MP 4/3 Hasselblad plus two tele cameras', 'Up to 51 min', 'See product page', 'Premium listings and developers']
+        ]
+      } },
+      { h2: 'DJI Air 3S: the all-round choice' },
+      'For most agents and photographers, the [DJI Air 3S](/product/dji-air-3s-dji-rc-n3) is the best balance. Its 1-inch 50 MP wide camera and 48 MP medium tele camera give you a standard view and a compressed, flattering view of the property, and up to 45 minutes of flight covers a full shoot. It also shoots 4K up to 120 fps for smooth slow-motion. Choose a [Fly More Combo](/product/dji-air-3s-fly-more-combo-dji-rc-n3) for extra batteries.',
+      { h2: 'Mini 4 Pro and Mini 5 Pro: small and capable' },
+      'If you are starting out or fly in tight suburban blocks, the [Mini 4 Pro](/product/dji-mini-4-pro) and the [Mini 5 Pro](/product/dji-mini-5-pro-dji-rc-n3) give excellent image quality in a drone that fits in a jacket pocket. The Mini 5 Pro adds a 1-inch 50 MP sensor, which is the best small camera drone in our range. Both stay under the 250 g mark, which also helps with the paperwork around lighter aircraft.',
+      { h2: 'Mavic 3 Pro and Mavic 4 Pro: premium video and stills' },
+      'For higher-end property marketing, the [Mavic 3 Pro](/product/dji-mavic-3-pro) offers three cameras and 5.1K video, and the [Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2) adds a 100 MP Hasselblad main camera, a rotating gimbal and up to 51 minutes of flight. They suit developers, luxury listings and anyone selling aerial work as a premium service. Our [2026 DJI buyer guide](/blog/best-drone-for-sale-australia-2026-buyers-guide) compares the whole range.',
+      { h2: 'Real estate drone video and follow-me shots' },
+      'Property videos usually use slow reveals, orbits and a flight down the street towards the front door. Practise the moves before the shoot, and keep a clear return-to-home height. If you also want a simple follow-me shot for a presenter walking the property, a small drone such as the [DJI Neo 2](/product/dji-neo-2-drone-only) can do it, and its drone follow me mode keeps the presenter in frame. A GPS drone holds position accurately for stills, and enabling the gimbal level helps keep horizons straight.',
+      { h2: 'Accessories that improve results' },
+      { ul: [
+        '[ND filters](/category/batteries/filters-and-lenses) to control shutter speed in bright light.',
+        'Spare [batteries](/category/batteries/drone-batteries) and a [charging hub](/category/batteries/charging-hubs) for a full day of shoots.',
+        'A [bag or cover](/category/batteries/bags-and-covers) to protect the kit between properties.',
+        'A screen [controller](/blog/dji-controllers-explained-rc-n3-rc-2-rc-pro) so you can see the shot clearly in sun.'
+      ] },
+      { h2: 'Charging for drone photography and CASA basics' },
+      'If you take drone photography work for pay, rules for commercial operators apply. Under CASA, you can operate in the excluded category for drones under 2 kg after completing the CASA operator accreditation, while heavier aircraft need a licence and operator certificate. You also need to follow the standard operating conditions, such as flying below 120 m, keeping the drone in sight and staying 30 m from people. Pricing is up to you: real estate drone photography pricing varies with the property, the deliverables and your market, so research what local agents pay. Check the CASA website for current rules, and see our [FAQ](/faq).',
+      { faq: [
+        { q: 'What is the best drone for real estate photography?', a: 'For most people the DJI Air 3S is the best balance of camera, flight time and portability. The Mini 5 Pro is the best compact option and the Mavic 4 Pro suits premium listings.' },
+        { q: 'Do I need a licence to take real estate drone photos for money?', a: 'Commercial flying has CASA requirements. Drones under 2 kg can operate in the excluded category after CASA operator accreditation; heavier aircraft need a licence and certificate. Check the CASA website.' },
+        { q: 'How many batteries do I need for a shoot?', a: 'Two or three is a practical minimum for a single property, so a Fly More Combo is usually the better value.' }
+      ] }
+    ],
+    targetKeywords: ['best drone photography', 'real estate drone video', 'real estate drone photography pricing', 'drone photography near me', 'drone follow me', 'gps drone']
+  },
+  {
+    id: 'post-16',
+    slug: 'buying-a-new-vs-used-dji-drone-australia',
+    title: 'New vs Used DJI Drones in Australia: What to Check Before You Buy',
+    metaTitle: 'New vs Used DJI Drones: What to Check Before Buying',
+    metaDescription: 'Thinking of buying a second hand drone? New vs used DJI drones compared: warranty, battery health, damage checks and consumer rights when buying in Australia.',
+    subtitle: 'A practical checklist for buying a second hand drone, and when buying new is the safer choice.',
+    date: 'October 2026',
+    dateISO: '2026-10-18',
+    modifiedISO: '2026-10-18',
+    readTime: '7 min read',
+    author: 'Flight Operations Team',
+    tags: ['Used Drones', 'Buying Guide', 'Warranty'],
+    excerpt: 'Used drones for sale can look like a bargain, but condition and warranty matter. Here is what to check and when buying a new drone is the better deal.',
+    image: '/images/blog-new-vs-used-drones.webp',
+    imageAlt: 'DJI Mini 5 Pro and DJI Mavic 3 Pro new drones',
+    relatedProducts: ['dji-mini-5-pro-dji-rc-n3', 'dji-mavic-3-pro', 'dji-air-3s-dji-rc-n3', 'dji-mini-4-pro'],
+    content: [
+      'A search for used drones for sale turns up plenty of tempting prices. A second hand drone can be a good way to save money, but it can also come with hidden damage, worn batteries or no warranty at all. This guide compares buying a new versus a used DJI drone in Australia, gives you a checklist for inspecting a second hand drone and explains your consumer rights.',
+      { h2: 'New vs used DJI drones compared' },
+      { table: {
+        head: ['Factor', 'New from a retailer', 'Used or second hand'],
+        rows: [
+          ['Condition', 'Unused, sealed, current firmware path', 'Unknown history, wear and possible crash damage'],
+          ['Warranty', 'Manufacturer warranty and Australian Consumer Law guarantees', 'Often none; private sellers are not covered the same way'],
+          ['Batteries', 'Full capacity', 'May be worn, which cuts flight time'],
+          ['Price', 'Higher', 'Lower, but check what you may need to replace'],
+          ['Risk', 'Low', 'Higher: hidden faults, locked or stolen aircraft']
+        ]
+      } },
+      'Listings use many labels, from second hand drones for sale and 2nd hand drones for sale to ex-demo and refurbished. The checklist below applies to all of them, because the wording does not tell you the condition. Ex-demo and refurbished units can be reasonable value when the seller is a business that offers its own warranty, but always ask exactly what that warranty covers.',
+      { h2: 'Why a second hand drone is risky' },
+      'Drones are flown hard, crashed and repaired. A second hand drone that looks clean may hide a bent gimbal, a cracked arm or a battery that has been over-discharged. You usually cannot see a drone\'s flight history, and a seller may not know it either. A lower price can disappear quickly if you need a new battery, gimbal or propellers.',
+      { h2: 'A checklist for buying a used drone' },
+      { ul: [
+        '**Ask for the original receipt and serial number**, and check that the serial on the aircraft, controller and batteries matches the paperwork.',
+        '**Check the drone is not locked or reported stolen**, and that you can sign in and activate it on your own account.',
+        '**Inspect the body, arms and gimbal** for cracks, loose parts or a camera that does not move smoothly.',
+        '**Check each battery** for swelling, damage and how many charge cycles it has had, and expect worn batteries to fly for less time.',
+        '**Test fly in an open area**, watching for drift, odd noises, vibrations in the video and sensor warnings.',
+        '**Ask about crashes and repairs**, and about any warranty or care coverage that remains and whether it transfers.',
+        '**Update the firmware** and make sure all the accessories are included.'
+      ] },
+      'If anything feels wrong, walk away. A cheap second hand drone is not a bargain if it cannot fly safely.',
+      { h2: 'Your rights when you buy used' },
+      'Under the Australian Consumer Law, consumer guarantees generally apply to goods bought from a business, but private sales are usually not covered in the same way. That means a faulty drone bought from a stranger may leave you with little recourse. Buying from a retailer gives you the manufacturer warranty and ACL guarantees. Check the ACCC website for the details that apply to your purchase.',
+      { h2: 'When buying new is the better deal' },
+      'Buying new makes sense when you want the warranty, the full battery life and certainty about the condition. It is especially worth it for aircraft you rely on for paid work, and for beginners who cannot yet judge a drone\'s condition. Fly More Combos include extra batteries, which often closes the price gap with a used drone and a few spare batteries. Our drones are genuine Australian stock with free shipping and a 30-day change-of-mind return on unopened hardware.',
+      { h2: 'Smart ways to save without going used' },
+      { ul: [
+        'Choose the right model for your needs: a [DJI Mini 4 Pro](/product/dji-mini-4-pro) or [Mini 4K](/product/dji-mini-4k) costs far less than a flagship.',
+        'Pay by crypto for our 10% discount at checkout.',
+        'Buy a [Fly More Combo](/category/camera-drones/dji-mini-and-air) rather than adding batteries later.',
+        'Look at [previous-generation aircraft](/product/dji-air-3), which can offer strong value.'
+      ] },
+      'Not sure which model fits? Read our [2026 DJI buyer guide](/blog/best-drone-for-sale-australia-2026-buyers-guide) or the guide to the [best drones for beginners](/blog/best-drones-for-beginners-australia). If you already own a drone, our [battery guide](/blog/dji-drone-battery-charger-propeller-guide) explains how to keep it running well.',
+      { faq: [
+        { q: 'Is it safe to buy a second hand drone?', a: 'It can be, if you check the serial number, the battery condition, the gimbal and body and take a test flight. Without a warranty, the risk is higher than buying new.' },
+        { q: 'Do second hand drones have a warranty in Australia?', a: 'Often not. Consumer guarantees generally apply to goods bought from a business, but private sales are usually not covered in the same way.' },
+        { q: 'What is the biggest hidden cost of a used drone?', a: 'Batteries. Worn batteries cut flight time, and replacements can add a lot to the real price.' }
+      ] }
+    ],
+    targetKeywords: ['used drones for sale', 'second hand drones for sale', 'second hand drone', '2nd hand drones for sale']
+  },
+  {
     id: 'post-4',
     slug: 'best-drones-for-beginners-australia',
     title: 'Best Drones for Beginners in Australia: 5 Easy, Affordable Picks',
