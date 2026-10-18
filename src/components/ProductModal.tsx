@@ -2,6 +2,7 @@ import React from 'react';
 import { X, ShoppingBag, Zap, Shield, Truck, CheckCircle2, ChevronRight, Award } from 'lucide-react';
 import { Product } from '../types';
 import { ProductImage } from './ProductImage';
+import { useProductContent } from '../lib/useProductContent';
 
 interface ProductModalProps {
   product: Product | null;
@@ -16,7 +17,9 @@ export const ProductModal: React.FC<ProductModalProps> = ({
   onAddToCart,
   onQuickCheckout
 }) => {
+  const content = useProductContent(product?.slug);
   if (!product) return null;
+  const view = { ...product, ...(content ?? {}) };
 
   const cryptoPrice = Math.round(product.price * 0.9);
   const cryptoSavings = product.price - cryptoPrice;
@@ -115,7 +118,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
 
               {/* Description Prose */}
               <p className="text-sm text-slate-300 leading-relaxed font-normal">
-                <span className="whitespace-pre-line">{product.description}</span>
+                <span className="whitespace-pre-line">{view.description}</span>
               </p>
 
               {/* Specifications Table */}
@@ -164,13 +167,13 @@ export const ProductModal: React.FC<ProductModalProps> = ({
               </div>
 
               {/* In The Box List */}
-              {product.inTheBox && product.inTheBox.length > 0 && (
+              {view.inTheBox && view.inTheBox.length > 0 && (
                 <div className="space-y-1.5 pt-2">
                   <h4 className="text-xs font-bold text-slate-200 uppercase tracking-wider">
                     In The Box
                   </h4>
                   <ul className="text-xs text-slate-400 space-y-1">
-                    {product.inTheBox.map((item, idx) => (
+                    {view.inTheBox.map((item, idx) => (
                       <li key={idx} className="flex items-center gap-1.5">
                         <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
                         <span>{item}</span>

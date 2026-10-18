@@ -3,6 +3,8 @@
 // JavaScript) receive the correct title, description, canonical, structured data and page content.
 import { PRODUCTS, CATEGORIES } from '../src/data/products';
 import { FAQ_LIST } from '../src/data/content';
+import { contentFor } from '../src/data/productContentData';
+import { primeContent, peekContent } from '../src/data/productContent';
 import { BLOG_POSTS as ALL_BLOG_POSTS } from '../src/data/blogPosts';
 import { SITE_URL, SITE_NAME } from '../src/seo';
 import { metaFor, abs } from '../src/components/RouteSeo';
@@ -86,7 +88,8 @@ function bodyFor(pathname: string, h1: string, description: string): string {
   }
 
   if (pathname.startsWith('/product/')) {
-    const p = PRODUCTS.find(x => '/product/' + x.slug === pathname)!;
+    const base = PRODUCTS.find(x => '/product/' + x.slug === pathname)!;
+    const p = { ...base, ...peekContent(base.slug) };
     const rel = relatedFor(p, 8);
     const img = p.images?.[0];
     return main(
@@ -137,6 +140,12 @@ function bodyFor(pathname: string, h1: string, description: string): string {
   }
   const extras = pathname === '/about' ? [PAGE_COPY.about, PAGE_EXTRA.about] : pathname === '/contact' ? [PAGE_COPY.contact, PAGE_EXTRA.contact] : pathname === '/quote' ? [PAGE_EXTRA.quote] : [];
   return main(`<h1>${esc(h1)}</h1><p>${esc(description)}</p>${extras.map(t => `<p>${esc(t)}</p>`).join('')}`);
+}
+
+// Static pages carry the full long-form product text, so prime the content cache for every product.
+for (const p of PRODUCTS) {
+  const c = contentFor(p.slug);
+  if (c) primeContent(p.slug, c);
 }
 
 const BLOG_POSTS = [...ALL_BLOG_POSTS].sort((a, b) => b.dateISO.localeCompare(a.dateISO));

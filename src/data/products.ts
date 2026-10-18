@@ -1,7 +1,5 @@
 import { Product, CategoryInfo } from '../types';
 import { PRODUCT_IMAGES } from './productImages';
-import { PRODUCT_DETAILS } from './productDetails';
-import { PRODUCT_EXTRAS } from './productExtras';
 
 export const CATEGORIES: CategoryInfo[] = [
   {
@@ -587,7 +585,6 @@ const seeds: Seed[] = [
 
 export const PRODUCTS: Product[] = seeds.map((s, i) => {
   const slug = slugify(s.name);
-  const detail = PRODUCT_DETAILS[slug];
   return {
   id: slug,
   slug,
@@ -600,13 +597,8 @@ export const PRODUCTS: Product[] = seeds.map((s, i) => {
   badge: null,
   inStock: s.inStock ?? true,
   shortDescription: s.shortDescription,
-  description: detail
-    ? [detail.overview, detail.bestFor, PRODUCT_EXTRAS[slug]].filter(Boolean).join('\n\n')
-    : `${s.shortDescription} Australian stock with free shipping Australia-wide. Contact us for availability, bundle options and advice on the right setup for your operation.`,
+  description: `${s.shortDescription} Australian stock with free shipping Australia-wide. Contact us for availability, bundle options and advice on the right setup for your operation.`,
   specifications: {},
-  highlights: detail?.highlights,
-  specRows: detail?.specs,
-  inTheBox: detail?.inTheBox,
   graphicType: s.graphicType,
   images: PRODUCT_IMAGES[slugify(s.name)],
   isFeatured: s.featured ?? false

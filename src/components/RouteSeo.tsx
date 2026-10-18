@@ -1,4 +1,5 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { loadContent, peekContent } from '../data/productContent';
 import { useLocation } from 'react-router-dom';
 import { PRODUCTS, CATEGORIES } from '../data/products';
 import { BLOG_POSTS, FAQ_LIST } from '../data/content';
@@ -157,7 +158,8 @@ export function metaFor(pathname: string, search: string): Meta {
 
   if (pathname.startsWith('/product/')) {
     const slug = pathname.replace('/product/', '').replace(/\/$/, '');
-    const p = PRODUCTS.find(x => x.slug === slug);
+    const base = PRODUCTS.find(x => x.slug === slug);
+    const p = base ? { ...base, ...peekContent(slug) } : undefined;
     if (!p) return { title: `Product not found | ${SITE_NAME}`, description: 'This product could not be found.', noindex: true };
     const image = p.images?.[0] ? abs(p.images[0]) : undefined;
     const url = abs(`/product/${p.slug}`);
@@ -366,6 +368,21 @@ const metaTag = (key: 'name' | 'property', val: string) => () => {
 /** Keeps title, description, canonical, social tags and JSON-LD in sync with the current route. */
 export const RouteSeo: React.FC = () => {
   const { pathname, search } = useLocation();
+  const [ready, setReady] = useState(0);
+
+  // Product metadata needs the long-form content; fetch it, then re-run this effect.
+  useEffect(() => {
+    if (!pathname.startsWith('/product/')) return;
+    const slug = pathname.replace('/product/', '').replace(/\/$/, '');
+    if (peekContent(slug)) return;
+    let live = true;
+    loadContent(slug).then(() => {
+      if (live) setReady(n => n + 1);
+    });
+    return () => {
+      live = false;
+    };
+  }, [pathname]);
 
   useEffect(() => {
     const m = metaFor(pathname, search);
@@ -399,7 +416,7 @@ export const RouteSeo: React.FC = () => {
       s.text = JSON.stringify(m.jsonLd.length === 1 ? m.jsonLd[0] : m.jsonLd);
       document.head.appendChild(s);
     }
-  }, [pathname, search]);
+  }, [pathname, search, ready]);
 
   return null;
 };

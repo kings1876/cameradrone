@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { PRODUCT_KEYWORDS } from '../data/keywords';
+import { useProductContent } from '../lib/useProductContent';
 import { isQuoteProduct } from './QuotePage';
 import { ArrowLeft, ShoppingBag, Zap, Truck, Shield, Award, CheckCircle2, ChevronRight, Share2 } from 'lucide-react';
 import { PRODUCTS } from '../data/products';
@@ -24,6 +25,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
   const navigate = useNavigate();
 
   const product = PRODUCTS.find(p => p.slug === slug || p.id === slug);
+  const content = useProductContent(product?.slug);
   const [activeImage, setActiveImage] = useState(0);
   const actionsRef = useRef<HTMLDivElement>(null);
 
@@ -52,6 +54,8 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
       </div>
     );
   }
+
+  const view = { ...product, ...(content ?? {}) };
 
   const cryptoPrice = Math.round(product.price * 0.9);
   const cryptoSavings = product.price - cryptoPrice;
@@ -176,18 +180,18 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               </div>
 
               <div className="space-y-3">
-                {[...product.description.split('\n\n'), ...productNotes(product)].map((para, i) => (
+                {[...view.description.split('\n\n'), ...productNotes(product)].map((para, i) => (
                   <p key={i} className="text-sm text-slate-300 leading-relaxed font-normal">
                     {para}
                   </p>
                 ))}
               </div>
 
-              {product.highlights && product.highlights.length > 0 && (
+              {view.highlights && view.highlights.length > 0 && (
                 <div className="space-y-1.5">
                   <h2 className="text-xs font-bold text-slate-200 uppercase tracking-wider">Key features</h2>
                   <ul className="space-y-1.5 text-sm text-slate-300">
-                    {product.highlights.map(h => (
+                    {view.highlights.map(h => (
                       <li key={h} className="flex gap-2">
                         <span className="text-amber-400" aria-hidden="true">•</span>
                         <span>{h}</span>
@@ -197,11 +201,11 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                 </div>
               )}
 
-              {product.specRows && product.specRows.length > 0 && (
+              {view.specRows && view.specRows.length > 0 && (
                 <div className="space-y-2">
                   <h2 className="text-xs font-bold text-slate-200 uppercase tracking-wider">Specifications</h2>
                   <dl className="text-xs divide-y divide-slate-800/80 border border-slate-800 rounded-lg overflow-hidden bg-slate-950/40">
-                    {product.specRows.map(([label, value]) => (
+                    {view.specRows.map(([label, value]) => (
                       <div key={label} className="grid grid-cols-3 p-2.5">
                         <dt className="text-slate-400">{label}</dt>
                         <dd className="col-span-2 text-white font-medium">{value}</dd>
@@ -277,13 +281,13 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               )}
 
               {/* In The Box */}
-              {product.inTheBox && product.inTheBox.length > 0 && (
+              {view.inTheBox && view.inTheBox.length > 0 && (
                 <div className="space-y-1.5">
                   <h3 className="text-xs font-bold text-slate-200 uppercase tracking-wider">
                     In The Box Package
                   </h3>
                   <ul className="text-xs text-slate-400 space-y-1">
-                    {product.inTheBox.map((item, idx) => (
+                    {view.inTheBox.map((item, idx) => (
                       <li key={idx} className="flex items-center gap-1.5">
                         <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
                         <span>{item}</span>
