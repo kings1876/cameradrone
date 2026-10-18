@@ -1,9 +1,9 @@
 import React from 'react';
 import { Wordmark } from './Wordmark';
+import { AnnouncementBar } from './AnnouncementBar';
 import { NavLink, Link } from 'react-router-dom';
 import { ShoppingBag, Zap, ChevronDown } from 'lucide-react';
 import { CATEGORIES } from '../data/products';
-import { BUSINESS } from '../business';
 import { categoryPath } from '../routes';
 
 const dropdownPanel =
@@ -19,13 +19,7 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({ cartCount, openCart }) => {
   return (
     <header className="sticky top-0 z-40 w-full bg-[#0b0f17]/95 backdrop-blur-md border-b border-slate-800">
-      <div className="bg-[#080c13] border-b border-slate-800/80">
-        <p className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1 text-[11px] sm:text-xs font-semibold text-amber-400 flex items-center justify-center gap-2 text-center">
-          <span>{BUSINESS.name}</span>
-          <span aria-hidden="true" className="text-amber-500/60">·</span>
-          <span>{BUSINESS.abnDisplay}</span>
-        </p>
-      </div>
+      <AnnouncementBar />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
         {/* Zone 1: Single text element Brand Zone linking to Home Page */}
         <Link
