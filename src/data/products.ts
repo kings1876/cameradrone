@@ -103,9 +103,9 @@ const seeds: Seed[] = [
     shortDescription: 'DJI Inspire 3 professional cinema drone for film and broadcast production.' },
 
   // DJI Matrice
-  { name: 'DJI Matrice 30', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 12880, graphicType: 'enterprise-uav', featured: true,
+  { name: 'DJI Matrice 30', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 10989, graphicType: 'enterprise-uav', featured: true,
     shortDescription: 'DJI Matrice 30 compact, weather-resistant enterprise drone for inspection and public safety.' },
-  { name: 'DJI Matrice 30T', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 13270, graphicType: 'enterprise-uav',
+  { name: 'DJI Matrice 30T', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 14917, graphicType: 'enterprise-uav',
     shortDescription: 'DJI Matrice 30T enterprise drone with integrated thermal imaging.' },
   { name: 'DJI Matrice 4 Enterprise', brand: 'DJI', category: 'enterprise-drones', subcategory: 'DJI Matrice', price: 7395, graphicType: 'enterprise-uav', featured: true,
     shortDescription: 'DJI Matrice 4 Enterprise drone for mapping, inspection and emergency response.' },
@@ -129,11 +129,11 @@ const seeds: Seed[] = [
     shortDescription: 'DJI Phantom 4 Multispectral package including the D-RTK 2 mobile station.' },
 
   // Cameras & Sensors
-  { name: 'DJI Zenmuse H30', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 8506, graphicType: 'dslr-gimbal',
+  { name: 'DJI Zenmuse H30', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 8495, graphicType: 'dslr-gimbal',
     shortDescription: 'DJI Zenmuse H30 multi-sensor payload for enterprise drones.' },
   { name: 'DJI Zenmuse H30T', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 17335, graphicType: 'dslr-gimbal',
     shortDescription: 'DJI Zenmuse H30T multi-sensor payload with thermal imaging.' },
-  { name: 'DJI Zenmuse L2 Lidar', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 21890, graphicType: 'dslr-gimbal',
+  { name: 'DJI Zenmuse L2 Lidar', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 23880, graphicType: 'dslr-gimbal',
     shortDescription: 'DJI Zenmuse L2 LiDAR payload for aerial surveying and mapping.' },
   { name: 'DJI Zenmuse P1', brand: 'DJI', category: 'cameras-sensors', subcategory: 'DJI Zenmuse Cameras', price: 11400, graphicType: 'dslr-gimbal', inStock: false,
     shortDescription: 'DJI Zenmuse P1 full-frame photogrammetry camera payload.' },
