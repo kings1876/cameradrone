@@ -28,7 +28,11 @@ export const REPLY = {
       label: 'Crypto — Ethereum (ETH)',
       discountPct: 10,
       wallet: { address: '0x71e590e953d8DBf7a2d8a4Fa58Ea55c3c57A6f8C', network: 'Ethereum mainnet (ERC-20)' }
-    }
+    },
+    // Australian bank rails: no discount; account / PayID details are pasted per order in the admin composer.
+    { id: 'bank-transfer', label: 'Bank Transfer (EFT)', discountPct: 0 },
+    { id: 'payid', label: 'PayID', discountPct: 0 },
+    { id: 'osko', label: 'Osko (instant bank payment)', discountPct: 0 }
   ]
 };
 
@@ -68,7 +72,7 @@ const KNOWN_LABELS = [
   'routing number', 'beneficiary name', 'beneficiary', 'swift code', 'swift',
   'bic code', 'bic', 'iban', 'wallet address', 'wallet', 'network', 'memo',
   'destination tag', 'tag', 'paypal email', 'paypal.me', 'paypal',
-  'payment link', 'reference'
+  'payid', 'osko', 'payment link', 'reference'
 ].sort((a, b) => b.length - a.length);
 
 const LABEL_PATTERN = new RegExp(

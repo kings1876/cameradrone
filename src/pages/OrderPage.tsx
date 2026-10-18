@@ -27,13 +27,14 @@ export const OrderPage: React.FC<OrderPageProps> = ({ cartItems, onOrderSuccess 
   const [postcode, setPostcode] = useState('');
   const [flightNotes, setFlightNotes] = useState('');
   const [selectedCrypto, setSelectedCrypto] = useState<'BTC' | 'ETH' | 'USDT'>('USDT');
+  const [payKind, setPayKind] = useState<'crypto' | 'bank-transfer' | 'payid' | 'osko'>('crypto');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [orderComplete, setOrderComplete] = useState(false);
   const [orderId, setOrderId] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
 
   const subtotal = items.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
-  const cryptoDiscount = Math.round(subtotal * 0.1);
+  const cryptoDiscount = payKind === 'crypto' ? Math.round(subtotal * 0.1) : 0;
   const total = subtotal - cryptoDiscount;
 
   const wallet = (findMethod(`crypto-${selectedCrypto.toLowerCase()}`) as { wallet?: { address: string; network: string } } | null)?.wallet;
@@ -66,7 +67,7 @@ export const OrderPage: React.FC<OrderPageProps> = ({ cartItems, onOrderSuccess 
       customerEmail: email,
       customerPhone: phone,
       address: `${street}, ${city}, ${state} ${postcode}, Australia`,
-      paymentMethod: COIN_METHOD[selectedCrypto],
+      paymentMethod: payKind === 'crypto' ? COIN_METHOD[selectedCrypto] : payKind,
       notes: flightNotes,
       items: items.map(i => ({ name: i.product.name, quantity: i.quantity, lineTotal: i.product.price * i.quantity }))
     });
@@ -123,7 +124,7 @@ export const OrderPage: React.FC<OrderPageProps> = ({ cartItems, onOrderSuccess 
                   <span className="text-amber-400 font-bold">Payment details by email</span>
                 </div>
                 <div className="flex justify-between border-b border-slate-800/80 pb-2">
-                  <span className="text-slate-400">Total due (10% crypto discount applied):</span>
+                  <span className="text-slate-400">Total due{cryptoDiscount ? ' (10% crypto discount applied)' : ''}:</span>
                   <span className="text-white font-bold font-mono tabular-nums">${total.toLocaleString()} AUD</span>
                 </div>
                 <div className="flex justify-between border-b border-slate-800/80 pb-2">
@@ -178,11 +179,11 @@ export const OrderPage: React.FC<OrderPageProps> = ({ cartItems, onOrderSuccess 
                     <span className="text-emerald-400 font-semibold">FREE (All Products)</span>
                   </div>
                   <div className="text-right">
-                    <div className="text-slate-400 line-through text-[11px] font-mono">
+                    <div className={`text-slate-400 line-through text-[11px] font-mono ${cryptoDiscount ? '' : 'hidden'}`}>
                       ${subtotal.toLocaleString()} AUD
                     </div>
                     <div className="text-lg font-extrabold text-amber-400 font-mono tabular-nums">
-                      ${total.toLocaleString()} AUD (10% Crypto Discount Applied)
+                      ${total.toLocaleString()} AUD{cryptoDiscount ? ' (10% Crypto Discount Applied)' : ''}
                     </div>
                   </div>
                 </div>
@@ -299,8 +300,45 @@ export const OrderPage: React.FC<OrderPageProps> = ({ cartItems, onOrderSuccess 
                 </div>
               </div>
 
-              {/* Cryptocurrency Payment Section */}
+              {/* Payment method */}
               <div className="space-y-3 pt-3 border-t border-slate-800">
+                <h3 className="text-xs font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2">
+                  <ShieldCheck className="w-4 h-4 text-amber-400" />
+                  <span>Payment Method</span>
+                </h3>
+                <div role="radiogroup" aria-label="Payment method" className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                  {([
+                    ['crypto', 'Crypto (10% off)'],
+                    ['bank-transfer', 'Bank Transfer'],
+                    ['payid', 'PayID'],
+                    ['osko', 'Osko']
+                  ] as const).map(([id, label]) => (
+                    <button
+                      key={id}
+                      type="button"
+                      role="radio"
+                      aria-checked={payKind === id}
+                      onClick={() => setPayKind(id)}
+                      className={`py-2 px-3 text-xs font-bold rounded-lg border transition-all ${
+                        payKind === id
+                          ? 'bg-amber-500/20 text-amber-400 border-amber-500 shadow-sm'
+                          : 'bg-slate-900 text-slate-300 border-slate-700 hover:border-slate-500'
+                      }`}
+                    >
+                      {label}
+                    </button>
+                  ))}
+                </div>
+                {payKind !== 'crypto' && (
+                  <div className="p-4 bg-slate-950/90 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
+                    After you place the order we will email you our {payKind === 'bank-transfer' ? 'bank transfer (BSB and account number)' : payKind === 'payid' ? 'PayID' : 'PayID for an Osko instant payment'} details
+                    and the exact amount, with your order number to use as the payment reference. Osko and PayID payments from Australian banks usually arrive within minutes. Please do not send any payment until you have received that email.
+                  </div>
+                )}
+              </div>
+
+              {/* Crypto payment section */}
+              <div className={`space-y-3 pt-3 border-t border-slate-800 ${payKind === 'crypto' ? '' : 'hidden'}`}>
                 <div className="flex items-center justify-between">
                   <h3 className="text-xs font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2">
                     <Zap className="w-4 h-4 text-amber-400" />
