@@ -407,3 +407,13 @@ Orders and quotes are completed by a person through the order form or the quote 
   });
   return files;
 }
+
+/** One JSON file of long-form content per product, fetched by the client when a product page opens. */
+export function contentFiles(): Record<string, string> {
+  const out: Record<string, string> = {};
+  for (const p of PRODUCTS) {
+    const c = peekContent(p.slug);
+    if (c) out[p.slug] = JSON.stringify(c);
+  }
+  return out;
+}

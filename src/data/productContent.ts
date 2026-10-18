@@ -17,6 +17,18 @@ export const primeContent = (slug: string, content: ProductContent): void => {
 export async function loadContent(slug: string): Promise<ProductContent | undefined> {
   const hit = cache.get(slug);
   if (hit) return hit;
+  // Production: one small JSON file per product, written at build time (and preloaded on product pages).
+  try {
+    const res = await fetch(`/content/${slug}.json`);
+    if (res.ok) {
+      const content = (await res.json()) as ProductContent;
+      cache.set(slug, content);
+      return content;
+    }
+  } catch {
+    // fall through to the bundled data
+  }
+  // Development fallback: load all content from its chunk.
   const mod = await import('./productContentData');
   const content = mod.contentFor(slug);
   if (content) cache.set(slug, content);

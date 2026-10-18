@@ -21,7 +21,12 @@ const mod = await import(pathToFileURL(path.resolve(out)).href);
 const template = fs.readFileSync('dist/index.html', 'utf8');
 
 const pages = mod.buildPages(template);
+// Long-form product text ships as one small JSON file per product; product pages preload their own file.
+fs.mkdirSync('dist/content', { recursive: true });
+for (const [slug, json] of Object.entries(mod.contentFiles())) fs.writeFileSync(path.join('dist/content', slug + '.json'), json);
 for (const page of pages) {
+  const m = page.file.match(/^product\/([^/]+)\/index\.html$/);
+  if (m) page.html = page.html.replace('</head>', () => `<link rel="preload" as="fetch" type="application/json" crossorigin="anonymous" href="/content/${m[1]}.json" /></head>`);
   const dest = path.join('dist', page.file);
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   fs.writeFileSync(dest, page.html);
