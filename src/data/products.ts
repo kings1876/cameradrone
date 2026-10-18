@@ -81,6 +81,13 @@ const seeds: Seed[] = [
   { name: 'DJI Avata 2 Fly More Combo (Three Batteries)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 1559, graphicType: 'fpv-drone', inStock: false,
     shortDescription: 'DJI Avata 2 immersive FPV drone with Goggles 3 and RC Motion 3, three-battery Fly More Combo.' },
 
+  { name: 'DJI Avata 360 (Drone Only)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 799, graphicType: 'fpv-drone', inStock: false,
+    shortDescription: 'DJI Avata 360 immersive FPV drone with a 360-degree camera system, drone only (no controller).' },
+  { name: 'DJI Avata 360 (DJI RC 2)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 1159, graphicType: 'fpv-drone',
+    shortDescription: 'DJI Avata 360 with a 360-degree camera system, supplied with the DJI RC 2 screen controller.' },
+  { name: 'DJI Avata 360 Fly More Combo (DJI RC 2)', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Neo & FPV', price: 1619, graphicType: 'fpv-drone', featured: false,
+    shortDescription: 'DJI Avata 360 Fly More Combo with the DJI RC 2 and extra batteries for longer 360-degree FPV shoots.' },
+
   // DJI Mavic 3
   { name: 'DJI Mavic 3 Pro', brand: 'DJI', category: 'camera-drones', subcategory: 'DJI Mavic 3', price: 3099, graphicType: 'cinema-drone', featured: true,
     shortDescription: 'Flagship DJI Mavic 3 Pro multi-camera drone for professional imaging.' },

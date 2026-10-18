@@ -29,6 +29,12 @@ export const PRODUCT_EXTRAS: Record<string, string> = {
     'Among DJI Avata 2 drones this single-battery pack is the entry point, and it is a complete DJI FPV drone kit with Goggles 3. Check the DJI Avata 2 weight if you are weighing it against other FPV options, add fpv goggles accessories, and upgrade to a three-battery kit when you want longer sessions.',
   'dji-avata-2-fly-more-combo-three-batteries':
     'A DJI FPV drone with three batteries lets you fly a whole shoot without waiting. This is among the DJI Avata 2 drones for sale, with a DJI Goggle 3 headset, the DJI Avata fly smart combo style of kit, and the immersive DJI FPV glasses experience. Ask us for the latest lead time.',
+  'dji-avata-360-fly-more-combo-dji-rc-2':
+    'Searching for the DJI Avata 360? This Fly More Combo is the full kit, and the DJI Avata 360 drone family is built around one idea: shoot first, frame later. It is a DJI FPV drone for 360 video drone work, and one of the few drones with a 360 degree camera that can also fly in a classic single-lens mode.',
+  'dji-avata-360-dji-rc-2':
+    'This DJI Avata 360 drone kit includes the DJI RC 2, so you can fly straight away. As a DJI FPV drone it suits immersive shots, and as a 360 video drone it lets you reframe in post. Compare it with the DJI Avata 360 Fly More Combo if you want extra batteries.',
+  'dji-avata-360-drone-only':
+    'If you want drones with 360 degree camera capability at the lowest price, the drone-only kit is the entry point. The DJI Avata 360 is also a 360 video drone and a DJI FPV drone, and the full DJI Avata 360 drone range includes kits with the DJI RC 2.',
   'dji-mavic-3-pro':
     'Pilots searching for the Mavic 3 choose the Pro version for its three focal lengths. The Mavic 3 Pro Cine edition adds high-bitrate recording for post-production work, and the standard unit here suits photographers and content teams. Look at DJI Mavic accessories such as ND filters and batteries to complete a kit, and see our drone camera range for alternatives.',
   'dji-mavic-3-pro-fly-more-combo-dji-rc':

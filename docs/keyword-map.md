@@ -334,3 +334,5 @@ Volume = monthly AU searches; KD = keyword difficulty; T = transactional (others
 
 Photos pending: official DJI images must be supplied or confirmed usable by the owner (image-sourcing skill forbids scraping or AI-faking specific models). Products show the illustration fallback until then.
 Opportunity: "dji avata 360" 1,600/mo (KD 24, T) - new product, D1 lists drone only A$799 and Fly More Combo A$1,619.
+
+Avata 360 added (D1 Store AU prices): Drone Only A$799 (sold out there), with DJI RC 2 A$1,159, Fly More Combo (RC 2) A$1,619. Specs: about 455 g, 8K/60 360-degree video, 4K/60 single-lens mode, about 23 min, omnidirectional sensing. Sensor size and transmission range are omitted because sources conflict. Photos pending.

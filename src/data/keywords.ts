@@ -7,6 +7,9 @@ export interface KeywordSet {
 }
 
 export const PRODUCT_KEYWORDS: Record<string, KeywordSet> = {
+  "dji-avata-360-fly-more-combo-dji-rc-2": { primary: "dji avata 360", supporting: ["dji avata 360 drone", "dji fpv drone", "360 video drone", "drones with 360 degree camera"] },
+  "dji-avata-360-dji-rc-2": { primary: "dji avata 360 drone", supporting: ["dji avata 360", "dji rc 2", "360 video drone", "dji fpv drone"] },
+  "dji-avata-360-drone-only": { primary: "drones with 360 degree camera", supporting: ["dji avata 360", "360 video drone", "dji fpv drone", "dji avata 360 drone"] },
   "dji-mini-5-pro-dji-rc-n3": { primary: "dji mini 5 pro", supporting: ["mini 5 pro", "dji mini 5 pro price australia", "dji mini 5 pro review", "dji mini 5 pro accessories"] },
   "dji-mini-5-pro-fly-more-combo-dji-rc-n3": { primary: "dji mini 5 pro fly more combo dji", supporting: ["dji mini 5 pro combo", "dji mini 5 pro sale", "dji mini 5 pro case", "dji mini 5 pro vs mini 4 pro"] },
   "dji-mini-5-pro-fly-more-combo-dji-rc-2": { primary: "dji mini pro 5", supporting: ["dji 5 mini pro", "dji mini 5 pro combo", "dji mini 5 pro price australia", "dji mini 5 pro accessories"] },

@@ -231,6 +231,53 @@ export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
     inTheBox: ['Avata 2 aircraft', 'DJI Goggles 3', 'DJI RC Motion 3', 'Three Intelligent Flight Batteries', 'Charging hub']
   },
 
+  // ---------------- DJI Avata 360 ----------------
+  'dji-avata-360-fly-more-combo-dji-rc-2': {
+    overview:
+      'The DJI Avata 360 is an FPV drone with a 360-degree camera system that records 8K at 60 fps, so you can choose your framing after the flight. The Fly More Combo with the DJI RC 2 adds extra batteries for a full day of 360 flying.',
+    bestFor:
+      'Perfect for creators who want immersive, reframe-in-post FPV footage for social, tourism, real estate and action content, and who need enough batteries to shoot several lines in a row.',
+    highlights: ['360-degree camera with 8K at 60 fps HDR', 'Single-lens mode for 4K at 60 fps Avata-style footage', 'Omnidirectional obstacle sensing and integrated propeller guard'],
+    specs: [
+      ['Camera', '360-degree dual-lens system, 8K at 60 fps with HDR'],
+      ['Single-lens mode', '4K at 60 fps'],
+      ['Take-off weight', 'About 455 g'],
+      ['Max flight time', 'About 23 min'],
+      ['Obstacle sensing', 'Omnidirectional'],
+      ['Max wind resistance', '10.7 m/s (Level 5)'],
+      ['Controller', 'DJI RC 2 with built-in screen']
+    ],
+    inTheBox: ['Avata 360 aircraft', 'DJI RC 2 controller', 'Fly More kit: extra Intelligent Flight Batteries', 'Charging hub']
+  },
+  'dji-avata-360-dji-rc-2': {
+    overview:
+      'The DJI Avata 360 drone with the DJI RC 2 is the mid-price way to buy the 360-degree FPV aircraft: the drone with the screen controller, ready to fly. It captures 8K 360-degree video and a 4K single-lens mode with a built-in propeller guard.',
+    bestFor:
+      'Ideal for pilots who want the DJI RC 2 and a single battery to start, with the option of adding batteries later. A good fit for tourism, property and social creators.',
+    highlights: ['DJI RC 2 controller included', '8K 360-degree video, 4K single-lens mode', 'About 23 min flight time'],
+    specs: [
+      ['Camera', '360-degree dual-lens system, 8K at 60 fps with HDR'],
+      ['Take-off weight', 'About 455 g'],
+      ['Max flight time', 'About 23 min'],
+      ['Obstacle sensing', 'Omnidirectional'],
+      ['Controller', 'DJI RC 2 with built-in screen']
+    ]
+  },
+  'dji-avata-360-drone-only': {
+    overview:
+      'The DJI Avata 360 drone only kit is the lowest-cost entry among drones with a 360-degree camera, with the aircraft and no controller. It suits pilots who already own a compatible DJI controller or goggles.',
+    bestFor:
+      'Best for existing DJI FPV pilots who want to add a 360 aircraft without paying for another controller. Currently sold out at some retailers, so ask for the latest lead time.',
+    highlights: ['360-degree camera, 8K at 60 fps HDR', 'About 455 g with integrated propeller guard', 'Omnidirectional obstacle sensing'],
+    specs: [
+      ['Camera', '360-degree dual-lens system, 8K at 60 fps with HDR'],
+      ['Take-off weight', 'About 455 g'],
+      ['Max flight time', 'About 23 min'],
+      ['Obstacle sensing', 'Omnidirectional'],
+      ['Kit', 'Drone only, controller not included']
+    ]
+  },
+
   // ---------------- DJI Mavic 3 / Inspire ----------------
   'dji-mavic-3-pro': {
     overview:
