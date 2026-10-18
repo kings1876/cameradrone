@@ -1,4 +1,5 @@
 import { blogParagraph } from '../data/pageCopy';
+import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST } from '../lib/imageSets';
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, Tag, Share2, BookOpen } from 'lucide-react';
@@ -74,8 +75,8 @@ export const BlogPostPage: React.FC = () => {
         {post.image && (
           <div className="bg-slate-900 rounded-2xl h-64 sm:h-96 overflow-hidden">
             <picture>
-                    <source srcSet={post.image.replace(/\.webp$/, '.avif')} type="image/avif" />
-                    <img src={post.image} alt={post.imageAlt ?? post.title} width={1600} height={900} fetchPriority="high" className="w-full h-full object-cover" />
+                    <source srcSet={respSet(post.image, 'avif', BLOG_WIDTHS, BLOG_FULL)} sizes={BLOG_SIZES_POST} type="image/avif" />
+                    <img src={post.image} srcSet={respSet(post.image, 'webp', BLOG_WIDTHS, BLOG_FULL)} sizes={BLOG_SIZES_POST} alt={post.imageAlt ?? post.title} width={1600} height={900} fetchPriority="high" className="w-full h-full object-cover" />
                   </picture>
           </div>
         )}

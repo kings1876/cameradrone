@@ -19,6 +19,7 @@ import { ProductCard } from '../components/ProductCard';
 import { Hero } from '../components/Hero';
 import { Product } from '../types';
 import { PAGE_COPY, PAGE_EXTRA } from '../data/pageCopy';
+import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_CARD } from '../lib/imageSets';
 
 interface HomePageProps {
   onAddToCart: (product: Product) => void;
@@ -299,8 +300,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
                 {post.image && (
                   <div className="bg-slate-900 rounded-lg h-32 overflow-hidden mb-1">
                     <picture>
-                    <source srcSet={post.image.replace(/\.webp$/, '.avif')} type="image/avif" />
-                    <img src={post.image} alt={post.imageAlt ?? post.title} width={1600} height={900} loading="lazy" className="w-full h-full object-cover" />
+                    <source srcSet={respSet(post.image, 'avif', BLOG_WIDTHS, BLOG_FULL)} sizes={BLOG_SIZES_CARD} type="image/avif" />
+                    <img src={post.image} srcSet={respSet(post.image, 'webp', BLOG_WIDTHS, BLOG_FULL)} sizes={BLOG_SIZES_CARD} alt={post.imageAlt ?? post.title} width={1600} height={900} loading="lazy" className="w-full h-full object-cover" />
                   </picture>
                   </div>
                 )}

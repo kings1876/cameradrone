@@ -6,14 +6,18 @@ interface HeroProps {
   onOpenOrderForm: () => void;
 }
 
+import { respSet, HERO_WIDTHS, HERO_FULL } from '../lib/imageSets';
+
 export const Hero: React.FC<HeroProps> = ({ onExploreClick, onOpenOrderForm }) => {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-[#0b0f17] via-[#0f172a] to-[#0b0f17] pt-12 pb-16 lg:pt-16 lg:pb-24 border-b border-slate-800">
       {/* Lifestyle background photo, darkened so the headline stays readable */}
       <picture>
-        <source srcSet="/images/home-hero.avif" type="image/avif" />
+        <source srcSet={respSet('/images/home-hero.webp', 'avif', HERO_WIDTHS, HERO_FULL)} sizes="100vw" type="image/avif" />
         <img
           src="/images/home-hero.webp"
+          srcSet={respSet('/images/home-hero.webp', 'webp', HERO_WIDTHS, HERO_FULL)}
+          sizes="100vw"
           alt=""
           aria-hidden="true"
           width={1920}

@@ -7,6 +7,7 @@ import { SITE_URL, SITE_NAME } from '../src/seo';
 import { metaFor, abs } from '../src/components/RouteSeo';
 import { categoryPath, slugify } from '../src/routes';
 import { categoryIntro } from '../src/data/categoryCopy';
+import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST, HERO_WIDTHS, HERO_FULL } from '../src/lib/imageSets';
 import { PAGE_COPY, PAGE_EXTRA, seoParagraphs, blogParagraph, productNotes } from '../src/data/pageCopy';
 import { POLICIES, POLICY_INTRO, POLICY_HELP, POLICY_MORE } from '../src/data/policies';
 import { relatedFor } from '../src/components/RelatedProducts';
@@ -154,10 +155,10 @@ export interface Page {
 }
 
 function preloadFor(path: string): string {
-  if (path === '/') return '<link rel="preload" as="image" type="image/avif" href="/images/home-hero.avif" fetchpriority="high" />';
+  if (path === '/') return `<link rel="preload" as="image" type="image/avif" imagesrcset="${respSet('/images/home-hero.webp', 'avif', HERO_WIDTHS, HERO_FULL)}" imagesizes="100vw" fetchpriority="high" />`;
   if (path.startsWith('/blog/')) {
     const post = BLOG_POSTS.find(b => '/blog/' + b.slug === path);
-    return post?.image ? `<link rel="preload" as="image" type="image/avif" href="${esc(post.image.replace(/\.webp$/, '.avif'))}" fetchpriority="high" />` : '';
+    return post?.image ? `<link rel="preload" as="image" type="image/avif" imagesrcset="${esc(respSet(post.image, 'avif', BLOG_WIDTHS, BLOG_FULL))}" imagesizes="${BLOG_SIZES_POST}" fetchpriority="high" />` : '';
   }
   if (!path.startsWith('/product/')) return '';
   const p = PRODUCTS.find(x => '/product/' + x.slug === path);

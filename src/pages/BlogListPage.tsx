@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { PAGE_COPY, PAGE_EXTRA } from '../data/pageCopy';
+import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_CARD } from '../lib/imageSets';
 import { Link } from 'react-router-dom';
 import { Calendar, Clock, ArrowRight, BookOpen } from 'lucide-react';
 import { BLOG_POSTS } from '../data/content';
@@ -39,8 +40,8 @@ export const BlogListPage: React.FC = () => {
               {post.image && (
                 <div className="bg-slate-900 h-44 overflow-hidden border-b border-slate-800">
                   <picture>
-                    <source srcSet={post.image.replace(/\.webp$/, '.avif')} type="image/avif" />
-                    <img src={post.image} alt={post.imageAlt ?? post.title} width={1600} height={900} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <source srcSet={respSet(post.image, 'avif', BLOG_WIDTHS, BLOG_FULL)} sizes={BLOG_SIZES_CARD} type="image/avif" />
+                    <img src={post.image} srcSet={respSet(post.image, 'webp', BLOG_WIDTHS, BLOG_FULL)} sizes={BLOG_SIZES_CARD} alt={post.imageAlt ?? post.title} width={1600} height={900} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                   </picture>
                 </div>
               )}
