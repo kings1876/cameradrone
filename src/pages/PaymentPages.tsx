@@ -110,7 +110,7 @@ export const CryptoPayPage: React.FC = () => {
   const [methodId, setMethodId] = useState(params.get('m') || '');
   const [name, setName] = useState('');
   const [state, setState] = useState<'loading' | 'ready' | 'missing'>('loading');
-  const [showQr, setShowQr] = useState(false);
+  const [showQr, setShowQr] = useState(true);
   const [qr, setQr] = useState('');
 
   const method = findMethod(methodId) as { label: string; wallet?: Wallet } | null;
