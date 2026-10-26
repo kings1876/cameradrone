@@ -1,4 +1,4 @@
-import { ORDER_NUMBER_RE, REPLY } from '../../shared/order.js';
+import { ORDER_NUMBER_RE, REPLY, findMethod } from '../../shared/order.js';
 import { getOrder, markPaymentConfirmed } from '../_lib/store.js';
 import { sendMail } from '../_lib/mailer.js';
 import { paymentConfirmedEmail } from '../_lib/emails.js';
@@ -18,7 +18,9 @@ export default async function handler(req, res) {
   if (!buffer.length || buffer.length > MAX_BYTES) return res.status(413).json({ ok: false, error: 'file-too-large' });
 
   const order = await getOrder(id).catch(() => null);
-  if (!order || order.status === 'pending') return res.status(404).json({ ok: false, error: 'not-ready' });
+  // Crypto orders pay straight from the payment page, before any admin email, so pending is fine for them.
+  const selfServe = order && !!(findMethod(order.paymentMethod) || {}).wallet;
+  if (!order || (order.status === 'pending' && !selfServe)) return res.status(404).json({ ok: false, error: 'not-ready' });
 
   const note = String(body.note || '').trim().slice(0, 500);
   const mail = paymentConfirmedEmail(order, note);

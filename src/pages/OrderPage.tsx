@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle2, Copy, Check, Zap, Truck, ShieldCheck, AlertCircle } from 'lucide-react';
+import { Link, useNavigate } from 'react-router-dom';
+import { ArrowLeft, CheckCircle2, Zap, Truck, ShieldCheck, AlertCircle } from 'lucide-react';
 import { CartItem } from '../types';
-import { makeOrderNumber, postForm, findMethod } from '../lib/reply';
+import { makeOrderNumber, postForm } from '../lib/reply';
 import { PRODUCTS } from '../data/products';
 
 interface OrderPageProps {
@@ -27,6 +27,7 @@ export const OrderPage: React.FC<OrderPageProps> = ({ cartItems, onOrderSuccess 
   const [postcode, setPostcode] = useState('');
   const [flightNotes, setFlightNotes] = useState('');
   const [selectedCrypto, setSelectedCrypto] = useState<'BTC' | 'ETH' | 'USDT'>('USDT');
+  const navigate = useNavigate();
   const [payKind, setPayKind] = useState<'crypto' | 'bank-transfer' | 'payid' | 'osko'>('crypto');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [orderComplete, setOrderComplete] = useState(false);
@@ -37,15 +38,6 @@ export const OrderPage: React.FC<OrderPageProps> = ({ cartItems, onOrderSuccess 
   const cryptoDiscount = payKind === 'crypto' ? Math.round(subtotal * 0.1) : 0;
   const total = subtotal - cryptoDiscount;
 
-  const wallet = (findMethod(`crypto-${selectedCrypto.toLowerCase()}`) as { wallet?: { address: string; network: string } } | null)?.wallet;
-  const [walletCopied, setWalletCopied] = useState(false);
-  const copyWallet = () => {
-    if (!wallet) return;
-    navigator.clipboard?.writeText(wallet.address).then(() => {
-      setWalletCopied(true);
-      window.setTimeout(() => setWalletCopied(false), 1800);
-    });
-  };
   const COIN_METHOD = { USDT: 'crypto-usdt', BTC: 'crypto-btc', ETH: 'crypto-eth' } as const;
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -72,6 +64,17 @@ export const OrderPage: React.FC<OrderPageProps> = ({ cartItems, onOrderSuccess 
       items: items.map(i => ({ name: i.product.name, quantity: i.quantity, lineTotal: i.product.price * i.quantity }))
     });
 
+    if (payKind === 'crypto') {
+      const methodId = COIN_METHOD[selectedCrypto];
+      try {
+        sessionStorage.setItem(`pay:${generatedOrderId}`, JSON.stringify({ methodId, amountDue: total, customerName: fullName }));
+      } catch {
+        // storage unavailable; the payment page reads the order from the server instead
+      }
+      onOrderSuccess();
+      navigate(`/order/pay?id=${generatedOrderId}&m=${methodId}`);
+      return;
+    }
     setOrderId(generatedOrderId);
     setIsSubmitting(false);
     setOrderComplete(true);
@@ -369,34 +372,9 @@ export const OrderPage: React.FC<OrderPageProps> = ({ cartItems, onOrderSuccess 
 
                 <div className="p-4 bg-slate-950/90 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed space-y-3">
                   <p>
-                    After you place the order we'll email you the exact {selectedCrypto} payment details (address, network and amount) for
-                    your order. Please don't send any payment until you've received that email.
+                    When you place the order you'll go straight to a secure payment page showing our {selectedCrypto} address, the network and
+                    the amount due, with a QR code you can scan. Please don't send any payment before then.
                   </p>
-                  {wallet && (
-                    <div className="space-y-1.5">
-                      <p className="text-[11px] uppercase tracking-wider text-slate-400">
-                        Our {selectedCrypto} address · {wallet.network}
-                      </p>
-                      <div className="flex items-start gap-2">
-                        <code className="flex-1 break-all rounded-lg bg-slate-900 border border-slate-700 px-3 py-2 font-mono text-[11px] text-amber-300">
-                          {wallet.address}
-                        </code>
-                        <button
-                          type="button"
-                          onClick={copyWallet}
-                          className="shrink-0 inline-flex items-center gap-1 rounded-lg border border-slate-700 bg-slate-900 px-2.5 py-2 text-[11px] font-semibold text-slate-200 hover:border-amber-500"
-                        >
-                          {walletCopied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
-                          <span>{walletCopied ? 'Copied' : 'Copy'}</span>
-                        </button>
-                      </div>
-                      <p className="text-[11px] text-slate-400">
-                        Check that it starts with <strong className="text-slate-200">{wallet.address.slice(0, 6)}</strong> and ends with{' '}
-                        <strong className="text-slate-200">{wallet.address.slice(-6)}</strong>, and that our confirmation email shows the same
-                        address. Send only {selectedCrypto} on this network.
-                      </p>
-                    </div>
-                  )}
                 </div>
               </div>
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { Check, Copy, CheckCircle2 } from 'lucide-react';
-import { money } from '../lib/reply';
+import { money, findMethod } from '../lib/reply';
 
 const CopyField: React.FC<{ label: string; value: string }> = ({ label, value }) => {
   const [copied, setCopied] = useState(false);
@@ -86,6 +86,121 @@ export const PaymentDetailsPage: React.FC = () => {
             </ul>
             <Link
               to={`/order/confirm-payment?id=${encodeURIComponent(data.orderNumber)}`}
+              className="inline-block px-5 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm"
+            >
+              I've made payment
+            </Link>
+          </>
+        )}
+      </div>
+    </div>
+  );
+};
+
+interface Wallet {
+  address: string;
+  network: string;
+}
+
+/** Self-serve crypto payment page: our receiving address for the coin the customer chose, with an optional QR code. */
+export const CryptoPayPage: React.FC = () => {
+  const [params] = useSearchParams();
+  const id = params.get('id') || '';
+  const [amount, setAmount] = useState<number | null>(null);
+  const [methodId, setMethodId] = useState(params.get('m') || '');
+  const [name, setName] = useState('');
+  const [state, setState] = useState<'loading' | 'ready' | 'missing'>('loading');
+  const [showQr, setShowQr] = useState(false);
+  const [qr, setQr] = useState('');
+
+  const method = findMethod(methodId) as { label: string; wallet?: Wallet } | null;
+  const wallet = method?.wallet;
+
+  useEffect(() => {
+    let live = true;
+    fetch(`/api/order/pay?id=${encodeURIComponent(id)}`)
+      .then(async r => {
+        const d = await r.json().catch(() => ({}));
+        if (!live) return;
+        if (r.ok && d.ok) {
+          setAmount(d.amountDue);
+          setMethodId(d.methodId);
+          setName(d.customerName);
+          setState('ready');
+          return;
+        }
+        // The order store may be unavailable; fall back to what checkout saved in this browser.
+        try {
+          const saved = JSON.parse(sessionStorage.getItem(`pay:${id}`) || 'null');
+          if (saved && findMethod(saved.methodId)) {
+            setAmount(saved.amountDue);
+            setMethodId(saved.methodId);
+            setName(saved.customerName || '');
+            setState('ready');
+            return;
+          }
+        } catch {
+          // ignore
+        }
+        setState('missing');
+      })
+      .catch(() => live && setState('missing'));
+    return () => {
+      live = false;
+    };
+  }, [id]);
+
+  useEffect(() => {
+    if (!showQr || !wallet || qr) return;
+    // Loaded on demand so the QR library stays out of every other page.
+    import('qrcode').then(m => m.toDataURL(wallet.address, { margin: 1, width: 240, errorCorrectionLevel: 'M' })).then(setQr).catch(() => setQr(''));
+  }, [showQr, wallet, qr]);
+
+  const coin = method?.label.replace(/^Crypto — /, '') || '';
+
+  return (
+    <div className="py-12 bg-[#0b0f17] text-white">
+      <div className="max-w-xl mx-auto px-4 space-y-5">
+        <h1 className="text-2xl font-black font-display">Pay with crypto</h1>
+        {state === 'loading' && <p className="text-sm text-slate-400">Loading…</p>}
+        {(state === 'missing' || (state === 'ready' && !wallet)) && (
+          <p className="text-sm text-slate-300">
+            We couldn't find a crypto payment for this order. Please <Link to="/contact" className="text-amber-400 underline">contact us</Link> with your order number.
+          </p>
+        )}
+        {state === 'ready' && wallet && (
+          <>
+            <div className="p-4 rounded-xl bg-[#0f172a] border border-slate-800">
+              <p className="text-xs text-slate-400">Order <span className="font-mono text-amber-400">{id}</span> · {coin}</p>
+              <p className="text-3xl font-black mt-1">{amount === null ? '' : money(amount)}</p>
+              <p className="text-xs text-slate-400 mt-1">10% crypto discount applied. Send the {coin} equivalent of this AUD amount at the rate when you pay.</p>
+            </div>
+            {name && <p className="text-sm text-slate-300">Hi {name}, send your payment to this address:</p>}
+            <CopyField label={`Our ${coin} address · ${wallet.network}`} value={wallet.address} />
+            <p className="text-xs text-slate-400">
+              Check that it starts with <strong className="text-slate-200">{wallet.address.slice(0, 6)}</strong> and ends with{' '}
+              <strong className="text-slate-200">{wallet.address.slice(-6)}</strong>. Send only {coin} on this network; other coins or networks can be lost.
+            </p>
+            <button
+              type="button"
+              onClick={() => setShowQr(v => !v)}
+              aria-expanded={showQr}
+              className="px-4 py-2 rounded-lg border border-slate-700 bg-slate-900 hover:border-amber-500 text-sm font-semibold"
+            >
+              {showQr ? 'Hide QR code' : 'Show QR code'}
+            </button>
+            {showQr && (
+              <div className="p-4 rounded-xl bg-white inline-block">
+                {qr ? <img src={qr} width={240} height={240} alt={`QR code for our ${coin} address`} /> : <p className="text-sm text-slate-700 w-60 h-60 flex items-center justify-center">Generating…</p>}
+              </div>
+            )}
+            <ul className="text-xs text-slate-400 space-y-1 list-disc pl-4">
+              <li>Quote your order number {id} in the payment note where your wallet allows it.</li>
+              <li>After sending, tap "I've made payment" and upload a screenshot or the transaction hash.</li>
+              <li>Your order is prepared for dispatch once we confirm the payment on the network.</li>
+            </ul>
+            <Link
+              to={`/order/confirm-payment?id=${encodeURIComponent(id)}`}
               className="inline-block px-5 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm"
             >
               I've made payment

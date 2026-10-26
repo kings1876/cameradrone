@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { X, CheckCircle2, Copy, Check, Zap, Truck, ShieldCheck, AlertCircle } from 'lucide-react';
 import { CartItem } from '../types';
 import { makeOrderNumber, postForm } from '../lib/reply';
@@ -27,6 +28,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
   const [postcode, setPostcode] = useState('');
   const [flightNotes, setFlightNotes] = useState('');
   const [selectedCrypto, setSelectedCrypto] = useState<'BTC' | 'ETH' | 'USDT'>('USDT');
+  const navigate = useNavigate();
   const [payKind, setPayKind] = useState<'crypto' | 'bank-transfer' | 'payid' | 'osko'>('crypto');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [orderComplete, setOrderComplete] = useState(false);
@@ -63,6 +65,18 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
       items: items.map(i => ({ name: i.product.name, quantity: i.quantity, lineTotal: i.product.price * i.quantity }))
     });
 
+    if (payKind === 'crypto') {
+      const methodId = COIN_METHOD[selectedCrypto];
+      try {
+        sessionStorage.setItem(`pay:${generatedOrderId}`, JSON.stringify({ methodId, amountDue: total, customerName: fullName }));
+      } catch {
+        // storage unavailable; the payment page reads the order from the server instead
+      }
+      onOrderSuccess();
+      onClose();
+      navigate(`/order/pay?id=${generatedOrderId}&m=${methodId}`);
+      return;
+    }
     setOrderId(generatedOrderId);
     setIsSubmitting(false);
     setOrderComplete(true);
@@ -363,8 +377,8 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
               </div>
 
               <div className="p-4 bg-slate-950/90 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-                After you place the order we will email you the exact {selectedCrypto} payment details (address and network) for your
-                order. Please do not send any payment until you have received that email.
+                When you place the order you will go straight to a secure payment page showing our {selectedCrypto} address, the
+                network and the amount due, with a QR code you can scan. Please do not send any payment before then.
               </div>
             </div>
 

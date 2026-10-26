@@ -12,6 +12,7 @@ const AdminEnquiryDetail = lazy(() => import('./pages/admin/AdminEnquiries').the
 const SendPayment = lazy(() => import('./pages/admin/AdminComposers').then(m => ({ default: m.SendPayment })));
 const ReplyEnquiry = lazy(() => import('./pages/admin/AdminComposers').then(m => ({ default: m.ReplyEnquiry })));
 const PaymentDetailsPage = lazy(() => import('./pages/PaymentPages').then(m => ({ default: m.PaymentDetailsPage })));
+const CryptoPayPage = lazy(() => import('./pages/PaymentPages').then(m => ({ default: m.CryptoPayPage })));
 const ConfirmPaymentPage = lazy(() => import('./pages/PaymentPages').then(m => ({ default: m.ConfirmPaymentPage })));
 import { CartDrawer } from './components/CartDrawer';
 import { Footer } from './components/Footer';
@@ -185,6 +186,7 @@ export default function App() {
           />
           {/* Reply portal: customer payment pages + passcode-gated admin */}
           <Route path="/order/payment-details" element={<PaymentDetailsPage />} />
+          <Route path="/order/pay" element={<CryptoPayPage />} />
           <Route path="/order/confirm-payment" element={<ConfirmPaymentPage />} />
           <Route path="/admin" element={<AdminShell />}>
             <Route index element={<AdminDashboard />} />

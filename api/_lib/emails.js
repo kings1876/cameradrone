@@ -69,9 +69,13 @@ export function shopNewOrderEmail(order) {
 }
 
 export function orderConfirmationEmail(order) {
+  const crypto = !!(findMethod(order.paymentMethod) || {}).wallet;
   const html = shell('Thanks — we have your order', [
     p(`Hi ${escapeHtml(order.customerName)},`),
-    p(`We've received your order <strong>${escapeHtml(order.orderNumber)}</strong>. Our team will email you the payment details shortly — please watch for that follow-up email.`),
+    crypto
+      ? p(`We've received your order <strong>${escapeHtml(order.orderNumber)}</strong>. Your crypto payment address and QR code are on your secure payment page:`)
+      : p(`We've received your order <strong>${escapeHtml(order.orderNumber)}</strong>. Our team will email you the payment details shortly — please watch for that follow-up email.`),
+    crypto ? button(`${SITE_ORIGIN()}/order/pay?id=${encodeURIComponent(order.orderNumber)}&m=${encodeURIComponent(order.paymentMethod)}`, 'Open payment page') : '',
     callout(`Total: <strong>${money(order.amountDue)}</strong> · Payment method: ${escapeHtml(methodLabel(order.paymentMethod))}`),
     itemsTable(order.items),
     divider(),
