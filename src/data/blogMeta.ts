@@ -105,12 +105,12 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "id": "post-12",
     "slug": "agricultural-drones-weed-control-seeding-crop-monitoring",
     "title": "Agricultural Drones in Australia: Weed Control, Seeding and Crop Monitoring",
-    "metaTitle": "Agricultural Drones in Australia: A Practical Guide",
-    "metaDescription": "How agricultural drones work for weed control, aerial seeding and crop monitoring in Australia, with DJI Agras, spreaders and multispectral options compared.",
+    "metaTitle": "Agricultural Drones Australia: Weed Control Guide",
+    "metaDescription": "DJI agriculture drones for weed control, aerial seeding and crop monitoring in Australia: Agras T25P, T50 and T100, spreaders and multispectral options.",
     "subtitle": "Three jobs an agriculture drone does well, and the equipment that goes with each.",
     "date": "October 2026",
     "dateISO": "2026-10-18",
-    "modifiedISO": "2026-10-18",
+    "modifiedISO": "2026-10-27",
     "readTime": "8 min read",
     "author": "Agriculture Systems Lead",
     "tags": [
@@ -135,11 +135,15 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "drone weed control",
       "aerial seeding drone"
     ],
-    "wordCount": 773,
+    "wordCount": 912,
     "faq": [
       {
         "q": "What is the best agricultural drone for a small farm?",
         "a": "The DJI Agras T25P is the most practical for small properties and orchards because it folds and one person can handle it. Larger farms and contractors choose the T50, T70P or T100."
+      },
+      {
+        "q": "How does drone weed control work in Australia?",
+        "a": "A spraying drone such as the DJI Agras T25P, T50 or T100 flies a programmed route and applies product at a set rate, treating weeds without driving over wet or steep ground. Commercial work needs the right CASA accreditation and chemical-use approvals, and you should read every product label first."
       },
       {
         "q": "Can an agricultural drone spread seed as well as spray?",
@@ -454,7 +458,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "subtitle": "What to look for in a thermal imaging camera for a drone, and how the DJI and FLIR options compare.",
     "date": "October 2026",
     "dateISO": "2026-10-18",
-    "modifiedISO": "2026-10-18",
+    "modifiedISO": "2026-10-27",
     "readTime": "8 min read",
     "author": "Enterprise Systems Specialist",
     "tags": [
@@ -474,14 +478,24 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "targetKeywords": [
       "thermal drone",
       "thermal drones",
+      "thermal drones australia",
+      "drone thermal imaging",
       "thermal imaging camera",
       "drone with thermal camera"
     ],
-    "wordCount": 828,
+    "wordCount": 1071,
     "faq": [
       {
         "q": "What is the best thermal drone in Australia?",
         "a": "It depends on the job. The DJI Matrice 4 Thermal is the best all-rounder for most inspection and public-safety work, the DJI Mavic 3 Thermal is the most portable, and the DJI Matrice 30T is the most rugged."
+      },
+      {
+        "q": "What is drone thermal imaging used for?",
+        "a": "Common uses are roof and solar inspections, electrical and mechanical checks, search and rescue, firefighting support and wildlife surveys. A thermal camera shows heat, so problems and people stand out even in low light."
+      },
+      {
+        "q": "Do I need CASA approval to fly a thermal drone?",
+        "a": "Flying commercially may require CASA accreditation or a ReOC, depending on the aircraft weight and the work. Check the CASA website, and use our quote form if you want help choosing a compliant setup."
       },
       {
         "q": "What resolution should a thermal camera have?",
