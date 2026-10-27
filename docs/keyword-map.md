@@ -817,3 +817,14 @@ Home, shop, blog index, FAQ, About, Contact, every category and every subcategor
 ## Blog posts (Oct 2026)
 
 Nine buying guides (about 900 to 1,100 words each) with comparison tables, an in-article contents list, FAQ sections, Article, BreadcrumbList and FAQPage structured data, and 20 or more internal links to products and categories. Each post's `targetKeywords` (in `src/data/blogPosts.ts`) appear in its text. Meta titles are 60 characters or less and meta descriptions 120 to 160.
+
+
+## Transactional buying guides (27 Oct 2026)
+
+Three 1,500 to 1,700 word buying guides, each built on unused keywords from the bank. All prices and specifications come from the product data.
+
+| Post | Primary / supporting keywords (monthly AU volume) |
+|---|---|
+| /blog/buy-dji-mini-5-pro-australia-combos-prices | dji mini pro 5 (1,000); dji mini pro (590); miniature drone (140); dji 5 mini pro |
+| /blog/buy-dji-mavic-australia-mavic-4-pro-vs-mavic-3-pro | dji mavic fly more (90); mavic pro drone (140); dji mavic pro 4; dji mavic |
+| /blog/buy-drone-heat-camera-australia-thermal-drones-payloads | drone heat camera (170); drone ir camera (110); drone thermal vision (110); thermal drone camera (90) |

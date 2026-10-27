@@ -1029,5 +1029,238 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['agricultural drones', 'spray drone', 'drone sprayer', 'crop spraying drone', 'multispectral drone']
+  },
+  {
+    id: 'post-17',
+    slug: 'buy-dji-mini-5-pro-australia-combos-prices',
+    title: `Buy the DJI Mini 5 Pro in Australia: Which Combo to Choose, What It Costs and What to Add`,
+    metaTitle: `Buy DJI Mini 5 Pro Australia: Combos and Prices`,
+    metaDescription: `Buying the DJI Mini 5 Pro in Australia? Compare the RC-N3, Fly More and Plus combos with AUD prices, spare batteries and free express shipping.`,
+    subtitle: `Four ways to buy the 1-inch, sub-250 g camera drone, with the price of each and the spares worth ordering on day one.`,
+    date: 'October 2026',
+    dateISO: '2026-10-27',
+    modifiedISO: '2026-10-27',
+    readTime: '8 min read',
+    author: 'Flight Operations Team',
+    tags: ['DJI Mini 5 Pro', 'Buying Guide', 'Camera Drones'],
+    excerpt: `The DJI Mini 5 Pro comes in four packages from $1,119 to $1,799. We compare each combo, explain the 250 g rule and list the spares to buy with it.`,
+    image: '/images/blog-mini-5-pro-buying-guide.webp',
+    imageAlt: `DJI Mini 5 Pro with the RC-N3 and the Fly More Combo with the DJI RC 2`,
+    relatedProducts: ['dji-mini-5-pro-dji-rc-n3', 'dji-mini-5-pro-fly-more-combo-dji-rc-n3', 'dji-mini-5-pro-fly-more-combo-dji-rc-2', 'dji-mini-5-pro-fly-more-combo-plus-dji-rc-2'],
+    content: [
+      `The DJI Mini 5 Pro is the drone most Australians ask for when they want near-professional pictures from an aircraft that is easy to carry and simple to fly. Searches for the DJI Mini Pro 5 and the wider DJI Mini Pro range show how many buyers are comparing it right now, and the decision is not only about the aircraft. There are four ways to buy it, each at a different price, and the right one depends on how long you fly, what screen you want and how much you care about staying under 250 g. This guide explains what each package includes, what it costs in Australian dollars, which pilot it suits and which spares to add so the first shoot does not end early.`,
+      { h2: `What you are buying: the DJI Mini 5 Pro at a glance` },
+      `The Mini 5 Pro puts a 1-inch CMOS sensor with 50 MP of resolution into a drone that weighs under 250 g, about 249.9 g with the standard battery. That is the largest camera DJI has fitted to a Mini, and for a miniature drone it is a serious amount of image quality. The lens is a 24 mm equivalent with an f/1.8 aperture and an 84° field of view, flight time is up to 36 minutes on the standard battery, and obstacle sensing is omnidirectional, so the aircraft watches in every direction while it flies. Those four facts explain why it sells to travellers, landscape shooters, real estate photographers and social creators alike.`,
+      { ul: [
+        `**Camera:** 1-inch CMOS, 50 MP, 24 mm equivalent, f/1.8, 84° field of view.`,
+        `**Weight:** under 250 g (about 249.9 g) with the standard battery.`,
+        `**Flight time:** up to 36 minutes per standard battery.`,
+        `**Safety:** omnidirectional obstacle sensing.`,
+        `**Controllers:** the DJI RC-N3, which uses your smartphone as the screen, or the DJI RC 2, which has a screen built in.`
+      ] },
+      { h2: `Four ways to buy the DJI Mini 5 Pro` },
+      `Every package uses the same aircraft and the same camera. What changes is the controller, the amount of battery power and the price. Here is how the four packages compare.`,
+      { table: {
+        head: ['Package', 'Controller', 'What is included', 'Price (AUD)'],
+        rows: [
+          ['[DJI Mini 5 Pro (RC-N3)](/product/dji-mini-5-pro-dji-rc-n3)', 'DJI RC-N3, uses your smartphone', 'Aircraft and controller', '$1,119'],
+          ['[Fly More Combo (RC-N3)](/product/dji-mini-5-pro-fly-more-combo-dji-rc-n3)', 'DJI RC-N3, uses your smartphone', 'Extra batteries and a charging hub', '$1,419'],
+          ['[Fly More Combo (RC 2)](/product/dji-mini-5-pro-fly-more-combo-dji-rc-2)', 'DJI RC 2 with built-in screen', 'Extra batteries and a charging hub', '$1,699'],
+          ['[Fly More Combo Plus (RC 2)](/product/dji-mini-5-pro-fly-more-combo-plus-dji-rc-2)', 'DJI RC 2 with built-in screen', 'Plus batteries and a charging hub', '$1,799']
+        ]
+      } },
+      { h2: `DJI Mini 5 Pro with the RC-N3: the lowest entry price` },
+      `At $1,119 the [DJI Mini 5 Pro with the RC-N3](/product/dji-mini-5-pro-dji-rc-n3) is the cheapest way to own the 1-inch sensor. The RC-N3 is a compact controller without a screen of its own, so it clips your smartphone in place and uses it as the display. That keeps the price down and the kit small, and it works well if you already carry a modern phone and mostly fly short sessions. Choose this package if you want to try the Mini 5 Pro without paying for extras, and plan to add a spare battery later. Be realistic about your flying, though: one battery gives up to 36 minutes, and most shoots use several flights.`,
+      { h2: `Fly More Combo with the RC-N3: the value pick` },
+      `For most buyers the [Fly More Combo with the RC-N3](/product/dji-mini-5-pro-fly-more-combo-dji-rc-n3) at $1,419 is the sensible choice. It adds extra Intelligent Flight Batteries and a charging hub to the same aircraft and controller, so one outing can cover several flights. For $300 more than the basic package you get the spare power and the hub in a single order, instead of buying them one at a time. It suits holiday filmmakers, wedding guests, property photographers and anyone who flies for hours rather than minutes but is happy to use a phone as the screen.`,
+      { h2: `Fly More Combo with the RC 2: the complete kit` },
+      `If you would rather not mount a phone, the [Fly More Combo with the DJI RC 2](/product/dji-mini-5-pro-fly-more-combo-dji-rc-2) is the complete kit at $1,699. The RC 2 has a bright screen built in, so there is no phone to clip on, no app to open on your own device and a faster set-up in the field. You still get the extra batteries and the charging hub. Shoppers often search for this package as the DJI Mini Pro 5 or the DJI 5 Mini Pro, and this is the full-specification version of that drone. It is the best choice for pilots who want the longest day of flying from a sub-250 g aircraft with the simplest controls.`,
+      { h2: `Fly More Combo Plus: maximum flight time, with a catch` },
+      `The [Fly More Combo Plus with the RC 2](/product/dji-mini-5-pro-fly-more-combo-plus-dji-rc-2) costs $1,799 and swaps the standard batteries for the larger Plus batteries. They extend flight time, which makes this the endurance package. The catch is weight. With the Plus battery fitted, the Mini 5 Pro is heavier than 250 g, so it no longer sits in the sub-250 g class that makes the standard version so simple to fly. If you buy this package, check the current CASA rules for aircraft over 250 g before your first flight. If staying under 250 g matters more than a longer flight, choose one of the standard-battery combos instead.`,
+      { h2: `Which DJI Mini 5 Pro package should you buy?` },
+      { ul: [
+        `**You want the lowest price:** the [Mini 5 Pro with the RC-N3](/product/dji-mini-5-pro-dji-rc-n3) at $1,119.`,
+        `**You fly for hours and use your phone:** the [Fly More Combo with the RC-N3](/product/dji-mini-5-pro-fly-more-combo-dji-rc-n3) at $1,419.`,
+        `**You want no phone and a bright screen:** the [Fly More Combo with the RC 2](/product/dji-mini-5-pro-fly-more-combo-dji-rc-2) at $1,699.`,
+        `**You want maximum endurance and accept the weight:** the [Fly More Combo Plus](/product/dji-mini-5-pro-fly-more-combo-plus-dji-rc-2) at $1,799.`
+      ] },
+      { h2: `DJI Mini 5 Pro vs DJI Mini 4 Pro` },
+      `Many buyers are also looking at the previous model, so here is a straight comparison. Both are sub-250 g camera drones with omnidirectional obstacle sensing, but the newer aircraft carries a bigger sensor and flies a little longer.`,
+      { table: {
+        head: ['', 'DJI Mini 5 Pro', 'DJI Mini 4 Pro'],
+        rows: [
+          ['Camera sensor', '1-inch CMOS, 50 MP', '1/1.3-inch CMOS, 48 MP'],
+          ['Flight time per standard battery', 'Up to 36 min', 'Up to 34 min'],
+          ['Weight class', 'Under 250 g', 'Under 249 g'],
+          ['Obstacle sensing', 'Omnidirectional', 'Omnidirectional'],
+          ['Fly More Combo', '[From $1,419](/product/dji-mini-5-pro-fly-more-combo-dji-rc-n3)', '[$1,449](/product/dji-mini-4-pro-fly-more-combo)']
+        ]
+      } },
+      `If image quality is your priority, the larger 1-inch sensor is the reason to choose the Mini 5 Pro. If you already own a Mini 4 Pro, the batteries and accessories are listed separately for each aircraft, so check the model name before you order. Our guide to [choosing between the Neo 2, Flip and Mini 4 Pro](/blog/dji-neo-2-vs-dji-flip-vs-dji-mini-4-pro) explains how the smaller models fit together.`,
+      { h2: `What to add: the spares worth ordering with your Mini 5 Pro` },
+      `A few small purchases make the difference between a good first day and a short one. Every item below is listed for the Mini 5 Pro, so you can order it alongside the aircraft.`,
+      { ul: [
+        `[DJI Mini 5 Pro Intelligent Flight Battery](/product/dji-mini-5-pro-intelligent-flight-battery), $99: the standard battery that keeps the aircraft under 250 g with up to 36 minutes of flight.`,
+        `[DJI Mini 5 Pro Intelligent Flight Battery Plus](/product/dji-mini-5-pro-intelligent-flight-battery-plus), $149: the higher-capacity pack for longer flights, with the weight trade-off described above.`,
+        `[DJI Mini 5 Pro Two-Way Charging Hub](/product/dji-mini-5-pro-two-way-charging-hub), $69: charges several batteries from one input, useful if you buy the basic package and add spares.`,
+        `[DJI Mini 5 Pro Propeller](/product/dji-mini-5-pro-propeller), $19: a spare set keeps the drone flying after a prop strike.`
+      ] },
+      `Our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) explains how to look after them so they last.`,
+      { h2: `Flying under 250 g in Australia` },
+      `The reason the standard Mini 5 Pro is so popular is its weight. At under 250 g it stays in the lightweight class that keeps CASA compliance simple, which is why travellers and first-time owners favour it. That advantage depends on the standard battery. The moment you fit the Plus battery, the aircraft is heavier than 250 g and different rules may apply. Rules also change, so always confirm the current requirements on the CASA website, and read our [FAQ on registering a drone and CASA rules](/faq) before you fly. If you plan to use the drone for paid work, check whether you need accreditation as well.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars, unopened hardware can be returned within 30 days and Australian Consumer Law guarantees apply. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. Use the [order form](/order) to place an order, and we will email your payment details and confirm dispatch. If you are unsure which package suits you, send us a message through the [quote form](/quote) and a specialist will recommend one.`,
+      { faq: [
+        { q: `How much does the DJI Mini 5 Pro cost in Australia?`, a: `Packages start at $1,119 for the DJI Mini 5 Pro with the RC-N3 controller. The Fly More Combo with the RC-N3 is $1,419, the Fly More Combo with the RC 2 is $1,699 and the Fly More Combo Plus is $1,799. All prices are in Australian dollars with free express shipping.` },
+        { q: `Is the DJI Mini 5 Pro under 250 g?`, a: `Yes, with the standard battery it weighs under 250 g, about 249.9 g. With the larger Plus battery fitted the aircraft is heavier than 250 g, so check the current CASA rules before flying.` },
+        { q: `Which DJI Mini 5 Pro combo is best?`, a: `For most buyers the Fly More Combo with the RC-N3 is the best value because it adds extra batteries and a charging hub. Choose the RC 2 version if you want a built-in screen instead of using your phone.` },
+        { q: `What is the difference between the RC-N3 and the RC 2?`, a: `The RC-N3 uses your smartphone as the screen and keeps the price lower. The RC 2 has a bright screen built in, so you do not need a phone and set-up is faster.` },
+        { q: `How long does the DJI Mini 5 Pro fly?`, a: `Up to 36 minutes per standard battery. The Plus battery extends flight time further but makes the aircraft heavier than 250 g.` }
+      ] }
+    ],
+    targetKeywords: ['dji mini pro 5', 'dji mini pro', 'miniature drone', 'dji 5 mini pro']
+  },
+  {
+    id: 'post-18',
+    slug: 'buy-dji-mavic-australia-mavic-4-pro-vs-mavic-3-pro',
+    title: `Buy a DJI Mavic in Australia: Mavic 4 Pro vs Mavic 3 Pro vs Mavic 3 Enterprise`,
+    metaTitle: `Buy a DJI Mavic in Australia: 4 Pro vs 3 Pro`,
+    metaDescription: `Which DJI Mavic should you buy in Australia? Compare the Mavic 4 Pro, Mavic 3 Pro and Mavic 3 Enterprise with AUD prices, Fly More combos and spares.`,
+    subtitle: `The folding Pro-class drones compared by camera, flight time and price, with the combo and spares we recommend for each job.`,
+    date: 'October 2026',
+    dateISO: '2026-10-27',
+    modifiedISO: '2026-10-27',
+    readTime: '9 min read',
+    author: 'Flight Operations Team',
+    tags: ['DJI Mavic', 'Mavic 4 Pro', 'Mavic 3 Pro', 'Buying Guide'],
+    excerpt: `Choosing a DJI Mavic in Australia? We compare the Mavic 4 Pro, Mavic 3 Pro and Mavic 3 Enterprise by camera, flight time and price, and explain each Fly More combo.`,
+    image: '/images/blog-mavic-buying-guide.webp',
+    imageAlt: `DJI Mavic 4 Pro, DJI Mavic 3 Pro and DJI Mavic 3 Enterprise drones`,
+    relatedProducts: ['dji-mavic-4-pro-dji-rc-2', 'dji-mavic-4-pro-fly-more-combo-dji-rc-2', 'dji-mavic-3-pro', 'dji-mavic-3-pro-fly-more-combo-dji-rc-pro', 'dji-mavic-3-enterprise'],
+    content: [
+      `If you are shopping for a DJI Mavic in Australia, the range is wider than it looks. The folding Mavic aircraft are DJI's choice for people who need professional image quality in a drone they can carry in a bag, and there are now three distinct families: the flagship Mavic 4 Pro, the proven Mavic 3 Pro and the commercial Mavic 3 Enterprise. Buyers often search for a Mavic Pro drone or a DJI Mavic Pro 4, and the current Pro-class aircraft in our range are the Mavic 4 Pro and the Mavic 3 Pro. This guide compares them by camera, flight time and price in Australian dollars, explains the Fly More combos and lists the spares to add, so you can order the right kit first time.`,
+      { h2: `The DJI Mavic range at a glance` },
+      `All three families fold for travel, carry more than one camera and offer long flight times. They differ in what the cameras do, how long the aircraft stays up and who the aircraft is built for. This table shows the three base aircraft side by side.`,
+      { table: {
+        head: ['', 'Mavic 4 Pro', 'Mavic 3 Pro', 'Mavic 3 Enterprise'],
+        rows: [
+          ['Main camera', '100 MP 4/3 CMOS Hasselblad', '20 MP 4/3 CMOS Hasselblad', '20 MP 4/3 CMOS, mechanical shutter'],
+          ['Other cameras', '48 MP 70 mm and 50 MP 168 mm tele', '48 MP 70 mm and 12 MP 166 mm tele', '12 MP tele with 56x hybrid zoom'],
+          ['Max flight time', 'Up to 51 min', 'Up to 43 min', 'Up to 45 min'],
+          ['Best for', 'Cinema, real estate, tourism', 'Film, real estate, photography', 'Mapping, survey, inspection'],
+          ['Price (AUD)', '[From $3,099](/product/dji-mavic-4-pro-dji-rc-2)', '[From $2,789](/product/dji-mavic-3-pro)', '[From $6,049](/product/dji-mavic-3-enterprise)']
+        ]
+      } },
+      { h2: `DJI Mavic 4 Pro: the flagship` },
+      `The [DJI Mavic 4 Pro with the DJI RC 2](/product/dji-mavic-4-pro-dji-rc-2) is DJI's flagship triple-camera drone, priced at $3,099. It is built around a 100 MP Hasselblad main camera with a 4/3 sensor, plus a 48 MP 70 mm medium tele and a 50 MP 168 mm tele, and it mounts them on a 360-degree rotating Infinity Gimbal. Omnidirectional obstacle sensing is joined by front-facing LiDAR for low-light work, flight time reaches 51 minutes and the transmission range is up to 30 km. It is often searched for as the DJI Mavic Pro 4. Choose it if you are a professional creator, filmmaker or real estate and tourism shooter who needs cinema-grade imaging from a folding drone and wants the longest flight time in the range.`,
+      { h2: `DJI Mavic 3 Pro: the proven triple-camera workhorse` },
+      `The [DJI Mavic 3 Pro](/product/dji-mavic-3-pro) at $2,789 is the aircraft to buy if the Mavic 4 Pro is more than you need or more than you want to spend. It carries a Hasselblad 4/3 main camera with 20 MP, a 48 MP medium tele at 70 mm equivalent and a 12 MP tele at 166 mm equivalent, so you get three focal lengths without changing payloads. It records 5.1K video up to 50 fps and 4K up to 120 fps, flies for up to 43 minutes, weighs 958 g and has omnidirectional obstacle sensing. For film-makers, property photographers and commercial shooters it remains a very capable tool, and it costs $310 less than the Mavic 4 Pro.`,
+      { h2: `DJI Mavic 3 Enterprise: the mapping and inspection model` },
+      `The [DJI Mavic 3 Enterprise](/product/dji-mavic-3-enterprise) at $6,049 is a different kind of drone. It is built for mapping, surveying and inspection, and it pairs a 4/3 CMOS wide camera with a mechanical shutter and a 56x hybrid zoom camera. The mechanical shutter gives distortion-free images for mapping, flight time reaches 45 minutes, it weighs 915 g and it supports an optional RTK module. Small survey firms, councils and inspection contractors choose it for fast set-up and strong mapping accuracy. If you want protection included, the [Mavic 3E Worry-Free Plus Combo](/product/dji-mavic-3e-worry-free-plus-combo) at $8,279 adds DJI Care Enterprise Plus, and the [DJI Mavic 3 Thermal](/product/dji-mavic-3-thermal) at $8,249 adds a 640×512 thermal camera for roof, solar, fire and rescue work. Our [enterprise drones guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) covers the commercial options in more depth.`,
+      { h2: `DJI Mavic Fly More combos explained` },
+      `If you search for a DJI Mavic Fly More kit, you are looking for the bundle that adds extra batteries, a charging hub and a bag to the aircraft. For a professional shoot that is the practical way to buy, because a single battery rarely covers a full day. These are the combos we stock for the Pro-class aircraft.`,
+      { table: {
+        head: ['Combo', 'Controller', 'What is included', 'Price (AUD)'],
+        rows: [
+          ['[Mavic 4 Pro Fly More Combo](/product/dji-mavic-4-pro-fly-more-combo-dji-rc-2)', 'DJI RC 2', 'Extra batteries, charging hub, shoulder bag', '$4,039'],
+          ['[Mavic 3 Pro Fly More Combo (DJI RC)](/product/dji-mavic-3-pro-fly-more-combo-dji-rc)', 'DJI RC with built-in screen', 'Three batteries, charging hub, shoulder bag', '$3,779'],
+          ['[Mavic 3 Pro Fly More Combo (DJI RC Pro)](/product/dji-mavic-3-pro-fly-more-combo-dji-rc-pro)', 'DJI RC Pro, high-bright screen', 'Three batteries, charging hub, shoulder bag', '$4,799'],
+          ['[Mavic 3 Pro Cine Premium Combo](/product/dji-mavic-3-pro-cine-premium-combo-dji-rc-pro)', 'DJI RC Pro', 'Fly More kit, fast internal storage, Apple ProRes recording', '$6,239']
+        ]
+      } },
+      `The [Mavic 4 Pro Fly More Combo](/product/dji-mavic-4-pro-fly-more-combo-dji-rc-2) makes the 51-minute flagship practical for full-day commercial and film work. For the Mavic 3 Pro, the choice between the DJI RC and the DJI RC Pro comes down to screen brightness: the RC Pro has the clearest screen in direct sun, which matters on outdoor shoots. The Cine Premium Combo adds fast internal storage and Apple ProRes recording for post-production workflows, so it suits film-makers and agencies rather than casual shooters.`,
+      { h2: `Which DJI Mavic should you buy?` },
+      { ul: [
+        `**You want the best image quality and longest flight time:** the [Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2), or the [Fly More Combo](/product/dji-mavic-4-pro-fly-more-combo-dji-rc-2) for full days.`,
+        `**You want three cameras at a lower price:** the [Mavic 3 Pro](/product/dji-mavic-3-pro).`,
+        `**You shoot in strong sun and need a bright screen:** the [Mavic 3 Pro Fly More Combo with the DJI RC Pro](/product/dji-mavic-3-pro-fly-more-combo-dji-rc-pro).`,
+        `**You record cinema footage:** the [Mavic 3 Pro Cine Premium Combo](/product/dji-mavic-3-pro-cine-premium-combo-dji-rc-pro).`,
+        `**You map, survey or inspect:** the [Mavic 3 Enterprise](/product/dji-mavic-3-enterprise), with the thermal [Mavic 3T](/product/dji-mavic-3t-worry-free-basic-combo) if you need heat imaging.`
+      ] },
+      { h2: `Spares to buy with your DJI Mavic` },
+      `Order the spares with the aircraft and your first big job will not be limited by one battery. For the Mavic 4 Pro, the [Intelligent Flight Battery](/product/dji-mavic-4-pro-intelligent-flight-battery) is $279, the [Parallel Charging Hub](/product/dji-mavic-4-pro-parallel-charging-hub) is $159 and a spare set of [propellers](/product/dji-mavic-4-pro-propellers) is $29. For the Mavic 3 series, the [Intelligent Flight Battery](/product/dji-mavic-3-series-intelligent-flight-battery) is a 5,000 mAh, 77 Wh pack at $219, and the [100 W charging hub](/product/dji-mavic-3-series-100w-battery-charging-hub) charges several together. You can also add [low-noise propellers](/product/dji-mavic-3-series-low-noise-propellers), an [ND filter set](/product/dji-mavic-3-pro-nd-filter-set-nd8-16-32-64) for video, a [wide-angle lens](/product/dji-mavic-3-pro-wide-angle-lens) or a [storage cover](/product/dji-mavic-3-pro-storage-cover). Our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) explains how to look after them.`,
+      { h2: `Choosing the right controller` },
+      `Controllers change how the drone feels to fly. The DJI RC 2 is the screen controller supplied with the Mavic 4 Pro. The DJI RC and the DJI RC Pro both have built-in screens, and the RC Pro adds a high-bright display for outdoor work. If you are unsure which suits you, our [guide to DJI controllers](/blog/dji-controllers-explained-rc-n3-rc-2-rc-pro) compares the RC-N3, RC 2 and RC Pro, and the [DJI RC Pro Remote Controller](/product/dji-rc-pro-remote-controller) is listed on its own if you already own an aircraft.`,
+      { h2: `Buying a DJI Mavic from Drones for Sale` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars, unopened hardware can be returned within 30 days and Australian Consumer Law guarantees apply. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For commercial or fleet purchases, use the [quote form](/quote) and we will confirm the aircraft, combo and payload that suit your work. Read our [FAQ on registering a drone and CASA rules](/faq) before your first flight, and check the CASA website for the current requirements for the aircraft and the work you plan to do.`,
+      { faq: [
+        { q: `Which DJI Mavic is best to buy in Australia?`, a: `The Mavic 4 Pro is the best for image quality and flight time, with a 100 MP main camera and up to 51 minutes in the air. The Mavic 3 Pro is the better value for three cameras, and the Mavic 3 Enterprise is the right choice for mapping and inspection.` },
+        { q: `What is the difference between the Mavic 4 Pro and the Mavic 3 Pro?`, a: `The Mavic 4 Pro has a 100 MP main camera against 20 MP, a 360-degree rotating gimbal, front-facing LiDAR, up to 51 minutes of flight time and up to 30 km transmission. The Mavic 3 Pro flies up to 43 minutes and costs less.` },
+        { q: `What does the DJI Mavic Fly More Combo include?`, a: `It adds extra Intelligent Flight Batteries, a charging hub and a shoulder bag to the aircraft, so you can fly through a full day. The exact controller depends on the version you choose.` },
+        { q: `Is there a DJI Mavic Pro 4?`, a: `People often search for the DJI Mavic Pro 4, and the aircraft they mean is the DJI Mavic 4 Pro, the current flagship in the Mavic range.` },
+        { q: `Can I pay for a DJI Mavic with PayID or crypto?`, a: `Yes. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. We email the payment details after you place the order.` }
+      ] }
+    ],
+    targetKeywords: ['dji mavic fly more', 'mavic pro drone', 'dji mavic pro 4', 'dji mavic']
+  },
+  {
+    id: 'post-19',
+    slug: 'buy-drone-heat-camera-australia-thermal-drones-payloads',
+    title: `Buy a Drone Heat Camera in Australia: Thermal Drones and Payloads Compared by Price`,
+    metaTitle: `Drone Heat Camera Australia: What to Buy and Price`,
+    metaDescription: `Buying a drone heat camera in Australia? Compare thermal drones and payloads with AUD prices, from the Mavic 3 Thermal to the Zenmuse H30T.`,
+    subtitle: `Every thermal option we supply, from a portable Mavic 3 Thermal to a 1280×1024 Zenmuse payload, with what each costs and who it suits.`,
+    date: 'October 2026',
+    dateISO: '2026-10-27',
+    modifiedISO: '2026-10-27',
+    readTime: '9 min read',
+    author: 'Enterprise Systems Specialist',
+    tags: ['Thermal Drones', 'Thermal Cameras', 'Enterprise Drones', 'Buying Guide'],
+    excerpt: `A drone heat camera shows what the eye cannot. We compare the thermal drones and payloads we supply, with AUD prices, so you can match the kit to the job and the budget.`,
+    image: '/images/blog-drone-heat-camera-buying-guide.webp',
+    imageAlt: `DJI Mavic 3 Thermal, DJI Matrice 4 Thermal and DJI Zenmuse H30T thermal drone equipment`,
+    relatedProducts: ['dji-mavic-3-thermal', 'dji-matrice-4-thermal', 'dji-matrice-30t', 'dji-zenmuse-h30t', 'flir-vue-tz20'],
+    content: [
+      `A drone heat camera lets a pilot see temperature instead of light, which turns a routine flight into an inspection, a search or a safety check. Roof surveyors find moisture, solar crews find failing cells, and fire and rescue teams find people in the dark. If you are ready to buy, the first question is not which camera is best but which route suits your budget: a complete thermal drone, a thermal payload for an aircraft you already own, or a dock for automated missions. This guide compares every thermal option we supply, with prices in Australian dollars, so you can match the kit to the work. For the technical background, our [thermal drones guide](/blog/thermal-drones-australia-guide) explains resolution, sensitivity and field of view in detail.`,
+      { h2: `What a drone heat camera actually shows` },
+      `A thermal camera measures infrared radiation and turns the differences into a picture, so hotter objects look brighter or take on a different colour. That is why drone thermal vision works in complete darkness and through haze that defeats a normal camera. It is also why people search for a drone IR camera or a thermal drone camera: they want to see heat, not detail. One point causes confusion. Some aircraft also carry a near-infrared auxiliary light, such as the one on the [DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal), which helps the visual camera at night. That is a light for the normal camera and a separate feature from the thermal sensor, which sees heat on its own. If you are not sure whether you need a thermal drone or just a handheld thermal camera, read our guide to [thermal cameras vs thermal drones](/blog/thermal-camera-vs-thermal-drone-infrared-inspections).`,
+      { h2: `Thermal drones and payloads compared` },
+      `This table lists every thermal option we supply, from the most portable aircraft to the highest-resolution payload. Prices are in Australian dollars.`,
+      { table: {
+        head: ['Product', 'Thermal sensor', 'Type', 'Price (AUD)'],
+        rows: [
+          ['[DJI Mavic 3 Thermal](/product/dji-mavic-3-thermal)', '640×512 uncooled VOx', 'Complete portable drone, up to 45 min', '$8,249'],
+          ['[DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal)', '640×512, 12 µm, 50 mK or less', 'Complete drone, up to 49 min', '$10,159'],
+          ['[DJI Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', '640×512, 12 µm, uncooled VOx', 'Plus bundle with Care coverage and extra batteries', '$11,248'],
+          ['[DJI Matrice 30T](/product/dji-matrice-30t)', '640×512, 12 µm, radiometric', 'Weather-sealed drone, IP55, up to 41 min', '$14,917'],
+          ['[FLIR VUE TZ20](/product/flir-vue-tz20)', 'Dual FLIR Boson 640×512', 'Payload for Matrice 200 series and Matrice 300', '$11,700'],
+          ['[DJI Zenmuse H30T](/product/dji-zenmuse-h30t)', '1280×1024, 30 fps', 'Payload for Matrice 350 RTK and 300 RTK', '$17,335'],
+          ['[DJI Mavic Pro FLIR Boson Thermal Ninja](/product/dji-mavic-pro-flir-boson-thermal-ninja)', 'FLIR Boson core', 'Conversion for a DJI Mavic Pro', '$6,999']
+        ]
+      } },
+      { h2: `Route 1: buy a complete thermal drone` },
+      `For most buyers a complete aircraft is the simplest route, because the thermal camera, the visual cameras and the flight controller are designed together. Three aircraft cover most budgets and jobs.`,
+      `The [DJI Mavic 3 Thermal](/product/dji-mavic-3-thermal) at $8,249 is the most portable. It adds a 640×512 thermal camera to a 48 MP wide camera and a 56x hybrid zoom camera, flies for up to 45 minutes and weighs 920 g, so a crew can carry it in one hand. It is built for roof, solar, fire and rescue work, and the [Mavic 3T Worry-Free Basic Combo](/product/dji-mavic-3t-worry-free-basic-combo) bundles it with DJI Care Enterprise Basic at the same price.`,
+      `The [DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal) at $10,159 is the best all-rounder. It pairs the 640×512 thermal camera, with sensitivity of 50 mK or less and a 45° diagonal field of view, with three 48 MP visual cameras and a laser rangefinder. It flies for up to 49 minutes at 1,219 g, and the near-infrared auxiliary light helps at night. It suits public safety, search and rescue and inspection crews that work day and night. The [Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo) at $11,248 adds a Plus bundle with Care coverage and extra batteries.`,
+      `The [DJI Matrice 30T](/product/dji-matrice-30t) at $14,917 is the rugged choice. It carries a radiometric 640×512 thermal camera with a 12 MP wide camera, a 48 MP zoom camera and a laser rangefinder in a weather-sealed IP55 airframe that flies for up to 41 minutes. It is built for firefighting, police, power-line and solar inspection teams that cannot stop for the weather.`,
+      { h2: `Route 2: add a thermal payload to your aircraft` },
+      `If you already own a compatible Matrice, a payload can be the better way to buy. The [DJI Zenmuse H30T](/product/dji-zenmuse-h30t) at $17,335 is the highest-resolution thermal option in the Zenmuse H series: a 1280×1024 uncooled microbolometer at 30 fps with a temperature range of -20°C to 1,600°C, a 48 MP wide camera, a 40 MP zoom camera with 34x optical zoom and a laser rangefinder from 3 to 3,000 m. It is for the Matrice 350 RTK and 300 RTK and suits long-range inspection, search and rescue and fire support. The [FLIR VUE TZ20](/product/flir-vue-tz20) at $11,700 carries two 640×512 Boson sensors, one wide at 95° and one narrow at 18°, so you get two thermal views in one gimbal, for DJI Matrice 200 series and Matrice 300 airframes. Browse the full range of [thermal cameras](/category/cameras-sensors/thermal-cameras) and [Zenmuse cameras](/category/cameras-sensors/dji-zenmuse-cameras), and tell us your aircraft so we can confirm compatibility before you order.`,
+      { h2: `A low-cost way in: the Mavic Pro thermal conversion` },
+      `If you own a DJI Mavic Pro and want thermal without buying a new aircraft, the [Mavic Pro FLIR Boson Thermal Ninja](/product/dji-mavic-pro-flir-boson-thermal-ninja) at $6,999 turns it into a thermal camera drone using a FLIR Boson core. It suits inspectors, roofers and researchers who want a small, low-cost thermal drone. The Boson resolution and lens options are confirmed on request, so contact us before you order and we will confirm the configuration for your job.`,
+      { h2: `Route 3: automate thermal missions with a dock` },
+      `For around-the-clock security or response, a dock launches, lands and charges the aircraft without a pilot on site. The [DJI Dock 3 Thermal Package](/product/dji-dock-3-thermal-package) at $34,278 bundles a Dock 3 with a thermal Matrice 4TD aircraft, Care Enterprise Plus, an AS1 speaker and an AL1 spotlight for automated thermal security and response missions. It is for emergency services and security teams planning drone-in-a-box operations. Browse the full [DJI Dock range](/category/enterprise-drones/dji-dock) and use the [quote form](/quote) to scope a deployment.`,
+      { h2: `A buying checklist for a drone heat camera` },
+      { ul: [
+        `**Define the job first:** roof and solar inspection, fire and rescue and long-range inspection need different sensors.`,
+        `**Match the resolution to the distance:** a 640×512 sensor suits most inspections, and 1280×1024 gives more detail from further away.`,
+        `**Check sensitivity:** a lower figure, such as 50 mK or less, shows smaller temperature differences.`,
+        `**Ask about radiometric measurement:** radiometric cameras report temperatures, which matters for inspection reports.`,
+        `**Confirm weather and flight time:** an IP rating and a long flight time keep you working.`,
+        `**Pair it with a good visual camera:** you still need to see what the heat is.`,
+        `**Budget for batteries and care coverage:** a Plus or Worry-Free bundle can protect a large investment.`
+      ] },
+      { h2: `Training, rules and getting a quote` },
+      `Flying commercially may require CASA accreditation or a ReOC, depending on the aircraft weight and the work. Check the CASA website, read our [FAQ on registering a drone and CASA rules](/faq) and tell us about your use case on the [quote form](/quote). We will confirm the right aircraft or payload, the batteries and the training you need.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars, unopened hardware can be returned within 30 days and Australian Consumer Law guarantees apply. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. We email the payment details after you place the order.`,
+      { faq: [
+        { q: `How much does a drone with a heat camera cost in Australia?`, a: `Our thermal options range from $6,999 for the Mavic Pro FLIR Boson Thermal Ninja conversion and $8,249 for the DJI Mavic 3 Thermal to $10,159 for the Matrice 4 Thermal and $14,917 for the Matrice 30T. Payloads run from $11,700 for the FLIR VUE TZ20 to $17,335 for the Zenmuse H30T.` },
+        { q: `What is the best drone heat camera to buy?`, a: `For most buyers the DJI Matrice 4 Thermal is the best all-rounder. The DJI Mavic 3 Thermal is the most portable, the Matrice 30T is the most rugged and the Zenmuse H30T has the highest resolution.` },
+        { q: `Is a drone IR camera the same as a thermal camera?`, a: `A thermal camera sees heat. Some drones also have a near-infrared light that helps the visual camera at night, which is a separate feature. If you need to see temperature, buy a thermal camera.` },
+        { q: `Can I add a thermal camera to my own drone?`, a: `Only if your aircraft supports the payload. The Zenmuse H30T is for the Matrice 350 RTK and 300 RTK, and the FLIR VUE TZ20 is for the Matrice 200 series and Matrice 300. Tell us your aircraft and we will confirm.` },
+        { q: `Do I need CASA approval to use a thermal drone?`, a: `Commercial flying may require CASA accreditation or a ReOC, depending on the aircraft weight and the work. Check the CASA website, or ask us when you request a quote.` }
+      ] }
+    ],
+    targetKeywords: ['drone heat camera', 'drone ir camera', 'drone thermal vision', 'thermal drone camera']
   }
 ];

@@ -3,6 +3,178 @@ import { BlogSummary } from '../types';
 
 export const BLOG_SUMMARIES: BlogSummary[] = [
   {
+    "id": "post-17",
+    "slug": "buy-dji-mini-5-pro-australia-combos-prices",
+    "title": "Buy the DJI Mini 5 Pro in Australia: Which Combo to Choose, What It Costs and What to Add",
+    "metaTitle": "Buy DJI Mini 5 Pro Australia: Combos and Prices",
+    "metaDescription": "Buying the DJI Mini 5 Pro in Australia? Compare the RC-N3, Fly More and Plus combos with AUD prices, spare batteries and free express shipping.",
+    "subtitle": "Four ways to buy the 1-inch, sub-250 g camera drone, with the price of each and the spares worth ordering on day one.",
+    "date": "October 2026",
+    "dateISO": "2026-10-27",
+    "modifiedISO": "2026-10-27",
+    "readTime": "8 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "DJI Mini 5 Pro",
+      "Buying Guide",
+      "Camera Drones"
+    ],
+    "excerpt": "The DJI Mini 5 Pro comes in four packages from $1,119 to $1,799. We compare each combo, explain the 250 g rule and list the spares to buy with it.",
+    "image": "/images/blog-mini-5-pro-buying-guide.webp",
+    "imageAlt": "DJI Mini 5 Pro with the RC-N3 and the Fly More Combo with the DJI RC 2",
+    "relatedProducts": [
+      "dji-mini-5-pro-dji-rc-n3",
+      "dji-mini-5-pro-fly-more-combo-dji-rc-n3",
+      "dji-mini-5-pro-fly-more-combo-dji-rc-2",
+      "dji-mini-5-pro-fly-more-combo-plus-dji-rc-2"
+    ],
+    "targetKeywords": [
+      "dji mini pro 5",
+      "dji mini pro",
+      "miniature drone",
+      "dji 5 mini pro"
+    ],
+    "wordCount": 1712,
+    "faq": [
+      {
+        "q": "How much does the DJI Mini 5 Pro cost in Australia?",
+        "a": "Packages start at $1,119 for the DJI Mini 5 Pro with the RC-N3 controller. The Fly More Combo with the RC-N3 is $1,419, the Fly More Combo with the RC 2 is $1,699 and the Fly More Combo Plus is $1,799. All prices are in Australian dollars with free express shipping."
+      },
+      {
+        "q": "Is the DJI Mini 5 Pro under 250 g?",
+        "a": "Yes, with the standard battery it weighs under 250 g, about 249.9 g. With the larger Plus battery fitted the aircraft is heavier than 250 g, so check the current CASA rules before flying."
+      },
+      {
+        "q": "Which DJI Mini 5 Pro combo is best?",
+        "a": "For most buyers the Fly More Combo with the RC-N3 is the best value because it adds extra batteries and a charging hub. Choose the RC 2 version if you want a built-in screen instead of using your phone."
+      },
+      {
+        "q": "What is the difference between the RC-N3 and the RC 2?",
+        "a": "The RC-N3 uses your smartphone as the screen and keeps the price lower. The RC 2 has a bright screen built in, so you do not need a phone and set-up is faster."
+      },
+      {
+        "q": "How long does the DJI Mini 5 Pro fly?",
+        "a": "Up to 36 minutes per standard battery. The Plus battery extends flight time further but makes the aircraft heavier than 250 g."
+      }
+    ]
+  },
+  {
+    "id": "post-18",
+    "slug": "buy-dji-mavic-australia-mavic-4-pro-vs-mavic-3-pro",
+    "title": "Buy a DJI Mavic in Australia: Mavic 4 Pro vs Mavic 3 Pro vs Mavic 3 Enterprise",
+    "metaTitle": "Buy a DJI Mavic in Australia: 4 Pro vs 3 Pro",
+    "metaDescription": "Which DJI Mavic should you buy in Australia? Compare the Mavic 4 Pro, Mavic 3 Pro and Mavic 3 Enterprise with AUD prices, Fly More combos and spares.",
+    "subtitle": "The folding Pro-class drones compared by camera, flight time and price, with the combo and spares we recommend for each job.",
+    "date": "October 2026",
+    "dateISO": "2026-10-27",
+    "modifiedISO": "2026-10-27",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "DJI Mavic",
+      "Mavic 4 Pro",
+      "Mavic 3 Pro",
+      "Buying Guide"
+    ],
+    "excerpt": "Choosing a DJI Mavic in Australia? We compare the Mavic 4 Pro, Mavic 3 Pro and Mavic 3 Enterprise by camera, flight time and price, and explain each Fly More combo.",
+    "image": "/images/blog-mavic-buying-guide.webp",
+    "imageAlt": "DJI Mavic 4 Pro, DJI Mavic 3 Pro and DJI Mavic 3 Enterprise drones",
+    "relatedProducts": [
+      "dji-mavic-4-pro-dji-rc-2",
+      "dji-mavic-4-pro-fly-more-combo-dji-rc-2",
+      "dji-mavic-3-pro",
+      "dji-mavic-3-pro-fly-more-combo-dji-rc-pro",
+      "dji-mavic-3-enterprise"
+    ],
+    "targetKeywords": [
+      "dji mavic fly more",
+      "mavic pro drone",
+      "dji mavic pro 4",
+      "dji mavic"
+    ],
+    "wordCount": 1528,
+    "faq": [
+      {
+        "q": "Which DJI Mavic is best to buy in Australia?",
+        "a": "The Mavic 4 Pro is the best for image quality and flight time, with a 100 MP main camera and up to 51 minutes in the air. The Mavic 3 Pro is the better value for three cameras, and the Mavic 3 Enterprise is the right choice for mapping and inspection."
+      },
+      {
+        "q": "What is the difference between the Mavic 4 Pro and the Mavic 3 Pro?",
+        "a": "The Mavic 4 Pro has a 100 MP main camera against 20 MP, a 360-degree rotating gimbal, front-facing LiDAR, up to 51 minutes of flight time and up to 30 km transmission. The Mavic 3 Pro flies up to 43 minutes and costs less."
+      },
+      {
+        "q": "What does the DJI Mavic Fly More Combo include?",
+        "a": "It adds extra Intelligent Flight Batteries, a charging hub and a shoulder bag to the aircraft, so you can fly through a full day. The exact controller depends on the version you choose."
+      },
+      {
+        "q": "Is there a DJI Mavic Pro 4?",
+        "a": "People often search for the DJI Mavic Pro 4, and the aircraft they mean is the DJI Mavic 4 Pro, the current flagship in the Mavic range."
+      },
+      {
+        "q": "Can I pay for a DJI Mavic with PayID or crypto?",
+        "a": "Yes. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. We email the payment details after you place the order."
+      }
+    ]
+  },
+  {
+    "id": "post-19",
+    "slug": "buy-drone-heat-camera-australia-thermal-drones-payloads",
+    "title": "Buy a Drone Heat Camera in Australia: Thermal Drones and Payloads Compared by Price",
+    "metaTitle": "Drone Heat Camera Australia: What to Buy and Price",
+    "metaDescription": "Buying a drone heat camera in Australia? Compare thermal drones and payloads with AUD prices, from the Mavic 3 Thermal to the Zenmuse H30T.",
+    "subtitle": "Every thermal option we supply, from a portable Mavic 3 Thermal to a 1280×1024 Zenmuse payload, with what each costs and who it suits.",
+    "date": "October 2026",
+    "dateISO": "2026-10-27",
+    "modifiedISO": "2026-10-27",
+    "readTime": "9 min read",
+    "author": "Enterprise Systems Specialist",
+    "tags": [
+      "Thermal Drones",
+      "Thermal Cameras",
+      "Enterprise Drones",
+      "Buying Guide"
+    ],
+    "excerpt": "A drone heat camera shows what the eye cannot. We compare the thermal drones and payloads we supply, with AUD prices, so you can match the kit to the job and the budget.",
+    "image": "/images/blog-drone-heat-camera-buying-guide.webp",
+    "imageAlt": "DJI Mavic 3 Thermal, DJI Matrice 4 Thermal and DJI Zenmuse H30T thermal drone equipment",
+    "relatedProducts": [
+      "dji-mavic-3-thermal",
+      "dji-matrice-4-thermal",
+      "dji-matrice-30t",
+      "dji-zenmuse-h30t",
+      "flir-vue-tz20"
+    ],
+    "targetKeywords": [
+      "drone heat camera",
+      "drone ir camera",
+      "drone thermal vision",
+      "thermal drone camera"
+    ],
+    "wordCount": 1514,
+    "faq": [
+      {
+        "q": "How much does a drone with a heat camera cost in Australia?",
+        "a": "Our thermal options range from $6,999 for the Mavic Pro FLIR Boson Thermal Ninja conversion and $8,249 for the DJI Mavic 3 Thermal to $10,159 for the Matrice 4 Thermal and $14,917 for the Matrice 30T. Payloads run from $11,700 for the FLIR VUE TZ20 to $17,335 for the Zenmuse H30T."
+      },
+      {
+        "q": "What is the best drone heat camera to buy?",
+        "a": "For most buyers the DJI Matrice 4 Thermal is the best all-rounder. The DJI Mavic 3 Thermal is the most portable, the Matrice 30T is the most rugged and the Zenmuse H30T has the highest resolution."
+      },
+      {
+        "q": "Is a drone IR camera the same as a thermal camera?",
+        "a": "A thermal camera sees heat. Some drones also have a near-infrared light that helps the visual camera at night, which is a separate feature. If you need to see temperature, buy a thermal camera."
+      },
+      {
+        "q": "Can I add a thermal camera to my own drone?",
+        "a": "Only if your aircraft supports the payload. The Zenmuse H30T is for the Matrice 350 RTK and 300 RTK, and the FLIR VUE TZ20 is for the Matrice 200 series and Matrice 300. Tell us your aircraft and we will confirm."
+      },
+      {
+        "q": "Do I need CASA approval to use a thermal drone?",
+        "a": "Commercial flying may require CASA accreditation or a ReOC, depending on the aircraft weight and the work. Check the CASA website, or ask us when you request a quote."
+      }
+    ]
+  },
+  {
     "id": "post-10",
     "slug": "thermal-camera-vs-thermal-drone-infrared-inspections",
     "title": "Thermal Camera vs Thermal Drone: Choosing an Infrared Camera for Inspections",
