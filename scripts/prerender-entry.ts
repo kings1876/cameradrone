@@ -13,6 +13,7 @@ import { categoryIntro } from '../src/data/categoryCopy';
 import { blocksToHtml } from '../src/lib/richText';
 import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST, HERO_WIDTHS, HERO_FULL } from '../src/lib/imageSets';
 import { PAGE_COPY, PAGE_EXTRA, seoParagraphs, productNotes } from '../src/data/pageCopy';
+import { guidesFor } from '../src/data/guideLinks';
 import { POLICIES, POLICY_INTRO, POLICY_HELP, POLICY_MORE } from '../src/data/policies';
 import { relatedFor } from '../src/components/RelatedProducts';
 import { BUSINESS } from '../src/business';
@@ -83,6 +84,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
     const subs = cat && !sub ? `<h2>${esc(cat.name)} subcategories</h2><ul>${cat.subcategories.map(s => `<li>${link(categoryPath(cat.id, s), s)}</li>`).join('')}</ul>` : '';
     return main(
       `${crumbList(crumbs)}<h1>${esc(h1)}</h1><p>${esc(intro ? `${intro.lead} ${intro.why}` : description)}</p>${(cat ? seoParagraphs(cat.id, sub) : [PAGE_COPY.shop]).map(t => `<p>${esc(t)}</p>`).join('')}` +
+        `<h2>Buying guides for this range</h2><ul>${guidesFor(cat?.id, sub).map(g => `<li>${link('/blog/' + g.slug, g.title)}</li>`).join('')}</ul>` +
         subs + `<h2>${esc(String(items.length))} products</h2>${productList(items)}`
     );
   }

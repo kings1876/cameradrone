@@ -7,6 +7,7 @@ import { PAGE_COPY, seoParagraphs } from '../data/pageCopy';
 import { Search, SlidersHorizontal, Truck, Zap, ShieldCheck, ArrowRight, RotateCcw } from 'lucide-react';
 import { PRODUCTS, CATEGORIES } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
+import { RelatedGuides } from '../components/RelatedGuides';
 import { Product } from '../types';
 
 const PAGE_SIZE = 12;
@@ -168,6 +169,7 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onAddToCart, addedProductId 
                   {t}
                 </p>
               ))}
+              <RelatedGuides categoryId={routeCategory?.id} sub={routeSub} />
             </div>
 
             <div className="text-center shrink-0">
