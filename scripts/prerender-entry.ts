@@ -16,6 +16,7 @@ import { PAGE_COPY, PAGE_EXTRA, seoParagraphs, productNotes } from '../src/data/
 import { guidesFor } from '../src/data/guideLinks';
 import { POLICIES, POLICY_INTRO, POLICY_HELP, POLICY_MORE } from '../src/data/policies';
 import { relatedFor } from '../src/components/RelatedProducts';
+import { pairLinks } from '../src/components/PairsWith';
 import { BUSINESS } from '../src/business';
 import { webpSrcSet, IMAGE_SIZES } from '../src/components/ProductImage';
 
@@ -100,6 +101,11 @@ function bodyFor(pathname: string, h1: string, description: string): string {
         (img ? `<img src="${esc(img)}" alt="${esc(p.name)}" width="600" height="600" loading="lazy" decoding="async">` : '') +
         `<p><strong>${money(p.price)} AUD</strong> · ${p.inStock ? 'In stock in Australia' : 'Out of stock'} · Free shipping Australia-wide</p>` +
         [...p.description.split('\n\n'), ...productNotes(p)].map(t => `<p>${esc(t)}</p>`).join('') +
+        (() => {
+          const pl = pairLinks(p.worksWith, p.readNext);
+          return (pl.products.length ? `<h2>Fits and pairs with</h2><ul>${pl.products.map(l => `<li>${link(l.href, l.label)}</li>`).join('')}</ul>` : '') +
+            (pl.guides.length ? `<h2>Read next</h2><ul>${pl.guides.map(l => `<li>${link(l.href, l.label)}</li>`).join('')}</ul>` : '');
+        })() +
         (p.highlights?.length ? `<h2>Key features</h2><ul>${p.highlights.map(h => `<li>${esc(h)}</li>`).join('')}</ul>` : '') +
         (p.specRows?.length ? `<h2>Specifications</h2><table><tbody>${p.specRows.map(([k, v]) => `<tr><th scope="row">${esc(k)}</th><td>${esc(v)}</td></tr>`).join('')}</tbody></table>` : '') +
         (p.inTheBox?.length ? `<h2>In the box</h2><ul>${p.inTheBox.map(b => `<li>${esc(b)}</li>`).join('')}</ul>` : '') +

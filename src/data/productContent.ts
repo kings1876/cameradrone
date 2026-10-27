@@ -5,6 +5,9 @@ export interface ProductContent {
   highlights?: string[];
   specRows?: [string, string][];
   inTheBox?: string[];
+  /** Product slugs this item fits or pairs with, and blog slugs to read next (see productFit.ts). */
+  worksWith?: string[];
+  readNext?: string[];
 }
 
 const cache = new Map<string, ProductContent>();

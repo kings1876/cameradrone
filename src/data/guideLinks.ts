@@ -47,6 +47,7 @@ const BY_CATEGORY: Record<string, string[]> = {
 const BY_SUBCATEGORY: Record<string, string[]> = {
   'Thermal Cameras': ['thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
   'LiDAR Sensors': ['lidar-vs-photogrammetry-drone-mapping-australia', 'thermal-drones-australia-guide'],
+  'DJI Dock': ['thermal-drones-australia-guide', 'enterprise-drones-matrice-mavic-3-enterprise-guide'],
   'Multispectral Cameras': ['agricultural-drones-weed-control-seeding-crop-monitoring', 'agricultural-spraying-drones-australia-guide']
 };
 

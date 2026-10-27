@@ -10,6 +10,7 @@ import { ProductImage } from '../components/ProductImage';
 import { Product } from '../types';
 import { categoryPath } from '../routes';
 import { RelatedProducts } from '../components/RelatedProducts';
+import { PairsWith } from '../components/PairsWith';
 import { StickyBuyBar } from '../components/StickyBuyBar';
 
 interface ProductDetailPageProps {
@@ -186,6 +187,8 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                   </p>
                 ))}
               </div>
+
+              <PairsWith works={view.worksWith} readNext={view.readNext} />
 
               {view.highlights && view.highlights.length > 0 && (
                 <div className="space-y-1.5">
