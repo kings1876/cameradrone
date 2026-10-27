@@ -17,6 +17,7 @@ import { guidesFor } from '../src/data/guideLinks';
 import { POLICIES, POLICY_INTRO, POLICY_HELP, POLICY_MORE } from '../src/data/policies';
 import { relatedFor } from '../src/components/RelatedProducts';
 import { pairLinks } from '../src/components/PairsWith';
+import { ALL_PRODUCTS_PATH, allProductGroups, allProductsParagraphs } from '../src/data/allProducts';
 import { BUSINESS } from '../src/business';
 import { webpSrcSet, IMAGE_SIZES } from '../src/components/ProductImage';
 
@@ -135,6 +136,13 @@ function bodyFor(pathname: string, h1: string, description: string): string {
     );
   }
 
+  if (pathname === ALL_PRODUCTS_PATH) {
+    return main(
+      `<h1>${esc(h1)}</h1>` + allProductsParagraphs().map(t => `<p>${esc(t)}</p>`).join('') +
+        allProductGroups().map(g => `<h2>${link(g.path, g.name)}</h2>` + g.subs.map(sub => `<h3>${link(sub.path, sub.name)}</h3><ul>${sub.products.map(p => `<li>${link('/product/' + p.slug, p.name)} – ${money(p.price)}</li>`).join('')}</ul>`).join('')).join('')
+    );
+  }
+
   if (pathname === '/faq') {
     return main(
       `<h1>${esc(h1)}</h1><p>${esc(PAGE_COPY.faq)}</p>` + FAQ_LIST.map(f => `<h2>${esc(f.question)}</h2><p>${esc(f.answer)}</p>`).join('')
@@ -228,7 +236,7 @@ export function routes(): string[] {
   }
   for (const p of PRODUCTS) list.push('/product/' + p.slug);
   list.push('/blog', ...BLOG_POSTS.map(b => '/blog/' + b.slug));
-  list.push('/faq', '/about', '/contact', '/quote', '/shipping', '/refund', '/privacy', '/terms');
+  list.push('/faq', ALL_PRODUCTS_PATH, '/about', '/contact', '/quote', '/shipping', '/refund', '/privacy', '/terms');
   return list;
 }
 

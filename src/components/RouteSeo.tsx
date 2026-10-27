@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { ALL_PRODUCTS_PATH, ALL_PRODUCTS_TITLE, ALL_PRODUCTS_DESCRIPTION, ALL_PRODUCTS_H1 } from '../data/allProducts';
 import { loadContent, peekContent } from '../data/productContent';
 import { useLocation } from 'react-router-dom';
 import { PRODUCTS, CATEGORIES } from '../data/products';
@@ -272,6 +273,15 @@ export function metaFor(pathname: string, search: string): Meta {
             }]
           : [])
       ]
+    };
+  }
+
+  if (pathname === ALL_PRODUCTS_PATH) {
+    return {
+      title: ALL_PRODUCTS_TITLE,
+      description: ALL_PRODUCTS_DESCRIPTION,
+      h1: ALL_PRODUCTS_H1,
+      jsonLd: [crumbs([{ name: 'Home', path: '/' }, { name: 'All products', path: ALL_PRODUCTS_PATH }])]
     };
   }
 

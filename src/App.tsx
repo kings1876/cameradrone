@@ -11,6 +11,7 @@ const AdminEnquiries = lazy(() => import('./pages/admin/AdminEnquiries').then(m 
 const AdminEnquiryDetail = lazy(() => import('./pages/admin/AdminEnquiries').then(m => ({ default: m.AdminEnquiryDetail })));
 const SendPayment = lazy(() => import('./pages/admin/AdminComposers').then(m => ({ default: m.SendPayment })));
 const ReplyEnquiry = lazy(() => import('./pages/admin/AdminComposers').then(m => ({ default: m.ReplyEnquiry })));
+const AllProductsPage = lazy(() => import('./pages/AllProductsPage').then(m => ({ default: m.AllProductsPage })));
 const PaymentDetailsPage = lazy(() => import('./pages/PaymentPages').then(m => ({ default: m.PaymentDetailsPage })));
 const CryptoPayPage = lazy(() => import('./pages/PaymentPages').then(m => ({ default: m.CryptoPayPage })));
 const ConfirmPaymentPage = lazy(() => import('./pages/PaymentPages').then(m => ({ default: m.ConfirmPaymentPage })));
@@ -165,6 +166,7 @@ export default function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/quote" element={<QuotePage />} />
           <Route path="/faq" element={<FAQPage />} />
+          <Route path="/all-products" element={<AllProductsPage />} />
           {/* Order / Checkout Pages */}
           <Route
             path="/order"
