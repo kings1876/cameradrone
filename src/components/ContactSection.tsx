@@ -65,7 +65,7 @@ export const ContactSection: React.FC<{ asH1?: boolean }> = ({ asH1 = false }) =
                 <Mail className="w-5 h-5 text-sky-400 shrink-0 mt-0.5" />
                 <div>
                   <p className="font-bold text-white uppercase tracking-wider text-[11px]">Direct Inquiries & Order Desk</p>
-                  <p className="mt-0.5 font-mono"><a href="mailto:koloonjo@gmail.com" className="text-slate-300 hover:text-amber-400 underline-offset-2 hover:underline">koloonjo@gmail.com</a></p>
+                  <p className="mt-0.5 font-mono"><a href={`mailto:${BUSINESS.email}`} className="text-slate-300 hover:text-amber-400 underline-offset-2 hover:underline">{BUSINESS.email}</a></p>
                   <p className="text-slate-400 text-[10px] mt-0.5">Priority response within 1 business hour</p>
                 </div>
               </div>

@@ -2,7 +2,7 @@ import { BUSINESS } from '../business';
 import { Wordmark } from './Wordmark';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldAlert, Zap, Truck, MapPin } from 'lucide-react';
+import { ShieldAlert, Zap, Truck, MapPin, Mail } from 'lucide-react';
 
 const POPULAR: [string, string][] = [
   ['/category/camera-drones', 'DJI camera drones'],
@@ -46,6 +46,10 @@ export const Footer: React.FC = () => {
               Australian supplier of DJI camera drones, enterprise and thermal UAVs, agricultural spraying drones, and accessories. Founded on <strong>17 May 2018 in Australia</strong>.
             </p>
             <div className="pt-2 space-y-1.5 text-[11px] text-slate-400">
+              <div className="flex items-center gap-2">
+                <Mail className="w-3.5 h-3.5 text-sky-400" />
+                <a href={`mailto:${BUSINESS.email}`} className="hover:text-amber-400 underline-offset-2 hover:underline">{BUSINESS.email}</a>
+              </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-3.5 h-3.5 text-amber-400" />
                 <span>Nationwide Shipping · Serving NSW, VIC, QLD, WA, SA, TAS, ACT & NT</span>

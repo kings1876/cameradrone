@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, Truck, BadgePercent, RotateCcw, MessageSquareQuote, PackageCheck, ShieldCheck } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Truck, BadgePercent, RotateCcw, MessageSquareQuote, PackageCheck, ShieldCheck, Mail } from 'lucide-react';
 import { BUSINESS } from '../business';
 
 const MESSAGES = [
@@ -53,7 +53,12 @@ export const AnnouncementBar: React.FC = () => {
       onBlur={() => setPaused(false)}
     >
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 h-7 flex items-center justify-between gap-2 text-[11px] sm:text-xs">
-        <div className="hidden md:block w-56 shrink-0" aria-hidden="true" />
+        <div className="hidden md:block w-56 shrink-0 font-semibold">
+          <a href={`mailto:${BUSINESS.email}`} className="inline-flex items-center gap-1.5 text-slate-200 hover:text-amber-400">
+            <Mail aria-hidden="true" className="w-3.5 h-3.5 text-amber-400" />
+            <span>{BUSINESS.email}</span>
+          </a>
+        </div>
         <div className="flex-1 min-w-0 flex items-center justify-center gap-1">
           <button type="button" aria-label="Previous announcement" onClick={() => step(-1)} className={btn}>
             <ChevronLeft className="w-3.5 h-3.5" />

@@ -38,7 +38,7 @@ const NAV_LINKS: [string, string][] = [
 
 function header(): string {
   return (
-    `<header><p>${esc(BUSINESS.name)} · ${esc(BUSINESS.abnDisplay)}</p>` +
+    `<header><p>${esc(BUSINESS.name)} · ${esc(BUSINESS.abnDisplay)} · <a href="mailto:${esc(BUSINESS.email)}">${esc(BUSINESS.email)}</a></p>` +
     `<nav aria-label="Main"><ul>${NAV_LINKS.map(([h, t]) => `<li>${link(h, t)}</li>`).join('')}</ul></nav>` +
     `<nav aria-label="Categories"><ul>${CATEGORIES.map(c => `<li>${link(categoryPath(c.id), c.name)}</li>`).join('')}</ul></nav></header>`
   );
@@ -49,7 +49,7 @@ function footer(): string {
     `<footer><nav aria-label="Footer"><ul>` +
     [['/shipping', 'Shipping Policy'], ['/refund', 'Refund Policy'], ['/privacy', 'Privacy Notice'], ['/terms', 'Terms of Service']]
       .map(([h, t]) => `<li>${link(h, t)}</li>`).join('') +
-    `</ul></nav><p>${esc(BUSINESS.name)} · ${esc(BUSINESS.abnDisplay)} · Australia</p></footer>`
+    `</ul></nav><p>${esc(BUSINESS.name)} · ${esc(BUSINESS.abnDisplay)} · Australia · <a href="mailto:${esc(BUSINESS.email)}">${esc(BUSINESS.email)}</a></p></footer>`
   );
 }
 
