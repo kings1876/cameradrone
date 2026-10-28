@@ -1,4 +1,5 @@
-import { REPLY, ORDER_NUMBER_RE, findMethod } from '../shared/order.js';
+import { ORDER_NUMBER_RE, findMethod } from '../shared/order.js';
+import { FALLBACK_EMAIL } from './_lib/inbox.js';
 import { saveOrder, saveEnquiry, generateEnquiryId } from './_lib/store.js';
 import { sendMail, isMailConfigured } from './_lib/mailer.js';
 import { isStoreConfigured } from './_lib/redis.js';
@@ -14,7 +15,7 @@ const clip = (v, n) => String(v ?? '').trim().slice(0, n);
 
 function destination(kind) {
   const env = { order: process.env.ORDER_EMAIL, contact: process.env.CONTACT_EMAIL, wholesale: process.env.WHOLESALE_EMAIL }[kind];
-  return env || process.env.CONTACT_EMAIL || REPLY.fallbackEmail;
+  return env || process.env.CONTACT_EMAIL || FALLBACK_EMAIL;
 }
 
 export default async function handler(req, res) {

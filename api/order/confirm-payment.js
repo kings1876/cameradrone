@@ -1,4 +1,5 @@
-import { ORDER_NUMBER_RE, REPLY, findMethod } from '../../shared/order.js';
+import { ORDER_NUMBER_RE, findMethod } from '../../shared/order.js';
+import { FALLBACK_EMAIL } from '../_lib/inbox.js';
 import { getOrder, markPaymentConfirmed } from '../_lib/store.js';
 import { sendMail } from '../_lib/mailer.js';
 import { paymentConfirmedEmail } from '../_lib/emails.js';
@@ -25,7 +26,7 @@ export default async function handler(req, res) {
   const note = String(body.note || '').trim().slice(0, 500);
   const mail = paymentConfirmedEmail(order, note);
   const result = await sendMail({
-    to: process.env.ORDER_EMAIL || process.env.CONTACT_EMAIL || REPLY.fallbackEmail,
+    to: process.env.ORDER_EMAIL || process.env.CONTACT_EMAIL || FALLBACK_EMAIL,
     replyTo: order.customerEmail,
     ...mail,
     attachments: [{ filename: `${id}-payment.${ext}`, content: buffer, contentType: body.fileType }]

@@ -6,8 +6,6 @@ export const REPLY = {
   orderPrefix: 'CDA',
   currency: { code: 'AUD', symbol: '$', locale: 'en-AU' },
   brand: { primary: '#f59e0b', headerDark: '#0b0f17' },
-  // Order-confirmation email and shop notifications go here unless CONTACT_EMAIL / ORDER_EMAIL are set in Vercel.
-  fallbackEmail: 'koloonjo@gmail.com',
   // Payment methods offered at checkout. A method may carry a `wallet` (receiving address the operator owns and
   // supplied); the admin composer pre-fills it and checkout shows it. Methods without one are pasted per order in admin.
   methods: [
