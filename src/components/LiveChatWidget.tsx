@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BUSINESS } from '../business';
 import { MessageSquare, X, Send, ShieldCheck, User, Bot, Sparkles } from 'lucide-react';
 
 interface ChatMessage {
@@ -42,7 +43,7 @@ export const LiveChatWidget: React.FC = () => {
 
     // Generate intelligent Australian drone specialist response
     setTimeout(() => {
-      let reply = "Thanks for asking! Our Australian dispatch and support team is here to assist. You can also reach our operations directly at koloonjo@gmail.com.";
+      let reply = `Thanks for asking! Our Australian dispatch and support team is here to assist. You can also reach our operations directly at ${BUSINESS.email}.`;
       const lower = query.toLowerCase();
 
       if (lower.includes('crypto') || lower.includes('discount') || lower.includes('10%')) {
