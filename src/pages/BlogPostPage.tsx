@@ -6,6 +6,8 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, Tag, Share2, BookOpen } from 'lucide-react';
 import { BLOG_POSTS } from '../data/content';
 import { PRODUCTS } from '../data/products';
+import { ShopRanges } from '../components/ShopRanges';
+import { rangesForProducts } from '../data/shopLinks';
 
 export const BlogPostPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -124,6 +126,8 @@ export const BlogPostPage: React.FC = () => {
             ))}
           </div>
         </div>
+
+        <ShopRanges heading="Shop the range" links={rangesForProducts(post.relatedProducts)} />
       </div>
     </article>
   );

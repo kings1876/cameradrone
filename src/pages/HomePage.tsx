@@ -20,6 +20,7 @@ import { Hero } from '../components/Hero';
 import { Product } from '../types';
 import { PAGE_COPY, PAGE_EXTRA } from '../data/pageCopy';
 import { RelatedGuides } from '../components/RelatedGuides';
+import { ShopRanges } from '../components/ShopRanges';
 import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_CARD } from '../lib/imageSets';
 
 interface HomePageProps {
@@ -269,6 +270,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onAddToCart, addedProductId 
         <p className="text-sm text-slate-400 leading-relaxed max-w-4xl">{PAGE_COPY.home}</p>
         <p className="text-sm text-slate-400 leading-relaxed max-w-4xl mt-3">{PAGE_EXTRA.home}</p>
         <RelatedGuides heading="Popular buying guides" />
+        <ShopRanges heading="Shop every range" />
       </section>
 
       {/* 6. Editorial Flight Intel Teaser */}

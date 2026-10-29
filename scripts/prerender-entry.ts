@@ -14,6 +14,7 @@ import { blocksToHtml } from '../src/lib/richText';
 import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST, HERO_WIDTHS, HERO_FULL } from '../src/lib/imageSets';
 import { PAGE_COPY, PAGE_EXTRA, seoParagraphs, productNotes } from '../src/data/pageCopy';
 import { guidesFor } from '../src/data/guideLinks';
+import { allRanges, rangesForProducts } from '../src/data/shopLinks';
 import { POLICIES, POLICY_INTRO, POLICY_HELP, POLICY_MORE } from '../src/data/policies';
 import { relatedFor } from '../src/components/RelatedProducts';
 import { pairLinks } from '../src/components/PairsWith';
@@ -68,7 +69,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
     const featured = PRODUCTS.filter(p => p.isFeatured).slice(0, 12);
     return main(
       `<h1>Premier Camera Drones For Sale in Australia</h1><p>${esc(description)}</p><p>${esc(PAGE_COPY.home)}</p><p>${esc(PAGE_EXTRA.home)}</p>` +
-        `<h2>Shop drones by category</h2><ul>${CATEGORIES.map(c => `<li>${link(categoryPath(c.id), c.name)}</li>`).join('')}</ul>` +
+        `<h2>Shop every range</h2>${allRanges().map(g => `<h3>${link(g.category.path, g.category.label)}</h3><ul>${g.subs.map(s => `<li>${link(s.path, s.label)}</li>`).join('')}</ul>`).join('')}` +
         `<h2>Featured drones and equipment</h2>${productList(featured)}` +
         `<h2>Buying guides</h2><ul>${BLOG_POSTS.map(b => `<li>${link(`/blog/${b.slug}`, b.title)}</li>`).join('')}</ul>`
     );
@@ -132,7 +133,7 @@ function bodyFor(pathname: string, h1: string, description: string): string {
         `<p><time datetime="${post.dateISO}">${esc(post.date)}</time> · ${esc(post.readTime)} · ${esc(post.author)}</p>` +
         blocksToHtml(post.content) +
         (post.relatedProducts.length ? `<h2>Featured products</h2>${productList(post.relatedProducts.map(sl => PRODUCTS.find(p => p.slug === sl)).filter((p): p is NonNullable<typeof p> => !!p))}` : '') +
-        `<h2>Shop related products</h2><ul>${CATEGORIES.map(c => `<li>${link(categoryPath(c.id), c.name)}</li>`).join('')}</ul></article>`
+        `<h2>Shop the range</h2><ul>${rangesForProducts(post.relatedProducts).map(l => `<li>${link(l.path, l.label)}</li>`).join('')}</ul></article>`
     );
   }
 
@@ -262,7 +263,7 @@ export function sitemapXml(): string {
     let prio = '0.5';
     if (path === '/') prio = '1.0';
     else if (path === '/shop') prio = '0.9';
-    else if (path.startsWith('/category/')) prio = path.split('/').length > 3 ? '0.7' : '0.8';
+    else if (path.startsWith('/category/')) prio = path.split('/').length > 3 ? '0.8' : '0.9';
     else if (path.startsWith('/product/')) prio = '0.7';
     else if (path === '/quote') prio = '0.7';
     else if (path.startsWith('/blog')) prio = '0.6';
