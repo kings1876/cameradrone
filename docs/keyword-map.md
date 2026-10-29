@@ -828,3 +828,14 @@ Three 1,500 to 1,700 word buying guides, each built on unused keywords from the 
 | /blog/buy-dji-mini-5-pro-australia-combos-prices | dji mini pro 5 (1,000); dji mini pro (590); miniature drone (140); dji 5 mini pro |
 | /blog/buy-dji-mavic-australia-mavic-4-pro-vs-mavic-3-pro | dji mavic fly more (90); mavic pro drone (140); dji mavic pro 4; dji mavic |
 | /blog/buy-drone-heat-camera-australia-thermal-drones-payloads | drone heat camera (170); drone ir camera (110); drone thermal vision (110); thermal drone camera (90) |
+
+
+## Transactional buying guides, batch 2 (29 Oct 2026)
+
+Three more 1,800 to 2,000 word buying guides on keywords not yet used. All prices and specifications come from the product data.
+
+| Post | Primary / supporting keywords (monthly AU volume) |
+|---|---|
+| /blog/buy-dji-air-3s-australia-combos-vs-air-3 | air 3s (320); dji air 3 drone; dji air 3s accessories; dji air 3s vs mini 5 pro |
+| /blog/buy-dji-mini-4k-vs-mini-3-australia-prices | dji mini 4k drone (2,400); dji mini 3 vs mini 4k (140); dji mini 3 review (140); dj1 mini 4k drone (140) |
+| /blog/buy-fpv-goggles-australia-dji-goggles-3-vs-n3 | fpv goggles (320); dji o4 air unit pro (260); dji fpv controller (140); dji goggles 3 vs n3 |

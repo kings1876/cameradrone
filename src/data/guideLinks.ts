@@ -16,6 +16,8 @@ const BY_CATEGORY: Record<string, string[]> = {
     'best-drones-for-beginners-australia',
     'dji-neo-2-vs-dji-flip-vs-dji-mini-4-pro',
     'dji-avata-360-vs-avata-2-fpv-drone-guide',
+    'buy-dji-air-3s-australia-combos-vs-air-3',
+    'buy-dji-mini-4k-vs-mini-3-australia-prices',
     'best-drones-for-real-estate-and-aerial-photography',
     'best-drone-for-sale-australia-2026-buyers-guide'
   ],
@@ -39,6 +41,7 @@ const BY_CATEGORY: Record<string, string[]> = {
   batteries: [
     'dji-drone-battery-charger-propeller-guide',
     'dji-controllers-explained-rc-n3-rc-2-rc-pro',
+    'buy-fpv-goggles-australia-dji-goggles-3-vs-n3',
     'dji-neo-2-fly-more-combo-guide',
     'buying-a-new-vs-used-dji-drone-australia'
   ]

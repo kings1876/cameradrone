@@ -3,6 +3,174 @@ import { BlogSummary } from '../types';
 
 export const BLOG_SUMMARIES: BlogSummary[] = [
   {
+    "id": "post-20",
+    "slug": "buy-dji-air-3s-australia-combos-vs-air-3",
+    "title": "Buy the DJI Air 3S in Australia: Which Combo to Choose and How It Compares With the Air 3",
+    "metaTitle": "Buy DJI Air 3S Australia: Combos, Prices vs Air 3",
+    "metaDescription": "Buying the DJI Air 3S in Australia? Compare the RC-N3 and RC 2 combos with the Air 3, AUD prices, spare batteries, filters and free express shipping.",
+    "subtitle": "Three ways to buy the dual-camera Air 3S, how it differs from the Air 3, and the spares worth ordering with it.",
+    "date": "October 2026",
+    "dateISO": "2026-10-29",
+    "modifiedISO": "2026-10-29",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "DJI Air 3S",
+      "Buying Guide",
+      "Camera Drones"
+    ],
+    "excerpt": "The DJI Air 3S starts at $1,699 and reaches $2,429 as a complete kit. We compare each combo with the Air 3 and the Mini 5 Pro and list the spares to buy with it.",
+    "image": "/images/blog-air-3s-buying-guide.webp",
+    "imageAlt": "DJI Air 3S with the RC-N3, the DJI Air 3 and the Air 3 Fly More Combo with the RC 2",
+    "relatedProducts": [
+      "dji-air-3s-dji-rc-n3",
+      "dji-air-3s-fly-more-combo-dji-rc-n3",
+      "dji-air-3s-fly-more-combo-dji-rc-2",
+      "dji-air-3"
+    ],
+    "targetKeywords": [
+      "air 3s",
+      "dji air 3s",
+      "dji air 3 drone",
+      "dji air 3s accessories"
+    ],
+    "wordCount": 2014,
+    "faq": [
+      {
+        "q": "How much does the DJI Air 3S cost in Australia?",
+        "a": "The DJI Air 3S with the RC-N3 is $1,699. The Fly More Combo with the RC-N3 is $2,129 and the Fly More Combo with the RC 2 is $2,429. All prices are in Australian dollars with free express shipping."
+      },
+      {
+        "q": "What is the difference between the DJI Air 3S and the Air 3?",
+        "a": "The Air 3S has a larger 1-inch sensor on its wide camera, forward LiDAR and records 4K at up to 120 fps. Both have a 70 mm equivalent medium tele camera, omnidirectional obstacle sensing and flight times of 45 minutes (Air 3S) and 46 minutes (Air 3)."
+      },
+      {
+        "q": "Which DJI Air 3S combo is best?",
+        "a": "For most buyers the Fly More Combo with the RC-N3 is the best value because it adds extra batteries, a charging hub and a shoulder bag. Choose the RC 2 version if you want a built-in screen and no phone."
+      },
+      {
+        "q": "How long does the DJI Air 3S fly?",
+        "a": "Up to 45 minutes per battery, so a Fly More Combo gives you several flights in a day."
+      },
+      {
+        "q": "Is the DJI Air 3S under 250 g?",
+        "a": "No. It weighs about 724 g, so check the current CASA rules for your type of flying before you take off."
+      }
+    ]
+  },
+  {
+    "id": "post-21",
+    "slug": "buy-dji-mini-4k-vs-mini-3-australia-prices",
+    "title": "Buy a DJI Mini 4K or Mini 3 in Australia: Which Budget Mini Is Worth It?",
+    "metaTitle": "Buy DJI Mini 4K or Mini 3 in Australia: Prices",
+    "metaDescription": "DJI Mini 4K vs Mini 3: compare every package with AUD prices, controllers, Fly More Combos and spare batteries, with free express shipping in Australia.",
+    "subtitle": "Two sub-250 g camera drones for a first purchase, compared by price, controller and kit, with the spares we recommend.",
+    "date": "October 2026",
+    "dateISO": "2026-10-29",
+    "modifiedISO": "2026-10-29",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "DJI Mini 4K",
+      "DJI Mini 3",
+      "Buying Guide"
+    ],
+    "excerpt": "The DJI Mini 4K starts at $449 and the DJI Mini 3 at $509. We compare every package, explain which one suits a first drone and list the spares to add.",
+    "image": "/images/blog-mini-4k-mini-3-buying-guide.webp",
+    "imageAlt": "DJI Mini 4K with controller, DJI Mini 3 with the RC-N1 and the Mini 3 Fly More Combo",
+    "relatedProducts": [
+      "dji-mini-4k",
+      "dji-mini-4k-fly-more-combo",
+      "dji-mini-3-dji-rc-n1",
+      "dji-mini-3-fly-more-combo-dji-rc"
+    ],
+    "targetKeywords": [
+      "dji mini 4k drone",
+      "dji mini 3 vs mini 4k",
+      "dji mini 3 review",
+      "dj1 mini 4k drone"
+    ],
+    "wordCount": 2037,
+    "faq": [
+      {
+        "q": "How much does the DJI Mini 4K cost in Australia?",
+        "a": "The DJI Mini 4K is $449, and the DJI Mini 4K Fly More Combo is $619. Both prices are in Australian dollars with free express shipping."
+      },
+      {
+        "q": "How much does the DJI Mini 3 cost in Australia?",
+        "a": "The DJI Mini 3 with the RC-N1 is $509, the Mini 3 with the DJI RC screen controller is $659 and the Mini 3 Fly More Combo with the DJI RC is $839."
+      },
+      {
+        "q": "What is the difference between the DJI Mini 4K and Mini 3?",
+        "a": "The Mini 4K is the cheaper, simpler aircraft with a 3-axis gimbal and 4K video. The Mini 3 has a 1/1.3-inch sensor and is available with a phone-based or a screen controller, with a Fly More Combo that includes a charging hub and a shoulder bag."
+      },
+      {
+        "q": "Are the DJI Mini 4K and Mini 3 under 250 g?",
+        "a": "Yes. The Mini 4K weighs under 250 g and the Mini 3 under 249 g. With the Plus battery fitted, the Mini 3 is heavier than 250 g, so check the current CASA rules before flying."
+      },
+      {
+        "q": "Which is the best first drone, the Mini 4K or the Mini 3?",
+        "a": "The Mini 4K Fly More Combo is the best-value starter for most beginners. Choose the Mini 3 if you want the larger sensor or the option of a screen controller."
+      }
+    ]
+  },
+  {
+    "id": "post-22",
+    "slug": "buy-fpv-goggles-australia-dji-goggles-3-vs-n3",
+    "title": "Buy FPV Goggles in Australia: DJI Goggles 3 vs Goggles N3, Controllers and Kits",
+    "metaTitle": "Buy FPV Goggles Australia: DJI Goggles 3 vs N3",
+    "metaDescription": "Buying FPV goggles in Australia? Compare DJI Goggles 3 and Goggles N3 with controllers, Avata 2 combos and O4 Air Units, with AUD prices and free shipping.",
+    "subtitle": "Which goggles, which controller and which kit to buy first, with the real price gap between the premium and entry-level headsets.",
+    "date": "October 2026",
+    "dateISO": "2026-10-29",
+    "modifiedISO": "2026-10-29",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "FPV Goggles",
+      "DJI Goggles 3",
+      "Buying Guide"
+    ],
+    "excerpt": "DJI Goggles 3 cost $869 and the Goggles N3 cost $359, but inside an Avata 2 combo the gap is only $220. We compare both with controllers and kits.",
+    "image": "/images/blog-fpv-goggles-buying-guide.webp",
+    "imageAlt": "DJI Goggles 3, DJI Goggles N3 and the DJI Avata 2 FPV drone",
+    "relatedProducts": [
+      "dji-goggles-3",
+      "dji-goggles-n3",
+      "dji-avata-2-fly-more-combo-single-battery",
+      "dji-rc-motion-3"
+    ],
+    "targetKeywords": [
+      "fpv goggles",
+      "dji fpv controller",
+      "dji o4 air unit pro",
+      "dji goggles 3 vs n3"
+    ],
+    "wordCount": 1823,
+    "faq": [
+      {
+        "q": "How much do DJI FPV goggles cost in Australia?",
+        "a": "The DJI Goggles N3 are $359 and the DJI Goggles 3 are $869. Both prices are in Australian dollars with free express shipping."
+      },
+      {
+        "q": "What is the difference between the DJI Goggles 3 and Goggles N3?",
+        "a": "The Goggles 3 are DJI's premium headset with micro-OLED displays, while the Goggles N3 are the entry-level option that brings the same immersive view to the Avata 2 and similar aircraft at a lower price."
+      },
+      {
+        "q": "Which Avata 2 combo should I buy?",
+        "a": "The Fly More Combo includes the Goggles 3 and RC Motion 3, from $1,269. The Fly Smart Combo includes the Goggles N3 and RC Motion 3, from $1,049. Inside a kit, the Goggles 3 upgrade costs $220 to $280."
+      },
+      {
+        "q": "Which DJI FPV controller should I buy?",
+        "a": "The DJI RC Motion 3 at $139 is the easiest to learn, with one-handed motion control. The DJI FPV Remote Controller 3 at $229 gives stick control for precise manual flying."
+      },
+      {
+        "q": "Do I need a spotter to fly FPV in Australia?",
+        "a": "Australian rules generally require you to keep the aircraft in sight, and goggles block your view of the airspace, so a second person acting as a spotter is the safe approach. Check the current CASA rules before you fly."
+      }
+    ]
+  },
+  {
     "id": "post-17",
     "slug": "buy-dji-mini-5-pro-australia-combos-prices",
     "title": "Buy the DJI Mini 5 Pro in Australia: Which Combo to Choose, What It Costs and What to Add",
