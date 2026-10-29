@@ -40,7 +40,7 @@ const NAV_LINKS: [string, string][] = [
 function header(): string {
   return (
     `<header><p>${esc(BUSINESS.name)} · ${esc(BUSINESS.abnDisplay)} · <a href="mailto:${esc(BUSINESS.email)}">${esc(BUSINESS.email)}</a></p>` +
-    `<nav aria-label="Main"><ul>${NAV_LINKS.map(([h, t]) => `<li>${link(h, t)}</li>`).join('')}</ul></nav>` +
+    `<form role="search" action="/shop" method="get"><label for="q">Search drones and accessories</label><input id="q" type="search" name="q"><button type="submit">Search</button></form><nav aria-label="Main"><ul>${NAV_LINKS.map(([h, t]) => `<li>${link(h, t)}</li>`).join('')}</ul></nav>` +
     `<nav aria-label="Categories"><ul>${CATEGORIES.map(c => `<li>${link(categoryPath(c.id), c.name)}</li>`).join('')}</ul></nav></header>`
   );
 }

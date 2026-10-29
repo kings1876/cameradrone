@@ -5,6 +5,7 @@ import { NavLink, Link } from 'react-router-dom';
 import { ShoppingBag, Zap, ChevronDown } from 'lucide-react';
 import { CATEGORIES } from '../data/products';
 import { categoryPath } from '../routes';
+import { HeaderSearch } from './HeaderSearch';
 
 const dropdownPanel =
   'invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition-opacity absolute left-0 top-full z-50 min-w-[220px] bg-[#0f172a] border border-slate-800 rounded-xl shadow-2xl py-2';
@@ -31,6 +32,8 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, openCart }) => {
         </Link>
 
 
+        <HeaderSearch id="header-search" className="hidden md:block flex-1 max-w-xl" />
+
         {/* Zone 3: 1-2 primary actions */}
         <div className="flex items-center gap-3">
           <Link
@@ -55,6 +58,11 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, openCart }) => {
             )}
           </button>
         </div>
+      </div>
+
+      {/* Mobile search */}
+      <div className="md:hidden px-3 pb-2.5">
+        <HeaderSearch id="header-search-mobile" />
       </div>
 
       {/* Desktop category menu with subcategory dropdowns */}
