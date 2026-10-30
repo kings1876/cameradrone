@@ -1563,5 +1563,269 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['fpv goggles', 'dji fpv controller', 'dji o4 air unit pro', 'dji goggles 3 vs n3']
+  },
+  {
+    id: 'post-23',
+    slug: 'buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro',
+    title: `Buy the DJI Flip in Australia: Which Combo to Choose, What It Costs and How It Compares`,
+    metaTitle: `Buy DJI Flip Australia: Combos and Prices`,
+    metaDescription: `Buying the DJI Flip in Australia? Compare the RC-N3, RC 2 and Fly More Combo with AUD prices, spares, and the Neo 2 and Mini 4 Pro, with free shipping.`,
+    subtitle: `Three ways to buy the foldable vlog drone with built-in propeller guards, what each costs and the spares to order on day one.`,
+    date: 'October 2026',
+    dateISO: '2026-10-30',
+    modifiedISO: '2026-10-30',
+    readTime: '9 min read',
+    author: 'Flight Operations Team',
+    tags: ['DJI Flip', 'Buying Guide', 'Camera Drones'],
+    excerpt: `The DJI Flip starts at $559 and reaches $919 as a complete kit. We compare each package, set the Flip against the Neo 2 and Mini 4 Pro, and list the spares to buy with it.`,
+    image: '/images/blog-dji-flip-buying-guide.webp',
+    imageAlt: `DJI Flip with the RC-N3, with the RC 2 and the Fly More Combo with two extra batteries`,
+    relatedProducts: ['dji-flip-dji-rc-n3', 'dji-flip-dji-rc-2', 'dji-flip-fly-more-combo-dji-rc-2', 'dji-flip-intelligent-flight-battery'],
+    content: [
+      `The DJI Flip is the drone people search for when they want to start filming from the air without worrying about the propellers. It is a foldable vlog drone with the guards built in, a 1/1.3-inch camera, 4K video at up to 60 fps and a take-off weight of about 249 g. With thousands of Australians searching for the DJI Flip every month, the most common question is no longer what it is, but which package to buy. There are three, they cost between $559 and $919, and the difference is the controller and the amount of battery power you receive. This guide explains each package, what it includes, who it suits, how the Flip compares with the Neo 2 and the Mini 4 Pro, and which spares are worth adding to the first order.`,
+      { h2: `What you are buying: the DJI Flip at a glance` },
+      `The Flip is built around one idea: a camera drone that feels safe to fly near people, walls and furniture. The propeller guards are part of the aircraft, so there is nothing to clip on or lose. That makes it a natural first drone for vloggers, families and travellers, and a friendlier choice for flying in tight spaces than an open-propeller aircraft.`,
+      { ul: [
+        `**Camera:** 1/1.3-inch CMOS sensor, 48 MP.`,
+        `**Video:** 4K at up to 60 fps.`,
+        `**Weight:** about 249 g with built-in propeller guards.`,
+        `**Flight time:** up to 31 minutes per battery.`,
+        `**Controllers:** the DJI RC-N3, which uses your smartphone as the screen, or the DJI RC 2, which has a 5.5-inch screen built in.`
+      ] },
+      { h2: `Three ways to buy the DJI Flip` },
+      `Every package uses the same aircraft and the same camera. The table shows what each includes and its price in Australian dollars.`,
+      { table: {
+        head: ['Package', 'Controller', 'What is included', 'Price (AUD)'],
+        rows: [
+          ['[DJI Flip (RC-N3)](/product/dji-flip-dji-rc-n3)', 'DJI RC-N3, uses your smartphone', 'Aircraft and controller', '$559'],
+          ['[DJI Flip (RC 2)](/product/dji-flip-dji-rc-2)', 'DJI RC 2 with built-in screen', 'Aircraft and screen controller', '$759'],
+          ['[DJI Flip Fly More Combo (RC 2)](/product/dji-flip-fly-more-combo-dji-rc-2)', 'DJI RC 2 with built-in screen', 'Two additional batteries, charging hub and shoulder bag', '$919']
+        ]
+      } },
+      { h2: `DJI Flip with the RC-N3: the lowest entry price` },
+      `At $559 the [DJI Flip with the RC-N3](/product/dji-flip-dji-rc-n3) is the cheapest way into the Flip. The RC-N3 is a compact controller that holds your smartphone and uses it as the display, which keeps the price and the weight of the kit down. It is a great first camera drone for vloggers, families and travellers who want an easy, safer-feeling aircraft and already own a modern phone. The thing to plan for is battery life. One battery gives up to 31 minutes, which sounds generous until you spend a few of those minutes learning the controls, so most buyers who start here add a spare battery within the first month.`,
+      { h2: `DJI Flip with the RC 2: no phone required` },
+      `The [DJI Flip with the RC 2](/product/dji-flip-dji-rc-2) at $759 adds $200 for the screen controller. The RC 2 has a bright 5.5-inch display built in, so there is no phone to clip on, no app to open on your own device and a faster set-up in the field. That matters more than it sounds when you fly outdoors often, because a phone on a controller can be hard to read in sun and can run flat in the middle of a shoot. Choose this package if you fly regularly and want a bright screen from day one. Our guide to [DJI controllers explained](/blog/dji-controllers-explained-rc-n3-rc-2-rc-pro) compares the RC-N3 and the RC 2 in more detail.`,
+      { h2: `DJI Flip Fly More Combo: the complete kit` },
+      `The [DJI Flip Fly More Combo with the RC 2](/product/dji-flip-fly-more-combo-dji-rc-2) at $919 is the most complete way to buy. It adds two additional Intelligent Flight Batteries, a charging hub and a shoulder bag to the Flip and RC 2. That is $160 more than the RC 2 package, and it gives you three batteries in total, so one outing can cover several flights. It is ideal for vloggers and families who want several flights per outing and a bag to carry it all, and it is the package we recommend to most buyers because the alternative is buying those pieces one at a time.`,
+      { h2: `Which DJI Flip package should you buy?` },
+      { ul: [
+        `**You want the lowest price and will use your phone:** the [Flip with the RC-N3](/product/dji-flip-dji-rc-n3) at $559.`,
+        `**You want a built-in screen:** the [Flip with the RC 2](/product/dji-flip-dji-rc-2) at $759.`,
+        `**You want several flights per outing and a bag:** the [Fly More Combo](/product/dji-flip-fly-more-combo-dji-rc-2) at $919.`
+      ] },
+      `If you cannot decide, work out how long you will fly in a typical outing. If it is more than half an hour, the Fly More Combo is the only package that does not leave you waiting for a charge.`,
+      { h2: `DJI Flip vs DJI Neo 2 vs DJI Mini 4 Pro` },
+      `Three small DJI drones compete for the same buyer, so here is how they differ. The [DJI Neo 2](/product/dji-neo-2-drone-only) is smaller and cheaper, weighing about 151 g and recording 4K at up to 60 fps. The [DJI Mini 4 Pro](/product/dji-mini-4-pro) is the step up for image quality, with a 1/1.3-inch 48 MP camera, up to 34 minutes of flight and a weight under 249 g.`,
+      { table: {
+        head: ['', 'DJI Neo 2', 'DJI Flip', 'DJI Mini 4 Pro'],
+        rows: [
+          ['Weight', 'About 151 g', 'About 249 g', 'Under 249 g'],
+          ['Video', '4K up to 60 fps', '4K up to 60 fps', '4K, 48 MP camera'],
+          ['Flight time', 'See product page', 'Up to 31 min', 'Up to 34 min'],
+          ['Propeller guards', 'See product page', 'Built in', 'Optional guard accessory'],
+          ['Starting price', '[$409](/product/dji-neo-2-drone-only)', '[$559](/product/dji-flip-dji-rc-n3)', '[$949](/product/dji-mini-4-pro)']
+        ]
+      } },
+      `The Flip sits in the middle. Choose the Neo 2 if you want the smallest, lowest-priced aircraft and love flying close to the action. Choose the Mini 4 Pro if image quality and flight time matter most and you are happy to fly without built-in guards. Choose the Flip if you want a proper camera drone with guards that cannot fall off. Our full comparison of the [Neo 2, Flip and Mini 4 Pro](/blog/dji-neo-2-vs-dji-flip-vs-dji-mini-4-pro) goes deeper, and our guide to the [Neo 2 Fly More Combo](/blog/dji-neo-2-fly-more-combo-guide) explains which Neo 2 kit to buy. If your budget stretches, our [Mini 5 Pro buying guide](/blog/buy-dji-mini-5-pro-australia-combos-prices) covers the 1-inch sensor option, and the [Mini 4K and Mini 3 guide](/blog/buy-dji-mini-4k-vs-mini-3-australia-prices) covers the lowest-priced Minis.`,
+      { h2: `What to add: spares worth ordering with your Flip` },
+      `A few small purchases make the first day easier. Every item below is listed for the Flip, so you can order it with the aircraft.`,
+      { ul: [
+        `[DJI Flip Intelligent Flight Battery](/product/dji-flip-intelligent-flight-battery), $99: a spare pack for up to 31 minutes of flight, the first accessory most buyers add.`,
+        `[DJI Flip Parallel Charging Hub](/product/dji-flip-parallel-charging-hub), $69: charges several batteries together, useful if you start with the basic package and add spares.`,
+        `[DJI Flip Propellers](/product/dji-flip-propellers), $19: a spare set keeps the drone flying after a knock.`
+      ] },
+      `You can browse everything for the Flip and the other small models in the [DJI Mini and Air range](/category/camera-drones/dji-mini-and-air) and the [drone batteries category](/category/batteries/drone-batteries). Our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) explains how to look after the packs so they last, and our list of the [best drones for beginners](/blog/best-drones-for-beginners-australia) shows how the Flip fits among the easy options.`,
+      { h2: `Flying a 249 g drone in Australia` },
+      `At about 249 g the Flip is close to the 250 g limit that makes small drones simple to fly, which is one reason the weight is such a selling point. Rules depend on the weight of the aircraft and on whether you fly for fun or for paid work, and they change from time to time. Always confirm the current requirements on the CASA website before your first flight, read our [FAQ on registering a drone and CASA rules](/faq) and keep clear of people, airports and restricted areas. Built-in guards reduce the risk of a collision, but they do not replace careful flying and keeping the aircraft in sight.`,
+      { h2: `Should you buy a new or used Flip?` },
+      `A new Flip arrives with a full warranty, genuine batteries and current firmware. A used one may be cheaper, but a worn battery or a cracked guard can erase the saving quickly, so read our guide to [buying a new or used DJI drone](/blog/buying-a-new-vs-used-dji-drone-australia) before you commit. If you want a drone for paid work rather than a hobby, our [enterprise drone category](/category/enterprise-drones) lists the commercial aircraft.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars, unopened hardware can be returned within 30 days and Australian Consumer Law guarantees apply. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. Use the [order form](/order) to place an order, and we will email your payment details and confirm dispatch. If you are unsure which package suits you, send us a message through the [quote form](/quote) and a specialist will recommend one.`,
+      { faq: [
+        { q: `How much does the DJI Flip cost in Australia?`, a: `The DJI Flip with the RC-N3 is $559, the Flip with the RC 2 is $759 and the Flip Fly More Combo with the RC 2 is $919. All prices are in Australian dollars with free express shipping.` },
+        { q: `Which DJI Flip combo is best?`, a: `For most buyers the Fly More Combo is the best value because it adds two extra batteries, a charging hub and a shoulder bag to the RC 2 package. Choose the RC-N3 version if you want the lowest price and are happy to use your phone as the screen.` },
+        { q: `Does the DJI Flip have propeller guards?`, a: `Yes. The guards are built in, which makes the Flip friendlier around people and objects than an open-propeller drone.` },
+        { q: `How long does the DJI Flip fly?`, a: `Up to 31 minutes per battery. A Fly More Combo gives you three batteries for several flights in a day.` },
+        { q: `Is the DJI Flip better than the DJI Neo 2 or Mini 4 Pro?`, a: `The Neo 2 is smaller and cheaper, the Mini 4 Pro offers more flight time and a higher-end camera, and the Flip adds built-in propeller guards at a price between the two.` }
+      ] }
+    ],
+    targetKeywords: ['dji flip', 'dji flip fly more combo', 'dji flip price', 'dji flip drone']
+  },
+  {
+    id: 'post-24',
+    slug: 'buy-dji-matrice-australia-matrice-4-30-400-compared-by-price',
+    title: `Buy a DJI Matrice in Australia: Matrice 4, Matrice 30 and Matrice 400 Compared by Price and Job`,
+    metaTitle: `Buy a DJI Matrice in Australia: 4, 30 and 400`,
+    metaDescription: `Which DJI Matrice should you buy in Australia? Compare the Matrice 4E, 4T, 30, 30T and 400 with AUD prices, Care bundles, docks and a fast quote.`,
+    subtitle: `Match the aircraft to the job: mapping, thermal, inspection or heavy-lift, with the price of each bundle and what to budget on top.`,
+    date: 'October 2026',
+    dateISO: '2026-10-30',
+    modifiedISO: '2026-10-30',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['DJI Matrice', 'Enterprise Drones', 'Buying Guide'],
+    excerpt: `DJI Matrice aircraft in our range start at $7,395 and reach $18,550. We match the Matrice 4E, 4T, 30, 30T and 400 to the job, price each bundle and explain how to get a fleet quote.`,
+    image: '/images/blog-dji-matrice-buying-guide.webp',
+    imageAlt: `DJI Matrice 4 Enterprise, DJI Matrice 30 and the DJI Matrice 400 enterprise drones`,
+    relatedProducts: ['dji-matrice-4-enterprise', 'dji-matrice-4-thermal', 'dji-matrice-30', 'dji-matrice-400-worry-free-plus-combo'],
+    content: [
+      `Choosing a DJI Matrice is a business decision, not a hobby purchase. The aircraft you buy decides which jobs you can quote for, how long a crew stays in the field and how much you spend on batteries, payloads and cover for the next several years. Searches for the DJI Matrice and for commercial drones in Australia keep growing as utilities, councils, surveyors, emergency services and farms replace manual inspection with aircraft. This guide matches each Matrice in our range to the work it does best, lists the price of every bundle in Australian dollars, shows what to budget on top of the aircraft, and explains how to get a written quote for a fleet.`,
+      { h2: `The DJI Matrice range at a glance` },
+      `Four families cover most commercial work. The Matrice 4 series is the newest and lightest, built for mapping and fast inspection. The Matrice 30 series is the weather-resistant all-rounder. The Matrice 400 is the heavy-lift platform for crews who carry more than one payload. All of them carry cameras and a laser rangefinder, and the thermal versions add a radiometric thermal camera for night and heat work.`,
+      { table: {
+        head: ['Aircraft', 'Best for', 'Flight time', 'Price (AUD)'],
+        rows: [
+          ['[DJI Matrice 4 Enterprise](/product/dji-matrice-4-enterprise)', 'Mapping and fast inspection', 'Up to 49 min', '$7,395'],
+          ['[DJI Matrice 4E Plus Combo](/product/dji-matrice-4e-plus-combo)', 'Mapping with Care Enterprise cover', 'Up to 49 min', '$8,360'],
+          ['[DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal)', 'Thermal, public safety, night work', 'Up to 49 min', '$10,159'],
+          ['[DJI Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', 'Thermal with Care Enterprise cover', 'Up to 49 min', '$11,248'],
+          ['[DJI Matrice 30](/product/dji-matrice-30)', 'IP55 inspection, portable', 'Up to 41 min', '$10,989'],
+          ['[DJI Matrice 30T](/product/dji-matrice-30t)', 'IP55 thermal inspection', 'Up to 41 min', '$14,917'],
+          ['[DJI Matrice 400 Worry-Free Plus Combo](/product/dji-matrice-400-worry-free-plus-combo)', 'Heavy-lift, multi-payload', 'See product page', '$18,550']
+        ]
+      } },
+      { h2: `DJI Matrice 4 series: mapping and thermal in a 1.2 kg airframe` },
+      `The [Matrice 4 Enterprise](/product/dji-matrice-4-enterprise) at $7,395 is built around a 4/3 CMOS wide camera with a mechanical shutter, which matters for mapping because the shutter avoids the distortion that rolling-shutter cameras introduce on a fast pass. Two telephoto cameras and a laser rangefinder sit beside it, and the whole aircraft weighs about 1.2 kg and flies for up to 49 minutes. It is lighter and quicker to deploy than the Matrice 30 series, which makes it the natural choice for surveyors and for emergency teams who need to launch in minutes. If you want it with protection included, the [Matrice 4E Plus Combo](/product/dji-matrice-4e-plus-combo) at $8,360 adds Care Enterprise coverage.`,
+      `The thermal version, the [Matrice 4 Thermal](/product/dji-matrice-4-thermal) at $10,159, adds a 640×512 thermal camera with a sensitivity of 50 mK or better, plus a near-infrared auxiliary light for night work. It suits public safety, search and rescue and inspection crews who work day and night. The [Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo) at $11,248 adds Care Enterprise coverage and extra batteries.`,
+      { h2: `DJI Matrice 30 series: the weather-resistant all-rounder` },
+      `The [Matrice 30](/product/dji-matrice-30) at $10,989 is the aircraft to choose when the weather will not cooperate. It carries an IP55 rating, operates from -20°C to 50°C and folds into a backpack case, with a 12 MP wide camera, a 48 MP zoom camera (5–16× optical) and a laser rangefinder that reaches 1,200 m. Flight time is up to 41 minutes with hot-swappable batteries, and it takes off at about 3.77 kg with batteries. The [Matrice 30T](/product/dji-matrice-30t) at $14,917 adds a 640×512 radiometric thermal camera, which makes it a favourite for firefighting, police, power-line and solar inspection. Both are also sold as Worry-Free combos, covered below.`,
+      { h2: `DJI Matrice 400: heavy-lift for crews with several payloads` },
+      `The [Matrice 400 Worry-Free Plus Combo](/product/dji-matrice-400-worry-free-plus-combo) at $18,550 is DJI's heavy-lift Matrice 400 platform with a Worry-Free Plus bundle and Care coverage. It carries multiple payloads, with dual and third gimbal connectors available, for demanding inspection and survey work. It suits specialist operators and public safety agencies who need more than one sensor on the same flight. If you plan to add a second or third gimbal, budget for the connectors: the [dual gimbal connector](/product/dji-matrice-400-dual-gimbal-connector) is $390 and the [third gimbal connector](/product/dji-matrice-400-third-gimbal-connector) is $230.`,
+      { h2: `Which DJI Matrice for which job?` },
+      { ul: [
+        `**Mapping and surveying:** the Matrice 4 Enterprise or 4E Plus Combo, for the mechanical-shutter wide camera.`,
+        `**Search and rescue, police and fire at night:** the Matrice 4 Thermal or Matrice 30T, for the thermal camera and light.`,
+        `**Inspection in poor weather:** the Matrice 30 or 30T, for IP55 and a wide temperature range.`,
+        `**Multiple sensors on one aircraft:** the Matrice 400, for its heavy-lift capacity and extra gimbal connectors.`,
+        `**Heavy thermal payloads and long-range zoom:** a Matrice 350 RTK with a Zenmuse H30T. Ask us about the aircraft and read our guide to [thermal imaging cameras](/blog/buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras).`
+      ] },
+      { h2: `Worry-Free and Care Enterprise: what the bundles add` },
+      `Enterprise aircraft are expensive to repair, so most commercial buyers choose a bundle with DJI Care Enterprise coverage. The Basic and Plus levels differ in how much they cover, and you should read DJI's terms before you buy. Here is how the bundles are priced.`,
+      { table: {
+        head: ['Bundle', 'Cover', 'Price (AUD)'],
+        rows: [
+          ['[Matrice 30 Worry-Free Basic Combo](/product/matrice-30-worry-free-basic-combo)', 'Care Enterprise Basic', '$10,989'],
+          ['[Matrice 30 Worry-Free Plus Combo](/product/matrice-30-worry-free-plus-combo)', 'Care Enterprise Plus', '$11,363'],
+          ['[Matrice 30T Worry-Free Basic Combo](/product/matrice-30t-worry-free-basic-combo)', 'Care Enterprise Basic', '$14,917'],
+          ['[Matrice 30T Worry-Free Plus Combo](/product/matrice-30t-worry-free-plus-combo)', 'Care Enterprise Plus', '$15,473']
+        ]
+      } },
+      `For the Matrice 30T, the step from Basic to Plus costs $556. For a crew that flies daily, that is a small price for the higher level of cover.`,
+      { h2: `Budget for more than the aircraft` },
+      `The aircraft price is only part of the cost. Commercial crews should plan for batteries, charging, extra payload hardware and training. These items are listed for the Matrice 4 series.`,
+      { ul: [
+        `[DJI Matrice 4 Battery](/product/dji-matrice-4-battery), $280: spare packs keep a crew flying through a shift.`,
+        `[DJI Matrice 4 Series Charging Hub (200W)](/product/dji-matrice-4-series-charging-hub-200w), $140: charges batteries together.`,
+        `[DJI Matrice 4 Obstacle Sensing Module](/product/dji-matrice-4-obstacle-sensing-module), $2,380: added obstacle sensing for demanding sites.`,
+        `[DJI Matrice 4 Series Carrying Case Strap](/product/dji-matrice-4-series-carrying-case-strap), $80: easier transport.`
+      ] },
+      `Our [enterprise accessories category](/category/enterprise-drones/enterprise-accessories) lists everything for the Matrice range, and our [thermal and mapping payloads](/category/cameras-sensors) are in the cameras and sensors category.`,
+      { h2: `Automate it: the DJI Dock 3` },
+      `Once a crew has proven the value of a drone, the next step is often to stop sending a pilot to site. The [DJI Dock 3](/product/dji-dock-3) at $19,999 is an automated dock that launches, lands, charges and houses a compatible Matrice 4D series aircraft for remote operations through DJI FlightHub 2. If you need thermal for night security, the [DJI Dock 3 Thermal Package](/product/dji-dock-3-thermal-package) at $34,278 includes a Matrice 4TD thermal aircraft, Care Enterprise Plus, a speaker and a spotlight. Browse the full [DJI Dock range](/category/enterprise-drones/dji-dock) to compare. These systems are quoted with training and accessories, so use the [quote form](/quote) for fleet pricing.`,
+      { h2: `Rules, training and getting a quote` },
+      `Flying commercially may require CASA accreditation or an operator certificate, depending on the aircraft weight and the work. Check the CASA website, read our [FAQ on registering a drone and CASA rules](/faq) and plan training before the aircraft arrives. For a deeper look at how the Matrice family sits beside the Mavic 3 Enterprise and Phantom 4, read our [enterprise drone guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide), and for the mapping decision, our comparison of [LiDAR and photogrammetry](/blog/lidar-vs-photogrammetry-drone-mapping-australia).`,
+      `Tell us the job, the sites, the number of aircraft and your budget through the [quote form](/quote). We will confirm the right aircraft, bundle and accessories and send a written quotation with the price per unit, warranty, availability and delivery to your location, usually within one business day.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars and Australian Consumer Law guarantees apply. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. Use the [order form](/order) to place an order, and we will email your payment details and confirm dispatch. Browse the whole [enterprise and thermal drone range](/category/enterprise-drones) or the [DJI Matrice range](/category/enterprise-drones/dji-matrice).`,
+      { faq: [
+        { q: `How much does a DJI Matrice cost in Australia?`, a: `In our range, the Matrice 4 Enterprise is $7,395, the Matrice 4 Thermal is $10,159, the Matrice 30 is $10,989, the Matrice 30T is $14,917 and the Matrice 400 Worry-Free Plus Combo is $18,550. All prices are in Australian dollars with free express shipping.` },
+        { q: `Which DJI Matrice is best for thermal work?`, a: `The Matrice 4 Thermal is the lightest and most affordable, with a 640×512 thermal camera and up to 49 minutes of flight. The Matrice 30T adds an IP55 rating for poor weather and up to 41 minutes of flight.` },
+        { q: `What is the difference between Worry-Free Basic and Plus?`, a: `Both bundle DJI Care Enterprise coverage with the aircraft. Plus is the higher level of cover. For the Matrice 30T the Plus bundle is $556 more than the Basic bundle.` },
+        { q: `Can I buy several Matrice drones for a fleet?`, a: `Yes. Send the number of aircraft, the job and your budget through the quote form and we will send a written quotation with unit and total prices, warranty, availability and delivery.` },
+        { q: `Do I need CASA approval to fly a Matrice?`, a: `Commercial flying may require CASA accreditation or an operator certificate, depending on the aircraft weight and the work. Check the CASA website, or ask us for guidance.` }
+      ] }
+    ],
+    targetKeywords: ['dji matrice', 'commercial drones', 'dji matrice 4', 'matrice 30']
+  },
+  {
+    id: 'post-25',
+    slug: 'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras',
+    title: `Buy a Thermal Imaging Camera in Australia: FLIR vs DJI Thermal Cameras for Drones, Compared by Price`,
+    metaTitle: `Buy a Thermal Imaging Camera: FLIR vs DJI Prices`,
+    metaDescription: `Buying a thermal imaging camera in Australia? Compare FLIR and DJI Zenmuse thermal cameras and thermal drones by resolution and AUD price, with a quote.`,
+    subtitle: `What resolution you really need, how FLIR and DJI thermal cameras differ, and when to buy a thermal camera or a whole thermal drone.`,
+    date: 'October 2026',
+    dateISO: '2026-10-30',
+    modifiedISO: '2026-10-30',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['Thermal Imaging', 'FLIR', 'Buying Guide'],
+    excerpt: `Thermal imaging cameras for drones range from $6,999 to $17,335 in our range, and thermal drones from $10,159. We compare FLIR and DJI by resolution, price and use, and explain how to choose.`,
+    image: '/images/blog-thermal-imaging-camera-buying-guide.webp',
+    imageAlt: `DJI Zenmuse H30T thermal camera, FLIR VUE TZ20 thermal camera and the DJI Matrice 30T thermal drone`,
+    relatedProducts: ['dji-zenmuse-h30t', 'flir-vue-tz20', 'dji-mavic-pro-flir-boson-thermal-ninja', 'dji-matrice-4-thermal'],
+    content: [
+      `A thermal imaging camera shows heat instead of light. That single difference lets a crew find a missing person in a paddock at night, spot a failing connector on a power line, locate a leak under a roof or see which solar panels in a row are underperforming. It is why searches for thermal cameras, thermal imaging cameras and FLIR thermal cameras run into the thousands every month in Australia. It is also why buyers get confused, because the same words cover a handheld camera, a payload that bolts under a drone and a complete thermal drone. This guide explains what separates one thermal camera from another, compares the FLIR and DJI options in our range with Australian prices, and shows how to decide between buying a camera for an aircraft you own and buying a complete thermal drone.`,
+      { h2: `How a thermal imaging camera works, in plain terms` },
+      `Every object above absolute zero gives off infrared radiation. A thermal camera measures it with a sensor called a microbolometer and turns the readings into a picture, with warmer areas shown brighter or in colour. Unlike a normal camera it needs no light, so it works at night and through light smoke. It does not see through glass or walls, and it shows surface temperature, so the picture depends on what is in front of the lens. Reading it well is a skill, but choosing one comes down to four numbers.`,
+      { ul: [
+        `**Resolution:** the number of thermal pixels. 640×512 is 327,680 pixels. 1280×1024 is 1,310,720, exactly four times as many.`,
+        `**Sensitivity:** how small a temperature difference the camera can show, quoted in millikelvin (mK). A lower number is better.`,
+        `**Radiometric measurement:** whether the camera reports a temperature for each pixel, which matters for inspection reports.`,
+        `**Lens and zoom:** a wide view finds the problem, and a narrow view or zoom lets you inspect it from a safe distance.`
+      ] },
+      { h2: `Thermal imaging cameras for drones: the options we supply` },
+      `Our range covers three kinds of buyer: crews who already own a compatible aircraft, owners of an older airframe who want to convert it, and teams who want a ready-to-fly thermal drone. The table compares the payloads first.`,
+      { table: {
+        head: ['Thermal camera', 'Thermal sensor', 'Fits', 'Price (AUD)'],
+        rows: [
+          ['[DJI Zenmuse H30T](/product/dji-zenmuse-h30t)', '1280×1024 uncooled VOx, 30 fps', 'Matrice 350 RTK and 300 RTK', '$17,335'],
+          ['[FLIR VUE TZ20](/product/flir-vue-tz20)', 'Dual FLIR Boson 640×512, 12 µm', 'DJI Matrice 200 series and Matrice 300', '$11,700'],
+          ['[DJI Mavic Pro FLIR Boson Thermal Ninja](/product/dji-mavic-pro-flir-boson-thermal-ninja)', 'FLIR Boson core, 12 µm VOx', 'Conversion for the DJI Mavic Pro', '$6,999']
+        ]
+      } },
+      { h2: `DJI Zenmuse H30T: the highest-resolution option` },
+      `The [Zenmuse H30T](/product/dji-zenmuse-h30t) at $17,335 is the highest-resolution thermal option in the Zenmuse H series. Its 1280×1024 thermal sensor records at 30 fps and measures from -20°C to 1,600°C, and the same gimbal carries a 48 MP wide camera, a 40 MP zoom camera with 34× optical zoom and a laser rangefinder that reaches 3,000 m. A near-infrared auxiliary light helps in low light. It weighs 920 g and is designed for the Matrice 350 RTK and 300 RTK. This is the payload for long-range thermal inspection, search and rescue and fire support, where a bigger sensor shows detail from a greater distance. If you want the same gimbal without the thermal sensor, the [Zenmuse H30](/product/dji-zenmuse-h30) is $8,495, and the [H30T infrared density filter](/product/zenmuse-h30t-infrared-density-filter) at $230 is an accessory for hot targets.`,
+      { h2: `FLIR VUE TZ20: two thermal views in one gimbal` },
+      `The [FLIR VUE TZ20](/product/flir-vue-tz20) at $11,700 is built around two FLIR Boson 640×512 thermal sensors with 12 µm pixels. One gives a wide 95° view and the other a narrow 18° view, with 5× optical zoom and 4× digital zoom, so an operator can scan wide and then zoom without changing payloads. It weighs about 640 g, carries an IP44 rating and fits the DJI Matrice 200 series and Matrice 300. It is a trusted choice for firefighting and public safety teams who want two thermal views in one gimbal. The radiometric version is the TZ20-R, so ask us for details if you need temperature measurement.`,
+      { h2: `FLIR Boson conversion: thermal on a small airframe` },
+      `The [DJI Mavic Pro FLIR Boson Thermal Ninja](/product/dji-mavic-pro-flir-boson-thermal-ninja) at $6,999 turns a DJI Mavic Pro into a thermal drone using a FLIR Boson core. It is a compact, lower-cost way to add thermal to a small, familiar platform, and it suits inspectors, roofers and researchers. The Boson resolution and lens options are confirmed on request, so contact us before you buy to make sure the specification matches your job.`,
+      { h2: `Or buy the whole thing: thermal drones with the camera built in` },
+      `If you do not own a compatible aircraft, buying a complete thermal drone is often cheaper and simpler than buying a payload and an aircraft separately. The thermal camera is integrated, calibrated and covered by one warranty.`,
+      { table: {
+        head: ['Thermal drone', 'Thermal sensor', 'Flight time', 'Price (AUD)'],
+        rows: [
+          ['[DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal)', '640×512, 12 µm, 50 mK or better', 'Up to 49 min', '$10,159'],
+          ['[DJI Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', '640×512 with Care Enterprise cover', 'Up to 49 min', '$11,248'],
+          ['[DJI Matrice 30T](/product/dji-matrice-30t)', '640×512 radiometric, IP55', 'Up to 41 min', '$14,917'],
+          ['[DJI Dock 3 Thermal Package](/product/dji-dock-3-thermal-package)', 'Matrice 4TD thermal with automated dock', 'See product page', '$34,278'],
+          ['[FLIR ION M440 Tactical Drone](/product/flir-ion-m440-tactical-drone)', 'FLIR Boson 320 thermal, dual 12 MP visible', 'About 35 min', '$27,500']
+        ]
+      } },
+      `Notice what the first row tells you. The Matrice 4 Thermal, at $10,159, includes the aircraft, a 640×512 thermal camera, three visual cameras and a laser rangefinder. A thermal payload alone, such as the Zenmuse H30T, costs $17,335 before you buy an aircraft to carry it. For most crews the complete thermal drone is the better first purchase, and the payload route makes sense when you already own the aircraft or need the extra resolution.`,
+      { h2: `How much resolution do you need?` },
+      `The right resolution depends on how far you are from the target and how small the fault is. Here is a practical guide.`,
+      { ul: [
+        `**Searching for people, animals or vehicles:** 640×512 is enough for most crews, because the target is large and warm against its background.`,
+        `**Roofs, solar panels and building envelopes:** 640×512 works at close range, and a higher resolution lets you fly higher and cover more ground.`,
+        `**Power-line hardware and substations:** the extra detail of a 1280×1024 sensor such as the H30T helps you identify a hot connector from a safe distance.`,
+        `**Industrial and firefighting work:** look for radiometric measurement and a wide temperature range.`
+      ] },
+      `As a rule, pay for resolution only if distance is part of the job. If you can fly close to the target, a 640×512 camera does the work at a much lower price. Our [thermal drones guide](/blog/thermal-drones-australia-guide) walks through the selection process step by step.`,
+      { h2: `Buy or hire a thermal camera?` },
+      `Thermal camera hire is a common search because a one-off job does not always justify a purchase. The decision is simple arithmetic. Divide the purchase price by your hire day rate to find the number of days at which buying becomes cheaper. If you expect to work more days than that within the life of the equipment, buy. If you work a handful of days a year, hiring costs less. Buying also gives you control over scheduling, the ability to respond to urgent jobs and a camera you can learn deeply, which usually improves your results. If you would rather compare the cost of a camera and a whole drone before you decide, use the [quote form](/quote) and we will price both.`,
+      { h2: `Thermal camera or thermal drone? A short decision guide` },
+      { ul: [
+        `**You already own a Matrice 350 RTK or 300 RTK:** buy the [Zenmuse H30T](/product/dji-zenmuse-h30t).`,
+        `**You own a Matrice 200 series or 300:** consider the [FLIR VUE TZ20](/product/flir-vue-tz20).`,
+        `**You own a Mavic Pro and want thermal cheaply:** the [Boson Thermal Ninja](/product/dji-mavic-pro-flir-boson-thermal-ninja).`,
+        `**You own nothing yet:** the [Matrice 4 Thermal](/product/dji-matrice-4-thermal) or [Matrice 30T](/product/dji-matrice-30t).`,
+        `**You need around-the-clock automation:** the [Dock 3 Thermal Package](/product/dji-dock-3-thermal-package).`
+      ] },
+      `Our guide to [choosing between a thermal camera and a thermal drone](/blog/thermal-camera-vs-thermal-drone-infrared-inspections) explains this decision in more depth, and our guide to [buying a drone heat camera](/blog/buy-drone-heat-camera-australia-thermal-drones-payloads) compares more aircraft. For the full line-up of aircraft, read our guide to [buying a DJI Matrice](/blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price).`,
+      { h2: `Rules, training and warranty` },
+      `Flying a thermal drone commercially may require CASA accreditation or an operator certificate, depending on the aircraft weight and the work. Check the CASA website and read our [FAQ on registering a drone and CASA rules](/faq). Thermal interpretation also needs training, because a wrong reading can send a crew to the wrong place. Every product is genuine Australian stock backed by manufacturer warranty and Australian Consumer Law guarantees, and the Care Enterprise bundles protect the aircraft itself.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. Use the [order form](/order) to place an order, or tell us the job, the aircraft you own and your budget through the [quote form](/quote) and a specialist will confirm the right thermal camera or drone. Browse the full [thermal camera range](/category/cameras-sensors/thermal-cameras), the [Zenmuse camera range](/category/cameras-sensors/dji-zenmuse-cameras) and the [Autel and FLIR drones](/category/enterprise-drones/autel-and-flir-drones).`,
+      { faq: [
+        { q: `How much does a thermal imaging camera for a drone cost in Australia?`, a: `In our range, the FLIR Boson conversion for the Mavic Pro is $6,999, the FLIR VUE TZ20 is $11,700 and the DJI Zenmuse H30T is $17,335. Complete thermal drones start at $10,159 for the Matrice 4 Thermal. All prices are in Australian dollars.` },
+        { q: `Is FLIR or DJI better for thermal imaging?`, a: `Neither is better for every job. DJI offers the higher-resolution sensor in the Zenmuse H30T at 1280×1024 and integrates tightly with the Matrice aircraft. FLIR offers dual 640×512 Boson sensors in the VUE TZ20 for wide and narrow views, and conversion options for older airframes.` },
+        { q: `What resolution thermal camera do I need?`, a: `A 640×512 sensor is enough for most search, rescue and close-range inspection. Choose 1280×1024 when you need to identify small faults from a distance.` },
+        { q: `Should I buy a thermal camera or a thermal drone?`, a: `If you already own a compatible aircraft, buy the camera. If not, a complete thermal drone such as the Matrice 4 Thermal usually costs less than a payload plus an aircraft.` },
+        { q: `Can I hire a thermal camera instead of buying?`, a: `Hiring suits a few days of work a year. Divide the purchase price by the hire day rate to find the point at which buying becomes cheaper.` }
+      ] }
+    ],
+    targetKeywords: ['thermal imaging camera', 'thermal camera', 'flir thermal cameras', 'infrared camera']
   }
 ];

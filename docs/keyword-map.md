@@ -839,3 +839,14 @@ Three more 1,800 to 2,000 word buying guides on keywords not yet used. All price
 | /blog/buy-dji-air-3s-australia-combos-vs-air-3 | air 3s (320); dji air 3 drone; dji air 3s accessories; dji air 3s vs mini 5 pro |
 | /blog/buy-dji-mini-4k-vs-mini-3-australia-prices | dji mini 4k drone (2,400); dji mini 3 vs mini 4k (140); dji mini 3 review (140); dj1 mini 4k drone (140) |
 | /blog/buy-fpv-goggles-australia-dji-goggles-3-vs-n3 | fpv goggles (320); dji o4 air unit pro (260); dji fpv controller (140); dji goggles 3 vs n3 |
+
+
+## Commercial buying guides, batch 3 (30 Oct 2026)
+
+Three more 1,900 to 2,300 word buying guides aimed at sales and quote leads. All prices and specifications come from the product data (Matrice 350 RTK and Dock 4 are not in the catalogue and are not priced in posts).
+
+| Post | Primary / supporting keywords (monthly AU volume) |
+|---|---|
+| /blog/buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro | dji flip (2,900); dji flip fly more combo; dji flip price |
+| /blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price | dji matrice (390); commercial drones (260); dji matrice 4; matrice 30 |
+| /blog/buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras | thermal camera (5,400); thermal imaging camera (2,400); flir (1,300); infrared camera (1,000); flir thermal cameras (880) |

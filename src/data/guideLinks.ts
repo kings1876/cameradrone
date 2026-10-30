@@ -18,10 +18,12 @@ const BY_CATEGORY: Record<string, string[]> = {
     'dji-avata-360-vs-avata-2-fpv-drone-guide',
     'buy-dji-air-3s-australia-combos-vs-air-3',
     'buy-dji-mini-4k-vs-mini-3-australia-prices',
+    'buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro',
     'best-drones-for-real-estate-and-aerial-photography',
     'best-drone-for-sale-australia-2026-buyers-guide'
   ],
   'enterprise-drones': [
+    'buy-dji-matrice-australia-matrice-4-30-400-compared-by-price',
     'thermal-drones-australia-guide',
     'enterprise-drones-matrice-mavic-3-enterprise-guide',
     'thermal-camera-vs-thermal-drone-infrared-inspections',
@@ -29,6 +31,7 @@ const BY_CATEGORY: Record<string, string[]> = {
     'waterproof-drones-ip-ratings-explained'
   ],
   'cameras-sensors': [
+    'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras',
     'thermal-drones-australia-guide',
     'thermal-camera-vs-thermal-drone-infrared-inspections',
     'lidar-vs-photogrammetry-drone-mapping-australia',
@@ -48,9 +51,9 @@ const BY_CATEGORY: Record<string, string[]> = {
 };
 
 const BY_SUBCATEGORY: Record<string, string[]> = {
-  'Thermal Cameras': ['thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
+  'Thermal Cameras': ['buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras', 'thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
   'LiDAR Sensors': ['lidar-vs-photogrammetry-drone-mapping-australia', 'thermal-drones-australia-guide'],
-  'DJI Dock': ['thermal-drones-australia-guide', 'enterprise-drones-matrice-mavic-3-enterprise-guide'],
+  'DJI Dock': ['buy-dji-matrice-australia-matrice-4-30-400-compared-by-price', 'thermal-drones-australia-guide', 'enterprise-drones-matrice-mavic-3-enterprise-guide'],
   'Multispectral Cameras': ['agricultural-drones-weed-control-seeding-crop-monitoring', 'agricultural-spraying-drones-australia-guide']
 };
 
