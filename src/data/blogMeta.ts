@@ -3,6 +3,62 @@ import { BlogSummary } from '../types';
 
 export const BLOG_SUMMARIES: BlogSummary[] = [
   {
+    "id": "post-26",
+    "slug": "do-i-need-to-register-a-drone-in-australia-casa-rules",
+    "title": "Do You Need to Register a Drone in Australia? CASA Rules, Accreditation and Where You Can Fly",
+    "metaTitle": "Register a Drone in Australia: CASA Rules Explained",
+    "metaDescription": "Do you need to register a drone in Australia? Plain-English CASA rules for hobby and work flying, the 250 g limit, accreditation, height, airports and people.",
+    "subtitle": "A plain-English guide to when you must register, when you need accreditation or a licence, and the rules every pilot follows.",
+    "date": "October 2026",
+    "dateISO": "2026-10-31",
+    "modifiedISO": "2026-10-31",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "CASA Rules",
+      "Drone Registration",
+      "Beginner Guide"
+    ],
+    "excerpt": "Flying for fun needs no registration. Flying for work does, at any weight. This guide explains the 250 g line, accreditation, the standard flying rules and how to choose a drone that fits.",
+    "image": "/images/blog-register-drone-australia-guide.webp",
+    "imageAlt": "DJI Mini 5 Pro, DJI Flip and DJI Air 3S drones, shown as examples of light and heavier aircraft",
+    "relatedProducts": [
+      "dji-mini-5-pro-dji-rc-n3",
+      "dji-flip-dji-rc-n3",
+      "dji-air-3s-dji-rc-n3",
+      "dji-mini-4k"
+    ],
+    "targetKeywords": [
+      "register drone australia",
+      "registering drones",
+      "register drones",
+      "register drone"
+    ],
+    "wordCount": 1838,
+    "faq": [
+      {
+        "q": "Do I need to register my drone in Australia?",
+        "a": "Not for flying purely for fun, at any weight, under the rules CASA currently applies. If you fly at or for work, you must register the drone whatever its weight. Check casa.gov.au for the current requirements and fees."
+      },
+      {
+        "q": "Do I need a licence to fly a drone in Australia?",
+        "a": "Not for hobby flying. For work, you need an operator accreditation or a remote pilot licence, depending on the aircraft and the work. Operator accreditation is free, online and valid for three years, and you must be 16 or older."
+      },
+      {
+        "q": "Can I fly a drone under 250 g anywhere?",
+        "a": "No. The standard operating conditions still apply: stay under 120 m, keep the drone in sight, stay 30 m from people and out of restricted areas. Near airports, lighter drones get more room but still have limits."
+      },
+      {
+        "q": "How high can I fly my drone in Australia?",
+        "a": "The limit is 120 m (400 ft) above the ground."
+      },
+      {
+        "q": "Does a bigger battery change the weight class?",
+        "a": "Yes. On aircraft such as the Mini 5 Pro, the larger Plus battery makes the drone heavier than 250 g, so check the weight with the battery you actually fly."
+      }
+    ]
+  },
+  {
     "id": "post-23",
     "slug": "buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro",
     "title": "Buy the DJI Flip in Australia: Which Combo to Choose, What It Costs and How It Compares",

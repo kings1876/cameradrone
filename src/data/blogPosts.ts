@@ -1827,5 +1827,99 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['thermal imaging camera', 'thermal camera', 'flir thermal cameras', 'infrared camera']
+  },
+  {
+    id: 'post-26',
+    slug: 'do-i-need-to-register-a-drone-in-australia-casa-rules',
+    title: `Do You Need to Register a Drone in Australia? CASA Rules, Accreditation and Where You Can Fly`,
+    metaTitle: `Register a Drone in Australia: CASA Rules Explained`,
+    metaDescription: `Do you need to register a drone in Australia? Plain-English CASA rules for hobby and work flying, the 250 g limit, accreditation, height, airports and people.`,
+    subtitle: `A plain-English guide to when you must register, when you need accreditation or a licence, and the rules every pilot follows.`,
+    date: 'October 2026',
+    dateISO: '2026-10-31',
+    modifiedISO: '2026-10-31',
+    readTime: '9 min read',
+    author: 'Flight Operations Team',
+    tags: ['CASA Rules', 'Drone Registration', 'Beginner Guide'],
+    excerpt: `Flying for fun needs no registration. Flying for work does, at any weight. This guide explains the 250 g line, accreditation, the standard flying rules and how to choose a drone that fits.`,
+    image: '/images/blog-register-drone-australia-guide.webp',
+    imageAlt: `DJI Mini 5 Pro, DJI Flip and DJI Air 3S drones, shown as examples of light and heavier aircraft`,
+    relatedProducts: ['dji-mini-5-pro-dji-rc-n3', 'dji-flip-dji-rc-n3', 'dji-air-3s-dji-rc-n3', 'dji-mini-4k'],
+    content: [
+      `Almost every new drone owner asks the same question before the first flight: do I need to register this thing? The honest answer is that it depends on why you are flying, not only on the drone. Searches for how to register a drone in Australia are rising because the rules changed over the last few years, the recreational registration scheme was announced and then paused, and a lot of older advice online is out of date. This guide explains, in plain English, when registration applies, when accreditation or a licence applies, what the 250 g weight line really means, which rules every pilot follows whatever the weight, and how to choose a drone that fits the way you want to fly. It is general information based on the Civil Aviation Safety Authority (CASA) guidance available when we wrote it. Rules change, so always check casa.gov.au before you fly.`,
+      { h2: `The short answer: hobby flying vs flying for work` },
+      `The deciding question is whether you fly for fun or for work. Flying for fun, as a hobby, does not currently require registration, a licence or accreditation, including for drones under 250 g. The Australian Government decided to pause the planned registration scheme for recreational drones over 250 g, and the recreational accreditation scheme was paused with it. Flying at or for work is different. If you use a drone in a business, you need to register the drone whatever it weighs, and you need an operator accreditation or a remote pilot licence. The table summarises it.`,
+      { table: {
+        head: ['Situation', 'Register the drone?', 'Accreditation or licence?'],
+        rows: [
+          ['Flying for fun, any weight', 'No, not currently', 'No, not currently'],
+          ['Flying for work, micro drone (250 g or less)', 'Yes', 'Operator accreditation or a remote pilot licence'],
+          ['Flying for work, heavier drone', 'Yes', 'Depends on the weight and the work: accreditation, a remote pilot licence or an operator certificate'],
+          ['Any flying, any weight', 'Not applicable', 'Standard operating conditions always apply']
+        ]
+      } },
+      `CASA says operator accreditation is free, online and valid for three years, and you must be 16 or older to hold it. Registration fees and renewal periods depend on the weight of the drone, so check CASA's registration page for the current figures rather than relying on an old article. If you are not sure which side of the line you are on, our [FAQ on CASA rules and registration](/faq) is a good first stop, and you can ask us through the [quote form](/quote).`,
+      { h2: `What the 250 g line actually means` },
+      `The 250 g figure is the weight that separates a micro drone from a heavier one. A micro drone is simpler in several ways, which is why light aircraft sell so well to beginners and travellers. The weight that counts is the take-off weight, with the battery fitted, so a lighter battery or a heavier one can change which side of the line the aircraft sits on. Here is how some popular aircraft in our range compare, using the weights from their product pages.`,
+      { table: {
+        head: ['Drone', 'Take-off weight', 'Side of the 250 g line', 'Price (AUD)'],
+        rows: [
+          ['[DJI Neo 2](/product/dji-neo-2-drone-only)', 'About 151 g', 'Under 250 g', '$409'],
+          ['[DJI Mini 4K](/product/dji-mini-4k)', 'Under 250 g', 'Under 250 g', '$449'],
+          ['[DJI Mini 3](/product/dji-mini-3-dji-rc-n1)', 'Under 249 g', 'Under 250 g', '$509'],
+          ['[DJI Flip](/product/dji-flip-dji-rc-n3)', 'About 249 g', 'Just under 250 g', '$559'],
+          ['[DJI Mini 5 Pro](/product/dji-mini-5-pro-dji-rc-n3)', 'Under 250 g with the standard battery', 'Under 250 g', '$1,119'],
+          ['[DJI Avata 2](/product/dji-avata-2-drone-only)', 'About 377 g', 'Over 250 g', '$649'],
+          ['[DJI Air 3S](/product/dji-air-3s-dji-rc-n3)', 'About 724 g', 'Over 250 g', '$1,699'],
+          ['[DJI Matrice 4 Enterprise](/product/dji-matrice-4-enterprise)', '1,219 g', 'Over 250 g', '$7,395']
+        ]
+      } },
+      `Notice the footnote on the Mini 5 Pro. The standard battery keeps it under 250 g, but the larger Plus battery makes the aircraft heavier than 250 g. The same is true for the Mini 3 and Mini 4 Pro, where the Plus battery adds weight. If staying under the line matters to you, buy the standard battery and read our guides to the [Mini 5 Pro](/blog/buy-dji-mini-5-pro-australia-combos-prices) and the [Mini 4K and Mini 3](/blog/buy-dji-mini-4k-vs-mini-3-australia-prices).`,
+      { h2: `The standard operating conditions every pilot follows` },
+      `Whatever the weight, and whether you fly for fun or for work, CASA's standard operating conditions apply. They are the baseline rules for micro and excluded category flying, and they are short enough to memorise.`,
+      { ul: [
+        `**Height:** stay at or below 120 m (400 ft) above the ground.`,
+        `**Line of sight:** keep the drone within visual line of sight at all times, which means you can see it with your own eyes and not only on a screen.`,
+        `**People:** keep at least 30 m away from people who are not part of your flight, and never fly over anyone.`,
+        `**Populous areas:** do not fly over crowded or populous areas, such as a beach, a sports ground or a festival.`,
+        `**One at a time:** fly only one drone at a time.`,
+        `**Restricted areas:** do not fly in prohibited or restricted airspace, or interfere with an emergency or public safety operation.`
+      ] },
+      `Our [flight rules answer in the FAQ](/faq) covers the same list in short form. Built-in guards help protect people, but they do not change the rules, so a drone like the [DJI Flip](/product/dji-flip-dji-rc-n3) still has to stay 30 m from people.`,
+      { h2: `Flying near airports and helipads` },
+      `Airspace is where beginners get into the most trouble, because you cannot see it. For drones heavier than 250 g, CASA says you must not fly within 5.5 km of a controlled aerodrome, or in the approach and departure paths of a runway. For drones of 250 g or less, there is more room: you may fly up to 45 m above the ground within 5.5 km of an aerodrome, but not inside the aerodrome boundary, not in the approach and departure paths, and not in a way that creates a collision hazard. At aerodromes without a control tower, the rule is about awareness: if you become aware of an aircraft, you must not launch, or you must move the drone away from the aircraft's path and land as soon as possible. Use a map of controlled airspace before every new location, and never assume a quiet field is a safe one.`,
+      { h2: `When you fly for work: what changes` },
+      `Using a drone to earn money turns a hobby into an operation, and the rules follow. Photographers who sell aerial images, real estate agents who shoot listings, farmers who spray their own crops for a fee, roof inspectors and surveyors all count as flying for work, and the registration and accreditation requirements apply. Heavier aircraft and more complex tasks, such as flying near people or beyond line of sight, may need a remote pilot licence or an operator certificate. Check CASA's weight categories page for your aircraft, and plan training before the aircraft arrives, not after.`,
+      `Choosing the right tool for the job also affects the rules you work under. Our guides explain the options for common commercial work: the [best drones for real estate and aerial photography](/blog/best-drones-for-real-estate-and-aerial-photography), the [enterprise drone guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide), [buying a DJI Matrice](/blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price) and the [agricultural spraying guide](/blog/agricultural-spraying-drones-australia-guide). If you are unsure which aircraft and training path suits your business, send the details through the [quote form](/quote) and a specialist will help.`,
+      { h2: `Five myths about drone rules` },
+      { ul: [
+        `**"Under 250 g means no rules."** Wrong. The standard operating conditions still apply, and flying for work still needs registration and accreditation.`,
+        `**"My drone has guards, so it is safe over people."** Wrong. You still must not fly over people and must keep 30 m away.`,
+        `**"The screen is enough to keep it in sight."** Wrong. Visual line of sight means you can see the drone with your own eyes.`,
+        `**"No one will notice a hobby flight near an airport."** Wrong. Airspace rules protect passenger aircraft, and breaking them can carry serious penalties.`,
+        `**"A used drone has no rules attached."** Wrong. The rules follow the pilot and the weight, not the age of the aircraft. Read our guide to [buying a new or used DJI drone](/blog/buying-a-new-vs-used-dji-drone-australia) before you buy second-hand.`
+      ] },
+      { h2: `A pre-flight checklist for new pilots` },
+      { ul: [
+        `Check whether you are flying for fun or for work, and register or accredit first if it is for work.`,
+        `Look at a map of controlled airspace and restricted areas for your location.`,
+        `Check the weather, the wind and your battery levels. Our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) explains how to keep packs healthy.`,
+        `Walk the site and note people, roads, power lines and trees.`,
+        `Set your return-to-home height above the tallest obstacle, and keep the aircraft in sight.`,
+        `Fly in a clear space for the first few flights. Our list of the [best drones for beginners](/blog/best-drones-for-beginners-australia) shows the easiest aircraft to learn on.`
+      ] },
+      { h2: `Choosing a drone that fits the rules you want to fly under` },
+      `If you want the simplest hobby flying, a light aircraft keeps life easy. The [Neo 2](/product/dji-neo-2-drone-only), [Mini 4K](/product/dji-mini-4k) and [Mini 3](/product/dji-mini-3-dji-rc-n1) are the lowest-priced under-250 g options, and the [Flip](/blog/buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro) adds built-in guards at about 249 g. If you want more camera and flight time and are happy to fly a heavier aircraft, the [Air 3S](/blog/buy-dji-air-3s-australia-combos-vs-air-3) is the step up. You can compare the whole range in the [DJI Mini and Air category](/category/camera-drones/dji-mini-and-air) or browse every [camera drone](/category/camera-drones). For commercial buyers, our [enterprise drone category](/category/enterprise-drones) lists the aircraft built for work.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars, unopened hardware can be returned within 30 days and Australian Consumer Law guarantees apply. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. Use the [order form](/order) to place an order, or ask a question through the [contact page](/contact) or the [quote form](/quote) and a specialist will help you choose an aircraft that suits how you plan to fly.`,
+      { faq: [
+        { q: `Do I need to register my drone in Australia?`, a: `Not for flying purely for fun, at any weight, under the rules CASA currently applies. If you fly at or for work, you must register the drone whatever its weight. Check casa.gov.au for the current requirements and fees.` },
+        { q: `Do I need a licence to fly a drone in Australia?`, a: `Not for hobby flying. For work, you need an operator accreditation or a remote pilot licence, depending on the aircraft and the work. Operator accreditation is free, online and valid for three years, and you must be 16 or older.` },
+        { q: `Can I fly a drone under 250 g anywhere?`, a: `No. The standard operating conditions still apply: stay under 120 m, keep the drone in sight, stay 30 m from people and out of restricted areas. Near airports, lighter drones get more room but still have limits.` },
+        { q: `How high can I fly my drone in Australia?`, a: `The limit is 120 m (400 ft) above the ground.` },
+        { q: `Does a bigger battery change the weight class?`, a: `Yes. On aircraft such as the Mini 5 Pro, the larger Plus battery makes the drone heavier than 250 g, so check the weight with the battery you actually fly.` }
+      ] }
+    ],
+    targetKeywords: ['register drone australia', 'registering drones', 'register drones', 'register drone']
   }
 ];

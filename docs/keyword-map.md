@@ -850,3 +850,12 @@ Three more 1,900 to 2,300 word buying guides aimed at sales and quote leads. All
 | /blog/buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro | dji flip (2,900); dji flip fly more combo; dji flip price |
 | /blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price | dji matrice (390); commercial drones (260); dji matrice 4; matrice 30 |
 | /blog/buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras | thermal camera (5,400); thermal imaging camera (2,400); flir (1,300); infrared camera (1,000); flir thermal cameras (880) |
+
+
+## Informational guide (31 Oct 2026)
+
+One informational guide for trust, beginner traffic and quote leads. CASA rules were checked against CASA guidance on 31 Oct 2026 and the post tells readers to confirm on casa.gov.au.
+
+| Post | Primary / supporting keywords (monthly AU volume) |
+|---|---|
+| /blog/do-i-need-to-register-a-drone-in-australia-casa-rules | register drone australia (110); registering drones (110); register drones (110); register drone (110) |

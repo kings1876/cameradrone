@@ -4,6 +4,7 @@ import { BLOG_POSTS } from './content';
 
 const HOME = [
   'best-drone-for-sale-australia-2026-buyers-guide',
+  'do-i-need-to-register-a-drone-in-australia-casa-rules',
   'thermal-drones-australia-guide',
   'agricultural-drones-weed-control-seeding-crop-monitoring',
   'best-drones-for-beginners-australia',
@@ -19,6 +20,7 @@ const BY_CATEGORY: Record<string, string[]> = {
     'buy-dji-air-3s-australia-combos-vs-air-3',
     'buy-dji-mini-4k-vs-mini-3-australia-prices',
     'buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro',
+    'do-i-need-to-register-a-drone-in-australia-casa-rules',
     'best-drones-for-real-estate-and-aerial-photography',
     'best-drone-for-sale-australia-2026-buyers-guide'
   ],
