@@ -1921,5 +1921,183 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['register drone australia', 'registering drones', 'register drones', 'register drone']
+  },
+  {
+    id: 'post-27',
+    slug: 'buy-dji-mini-4-pro-australia-combos-batteries-accessories',
+    title: `Buy the DJI Mini 4 Pro in Australia: Price, Combos, Batteries and Accessories Compared`,
+    metaTitle: `Buy DJI Mini 4 Pro Australia: Price, Combos, Batteries`,
+    metaDescription: `Buying the DJI Mini 4 Pro in Australia? Compare the four packages, battery and Plus battery prices, accessories and the Mini 5 Pro, with free express shipping.`,
+    subtitle: `Four ways to buy the sub-249 g camera drone, what each costs, which battery to choose and the accessories worth adding.`,
+    date: 'November 2026',
+    dateISO: '2026-11-02',
+    modifiedISO: '2026-11-02',
+    readTime: '9 min read',
+    author: 'Flight Operations Team',
+    tags: ['DJI Mini 4 Pro', 'Buying Guide', 'Camera Drones'],
+    excerpt: `The DJI Mini 4 Pro starts at $949 and reaches $1,529 with the Plus battery kit. We compare the four packages, the batteries and the accessories, and set it against the Mini 5 Pro.`,
+    image: '/images/blog-dji-mini-4-pro-buying-guide.webp',
+    imageAlt: `DJI Mini 4 Pro, the Mini 4 Pro Fly More Combo and a Mini 4 Pro battery`,
+    relatedProducts: ['dji-mini-4-pro', 'dji-mini-4-pro-rc-2', 'dji-mini-4-pro-fly-more-combo', 'dji-mini-4-pro-intelligent-flight-battery'],
+    content: [
+      `The DJI Mini 4 Pro is the drone many Australians land on when they want a serious camera in an aircraft that stays under 249 g. It has a 1/1.3-inch 48 MP camera, 4K video at up to 100 fps, omnidirectional obstacle sensing and up to 34 minutes of flight on the standard battery. Search for the DJI Mini 4 Pro price in Australia and you will find one aircraft sold in four different packages, plus a long list of batteries and add-ons, which makes it hard to know what you actually need. This guide explains each package and what it costs, the difference between the standard and Plus batteries, the accessories worth buying on day one, and how the Mini 4 Pro compares with the Mini 5 Pro and the older Minis.`,
+      { h2: `The DJI Mini 4 Pro at a glance` },
+      `Every package uses the same aircraft, so the camera and the flight performance are identical whichever you choose. What changes is the controller and the amount of battery power in the box.`,
+      { ul: [
+        `**Camera:** 1/1.3-inch CMOS sensor, 48 MP.`,
+        `**Video:** 4K up to 100 fps, with 10-bit D-Log M and HLG for colour grading.`,
+        `**Weight:** under 249 g with the standard battery.`,
+        `**Flight time:** up to 34 minutes on the standard battery, up to 45 minutes with the Plus battery.`,
+        `**Sensing:** omnidirectional obstacle sensing.`,
+        `**Transmission:** DJI O4, up to 20 km (FCC) or 10 km (CE).`
+      ] },
+      { h2: `Four ways to buy the DJI Mini 4 Pro` },
+      `The table shows each package and its price in Australian dollars. Click a package to see exactly what is in the box.`,
+      { table: {
+        head: ['Package', 'What it adds', 'Price (AUD)'],
+        rows: [
+          ['[DJI Mini 4 Pro](/product/dji-mini-4-pro)', 'The aircraft with the standard battery', '$949'],
+          ['[DJI Mini 4 Pro with RC 2](/product/dji-mini-4-pro-rc-2)', 'The DJI RC 2 screen controller, so no phone is needed', '$1,209'],
+          ['[DJI Mini 4 Pro Fly More Combo](/product/dji-mini-4-pro-fly-more-combo)', 'Three batteries, a two-way charging hub and a shoulder bag', '$1,449'],
+          ['[DJI Mini 4 Pro Fly More Combo Plus](/product/dji-mini-4-pro-fly-more-combo-plus)', 'The Plus battery for up to 45 minutes, extra batteries, hub and bag', '$1,529']
+        ]
+      } },
+      { h2: `DJI Mini 4 Pro: the lowest entry price` },
+      `At $949 the [DJI Mini 4 Pro](/product/dji-mini-4-pro) is the cheapest way to own this camera. It is the right choice if you want the aircraft itself, already own a compatible controller, or plan to add batteries as you go. It suits travel, real estate and social creators who want 4K at 100 fps and obstacle sensing without a heavy aircraft. The catch is the same as with every small drone: one battery gives up to 34 minutes, and the first few minutes of any outing go on checking the area and the settings, so most buyers who start here order a spare battery within a few weeks.`,
+      { h2: `DJI Mini 4 Pro with RC 2: no phone required` },
+      `The [Mini 4 Pro with the RC 2](/product/dji-mini-4-pro-rc-2) costs $1,209, which is $260 more than the aircraft package. The [DJI RC 2](/product/dji-rc-2-remote-controller) has a 5.5-inch 1080p screen with 700 nits of brightness, so you fly without a phone clipped to the sticks, the picture stays readable in sunlight and set-up is quicker. Choose it if you fly outdoors often. Our guide to [DJI controllers explained](/blog/dji-controllers-explained-rc-n3-rc-2-rc-pro) compares the RC 2 with the phone-based RC-N3.`,
+      { h2: `DJI Mini 4 Pro Fly More Combo: the best value for most pilots` },
+      `The [Fly More Combo](/product/dji-mini-4-pro-fly-more-combo) at $1,449 lists the aircraft, three Intelligent Flight Batteries, a two-way charging hub and a shoulder bag. Three batteries mean roughly three times the flying time, which turns a single short flight into a proper shoot, and the hub keeps all three topped up. If you search for the DJI Mini 4 Pro Fly More Combo best price, this is the package most people are looking for. Check the product page for the controller supplied before you order, so you know whether you also need an RC 2 or RC-N3.`,
+      { h2: `Fly More Combo Plus: the longest flight time` },
+      `The [Fly More Combo Plus](/product/dji-mini-4-pro-fly-more-combo-plus) at $1,529 is $80 more than the standard combo and adds the high-capacity Plus battery, which gives up to 45 minutes in the air. It suits scenic and long-line shots where you do not want to land mid-take. There is one important trade-off. With the Plus battery fitted, the aircraft is heavier than 250 g, so the simple sub-250 g treatment no longer applies, and you should check what that means for your flying on the CASA website before you take off. If you do not need the extra minutes, the standard combo keeps the aircraft under 249 g.`,
+      { h2: `Which DJI Mini 4 Pro package should you buy?` },
+      { ul: [
+        `**You want the lowest price and will add accessories later:** the [Mini 4 Pro](/product/dji-mini-4-pro) at $949.`,
+        `**You want a built-in screen:** the [Mini 4 Pro with RC 2](/product/dji-mini-4-pro-rc-2) at $1,209.`,
+        `**You want several flights per outing and a bag:** the [Fly More Combo](/product/dji-mini-4-pro-fly-more-combo) at $1,449.`,
+        `**You want the longest flight time and accept a heavier aircraft:** the [Fly More Combo Plus](/product/dji-mini-4-pro-fly-more-combo-plus) at $1,529.`
+      ] },
+      `If you cannot decide, estimate how long you fly in a typical outing. Past half an hour, buy a combo, because every other route involves buying batteries and a hub separately.`,
+      { h2: `DJI Mini 4 Pro battery: standard, Plus and charging` },
+      `The Mini 4 Pro battery is the most-searched accessory for this drone, and there are two choices. The standard pack keeps the aircraft under 249 g. The Plus pack gives up to 45 minutes but takes the aircraft over 250 g.`,
+      { table: {
+        head: ['Battery', 'Flight time', 'Weight note', 'Price (AUD)'],
+        rows: [
+          ['[DJI Mini 4 Pro Intelligent Flight Battery](/product/dji-mini-4-pro-intelligent-flight-battery)', 'Up to 34 min', 'Aircraft stays under 249 g', '$99'],
+          ['[Mini 4 Pro/Mini 3 Series Battery Plus](/product/dji-mini-4-pro-mini-3-series-intelligent-flight-battery-plus)', 'Up to 45 min', 'Aircraft exceeds 250 g', '$149'],
+          ['[Mini 4 Pro/Mini 3 Series Two-Way Charging Hub](/product/dji-mini-4-pro-mini-3-series-two-way-charging-hub)', 'Charges several batteries', 'Not applicable', '$69']
+        ]
+      } },
+      `A sensible kit for a full day of flying is three batteries and the hub, which is what the Fly More Combo already includes. If you started with the basic package, buy two spare standard batteries and the hub. Our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) explains how to store and charge packs so they last, and you can browse every pack in the [drone batteries category](/category/batteries/drone-batteries) and the [charging hubs category](/category/batteries/charging-hubs).`,
+      { h2: `DJI Mini 4 Pro accessories worth buying` },
+      `Two small add-ons make a difference to how the Mini 4 Pro is used day to day, and both are listed for this aircraft.`,
+      { ul: [
+        `[DJI Mini 4 Pro 360° Propeller Guard](/product/dji-mini-4-pro-360-propeller-guard), $49: a guard that protects the propellers in tight spaces, useful for flying near walls and furniture.`,
+        `[DJI Mini 4 Pro Wide-Angle Lens](/product/dji-mini-4-pro-wide-angle-lens), $49: a clip-on lens that widens the view for real estate and travel shots.`
+      ] },
+      `A guard adds protection, but it does not replace careful flying and keeping the aircraft in sight. Browse more in the [propellers and guards category](/category/batteries/propellers-and-guards) and the [filters and lenses category](/category/batteries/filters-and-lenses).`,
+      { h2: `DJI Mini 4 Pro vs Mini 5 Pro, Mini 4K and Mini 3` },
+      `Buyers often compare the Mini 4 Pro with the models either side of it. The Mini 3 Pro does not appear in our range, so the practical choices are these.`,
+      { table: {
+        head: ['', 'DJI Mini 4K', 'DJI Mini 3', 'DJI Mini 4 Pro', 'DJI Mini 5 Pro'],
+        rows: [
+          ['Camera', '4K, 3-axis gimbal', '1/1.3-inch sensor', '1/1.3-inch, 48 MP', '1-inch, 50 MP'],
+          ['Weight', 'Under 250 g', 'Under 249 g', 'Under 249 g', 'Under 250 g'],
+          ['Starting price', '[$449](/product/dji-mini-4k)', '[$509](/product/dji-mini-3-dji-rc-n1)', '[$949](/product/dji-mini-4-pro)', '[$1,119](/product/dji-mini-5-pro-dji-rc-n3)']
+        ]
+      } },
+      `The Mini 4 Pro sits in the middle of the range: a clear step up in image quality and sensing from the Mini 3 and Mini 4K, and about $170 less than the Mini 5 Pro. Choose the Mini 5 Pro if the 1-inch sensor matters to you, and read our [Mini 5 Pro buying guide](/blog/buy-dji-mini-5-pro-australia-combos-prices) for the packages. Choose the Mini 4K or Mini 3 if budget comes first, and read our [Mini 4K vs Mini 3 guide](/blog/buy-dji-mini-4k-vs-mini-3-australia-prices). If you want built-in propeller guards, the [DJI Flip guide](/blog/buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro) explains that option, and our [Neo 2, Flip and Mini 4 Pro comparison](/blog/dji-neo-2-vs-dji-flip-vs-dji-mini-4-pro) puts all three side by side.`,
+      { h2: `Flying a sub-249 g drone in Australia` },
+      `Rules depend on the weight of the aircraft and on whether you fly for fun or for paid work, and they change from time to time. Always confirm the current requirements on the CASA website before your first flight. Our guide on [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) summarises the rules in plain language, and the [FAQ](/faq) answers the common questions. Remember that the weight class changes when you fit the Plus battery.`,
+      { h2: `Should you buy a new or used Mini 4 Pro?` },
+      `A new Mini 4 Pro arrives with a full warranty, genuine batteries and current firmware. A used one may look cheaper, but a worn battery or a cracked guard can wipe out the saving, so read our guide to [buying a new or used DJI drone](/blog/buying-a-new-vs-used-dji-drone-australia) before you commit. If this is your first drone, our list of the [best drones for beginners](/blog/best-drones-for-beginners-australia) shows how the Mini 4 Pro fits among the easier options, and the wider [DJI Mini and Air range](/category/camera-drones/dji-mini-and-air) lists every size.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars, unopened hardware can be returned within 30 days and Australian Consumer Law guarantees apply. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. Use the [order form](/order) to place an order, and we will email your payment details and confirm dispatch. If you are unsure which package suits you, send us a message through the [quote form](/quote) or the [contact page](/contact) and a specialist will recommend one.`,
+      { faq: [
+        { q: `How much does the DJI Mini 4 Pro cost in Australia?`, a: `The DJI Mini 4 Pro is $949, the Mini 4 Pro with the RC 2 is $1,209, the Fly More Combo is $1,449 and the Fly More Combo Plus is $1,529. All prices are in Australian dollars with free express shipping.` },
+        { q: `Which DJI Mini 4 Pro package is best value?`, a: `For most pilots the Fly More Combo, because it lists three batteries, a charging hub and a shoulder bag. Choose the basic aircraft if you only want the lowest price.` },
+        { q: `How much is a DJI Mini 4 Pro battery?`, a: `The standard Intelligent Flight Battery is $99, giving up to 34 minutes. The Plus battery is $149 and gives up to 45 minutes, but the aircraft is then heavier than 250 g.` },
+        { q: `Does the Plus battery change the weight class?`, a: `Yes. With the Plus battery fitted the Mini 4 Pro is heavier than 250 g, so check the current CASA requirements for your flying before you use it.` },
+        { q: `Is the DJI Mini 4 Pro better than the Mini 5 Pro?`, a: `The Mini 5 Pro has a larger 1-inch sensor and costs more, starting at $1,119. The Mini 4 Pro starts at $949 and remains a strong camera drone under 249 g.` }
+      ] }
+    ],
+    targetKeywords: ['dji mini 4 pro price australia', 'dji mini 4 pro australia', 'dji mini 4 pro battery', 'dji mini 4 pro accessories', 'dji mini 4 pro fly more combo best price', 'dji mini 3 pro vs mini 4 pro']
+  },
+  {
+    id: 'post-28',
+    slug: 'black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026',
+    title: `Black Friday Drone Sale in Australia: How to Buy a DJI Drone Smartly in 2026`,
+    metaTitle: `Black Friday Drone Sale Australia: DJI Buying Guide 2026`,
+    metaDescription: `Shopping a Black Friday drone sale in Australia? See current DJI prices by budget, how to compare packages, spares to add and delivery and returns to check.`,
+    subtitle: `Current AUD prices by budget, five checks before any drone deal, and why the package matters more than the headline price.`,
+    date: 'November 2026',
+    dateISO: '2026-11-02',
+    modifiedISO: '2026-11-02',
+    readTime: '9 min read',
+    author: 'Flight Operations Team',
+    tags: ['Black Friday', 'Buying Guide', 'Camera Drones'],
+    excerpt: `Black Friday 2026 is on 27 November. Here are current DJI drone prices from $249, five checks that protect you in any sale, and how to compare combos so a deal really is one.`,
+    image: '/images/blog-black-friday-drone-buying-guide.webp',
+    imageAlt: `DJI Mini 4K, DJI Neo 2 Fly More Combo and DJI Mavic 4 Pro, a range of drones across budgets`,
+    relatedProducts: ['dji-mini-4k', 'dji-flip-dji-rc-n3', 'dji-mini-4-pro', 'dji-mini-5-pro-dji-rc-n3'],
+    content: [
+      `Black Friday falls on Friday 27 November 2026, and Cyber Monday follows on 30 November. Every year, thousands of Australians search for a Black Friday drone sale hoping to buy a DJI for less, and every year some of them end up with the wrong package, a missing controller or a seller they cannot reach when something goes wrong. This guide does not announce a discount, and it does not invent a "was" price. What it gives you is more useful: the current listed price of the drones people buy most, shown in Australian dollars, a method for judging any drone deal you meet this month, and the spares and checks that stop a bargain turning into a headache.`,
+      { h2: `When is Black Friday 2026, and does it matter for drones?` },
+      `Black Friday is the day after United States Thanksgiving, which is why it lands on 27 November this year. Australian retailers have adopted it, and many run offers across the whole week, ending on Cyber Monday. For drones, the sale period is a sensible time to buy if you are already planning a purchase, because it is also the lead-up to Christmas and the summer flying season. It is a poor reason to buy a drone you have not decided on. A price that looks low is only a good price if the package is the right one, so work out what you need first.`,
+      { h2: `DJI drone prices today, by budget` },
+      `Use this table as a yardstick. Every price is the current listed price in Australian dollars with free express shipping, and you can click through for the full specification.`,
+      { table: {
+        head: ['Budget', 'Drone', 'Price (AUD)', 'Why people buy it'],
+        rows: [
+          ['Under $500', '[DJI Neo (drone only)](/product/dji-neo-drone-only)', '$249', 'Palm-sized follow-me drone, about 135 g'],
+          ['Under $500', '[DJI Mini 4K](/product/dji-mini-4k)', '$449', 'Sub-250 g 4K drone with a 3-axis gimbal'],
+          ['$500 to $1,000', '[DJI Flip with RC-N3](/product/dji-flip-dji-rc-n3)', '$559', 'Built-in propeller guards, up to 31 minutes'],
+          ['$500 to $1,000', '[DJI Neo 2 Fly More Combo with RC-N3](/product/dji-neo-2-fly-more-combo-dji-rc-n3)', '$709', 'Palm-sized 4K drone with obstacle sensing and extra batteries'],
+          ['$500 to $1,000', '[DJI Mini 4 Pro](/product/dji-mini-4-pro)', '$949', '48 MP camera, 4K at 100 fps, up to 34 minutes'],
+          ['$1,000 to $2,000', '[DJI Mini 5 Pro with RC-N3](/product/dji-mini-5-pro-dji-rc-n3)', '$1,119', '1-inch 50 MP camera under 250 g'],
+          ['$1,000 to $2,000', '[DJI Air 3S with RC-N3](/product/dji-air-3s-dji-rc-n3)', '$1,699', 'Dual camera, up to 45 minutes'],
+          ['Premium', '[DJI Mavic 4 Pro with RC 2](/product/dji-mavic-4-pro-dji-rc-2)', '$3,099', '100 MP Hasselblad camera, up to 51 minutes']
+        ]
+      } },
+      `Prices can change, so always check the product page on the day you order. If you want help choosing between these, our [best drone for sale in Australia buyer's guide](/blog/best-drone-for-sale-australia-2026-buyers-guide) and our list of the [best drones for beginners](/blog/best-drones-for-beginners-australia) narrow it down in plain language.`,
+      { h2: `Five checks before you buy any drone deal` },
+      { ul: [
+        `**Read exactly what is in the box.** The same drone is sold as drone only, with a basic controller, with a screen controller or as a Fly More Combo. A low headline price is often the drone-only listing.`,
+        `**Confirm the controller.** If the listing does not name one, ask. A drone without a controller cannot fly.`,
+        `**Check the seller.** An Australian business with an ABN, a contact page and clear returns terms is easier to deal with than an anonymous listing. Drones for Sale trades under ABN 91 658 710 173.`,
+        `**Read the returns and warranty terms before you pay,** not after. Australian Consumer Law guarantees apply to goods bought here.`,
+        `**Ignore false urgency.** A countdown timer is not a reason to skip the checks above. A good price on the right package is still good tomorrow.`
+      ] },
+      { h2: `Compare the package, not the headline price` },
+      `A discount on the aircraft means little if you then buy batteries one at a time. Two examples from our own listed prices show how to do the sum. The [DJI Flip Fly More Combo with RC 2](/product/dji-flip-fly-more-combo-dji-rc-2) is $919. Buying the [Flip with RC 2](/product/dji-flip-dji-rc-2) at $759, two [spare batteries](/product/dji-flip-intelligent-flight-battery) at $99 each and a [charging hub](/product/dji-flip-parallel-charging-hub) at $69 comes to $1,026, so the combo is $107 cheaper and also includes a shoulder bag.`,
+      `The same applies to the original Neo. The [DJI Neo Fly More Combo](/product/dji-neo-fly-more-combo) is $459 with an RC-N3 controller and three batteries. Buying the [Neo](/product/dji-neo-drone-only) at $249, an [RC-N3](/product/dji-rc-n3-remote-controller) at $165 and two [batteries](/product/dji-neo-intelligent-flight-battery) at $59 each comes to $532, which is $73 more. Whenever you see a combo, add up the parts and compare. Our guides to the [Flip](/blog/buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro) and the [Neo 2 Fly More Combo](/blog/dji-neo-2-fly-more-combo-guide) do this for the most popular kits.`,
+      { h2: `Spares to add to the basket` },
+      `The most useful accessory is nearly always a second battery, because one battery rarely covers a whole outing. Current prices for popular packs:`,
+      { ul: [
+        `[DJI Neo Intelligent Flight Battery](/product/dji-neo-intelligent-flight-battery), $59.`,
+        `[DJI Flip Intelligent Flight Battery](/product/dji-flip-intelligent-flight-battery), $99.`,
+        `[DJI Mini 4 Pro Intelligent Flight Battery](/product/dji-mini-4-pro-intelligent-flight-battery), $99.`,
+        `[DJI Mini 5 Pro Intelligent Flight Battery](/product/dji-mini-5-pro-intelligent-flight-battery), $99.`
+      ] },
+      `Browse every pack in the [drone batteries category](/category/batteries/drone-batteries), and read our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) for how to charge and store them. If you are choosing between sizes, our [Mini 4 Pro buying guide](/blog/buy-dji-mini-4-pro-australia-combos-batteries-accessories) and [Mini 5 Pro buying guide](/blog/buy-dji-mini-5-pro-australia-combos-prices) list the matching spares.`,
+      { h2: `Delivery, returns and warranty in the sale period` },
+      `Busy weeks put pressure on couriers, so order early rather than at the last minute if you need a drone for a particular date. Our shipping policy says metro capital city orders typically arrive within 1 to 2 business days, and regional and Western Australia addresses within 2 to 4 business days. Every order ships free by express courier with signature on delivery and transit insurance. We cannot promise arrival on a specific day, so read the [shipping policy](/shipping) before you order for a gift. Unopened hardware in its original packaging can be returned within 30 days of receipt, and the [refund policy](/refund) explains how.`,
+      { h2: `How to pay` },
+      `You can pay by cryptocurrency and receive a 10% discount, or by bank transfer, PayID or Osko. Use the [order form](/order) to place an order, and we will email your payment details and confirm dispatch. If you want a price for several drones or a business purchase, send the details through the [quote form](/quote) and a specialist will reply by email.`,
+      { h2: `Should you wait for Black Friday to buy a drone?` },
+      `It depends on the reason you are buying. If you are buying for a date, such as a holiday, a wedding or a gift, do not wait: delivery, set-up and a first practice flight all take time. If you are buying with no deadline, it is reasonable to watch prices across the week, as long as you compare the package each time and do not rely on any promise that a price will fall. Whatever you decide, buy the package that fits how you will fly rather than the lowest number on the page. If your needs are commercial, such as thermal inspection or spraying, our [enterprise drones](/category/enterprise-drones) and [agricultural spraying drones](/category/spraying-drones) are quoted individually, so [ask for a quote](/quote).`,
+      { h2: `Check the rules before your first flight` },
+      `A new drone does not come with permission to fly anywhere. Rules depend on the weight of the aircraft and on whether you fly for fun or for paid work, and they change from time to time. Read our guide on [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules), confirm the current requirements on the CASA website and see the [FAQ](/faq) for common questions. If you are buying used, read our guide to [buying a new or used DJI drone](/blog/buying-a-new-vs-used-dji-drone-australia) first.`,
+      { h2: `Not sure which drone? Ask us` },
+      `If you are comparing two models, tell us what you want to film, your budget and where you will fly, and we will recommend a package. Use the [contact page](/contact) or browse the full [DJI Mini and Air range](/category/camera-drones/dji-mini-and-air), the [camera drones category](/category/camera-drones) and the [shop](/shop).`,
+      { faq: [
+        { q: `When is Black Friday 2026 in Australia?`, a: `Black Friday is on Friday 27 November 2026, the day after United States Thanksgiving. Cyber Monday is on Monday 30 November.` },
+        { q: `Is there a Black Friday sale on DJI drones?`, a: `This guide does not announce a discount. It lists current Australian dollar prices on each product page and shows how to compare packages. Check the product page on the day you order, because prices can change.` },
+        { q: `What is the cheapest DJI drone you sell?`, a: `The DJI Neo (drone only) is $249 and the DJI Mini 4K is $449. Both prices are in Australian dollars with free express shipping.` },
+        { q: `Is a Fly More Combo worth it?`, a: `Often, yes. Add up the aircraft, controller, spare batteries and hub bought separately and compare. For the DJI Flip, the Fly More Combo is $107 cheaper than buying the parts one by one and also includes a shoulder bag.` },
+        { q: `Can I return a drone I bought in a sale?`, a: `Unopened, sealed hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply. Read the refund policy before you order.` }
+      ] }
+    ],
+    targetKeywords: ['black friday drone sale', 'dji black friday sale', 'drones for sale black friday', 'black friday sales drones', 'drone sale black friday']
   }
 ];

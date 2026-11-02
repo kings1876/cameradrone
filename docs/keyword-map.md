@@ -859,3 +859,13 @@ One informational guide for trust, beginner traffic and quote leads. CASA rules 
 | Post | Primary / supporting keywords (monthly AU volume) |
 |---|---|
 | /blog/do-i-need-to-register-a-drone-in-australia-casa-rules | register drone australia (110); registering drones (110); register drones (110); register drone (110) |
+
+
+## Transactional buying guides, batch 4 (2 Nov 2026)
+
+Two transactional guides on unused keywords. Prices and specifications come from the product data; the Black Friday guide announces no discount and invents no "was" price. Black Friday 2026 is Friday 27 November (day after US Thanksgiving, 26 November).
+
+| Post | Primary / supporting keywords (monthly AU volume) |
+|---|---|
+| /blog/buy-dji-mini-4-pro-australia-combos-batteries-accessories | dji mini 4 pro price australia (90); dji mini 4 pro australia (90); dji mini 4 pro battery (320); dji mini 4 pro accessories (140); dji mini 4 pro fly more combo best price (140); dji mini 3 pro vs mini 4 pro (90) |
+| /blog/black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026 | black friday drone sale (70); dji black friday sale (140); drones for sale black friday (70); black friday sales drones (70); drone sale black friday (70) |

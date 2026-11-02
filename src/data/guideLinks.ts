@@ -3,6 +3,7 @@
 import { BLOG_POSTS } from './content';
 
 const HOME = [
+  'black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026',
   'best-drone-for-sale-australia-2026-buyers-guide',
   'do-i-need-to-register-a-drone-in-australia-casa-rules',
   'thermal-drones-australia-guide',
@@ -20,6 +21,8 @@ const BY_CATEGORY: Record<string, string[]> = {
     'buy-dji-air-3s-australia-combos-vs-air-3',
     'buy-dji-mini-4k-vs-mini-3-australia-prices',
     'buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro',
+    'buy-dji-mini-4-pro-australia-combos-batteries-accessories',
+    'black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026',
     'do-i-need-to-register-a-drone-in-australia-casa-rules',
     'best-drones-for-real-estate-and-aerial-photography',
     'best-drone-for-sale-australia-2026-buyers-guide'
@@ -44,6 +47,7 @@ const BY_CATEGORY: Record<string, string[]> = {
     'agricultural-spraying-drones-australia-guide'
   ],
   batteries: [
+    'buy-dji-mini-4-pro-australia-combos-batteries-accessories',
     'dji-drone-battery-charger-propeller-guide',
     'dji-controllers-explained-rc-n3-rc-2-rc-pro',
     'buy-fpv-goggles-australia-dji-goggles-3-vs-n3',

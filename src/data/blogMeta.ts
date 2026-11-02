@@ -3,6 +3,121 @@ import { BlogSummary } from '../types';
 
 export const BLOG_SUMMARIES: BlogSummary[] = [
   {
+    "id": "post-27",
+    "slug": "buy-dji-mini-4-pro-australia-combos-batteries-accessories",
+    "title": "Buy the DJI Mini 4 Pro in Australia: Price, Combos, Batteries and Accessories Compared",
+    "metaTitle": "Buy DJI Mini 4 Pro Australia: Price, Combos, Batteries",
+    "metaDescription": "Buying the DJI Mini 4 Pro in Australia? Compare the four packages, battery and Plus battery prices, accessories and the Mini 5 Pro, with free express shipping.",
+    "subtitle": "Four ways to buy the sub-249 g camera drone, what each costs, which battery to choose and the accessories worth adding.",
+    "date": "November 2026",
+    "dateISO": "2026-11-02",
+    "modifiedISO": "2026-11-02",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "DJI Mini 4 Pro",
+      "Buying Guide",
+      "Camera Drones"
+    ],
+    "excerpt": "The DJI Mini 4 Pro starts at $949 and reaches $1,529 with the Plus battery kit. We compare the four packages, the batteries and the accessories, and set it against the Mini 5 Pro.",
+    "image": "/images/blog-dji-mini-4-pro-buying-guide.webp",
+    "imageAlt": "DJI Mini 4 Pro, the Mini 4 Pro Fly More Combo and a Mini 4 Pro battery",
+    "relatedProducts": [
+      "dji-mini-4-pro",
+      "dji-mini-4-pro-rc-2",
+      "dji-mini-4-pro-fly-more-combo",
+      "dji-mini-4-pro-intelligent-flight-battery"
+    ],
+    "targetKeywords": [
+      "dji mini 4 pro price australia",
+      "dji mini 4 pro australia",
+      "dji mini 4 pro battery",
+      "dji mini 4 pro accessories",
+      "dji mini 4 pro fly more combo best price",
+      "dji mini 3 pro vs mini 4 pro"
+    ],
+    "wordCount": 1833,
+    "faq": [
+      {
+        "q": "How much does the DJI Mini 4 Pro cost in Australia?",
+        "a": "The DJI Mini 4 Pro is $949, the Mini 4 Pro with the RC 2 is $1,209, the Fly More Combo is $1,449 and the Fly More Combo Plus is $1,529. All prices are in Australian dollars with free express shipping."
+      },
+      {
+        "q": "Which DJI Mini 4 Pro package is best value?",
+        "a": "For most pilots the Fly More Combo, because it lists three batteries, a charging hub and a shoulder bag. Choose the basic aircraft if you only want the lowest price."
+      },
+      {
+        "q": "How much is a DJI Mini 4 Pro battery?",
+        "a": "The standard Intelligent Flight Battery is $99, giving up to 34 minutes. The Plus battery is $149 and gives up to 45 minutes, but the aircraft is then heavier than 250 g."
+      },
+      {
+        "q": "Does the Plus battery change the weight class?",
+        "a": "Yes. With the Plus battery fitted the Mini 4 Pro is heavier than 250 g, so check the current CASA requirements for your flying before you use it."
+      },
+      {
+        "q": "Is the DJI Mini 4 Pro better than the Mini 5 Pro?",
+        "a": "The Mini 5 Pro has a larger 1-inch sensor and costs more, starting at $1,119. The Mini 4 Pro starts at $949 and remains a strong camera drone under 249 g."
+      }
+    ]
+  },
+  {
+    "id": "post-28",
+    "slug": "black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026",
+    "title": "Black Friday Drone Sale in Australia: How to Buy a DJI Drone Smartly in 2026",
+    "metaTitle": "Black Friday Drone Sale Australia: DJI Buying Guide 2026",
+    "metaDescription": "Shopping a Black Friday drone sale in Australia? See current DJI prices by budget, how to compare packages, spares to add and delivery and returns to check.",
+    "subtitle": "Current AUD prices by budget, five checks before any drone deal, and why the package matters more than the headline price.",
+    "date": "November 2026",
+    "dateISO": "2026-11-02",
+    "modifiedISO": "2026-11-02",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Black Friday",
+      "Buying Guide",
+      "Camera Drones"
+    ],
+    "excerpt": "Black Friday 2026 is on 27 November. Here are current DJI drone prices from $249, five checks that protect you in any sale, and how to compare combos so a deal really is one.",
+    "image": "/images/blog-black-friday-drone-buying-guide.webp",
+    "imageAlt": "DJI Mini 4K, DJI Neo 2 Fly More Combo and DJI Mavic 4 Pro, a range of drones across budgets",
+    "relatedProducts": [
+      "dji-mini-4k",
+      "dji-flip-dji-rc-n3",
+      "dji-mini-4-pro",
+      "dji-mini-5-pro-dji-rc-n3"
+    ],
+    "targetKeywords": [
+      "black friday drone sale",
+      "dji black friday sale",
+      "drones for sale black friday",
+      "black friday sales drones",
+      "drone sale black friday"
+    ],
+    "wordCount": 1494,
+    "faq": [
+      {
+        "q": "When is Black Friday 2026 in Australia?",
+        "a": "Black Friday is on Friday 27 November 2026, the day after United States Thanksgiving. Cyber Monday is on Monday 30 November."
+      },
+      {
+        "q": "Is there a Black Friday sale on DJI drones?",
+        "a": "This guide does not announce a discount. It lists current Australian dollar prices on each product page and shows how to compare packages. Check the product page on the day you order, because prices can change."
+      },
+      {
+        "q": "What is the cheapest DJI drone you sell?",
+        "a": "The DJI Neo (drone only) is $249 and the DJI Mini 4K is $449. Both prices are in Australian dollars with free express shipping."
+      },
+      {
+        "q": "Is a Fly More Combo worth it?",
+        "a": "Often, yes. Add up the aircraft, controller, spare batteries and hub bought separately and compare. For the DJI Flip, the Fly More Combo is $107 cheaper than buying the parts one by one and also includes a shoulder bag."
+      },
+      {
+        "q": "Can I return a drone I bought in a sale?",
+        "a": "Unopened, sealed hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply. Read the refund policy before you order."
+      }
+    ]
+  },
+  {
     "id": "post-26",
     "slug": "do-i-need-to-register-a-drone-in-australia-casa-rules",
     "title": "Do You Need to Register a Drone in Australia? CASA Rules, Accreditation and Where You Can Fly",
