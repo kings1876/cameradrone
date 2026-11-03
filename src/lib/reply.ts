@@ -1,5 +1,7 @@
 import { REPLY, makeOrderNumber, money, parsePaymentDetail, findMethod } from '../../shared/order.js';
 
+import { lead } from './analytics';
+
 export { REPLY, makeOrderNumber, money, parsePaymentDetail, findMethod };
 
 export interface PaymentField {
@@ -44,7 +46,18 @@ export async function postForm(payload: Record<string, unknown>): Promise<{ ok: 
       body: JSON.stringify(payload)
     });
     const data = await res.json().catch(() => ({}));
-    return { ok: res.ok && data.ok !== false, emailed: data.emailed };
+    const ok = res.ok && data.ok !== false;
+    if (ok) {
+      // One event per successful form, named after the form (quote_submitted, order_submitted, contact_submitted). No personal data is sent.
+      const form = String(payload.formName ?? 'form');
+      lead(
+        `${form}_submitted`,
+        form === 'order'
+          ? { payment: String(payload.paymentMethod ?? ''), items: Array.isArray(payload.items) ? payload.items.length : 0 }
+          : undefined
+      );
+    }
+    return { ok, emailed: data.emailed };
   } catch {
     return { ok: false };
   }

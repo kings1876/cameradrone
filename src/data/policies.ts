@@ -73,6 +73,10 @@ export const POLICIES: Record<'shipping' | 'refund' | 'privacy' | 'terms', Polic
       [
         "5. Access and Correction:",
         "You can ask us what personal information we hold about you, ask us to correct it, or ask us to delete it unless we must keep it for tax, warranty or legal reasons. Use the Contact page to make a request."
+      ],
+      [
+        "6. Website Analytics:",
+        "We use Vercel Web Analytics to count page views and form submissions so we can improve the site. It does not set cookies, does not follow you across other websites, and we do not send it your name, email, phone number or address. Our admin and order payment pages are excluded."
       ]
     ]
   },

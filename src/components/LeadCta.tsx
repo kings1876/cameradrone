@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { leadCtaFor } from '../data/leadCta';
+import { lead } from '../lib/analytics';
 
 interface LeadCtaProps {
   relatedProducts: string[];
@@ -28,6 +29,7 @@ export const LeadCta: React.FC<LeadCtaProps> = ({ relatedProducts, variant }) =>
           <Link
             key={l.to}
             to={l.to}
+            onClick={() => lead('blog_cta_click', { label: l.label, placement: variant })}
             className={
               l.primary
                 ? 'inline-flex items-center px-5 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm transition-colors'
