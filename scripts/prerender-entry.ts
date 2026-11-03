@@ -15,6 +15,7 @@ import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST, HERO_WIDTHS, HERO_FUL
 import { PAGE_COPY, PAGE_EXTRA, seoParagraphs, productNotes } from '../src/data/pageCopy';
 import { guidesFor } from '../src/data/guideLinks';
 import { allRanges, rangesForProducts } from '../src/data/shopLinks';
+import { leadCtaFor } from '../src/data/leadCta';
 import { POLICIES, POLICY_INTRO, POLICY_HELP, POLICY_MORE } from '../src/data/policies';
 import { relatedFor } from '../src/components/RelatedProducts';
 import { pairLinks } from '../src/components/PairsWith';
@@ -132,6 +133,10 @@ function bodyFor(pathname: string, h1: string, description: string): string {
         (post.image ? `<picture><source srcset="${esc(respSet(post.image, 'avif', BLOG_WIDTHS, BLOG_FULL))}" sizes="${BLOG_SIZES_POST}" type="image/avif"><img src="${esc(post.image.replace(/\.webp$/, '-800.webp'))}" srcset="${esc(respSet(post.image, 'webp', BLOG_WIDTHS, BLOG_FULL))}" sizes="${BLOG_SIZES_POST}" alt="${esc(post.imageAlt || post.title)}" width="1200" height="675" fetchpriority="high" decoding="async"></picture>` : '') +
         `<p><time datetime="${post.dateISO}">${esc(post.date)}</time> · ${esc(post.readTime)} · ${esc(post.author)}</p>` +
         blocksToHtml(post.content) +
+        (() => {
+          const cta = leadCtaFor(post.relatedProducts);
+          return `<aside><h2>${esc(cta.heading)}</h2><p>${esc(cta.text)}</p><p>${cta.links.map(l => link(l.to, l.label)).join(' · ')}</p></aside>`;
+        })() +
         (post.relatedProducts.length ? `<h2>Featured products</h2>${productList(post.relatedProducts.map(sl => PRODUCTS.find(p => p.slug === sl)).filter((p): p is NonNullable<typeof p> => !!p))}` : '') +
         `<h2>Shop the range</h2><ul>${rangesForProducts(post.relatedProducts).map(l => `<li>${link(l.path, l.label)}</li>`).join('')}</ul></article>`
     );

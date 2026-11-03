@@ -26,8 +26,11 @@ const Inline: React.FC<{ text: string }> = ({ text }) => (
 );
 
 /** Renders an article's blocks: table of contents, headings, lists, comparison tables and the FAQ. */
-export const BlogBody: React.FC<{ blocks: Block[] }> = ({ blocks }) => {
+export const BlogBody: React.FC<{ blocks: Block[]; cta?: React.ReactNode }> = ({ blocks, cta }) => {
   const toc = tocItems(blocks);
+  // The call to action sits after the first comparison table when one opens the article, otherwise after the third block.
+  const firstTable = blocks.findIndex((b, i) => i < 10 && typeof b !== 'string' && 'table' in b);
+  const ctaAt = firstTable >= 0 ? firstTable : Math.min(2, blocks.length - 1);
   return (
     <div className="space-y-5 text-sm sm:text-base text-slate-300 leading-relaxed font-normal">
       {toc.length > 2 && (
@@ -42,7 +45,7 @@ export const BlogBody: React.FC<{ blocks: Block[] }> = ({ blocks }) => {
           </ul>
         </nav>
       )}
-      {blocks.map((b, i) => {
+      {blocks.map((b, i) => (<React.Fragment key={i}>{((): React.ReactNode => {
         if (typeof b === 'string') return <p key={i}><Inline text={b} /></p>;
         if ('h2' in b) return <h2 key={i} id={headingId(b.h2)} className="pt-4 text-xl sm:text-2xl font-black text-white font-display scroll-mt-28">{b.h2}</h2>;
         if ('h3' in b) return <h3 key={i} className="text-lg font-bold text-white font-display">{b.h3}</h3>;
@@ -82,7 +85,7 @@ export const BlogBody: React.FC<{ blocks: Block[] }> = ({ blocks }) => {
             ))}
           </section>
         );
-      })}
+      })()}{i === ctaAt && cta}</React.Fragment>))}
     </div>
   );
 };

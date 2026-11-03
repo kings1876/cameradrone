@@ -7,6 +7,7 @@ import { ArrowLeft, Calendar, Clock, Tag, Share2, BookOpen } from 'lucide-react'
 import { BLOG_POSTS } from '../data/content';
 import { PRODUCTS } from '../data/products';
 import { ShopRanges } from '../components/ShopRanges';
+import { LeadCta } from '../components/LeadCta';
 import { rangesForProducts } from '../data/shopLinks';
 
 export const BlogPostPage: React.FC = () => {
@@ -99,7 +100,13 @@ export const BlogPostPage: React.FC = () => {
         )}
 
         {/* Article Prose Content */}
-        {body ? <BlogBody blocks={body} /> : <p className="text-sm text-slate-400">Loading article…</p>}
+        {body ? (
+          <BlogBody blocks={body} cta={<LeadCta relatedProducts={post.relatedProducts} variant="inline" />} />
+        ) : (
+          <p className="text-sm text-slate-400">Loading article…</p>
+        )}
+
+        {body && <LeadCta relatedProducts={post.relatedProducts} variant="full" />}
 
         {/* Recommended Flight Hardware Section */}
         <div className="pt-8 border-t border-slate-800 space-y-4">
