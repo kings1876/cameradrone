@@ -38,7 +38,7 @@ export const POLICIES: Record<'shipping' | 'refund' | 'privacy' | 'terms', Polic
       ],
       [
         "2. 30-Day Change-of-Mind Returns:",
-        "Unopened, sealed flight hardware in its original manufacturer packaging with undamaged factory seals may be returned within 30 days of receipt."
+        "Unopened, sealed flight hardware in its original manufacturer packaging with undamaged factory seals may be returned within 30 days of receipt. For change-of-mind returns the buyer pays the cost of return shipping. This does not affect your rights under the Australian Consumer Law."
       ],
       [
         "3. Pre-Flight Technical Support:",

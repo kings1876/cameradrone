@@ -200,8 +200,13 @@ export function metaFor(pathname: string, search: string): Meta {
               '@type': 'MerchantReturnPolicy',
               applicableCountry: 'AU',
               returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
-              merchantReturnDays: 30
+              merchantReturnDays: 30,
+              // Change-of-mind returns go back by post at the buyer's cost (see the refund policy page).
+              returnMethod: 'https://schema.org/ReturnByMail',
+              returnFees: 'https://schema.org/ReturnShippingFees',
+              merchantReturnLink: SITE_URL + '/refund'
             },
+            validFrom: '2026-11-03',
             availability: p.inStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
             itemCondition: 'https://schema.org/NewCondition',
             seller: { '@type': 'Organization', name: SITE_NAME }
