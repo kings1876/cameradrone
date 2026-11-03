@@ -6,6 +6,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-10',
     slug: 'thermal-camera-vs-thermal-drone-infrared-inspections',
+    intent: 'informational',
     title: 'Thermal Camera vs Thermal Drone: Choosing an Infrared Camera for Inspections',
     metaTitle: 'Thermal Camera vs Thermal Drone: Which to Buy?',
     metaDescription: 'Thermal camera or thermal drone? Compare infrared cameras, payloads and DJI thermal aircraft for inspections in Australia, with specs and buying advice.',
@@ -81,6 +82,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-11',
     slug: 'dji-neo-2-fly-more-combo-guide',
+    intent: 'commercial',
     title: 'DJI Neo 2 Fly More Combo: Which Neo 2 Kit Should You Buy?',
     metaTitle: `DJI Neo 2 Fly More Combo Price: Kits From $549`,
     metaDescription: `DJI Neo 2 Fly More Combo kits compared: drone only $549, with RC-N3 $709, Motion kit $989, plus batteries and what to buy first. Free shipping in Australia.`,
@@ -146,6 +148,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-12',
     slug: 'agricultural-drones-weed-control-seeding-crop-monitoring',
+    intent: 'commercial',
     title: 'Agricultural Drones in Australia: Weed Control, Seeding and Crop Monitoring',
     metaTitle: `DJI Agriculture Australia: Weed Control Drones Guide`,
     metaDescription: `DJI agriculture drones for weed control, seeding and crop monitoring in Australia: Agras T25P, T50, T100, spreaders and multispectral cameras. Request a quote.`,
@@ -205,6 +208,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-13',
     slug: 'waterproof-drones-ip-ratings-explained',
+    intent: 'informational',
     title: 'Waterproof Drones: Are Any DJI Drones Water Resistant?',
     metaTitle: `Which DJI Drones Are Waterproof? IP Ratings Explained`,
     metaDescription: `Are drones waterproof? Which DJI and FLIR drones are water resistant, what IP ratings mean, and how to protect your drone around rain and water.`,
@@ -261,6 +265,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-14',
     slug: 'dji-controllers-explained-rc-n3-rc-2-rc-pro',
+    intent: 'commercial',
     title: 'DJI Controllers Explained: RC-N3, RC 2, RC Pro, RC Plus and Motion',
     metaTitle: `DJI Controllers: RC-N3 vs RC 2 vs RC Pro, AUD Prices`,
     metaDescription: `Which DJI controller? RC-N3 from $165, RC 2 at $549 and RC Pro at $1,529 compared, plus motion and FPV controllers. Free express shipping in Australia.`,
@@ -319,6 +324,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-15',
     slug: 'best-drones-for-real-estate-and-aerial-photography',
+    intent: 'commercial',
     title: 'Best Drones for Real Estate and Aerial Photography in Australia',
     metaTitle: 'Best Drones for Real Estate and Aerial Photography',
     metaDescription: 'Compare the best drones for real estate photography and video in Australia: Mini 4 Pro, Air 3S, Mavic 3 Pro and Mavic 4 Pro, plus accessories and CASA basics.',
@@ -382,6 +388,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-16',
     slug: 'buying-a-new-vs-used-dji-drone-australia',
+    intent: 'commercial',
     title: 'New vs Used DJI Drones in Australia: What to Check Before You Buy',
     metaTitle: `Used vs New DJI Drone: What to Check Before You Buy`,
     metaDescription: `Buying a used DJI drone? Check battery health, damage, warranty and your Australian consumer rights, and see how it compares with new stock and free shipping.`,
@@ -446,6 +453,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-4',
     slug: 'best-drones-for-beginners-australia',
+    intent: 'commercial',
     title: 'Best Drones for Beginners in Australia: 5 Easy, Affordable Picks',
     metaTitle: 'Best Drones for Beginners in Australia (2026 Guide)',
     metaDescription: 'The best drones for beginners in Australia: five easy, affordable DJI picks compared by weight, camera and flight time, plus what to buy and the CASA basics.',
@@ -514,6 +522,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-5',
     slug: 'dji-neo-2-vs-dji-flip-vs-dji-mini-4-pro',
+    intent: 'commercial',
     title: 'DJI Neo 2 vs DJI Flip vs DJI Mini 4 Pro: Which Should You Buy?',
     metaTitle: `DJI Neo 2 vs Flip vs Mini 4 Pro: Prices and Which to Buy`,
     metaDescription: `DJI Neo 2 ($409), Flip ($559) and Mini 4 Pro ($949) compared on weight, camera, flight time and price, so you can pick the right small DJI drone in Australia.`,
@@ -576,6 +585,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-6',
     slug: 'thermal-drones-australia-guide',
+    intent: 'commercial',
     title: 'Thermal Drones in Australia: How to Choose a Thermal Imaging Drone',
     metaTitle: 'Thermal Drones Australia: Buyer Guide (2026)',
     metaDescription: 'How to choose a thermal drone in Australia: camera resolution, sensitivity and field of view, plus DJI Matrice and Mavic thermal models and FLIR payloads.',
@@ -649,6 +659,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-7',
     slug: 'dji-avata-360-vs-avata-2-fpv-drone-guide',
+    intent: 'commercial',
     title: 'DJI Avata 360 vs DJI Avata 2: Which FPV Drone Should You Buy?',
     metaTitle: `DJI Avata 2 vs Avata 360: Which FPV Drone to Buy?`,
     metaDescription: `DJI Avata 2 (from $649) vs Avata 360 (from $799) compared: camera, weight, flight time, goggles and combos, plus how to build a DJI FPV kit in Australia.`,
@@ -715,6 +726,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-8',
     slug: 'lidar-vs-photogrammetry-drone-mapping-australia',
+    intent: 'informational',
     title: 'LiDAR vs Photogrammetry: Choosing a Drone Mapping Payload in Australia',
     metaTitle: 'LiDAR vs Photogrammetry for Drone Mapping',
     metaDescription: 'LiDAR vs photogrammetry for drone mapping in Australia: when to use the DJI Zenmuse L2 LiDAR or the Zenmuse P1, and how each affects time and accuracy.',
@@ -774,6 +786,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-9',
     slug: 'dji-drone-battery-charger-propeller-guide',
+    intent: 'informational',
     title: 'DJI Drone Batteries, Chargers and Propellers: A Practical Guide',
     metaTitle: 'DJI Drone Batteries, Chargers & Propellers Guide',
     metaDescription: 'How to choose and look after DJI drone batteries, charging hubs and propellers in Australia: matching parts to your model, spares and safe charging.',
@@ -845,6 +858,7 @@ export const BLOG_POSTS: BlogPost[] = [
     image: '/images/blog-drone-buyers-guide.webp',
     imageAlt: 'Aerial view of a coastline at sunset, the kind of shot a camera drone captures',
     slug: 'best-drone-for-sale-australia-2026-buyers-guide',
+    intent: 'commercial',
     title: '2026 Australian Guide: Finding the Best DJI Drone for Sale',
     metaTitle: 'Best DJI Drone for Sale in Australia: 2026 Guide',
     metaDescription: 'Compare DJI Mini, Air, Mavic and Inspire drones for sale in Australia: camera, weight and flight time side by side, plus accessories and CASA basics.',
@@ -904,6 +918,7 @@ export const BLOG_POSTS: BlogPost[] = [
     image: '/images/blog-enterprise-drones-guide.webp',
     imageAlt: 'Enterprise drone flying over open land on an inspection job',
     slug: 'enterprise-drones-matrice-mavic-3-enterprise-guide',
+    intent: 'commercial',
     title: 'Enterprise Drones in Australia: Matrice, Mavic 3 Enterprise and Phantom 4',
     metaTitle: 'Enterprise Drones Australia: Matrice & Mavic 3 Guide',
     metaDescription: 'How DJI Matrice, Mavic 3 Enterprise, Phantom 4 and Dock systems suit inspection, mapping, surveying and thermal work in Australia, with a comparison table.',
@@ -966,6 +981,7 @@ export const BLOG_POSTS: BlogPost[] = [
     image: '/images/blog-agricultural-spraying-guide.webp',
     imageAlt: 'Agricultural spraying drone flying over crop rows',
     slug: 'agricultural-spraying-drones-australia-guide',
+    intent: 'commercial',
     title: 'Agricultural Spraying Drones in Australia: What to Know Before You Buy',
     metaTitle: 'Agricultural Spraying Drones Australia: Buyer Guide',
     metaDescription: 'How to choose an agricultural spraying drone in Australia: DJI Agras T25P, T50, T70P and T100 compared, plus batteries, generators and CASA rules.',
@@ -1033,6 +1049,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-17',
     slug: 'buy-dji-mini-5-pro-australia-combos-prices',
+    intent: 'transactional',
     title: `Buy the DJI Mini 5 Pro in Australia: Which Combo to Choose, What It Costs and What to Add`,
     metaTitle: `Buy DJI Mini 5 Pro in Australia: Prices From $1,119`,
     metaDescription: `Buying the DJI Mini 5 Pro in Australia? Compare the RC-N3, Fly More and Plus combos with AUD prices from $1,119, spare batteries and free express shipping.`,
@@ -1123,6 +1140,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-18',
     slug: 'buy-dji-mavic-australia-mavic-4-pro-vs-mavic-3-pro',
+    intent: 'transactional',
     title: `Buy a DJI Mavic in Australia: Mavic 4 Pro vs Mavic 3 Pro vs Mavic 3 Enterprise`,
     metaTitle: `Buy a DJI Mavic in Australia: 4 Pro vs 3 Pro`,
     metaDescription: `Which DJI Mavic should you buy in Australia? Compare the Mavic 4 Pro, Mavic 3 Pro and Mavic 3 Enterprise with AUD prices, Fly More combos and spares.`,
@@ -1196,6 +1214,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-19',
     slug: 'buy-drone-heat-camera-australia-thermal-drones-payloads',
+    intent: 'transactional',
     title: `Buy a Drone Heat Camera in Australia: Thermal Drones and Payloads Compared by Price`,
     metaTitle: `Drone Heat Camera Australia: What to Buy and Price`,
     metaDescription: `Buying a drone heat camera in Australia? Compare thermal drones and payloads with AUD prices, from the Mavic 3 Thermal to the Zenmuse H30T.`,
@@ -1266,6 +1285,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-20',
     slug: 'buy-dji-air-3s-australia-combos-vs-air-3',
+    intent: 'transactional',
     title: `Buy the DJI Air 3S in Australia: Which Combo to Choose and How It Compares With the Air 3`,
     metaTitle: `Buy DJI Air 3S Australia: Combos, Prices vs Air 3`,
     metaDescription: `Buying the DJI Air 3S in Australia? Compare the RC-N3 and RC 2 combos with the Air 3, AUD prices, spare batteries, filters and free express shipping.`,
@@ -1374,6 +1394,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-21',
     slug: 'buy-dji-mini-4k-vs-mini-3-australia-prices',
+    intent: 'transactional',
     title: `Buy a DJI Mini 4K or Mini 3 in Australia: Which Budget Mini Is Worth It?`,
     metaTitle: `Buy DJI Mini 4K or Mini 3 in Australia: Prices`,
     metaDescription: `DJI Mini 4K vs Mini 3: compare every package with AUD prices, controllers, Fly More Combos and spare batteries, with free express shipping in Australia.`,
@@ -1471,6 +1492,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-22',
     slug: 'buy-fpv-goggles-australia-dji-goggles-3-vs-n3',
+    intent: 'transactional',
     title: `Buy FPV Goggles in Australia: DJI Goggles 3 vs Goggles N3, Controllers and Kits`,
     metaTitle: `Buy FPV Goggles Australia: DJI Goggles 3 vs N3`,
     metaDescription: `Buying FPV goggles in Australia? Compare DJI Goggles 3 and Goggles N3 with controllers, Avata 2 combos and O4 Air Units, with AUD prices and free shipping.`,
@@ -1567,6 +1589,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-23',
     slug: 'buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro',
+    intent: 'transactional',
     title: `Buy the DJI Flip in Australia: Which Combo to Choose, What It Costs and How It Compares`,
     metaTitle: `Buy DJI Flip Australia: Combos and Prices`,
     metaDescription: `Buying the DJI Flip in Australia? Compare the RC-N3, RC 2 and Fly More Combo with AUD prices, spares, and the Neo 2 and Mini 4 Pro, with free shipping.`,
@@ -1655,6 +1678,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-24',
     slug: 'buy-dji-matrice-australia-matrice-4-30-400-compared-by-price',
+    intent: 'transactional',
     title: `Buy a DJI Matrice in Australia: Matrice 4, Matrice 30 and Matrice 400 Compared by Price and Job`,
     metaTitle: `Buy a DJI Matrice in Australia: 4, 30 and 400`,
     metaDescription: `Which DJI Matrice should you buy in Australia? Compare the Matrice 4E, 4T, 30, 30T and 400 with AUD prices, Care bundles, docks and a fast quote.`,
@@ -1741,6 +1765,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-25',
     slug: 'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras',
+    intent: 'transactional',
     title: `Buy a Thermal Imaging Camera in Australia: FLIR vs DJI Thermal Cameras for Drones, Compared by Price`,
     metaTitle: `Buy a Thermal Imaging Camera: FLIR vs DJI Prices`,
     metaDescription: `Buying a thermal imaging camera in Australia? Compare FLIR and DJI Zenmuse thermal cameras and thermal drones by resolution and AUD price, with a quote.`,
@@ -1831,6 +1856,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-26',
     slug: 'do-i-need-to-register-a-drone-in-australia-casa-rules',
+    intent: 'informational',
     title: `Do You Need to Register a Drone in Australia? CASA Rules, Accreditation and Where You Can Fly`,
     metaTitle: `Register a Drone in Australia: CASA Rules Explained`,
     metaDescription: `Do you need to register a drone in Australia? Plain-English CASA rules for hobby and work flying, the 250 g limit, accreditation, height, airports and people.`,
@@ -1925,6 +1951,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-27',
     slug: 'buy-dji-mini-4-pro-australia-combos-batteries-accessories',
+    intent: 'transactional',
     title: `Buy the DJI Mini 4 Pro in Australia: Price, Combos, Batteries and Accessories Compared`,
     metaTitle: `Buy DJI Mini 4 Pro Australia: Price, Combos, Batteries`,
     metaDescription: `Buying the DJI Mini 4 Pro in Australia? Compare the four packages, battery and Plus battery prices, accessories and the Mini 5 Pro, with free express shipping.`,
@@ -2026,6 +2053,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-28',
     slug: 'black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026',
+    intent: 'transactional',
     title: `Black Friday Drone Sale in Australia: How to Buy a DJI Drone Smartly in 2026`,
     metaTitle: `Black Friday Drone Sale Australia: DJI Buying Guide 2026`,
     metaDescription: `Shopping a Black Friday drone sale in Australia? See current DJI prices by budget, how to compare packages, spares to add and delivery and returns to check.`,
@@ -2103,6 +2131,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-29',
     slug: 'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices',
+    intent: 'transactional',
     title: `Buy a DJI Thermal Drone in Australia: Mavic 3T vs Matrice 4T vs Matrice 30T, Prices and Which to Choose`,
     metaTitle: `DJI Thermal Drone Australia: Mavic 3T, M4T, M30T Prices`,
     metaDescription: `Buying a DJI thermal drone in Australia? Compare the Mavic 3T from $8,249, Matrice 4T and 30T with Autel and FLIR options, AUD prices and what is included.`,
@@ -2190,6 +2219,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'post-30',
     slug: 'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices',
+    intent: 'transactional',
     title: `Buy a DJI Agras Spray Drone in Australia: T25P vs T50 vs T100 Prices and Which Farm Needs What`,
     metaTitle: `DJI Agras Spray Drones Australia: T25P, T50, T100 Prices`,
     metaDescription: `Spray drones for sale in Australia: DJI Agras T25P $17,530, T50 $21,999 and T100 $30,380, plus T70P, XAG and BROUAV, with batteries, chargers and spreaders.`,

@@ -8,6 +8,7 @@ import { BLOG_POSTS } from '../data/content';
 import { PRODUCTS } from '../data/products';
 import { ShopRanges } from '../components/ShopRanges';
 import { LeadCta } from '../components/LeadCta';
+import { EnquiryPanel } from '../components/EnquiryPanel';
 import { rangesForProducts } from '../data/shopLinks';
 
 export const BlogPostPage: React.FC = () => {
@@ -106,7 +107,12 @@ export const BlogPostPage: React.FC = () => {
           <p className="text-sm text-slate-400">Loading article…</p>
         )}
 
-        {body && <LeadCta relatedProducts={post.relatedProducts} variant="full" />}
+        {body &&
+          (post.intent === 'informational' ? (
+            <LeadCta relatedProducts={post.relatedProducts} variant="full" />
+          ) : (
+            <EnquiryPanel postTitle={post.title} postSlug={post.slug} relatedProducts={post.relatedProducts} />
+          ))}
 
         {/* Recommended Flight Hardware Section */}
         <div className="pt-8 border-t border-slate-800 space-y-4">

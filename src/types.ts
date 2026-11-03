@@ -73,6 +73,8 @@ export type Block =
 export interface BlogPost {
   id: string;
   slug: string;
+  /** Commercial and transactional posts end with an enquiry panel; informational ones end with the short call to action. */
+  intent: 'informational' | 'commercial' | 'transactional';
   title: string;
   metaTitle: string;
   metaDescription: string;
