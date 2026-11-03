@@ -226,6 +226,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                       <li key={k}>
                         <Link
                           to={`/shop?q=${encodeURIComponent(k)}`}
+                          rel="nofollow"
                           className="inline-block px-2.5 py-1 text-xs rounded-full border border-slate-700 text-slate-300 hover:border-amber-500 hover:text-amber-400 transition-colors"
                         >
                           {k}

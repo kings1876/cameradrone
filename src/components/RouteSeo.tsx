@@ -78,12 +78,7 @@ export function metaFor(pathname: string, search: string): Meta {
           '@context': 'https://schema.org',
           '@type': 'WebSite',
           name: SITE_NAME,
-          url: SITE_URL + '/',
-          potentialAction: {
-            '@type': 'SearchAction',
-            target: { '@type': 'EntryPoint', urlTemplate: SITE_URL + '/shop?q={search_term_string}' },
-            'query-input': 'required name=search_term_string'
-          }
+          url: SITE_URL + '/'
         }
       ]
     };

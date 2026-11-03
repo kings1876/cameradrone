@@ -281,8 +281,8 @@ export function sitemapXml(): string {
 export function robotsTxt(): string {
   const bots = ['GPTBot', 'ChatGPT-User', 'OAI-SearchBot', 'ClaudeBot', 'Claude-Web', 'Claude-SearchBot', 'Claude-User', 'Bingbot', 'PerplexityBot', 'Applebot', 'Amazonbot', 'CCBot', 'Google-Extended', 'Meta-ExternalAgent', 'cohere-ai'];
   return (
-    `User-agent: *\nAllow: /\nDisallow: /order\nDisallow: /checkout\nDisallow: /admin\nDisallow: /api/\n\n` +
-    bots.map(b => `User-agent: ${b}\nAllow: /\nDisallow: /admin\nDisallow: /api/\n`).join('\n') +
+    `User-agent: *\nAllow: /\nDisallow: /order\nDisallow: /checkout\nDisallow: /admin\nDisallow: /api/\nDisallow: /*?q=\nDisallow: /quote?product=\n\n` +
+    bots.map(b => `User-agent: ${b}\nAllow: /\nDisallow: /admin\nDisallow: /api/\nDisallow: /*?q=\nDisallow: /quote?product=\n`).join('\n') +
     `\nSitemap: ${SITE_URL}/sitemap.xml\n`
   );
 }
