@@ -3,6 +3,8 @@
 import { BLOG_POSTS } from './content';
 
 const HOME = [
+  'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices',
+  'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices',
   'black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026',
   'best-drone-for-sale-australia-2026-buyers-guide',
   'do-i-need-to-register-a-drone-in-australia-casa-rules',
@@ -28,6 +30,7 @@ const BY_CATEGORY: Record<string, string[]> = {
     'best-drone-for-sale-australia-2026-buyers-guide'
   ],
   'enterprise-drones': [
+    'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices',
     'buy-dji-matrice-australia-matrice-4-30-400-compared-by-price',
     'thermal-drones-australia-guide',
     'enterprise-drones-matrice-mavic-3-enterprise-guide',
@@ -43,6 +46,7 @@ const BY_CATEGORY: Record<string, string[]> = {
     'enterprise-drones-matrice-mavic-3-enterprise-guide'
   ],
   'spraying-drones': [
+    'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices',
     'agricultural-drones-weed-control-seeding-crop-monitoring',
     'agricultural-spraying-drones-australia-guide'
   ],
@@ -57,10 +61,10 @@ const BY_CATEGORY: Record<string, string[]> = {
 };
 
 const BY_SUBCATEGORY: Record<string, string[]> = {
-  'Thermal Cameras': ['buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras', 'thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
+  'Thermal Cameras': ['buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices', 'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras', 'thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
   'LiDAR Sensors': ['lidar-vs-photogrammetry-drone-mapping-australia', 'thermal-drones-australia-guide'],
   'DJI Dock': ['buy-dji-matrice-australia-matrice-4-30-400-compared-by-price', 'thermal-drones-australia-guide', 'enterprise-drones-matrice-mavic-3-enterprise-guide'],
-  'Multispectral Cameras': ['agricultural-drones-weed-control-seeding-crop-monitoring', 'agricultural-spraying-drones-australia-guide']
+  'Multispectral Cameras': ['buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices', 'agricultural-drones-weed-control-seeding-crop-monitoring', 'agricultural-spraying-drones-australia-guide']
 };
 
 export interface GuideLink {

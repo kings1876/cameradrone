@@ -869,3 +869,13 @@ Two transactional guides on unused keywords. Prices and specifications come from
 |---|---|
 | /blog/buy-dji-mini-4-pro-australia-combos-batteries-accessories | dji mini 4 pro price australia (90); dji mini 4 pro australia (90); dji mini 4 pro battery (320); dji mini 4 pro accessories (140); dji mini 4 pro fly more combo best price (140); dji mini 3 pro vs mini 4 pro (90) |
 | /blog/black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026 | black friday drone sale (70); dji black friday sale (140); drones for sale black friday (70); black friday sales drones (70); drone sale black friday (70) |
+
+
+## Thermal and agricultural buying guides (3 Nov 2026)
+
+Two transactional guides focused on the two topics with the most engagement in Search Console (thermal drones and agricultural spray drones). All prices and specifications come from the product data. Spray-drone and enterprise-aircraft CTAs lead with the quote form.
+
+| Post | Primary / supporting keywords (monthly AU volume) |
+|---|---|
+| /blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices | dji thermal drone (320); dji mavic 3 thermal drone (70); thermal drones for sale; enterprise thermal drone; thermal drone price; commercial drone with thermal camera |
+| /blog/buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices | dji agras t50 (210); dji agras t100 price (90); agras t100 (110); dji agras t50 price (70); agriculture spraying drone (170); ag drone sprayer (140); dji agricultural drones (110) |

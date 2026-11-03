@@ -3,6 +3,123 @@ import { BlogSummary } from '../types';
 
 export const BLOG_SUMMARIES: BlogSummary[] = [
   {
+    "id": "post-29",
+    "slug": "buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices",
+    "title": "Buy a DJI Thermal Drone in Australia: Mavic 3T vs Matrice 4T vs Matrice 30T, Prices and Which to Choose",
+    "metaTitle": "DJI Thermal Drone Australia: Mavic 3T, M4T, M30T Prices",
+    "metaDescription": "Buying a DJI thermal drone in Australia? Compare the Mavic 3T from $8,249, Matrice 4T and 30T with Autel and FLIR options, AUD prices and what is included.",
+    "subtitle": "Every thermal aircraft in our range with its price, camera and flight time, and how to match one to your job.",
+    "date": "November 2026",
+    "dateISO": "2026-11-03",
+    "modifiedISO": "2026-11-03",
+    "readTime": "10 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "DJI Thermal Drones",
+      "Buying Guide",
+      "Enterprise Drones"
+    ],
+    "excerpt": "Thermal drones in our range start at $8,249 for the DJI Mavic 3 Thermal and run to $27,500 for the FLIR ION M440. We compare each by price, thermal camera, flight time and use.",
+    "image": "/images/blog-dji-thermal-drone-buying-guide.webp",
+    "imageAlt": "DJI Mavic 3 Thermal, DJI Matrice 4 Thermal and DJI Matrice 30T thermal drones",
+    "relatedProducts": [
+      "dji-mavic-3-thermal",
+      "dji-matrice-4-thermal",
+      "dji-matrice-30t",
+      "autel-evo-max-4t-drone"
+    ],
+    "targetKeywords": [
+      "dji thermal drone",
+      "dji mavic 3 thermal drone",
+      "thermal drones for sale",
+      "enterprise thermal drone",
+      "thermal drone price",
+      "commercial drone with thermal camera"
+    ],
+    "wordCount": 1561,
+    "faq": [
+      {
+        "q": "How much is a DJI thermal drone in Australia?",
+        "a": "The DJI Mavic 3 Thermal is $8,249, the Matrice 4 Thermal is $10,159, the Matrice 4T Plus Combo is $11,248 and the Matrice 30T is $14,917. All prices are in Australian dollars."
+      },
+      {
+        "q": "What is the cheapest thermal drone?",
+        "a": "The DJI Mavic 3 Thermal and the Mavic 3T Worry-Free Basic Combo, both at $8,249, are the lowest-priced thermal aircraft in our range."
+      },
+      {
+        "q": "What is the difference between the Mavic 3T and the Matrice 4T?",
+        "a": "Both use a 640x512 thermal camera. The Matrice 4 Thermal adds a laser rangefinder, a near-infrared auxiliary light for night work and up to 49 minutes of flight, against up to 45 minutes for the Mavic 3 Thermal. It also costs $1,910 more."
+      },
+      {
+        "q": "Which thermal drone is weatherproof?",
+        "a": "The DJI Matrice 30T and its Worry-Free combos are rated IP55, which means protection against dust and water jets. Check each product page for the rating of the other aircraft."
+      },
+      {
+        "q": "Do I need a licence to fly a thermal drone?",
+        "a": "Flying for work normally needs registration, accreditation or a licence and may need an operator certificate, depending on the aircraft and the job. Check the current CASA requirements for your operation."
+      }
+    ]
+  },
+  {
+    "id": "post-30",
+    "slug": "buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices",
+    "title": "Buy a DJI Agras Spray Drone in Australia: T25P vs T50 vs T100 Prices and Which Farm Needs What",
+    "metaTitle": "DJI Agras Spray Drones Australia: T25P, T50, T100 Prices",
+    "metaDescription": "Spray drones for sale in Australia: DJI Agras T25P $17,530, T50 $21,999 and T100 $30,380, plus T70P, XAG and BROUAV, with batteries, chargers and spreaders.",
+    "subtitle": "What each agricultural spray drone costs, how the tanks and payloads compare, and the batteries and extras to budget for.",
+    "date": "November 2026",
+    "dateISO": "2026-11-03",
+    "modifiedISO": "2026-11-03",
+    "readTime": "10 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "DJI Agras",
+      "Buying Guide",
+      "Spraying Drones"
+    ],
+    "excerpt": "Spray drones in our range start at $17,530 for the DJI Agras T25P and reach $54,800 for the BROUAV D72L-8. We compare tanks, payloads and prices, and list the batteries and spreaders you will also need.",
+    "image": "/images/blog-dji-agras-buying-guide.webp",
+    "imageAlt": "DJI Agras T25P, DJI Agras T50 and DJI Agras T100 agricultural spray drones",
+    "relatedProducts": [
+      "dji-agras-t25p",
+      "dji-agras-t50",
+      "dji-agras-t100",
+      "xag-p30-spraying-drone"
+    ],
+    "targetKeywords": [
+      "dji agras t50",
+      "dji agras t100 price",
+      "agras t100",
+      "dji agras t50 price",
+      "agriculture spraying drone",
+      "ag drone sprayer",
+      "dji agricultural drones"
+    ],
+    "wordCount": 1429,
+    "faq": [
+      {
+        "q": "How much is a DJI Agras drone in Australia?",
+        "a": "The DJI Agras T25P is $17,530, the T70P is $20,380, the T50 is $21,999 and the T100 is $30,380. All prices are in Australian dollars."
+      },
+      {
+        "q": "What is the cheapest agricultural spray drone?",
+        "a": "The DJI Agras T25P at $17,530 is the lowest-priced spray drone in our range. It is a compact, foldable drone with 20 kg spraying and 25 kg spreading capacity."
+      },
+      {
+        "q": "What is the difference between the Agras T50 and T100?",
+        "a": "The T50 carries a 40 kg spraying load or a 50 kg spreading load. The T100 has a 100 L spray tank and a 150 L spreading tank, LiDAR and a penta-vision system, and costs $8,381 more."
+      },
+      {
+        "q": "Can a spray drone also spread seed and fertiliser?",
+        "a": "Many can with a spreading system, such as the T50 Spreading System at $2,200 or the 150L Spreading System for the T100 at $3,010."
+      },
+      {
+        "q": "What else do I need to buy with a spray drone?",
+        "a": "Spare batteries, a charger or power supply, and a generator if you work away from the mains. Batteries start at $3,190 and power supplies at $2,310."
+      }
+    ]
+  },
+  {
     "id": "post-27",
     "slug": "buy-dji-mini-4-pro-australia-combos-batteries-accessories",
     "title": "Buy the DJI Mini 4 Pro in Australia: Price, Combos, Batteries and Accessories Compared",

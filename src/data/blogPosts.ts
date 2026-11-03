@@ -2099,5 +2099,174 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['black friday drone sale', 'dji black friday sale', 'drones for sale black friday', 'black friday sales drones', 'drone sale black friday']
+  },
+  {
+    id: 'post-29',
+    slug: 'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices',
+    title: `Buy a DJI Thermal Drone in Australia: Mavic 3T vs Matrice 4T vs Matrice 30T, Prices and Which to Choose`,
+    metaTitle: `DJI Thermal Drone Australia: Mavic 3T, M4T, M30T Prices`,
+    metaDescription: `Buying a DJI thermal drone in Australia? Compare the Mavic 3T from $8,249, Matrice 4T and 30T with Autel and FLIR options, AUD prices and what is included.`,
+    subtitle: `Every thermal aircraft in our range with its price, camera and flight time, and how to match one to your job.`,
+    date: 'November 2026',
+    dateISO: '2026-11-03',
+    modifiedISO: '2026-11-03',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['DJI Thermal Drones', 'Buying Guide', 'Enterprise Drones'],
+    excerpt: `Thermal drones in our range start at $8,249 for the DJI Mavic 3 Thermal and run to $27,500 for the FLIR ION M440. We compare each by price, thermal camera, flight time and use.`,
+    image: '/images/blog-dji-thermal-drone-buying-guide.webp',
+    imageAlt: `DJI Mavic 3 Thermal, DJI Matrice 4 Thermal and DJI Matrice 30T thermal drones`,
+    relatedProducts: ['dji-mavic-3-thermal', 'dji-matrice-4-thermal', 'dji-matrice-30t', 'autel-evo-max-4t-drone'],
+    content: [
+      `A thermal drone shows you what a normal camera cannot: heat. That is why they are used to find a hot spot on a solar array, a roof leak, a missing person at night or the source of a fire. If you are searching for a DJI thermal drone in Australia, the question is rarely whether to buy one, but which of the half-dozen aircraft to choose, because they range from about $8,000 to more than $27,000 and differ in size, weather sealing, flight time and what comes in the box. This guide lists every thermal aircraft in our range with its listed price in Australian dollars, explains what you are paying for, and matches each one to the job it suits. It is a buying guide, so if you are new to the technology, start with our explanation of [thermal drones in Australia](/blog/thermal-drones-australia-guide).`,
+      { h2: `What you are paying for in a thermal drone` },
+      `Most of the price difference comes from a handful of features. Knowing them makes the table below easy to read.`,
+      { ul: [
+        `**Thermal camera:** the DJI Mavic 3, Matrice 4 and Matrice 30 thermal aircraft all use a 640x512 thermal camera. The Matrice 4 Thermal adds a sensitivity of 50 mK or better and a near-infrared auxiliary light for night work.`,
+        `**Visible cameras:** every thermal drone also carries normal cameras so you can overlay heat on a clear picture. The Mavic 3 Thermal has 48 MP wide and 56x hybrid zoom cameras, and the Matrice 4 Thermal has 48 MP wide, medium tele and tele cameras and a laser rangefinder.`,
+        `**Size and weather sealing:** the Matrice 30T is rated IP55, which matters if you fly in rain or dust. The smaller aircraft trade that for portability.`,
+        `**Flight time:** up to 45 minutes on the Mavic 3 Thermal, up to 49 minutes on the Matrice 4 series and up to 41 minutes on the Matrice 30T.`,
+        `**Care coverage:** the Worry-Free combos bundle DJI Care Enterprise with the aircraft. Basic and Plus levels differ, and so does the price.`
+      ] },
+      { h2: `Thermal drone prices in Australia` },
+      `Prices are the current listed prices in Australian dollars. Click any aircraft for its full specification.`,
+      { table: {
+        head: ['Aircraft', 'Thermal camera', 'Flight time', 'Price (AUD)'],
+        rows: [
+          ['[DJI Mavic 3 Thermal](/product/dji-mavic-3-thermal)', '640x512', 'Up to 45 min', '$8,249'],
+          ['[DJI Mavic 3T Worry-Free Basic Combo](/product/dji-mavic-3t-worry-free-basic-combo)', '640x512', 'Up to 45 min', '$8,249'],
+          ['[DJI Mavic 3T Worry-Free Plus Combo](/product/dji-mavic-3t-worry-free-plus-combo)', '640x512', 'Up to 45 min', '$10,679'],
+          ['[DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal)', '640x512, 50 mK or better', 'Up to 49 min', '$10,159'],
+          ['[DJI Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', '640x512', 'Up to 49 min', '$11,248'],
+          ['[DJI Matrice 30T](/product/dji-matrice-30t)', '640x512 radiometric', 'Up to 41 min', '$14,917'],
+          ['[Matrice 30T Worry-Free Plus Combo](/product/matrice-30t-worry-free-plus-combo)', '640x512 radiometric', 'Up to 41 min', '$15,473'],
+          ['[Autel EVO Max 4T](/product/autel-evo-max-4t-drone)', 'Thermal, wide and zoom cameras', 'Up to 42 min', '$14,999'],
+          ['[DJI Matrice 4TD Worry-Free Flagship Combo](/product/dji-matrice-4td-worry-free-flagship-combo)', 'Thermal, dock-ready', 'See product page', '$15,470'],
+          ['[FLIR ION M440 Tactical Drone](/product/flir-ion-m440-tactical-drone)', 'FLIR Boson 320 (320x256)', 'About 35 min', '$27,500']
+        ]
+      } },
+      { h2: `DJI Mavic 3 Thermal: the portable choice from $8,249` },
+      `The [DJI Mavic 3 Thermal](/product/dji-mavic-3-thermal) is the lowest-priced thermal aircraft in our range. It adds a 640x512 uncooled thermal camera to a 48 MP wide camera and a 56x hybrid zoom camera, flies for up to 45 minutes and weighs 920 g. DJI positions it for roof, solar, fire and rescue work, and it is small enough to carry in one hand. The [Worry-Free Basic Combo](/product/dji-mavic-3t-worry-free-basic-combo) is listed at the same $8,249 and includes DJI Care Enterprise Basic. The [Plus Combo](/product/dji-mavic-3t-worry-free-plus-combo) at $10,679 includes DJI Care Enterprise Plus. Browse the full [Mavic 3 Enterprise range](/category/enterprise-drones/dji-mavic-3-enterprise).`,
+      { h2: `DJI Matrice 4 Thermal and 4T: the all-round day and night aircraft` },
+      `The [DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal) at $10,159 pairs a 640x512 thermal camera with 48 MP wide, medium tele and tele cameras, a laser rangefinder and a near-infrared auxiliary light. It flies for up to 49 minutes and weighs 1,219 g. DJI aims it at public safety, search and rescue, and inspection crews working day and night. The [Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo) at $11,248 adds a Plus bundle with Care coverage and extra batteries. For most buyers comparing thermal drones this is the best balance of capability and price, and our [DJI Matrice buying guide](/blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price) shows where it sits against the rest of the range.`,
+      { h2: `DJI Matrice 30T: the weather-sealed workhorse` },
+      `The [DJI Matrice 30T](/product/dji-matrice-30t) at $14,917 has a 640x512 radiometric thermal camera, a wide camera, a zoom camera and a laser rangefinder on one payload, and it is rated IP55 with up to 41 minutes of flight. It is the larger, tougher choice for firefighting, police, power-line and solar inspection teams who work in poor weather. The [Basic Combo](/product/matrice-30t-worry-free-basic-combo) is the same $14,917 with DJI Care Enterprise Basic, and the [Plus Combo](/product/matrice-30t-worry-free-plus-combo) is $15,473. If weather sealing is your priority, read our guide to [waterproof drones and IP ratings](/blog/waterproof-drones-ip-ratings-explained).`,
+      { h2: `Autel EVO Max 4T and FLIR ION M440: the alternatives` },
+      `The [Autel EVO Max 4T](/product/autel-evo-max-4t-drone) at $14,999 carries wide, zoom and thermal cameras and a laser rangefinder, flies for up to 42 minutes and weighs about 1.6 kg with its battery. It suits buyers who want an alternative to the DJI range. The [FLIR ION M440](/product/flir-ion-m440-tactical-drone) at $27,500 is a small tactical drone with dual 12 MP visible cameras and a FLIR Boson 320 thermal camera, about 35 minutes of flight and a weight near 1.8 kg, aimed at defence and public-safety buyers who need a backpack-portable system. Browse the [Autel and FLIR drones category](/category/enterprise-drones/autel-and-flir-drones).`,
+      { h2: `Basic or Plus: what the Worry-Free upgrade costs` },
+      { table: {
+        head: ['Aircraft', 'Basic combo', 'Plus combo', 'Plus costs'],
+        rows: [
+          ['Mavic 3T', '[$8,249](/product/dji-mavic-3t-worry-free-basic-combo)', '[$10,679](/product/dji-mavic-3t-worry-free-plus-combo)', '$2,430 more'],
+          ['Matrice 30T', '[$14,917](/product/matrice-30t-worry-free-basic-combo)', '[$15,473](/product/matrice-30t-worry-free-plus-combo)', '$556 more']
+        ]
+      } },
+      `The upgrade is small on the Matrice 30T and large on the Mavic 3T, so compare the Care Enterprise terms on each product page before you decide, especially if the aircraft will be used heavily or by several crew.`,
+      { h2: `Which thermal drone should you buy?` },
+      { ul: [
+        `**Roof, solar, fire and rescue with a portable aircraft:** the [Mavic 3 Thermal](/product/dji-mavic-3-thermal) from $8,249.`,
+        `**Public safety and search and rescue, day and night:** the [Matrice 4 Thermal](/product/dji-matrice-4-thermal) from $10,159.`,
+        `**Wet or dusty conditions and heavier use:** the [Matrice 30T](/product/dji-matrice-30t) from $14,917.`,
+        `**A non-DJI option:** the [Autel EVO Max 4T](/product/autel-evo-max-4t-drone) at $14,999.`,
+        `**Automated thermal patrols from a dock:** the [Matrice 4TD Flagship Combo](/product/dji-matrice-4td-worry-free-flagship-combo) at $15,470 or the [Dock 3 Thermal Package](/product/dji-dock-3-thermal-package) at $34,278. See the [DJI Dock category](/category/enterprise-drones/dji-dock).`,
+        `**Thermal on an aircraft you already own:** the [Zenmuse H30T](/product/dji-zenmuse-h30t) at $17,335 is a thermal camera payload with a wide camera, a zoom camera and a laser rangefinder. Confirm compatibility with your aircraft first.`
+      ] },
+      { h2: `Thermal drone or thermal camera?` },
+      `If you only need to scan a switchboard or a wall, a handheld thermal camera may be enough and costs far less. If you need to see a roof, an array, a line or a paddock from above, a drone is the right tool. Our guides explain the trade-off: [thermal camera vs thermal drone](/blog/thermal-camera-vs-thermal-drone-infrared-inspections), [buying a thermal imaging camera](/blog/buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras) and [drone heat cameras and payloads](/blog/buy-drone-heat-camera-australia-thermal-drones-payloads). You can also browse the [thermal cameras category](/category/cameras-sensors/thermal-cameras) and the wider [DJI Matrice range](/category/enterprise-drones/dji-matrice).`,
+      { h2: `Rules and training before you fly` },
+      `Flying a thermal drone for work is commercial flying. You will need the right accreditation or licence and an operator certificate where required, and night or beyond-line-of-sight flying may need extra approval. Rules change, so confirm what applies to your work on the CASA website, and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules). Our [enterprise drones guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) explains how these aircraft fit into a professional workflow.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For an enterprise aircraft we suggest asking for a written quote so we can confirm the configuration, availability and delivery: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `How much is a DJI thermal drone in Australia?`, a: `The DJI Mavic 3 Thermal is $8,249, the Matrice 4 Thermal is $10,159, the Matrice 4T Plus Combo is $11,248 and the Matrice 30T is $14,917. All prices are in Australian dollars.` },
+        { q: `What is the cheapest thermal drone?`, a: `The DJI Mavic 3 Thermal and the Mavic 3T Worry-Free Basic Combo, both at $8,249, are the lowest-priced thermal aircraft in our range.` },
+        { q: `What is the difference between the Mavic 3T and the Matrice 4T?`, a: `Both use a 640x512 thermal camera. The Matrice 4 Thermal adds a laser rangefinder, a near-infrared auxiliary light for night work and up to 49 minutes of flight, against up to 45 minutes for the Mavic 3 Thermal. It also costs $1,910 more.` },
+        { q: `Which thermal drone is weatherproof?`, a: `The DJI Matrice 30T and its Worry-Free combos are rated IP55, which means protection against dust and water jets. Check each product page for the rating of the other aircraft.` },
+        { q: `Do I need a licence to fly a thermal drone?`, a: `Flying for work normally needs registration, accreditation or a licence and may need an operator certificate, depending on the aircraft and the job. Check the current CASA requirements for your operation.` }
+      ] }
+    ],
+    targetKeywords: ['dji thermal drone', 'dji mavic 3 thermal drone', 'thermal drones for sale', 'enterprise thermal drone', 'thermal drone price', 'commercial drone with thermal camera']
+  },
+  {
+    id: 'post-30',
+    slug: 'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices',
+    title: `Buy a DJI Agras Spray Drone in Australia: T25P vs T50 vs T100 Prices and Which Farm Needs What`,
+    metaTitle: `DJI Agras Spray Drones Australia: T25P, T50, T100 Prices`,
+    metaDescription: `Spray drones for sale in Australia: DJI Agras T25P $17,530, T50 $21,999 and T100 $30,380, plus T70P, XAG and BROUAV, with batteries, chargers and spreaders.`,
+    subtitle: `What each agricultural spray drone costs, how the tanks and payloads compare, and the batteries and extras to budget for.`,
+    date: 'November 2026',
+    dateISO: '2026-11-03',
+    modifiedISO: '2026-11-03',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['DJI Agras', 'Buying Guide', 'Spraying Drones'],
+    excerpt: `Spray drones in our range start at $17,530 for the DJI Agras T25P and reach $54,800 for the BROUAV D72L-8. We compare tanks, payloads and prices, and list the batteries and spreaders you will also need.`,
+    image: '/images/blog-dji-agras-buying-guide.webp',
+    imageAlt: `DJI Agras T25P, DJI Agras T50 and DJI Agras T100 agricultural spray drones`,
+    relatedProducts: ['dji-agras-t25p', 'dji-agras-t50', 'dji-agras-t100', 'xag-p30-spraying-drone'],
+    content: [
+      `An agricultural spray drone applies chemicals and spreads seed and fertiliser from the air, so there is no wheel traffic on the crop and no need to drive the paddock. That is the appeal for farmers and contract sprayers. It also makes buying one more complicated than buying a camera drone: the aircraft costs from $17,530 to $54,800, the right choice depends on the size of your tank and your fields, and the batteries, chargers and spreading systems you need can add tens of thousands of dollars. This guide lists the spray drones in our range with their listed prices in Australian dollars, compares the DJI Agras T25P, T50, T70P and T100 with the XAG and BROUAV alternatives, and sets out the extras to budget for. For the bigger picture on how spray drones fit into a farm, read our [agricultural spraying drone guide](/blog/agricultural-spraying-drones-australia-guide).`,
+      { h2: `Spray drone prices in Australia` },
+      `Prices are current listed prices in Australian dollars. Capacities come from the product specifications.`,
+      { table: {
+        head: ['Spray drone', 'Capacity', 'Price (AUD)'],
+        rows: [
+          ['[DJI Agras T25P](/product/dji-agras-t25p)', '20 kg spraying, 25 kg spreading, foldable', '$17,530'],
+          ['[DJI Agras T70P](/product/dji-agras-t70p)', '70 L spray tank, 100 L spreading tank, up to 70 kg', '$20,380'],
+          ['[DJI Agras T50](/product/dji-agras-t50)', '40 kg spraying, 50 kg spreading, 16 L/min', '$21,999'],
+          ['[XAG P30](/product/xag-p30-spraying-drone)', 'Four rotary atomiser nozzles', '$24,000'],
+          ['[DJI Agras T100](/product/dji-agras-t100)', '100 L spray tank, 150 L spreading tank, 40 L/min', '$30,380'],
+          ['[BROUAV D30L-8](/product/brouav-d30l-8-spraying-drone)', '30 L tank, eight rotors', '$32,000'],
+          ['[BROUAV D52L-8](/product/brouav-d52l-8-spraying-drone)', '52 L tank, eight rotors', '$44,800'],
+          ['[BROUAV D72L-8](/product/brouav-d72l-8-spraying-drone)', '72 L tank, 72 kg payload, eight rotors', '$54,800']
+        ]
+      } },
+      { h2: `DJI Agras T25P: the compact option from $17,530` },
+      `The [DJI Agras T25P](/product/dji-agras-t25p) is a compact, foldable agricultural drone built for solo operators, with 20 kg of spraying capacity and 25 kg of spreading capacity. It uses quad-antenna O4 transmission, millimetre-wave radars and a tri-vision system for automatic, one-click operation, and Safety System 3.0 with a night-vision FPV camera. DJI aims it at smaller farms and solo operators who want a sprayer that is easy to transport and set up. It is the lowest-priced Agras in our range.`,
+      { h2: `DJI Agras T50: the proven all-rounder at $21,999` },
+      `The [DJI Agras T50](/product/dji-agras-t50) is a coaxial twin-rotor drone that carries a 40 kg spraying load or a 50 kg spreading load. A dual atomising spray system and a 16 L/min spray rate make it a workhorse for field and orchard work, and it supports orchard mode and variable rate application. It is the model most buyers mean when they search for the DJI Agras T50 price, and a good default for farmers and contractors who want one capable machine. Accessories include the [T50 Spreading System](/product/dji-agras-t50-spreading-system) at $2,200 for seed and fertiliser and the [T50 Atomized Sprinkler Package](/product/dji-agras-t50-atomized-sprinkler-package) at $1,100.`,
+      { h2: `DJI Agras T70P: more tank for $20,380` },
+      `The [DJI Agras T70P](/product/dji-agras-t70p) is an upgraded Agras for spraying, spreading and lifting. It has a 70 L spray tank with a 40 L/min flow rate, a 100 L spreading tank with a 400 kg/min flow rate and dual atomisation centrifugal sprinklers, carries up to 70 kg and operates at up to 20 m/s. DJI cites about a 20% increase in operating efficiency. It suits farms and contractors covering fields and orchards who want a larger tank than the T50.`,
+      { h2: `DJI Agras T100: the flagship from $30,380` },
+      `The [DJI Agras T100](/product/dji-agras-t100) is DJI's flagship agricultural drone, with a 100 L spray tank and a 150 L spreading tank. It combines a 40 L/min spray flow with LiDAR, a penta-vision system and millimetre-wave radar for round-the-clock operation, lifts up to 100 kg and operates at up to 20 m/s. It is the highest-capacity aircraft in the Agras range, so it suits large farms and spraying contractors. Search for the DJI Agras T100 price and you will also find its dedicated extras: the [150L Spreading System](/product/dji-150l-spreading-system) at $3,010, the [Mist Nozzle Package](/product/dji-agras-t100-mist-nozzle-package) at $2,170 and the [Lift System Kit](/product/dji-agras-t100-lift-system-kit) at $1,460.`,
+      { h2: `XAG P30 and BROUAV: the alternatives` },
+      `The [XAG P30](/product/xag-p30-spraying-drone) at $24,000 uses four rotary atomiser nozzles for crop protection and spot spraying across broadacre, orchards and vineyards. BROUAV makes three heavier eight-rotor sprayers: the [D30L-8](/product/brouav-d30l-8-spraying-drone) with a 30 L tank, the [D52L-8](/product/brouav-d52l-8-spraying-drone) with 52 L and the [D72L-8](/product/brouav-d72l-8-spraying-drone) with a 72 L tank and 72 kg payload, aimed at large farms and contractors who want fewer refill trips. For these models we recommend asking for a [quote](/quote), because freight, set-up and training are arranged individually.`,
+      { h2: `Batteries, chargers and spreaders: what else to budget for` },
+      `The aircraft is only part of the cost. Spare batteries keep a spray drone working while the others charge, and a charger or generator matters on remote properties.`,
+      { table: {
+        head: ['Item', 'Works with', 'Price (AUD)'],
+        rows: [
+          ['[DJI Agras DB800 Battery](/product/dji-agras-db800-intelligent-flight-battery)', 'Agras T30, T25 and T20P class', '$3,190'],
+          ['[DJI Agras DB1560 Battery](/product/dji-agras-db1560-intelligent-flight-battery)', 'Agras T50 and T40', '$3,850'],
+          ['[DJI Agras DB2160 Battery](/product/dji-agras-db2160-intelligent-flight-battery)', 'Agras T100', '$4,080'],
+          ['[DJI C10000 Intelligent Power Supply](/product/dji-c10000-intelligent-power-supply)', 'Agras T50, T40 and compatible', '$2,310'],
+          ['[DJI C12000 Intelligent Power Supply](/product/dji-c12000-intelligent-power-supply)', 'Agras T100', '$2,380'],
+          ['[DJI D14000iE Inverter Generator](/product/dji-d14000ie-multifunctional-inverter-generator)', 'Agras charging stations', '$5,190']
+        ]
+      } },
+      `As an illustration, a T50 with two additional DB1560 batteries, a C10000 power supply and the spreading system lists at $21,999 plus $7,700 plus $2,310 plus $2,200, which is $34,209. How many batteries you need depends on your tank size, field size and refill routine, so treat this as an example and ask us to size a kit. Browse the full [spraying drone accessories category](/category/spraying-drones/spraying-drone-accessories).`,
+      { h2: `Which spray drone should you buy?` },
+      { ul: [
+        `**A smaller farm or a solo operator:** the [DJI Agras T25P](/product/dji-agras-t25p) at $17,530.`,
+        `**One capable all-round machine, including orchards:** the [DJI Agras T50](/product/dji-agras-t50) at $21,999.`,
+        `**A larger tank for fields and orchards:** the [DJI Agras T70P](/product/dji-agras-t70p) at $20,380.`,
+        `**Large farms and contractors who want the most capacity:** the [DJI Agras T100](/product/dji-agras-t100) at $30,380.`,
+        `**A non-DJI option or the biggest tanks:** the [XAG P30](/product/xag-p30-spraying-drone) or a [BROUAV](/category/spraying-drones/spraying-drones) sprayer, by quote.`
+      ] },
+      { h2: `Spraying, spreading and mapping your fields` },
+      `The Agras T25P, T50, T70P and T100 are all listed with spreading capacity, which turns the same drone into a seeding and fertilising tool. If you want to map crop health before you spray, see our guide to [agricultural drones for weed control, seeding and crop monitoring](/blog/agricultural-drones-weed-control-seeding-crop-monitoring) and the [multispectral cameras category](/category/cameras-sensors/multispectral-cameras), which runs from $4,900 to $28,999. Our [LiDAR vs photogrammetry guide](/blog/lidar-vs-photogrammetry-drone-mapping-australia) explains the mapping options.`,
+      { h2: `Rules, licences and training` },
+      `Spraying with a drone is commercial flying and also involves chemical application, which is regulated and varies by state. You will normally need the right drone accreditation or licence and an operator certificate, and you may need a chemical application licence for your state or territory. Rules change, so confirm what applies on the CASA website and with your state regulator, and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules). We can discuss training and set-up when you ask for a quote.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For a spray drone we recommend a written quote so we confirm the aircraft, batteries, charging and freight together: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply. Browse all [spraying drones](/category/spraying-drones).`,
+      { faq: [
+        { q: `How much is a DJI Agras drone in Australia?`, a: `The DJI Agras T25P is $17,530, the T70P is $20,380, the T50 is $21,999 and the T100 is $30,380. All prices are in Australian dollars.` },
+        { q: `What is the cheapest agricultural spray drone?`, a: `The DJI Agras T25P at $17,530 is the lowest-priced spray drone in our range. It is a compact, foldable drone with 20 kg spraying and 25 kg spreading capacity.` },
+        { q: `What is the difference between the Agras T50 and T100?`, a: `The T50 carries a 40 kg spraying load or a 50 kg spreading load. The T100 has a 100 L spray tank and a 150 L spreading tank, LiDAR and a penta-vision system, and costs $8,381 more.` },
+        { q: `Can a spray drone also spread seed and fertiliser?`, a: `Many can with a spreading system, such as the T50 Spreading System at $2,200 or the 150L Spreading System for the T100 at $3,010.` },
+        { q: `What else do I need to buy with a spray drone?`, a: `Spare batteries, a charger or power supply, and a generator if you work away from the mains. Batteries start at $3,190 and power supplies at $2,310.` }
+      ] }
+    ],
+    targetKeywords: ['dji agras t50', 'dji agras t100 price', 'agras t100', 'dji agras t50 price', 'agriculture spraying drone', 'ag drone sprayer', 'dji agricultural drones']
   }
 ];
