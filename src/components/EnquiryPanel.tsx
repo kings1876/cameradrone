@@ -28,11 +28,18 @@ export const EnquiryPanel: React.FC<EnquiryPanelProps> = ({ postTitle, postSlug,
   const [sending, setSending] = useState(false);
   const [state, setState] = useState<'idle' | 'sent' | 'error'>('idle');
 
-  const interest = relatedProducts
-    .map(s => PRODUCTS.find(p => p.slug === s)?.name)
-    .filter((n): n is string => !!n)
-    .slice(0, 3)
-    .join('; ');
+  const items = relatedProducts
+    .map(s => PRODUCTS.find(p => p.slug === s))
+    .filter((p): p is NonNullable<typeof p> => !!p)
+    .slice(0, 4);
+  const [picked, setPicked] = useState<string[]>([]);
+  const toggle = (slug: string) => setPicked(prev => (prev.includes(slug) ? prev.filter(s => s !== slug) : [...prev, slug]));
+  const names = (slugs: string[]) =>
+    items
+      .filter(p => slugs.includes(p.slug))
+      .map(p => p.name)
+      .join('; ');
+  const interest = names(items.map(p => p.slug));
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -47,6 +54,7 @@ export const EnquiryPanel: React.FC<EnquiryPanelProps> = ({ postTitle, postSlug,
       meta: {
         Source: `Blog guide: ${postTitle}`,
         Page: `/blog/${postSlug}`,
+        'Interested in': names(picked) || 'Not specified',
         'Products in guide': interest || '—'
       }
     });
@@ -101,6 +109,32 @@ export const EnquiryPanel: React.FC<EnquiryPanelProps> = ({ postTitle, postSlug,
           <label htmlFor="enq-phone" className={label}>Phone (optional)</label>
           <input id="enq-phone" type="tel" className={field} autoComplete="tel" value={phone} onChange={e => setPhone(e.target.value)} />
         </div>
+        {items.length > 0 && (
+          <fieldset className="space-y-2">
+            <legend className={label}>I am interested in (optional)</legend>
+            <div className="grid gap-2 sm:grid-cols-2">
+              {items.map(p => (
+                <label
+                  key={p.slug}
+                  className={`flex items-start gap-2.5 px-3 py-2.5 rounded-lg border text-left text-xs cursor-pointer transition-colors ${
+                    picked.includes(p.slug) ? 'border-amber-500 bg-amber-500/10 text-white' : 'border-slate-700 bg-slate-950 text-slate-300 hover:border-slate-500'
+                  }`}
+                >
+                  <input
+                    type="checkbox"
+                    className="mt-0.5 accent-amber-500"
+                    checked={picked.includes(p.slug)}
+                    onChange={() => toggle(p.slug)}
+                  />
+                  <span>
+                    <span className="block font-semibold">{p.name}</span>
+                    <span className="block text-slate-400">${p.price.toLocaleString()}</span>
+                  </span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+        )}
         <div>
           <label htmlFor="enq-message" className={label}>What do you need? *</label>
           <textarea
