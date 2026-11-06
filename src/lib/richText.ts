@@ -55,7 +55,7 @@ const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 
 export const inlineHtml = (text: string): string =>
   parseInline(text)
-    .map(p => (p.href ? `<a href="${esc(p.href)}">${esc(p.text)}</a>` : p.bold ? `<strong>${esc(p.text)}</strong>` : esc(p.text)))
+    .map(p => (p.href ? `<a href="${esc(p.href)}"${p.href.startsWith('/') ? '' : ' target="_blank" rel="noopener"'}>${esc(p.text)}</a>` : p.bold ? `<strong>${esc(p.text)}</strong>` : esc(p.text)))
     .join('');
 
 /** Static HTML for the article body, used by the prerender so crawlers see the same content as the React page. */

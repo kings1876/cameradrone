@@ -37,7 +37,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "micasense rededge p",
       "ndvi drone"
     ],
-    "wordCount": 1369,
+    "wordCount": 1387,
     "faq": [
       {
         "q": "How much is a multispectral drone in Australia?",
@@ -96,7 +96,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "thermal payload drone",
       "matrice 350 rtk payload"
     ],
-    "wordCount": 1502,
+    "wordCount": 1519,
     "faq": [
       {
         "q": "How much is the DJI Zenmuse H30T in Australia?",
@@ -214,7 +214,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "thermal drone price",
       "commercial drone with thermal camera"
     ],
-    "wordCount": 1561,
+    "wordCount": 1579,
     "faq": [
       {
         "q": "How much is a DJI thermal drone in Australia?",
@@ -274,7 +274,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "ag drone sprayer",
       "dji agricultural drones"
     ],
-    "wordCount": 1429,
+    "wordCount": 1459,
     "faq": [
       {
         "q": "How much is a DJI Agras drone in Australia?",
@@ -333,7 +333,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji mini 4 pro fly more combo best price",
       "dji mini 3 pro vs mini 4 pro"
     ],
-    "wordCount": 1833,
+    "wordCount": 1851,
     "faq": [
       {
         "q": "How much does the DJI Mini 4 Pro cost in Australia?",
@@ -505,7 +505,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji flip price",
       "dji flip drone"
     ],
-    "wordCount": 1688,
+    "wordCount": 1704,
     "faq": [
       {
         "q": "How much does the DJI Flip cost in Australia?",
@@ -562,7 +562,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji matrice 4",
       "matrice 30"
     ],
-    "wordCount": 1538,
+    "wordCount": 1556,
     "faq": [
       {
         "q": "How much does a DJI Matrice cost in Australia?",
@@ -676,7 +676,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji air 3 drone",
       "dji air 3s accessories"
     ],
-    "wordCount": 2014,
+    "wordCount": 2031,
     "faq": [
       {
         "q": "How much does the DJI Air 3S cost in Australia?",
@@ -847,7 +847,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "miniature drone",
       "dji 5 mini pro"
     ],
-    "wordCount": 1712,
+    "wordCount": 1730,
     "faq": [
       {
         "q": "How much does the DJI Mini 5 Pro cost in Australia?",
@@ -906,7 +906,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji mavic pro 4",
       "dji mavic"
     ],
-    "wordCount": 1528,
+    "wordCount": 1546,
     "faq": [
       {
         "q": "Which DJI Mavic is best to buy in Australia?",
@@ -1074,7 +1074,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji neo 2 digital transceiver",
       "dji neo 2 battery"
     ],
-    "wordCount": 779,
+    "wordCount": 796,
     "faq": [
       {
         "q": "Does the DJI Neo 2 come with a controller?",
@@ -1429,7 +1429,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji mini 4 pro",
       "dji flip vs neo"
     ],
-    "wordCount": 799,
+    "wordCount": 823,
     "faq": [
       {
         "q": "Is the DJI Flip better than the DJI Neo 2?",
@@ -1787,7 +1787,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "crop spraying drone",
       "multispectral drone"
     ],
-    "wordCount": 831,
+    "wordCount": 837,
     "faq": [
       {
         "q": "Which DJI Agras is best for a small farm?",

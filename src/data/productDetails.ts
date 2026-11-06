@@ -211,19 +211,19 @@ export const PRODUCT_DETAILS: Record<string, ProductDetail> = {
   },
   'dji-agras-t100': {
     overview:
-      'The DJI Agras T100 is DJI\'s flagship agricultural drone for spraying, spreading and lifting, with a 100 L spray tank and a 150 L spreading tank. It combines a 40 L/min spray flow with LiDAR, a penta-vision system and millimetre-wave radar for round-the-clock operation.',
+      'The DJI Agras T100 is DJI\'s flagship agricultural drone for spraying, spreading and lifting, with a 100 L spray tank and a 150 L spreading tank. It combines a spray flow of 30 L/min (40 L/min with the optional four-nozzle set) with LiDAR, a penta-vision system and millimetre-wave radar for round-the-clock operation.',
     bestFor:
       'For large farms and spraying contractors who want the highest capacity in the Agras range. Request a quote for training, batteries and charging.',
-    highlights: ['100 L spraying tank, 40 L/min flow rate', '150 L spreading tank, 400 kg/min flow rate', 'Up to 100 kg lifting and 20 m/s operation speed'],
-    specs: [['Spraying tank', '100 L, 40 L/min flow rate'], ['Spreading tank', '150 L, 400 kg/min flow rate'], ['Lifting', 'Up to 100 kg'], ['Max operation speed', '20 m/s'], ['Obstacle sensing', 'LiDAR, penta-vision system and millimetre-wave radar']]
+    highlights: ['100 L spraying tank, 30 L/min flow rate (40 L/min with optional 4 nozzles)', '150 L spreading tank, 400 kg/min flow rate', 'Up to 100 kg lifting and 20 m/s operation speed'],
+    specs: [['Spraying tank', '100 L, 30 L/min standard (40 L/min with optional 4 nozzles)'], ['Spreading tank', '150 L, 400 kg/min flow rate'], ['Lifting', 'Up to 100 kg'], ['Max operation speed', '20 m/s'], ['Obstacle sensing', 'LiDAR, penta-vision system and millimetre-wave radar']]
   },
   'dji-agras-t70p': {
     overview:
       'The DJI Agras T70P is an upgraded Agras drone for spraying, spreading and lifting, with a 70 L spray tank and dual atomisation centrifugal sprinklers. It carries up to 70 kg and DJI cites about a 20% increase in operating efficiency.',
     bestFor:
       'For farms and contractors covering fields and orchards who want a high-capacity sprayer with Safety System 3.0.',
-    highlights: ['70 L spraying tank, 40 L/min flow rate', '100 L spreading tank, 400 kg/min flow rate', 'Up to 65 kg lifting, 20 m/s operation speed'],
-    specs: [['Spraying tank', '70 L, 40 L/min flow rate'], ['Spreading tank', '100 L, 400 kg/min flow rate'], ['Lifting', 'Up to 65 kg'], ['Max payload', '70 kg'], ['Max operation speed', '20 m/s']]
+    highlights: ['70 L spraying tank, 30 L/min flow rate', '100 L spreading tank, 400 kg/min flow rate', 'Up to 65 kg lifting, 20 m/s operation speed'],
+    specs: [['Spraying tank', '70 L, 30 L/min flow rate'], ['Spreading tank', '100 L, 400 kg/min flow rate'], ['Lifting', 'Up to 65 kg'], ['Max payload', '70 kg'], ['Max operation speed', '20 m/s']]
   },
   'dji-agras-t50': {
     overview:

@@ -12,7 +12,7 @@ const Inline: React.FC<{ text: string }> = ({ text }) => (
             {p.text}
           </Link>
         ) : (
-          <a key={i} href={p.href} className="text-amber-400 underline underline-offset-2 hover:text-amber-300" rel="noopener">
+          <a key={i} href={p.href} className="text-amber-400 underline underline-offset-2 hover:text-amber-300" target="_blank" rel="noopener">
             {p.text}
           </a>
         )
