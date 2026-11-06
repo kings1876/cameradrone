@@ -1,7 +1,7 @@
 import { BlogBody } from '../components/BlogBody';
 import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST } from '../lib/imageSets';
 import React, { useEffect, useState } from 'react';
-import { Block } from '../types';
+import { Block, Product } from '../types';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, Tag, Share2, BookOpen } from 'lucide-react';
 import { BLOG_POSTS } from '../data/content';
@@ -10,8 +10,15 @@ import { ShopRanges } from '../components/ShopRanges';
 import { LeadCta } from '../components/LeadCta';
 import { EnquiryPanel } from '../components/EnquiryPanel';
 import { rangesForProducts } from '../data/shopLinks';
+import { BlogProductCard } from '../components/BlogProductCard';
 
-export const BlogPostPage: React.FC = () => {
+interface BlogPostPageProps {
+  onAddToCart: (product: Product) => void;
+  onQuickCheckout: (product: Product) => void;
+  addedProductId: string | null;
+}
+
+export const BlogPostPage: React.FC<BlogPostPageProps> = ({ onAddToCart, onQuickCheckout, addedProductId }) => {
   const { slug } = useParams<{ slug: string }>();
 
   const post = BLOG_POSTS.find(p => p.slug === slug || p.id === slug);
@@ -107,13 +114,6 @@ export const BlogPostPage: React.FC = () => {
           <p className="text-sm text-slate-400">Loading article…</p>
         )}
 
-        {body &&
-          (post.intent === 'informational' ? (
-            <LeadCta relatedProducts={post.relatedProducts} variant="full" />
-          ) : (
-            <EnquiryPanel postTitle={post.title} postSlug={post.slug} relatedProducts={post.relatedProducts} />
-          ))}
-
         {/* Recommended Flight Hardware Section */}
         <div className="pt-8 border-t border-slate-800 space-y-4">
           <div className="flex flex-col items-center gap-2 text-center">
@@ -122,23 +122,24 @@ export const BlogPostPage: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {relatedProducts.map(p => (
-              <Link
+              <BlogProductCard
                 key={p.id}
-                to={`/product/${p.slug}`}
-                className="p-3.5 bg-[#0f172a] rounded-xl border border-slate-800 hover:border-amber-500/50 transition-colors block group"
-              >
-                <span className="text-[10px] font-mono text-amber-400 uppercase tracking-wider block">{p.brand}</span>
-                <h3 className="text-xs font-bold text-white group-hover:text-amber-400 transition-colors truncate mt-0.5">
-                  {p.name}
-                </h3>
-                <div className="flex justify-between items-baseline mt-2 text-xs font-mono">
-                  <span className="text-white font-bold">${p.price.toLocaleString()}</span>
-                  <span className="text-emerald-400 text-[10px]">Free AU Delivery</span>
-                </div>
-              </Link>
+                product={p}
+                postSlug={post.slug}
+                added={addedProductId === p.id}
+                onAddToCart={onAddToCart}
+                onBuyNow={onQuickCheckout}
+              />
             ))}
           </div>
         </div>
+
+        {body &&
+          (post.intent === 'informational' ? (
+            <LeadCta relatedProducts={post.relatedProducts} variant="full" />
+          ) : (
+            <EnquiryPanel postTitle={post.title} postSlug={post.slug} relatedProducts={post.relatedProducts} />
+          ))}
 
         <ShopRanges heading="Shop the range" links={rangesForProducts(post.relatedProducts)} />
       </div>

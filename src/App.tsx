@@ -160,7 +160,16 @@ export default function App() {
           />
           {/* Blog Pages */}
           <Route path="/blog" element={<BlogListPage />} />
-          <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route
+            path="/blog/:slug"
+            element={
+              <BlogPostPage
+                onAddToCart={handleAddToCart}
+                onQuickCheckout={handleQuickCheckout}
+                addedProductId={addedProductId}
+              />
+            }
+          />
           {/* Info Pages */}
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
