@@ -3,6 +3,9 @@
 import { BLOG_POSTS } from './content';
 
 const HOME = [
+  'buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices',
+  'buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices',
+  'buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100',
   'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices',
   'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices',
   'black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026',
@@ -30,6 +33,7 @@ const BY_CATEGORY: Record<string, string[]> = {
     'best-drone-for-sale-australia-2026-buyers-guide'
   ],
   'enterprise-drones': [
+    'buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices',
     'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices',
     'buy-dji-matrice-australia-matrice-4-30-400-compared-by-price',
     'thermal-drones-australia-guide',
@@ -39,6 +43,8 @@ const BY_CATEGORY: Record<string, string[]> = {
     'waterproof-drones-ip-ratings-explained'
   ],
   'cameras-sensors': [
+    'buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices',
+    'buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices',
     'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras',
     'thermal-drones-australia-guide',
     'thermal-camera-vs-thermal-drone-infrared-inspections',
@@ -46,6 +52,8 @@ const BY_CATEGORY: Record<string, string[]> = {
     'enterprise-drones-matrice-mavic-3-enterprise-guide'
   ],
   'spraying-drones': [
+    'buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100',
+    'buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices',
     'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices',
     'agricultural-drones-weed-control-seeding-crop-monitoring',
     'agricultural-spraying-drones-australia-guide'
@@ -61,10 +69,12 @@ const BY_CATEGORY: Record<string, string[]> = {
 };
 
 const BY_SUBCATEGORY: Record<string, string[]> = {
-  'Thermal Cameras': ['buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices', 'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras', 'thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
+  'Thermal Cameras': ['buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices', 'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices', 'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras', 'thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
   'LiDAR Sensors': ['lidar-vs-photogrammetry-drone-mapping-australia', 'thermal-drones-australia-guide'],
   'DJI Dock': ['buy-dji-matrice-australia-matrice-4-30-400-compared-by-price', 'thermal-drones-australia-guide', 'enterprise-drones-matrice-mavic-3-enterprise-guide'],
-  'Multispectral Cameras': ['buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices', 'agricultural-drones-weed-control-seeding-crop-monitoring', 'agricultural-spraying-drones-australia-guide']
+  'DJI Zenmuse Cameras': ['buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices', 'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices', 'lidar-vs-photogrammetry-drone-mapping-australia'],
+  'Spraying Drone Accessories': ['buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100', 'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices', 'agricultural-spraying-drones-australia-guide'],
+  'Multispectral Cameras': ['buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices', 'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices', 'agricultural-drones-weed-control-seeding-crop-monitoring', 'agricultural-spraying-drones-australia-guide']
 };
 
 export interface GuideLink {

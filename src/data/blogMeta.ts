@@ -3,6 +3,183 @@ import { BlogSummary } from '../types';
 
 export const BLOG_SUMMARIES: BlogSummary[] = [
   {
+    "id": "post-31",
+    "slug": "buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices",
+    "intent": "transactional",
+    "title": "Buy a Multispectral Drone or Camera in Australia: Mavic 3 Multispectral, Phantom 4, MicaSense and SlantRange Prices",
+    "metaTitle": "Multispectral Drone Australia: Mavic 3M, MicaSense Prices",
+    "metaDescription": "Buying a multispectral drone or camera in Australia? Compare the Mavic 3 Multispectral from $7,919, Phantom 4, MicaSense, SlantRange and Agrowing, AUD prices.",
+    "subtitle": "Complete crop-monitoring drones, sensors for your own aircraft, kits and software, with what each one costs and who it suits.",
+    "date": "November 2026",
+    "dateISO": "2026-11-06",
+    "modifiedISO": "2026-11-06",
+    "readTime": "10 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Precision Agriculture",
+      "Buying Guide",
+      "Multispectral"
+    ],
+    "excerpt": "Multispectral crop monitoring starts at $4,900 for a sensor and $7,919 for a complete DJI drone. We compare every option in our range by price, bands and aircraft, and say who each suits.",
+    "image": "/images/blog-multispectral-buying-guide.webp",
+    "imageAlt": "DJI Mavic 3 Multispectral, DJI Phantom 4 Multispectral and MicaSense RedEdge-P sensor",
+    "relatedProducts": [
+      "dji-mavic-3-multispectral",
+      "dji-phantom-4-multispectral",
+      "micasense-rededge-p",
+      "dji-terra-agriculture-1-year-3-devices"
+    ],
+    "targetKeywords": [
+      "precision agriculture drones",
+      "multispectral camera",
+      "dji mavic 3 multispectral",
+      "dji phantom 4 multispectral",
+      "micasense rededge p",
+      "ndvi drone"
+    ],
+    "wordCount": 1369,
+    "faq": [
+      {
+        "q": "How much is a multispectral drone in Australia?",
+        "a": "The DJI Mavic 3 Multispectral is $7,919, the Phantom 4 Multispectral is $9,299 and the Phantom 4 Multispectral DRTK2 package is $14,299. All prices are in Australian dollars."
+      },
+      {
+        "q": "What is the cheapest multispectral camera?",
+        "a": "The Sony A6000 Multispectral Dual Agrowing Camera at $4,900 is the lowest-priced multispectral sensor in our range, followed by the SlantRange 4P at $7,900."
+      },
+      {
+        "q": "What is the difference between a multispectral drone and a multispectral camera?",
+        "a": "A multispectral drone, such as the Mavic 3 Multispectral, includes the sensors and flies out of the box. A multispectral camera is a sensor you fit to an aircraft you already own, so you must check compatibility."
+      },
+      {
+        "q": "What does a multispectral camera show?",
+        "a": "It records near-infrared and red-edge light that plants reflect differently according to their health. Software turns this into NDVI-style maps that show crop stress and uneven growth."
+      },
+      {
+        "q": "Do I need software to use multispectral data?",
+        "a": "Yes. You need software to process the imagery into maps. DJI Terra Agriculture is a one-year licence for up to three devices at $490."
+      }
+    ]
+  },
+  {
+    "id": "post-32",
+    "slug": "buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices",
+    "intent": "transactional",
+    "title": "Buy a DJI Zenmuse Thermal Payload in Australia: H30T vs H30 Prices and Which Matrice Camera to Choose",
+    "metaTitle": "DJI Zenmuse H30T vs H30 Price in Australia: Thermal Payload",
+    "metaDescription": "Buying a Zenmuse thermal payload in Australia? The H30T is $17,335 and the H30 is $8,495. Compare thermal, zoom and rangefinder specs, bundles and filters.",
+    "subtitle": "What the thermal camera adds to the Zenmuse H30, what it costs, and how the H30T compares with the H30, P1 and L2.",
+    "date": "November 2026",
+    "dateISO": "2026-11-06",
+    "modifiedISO": "2026-11-06",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Zenmuse H30T",
+      "Buying Guide",
+      "Thermal Drones"
+    ],
+    "excerpt": "The DJI Zenmuse H30T thermal payload is $17,335 and the H30 is $8,495. We compare the two, their bundles and the filter, and set them against the P1 and L2 payloads.",
+    "image": "/images/blog-zenmuse-h30t-buying-guide.webp",
+    "imageAlt": "DJI Zenmuse H30T, DJI Zenmuse H30 and DJI Zenmuse P1 payloads",
+    "relatedProducts": [
+      "dji-zenmuse-h30t",
+      "dji-zenmuse-h30",
+      "zenmuse-h30t-infrared-density-filter",
+      "dji-zenmuse-p1"
+    ],
+    "targetKeywords": [
+      "zenmuse h30t",
+      "dji zenmuse h30t price",
+      "zenmuse thermal payload",
+      "dji zenmuse h30 price",
+      "thermal payload drone",
+      "matrice 350 rtk payload"
+    ],
+    "wordCount": 1502,
+    "faq": [
+      {
+        "q": "How much is the DJI Zenmuse H30T in Australia?",
+        "a": "The DJI Zenmuse H30T is $17,335 in Australian dollars. The H30 without the thermal camera is $8,495, which makes the H30T $8,840 more."
+      },
+      {
+        "q": "What is the difference between the Zenmuse H30 and H30T?",
+        "a": "Both have a 48 MP wide camera, a 40 MP camera with 34x optical zoom, a laser rangefinder and a near-infrared light. The H30T adds a 1280x1024 thermal camera."
+      },
+      {
+        "q": "Which aircraft does the Zenmuse H30T fit?",
+        "a": "It is listed for the Matrice 350 RTK and Matrice 300 RTK. Ask us to confirm compatibility with your aircraft before you order."
+      },
+      {
+        "q": "Is the H30 Worry-Free combo worth it?",
+        "a": "The Basic combo is priced the same as the payload alone and adds DJI Care Enterprise Basic. The Plus combo is $720 more and adds Care Enterprise Plus. Compare the terms on the product pages."
+      },
+      {
+        "q": "Do I need a licence to fly a thermal payload for work?",
+        "a": "Flying for work normally needs registration, accreditation or a licence and may need an operator certificate, depending on the aircraft and job. Check the current CASA requirements."
+      }
+    ]
+  },
+  {
+    "id": "post-33",
+    "slug": "buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100",
+    "intent": "transactional",
+    "title": "Buy DJI Agras Batteries, Chargers and Power Supplies in Australia: What to Order for the T30, T40, T50 and T100",
+    "metaTitle": "DJI Agras Battery and Charger Prices in Australia",
+    "metaDescription": "DJI Agras batteries from $3,190, chargers from $2,310 and a $5,190 generator. See which battery fits the T30, T40, T50 and T100, with prices and kit examples.",
+    "subtitle": "Which Agras battery fits which aircraft, what chargers and generators cost, and how to budget the power for a spraying season.",
+    "date": "November 2026",
+    "dateISO": "2026-11-06",
+    "modifiedISO": "2026-11-06",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "DJI Agras",
+      "Buying Guide",
+      "Spraying Drones"
+    ],
+    "excerpt": "Agras batteries start at $3,190, power supplies at $2,310 and a field generator is $5,190. We match each battery to its aircraft and show what a T50 or T100 power kit costs.",
+    "image": "/images/blog-agras-battery-buying-guide.webp",
+    "imageAlt": "DJI Agras T50 battery, DJI C10000 power supply and DJI Agras T100 battery",
+    "relatedProducts": [
+      "dji-agras-db1560-intelligent-flight-battery",
+      "dji-agras-db2160-intelligent-flight-battery",
+      "dji-c10000-intelligent-power-supply",
+      "dji-d14000ie-multifunctional-inverter-generator"
+    ],
+    "targetKeywords": [
+      "dji agras t30 battery",
+      "dji agras t30 battery charger",
+      "dji agras battery",
+      "agras t40 battery",
+      "dji agras t50 battery",
+      "dji agras charger"
+    ],
+    "wordCount": 1363,
+    "faq": [
+      {
+        "q": "How much is a DJI Agras battery in Australia?",
+        "a": "Agras batteries range from $3,190 for the DB800 to $4,080 for the DB2160. The DB1560 for the T50 and T40 is $3,850, and the T30 battery is $3,600. All prices are in Australian dollars."
+      },
+      {
+        "q": "Which battery fits the Agras T50?",
+        "a": "The DJI Agras DB1560 Intelligent Flight Battery at $3,850 is made for the Agras T50 and T40."
+      },
+      {
+        "q": "Which battery fits the Agras T100?",
+        "a": "The DJI Agras DB2160 Intelligent Flight Battery at $4,080 is made for the Agras T100. The C12000 power supply at $2,380 charges the T100 batteries."
+      },
+      {
+        "q": "How much is the Agras T30 battery charger?",
+        "a": "The DJI Agras T30 Battery Charger is $3,200. The T30 battery is $3,600."
+      },
+      {
+        "q": "Do I need a generator for field charging?",
+        "a": "If you work on properties without convenient mains power, yes. The DJI D14000iE Inverter Generator at $5,190 supplies power for charging Agras batteries in the field."
+      }
+    ]
+  },
+  {
     "id": "post-29",
     "slug": "buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices",
     "intent": "transactional",
