@@ -7,3 +7,6 @@ coverage/
 .env*
 !.env.example
 .vercel
+
+# Client quotes and invoices stay local: this repository is public
+docs/quotes/*
