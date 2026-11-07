@@ -2563,5 +2563,166 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['dji agras t30 battery', 'dji agras t30 battery charger', 'dji agras battery', 'agras t40 battery', 'dji agras t50 battery', 'dji agras charger']
+  },
+  {
+    id: 'post-34',
+    slug: 'buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost',
+    intent: 'transactional',
+    title: `Drone Weed Spraying in Australia: Which DJI Agras to Buy and What a Weed Control Setup Costs`,
+    metaTitle: `Drone Weed Spraying Australia: Agras Setup Cost and Prices`,
+    metaDescription: `Buying a drone for weed spraying in Australia? Compare the Agras T25P from $17,530 and the T50, add mapping and batteries, and see full setup costs in AUD.`,
+    subtitle: `The sprayer, the mapping drone, the software and the power kit: what each part costs and two complete setups priced from our range.`,
+    date: 'November 2026',
+    dateISO: '2026-11-07',
+    modifiedISO: '2026-11-07',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['Weed Control', 'Buying Guide', 'Spraying Drones'],
+    excerpt: `A drone weed spraying setup starts at $25,939 for an Agras T25P with a Mavic 3 Multispectral and mapping software, and $40,418 for a T50 contractor kit. We break down every part.`,
+    image: '/images/blog-weed-spraying-drone-buying-guide.webp',
+    imageAlt: `DJI Agras T25P, DJI Agras T50 and DJI Mavic 3 Multispectral for drone weed spraying`,
+    relatedProducts: ['dji-agras-t25p', 'dji-agras-t50', 'dji-mavic-3-multispectral', 'dji-terra-agriculture-1-year-3-devices'],
+    content: [
+      `Weeds rarely grow evenly across a paddock. They come up in patches, along fence lines, around dams and in the thin spots where the crop is weakest, which is why spraying the whole field to treat a few hectares of weeds wastes chemical and money. A drone weed spraying setup works in two steps. First a mapping drone finds the weeds. Then a spray drone treats them, either across the affected area or only where the map says they are. If you are searching for a drone for weed spraying in Australia, the question is what the complete setup costs, because the spray drone is only part of it. This guide breaks down the sprayer, the mapping drone, the software and the batteries, prices every part in Australian dollars, and totals two complete setups: one for a smaller farm and one for a contractor. You can check the specifications in this guide on DJI's official pages for the [Agras T25P](https://ag.dji.com/t25p/specs) and the [T50](https://ag.dji.com/t50/specs).`,
+      { h2: `What a drone weed control setup includes` },
+      `A working weed control operation has four parts, and leaving one out is the most common budgeting mistake.`,
+      { ul: [
+        `**A spray drone** to apply the herbicide: the [DJI Agras T25P](/product/dji-agras-t25p), [T50](/product/dji-agras-t50), [T70P](/product/dji-agras-t70p) or [T100](/product/dji-agras-t100).`,
+        `**A mapping drone** to find the weeds. A multispectral drone such as the [DJI Mavic 3 Multispectral](/product/dji-mavic-3-multispectral) records near-infrared and red-edge light, which shows plant stress and patchy growth that the eye misses.`,
+        `**Software** to turn the imagery into maps you can act on: [DJI Terra Agriculture](/product/dji-terra-agriculture-1-year-3-devices) is a one-year licence for up to three devices.`,
+        `**Power:** spare batteries and a charger, and a generator if you work away from the mains. Our [Agras battery and charging guide](/blog/buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100) covers this in detail.`
+      ] },
+      { h2: `Spray drone prices for weed work` },
+      `Prices are current listed prices in Australian dollars. Capacities come from the product specifications.`,
+      { table: {
+        head: ['Spray drone', 'Capacity', 'Suits', 'Price (AUD)'],
+        rows: [
+          ['[DJI Agras T25P](/product/dji-agras-t25p)', '20 kg spraying, 25 kg spreading, foldable', 'Smaller farms and solo operators', '$17,530'],
+          ['[DJI Agras T50](/product/dji-agras-t50)', '40 kg spraying, 50 kg spreading, 16 L/min', 'All-round field and orchard work', '$21,999'],
+          ['[DJI Agras T70P](/product/dji-agras-t70p)', '70 L spray tank, 100 L spreading tank', 'Larger fields and contractors', '$20,380'],
+          ['[DJI Agras T100](/product/dji-agras-t100)', '100 L spray tank, 150 L spreading tank', 'Large farms and contractors', '$30,380']
+        ]
+      } },
+      `Our [Agras spray drone buying guide](/blog/buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices) compares all four in more detail, and the [spraying drones category](/category/spraying-drones/spraying-drones) lists the XAG and BROUAV alternatives.`,
+      { h2: `Which sprayer suits weed spraying?` },
+      `For most weed control work the choice is between the T25P and the T50. The [Agras T25P](/product/dji-agras-t25p) is a compact, foldable drone with 20 kg of spraying capacity, designed for solo operators and easy to transport between paddocks, and it is the lowest-priced Agras in our range. The [Agras T50](/product/dji-agras-t50) carries a 40 kg spraying load at 16 L/min, supports orchard mode and variable rate application, and costs $4,469 more. Variable rate application is the feature that matters for weeds: it lets the drone change how much it applies across the field, rather than applying one rate everywhere. If you contract to several farms, the larger tanks on the [T70P](/product/dji-agras-t70p) and [T100](/product/dji-agras-t100) cut the number of refills.`,
+      { h2: `Finding the weeds: multispectral mapping` },
+      `You cannot spray a weed patch you have not found. The [DJI Mavic 3 Multispectral](/product/dji-mavic-3-multispectral) at $7,919 carries four 5 MP multispectral cameras (green, red, red edge and near-infrared) and a 20 MP RGB camera, has built-in RTK and a sunlight sensor, flies for up to 43 minutes and weighs 951 g. Fly it over a paddock and the imagery shows where growth is weak or uneven. [DJI Terra Agriculture](/product/dji-terra-agriculture-1-year-3-devices) at $490 processes that imagery into crop maps used for prescriptions and field analysis. Together they cost $8,409, a small share of the total, and they are what makes the spraying targeted. If you already own an aircraft, our [multispectral buying guide](/blog/buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices) lists the sensors that fit it.`,
+      { h2: `Two complete weed control setups, priced` },
+      `These use current listed prices. They exclude chemicals, training and any licences. Treat them as starting points and ask us to size a kit for your property.`,
+      { table: {
+        head: ['Setup', 'What is in it', 'Total (AUD)'],
+        rows: [
+          ['Smaller farm', '[Agras T25P](/product/dji-agras-t25p) $17,530 + [Mavic 3 Multispectral](/product/dji-mavic-3-multispectral) $7,919 + [Terra Agriculture](/product/dji-terra-agriculture-1-year-3-devices) $490', '$25,939'],
+          ['Contractor', '[Agras T50](/product/dji-agras-t50) $21,999 + two [DB1560 batteries](/product/dji-agras-db1560-intelligent-flight-battery) $7,700 + [C10000 power supply](/product/dji-c10000-intelligent-power-supply) $2,310 + Mavic 3 Multispectral $7,919 + Terra Agriculture $490', '$40,418'],
+          ['Contractor with generator', 'The contractor setup + [D14000iE generator](/product/dji-d14000ie-multifunctional-inverter-generator) $5,190', '$45,608']
+        ]
+      } },
+      `The smaller-farm setup does not include batteries, because the right pack depends on the exact aircraft: ask us to confirm the battery and charger for a T25P before you order. How many batteries you need depends on your tank size, the size of your paddocks and how quickly you refill.`,
+      { h2: `Accessories that matter for weed work` },
+      `Two T50 accessories are worth knowing about. The [Agras T50 Atomized Sprinkler Package](/product/dji-agras-t50-atomized-sprinkler-package) at $1,100 provides atomised nozzles that refine droplet size for better coverage on crops that need fine droplets. The [Agras T50 Spreading System](/product/dji-agras-t50-spreading-system) at $2,200 lets the T50 spread seed, fertiliser and other granular material, so the same drone can handle weed control in spring and fertiliser or seed later in the season. Browse everything in the [spraying drone accessories category](/category/spraying-drones/spraying-drone-accessories).`,
+      { h2: `Which weed spraying setup should you buy?` },
+      { ul: [
+        `**A smaller farm or one operator:** the T25P setup at $25,939.`,
+        `**Several properties, orchards or paid contract work:** the T50 contractor setup at $40,418, or $45,608 with a generator.`,
+        `**Large paddocks and fewer refills:** a T70P or T100 as the sprayer, with the same mapping drone and software.`,
+        `**You already own a mapping aircraft or sensor:** start with the sprayer and ask us what to add.`
+      ] },
+      { h2: `Rules, chemical licences and drift` },
+      `Spraying with a drone is commercial flying and involves applying chemicals, which is regulated and varies by state. You will normally need the right drone accreditation or licence and an operator certificate, and you may need a chemical application licence for your state or territory. Always follow the chemical label and local drift rules. Rules change, so confirm what applies on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) and with your state regulator, and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for common questions.`,
+      { h2: `Get a free quote for your weed control setup` },
+      `Tell us your property size, the weeds you are treating and your budget, and we will recommend a setup and send a written quote. There is no charge for a quote. Use the [quote form](/quote), the buttons on each product above or the form below. You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact).`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply. For spray drones we recommend a written quote so we confirm the aircraft, batteries, charging and freight together. Browse all [spraying drones](/category/spraying-drones), or read our guides to [agricultural drones for weed control and crop monitoring](/blog/agricultural-drones-weed-control-seeding-crop-monitoring) and [agricultural spraying drones](/blog/agricultural-spraying-drones-australia-guide).`,
+      { faq: [
+        { q: `How much does a drone for weed spraying cost in Australia?`, a: `A smaller-farm setup with an Agras T25P ($17,530), a Mavic 3 Multispectral ($7,919) and Terra Agriculture software ($490) totals $25,939. A T50 contractor setup with batteries and a power supply totals $40,418. All prices are in Australian dollars.` },
+        { q: `What is the best drone for weed spraying?`, a: `For most operators the DJI Agras T25P or T50. The T25P is compact and suits solo operators. The T50 carries 40 kg, supports orchard mode and variable rate application, and suits contractors.` },
+        { q: `How do I find weeds before I spray?`, a: `A multispectral drone such as the Mavic 3 Multispectral records near-infrared and red-edge light, and software such as DJI Terra Agriculture turns the imagery into maps that show where growth is weak or uneven.` },
+        { q: `Do I need a licence to spray with a drone in Australia?`, a: `Spraying is commercial flying, so you will normally need drone accreditation or a licence and an operator certificate, and you may need a chemical application licence for your state. Check CASA and your state regulator.` },
+        { q: `Can I get a quote before I buy?`, a: `Yes. Quotes are free. Tell us your property size and what you are treating through the quote form and we will recommend a setup and reply with a written quote.` }
+      ] }
+    ],
+    targetKeywords: ['drone weed spraying', 'drone spraying', 'weed spraying drone', 'spot spraying drone australia', 'drone sprayer for sale', 'agricultural drone spraying']
+  },
+  {
+    id: 'post-35',
+    slug: 'how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained',
+    intent: 'informational',
+    title: `How Does a Thermal Imager Work? Thermal Drone Camera Resolution, Sensitivity and Zoom Explained`,
+    metaTitle: `How a Thermal Imager Works: Camera Resolution Explained`,
+    metaDescription: `How does a thermal imager work? Learn what 320x256, 640x512 and 1280x1024 resolution, sensitivity in mK and radiometric mean on a thermal drone camera.`,
+    subtitle: `What the numbers on a thermal camera spec sheet mean, and how to choose the resolution a job really needs.`,
+    date: 'November 2026',
+    dateISO: '2026-11-07',
+    modifiedISO: '2026-11-07',
+    readTime: '9 min read',
+    author: 'Flight Operations Team',
+    tags: ['Thermal Imaging', 'Explainer', 'Thermal Drones'],
+    excerpt: `A thermal imager sees heat, not light. We explain resolution (320x256 to 1280x1024), sensitivity in mK, radiometric readings and field of view, with real drone examples.`,
+    image: '/images/blog-thermal-imager-explained.webp',
+    imageAlt: `DJI Zenmuse H30T, DJI Matrice 4 Thermal and FLIR VUE TZ20 thermal imagers`,
+    relatedProducts: ['dji-mavic-3-thermal', 'dji-matrice-4-thermal', 'dji-zenmuse-h30t', 'flir-vue-tz20'],
+    content: [
+      `A thermal imager is a camera that detects the heat objects give off, rather than the light they reflect. That is why it can show a person in the dark, a hot joint on a power line or a leaking section of roof, none of which an ordinary camera can see. On a drone, the thermal camera is the most expensive part of the aircraft, and its spec sheet is full of numbers that decide what you can and cannot see: resolution, sensitivity, field of view, radiometric or not. This guide explains what each number means, in plain language, using real thermal drones and payloads as examples, so that you can read a spec sheet and choose the camera a job genuinely needs. You can check the specifications quoted here on DJI's official pages for the [Matrice 4 series](https://enterprise.dji.com/matrice-4-series/specs) and the [Zenmuse H30 series](https://enterprise.dji.com/zenmuse-h30-series/specs).`,
+      { h2: `How does a thermal imager work?` },
+      `Every object above absolute zero gives off infrared radiation, and the warmer it is, the more it gives off. A thermal imager has a lens that focuses long-wave infrared onto a sensor made of thousands of tiny heat-sensitive elements. Each element warms slightly depending on how much infrared lands on it, and the camera converts that into a temperature value for that pixel. The result is an image where every pixel represents a temperature, shown in a colour palette that makes differences easy to see.`,
+      { ul: [
+        `**It needs no visible light.** A thermal camera works the same in daylight, at night and in smoke, because it is reading heat, not brightness.`,
+        `**Most drone thermal cameras are uncooled.** The DJI Mavic 3 Thermal and Matrice 4 Thermal list an uncooled VOx sensor, a type that is compact, light and does not need a cooling system.`,
+        `**It shows temperature differences, not colour.** A hot object and a cold object look different, even when they look identical to the eye.`
+      ] },
+      { h2: `What the resolution numbers mean` },
+      `Thermal resolution is the number of pixels the sensor records, written as width by height. More pixels mean more detail, and the difference between sizes is bigger than the numbers suggest.`,
+      { table: {
+        head: ['Resolution', 'Pixels', 'Compared with 320x256', 'Examples in our range'],
+        rows: [
+          ['320×256', '81,920', 'Baseline', '[FLIR ION M440](/product/flir-ion-m440-tactical-drone) (FLIR Boson 320), [MicaSense Altum-PT](/product/micasense-altum-pt) thermal band'],
+          ['640×512', '327,680', '4 times the pixels', '[DJI Mavic 3 Thermal](/product/dji-mavic-3-thermal), [Matrice 4 Thermal](/product/dji-matrice-4-thermal), [Matrice 30T](/product/dji-matrice-30t), [FLIR VUE TZ20](/product/flir-vue-tz20) (two sensors)'],
+          ['1280×1024', '1,310,720', '16 times the pixels', '[DJI Zenmuse H30T](/product/dji-zenmuse-h30t)']
+        ]
+      } },
+      `In practice, higher resolution lets you recognise smaller targets from further away. At a given height, a 640×512 camera records four times as many pixels on the same patch of ground as a 320×256 camera, and the 1280×1024 camera in the Zenmuse H30T records four times as many again. That is why long-range search and rescue and fine inspection work favour the highest resolution, and why it costs more.`,
+      { h2: `Thermal sensitivity: what mK means` },
+      `Sensitivity, often written as NETD and measured in millikelvin (mK), is the smallest temperature difference the camera can tell apart. A lower number is better. The DJI Matrice 4 Thermal lists a sensitivity of 50 mK or better, which means it can distinguish differences of about five hundredths of a degree. A more sensitive camera shows faint differences, such as a slightly warm patch of roof, that a less sensitive one would blend into the background. Not every listing states sensitivity, so when two cameras share a resolution, ask us for the figure.`,
+      { h2: `Radiometric or not?` },
+      `A non-radiometric thermal camera gives you a picture: you can see that one area is hotter than another. A radiometric camera stores a temperature reading for every pixel, so you can measure it: this joint is 78 degrees, that panel is 12 degrees hotter than its neighbour. The [Matrice 30T](/product/dji-matrice-30t) has a 640×512 radiometric thermal camera. The [Zenmuse H30T](/product/dji-zenmuse-h30t) lists a measurable thermal range from -20 °C to 1,600 °C at 30 frames per second. If your job needs a number, such as in an electrical or solar inspection report, choose a radiometric camera. If you only need to see where the heat is, such as in a search, you may not.`,
+      { h2: `Field of view and zoom` },
+      `Field of view tells you how much of the scene the thermal lens takes in. A wide view covers more ground in a pass, and a narrow view shows distant detail. The Matrice 4 Thermal lists a 45° diagonal field of view. The [FLIR VUE TZ20](/product/flir-vue-tz20) gives two thermal views from two 640×512 sensors, a wide 95° and a narrow 18°, with 5× optical zoom and 4× digital zoom. Most thermal drones instead pair a fixed thermal camera with a zooming visible camera: the [Mavic 3 Thermal](/product/dji-mavic-3-thermal) has a 56× hybrid zoom camera, and the Zenmuse H30T has a 34× optical zoom camera and a laser rangefinder that measures from 3 to 3,000 m. You find the heat with the thermal camera, then zoom in with the visible camera to see what it is.`,
+      { h2: `What a thermal imager cannot do` },
+      `Thermal imaging is powerful but it has limits, and knowing them prevents bad decisions.`,
+      { ul: [
+        `**It cannot see through glass.** Glass blocks long-wave infrared, so a thermal camera sees the glass surface, not the room behind it.`,
+        `**It cannot see through walls.** It shows the surface temperature of the wall, which can reveal hidden problems behind it, but not what is inside.`,
+        `**Shiny surfaces reflect heat.** Bare metal can mirror the sky or a nearby hot object, and the reading can mislead unless the camera is set up for the surface.`,
+        `**Conditions matter.** Sun on a roof, wind and recent rain all change the picture, which is why inspections are often flown at particular times of day.`
+      ] },
+      { h2: `Where thermal drones are used` },
+      `The spec sheets above translate into a handful of common jobs. The Mavic 3 Thermal is positioned for roof, solar, fire and rescue work. The Matrice 4 Thermal for public safety, search and rescue and inspection crews working day and night. The Matrice 30T for firefighting, police, power-line and solar inspection in an IP55 aircraft. The H30T for long-range thermal inspection, search and rescue and fire support. Our [thermal drones guide](/blog/thermal-drones-australia-guide) explains these jobs in more depth.`,
+      { h2: `How much resolution do you need?` },
+      { table: {
+        head: ['If your job is', 'Look for', 'Example', 'Price (AUD)'],
+        rows: [
+          ['Basic spotting of warm objects', '320×256', '[FLIR ION M440 Tactical Drone](/product/flir-ion-m440-tactical-drone)', '$27,500'],
+          ['Roof, solar and general inspection', '640×512', '[DJI Mavic 3 Thermal](/product/dji-mavic-3-thermal)', '$8,249'],
+          ['Day and night public safety work', '640×512, 50 mK or better', '[DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal)', '$10,159'],
+          ['Measured temperatures in bad weather', '640×512 radiometric, IP55', '[DJI Matrice 30T](/product/dji-matrice-30t)', '$14,917'],
+          ['Two thermal views in one gimbal', 'Dual 640×512', '[FLIR VUE TZ20](/product/flir-vue-tz20)', '$11,700'],
+          ['Long-range, fine detail', '1280×1024', '[DJI Zenmuse H30T](/product/dji-zenmuse-h30t)', '$17,335']
+        ]
+      } },
+      `Resolution is not the only thing that sets the price: the aircraft, the visible cameras and the bundled Care coverage all count. Our [thermal drone buying guide](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) compares every thermal aircraft by price, and our [Zenmuse thermal payload guide](/blog/buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices) covers the H30T against the H30. If you only need to scan a switchboard or a wall, a handheld camera may be enough: see our guides to [thermal camera vs thermal drone](/blog/thermal-camera-vs-thermal-drone-infrared-inspections) and [buying a thermal imaging camera](/blog/buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras).`,
+      { h2: `Not sure which thermal camera you need? Ask for a free quote` },
+      `Tell us what you want to inspect or find, how far away it will be and whether you need measured temperatures, and we will recommend a camera and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on the products above or the [contact page](/contact), or place an order through the [order form](/order). Every order ships free by express courier across Australia, and our [FAQ](/faq) answers common questions about delivery and returns.`,
+      { h2: `Rules before you fly for work` },
+      `Flying a thermal drone for paid work is commercial flying, and night or beyond-line-of-sight flying may need extra approval. Rules change, so confirm what applies on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules).`,
+      { faq: [
+        { q: `How does a thermal imager work?`, a: `It detects the long-wave infrared heat that objects give off and converts it into a temperature value for each pixel. The result is an image that shows temperature differences, and it works in darkness and smoke because it does not need visible light.` },
+        { q: `What does 640x512 mean on a thermal camera?`, a: `It is the sensor resolution: 640 pixels wide by 512 high, which is 327,680 pixels, four times as many as a 320x256 sensor. More pixels give more detail at a distance.` },
+        { q: `What is thermal sensitivity in mK?`, a: `It is the smallest temperature difference the camera can distinguish, in millikelvin. A lower number is better. The DJI Matrice 4 Thermal lists 50 mK or better.` },
+        { q: `What is the difference between radiometric and non-radiometric thermal cameras?`, a: `A radiometric camera records a measurable temperature for every pixel. A non-radiometric camera shows a picture of relative heat without measured values. The Matrice 30T has a radiometric thermal camera.` },
+        { q: `Can a thermal camera see through glass or walls?`, a: `No. Glass blocks long-wave infrared and walls are opaque to it, so a thermal camera shows the surface temperature, which can still reveal problems behind a wall.` }
+      ] }
+    ],
+    targetKeywords: ['thermal imager', 'thermal image camera', 'thermal camera resolution', 'radiometric thermal camera', 'thermal sensitivity', 'how thermal imaging works']
   }
 ];

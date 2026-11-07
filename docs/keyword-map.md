@@ -890,3 +890,13 @@ Three more transactional guides, all intent: transactional so they end with the 
 | /blog/buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices | precision agriculture drones (90); multispectral camera; dji mavic 3 multispectral; dji phantom 4 multispectral; micasense rededge p; ndvi drone |
 | /blog/buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices | zenmuse h30t; dji zenmuse h30t price; zenmuse thermal payload; dji zenmuse h30 price; thermal payload drone; matrice 350 rtk payload |
 | /blog/buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100 | dji agras t30 battery; dji agras t30 battery charger; dji agras battery; agras t40 battery; dji agras t50 battery; dji agras charger |
+
+
+## Weed spraying (transactional) and thermal imager explainer (informational), 7 Nov 2026
+
+One transactional guide on the unused "drone spraying" cluster and one informational explainer on "thermal imager" (480 a month). Both are on the two topics with the most Search Console engagement. All prices and specifications come from the product data; flow-rate figures follow DJI's published spec pages.
+
+| Post | Primary / supporting keywords (monthly AU volume) |
+|---|---|
+| /blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost | drone weed spraying (110); drone spraying (320); weed spraying drone (50); spot spraying drone australia; drone sprayer for sale; agricultural drone spraying (50) |
+| /blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained | thermal imager (480); thermal image camera (260); thermal camera resolution; radiometric thermal camera; thermal sensitivity; how thermal imaging works |
