@@ -3,6 +3,124 @@ import { BlogSummary } from '../types';
 
 export const BLOG_SUMMARIES: BlogSummary[] = [
   {
+    "id": "post-36",
+    "slug": "buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices",
+    "intent": "transactional",
+    "title": "Buy a LiDAR Drone in Australia: DJI Zenmuse L2 vs L3, Matrice 400 and Livox Sensors Compared by Price",
+    "metaTitle": "LiDAR Drone Australia: Zenmuse L2 vs L3 Prices and Setup",
+    "metaDescription": "Buying a LiDAR drone in Australia? Compare the Zenmuse L2 from $23,880, the L3, the Matrice 400 and Livox sensors, with full AUD setup costs and free quotes.",
+    "subtitle": "The payload, the aircraft, the positioning kit and the software: what each part costs and two complete LiDAR setups priced from our range.",
+    "date": "November 2026",
+    "dateISO": "2026-11-10",
+    "modifiedISO": "2026-11-10",
+    "readTime": "10 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "LiDAR Drones",
+      "Buying Guide",
+      "Surveying"
+    ],
+    "excerpt": "A complete DJI LiDAR drone setup costs from $44,420: a Zenmuse L2 Plus combo on a Matrice 400. We compare the L2 and L3, the aircraft and Livox sensors, with every price.",
+    "image": "/images/blog-lidar-drone-buying-guide.webp",
+    "imageAlt": "DJI Zenmuse L2, DJI Zenmuse L3 and DJI Matrice 400 LiDAR drone equipment",
+    "relatedProducts": [
+      "dji-zenmuse-l2-lidar",
+      "zenmuse-l3-worry-free-plus-combo",
+      "dji-matrice-400-worry-free-plus-combo",
+      "livox-avia-2-lidar"
+    ],
+    "targetKeywords": [
+      "drone lidar",
+      "drone with lidar",
+      "lidar 3d scanner",
+      "zenmuse l3",
+      "dji zenmuse l2",
+      "livox lidar"
+    ],
+    "wordCount": 1791,
+    "faq": [
+      {
+        "q": "How much does a LiDAR drone cost in Australia?",
+        "a": "A DJI Zenmuse L2 with a Matrice 400 costs from $44,420 in our range. The L2 payload alone is $23,880, the Zenmuse L3 Plus combo is $27,410 and the Matrice 400 Plus combo is $18,550. All prices are in Australian dollars."
+      },
+      {
+        "q": "What is the difference between the Zenmuse L2 and L3?",
+        "a": "The L3 is the newer payload. DJI lists tighter accuracy and a much longer detection range for it, but it is heavier at 1.60 kg and supports only the Matrice 400, while the L2 supports the Matrice 400, 350 RTK and 300 RTK. Like for like with Care Plus, the L3 costs $1,540 more."
+      },
+      {
+        "q": "Which drone carries the Zenmuse L2?",
+        "a": "DJI lists the Matrice 400, Matrice 350 RTK and Matrice 300 RTK. The Matrice 300 RTK requires the DJI RC Plus controller."
+      },
+      {
+        "q": "Can I buy a LiDAR sensor without a drone?",
+        "a": "Yes. We sell five Livox LiDAR sensors from $899 for developers and integrators. They are bare sensors, not complete survey systems."
+      },
+      {
+        "q": "Do I need RTK for drone LiDAR?",
+        "a": "DJI measures its LiDAR accuracy with an RTK base station, so for survey-grade work you should plan for one. The D-RTK 3 Multifunctional Station is $2,320."
+      }
+    ]
+  },
+  {
+    "id": "post-37",
+    "slug": "buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box",
+    "intent": "transactional",
+    "title": "DJI Dock 3 vs Dock 2: Price, Packages and Which Drone-in-a-Box to Buy in Australia",
+    "metaTitle": "DJI Dock 3 vs Dock 2: Price and Packages in Australia",
+    "metaDescription": "Buying a DJI dock in Australia? Dock 3 is $19,999 and Dock 2 is $12,850. Compare the Survey and Thermal packages, what is included and how to choose.",
+    "subtitle": "What a drone docking station costs, which aircraft each dock works with, and when a package beats buying the parts.",
+    "date": "November 2026",
+    "dateISO": "2026-11-10",
+    "modifiedISO": "2026-11-10",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "DJI Dock",
+      "Buying Guide",
+      "Enterprise Drones"
+    ],
+    "excerpt": "The DJI Dock 3 is $19,999 and the Dock 2 is $12,850, with the aircraft sold separately. The Dock 3 Survey and Thermal packages bundle the aircraft for $30,828 and $34,278. We compare them.",
+    "image": "/images/blog-dji-dock-buying-guide.webp",
+    "imageAlt": "DJI Dock 3, the DJI Dock 3 vehicle-mounted gimbal mount and DJI Dock 2 automated drone docks",
+    "relatedProducts": [
+      "dji-dock-3",
+      "dji-dock-2",
+      "dji-dock-3-survey-package",
+      "dji-dock-3-thermal-package"
+    ],
+    "targetKeywords": [
+      "dji dock 3 price",
+      "dji dock 2 price",
+      "drone docking station",
+      "dji drone in a box",
+      "drone with docking station",
+      "dji dock 3 australia"
+    ],
+    "wordCount": 1537,
+    "faq": [
+      {
+        "q": "How much is the DJI Dock 3 in Australia?",
+        "a": "The DJI Dock 3 is $19,999 as a dock only, with the aircraft sold separately. The Dock 3 Survey Package is $30,828 and the Dock 3 Thermal Package is $34,278. All prices are in Australian dollars."
+      },
+      {
+        "q": "How much is the DJI Dock 2?",
+        "a": "The DJI Dock 2 is $12,850 as a dock only. It is designed for the Matrice 3D series, which is sold separately."
+      },
+      {
+        "q": "What is the difference between the DJI Dock 3 and Dock 2?",
+        "a": "They work with different aircraft. The Dock 2 is designed for the Matrice 3D and 3TD, and the Dock 3 for the Matrice 4D and 4TD. The Dock 3 costs $7,149 more and has two ready-made packages."
+      },
+      {
+        "q": "Does the dock include a drone?",
+        "a": "Not on its own. The Dock 3 and Dock 2 are sold without an aircraft. The Dock 3 Survey and Thermal packages include a Matrice 4D or 4TD."
+      },
+      {
+        "q": "Do I need CASA approval to use a drone dock?",
+        "a": "Remote, unattended flying usually involves flying beyond visual line of sight, which needs approval from CASA, and commercial flying needs an operator certificate. Check the current requirements on the CASA website for your operation."
+      }
+    ]
+  },
+  {
     "id": "post-34",
     "slug": "buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost",
     "intent": "transactional",

@@ -900,3 +900,13 @@ One transactional guide on the unused "drone spraying" cluster and one informati
 |---|---|
 | /blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost | drone weed spraying (110); drone spraying (320); weed spraying drone (50); spot spraying drone australia; drone sprayer for sale; agricultural drone spraying (50) |
 | /blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained | thermal imager (480); thermal image camera (260); thermal camera resolution; radiometric thermal camera; thermal sensitivity; how thermal imaging works |
+
+
+## LiDAR and drone dock transactional guides (10 Nov 2026)
+
+Two transactional enterprise guides, both `intent: transactional` so they end with the enquiry panel and product cards with quote and cart buttons. The LiDAR guide targets the unused "drone lidar" cluster; the dock guide targets Search Console queries for docks. LiDAR figures follow DJI's published L2 and L3 specification pages; prices come from the product data.
+
+| Post | Primary / supporting keywords (monthly AU volume) |
+|---|---|
+| /blog/buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices | drone lidar (170); drone with lidar (70); lidar 3d scanner (90); zenmuse l3 (50); dji zenmuse l2; livox lidar |
+| /blog/buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box | dji dock 3 price; dji dock 2 price; drone docking station; dji drone in a box; drone with docking station; dji dock 3 australia |

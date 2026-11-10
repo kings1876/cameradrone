@@ -2724,5 +2724,220 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['thermal imager', 'thermal image camera', 'thermal camera resolution', 'radiometric thermal camera', 'thermal sensitivity', 'how thermal imaging works']
+  },
+  {
+    id: 'post-36',
+    slug: 'buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices',
+    intent: 'transactional',
+    title: `Buy a LiDAR Drone in Australia: DJI Zenmuse L2 vs L3, Matrice 400 and Livox Sensors Compared by Price`,
+    metaTitle: `LiDAR Drone Australia: Zenmuse L2 vs L3 Prices and Setup`,
+    metaDescription: `Buying a LiDAR drone in Australia? Compare the Zenmuse L2 from $23,880, the L3, the Matrice 400 and Livox sensors, with full AUD setup costs and free quotes.`,
+    subtitle: `The payload, the aircraft, the positioning kit and the software: what each part costs and two complete LiDAR setups priced from our range.`,
+    date: 'November 2026',
+    dateISO: '2026-11-10',
+    modifiedISO: '2026-11-10',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['LiDAR Drones', 'Buying Guide', 'Surveying'],
+    excerpt: `A complete DJI LiDAR drone setup costs from $44,420: a Zenmuse L2 Plus combo on a Matrice 400. We compare the L2 and L3, the aircraft and Livox sensors, with every price.`,
+    image: '/images/blog-lidar-drone-buying-guide.webp',
+    imageAlt: `DJI Zenmuse L2, DJI Zenmuse L3 and DJI Matrice 400 LiDAR drone equipment`,
+    relatedProducts: ['dji-zenmuse-l2-lidar', 'zenmuse-l3-worry-free-plus-combo', 'dji-matrice-400-worry-free-plus-combo', 'livox-avia-2-lidar'],
+    content: [
+      `A LiDAR drone measures the shape of the ground and everything on it by firing laser pulses and timing their return, producing a 3D point cloud that survey, forestry, mining and construction teams can measure directly. Unlike photogrammetry, it works through gaps in vegetation and does not depend on good light. If you are searching for a drone with LiDAR in Australia, you will find that you are not buying one product. You are putting together a LiDAR payload, an aircraft that can carry it, a positioning system and software, and the choices interact. This guide prices every LiDAR option in our range in Australian dollars, compares the DJI Zenmuse L2 and L3, covers the aircraft and the Livox sensors for integrators, and totals two complete setups. You can check DJI's figures on its official specification pages for the [Zenmuse L2](https://enterprise.dji.com/zenmuse-l2/specs) and the [Zenmuse L3](https://enterprise.dji.com/zenmuse-l3/specs). If you are not yet sure whether you need LiDAR at all, read our comparison of [LiDAR vs photogrammetry](/blog/lidar-vs-photogrammetry-drone-mapping-australia) first.`,
+      { h2: `What a LiDAR drone setup includes` },
+      `Four parts decide whether a LiDAR job produces usable data, and leaving one out is the usual budgeting mistake.`,
+      { ul: [
+        `**The LiDAR payload:** the [Zenmuse L2](/product/dji-zenmuse-l2-lidar) or the newer [Zenmuse L3](/product/zenmuse-l3-worry-free-plus-combo).`,
+        `**The aircraft:** a Matrice that carries it. The L2 lists the Matrice 400, Matrice 350 RTK and Matrice 300 RTK. The L3 lists the Matrice 400.`,
+        `**Positioning:** an RTK base station such as the [D-RTK 3 Multifunctional Station](/product/d-rtk-3-multifunctional-station), and a [survey pole and tripod kit](/product/d-rtk-3-survey-pole-and-tripod-kit) to set it up accurately on site.`,
+        `**Software and training:** DJI states that its LiDAR accuracy figures are measured with DJI Terra post-processing, so plan for the processing software and for training. Ask us for the current licence and options.`
+      ] },
+      { h2: `LiDAR drone prices in Australia` },
+      `Prices are current listed prices in Australian dollars. Click any item for its full specification.`,
+      { table: {
+        head: ['Product', 'What it is', 'Price (AUD)'],
+        rows: [
+          ['[Livox Mid-360S LiDAR](/product/livox-mid-360s-lidar)', 'Livox sensor, 360-degree horizontal view', '$899'],
+          ['[Livox Mid-70 LiDAR](/product/livox-mid-70-lidar)', 'Livox sensor, 70.4-degree circular view', '$1,699'],
+          ['[Livox TELE-15 LiDAR](/product/livox-tele-15-lidar)', 'Livox sensor, long range, narrow view', '$2,099'],
+          ['[Livox Avia LiDAR](/product/livox-avia-lidar)', 'Livox sensor, up to 240,000 points a second', '$2,499'],
+          ['[Livox Avia 2 LiDAR](/product/livox-avia-2-lidar)', 'Next-generation Livox Avia sensor', '$4,720'],
+          ['[DJI Zenmuse L2 LiDAR](/product/dji-zenmuse-l2-lidar)', 'LiDAR payload with a 20 MP RGB camera', '$23,880'],
+          ['[Zenmuse L2 Worry-Free Basic Combo](/product/zenmuse-l2-worry-free-basic-combo)', 'L2 with DJI Care Enterprise Basic', '$23,880'],
+          ['[Zenmuse L2 Worry-Free Plus Combo](/product/zenmuse-l2-worry-free-plus-combo)', 'L2 with DJI Care Enterprise Plus', '$25,870'],
+          ['[Zenmuse L3 Worry-Free Plus Combo](/product/zenmuse-l3-worry-free-plus-combo)', 'Newer DJI LiDAR payload with Care coverage', '$27,410'],
+          ['[DJI Matrice 400 Worry-Free Plus Combo](/product/dji-matrice-400-worry-free-plus-combo)', 'Heavy-lift multi-payload aircraft', '$18,550'],
+          ['[D-RTK 3 Multifunctional Station](/product/d-rtk-3-multifunctional-station)', 'RTK station for centimetre-level corrections', '$2,320'],
+          ['[D-RTK 3 Survey Pole and Tripod Kit](/product/d-rtk-3-survey-pole-and-tripod-kit)', 'Pole and tripod for the station', '$460']
+        ]
+      } },
+      { h2: `Zenmuse L2 vs L3: how they compare` },
+      `Both are DJI LiDAR payloads for the Matrice series. The L3 is the newer one, and it is more capable and works with fewer aircraft. The figures below are DJI's published specifications. DJI measured them in laboratory conditions that differ between the two payloads, so use them to compare capability, not as promises for your site.`,
+      { table: {
+        head: ['', 'Zenmuse L2', 'Zenmuse L3'],
+        rows: [
+          ['Supported aircraft', 'Matrice 400, Matrice 350 RTK, Matrice 300 RTK', 'Matrice 400 only'],
+          ['Weight', '905 g', '1.60 kg'],
+          ['Point rate', 'Up to 240,000 points a second (single return), 1,200,000 (multiple returns)', 'See DJI specifications'],
+          ['Accuracy (DJI lab tests)', 'Vertical 4 cm, horizontal 5 cm at 150 m', 'Vertical 3 cm, horizontal 4 cm at 120 m; 5 cm and 7.5 cm at 300 m'],
+          ['Detection range', '450 m at 50% reflectivity', '2,000 m at 80% reflectivity (100 kHz)'],
+          ['Camera', '4/3 CMOS, 20 MP RGB', 'Dual RGB mapping cameras, 107 degrees combined view'],
+          ['Ingress protection', 'IP54', 'IP54'],
+          ['Price in our range', '[$23,880](/product/dji-zenmuse-l2-lidar), or [$25,870](/product/zenmuse-l2-worry-free-plus-combo) with Care Plus', '[$27,410](/product/zenmuse-l3-worry-free-plus-combo) with Care Plus']
+        ]
+      } },
+      `Compared like for like, with Care Enterprise Plus on both, the L3 costs $1,540 more than the L2. That buys a tighter accuracy figure, a much longer detection range and wider camera coverage, in exchange for a heavier payload and a single supported aircraft.`,
+      { h2: `Zenmuse L2: the proven choice from $23,880` },
+      `The [Zenmuse L2](/product/dji-zenmuse-l2-lidar) integrates a frame-based LiDAR with up to five returns, a 4/3 CMOS RGB camera and a high-accuracy IMU to produce colourised point clouds. It weighs about 905 g and is rated IP54. Because it runs on three aircraft, including the Matrice 350 RTK and Matrice 300 RTK that many operators already own, it is the natural choice if you have a Matrice and want to add LiDAR. DJI aims it at survey, forestry and construction teams. It is also sold as a [Worry-Free Basic Combo](/product/zenmuse-l2-worry-free-basic-combo) at the same $23,880 with DJI Care Enterprise Basic, and a [Plus Combo](/product/zenmuse-l2-worry-free-plus-combo) at $25,870.`,
+      { h2: `Zenmuse L3: the newer payload at $27,410` },
+      `The [Zenmuse L3 Worry-Free Plus Combo](/product/zenmuse-l3-worry-free-plus-combo) is DJI's newer LiDAR payload for high-accuracy surveying and mapping. DJI lists vertical accuracy of 3 cm and horizontal accuracy of 4 cm at a 120 m flight altitude, a detection range of 2,000 m at 80% reflectivity, a weight of 1.60 kg and an IP54 rating. It lists one supported aircraft, the Matrice 400, which needs the Zenmuse L3 single gimbal connector. Choose it if you are buying a new Matrice 400 and want the highest capability, or if your work needs the extra range.`,
+      { h2: `The aircraft: Matrice 400, 350 RTK or 300 RTK` },
+      `The [DJI Matrice 400 Worry-Free Plus Combo](/product/dji-matrice-400-worry-free-plus-combo) at $18,550 is DJI's heavy-lift enterprise platform. It carries multiple payloads, with [dual](/product/dji-matrice-400-dual-gimbal-connector) and [third](/product/dji-matrice-400-third-gimbal-connector) gimbal connectors available at $390 and $230, and it is the only aircraft that carries both the L2 and the L3. The Matrice 350 RTK and Matrice 300 RTK carry the L2 only. We quote those individually, so ask us for a price and availability. Our [DJI Matrice buying guide](/blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price) compares the wider range, and you can browse the [DJI Matrice category](/category/enterprise-drones/dji-matrice).`,
+      { h2: `Two complete LiDAR setups, priced` },
+      `These use current listed prices. They exclude software licences, training and any extras, so treat them as starting points and ask for a quote that matches your work.`,
+      { table: {
+        head: ['Setup', 'What is in it', 'Total (AUD)'],
+        rows: [
+          ['L2 on a Matrice 400', '[Zenmuse L2 Plus Combo](/product/zenmuse-l2-worry-free-plus-combo) $25,870 + [Matrice 400 Plus Combo](/product/dji-matrice-400-worry-free-plus-combo) $18,550', '$44,420'],
+          ['L2 setup with RTK station', 'The L2 setup + [D-RTK 3 station](/product/d-rtk-3-multifunctional-station) $2,320', '$46,740'],
+          ['L3 on a Matrice 400', '[Zenmuse L3 Plus Combo](/product/zenmuse-l3-worry-free-plus-combo) $27,410 + [Matrice 400 Plus Combo](/product/dji-matrice-400-worry-free-plus-combo) $18,550', '$45,960'],
+          ['L3 setup with RTK station', 'The L3 setup + D-RTK 3 station $2,320', '$48,280']
+        ]
+      } },
+      `If you already own a Matrice 350 RTK or 300 RTK, the L2 on its own is $23,880, or $25,870 with Care Plus. Add the [survey pole and tripod kit](/product/d-rtk-3-survey-pole-and-tripod-kit) at $460 for the RTK station.`,
+      { h2: `Livox sensors for integrators and developers` },
+      `The five Livox LiDAR sensors in our range are bare sensors for developers and integrators building their own payloads, not turnkey survey systems. The [Mid-360S](/product/livox-mid-360s-lidar) at $899 has a 360-degree horizontal field of view for mobile mapping and robotics. The [Mid-70](/product/livox-mid-70-lidar) at $1,699 has a 70.4-degree circular field of view for drone mapping. The [TELE-15](/product/livox-tele-15-lidar) at $2,099 has a long-range, narrow field of view for corridor mapping such as power lines. The [Avia](/product/livox-avia-lidar) at $2,499 records up to 240,000 points a second, and the [Avia 2](/product/livox-avia-2-lidar) at $4,720 is its next-generation successor. Browse the [LiDAR sensors category](/category/cameras-sensors/lidar-sensors), and ask us if you need help matching a sensor to an aircraft.`,
+      { h2: `Which LiDAR option should you buy?` },
+      { ul: [
+        `**You already own a Matrice 350 RTK or 300 RTK:** the [Zenmuse L2](/product/dji-zenmuse-l2-lidar) at $23,880.`,
+        `**A new complete setup with the proven payload:** the L2 on a Matrice 400, from $44,420.`,
+        `**A new complete setup with the highest capability:** the L3 on a Matrice 400, from $45,960.`,
+        `**You build your own payloads:** one of the five [Livox sensors](/category/cameras-sensors/lidar-sensors), from $899.`,
+        `**You are not sure LiDAR is the right tool:** read [LiDAR vs photogrammetry](/blog/lidar-vs-photogrammetry-drone-mapping-australia), or look at the [Zenmuse P1](/product/dji-zenmuse-p1) mapping camera in our [Zenmuse payload guide](/blog/buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices).`
+      ] },
+      { h2: `Rules, training and accuracy in the real world` },
+      `Flying a LiDAR drone for survey work is commercial flying, so you will normally need the right accreditation or licence and an operator certificate. Rules change, so confirm what applies on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for common questions. DJI's accuracy figures come from controlled tests, so accuracy on your site depends on your flight plan, your RTK set-up and your processing. Plan control points and training, and read our [enterprise drone guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) for how these aircraft fit a professional workflow.`,
+      { h2: `Get a free quote for your LiDAR setup` },
+      `Tell us what you will survey, the area, the accuracy you need and whether you already own a Matrice, and we will recommend a setup and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below. You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact).`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply. For LiDAR we recommend a written quote so we confirm compatibility, availability and delivery of the whole setup together. Browse all [enterprise drones](/category/enterprise-drones) and the [Zenmuse cameras and payloads](/category/cameras-sensors/dji-zenmuse-cameras).`,
+      { faq: [
+        { q: `How much does a LiDAR drone cost in Australia?`, a: `A DJI Zenmuse L2 with a Matrice 400 costs from $44,420 in our range. The L2 payload alone is $23,880, the Zenmuse L3 Plus combo is $27,410 and the Matrice 400 Plus combo is $18,550. All prices are in Australian dollars.` },
+        { q: `What is the difference between the Zenmuse L2 and L3?`, a: `The L3 is the newer payload. DJI lists tighter accuracy and a much longer detection range for it, but it is heavier at 1.60 kg and supports only the Matrice 400, while the L2 supports the Matrice 400, 350 RTK and 300 RTK. Like for like with Care Plus, the L3 costs $1,540 more.` },
+        { q: `Which drone carries the Zenmuse L2?`, a: `DJI lists the Matrice 400, Matrice 350 RTK and Matrice 300 RTK. The Matrice 300 RTK requires the DJI RC Plus controller.` },
+        { q: `Can I buy a LiDAR sensor without a drone?`, a: `Yes. We sell five Livox LiDAR sensors from $899 for developers and integrators. They are bare sensors, not complete survey systems.` },
+        { q: `Do I need RTK for drone LiDAR?`, a: `DJI measures its LiDAR accuracy with an RTK base station, so for survey-grade work you should plan for one. The D-RTK 3 Multifunctional Station is $2,320.` }
+      ] }
+    ],
+    targetKeywords: ['drone lidar', 'drone with lidar', 'lidar 3d scanner', 'zenmuse l3', 'dji zenmuse l2', 'livox lidar']
+  },
+  {
+    id: 'post-37',
+    slug: 'buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box',
+    intent: 'transactional',
+    title: `DJI Dock 3 vs Dock 2: Price, Packages and Which Drone-in-a-Box to Buy in Australia`,
+    metaTitle: `DJI Dock 3 vs Dock 2: Price and Packages in Australia`,
+    metaDescription: `Buying a DJI dock in Australia? Dock 3 is $19,999 and Dock 2 is $12,850. Compare the Survey and Thermal packages, what is included and how to choose.`,
+    subtitle: `What a drone docking station costs, which aircraft each dock works with, and when a package beats buying the parts.`,
+    date: 'November 2026',
+    dateISO: '2026-11-10',
+    modifiedISO: '2026-11-10',
+    readTime: '9 min read',
+    author: 'Flight Operations Team',
+    tags: ['DJI Dock', 'Buying Guide', 'Enterprise Drones'],
+    excerpt: `The DJI Dock 3 is $19,999 and the Dock 2 is $12,850, with the aircraft sold separately. The Dock 3 Survey and Thermal packages bundle the aircraft for $30,828 and $34,278. We compare them.`,
+    image: '/images/blog-dji-dock-buying-guide.webp',
+    imageAlt: `DJI Dock 3, the DJI Dock 3 vehicle-mounted gimbal mount and DJI Dock 2 automated drone docks`,
+    relatedProducts: ['dji-dock-3', 'dji-dock-2', 'dji-dock-3-survey-package', 'dji-dock-3-thermal-package'],
+    content: [
+      `A drone docking station turns a drone into something closer to a security camera or a sensor on a pole: it launches on a schedule or on command, flies the mission, lands, recharges and waits for the next one, with nobody on site. The idea is often called drone-in-a-box, and it suits site security, inspection, mapping and emergency response. If you have searched for the DJI Dock 3 price or the DJI Dock 2 price in Australia, you have found that there are four listings and a few important details: each dock works with a specific aircraft, the aircraft is sold separately unless you choose a package, and the packages differ by hundreds of dollars from buying the parts. This guide sets out what each dock costs, how the Dock 3 compares with the Dock 2, what the two packages contain, and how to decide. You can check the Dock 3 specifications on DJI's official [Dock 3 specifications page](https://enterprise.dji.com/dock-3/specs).`,
+      { h2: `What a DJI dock does` },
+      `A dock is a base station that houses a compatible aircraft. DJI describes both models in the same terms, and the benefits are the same whichever you pick.`,
+      { ul: [
+        `**Automated launch, landing and charging:** the aircraft takes off from the dock, returns to it and recharges inside it.`,
+        `**Remote operation:** missions are planned and monitored through DJI FlightHub 2, so a pilot can run flights from an office.`,
+        `**Repeat missions:** the same route can be flown again and again, which suits patrols, inspections and change detection over time.`
+      ] },
+      { h2: `DJI dock prices in Australia` },
+      `Four dock listings and one accessory cover the range. Prices are in Australian dollars.`,
+      { table: {
+        head: ['Product', 'Aircraft', 'What is included', 'Price (AUD)'],
+        rows: [
+          ['[DJI Dock 2](/product/dji-dock-2)', 'Matrice 3D series', 'Dock only, aircraft sold separately', '$12,850'],
+          ['[DJI Dock 3](/product/dji-dock-3)', 'Matrice 4D series', 'Dock only, aircraft sold separately', '$19,999'],
+          ['[DJI Dock 3 Survey Package](/product/dji-dock-3-survey-package)', 'Matrice 4D', 'Dock, aircraft, Care Enterprise Plus, DJI Terra Pro for one year, controller and spares', '$30,828'],
+          ['[DJI Dock 3 Thermal Package](/product/dji-dock-3-thermal-package)', 'Matrice 4TD (thermal)', 'Dock, aircraft, Care Enterprise Plus, speaker, spotlight, controller and spares', '$34,278'],
+          ['[DJI Dock 3 Vehicle-Mounted Gimbal Mount](/product/dji-dock-3-vehicle-mounted-gimbal-mount)', 'Dock 3', 'Mount for vehicle-based deployments', '$490']
+        ]
+      } },
+      { h2: `DJI Dock 3 vs DJI Dock 2` },
+      `The choice between the two docks starts with the aircraft, because each one is built around a specific series. The [Dock 2](/product/dji-dock-2) is designed for the Matrice 3D and 3TD. The [Dock 3](/product/dji-dock-3) is designed for the Matrice 4D and 4TD. You cannot mix them, so decide which aircraft you want first.`,
+      { table: {
+        head: ['', 'DJI Dock 2', 'DJI Dock 3'],
+        rows: [
+          ['Designed for', 'Matrice 3D and 3TD', 'Matrice 4D and 4TD'],
+          ['Positioning', 'The more affordable DJI dock for routine inspection, mapping and patrols', 'For security, inspection and response teams planning autonomous drone-in-a-box programs'],
+          ['Remote operation', 'DJI FlightHub 2', 'DJI FlightHub 2'],
+          ['Dock price', '[$12,850](/product/dji-dock-2)', '[$19,999](/product/dji-dock-3)'],
+          ['Packages in our range', 'Dock only', 'Survey and Thermal packages']
+        ]
+      } },
+      `The Dock 3 costs $7,149 more than the Dock 2. That gap buys you the Matrice 4D series and the choice of ready-made packages. Choose the Dock 2 if your budget is the deciding factor and the Matrice 3D series suits the job. Choose the Dock 3 if you want the Matrice 4D series, or the thermal and survey packages below. If you are unsure which aircraft you need, our [DJI Matrice buying guide](/blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price) compares the Matrice range by price.`,
+      { h2: `DJI Dock 3 Survey Package: for mapping and inspection` },
+      `The [Dock 3 Survey Package](/product/dji-dock-3-survey-package) at $30,828 is built for survey and mapping teams starting automated missions. In the box:`,
+      { ul: [
+        `DJI Dock 3 and a DJI Matrice 4D aircraft.`,
+        `DJI Care Enterprise Plus for the Matrice 4D.`,
+        `DJI Terra Pro for one year.`,
+        `A Matrice 4D series battery, low-noise anti-ice propellers and a 256 GB microSD card.`,
+        `A DJI RC Plus 2 Enterprise Enhanced controller with strap and bracket kit.`
+      ] },
+      `It suits survey, mapping and inspection organisations that want the dock, an aircraft, mapping software and a controller from a single purchase. If you compare mapping methods first, our guide to [LiDAR vs photogrammetry](/blog/lidar-vs-photogrammetry-drone-mapping-australia) explains which suits which job.`,
+      { h2: `DJI Dock 3 Thermal Package: for security and emergency response` },
+      `The [Dock 3 Thermal Package](/product/dji-dock-3-thermal-package) at $34,278 pairs the dock with a thermal Matrice 4TD, which makes it the choice for around-the-clock security and public safety work. In the box:`,
+      { ul: [
+        `DJI Dock 3 and a DJI Matrice 4TD thermal aircraft.`,
+        `DJI Care Enterprise Plus for the Matrice 4TD.`,
+        `A DJI AS1 speaker and an AL1 spotlight.`,
+        `A Matrice 4D series battery, low-noise anti-ice propellers and a 256 GB microSD card.`,
+        `A DJI RC Plus 2 Enterprise controller with strap and bracket kit.`
+      ] },
+      `The thermal camera, loudspeaker and spotlight are what separate this package from the survey one. To understand how thermal imaging compares with a thermal camera on a stick, read our guide to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and our comparison of a [thermal camera vs a thermal drone](/blog/thermal-camera-vs-thermal-drone-infrared-inspections).`,
+      { h2: `Package or parts: which costs less?` },
+      `You can also buy the Dock 3 and an aircraft separately. The matching Matrice 4 Worry-Free Flagship Combos are listed in our range, so here is the arithmetic from current listed prices.`,
+      { table: {
+        head: ['', 'Dock 3 plus aircraft separately', 'Package price', 'Difference'],
+        rows: [
+          ['Survey', '[Dock 3](/product/dji-dock-3) $19,999 plus [Matrice 4D Flagship Combo](/product/dji-matrice-4d-worry-free-flagship-combo) $12,040 = $32,039', '[$30,828](/product/dji-dock-3-survey-package)', '$1,211 less'],
+          ['Thermal', '[Dock 3](/product/dji-dock-3) $19,999 plus [Matrice 4TD Flagship Combo](/product/dji-matrice-4td-worry-free-flagship-combo) $15,470 = $35,469', '[$34,278](/product/dji-dock-3-thermal-package)', '$1,191 less']
+        ]
+      } },
+      `The packages are about $1,200 cheaper in both cases, but the kits are not identical. The packages add items such as the speaker and spotlight or DJI Terra Pro, while the combos include their own extras. Compare the contents on the product pages before you decide, and ask us if you need a mixed configuration.`,
+      { h2: `Which DJI dock should you buy?` },
+      { ul: [
+        `**Lowest entry price:** the [Dock 2](/product/dji-dock-2) at $12,850, with a Matrice 3D series aircraft.`,
+        `**The Matrice 4D series, configured your way:** the [Dock 3](/product/dji-dock-3) at $19,999.`,
+        `**Mapping and survey:** the [Dock 3 Survey Package](/product/dji-dock-3-survey-package) at $30,828.`,
+        `**Security, patrol and emergency response:** the [Dock 3 Thermal Package](/product/dji-dock-3-thermal-package) at $34,278.`,
+        `**A dock on a vehicle:** add the [vehicle-mounted gimbal mount](/product/dji-dock-3-vehicle-mounted-gimbal-mount) at $490.`
+      ] },
+      { h2: `Before you buy: rules, planning and training` },
+      `A dock is only useful if the operation behind it is lawful and planned. Remote, unattended flying usually means flying beyond visual line of sight, which needs approval from the Civil Aviation Safety Authority, and commercial flying needs an operator certificate. Rules change, so confirm what applies to your work on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for the basics. Plan the installation site, power, network and the missions you will fly, and check the requirements on each product page. Our [enterprise drone guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) explains how docks fit alongside piloted aircraft.`,
+      { h2: `Spares and related equipment` },
+      `Browse the full [DJI Dock category](/category/enterprise-drones/dji-dock), the [enterprise accessories](/category/enterprise-drones/enterprise-accessories) and the wider [enterprise drones range](/category/enterprise-drones). If a piloted aircraft suits the job better than a dock, see the [DJI Matrice range](/category/enterprise-drones/dji-matrice) and the [thermal cameras](/category/cameras-sensors/thermal-cameras).`,
+      { h2: `Get a free quote on a dock or dock package` },
+      `Tell us the site, the missions you want to automate and whether you already own a Matrice, and we will recommend a dock or package and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below, and we will confirm compatibility and availability before you pay.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For a dock we recommend asking for a written quote first, so we confirm the configuration, availability and delivery before you pay: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `How much is the DJI Dock 3 in Australia?`, a: `The DJI Dock 3 is $19,999 as a dock only, with the aircraft sold separately. The Dock 3 Survey Package is $30,828 and the Dock 3 Thermal Package is $34,278. All prices are in Australian dollars.` },
+        { q: `How much is the DJI Dock 2?`, a: `The DJI Dock 2 is $12,850 as a dock only. It is designed for the Matrice 3D series, which is sold separately.` },
+        { q: `What is the difference between the DJI Dock 3 and Dock 2?`, a: `They work with different aircraft. The Dock 2 is designed for the Matrice 3D and 3TD, and the Dock 3 for the Matrice 4D and 4TD. The Dock 3 costs $7,149 more and has two ready-made packages.` },
+        { q: `Does the dock include a drone?`, a: `Not on its own. The Dock 3 and Dock 2 are sold without an aircraft. The Dock 3 Survey and Thermal packages include a Matrice 4D or 4TD.` },
+        { q: `Do I need CASA approval to use a drone dock?`, a: `Remote, unattended flying usually involves flying beyond visual line of sight, which needs approval from CASA, and commercial flying needs an operator certificate. Check the current requirements on the CASA website for your operation.` }
+      ] }
+    ],
+    targetKeywords: ['dji dock 3 price', 'dji dock 2 price', 'drone docking station', 'dji drone in a box', 'drone with docking station', 'dji dock 3 australia']
   }
 ];
