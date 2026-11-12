@@ -910,3 +910,13 @@ Two transactional enterprise guides, both `intent: transactional` so they end wi
 |---|---|
 | /blog/buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices | drone lidar (170); drone with lidar (70); lidar 3d scanner (90); zenmuse l3 (50); dji zenmuse l2; livox lidar |
 | /blog/buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box | dji dock 3 price; dji dock 2 price; drone docking station; dji drone in a box; drone with docking station; dji dock 3 australia |
+
+
+## Spreader and search-and-rescue transactional guides (12 Nov 2026)
+
+Two transactional guides, both `intent: transactional` so they end with the enquiry panel and product cards with quote and cart buttons, on the agricultural and thermal topics with the most engagement. Spreading figures (tank volume, load, spread width, discharge rate, granule size) come from DJI's Agras T25P, T50, T70P and T100 specification pages; thermal figures come from DJI's Matrice 4, Matrice 30 and Mavic 3 Enterprise specification pages. Prices come from the product data. WebFetch refused the DJI agriculture pages, so they were read in the browser.
+
+| Post | Primary / supporting keywords (monthly AU volume) |
+|---|---|
+| /blog/buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared | aerial seeding drone (70, difficulty 1); drone spreader; fertiliser spreading drone; dji agras spreading system; drone seeding australia; dji agras t70p |
+| /blog/buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices | search and rescue drone (90, difficulty 17); search and rescue drones; thermal drone for search and rescue; drone with spotlight and speaker; dji matrice 4t price; thermal drone night search |

@@ -2939,5 +2939,214 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['dji dock 3 price', 'dji dock 2 price', 'drone docking station', 'dji drone in a box', 'drone with docking station', 'dji dock 3 australia']
+  },
+  {
+    id: 'post-38',
+    slug: 'buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared',
+    intent: 'transactional',
+    title: `Buy a Spreader Drone in Australia: DJI Agras Seeding and Fertiliser Spreading Systems Compared`,
+    metaTitle: `DJI Agras Spreader Drones: Seeding and Fertiliser Prices`,
+    metaDescription: `Compare DJI Agras spreader drones for seeding and fertiliser in Australia: T25P, T50, T70P and T100 tank sizes, spread widths and prices, with a free quote.`,
+    subtitle: `What each DJI Agras spreading system holds, how wide it spreads, what it costs and which one suits your acreage.`,
+    date: 'November 2026',
+    dateISO: '2026-11-12',
+    modifiedISO: '2026-11-12',
+    readTime: '9 min read',
+    author: 'Flight Operations Team',
+    tags: ['Agricultural Drones', 'Buying Guide', 'Spreading Systems'],
+    excerpt: `A DJI Agras spreading system lets a spray drone broadcast seed, fertiliser and other dry granules. We compare the T25P, T50, T70P and T100 by tank size, spread width and price, with worked examples.`,
+    image: '/images/blog-dji-agras-spreader-drone-guide.webp',
+    imageAlt: `DJI Agras T25P, T50 and T100 agricultural drones used for seeding and fertiliser spreading`,
+    relatedProducts: ['dji-agras-t25p', 'dji-agras-t50-spreading-system', 'dji-agras-t70p', 'dji-150l-spreading-system'],
+    content: [
+      `A spreader drone does the job of a ute with a broadcast spreader, without the tracks, the compaction or the wait for a paddock to dry. It carries dry granules such as seed and fertiliser, flies a planned route and throws the material out over a set width. If you have searched for an aerial seeding drone or a drone fertiliser spreader in Australia, the practical question is which DJI Agras model carries enough, spreads wide enough and fits your budget. Every Agras drone in our range sprays liquids, and each one adds a granular spreading system for dry material, but the hopper sizes differ by a factor of five between the smallest and the largest. This guide sets out what each system holds, what it costs and how to match it to the area you cover. You can check the figures on DJI's official specification pages for the [Agras T25P](https://ag.dji.com/t25p/specs), [Agras T50](https://ag.dji.com/t50/specs), [Agras T70P](https://ag.dji.com/t70p/specs) and [Agras T100](https://ag.dji.com/t100/specs).`,
+      { h2: `What a DJI Agras spreading system does` },
+      `A spreading system replaces the liquid tank with a hopper and a centrifugal disc. Material drops from the hopper onto the spinning disc, which throws it out to either side of the aircraft while the drone follows a route planned in the DJI Agras app. The same basics apply across the range.`,
+      { ul: [
+        `**Dry granules from fine to coarse:** the T25P and T50 systems take 0.5 to 5 mm granules. The T70P and T100 list a standard extra-large auger for 0.5 to 10 mm material, with optional augers for smaller or larger granules.`,
+        `**Planned, repeatable passes:** the aircraft flies a mapped route with terrain following, so each pass is laid out the same way.`,
+        `**One aircraft, two jobs:** the same drone sprays liquids with a spray tank, so a contractor can seed in autumn and spray in spring with one aircraft.`
+      ] },
+      `If you are new to agricultural drones, our overview of [agricultural drones for weed control, seeding and crop monitoring](/blog/agricultural-drones-weed-control-seeding-crop-monitoring) explains the whole field before you start comparing models.`,
+      { h2: `DJI Agras spreader prices in Australia` },
+      `Four aircraft and five spreading products cover the range. Prices are in Australian dollars. The T50 and T100 take a separate spreading system, which we list alongside the aircraft.`,
+      { table: {
+        head: ['Setup', 'What DJI lists for spreading', 'Price (AUD)'],
+        rows: [
+          ['[DJI Agras T25P](/product/dji-agras-t25p)', '30 L spreading tank, 25 kg load', '$17,530'],
+          ['[DJI Agras T50](/product/dji-agras-t50) plus [T50 Spreading System](/product/dji-agras-t50-spreading-system)', '75 L spreading tank, 50 kg load', '$21,999 plus $2,200 = $24,199'],
+          ['[DJI Agras T70P](/product/dji-agras-t70p)', '100 L spreading tank, 70 kg load', '$20,380'],
+          ['[DJI Agras T100](/product/dji-agras-t100) plus [150L Spreading System](/product/dji-150l-spreading-system)', '150 L spreading tank, 100 kg load', '$30,380 plus $3,010 = $33,390'],
+          ['[DJI Agras T30 Spreading System 3.0](/product/dji-agras-t30-spreading-system-3-0)', 'Add-on for an Agras T30 you already own', '$1,800']
+        ]
+      } },
+      `The prices for the T25P and T70P are for the aircraft. DJI lists a spreading system on each aircraft's specification page, and we confirm exactly which spreading hardware is in the box when you ask for a quote, so there is no surprise on delivery.`,
+      { h2: `DJI Agras spreading specifications compared` },
+      `This table uses the figures on DJI's own specification pages. Spread width depends on the material and how even you want the coverage, and the DJI Agras app recommends a payload for the conditions on the day, so treat the load as a maximum and not a target.`,
+      { table: {
+        head: ['', 'Agras T25P', 'Agras T50 with spreading system', 'Agras T70P', 'Agras T100'],
+        rows: [
+          ['Spreading tank volume', '30 L', '75 L', '100 L', '150 L'],
+          ['Maximum load in the hopper', '25 kg', '50 kg', '70 kg', '100 kg'],
+          ['Effective spread width', '3 to 8 m', '8 m', '3 to 10 m', '3 to 10 m'],
+          ['Maximum discharge rate (compound fertiliser)', '190 kg/min', 'Not listed on DJI page', '400 kg/min', '400 kg/min'],
+          ['Granule size', '0.5 to 5 mm', '0.5 to 5 mm', '0.5 to 10 mm (standard auger)', '0.5 to 10 mm (standard auger)'],
+          ['Spray tank for liquids', '20 L', '40 L', '70 L', '100 L']
+        ]
+      } },
+      `Two things stand out. The T70P and T100 spread up to 400 kg a minute, so the limit on a big job is the number of refills, not the throw rate. And the T70P sits between the T50 and the T100 on hopper size and its listed aircraft price is lower than the T50 with its system added, so it is worth asking about if you spread as much as you spray.`,
+      { h2: `How much ground does one load cover?` },
+      `Coverage depends on how much material you apply per hectare, so here is the arithmetic for two common rates on a full hopper. These are simple sums, not field results: wind, material density, battery turnaround and flight speed all change what you achieve in a day.`,
+      { table: {
+        head: ['Aircraft (full load)', 'Area per load at 50 kg/ha', 'Area per load at 100 kg/ha'],
+        rows: [
+          ['T25P (25 kg)', '0.5 ha', '0.25 ha'],
+          ['T50 (50 kg)', '1.0 ha', '0.5 ha'],
+          ['T70P (70 kg)', '1.4 ha', '0.7 ha'],
+          ['T100 (100 kg)', '2.0 ha', '1.0 ha']
+        ]
+      } },
+      `Read it the other way and you can size a drone to a job. A 200 ha pasture sown at 25 kg/ha needs 5,000 kg of seed, which is 50 full loads on a T100 or 200 on a T25P. If you spread small areas or fussy material, a smaller aircraft is easier to move and refill. If you spread hundreds of hectares, hopper size saves hours.`,
+      { h2: `What you can spread with a DJI Agras drone` },
+      `The spreading systems are built for dry granules. DJI's specification pages for the T70P and T100 list the augers and the material each one suits.`,
+      { ul: [
+        `**Seed and fertiliser:** the standard extra-large auger takes 0.5 to 10 mm granules including fertiliser, wheat and feed.`,
+        `**Rice-sized grain:** a medium auger for 4 to 6 mm granules is fitted as standard, and a large auger for 4 to 10 mm is optional.`,
+        `**Fine seed and granular chemicals:** an optional small auger for 0.5 to 4 mm material is listed for rapeseed and for granular herbicides and insecticides.`
+      ] },
+      `Always follow the product label and the rules in your state for whatever you apply. If your main interest is controlling weeds, read our [drone weed spraying buying guide](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost), and for liquid spraying our [Agras T25P, T50 and T100 comparison](/blog/buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices).`,
+      { h2: `Which spreader drone should you buy?` },
+      { ul: [
+        `**Small acreage or a solo operator:** the [Agras T25P](/product/dji-agras-t25p) at $17,530, with a 30 L hopper in a foldable aircraft.`,
+        `**Most mixed farms and small contractors:** the [Agras T50](/product/dji-agras-t50) with its [spreading system](/product/dji-agras-t50-spreading-system) at $24,199 and a 75 L hopper.`,
+        `**Contractors who spread as much as they spray:** the [Agras T70P](/product/dji-agras-t70p) at $20,380, with a 100 L hopper and up to 400 kg/min.`,
+        `**Broadacre seeding and fertilising:** the [Agras T100](/product/dji-agras-t100) with the [150L Spreading System](/product/dji-150l-spreading-system) at $33,390.`,
+        `**Already own a T30:** the [T30 Spreading System 3.0](/product/dji-agras-t30-spreading-system-3-0) at $1,800 adds dry spreading to the aircraft you have.`
+      ] },
+      { h2: `Batteries, power and refilling` },
+      `Heavier loads mean more battery cycles in a day, so plan the power with the aircraft, not after it. Our guide to [Agras batteries, chargers and power supply](/blog/buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100) covers what each model needs, including generators and fast chargers for a day in the paddock. A second person to load the hopper keeps the aircraft flying while you refill.`,
+      { h2: `Before you buy: rules and training` },
+      `Commercial drone work and large aircraft carry requirements, and spreading chemicals adds state-level rules on top. Check what applies to your operation on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for the basics. Our [agricultural spraying drone guide](/blog/agricultural-spraying-drones-australia-guide) explains how the work is planned and what a first season looks like.`,
+      { h2: `Spares and related equipment` },
+      `Browse the full [agricultural spraying drones category](/category/spraying-drones), the [spraying drone accessories](/category/spraying-drones/spraying-drone-accessories) and the [enterprise drones](/category/enterprise-drones) if you also need thermal or mapping aircraft. For crop health before you spread, our [multispectral drone buying guide](/blog/buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices) compares the cameras.`,
+      { h2: `Get a free quote on a spreader drone or spreading system` },
+      `Tell us your area, the material you spread and whether you already own an Agras drone, and we will recommend a model and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below, and we will confirm the spreading hardware, compatibility and availability before you pay.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For an agricultural drone we recommend asking for a written quote first, so we confirm the configuration, availability and delivery before you pay: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `Can a DJI Agras drone spread seed and fertiliser?`, a: `Yes. DJI's Agras T25P, T50, T70P and T100 can carry a granular spreading system that broadcasts dry granules such as seed and fertiliser. The T25P and T50 systems take 0.5 to 5 mm granules, and the T70P and T100 list augers for 0.5 to 10 mm material.` },
+        { q: `How much does a spreader drone cost in Australia?`, a: `A DJI Agras T25P is $17,530 and a T70P is $20,380. The T50 with its spreading system is $24,199 and the T100 with the 150L spreading system is $33,390. The T30 Spreading System 3.0 add-on is $1,800. All prices are in Australian dollars.` },
+        { q: `How much can a DJI Agras spreading system carry?`, a: `DJI lists a maximum hopper load of 25 kg for the T25P, 50 kg for the T50, 70 kg for the T70P and 100 kg for the T100. The DJI Agras app recommends the actual payload for the conditions.` },
+        { q: `How wide does a DJI Agras drone spread?`, a: `DJI lists an effective spread width of 3 to 8 m for the T25P, 8 m for the T50 and 3 to 10 m for the T70P and T100. The width depends on the material and the evenness you want.` },
+        { q: `Do I need CASA approval to spread with a drone?`, a: `Commercial drone work and heavy drones carry requirements, and spreading chemicals adds state rules. Check the current requirements on the CASA website and with your state authority for your operation.` }
+      ] }
+    ],
+    targetKeywords: ['aerial seeding drone', 'drone spreader', 'fertiliser spreading drone', 'dji agras spreading system', 'drone seeding australia', 'dji agras t70p']
+  },
+  {
+    id: 'post-39',
+    slug: 'buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices',
+    intent: 'transactional',
+    title: `Buy a Search and Rescue Drone in Australia: Thermal Drones, Spotlights and Speakers Compared by Price`,
+    metaTitle: `Search and Rescue Drone Australia: Thermal Drone Prices`,
+    metaDescription: `Buying a search and rescue drone in Australia? Compare the Matrice 4T, Matrice 30T and Mavic 3T thermal drones by price, flight time and weather rating.`,
+    subtitle: `Which thermal drone to buy for night searches, what a spotlight and speaker add, and what a complete setup costs.`,
+    date: 'November 2026',
+    dateISO: '2026-11-12',
+    modifiedISO: '2026-11-12',
+    readTime: '9 min read',
+    author: 'Flight Operations Team',
+    tags: ['Thermal Drones', 'Buying Guide', 'Search and Rescue'],
+    excerpt: `A search and rescue drone needs a thermal camera, long flight time and, for night work, a spotlight and speaker. We compare the Mavic 3T, Matrice 4T and Matrice 30T by price and specification.`,
+    image: '/images/blog-search-and-rescue-drone-guide.webp',
+    imageAlt: `DJI Matrice 4 Thermal, Matrice 30T and Mavic 3 Thermal drones for search and rescue`,
+    relatedProducts: ['dji-matrice-4t-plus-combo', 'matrice-30t-worry-free-basic-combo', 'dji-mavic-3t-worry-free-basic-combo', 'dji-al1-spotlight'],
+    content: [
+      `When someone is missing in bush, farmland or water, the search is a race against light, weather and body heat. A thermal drone changes that race: it sees warmth, so a person, a vehicle engine or a large animal stands out against cooler ground in the dark, where a normal camera sees nothing. If you have searched for a search and rescue drone in Australia, you will have found that the choice comes down to three DJI thermal aircraft at very different prices, plus two accessories, a spotlight and a speaker, that turn a thermal drone into a night search tool. This guide sets out what each aircraft costs, how they compare on the figures that matter in a search, and which setup suits which team. You can check the specifications on DJI's official pages for the [Matrice 4 series](https://enterprise.dji.com/matrice-4-series/specs), the [Matrice 30 series](https://enterprise.dji.com/matrice-30/specs) and the [Mavic 3 Enterprise series](https://enterprise.dji.com/mavic-3-enterprise/specs).`,
+      { h2: `What a search and rescue drone needs` },
+      `A search drone is judged on a short list of things, and not all of them are about the thermal camera.`,
+      { ul: [
+        `**A thermal camera with enough resolution and sensitivity:** all three aircraft below have a 640 by 512 thermal sensor with a sensitivity of 50 mK or better. Our explainer on [how a thermal imager works](/blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained) covers what those numbers mean.`,
+        `**Flight time:** a longer flight means more search time before a battery swap.`,
+        `**Weather tolerance:** searches happen in rain, dust and cold, so an aircraft with a weather rating can keep flying when the weather turns.`,
+        `**Night aids:** a spotlight lights the scene for the crew on the ground and a speaker lets you call out to a person you have found.`,
+        `**Portability:** the aircraft has to reach the search area and launch in minutes.`
+      ] },
+      { h2: `Search and rescue drone prices in Australia` },
+      `Three aircraft and two accessories make up the range. Prices are in Australian dollars.`,
+      { table: {
+        head: ['Product', 'What it is', 'Price (AUD)'],
+        rows: [
+          ['[DJI Mavic 3T Worry-Free Basic Combo](/product/dji-mavic-3t-worry-free-basic-combo)', 'Portable thermal drone with Care Enterprise Basic', '$8,249'],
+          ['[DJI Mavic 3T Worry-Free Plus Combo](/product/dji-mavic-3t-worry-free-plus-combo)', 'The same aircraft with Care Enterprise Plus', '$10,679'],
+          ['[DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal)', 'The Matrice 4T aircraft', '$10,159'],
+          ['[DJI Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', 'The Matrice 4T with Care coverage and extra batteries', '$11,248'],
+          ['[DJI Matrice 30T Worry-Free Basic Combo](/product/matrice-30t-worry-free-basic-combo)', 'Weather-sealed thermal drone with Care Enterprise Basic', '$14,917'],
+          ['[DJI Matrice 30T Worry-Free Plus Combo](/product/matrice-30t-worry-free-plus-combo)', 'The same aircraft with Care Enterprise Plus', '$15,473'],
+          ['[DJI AL1 Spotlight](/product/dji-al1-spotlight)', 'Spotlight for compatible enterprise aircraft', '$460'],
+          ['[DJI AS1 Speaker](/product/dji-as1-speaker)', 'Loudspeaker that broadcasts messages from the air', '$340']
+        ]
+      } },
+      { h2: `Mavic 3T vs Matrice 4T vs Matrice 30T for search work` },
+      `This table uses the figures on DJI's own specification pages. Flight times are DJI's no-wind laboratory figures, so expect less in a real search.`,
+      { table: {
+        head: ['', 'Mavic 3T', 'Matrice 4T', 'Matrice 30T'],
+        rows: [
+          ['Thermal sensor', '640 by 512, 12 μm', '640 by 512, 12 μm', '640 by 512, 12 μm'],
+          ['Thermal sensitivity (NETD)', '50 mK or better', '50 mK or better', '50 mK or better'],
+          ['Thermal field of view (diagonal)', '61°', '45°', '61°'],
+          ['Maximum flight time', '45 min', '49 min', '41 min'],
+          ['Wind resistance', '12 m/s', '12 m/s', '12 m/s'],
+          ['Weather rating', 'None listed on DJI page', 'No standard protection level', 'IP55'],
+          ['Operating temperature', '-10 to 40 °C', '-10 to 40 °C', '-20 to 50 °C'],
+          ['Weight', '920 g', '1,219 g', 'About 3.77 kg']
+        ]
+      } },
+      `The sensors are close in specification, so the choice comes down to everything around them. The Matrice 30T is the only one of the three with an IP55 rating and the widest temperature range, which makes it the aircraft to pick for a team that flies in the rain or the heat. The Matrice 4T has the longest flight time and a near-infrared auxiliary light for night work, with a laser rangefinder that DJI lists at 1,800 m on a target with 20% reflectivity. The Mavic 3T is the lightest of the three and the cheapest.`,
+      { h2: `Night aids: spotlight and speaker` },
+      `Two accessories matter once a search moves into the dark. The [AL1 Spotlight](/product/dji-al1-spotlight) at $460 lights the scene below the aircraft: DJI lists it at a maximum of 32 W, with 17 lux at 50 m and 4.3 lux at 100 m measured in a laboratory. It lets the ground crew see what the thermal camera has found. The [AS1 Speaker](/product/dji-as1-speaker) at $340 broadcasts messages from the aircraft, so you can reassure a person, give directions or call out to a team that is out of radio range. We confirm that each accessory fits your aircraft when we quote, and the [DJI Dock 3 Thermal Package](/product/dji-dock-3-thermal-package) shows how DJI bundles the two with a thermal aircraft.`,
+      { h2: `What a search setup costs` },
+      `Two worked examples from current listed prices show the range.`,
+      { table: {
+        head: ['Setup', 'What is in it', 'Total (AUD)'],
+        rows: [
+          ['Night search kit', '[Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo) $11,248, [AL1 Spotlight](/product/dji-al1-spotlight) $460 and [AS1 Speaker](/product/dji-as1-speaker) $340', '$12,048'],
+          ['Weather-sealed team aircraft', '[Matrice 30T Worry-Free Plus Combo](/product/matrice-30t-worry-free-plus-combo) with Care Enterprise Plus', '$15,473']
+        ]
+      } },
+      `If you want to add spare batteries and a faster charger to the Matrice 4T kit, the [Matrice 4 battery](/product/dji-matrice-4-battery) is $280 and the [Matrice 4 series charging hub](/product/dji-matrice-4-series-charging-hub-200w) is $140.`,
+      { h2: `Which thermal drone should you buy?` },
+      { ul: [
+        `**Lowest price and a pack you can carry:** the [Mavic 3T Worry-Free Basic Combo](/product/dji-mavic-3t-worry-free-basic-combo) at $8,249.`,
+        `**Longest flight time and night tools:** the [Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo) at $11,248, with the spotlight and speaker added.`,
+        `**Rain, dust and extreme temperatures:** the [Matrice 30T Worry-Free Basic Combo](/product/matrice-30t-worry-free-basic-combo) at $14,917 for the IP55 rating.`,
+        `**A fixed base with automatic launch:** the Matrice 4TD, the dock-ready thermal aircraft, in the [Worry-Free Flagship Combo](/product/dji-matrice-4td-worry-free-flagship-combo) at $15,470. Our [Dock 3 vs Dock 2 guide](/blog/buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box) explains the dock.`
+      ] },
+      { h2: `What thermal can and cannot do in a search` },
+      `Thermal is a strong tool but not a magic one, and knowing the limits keeps expectations realistic.`,
+      { ul: [
+        `It shows heat, not detail: a person is a warm shape, so a visible camera is still needed to identify what you have found.`,
+        `It does not see through walls or glass, and dense canopy can hide a person from above.`,
+        `Sun-warmed rock and ground can mask a body in the middle of the day, so the best contrast is usually at night and in the cool of the morning.`,
+        `Rain, fog and wind reduce range and image quality, so a weather rating and a good wind margin matter.`
+      ] },
+      `Our guides to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and to [choosing a thermal drone](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper on the cameras and the aircraft.`,
+      { h2: `Before you buy: rules and training` },
+      `Emergency services work under their own arrangements, so a private operator should not assume the same freedoms. Check what applies to your flying on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for the basics. Our [enterprise drone guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) explains how these aircraft fit into a team.`,
+      { h2: `Spares and related equipment` },
+      `Browse the full [DJI Matrice range](/category/enterprise-drones/dji-matrice), the [Mavic 3 Enterprise aircraft](/category/enterprise-drones/dji-mavic-3-enterprise), the [enterprise accessories](/category/enterprise-drones/enterprise-accessories) and the [thermal cameras](/category/cameras-sensors/thermal-cameras). If you want a thermal payload for a larger aircraft, see the [Zenmuse H30T guide](/blog/buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices).`,
+      { h2: `Get a free quote on a search and rescue drone` },
+      `Tell us how your team searches, the weather you fly in and the budget, and we will recommend an aircraft and the accessories and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below, and we will confirm compatibility and availability before you pay.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For an enterprise aircraft we recommend asking for a written quote first, so we confirm the configuration, availability and delivery before you pay: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `What is the best drone for search and rescue in Australia?`, a: `It depends on the team. The Matrice 4T has the longest flight time at 49 minutes and a near-infrared light for night work. The Matrice 30T has an IP55 weather rating. The Mavic 3T is the lightest and cheapest. All three have a 640 by 512 thermal camera.` },
+        { q: `How much does a search and rescue drone cost?`, a: `A Mavic 3T combo starts at $8,249, a Matrice 4T Plus Combo is $11,248 and a Matrice 30T combo starts at $14,917. A spotlight is $460 and a speaker is $340. All prices are in Australian dollars.` },
+        { q: `Can a thermal drone find a person at night?`, a: `A thermal camera shows body heat against cooler ground, so a person is often visible in the dark where a normal camera sees nothing. Results depend on terrain, canopy, weather and the time of day.` },
+        { q: `Do I need a spotlight and speaker on a search drone?`, a: `They are optional. A spotlight helps the ground crew see what the thermal camera has found, and a speaker lets you speak to a person from the air. We confirm that each accessory fits your aircraft when we quote.` },
+        { q: `Do I need CASA approval to fly a search drone?`, a: `Commercial and organisational flying carries requirements, and emergency services work under their own arrangements. Check the current requirements on the CASA website for your operation.` }
+      ] }
+    ],
+    targetKeywords: ['search and rescue drone', 'search and rescue drones', 'thermal drone for search and rescue', 'drone with spotlight and speaker', 'dji matrice 4t price', 'thermal drone night search']
   }
 ];

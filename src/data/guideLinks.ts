@@ -3,6 +3,8 @@
 import { BLOG_POSTS } from './content';
 
 const HOME = [
+  'buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared',
+  'buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices',
   'buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices',
   'buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box',
   'buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost',
@@ -37,6 +39,7 @@ const BY_CATEGORY: Record<string, string[]> = {
     'best-drone-for-sale-australia-2026-buyers-guide'
   ],
   'enterprise-drones': [
+    'buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices',
     'buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box',
     'buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices',
     'how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained',
@@ -61,6 +64,7 @@ const BY_CATEGORY: Record<string, string[]> = {
     'enterprise-drones-matrice-mavic-3-enterprise-guide'
   ],
   'spraying-drones': [
+    'buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared',
     'buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost',
     'buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100',
     'buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices',
@@ -79,12 +83,12 @@ const BY_CATEGORY: Record<string, string[]> = {
 };
 
 const BY_SUBCATEGORY: Record<string, string[]> = {
-  'Thermal Cameras': ['how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained', 'buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices', 'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices', 'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras', 'thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
+  'Thermal Cameras': ['buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices', 'how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained', 'buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices', 'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices', 'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras', 'thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
   'LiDAR Sensors': ['buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices', 'lidar-vs-photogrammetry-drone-mapping-australia', 'thermal-drones-australia-guide'],
   'DJI Dock': ['buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box', 'buy-dji-matrice-australia-matrice-4-30-400-compared-by-price', 'thermal-drones-australia-guide', 'enterprise-drones-matrice-mavic-3-enterprise-guide'],
   'DJI Zenmuse Cameras': ['buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices', 'buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices', 'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices', 'lidar-vs-photogrammetry-drone-mapping-australia'],
-  'Spraying Drone Accessories': ['buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100', 'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices', 'agricultural-spraying-drones-australia-guide'],
-  'Spraying Drones': ['buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost', 'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices', 'agricultural-spraying-drones-australia-guide'],
+  'Spraying Drone Accessories': ['buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared', 'buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100', 'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices', 'agricultural-spraying-drones-australia-guide'],
+  'Spraying Drones': ['buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared', 'buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost', 'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices', 'agricultural-spraying-drones-australia-guide'],
   'Multispectral Cameras': ['buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost', 'buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices', 'buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices', 'agricultural-drones-weed-control-seeding-crop-monitoring', 'agricultural-spraying-drones-australia-guide']
 };
 

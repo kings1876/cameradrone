@@ -3,6 +3,124 @@ import { BlogSummary } from '../types';
 
 export const BLOG_SUMMARIES: BlogSummary[] = [
   {
+    "id": "post-38",
+    "slug": "buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared",
+    "intent": "transactional",
+    "title": "Buy a Spreader Drone in Australia: DJI Agras Seeding and Fertiliser Spreading Systems Compared",
+    "metaTitle": "DJI Agras Spreader Drones: Seeding and Fertiliser Prices",
+    "metaDescription": "Compare DJI Agras spreader drones for seeding and fertiliser in Australia: T25P, T50, T70P and T100 tank sizes, spread widths and prices, with a free quote.",
+    "subtitle": "What each DJI Agras spreading system holds, how wide it spreads, what it costs and which one suits your acreage.",
+    "date": "November 2026",
+    "dateISO": "2026-11-12",
+    "modifiedISO": "2026-11-12",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Agricultural Drones",
+      "Buying Guide",
+      "Spreading Systems"
+    ],
+    "excerpt": "A DJI Agras spreading system lets a spray drone broadcast seed, fertiliser and other dry granules. We compare the T25P, T50, T70P and T100 by tank size, spread width and price, with worked examples.",
+    "image": "/images/blog-dji-agras-spreader-drone-guide.webp",
+    "imageAlt": "DJI Agras T25P, T50 and T100 agricultural drones used for seeding and fertiliser spreading",
+    "relatedProducts": [
+      "dji-agras-t25p",
+      "dji-agras-t50-spreading-system",
+      "dji-agras-t70p",
+      "dji-150l-spreading-system"
+    ],
+    "targetKeywords": [
+      "aerial seeding drone",
+      "drone spreader",
+      "fertiliser spreading drone",
+      "dji agras spreading system",
+      "drone seeding australia",
+      "dji agras t70p"
+    ],
+    "wordCount": 1727,
+    "faq": [
+      {
+        "q": "Can a DJI Agras drone spread seed and fertiliser?",
+        "a": "Yes. DJI's Agras T25P, T50, T70P and T100 can carry a granular spreading system that broadcasts dry granules such as seed and fertiliser. The T25P and T50 systems take 0.5 to 5 mm granules, and the T70P and T100 list augers for 0.5 to 10 mm material."
+      },
+      {
+        "q": "How much does a spreader drone cost in Australia?",
+        "a": "A DJI Agras T25P is $17,530 and a T70P is $20,380. The T50 with its spreading system is $24,199 and the T100 with the 150L spreading system is $33,390. The T30 Spreading System 3.0 add-on is $1,800. All prices are in Australian dollars."
+      },
+      {
+        "q": "How much can a DJI Agras spreading system carry?",
+        "a": "DJI lists a maximum hopper load of 25 kg for the T25P, 50 kg for the T50, 70 kg for the T70P and 100 kg for the T100. The DJI Agras app recommends the actual payload for the conditions."
+      },
+      {
+        "q": "How wide does a DJI Agras drone spread?",
+        "a": "DJI lists an effective spread width of 3 to 8 m for the T25P, 8 m for the T50 and 3 to 10 m for the T70P and T100. The width depends on the material and the evenness you want."
+      },
+      {
+        "q": "Do I need CASA approval to spread with a drone?",
+        "a": "Commercial drone work and heavy drones carry requirements, and spreading chemicals adds state rules. Check the current requirements on the CASA website and with your state authority for your operation."
+      }
+    ]
+  },
+  {
+    "id": "post-39",
+    "slug": "buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices",
+    "intent": "transactional",
+    "title": "Buy a Search and Rescue Drone in Australia: Thermal Drones, Spotlights and Speakers Compared by Price",
+    "metaTitle": "Search and Rescue Drone Australia: Thermal Drone Prices",
+    "metaDescription": "Buying a search and rescue drone in Australia? Compare the Matrice 4T, Matrice 30T and Mavic 3T thermal drones by price, flight time and weather rating.",
+    "subtitle": "Which thermal drone to buy for night searches, what a spotlight and speaker add, and what a complete setup costs.",
+    "date": "November 2026",
+    "dateISO": "2026-11-12",
+    "modifiedISO": "2026-11-12",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Thermal Drones",
+      "Buying Guide",
+      "Search and Rescue"
+    ],
+    "excerpt": "A search and rescue drone needs a thermal camera, long flight time and, for night work, a spotlight and speaker. We compare the Mavic 3T, Matrice 4T and Matrice 30T by price and specification.",
+    "image": "/images/blog-search-and-rescue-drone-guide.webp",
+    "imageAlt": "DJI Matrice 4 Thermal, Matrice 30T and Mavic 3 Thermal drones for search and rescue",
+    "relatedProducts": [
+      "dji-matrice-4t-plus-combo",
+      "matrice-30t-worry-free-basic-combo",
+      "dji-mavic-3t-worry-free-basic-combo",
+      "dji-al1-spotlight"
+    ],
+    "targetKeywords": [
+      "search and rescue drone",
+      "search and rescue drones",
+      "thermal drone for search and rescue",
+      "drone with spotlight and speaker",
+      "dji matrice 4t price",
+      "thermal drone night search"
+    ],
+    "wordCount": 1587,
+    "faq": [
+      {
+        "q": "What is the best drone for search and rescue in Australia?",
+        "a": "It depends on the team. The Matrice 4T has the longest flight time at 49 minutes and a near-infrared light for night work. The Matrice 30T has an IP55 weather rating. The Mavic 3T is the lightest and cheapest. All three have a 640 by 512 thermal camera."
+      },
+      {
+        "q": "How much does a search and rescue drone cost?",
+        "a": "A Mavic 3T combo starts at $8,249, a Matrice 4T Plus Combo is $11,248 and a Matrice 30T combo starts at $14,917. A spotlight is $460 and a speaker is $340. All prices are in Australian dollars."
+      },
+      {
+        "q": "Can a thermal drone find a person at night?",
+        "a": "A thermal camera shows body heat against cooler ground, so a person is often visible in the dark where a normal camera sees nothing. Results depend on terrain, canopy, weather and the time of day."
+      },
+      {
+        "q": "Do I need a spotlight and speaker on a search drone?",
+        "a": "They are optional. A spotlight helps the ground crew see what the thermal camera has found, and a speaker lets you speak to a person from the air. We confirm that each accessory fits your aircraft when we quote."
+      },
+      {
+        "q": "Do I need CASA approval to fly a search drone?",
+        "a": "Commercial and organisational flying carries requirements, and emergency services work under their own arrangements. Check the current requirements on the CASA website for your operation."
+      }
+    ]
+  },
+  {
     "id": "post-36",
     "slug": "buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices",
     "intent": "transactional",
