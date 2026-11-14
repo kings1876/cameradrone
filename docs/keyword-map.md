@@ -920,3 +920,14 @@ Two transactional guides, both `intent: transactional` so they end with the enqu
 |---|---|
 | /blog/buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared | aerial seeding drone (70, difficulty 1); drone spreader; fertiliser spreading drone; dji agras spreading system; drone seeding australia; dji agras t70p |
 | /blog/buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices | search and rescue drone (90, difficulty 17); search and rescue drones; thermal drone for search and rescue; drone with spotlight and speaker; dji matrice 4t price; thermal drone night search |
+
+
+## Solar inspection, orchard spraying and livestock transactional guides (14 Nov 2026)
+
+Three transactional guides, all `intent: transactional` so they end with the enquiry panel and product cards with quote and cart buttons, on the thermal and agricultural topics. Thermal figures follow DJI's Mavic 3 Enterprise, Matrice 4 and Matrice 30 specification pages; spraying figures follow DJI's Agras T25P, T50, T70P and T100 pages (read in the browser). Prices come from the product data. Semrush was signed out on 14 Nov, so no search volumes were measured for these topics; the keywords are chosen from search intent and are likely low volume, long tail. The "600 W/m2" solar irradiance guidance is secondhand (IEC TS 62446-3 text not read), so the post words it as commonly cited guidance.
+
+| Post | Primary / supporting keywords (volume not measured) |
+|---|---|
+| /blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices | solar inspection drone; solar panel inspection drone; thermal drone for solar panels; drone solar farm inspection; solar panel thermal camera; dji matrice 4t solar |
+| /blog/buy-orchard-spray-drone-australia-dji-agras-t25p-t50-t70p-t100-tree-crop-prices | orchard spray drone; drone orchard spraying; dji agras orchard; agricultural drone for orchards; mist sprinkler drone; orchard spraying drone price |
+| /blog/buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices | drone for livestock; thermal drone for farm; thermal drone cattle; drone for counting cattle; drone for finding lost sheep; farm drone with thermal camera |

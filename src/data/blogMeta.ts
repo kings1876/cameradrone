@@ -3,6 +3,183 @@ import { BlogSummary } from '../types';
 
 export const BLOG_SUMMARIES: BlogSummary[] = [
   {
+    "id": "post-40",
+    "slug": "buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices",
+    "intent": "transactional",
+    "title": "Buy a Solar Farm Inspection Drone in Australia: Thermal Drones, Radiometric Cameras and Setup Costs Compared",
+    "metaTitle": "Solar Inspection Drone Australia: Thermal Drone Prices",
+    "metaDescription": "Buying a solar inspection drone in Australia? Compare the Mavic 3T, Matrice 4T and Matrice 30T thermal drones by price, resolution and weather rating.",
+    "subtitle": "Which thermal drone finds hot cells and failed strings fastest, what each costs and what a complete inspection setup adds up to.",
+    "date": "November 2026",
+    "dateISO": "2026-11-14",
+    "modifiedISO": "2026-11-14",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Thermal Drones",
+      "Buying Guide",
+      "Solar Inspection"
+    ],
+    "excerpt": "A solar inspection drone needs a radiometric thermal camera, a visible camera to confirm what the thermal image shows, and enough flight time to cover rows of panels. We compare the Mavic 3T, Matrice 4T, Matrice 30T and Zenmuse H30T by price and specification.",
+    "image": "/images/blog-solar-farm-inspection-drone-guide.webp",
+    "imageAlt": "DJI Mavic 3 Thermal, Matrice 4 Thermal and Zenmuse H30T used for solar farm inspection",
+    "relatedProducts": [
+      "dji-mavic-3t-worry-free-basic-combo",
+      "dji-matrice-4t-plus-combo",
+      "matrice-30t-worry-free-basic-combo",
+      "dji-zenmuse-h30t"
+    ],
+    "targetKeywords": [
+      "solar inspection drone",
+      "solar panel inspection drone",
+      "thermal drone for solar panels",
+      "drone solar farm inspection",
+      "solar panel thermal camera",
+      "dji matrice 4t solar"
+    ],
+    "wordCount": 1862,
+    "faq": [
+      {
+        "q": "What is the best drone for solar panel inspection in Australia?",
+        "a": "It depends on the site. The Matrice 4T has the longest flight time at 49 minutes and the highest zoom. The Matrice 30T has an IP55 weather rating. The Mavic 3T is the lightest and cheapest. All three have a 640 by 512 thermal camera."
+      },
+      {
+        "q": "How much does a solar inspection drone cost?",
+        "a": "A Mavic 3T combo starts at $8,249, a Matrice 4T Plus Combo is $11,248 and a Matrice 30T combo starts at $14,917. A Zenmuse H30T thermal payload is $17,335. All prices are in Australian dollars."
+      },
+      {
+        "q": "Can a drone find faulty solar panels?",
+        "a": "A thermal camera shows panels that run warmer or cooler than their neighbours, which often points to a damaged cell, a failed bypass diode or a connection fault. The drone shows where to look, and the fault is then confirmed on the ground."
+      },
+      {
+        "q": "What is the best time to inspect solar panels with a drone?",
+        "a": "In strong, steady sunlight with a mostly clear sky and light wind, because panels show faults most clearly when current is flowing. Inspection guidance commonly calls for around 600 watts per square metre or more at the panel plane. Confirm the standard your client requires."
+      },
+      {
+        "q": "Do I need CASA approval to inspect a solar farm with a drone?",
+        "a": "Commercial flying carries requirements, and solar sites have their own site rules. Check the current requirements on the CASA website for your operation."
+      }
+    ]
+  },
+  {
+    "id": "post-41",
+    "slug": "buy-orchard-spray-drone-australia-dji-agras-t25p-t50-t70p-t100-tree-crop-prices",
+    "intent": "transactional",
+    "title": "Buy an Orchard Spray Drone in Australia: DJI Agras T25P, T50, T70P and T100 Compared for Tree Crops",
+    "metaTitle": "Orchard Spray Drone Australia: DJI Agras Prices",
+    "metaDescription": "Compare DJI Agras orchard spray drones in Australia: T25P, T50, T70P and T100 tank sizes, spray widths, mist options and prices, with a free quote.",
+    "subtitle": "What an orchard asks of a spray drone, which DJI Agras model fits which block and what a complete setup costs.",
+    "date": "November 2026",
+    "dateISO": "2026-11-14",
+    "modifiedISO": "2026-11-14",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Agricultural Drones",
+      "Buying Guide",
+      "Orchard Spraying"
+    ],
+    "excerpt": "Orchards ask more of a spray drone than open paddocks do: canopy, slopes, posts and tight rows. We compare the DJI Agras T25P, T50, T70P and T100 by tank size, spray width, mist options and price.",
+    "image": "/images/blog-orchard-spray-drone-guide.webp",
+    "imageAlt": "DJI Agras T25P, T50 and T70P agricultural drones for orchard spraying",
+    "relatedProducts": [
+      "dji-agras-t25p",
+      "dji-agras-t50",
+      "dji-agras-t70p",
+      "dji-agras-t100-mist-nozzle-package"
+    ],
+    "targetKeywords": [
+      "orchard spray drone",
+      "drone orchard spraying",
+      "dji agras orchard",
+      "agricultural drone for orchards",
+      "mist sprinkler drone",
+      "orchard spraying drone price"
+    ],
+    "wordCount": 1720,
+    "faq": [
+      {
+        "q": "Can a drone spray an orchard?",
+        "a": "Yes. DJI's Agras T25P, T50, T70P and T100 are used for orchard spraying. DJI lists an Orchard Mode, an orchard survey on the T50 that builds a 3D flight route, and optional mist sprinklers on the T70P and T100 for canopy coverage."
+      },
+      {
+        "q": "What is the best drone for spraying orchards in Australia?",
+        "a": "For small blocks and one operator, the T25P. For mixed farms and contract work, the T50. For larger orchards and tall trees, the T70P or the T100 with a mist nozzle package."
+      },
+      {
+        "q": "How much does an orchard spray drone cost?",
+        "a": "A DJI Agras T25P is $17,530, a T50 is $21,999, a T70P is $20,380 and a T100 is $30,380. The T100 Mist Nozzle Package is $2,170. All prices are in Australian dollars."
+      },
+      {
+        "q": "Do I need RTK to spray an orchard with a drone?",
+        "a": "DJI lists RTK as required for the T50 orchard survey that builds the 3D route. We confirm the RTK option that suits your aircraft and blocks when we quote."
+      },
+      {
+        "q": "Can I spray any chemical from a drone?",
+        "a": "No. The product label and your state regulator set the rules, and some labels do not allow aerial application. Check the label and your state requirements, and the CASA rules for your operation."
+      }
+    ]
+  },
+  {
+    "id": "post-42",
+    "slug": "buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices",
+    "intent": "transactional",
+    "title": "Buy a Thermal Drone for Livestock in Australia: Counting Cattle, Finding Strays and Checking Mobs",
+    "metaTitle": "Livestock Drone Australia: Thermal Drone Prices",
+    "metaDescription": "Looking for a drone for livestock in Australia? Compare thermal drones for counting cattle and finding strays by price, zoom and flight time.",
+    "subtitle": "How a thermal drone helps you check mobs, find strays and count stock, which model suits which property and what it costs.",
+    "date": "November 2026",
+    "dateISO": "2026-11-14",
+    "modifiedISO": "2026-11-14",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Thermal Drones",
+      "Buying Guide",
+      "Livestock"
+    ],
+    "excerpt": "A thermal drone lets you check cattle and sheep across big paddocks without a ute or a horse. We compare the Mavic 3T, Matrice 4T and Matrice 30T for livestock work by price, zoom, flight time and weather rating.",
+    "image": "/images/blog-livestock-thermal-drone-guide.webp",
+    "imageAlt": "DJI Mavic 3 Thermal, Matrice 4 Thermal and Matrice 30T drones for livestock checks on a farm",
+    "relatedProducts": [
+      "dji-mavic-3t-worry-free-basic-combo",
+      "dji-matrice-4t-plus-combo",
+      "matrice-30t-worry-free-basic-combo",
+      "dji-mavic-3-enterprise-battery-kit"
+    ],
+    "targetKeywords": [
+      "drone for livestock",
+      "thermal drone for farm",
+      "thermal drone cattle",
+      "drone for counting cattle",
+      "drone for finding lost sheep",
+      "farm drone with thermal camera"
+    ],
+    "wordCount": 1484,
+    "faq": [
+      {
+        "q": "What is the best drone for livestock in Australia?",
+        "a": "It depends on the property. The Matrice 4T has the longest flight time at 49 minutes and 112x hybrid zoom. The Matrice 30T has an IP55 weather rating. The Mavic 3T is the lightest and cheapest. All three have a 640 by 512 thermal camera."
+      },
+      {
+        "q": "How much does a livestock drone cost?",
+        "a": "A Mavic 3T combo starts at $8,249, a Matrice 4T Plus Combo is $11,248 and a Matrice 30T combo starts at $14,917. A Mavic 3 Enterprise battery kit is $990. All prices are in Australian dollars."
+      },
+      {
+        "q": "Can a thermal drone count cattle?",
+        "a": "A thermal camera shows warm animals against cooler ground, so a mob is often easy to see and count, especially in the cool of the morning. Results depend on terrain, canopy and the weather."
+      },
+      {
+        "q": "Can I use a drone at night to check stock?",
+        "a": "CASA's standard operating conditions say to fly in daylight, so night flying needs more than the standard conditions. Check the current requirements on the CASA website for your operation."
+      },
+      {
+        "q": "Will a drone upset my livestock?",
+        "a": "It can. Low, noisy flying can disturb stock, so start high, approach slowly and watch how the animals react before you go closer."
+      }
+    ]
+  },
+  {
     "id": "post-38",
     "slug": "buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared",
     "intent": "transactional",
