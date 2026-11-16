@@ -1731,14 +1731,14 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "id": "post-14",
     "slug": "dji-controllers-explained-rc-n3-rc-2-rc-pro",
     "intent": "commercial",
-    "title": "DJI Controllers Explained: RC-N3, RC 2, RC Pro, RC Plus and Motion",
-    "metaTitle": "DJI Controllers: RC-N3 vs RC 2 vs RC Pro, AUD Prices",
-    "metaDescription": "Which DJI controller? RC-N3 from $165, RC 2 at $549 and RC Pro at $1,529 compared, plus motion and FPV controllers. Free express shipping in Australia.",
+    "title": "DJI Controller Types Explained: RC-N3, RC 2, RC Pro, RC Plus and Motion",
+    "metaTitle": "DJI Controller Types: RC-N3 vs RC 2 vs RC Pro Guide",
+    "metaDescription": "Which DJI controller fits your drone? RC-N3 ($165), RC 2 ($549), RC Pro ($1,529) and motion controllers compared, with the controller sold in each combo.",
     "subtitle": "Phone-based, screen, motion and FPV controllers: how they differ and how to choose the right one.",
     "date": "October 2026",
     "dateISO": "2026-10-18",
-    "modifiedISO": "2026-10-18",
-    "readTime": "7 min read",
+    "modifiedISO": "2026-11-16",
+    "readTime": "9 min read",
     "author": "Flight Operations Team",
     "tags": [
       "DJI Controllers",
@@ -1762,7 +1762,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji fpv controller 3",
       "fpv controller"
     ],
-    "wordCount": 804,
+    "wordCount": 1183,
     "faq": [
       {
         "q": "What is the difference between the DJI RC-N3 and the RC 2?",
@@ -1771,6 +1771,14 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       {
         "q": "Can I use any DJI controller with any drone?",
         "a": "No. Each controller works with specific aircraft, so check the compatibility on the product page before you buy."
+      },
+      {
+        "q": "What are the types of DJI controllers?",
+        "a": "There are four main types: phone-based controllers such as the RC-N3, controllers with a built-in screen such as the RC 2 and RC, high-bright professional controllers such as the RC Pro and RC Plus, and motion and FPV controllers used with goggles."
+      },
+      {
+        "q": "How do I know which DJI controller works with my drone?",
+        "a": "Use the controller DJI pairs with your aircraft in its combo, and check the compatibility on the product page. Send us your aircraft model through the contact page and we will confirm which controller fits."
       },
       {
         "q": "Which controller is best for FPV?",
@@ -1981,13 +1989,13 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "slug": "thermal-drones-australia-guide",
     "intent": "commercial",
     "title": "Thermal Drones in Australia: How to Choose a Thermal Imaging Drone",
-    "metaTitle": "Thermal Drones Australia: Buyer Guide (2026)",
-    "metaDescription": "How to choose a thermal drone in Australia: camera resolution, sensitivity and field of view, plus DJI Matrice and Mavic thermal models and FLIR payloads.",
+    "metaTitle": "Thermal Drones Australia: Prices and Buyer Guide (2026)",
+    "metaDescription": "Thermal drones in Australia from $8,249: compare the Mavic 3T, Matrice 4T, Matrice 30T and Zenmuse H30T by resolution, flight time and weather rating.",
     "subtitle": "What to look for in a thermal imaging camera for a drone, and how the DJI and FLIR options compare.",
     "date": "October 2026",
     "dateISO": "2026-10-18",
-    "modifiedISO": "2026-10-27",
-    "readTime": "8 min read",
+    "modifiedISO": "2026-11-16",
+    "readTime": "12 min read",
     "author": "Enterprise Systems Specialist",
     "tags": [
       "Thermal Drones",
@@ -2011,7 +2019,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "thermal imaging camera",
       "drone with thermal camera"
     ],
-    "wordCount": 1099,
+    "wordCount": 1975,
     "faq": [
       {
         "q": "What is the best thermal drone in Australia?",
@@ -2028,6 +2036,22 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       {
         "q": "What resolution should a thermal camera have?",
         "a": "Most enterprise thermal drones use 640×512, which is enough for most inspections. A 1280×1024 sensor, such as the Zenmuse H30T, gives more detail at distance."
+      },
+      {
+        "q": "How much does a thermal drone cost in Australia?",
+        "a": "A DJI Mavic 3T combo starts at $8,249 and a Matrice 4T is $10,159, with the Plus Combo at $11,248. A Matrice 30T combo starts at $14,917, a Zenmuse H30T payload is $17,335 and a Dock 3 Thermal Package is $34,278. All prices are in Australian dollars."
+      },
+      {
+        "q": "Can a thermal drone see through walls?",
+        "a": "No. A thermal camera shows surface heat, so it cannot see through walls, glass or dense canopy. It can show heat that reaches the surface, such as a hot patch on a roof."
+      },
+      {
+        "q": "What is a radiometric thermal camera?",
+        "a": "A radiometric camera stores a temperature for each pixel, so you can measure a hot spot after the flight. DJI lists radiometric R-JPEG photos for the Mavic 3T and Matrice 4T."
+      },
+      {
+        "q": "Can I fly a thermal drone at night in Australia?",
+        "a": "CASA standard operating conditions say to fly in daylight, so night flying needs more than the standard conditions. Check the current requirements on the CASA website for your operation."
       },
       {
         "q": "Can I add a thermal camera to my own drone?",

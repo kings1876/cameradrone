@@ -266,14 +266,14 @@ export const BLOG_POSTS: BlogPost[] = [
     id: 'post-14',
     slug: 'dji-controllers-explained-rc-n3-rc-2-rc-pro',
     intent: 'commercial',
-    title: 'DJI Controllers Explained: RC-N3, RC 2, RC Pro, RC Plus and Motion',
-    metaTitle: `DJI Controllers: RC-N3 vs RC 2 vs RC Pro, AUD Prices`,
-    metaDescription: `Which DJI controller? RC-N3 from $165, RC 2 at $549 and RC Pro at $1,529 compared, plus motion and FPV controllers. Free express shipping in Australia.`,
+    title: 'DJI Controller Types Explained: RC-N3, RC 2, RC Pro, RC Plus and Motion',
+    metaTitle: `DJI Controller Types: RC-N3 vs RC 2 vs RC Pro Guide`,
+    metaDescription: `Which DJI controller fits your drone? RC-N3 ($165), RC 2 ($549), RC Pro ($1,529) and motion controllers compared, with the controller sold in each combo.`,
     subtitle: 'Phone-based, screen, motion and FPV controllers: how they differ and how to choose the right one.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-18',
-    readTime: '7 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '9 min read',
     author: 'Flight Operations Team',
     tags: ['DJI Controllers', 'RC 2', 'FPV'],
     excerpt: 'A DJI remote controller can use your phone, a built-in screen, motion control or sticks. We explain the main options and which suits which drone and pilot.',
@@ -302,6 +302,43 @@ export const BLOG_POSTS: BlogPost[] = [
       'Enterprise and cinema aircraft use larger controllers. The [RC Plus (Inspire 3)](/product/dji-rc-plus-inspire-3) is matched to the Inspire 3, and the [RC Plus 2 Enterprise Enhanced](/product/dji-rc-plus-2-enterprise-enhanced) has a large bright display built for field work. A UAV controller for a commercial aircraft usually comes in the combo, so confirm what is included in your kit. Browse [enterprise accessories](/category/enterprise-drones/enterprise-accessories) for straps, brackets and sticks.',
       { h2: 'Motion controllers and FPV controllers' },
       'A motion controller steers the drone with hand and wrist movements, which makes immersive flying approachable. The [DJI RC Motion 3](/product/dji-rc-motion-3), [RC Motion 2](/product/dji-rc-motion-2) and [DJI Motion Controller](/product/dji-motion-controller) pair with goggles. If you prefer manual stick control for FPV, the [DJI FPV Remote Controller 3](/product/dji-fpv-remote-controller-3) is the joystick-style option. Add [Goggles 3](/product/dji-goggles-3) or the lower-cost [Goggles N3](/product/dji-goggles-n3) for the first-person view. Our [FPV guide](/blog/dji-avata-360-vs-avata-2-fpv-drone-guide) explains the kits.',
+      { h2: 'Which controller comes with which DJI aircraft' },
+      'A controller only works with the aircraft it is made for, so the safest guide is the controller DJI pairs with each aircraft in a combo. This table shows the controllers we sell each aircraft with. If your aircraft is not listed, [contact us](/contact) with the model and we will confirm which controller fits.',
+      { table: {
+        head: ['Aircraft', 'Controllers we sell it with'],
+        rows: [
+          ['DJI Mini 5 Pro', '[RC-N3](/product/dji-mini-5-pro-dji-rc-n3) or [RC 2](/product/dji-mini-5-pro-fly-more-combo-dji-rc-2)'],
+          ['DJI Mini 4 Pro', '[RC 2](/product/dji-mini-4-pro-rc-2)'],
+          ['DJI Mini 3', '[RC-N1](/product/dji-mini-3-dji-rc-n1) or [DJI RC](/product/dji-mini-3-dji-rc)'],
+          ['DJI Air 3S', '[RC-N3](/product/dji-air-3s-dji-rc-n3) or [RC 2](/product/dji-air-3s-fly-more-combo-dji-rc-2)'],
+          ['DJI Flip', '[RC-N3](/product/dji-flip-dji-rc-n3) or [RC 2](/product/dji-flip-dji-rc-2)'],
+          ['DJI Neo 2', '[RC-N3](/product/dji-neo-2-fly-more-combo-dji-rc-n3) or the [Motion Fly More Combo](/product/dji-neo-2-motion-fly-more-combo)'],
+          ['DJI Avata 360', '[RC 2](/product/dji-avata-360-dji-rc-2)'],
+          ['DJI Mavic 4 Pro', '[RC 2](/product/dji-mavic-4-pro-dji-rc-2)'],
+          ['DJI Mavic 3 Pro', '[DJI RC](/product/dji-mavic-3-pro-fly-more-combo-dji-rc) or [RC Pro](/product/dji-mavic-3-pro-fly-more-combo-dji-rc-pro)'],
+          ['DJI Lito X1', '[RC-N3](/product/dji-lito-x1-fly-more-combo-dji-rc-n3) or [RC 2](/product/dji-lito-x1-fly-more-combo-dji-rc-2)']
+        ]
+      } },
+      'Our buying guides for the [Mini 5 Pro](/blog/buy-dji-mini-5-pro-australia-combos-prices), [Mini 4 Pro](/blog/buy-dji-mini-4-pro-australia-combos-batteries-accessories), [Air 3S](/blog/buy-dji-air-3s-australia-combos-vs-air-3), [Flip](/blog/buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro) and [Mavic 4 Pro and Mavic 3 Pro](/blog/buy-dji-mavic-australia-mavic-4-pro-vs-mavic-3-pro) compare the combos in full.',
+      { h2: 'DJI controller prices in Australia' },
+      'Prices for controllers sold on their own. All prices are in Australian dollars.',
+      { table: {
+        head: ['Controller', 'Type', 'Price (AUD)'],
+        rows: [
+          ['[DJI RC Motion 3](/product/dji-rc-motion-3)', 'Motion controller', '$139'],
+          ['[DJI RC-N3](/product/dji-rc-n3-remote-controller)', 'Uses your phone as the screen', '$165'],
+          ['[DJI Motion Controller](/product/dji-motion-controller)', 'Motion controller', '$229'],
+          ['[DJI FPV Remote Controller 3](/product/dji-fpv-remote-controller-3)', 'Joystick-style FPV controller', '$229'],
+          ['[DJI RC Motion 2](/product/dji-rc-motion-2)', 'Motion controller', '$279'],
+          ['[DJI RC](/product/dji-rc-remote-controller)', 'Screen controller', '$399'],
+          ['[DJI RC 2](/product/dji-rc-2-remote-controller)', '5.5-inch built-in screen', '$549'],
+          ['[DJI RC Pro](/product/dji-rc-pro-remote-controller)', 'High-bright professional screen', '$1,529'],
+          ['[DJI RC Pro 2](/product/dji-rc-pro-2)', 'High-bright professional screen', '$1,529'],
+          ['[DJI RC Plus (Inspire 3)](/product/dji-rc-plus-inspire-3)', 'Cinema and enterprise controller', '$2,170'],
+          ['[DJI RC Plus 2 Enterprise Enhanced](/product/dji-rc-plus-2-enterprise-enhanced)', 'Enterprise field controller', '$2,170']
+        ]
+      } },
+      'Spare [control sticks for the DJI RC and RC 2](/product/dji-rc-rc-2-control-sticks) are $19.',
       { h2: 'How to choose a controller for your RC drone' },
       { ul: [
         '**Check compatibility first.** Each controller works with specific aircraft; the product page lists them.',
@@ -316,6 +353,8 @@ export const BLOG_POSTS: BlogPost[] = [
       { faq: [
         { q: 'What is the difference between the DJI RC-N3 and the RC 2?', a: 'The RC-N3 uses your smartphone as the screen and is lighter and cheaper. The RC 2 has a built-in 5.5-inch bright screen, so you do not need a phone.' },
         { q: 'Can I use any DJI controller with any drone?', a: 'No. Each controller works with specific aircraft, so check the compatibility on the product page before you buy.' },
+        { q: 'What are the types of DJI controllers?', a: 'There are four main types: phone-based controllers such as the RC-N3, controllers with a built-in screen such as the RC 2 and RC, high-bright professional controllers such as the RC Pro and RC Plus, and motion and FPV controllers used with goggles.' },
+        { q: 'How do I know which DJI controller works with my drone?', a: 'Use the controller DJI pairs with your aircraft in its combo, and check the compatibility on the product page. Send us your aircraft model through the contact page and we will confirm which controller fits.' },
         { q: 'Which controller is best for FPV?', a: 'For immersive flying with goggles, a motion controller is the easiest to learn, and the FPV Remote Controller 3 gives stick control for manual flying.' }
       ] }
     ],
@@ -587,13 +626,13 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'thermal-drones-australia-guide',
     intent: 'commercial',
     title: 'Thermal Drones in Australia: How to Choose a Thermal Imaging Drone',
-    metaTitle: 'Thermal Drones Australia: Buyer Guide (2026)',
-    metaDescription: 'How to choose a thermal drone in Australia: camera resolution, sensitivity and field of view, plus DJI Matrice and Mavic thermal models and FLIR payloads.',
+    metaTitle: 'Thermal Drones Australia: Prices and Buyer Guide (2026)',
+    metaDescription: 'Thermal drones in Australia from $8,249: compare the Mavic 3T, Matrice 4T, Matrice 30T and Zenmuse H30T by resolution, flight time and weather rating.',
     subtitle: 'What to look for in a thermal imaging camera for a drone, and how the DJI and FLIR options compare.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-27',
-    readTime: '8 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '12 min read',
     author: 'Enterprise Systems Specialist',
     tags: ['Thermal Drones', 'Thermal Imaging', 'Enterprise Drones'],
     excerpt: 'A thermal drone adds a thermal imaging camera to a flying platform. We explain the specifications that matter and compare the DJI and FLIR options we supply.',
@@ -604,6 +643,23 @@ export const BLOG_POSTS: BlogPost[] = [
       'A thermal drone carries a thermal imaging camera that shows heat instead of visible light. That makes it useful for roof and solar inspections, electrical and mechanical checks, search and rescue, firefighting support and wildlife surveys. This guide explains what to look for in a thermal imaging camera for a drone and how the options we supply compare. A drone with thermal camera capability is a serious tool, so it pays to match the specifications to the job.',
       { h2: 'Which thermal drone should you buy in Australia?' },
       'For most thermal drones Australia buyers compare, the [DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal) is the best all-round choice for inspection and public-safety work. The [DJI Mavic 3 Thermal](/product/dji-mavic-3-thermal) is the most portable, and the [DJI Matrice 30T](/product/dji-matrice-30t) is the most rugged at IP55. If you already own a compatible aircraft, a [Zenmuse H30T](/product/dji-zenmuse-h30t) payload may be the cheaper route.',
+      { h2: 'Thermal drone prices in Australia' },
+      'Prices depend on the aircraft, the care coverage and how many batteries come in the box. All prices are in Australian dollars.',
+      { table: {
+        head: ['Product', 'What it is', 'Price (AUD)'],
+        rows: [
+          ['[DJI Mavic 3T Worry-Free Basic Combo](/product/dji-mavic-3t-worry-free-basic-combo)', 'Portable thermal drone with Care Enterprise Basic', '$8,249'],
+          ['[DJI Mavic 3T Worry-Free Plus Combo](/product/dji-mavic-3t-worry-free-plus-combo)', 'The same aircraft with Care Enterprise Plus', '$10,679'],
+          ['[DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal)', 'The Matrice 4T aircraft', '$10,159'],
+          ['[DJI Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', 'Matrice 4T with Care coverage and extra batteries', '$11,248'],
+          ['[DJI Matrice 30T Worry-Free Basic Combo](/product/matrice-30t-worry-free-basic-combo)', 'Weather-sealed thermal drone with Care Enterprise Basic', '$14,917'],
+          ['[DJI Matrice 4TD Worry-Free Flagship Combo](/product/dji-matrice-4td-worry-free-flagship-combo)', 'Dock-ready thermal aircraft with care coverage', '$15,470'],
+          ['[DJI Zenmuse H30T](/product/dji-zenmuse-h30t)', 'Thermal payload for a compatible Matrice you already own', '$17,335'],
+          ['[FLIR VUE TZ20](/product/flir-vue-tz20)', 'Dual thermal camera payload', '$11,700'],
+          ['[DJI Dock 3 Thermal Package](/product/dji-dock-3-thermal-package)', 'Dock with a thermal aircraft for automatic missions', '$34,278']
+        ]
+      } },
+      'Enterprise aircraft are supplied by quote, so we confirm exactly what is in each combo before you pay. Use the [quote form](/quote) for a free written quote.',
       { h2: 'How a thermal imaging camera works' },
       'A thermal camera measures infrared radiation and turns the differences into an image. Hotter objects appear brighter or in different colours, so you can spot a failing solar cell, a hot connection or a person in low light without relying on visible detail. Many enterprise thermal drones pair the thermal camera with a wide visual camera and a zoom camera, so you can see the heat and the context together.',
       { h2: 'What drone thermal imaging is used for' },
@@ -615,6 +671,15 @@ export const BLOG_POSTS: BlogPost[] = [
         '**Wildlife surveys:** count and locate animals without disturbing them.'
       ] },
       'Not sure whether you need a thermal drone or just a thermal camera? Read our guide to [thermal cameras vs thermal drones](/blog/thermal-camera-vs-thermal-drone-infrared-inspections).',
+      { h2: 'Which thermal drone for which job' },
+      { ul: [
+        '**Solar farms and roofs:** a long flight and a radiometric camera matter most. See our [solar farm inspection drone guide](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices).',
+        '**Search and rescue:** flight time, a weather rating and night aids such as a spotlight and speaker. See our [search and rescue drone guide](/blog/buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices).',
+        '**Livestock and farm checks:** a wide thermal view and a strong zoom to check mobs from a distance. See our [livestock thermal drone guide](/blog/buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices).',
+        '**Repeat site inspections:** a dock that launches the aircraft for you. See our [Dock 3 vs Dock 2 guide](/blog/buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box).',
+        '**Heavier payloads and long-range zoom:** a thermal payload on a larger aircraft. See our [Zenmuse H30T guide](/blog/buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices) and our [thermal imaging camera guide](/blog/buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras).'
+      ] },
+      'For the full range of aircraft, see our [DJI thermal drone comparison](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) and our guide to [how a thermal imager works](/blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained).',
       { h2: 'The specifications that matter' },
       { ul: [
         '**Thermal resolution.** More pixels mean more detail at distance. Most enterprise thermal drones use a 640×512 sensor; high-end payloads reach 1280×1024.',
@@ -624,6 +689,8 @@ export const BLOG_POSTS: BlogPost[] = [
         '**Visual and zoom cameras.** You still need a good visual camera to identify what you are looking at.',
         '**Flight time and weather rating.** Long flights and an ingress protection rating keep you working.'
       ] },
+      { h2: 'Radiometric thermal: measuring temperature, not just seeing heat' },
+      'A normal thermal picture shows which areas are warmer. A radiometric picture also stores a temperature for each pixel, so you can measure a hot spot after the flight and put a number in your report. DJI lists radiometric R-JPEG (16-bit) thermal photos for the Mavic 3T and Matrice 4T, and spot-meter and area measurement on the Mavic 3T, Matrice 4T and Matrice 30T. The high-gain temperature range is -20 to 150 °C on all three, and the low-gain mode reaches 500 °C on the Mavic 3T and Matrice 30T and 550 °C on the Matrice 4T. For the Mavic 3T and Matrice 30T, DJI lists a measurement accuracy of 2 °C or 2%, whichever is larger, in high-gain mode. Accuracy depends on distance, the surface and the weather, so treat the numbers as a way to find faults and not as a calibrated laboratory reading.',
       { h2: 'Thermal drones compared' },
       { table: {
         head: ['Model', 'Thermal camera', 'Other cameras', 'Flight time', 'Weight'],
@@ -634,6 +701,20 @@ export const BLOG_POSTS: BlogPost[] = [
           ['[Zenmuse H30T payload](/product/dji-zenmuse-h30t)', '1280×1024 uncooled VOx, 30 fps, -20 to 1,600°C', '48 MP wide, 40 MP zoom (34× optical), laser rangefinder 3 to 3,000 m', 'Depends on aircraft', '920 g']
         ]
       } },
+      { h2: 'Weather, zoom and field of view compared' },
+      'This table uses the figures on DJI specification pages for the [Mavic 3 Enterprise series](https://enterprise.dji.com/mavic-3-enterprise/specs), the [Matrice 4 series](https://enterprise.dji.com/matrice-4-series/specs) and the [Matrice 30 series](https://enterprise.dji.com/matrice-30/specs).',
+      { table: {
+        head: ['', 'Mavic 3T', 'Matrice 4T', 'Matrice 30T'],
+        rows: [
+          ['Thermal field of view (diagonal)', '61°', '45°', '61°'],
+          ['Super-resolution thermal output', 'Not listed on DJI page', '1280 by 1024', '1280 by 1024'],
+          ['Zoom camera', '56x hybrid zoom', '112x hybrid zoom', '48 MP zoom, 5 to 16x optical'],
+          ['Wind resistance', '12 m/s', '12 m/s', '12 m/s'],
+          ['Weather rating', 'None listed on DJI page', 'No standard protection level', 'IP55'],
+          ['Operating temperature', '-10 to 40 °C', '-10 to 40 °C', '-20 to 50 °C']
+        ]
+      } },
+      'A wider field of view covers more ground in each pass, which suits mapping a roof or a paddock. A narrower view with a strong zoom suits picking out a single target from a safe distance.',
       { h2: 'DJI Matrice 4 Thermal: the compact all-rounder' },
       'The [DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal) combines a 640×512 thermal camera with three 48 MP visual cameras and a laser rangefinder in a 1,219 g aircraft with up to 49 minutes of flight. For most inspection and public-safety teams it is the best balance of capability and portability. The [DJI Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo) and the [Worry-Free Flagship Combo](/product/dji-matrice-4td-worry-free-flagship-combo) add batteries and care coverage.',
       { h2: 'DJI Mavic 3 Thermal: portable and lighter' },
@@ -642,6 +723,14 @@ export const BLOG_POSTS: BlogPost[] = [
       'The [DJI Matrice 30T](/product/dji-matrice-30t) is rated IP55, carries a radiometric 640×512 thermal camera with a 12 MP wide camera and a 48 MP zoom camera, and flies for up to 41 minutes. It suits teams that work in poor conditions and need a rugged platform.',
       { h2: 'Zenmuse H30T and FLIR payloads' },
       'If you already own a compatible aircraft, a thermal payload can be the cheaper route. The [Zenmuse H30T](/product/dji-zenmuse-h30t) has a 1280×1024 thermal sensor and a wide temperature range of -20°C to 1,600°C. The [FLIR Vue TZ20](/product/flir-vue-tz20) carries dual FLIR Boson 640×512 sensors with 95° wide and 18° narrow fields of view for compatible Matrice aircraft. Browse all [thermal cameras](/category/cameras-sensors/thermal-cameras) and [Zenmuse cameras](/category/cameras-sensors/dji-zenmuse-cameras). For prices and a side-by-side comparison of the payloads, read our [Zenmuse H30T buying guide](/blog/buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices), and for the cameras and aircraft together see our [heat camera drone guide](/blog/buy-drone-heat-camera-australia-thermal-drones-payloads).',
+      { h2: 'What a thermal drone cannot do' },
+      { ul: [
+        'It shows surface heat, so it cannot see through walls, glass or dense canopy.',
+        'Sun-warmed ground and rock can hide a warm body in the middle of the day, so early morning is often the best time.',
+        'Reflections of the sun or sky can look like hot spots, so confirm doubtful findings with the zoom camera.',
+        'Rain, fog and wind reduce range and image quality.'
+      ] },
+      'CASA standard operating conditions say to fly in daylight and keep the drone in sight, so night thermal work needs more than the standard conditions.',
       { h2: 'Automate repeat inspections' },
       'For repeat missions, a drone dock launches, lands and charges the aircraft without an operator on site. See the [DJI Dock 3](/product/dji-dock-3) and the [Dock 3 Thermal Package](/product/dji-dock-3-thermal-package) under [DJI Dock](/category/enterprise-drones/dji-dock).',
       { h2: 'CASA and getting a quote' },
@@ -651,6 +740,10 @@ export const BLOG_POSTS: BlogPost[] = [
         { q: 'What is drone thermal imaging used for?', a: 'Common uses are roof and solar inspections, electrical and mechanical checks, search and rescue, firefighting support and wildlife surveys. A thermal camera shows heat, so problems and people stand out even in low light.' },
         { q: 'Do I need CASA approval to fly a thermal drone?', a: 'Flying commercially may require CASA accreditation or a ReOC, depending on the aircraft weight and the work. Check the CASA website, and use our quote form if you want help choosing a compliant setup.' },
         { q: 'What resolution should a thermal camera have?', a: 'Most enterprise thermal drones use 640×512, which is enough for most inspections. A 1280×1024 sensor, such as the Zenmuse H30T, gives more detail at distance.' },
+        { q: 'How much does a thermal drone cost in Australia?', a: 'A DJI Mavic 3T combo starts at $8,249 and a Matrice 4T is $10,159, with the Plus Combo at $11,248. A Matrice 30T combo starts at $14,917, a Zenmuse H30T payload is $17,335 and a Dock 3 Thermal Package is $34,278. All prices are in Australian dollars.' },
+        { q: 'Can a thermal drone see through walls?', a: 'No. A thermal camera shows surface heat, so it cannot see through walls, glass or dense canopy. It can show heat that reaches the surface, such as a hot patch on a roof.' },
+        { q: 'What is a radiometric thermal camera?', a: 'A radiometric camera stores a temperature for each pixel, so you can measure a hot spot after the flight. DJI lists radiometric R-JPEG photos for the Mavic 3T and Matrice 4T.' },
+        { q: 'Can I fly a thermal drone at night in Australia?', a: 'CASA standard operating conditions say to fly in daylight, so night flying needs more than the standard conditions. Check the current requirements on the CASA website for your operation.' },
         { q: 'Can I add a thermal camera to my own drone?', a: 'Only if your aircraft supports the payload. The Zenmuse H30T and FLIR Vue TZ20 are made for specific Matrice aircraft, so tell us your drone and we will confirm compatibility.' }
       ] }
     ],
