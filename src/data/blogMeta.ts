@@ -1656,7 +1656,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "drone weed control",
       "aerial seeding drone"
     ],
-    "wordCount": 912,
+    "wordCount": 923,
     "faq": [
       {
         "q": "What is the best agricultural drone for a small farm?",
@@ -1762,7 +1762,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji fpv controller 3",
       "fpv controller"
     ],
-    "wordCount": 786,
+    "wordCount": 804,
     "faq": [
       {
         "q": "What is the difference between the DJI RC-N3 and the RC 2?",
@@ -1911,7 +1911,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "affordable drones",
       "beginner drone with camera"
     ],
-    "wordCount": 948,
+    "wordCount": 963,
     "faq": [
       {
         "q": "What is the best drone for a complete beginner in Australia?",
@@ -2011,7 +2011,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "thermal imaging camera",
       "drone with thermal camera"
     ],
-    "wordCount": 1071,
+    "wordCount": 1099,
     "faq": [
       {
         "q": "What is the best thermal drone in Australia?",
@@ -2318,7 +2318,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "crop spraying drone",
       "multispectral drone"
     ],
-    "wordCount": 837,
+    "wordCount": 849,
     "faq": [
       {
         "q": "Which DJI Agras is best for a small farm?",
