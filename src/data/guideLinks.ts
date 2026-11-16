@@ -29,6 +29,7 @@ const HOME = [
 
 const BY_CATEGORY: Record<string, string[]> = {
   'camera-drones': [
+    'buy-dji-mavic-australia-mavic-4-pro-vs-mavic-3-pro',
     'best-drones-for-beginners-australia',
     'dji-neo-2-vs-dji-flip-vs-dji-mini-4-pro',
     'dji-avata-360-vs-avata-2-fpv-drone-guide',

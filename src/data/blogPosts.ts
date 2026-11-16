@@ -7,14 +7,14 @@ export const BLOG_POSTS: BlogPost[] = [
     id: 'post-10',
     slug: 'thermal-camera-vs-thermal-drone-infrared-inspections',
     intent: 'informational',
-    title: 'Thermal Camera vs Thermal Drone: Choosing an Infrared Camera for Inspections',
-    metaTitle: 'Thermal Camera vs Thermal Drone: Which to Buy?',
-    metaDescription: 'Thermal camera or thermal drone? Compare infrared cameras, payloads and DJI thermal aircraft for inspections in Australia, with specs and buying advice.',
+    title: 'Thermal Camera vs Thermal Drone: How to Choose and Use One for Inspections',
+    metaTitle: 'Thermal Camera vs Thermal Drone: Choose and Use One',
+    metaDescription: 'Thermal camera or thermal drone? How to choose one, then get a usable image: palettes, emissivity, reflections, weather and timing, plus DJI and FLIR options.',
     subtitle: 'When a thermal imaging camera on a drone beats a handheld, and which infrared cameras and aircraft we supply.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-18',
-    readTime: '8 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '10 min read',
     author: 'Enterprise Systems Specialist',
     tags: ['Thermal Camera', 'Infrared Cameras', 'Inspections'],
     excerpt: 'A thermal camera on the ground and a thermal drone solve different problems. Here is how to choose an infrared camera for roofs, solar farms, power lines and search work.',
@@ -60,6 +60,18 @@ export const BLOG_POSTS: BlogPost[] = [
       } },
       { h2: 'Payload or complete aircraft?' },
       'If you already fly a compatible enterprise aircraft, a thermal payload such as the [Zenmuse H30T](/product/dji-zenmuse-h30t) or the [FLIR Vue TZ20](/product/flir-vue-tz20) adds an infrared camera for far less than a new drone. If you are starting from scratch, a complete thermal aircraft is simpler: the [DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal) and [Mavic 3 Thermal](/product/dji-mavic-3-thermal) arrive with the camera, software and batteries ready to fly. Browse every [thermal camera](/category/cameras-sensors/thermal-cameras) and [Zenmuse camera](/category/cameras-sensors/dji-zenmuse-cameras).',
+      { h2: 'How to get a usable thermal image' },
+      'A thermal camera shows surface temperature differences, so the conditions on the day decide whether the image is useful. The points below apply to a handheld camera and to a drone, and they are why two surveys of the same asset can look different.',
+      { ul: [
+        '**Choose the time with care.** Long sunny periods let surfaces absorb heat, which can make a fault hard to separate from its surroundings, and direct or reflected sunlight affects accuracy. Stored heat is released after sunset, which changes the contrast. There is no single best time for every job, so test on your own asset.',
+        '**Watch for thermal crossover.** When a target and its background are close in temperature the camera cannot tell them apart, and a warm item can even look cooler than its surroundings.',
+        '**Expect reflections.** Glass, bare metal and wet surfaces reflect heat from their surroundings and can give a wrong reading. Paint or corrosion changes how a metal surface behaves. Change your viewing angle to tell a real hot spot from a reflection.',
+        '**Allow for weather.** Rain, snow, smoke and strong wind reduce what the camera can read, and rain narrows the temperature differences between objects.',
+        '**Get closer for measurements.** Accuracy falls as distance grows, and warm, humid air makes a reading look colder than the true surface temperature. A higher-resolution sensor helps at range, and a narrower lens picks out a distant area.',
+        '**Pick a palette to suit the job.** White hot and black hot suit finding people and animals. Iron red is a good all-round choice for roofs and solar panels. Arctic and medical palettes show small differences in a low-contrast scene.',
+        '**Shoot radiometric files if you report numbers.** A radiometric file stores a temperature for each pixel, so you can adjust settings such as emissivity and distance after the flight. A non-radiometric image is often enough to find a person or an animal.'
+      ] },
+      'This practice is called thermography. It finds temperature differences, not moisture or damage directly, so a person still has to check each finding. To choose the aircraft, see our [thermal drones guide](/blog/thermal-drones-australia-guide) and our [DJI thermal drone comparison](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices), and for what the sensor numbers mean read [how a thermal imager works](/blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained).',
       { h2: 'Common inspection jobs' },
       { ul: [
         '**Roof and building checks:** find moisture, missing insulation and heat loss from the air.',
@@ -72,12 +84,15 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: 'Getting started in Australia' },
       'Commercial flying has CASA requirements, including accreditation or a ReOC depending on the aircraft weight and the work, so confirm yours before you fly for hire. Send a [quote request](/quote) with your inspection type and any aircraft you already own, and we will recommend the right thermal camera Australia-wide delivery included. Questions first? [Contact us](/contact).',
       { faq: [
+        { q: 'When is the best time to fly a thermal inspection?', a: 'There is no single best time. Stored heat is released after sunset and direct or reflected sunlight affects accuracy, so avoid strong sun where you can and test on your own asset before you plan a full survey.' },
+        { q: 'Why does my thermal camera show a hot spot that is not there?', a: 'It is often a reflection. Glass, bare metal and wet surfaces reflect heat from their surroundings. Change your viewing angle: a real hot spot stays on the object, and a reflection moves.' },
+        { q: 'Does a thermal camera show moisture or damage?', a: 'Not directly. It shows temperature differences, and a trained person has to interpret them and check the cause on site.' },
         { q: 'Is a thermal camera the same as an infrared camera?', a: 'In practice, yes. A thermal imaging camera is an infrared camera that detects heat radiation and shows it as an image. Radiometric versions also report temperatures.' },
         { q: 'Can a thermal drone replace a handheld thermal camera?', a: 'For large or hard-to-reach assets, yes, because one flight covers far more ground. For close checks inside plant rooms, a handheld still has a place.' },
         { q: 'What thermal resolution do I need for inspections?', a: 'A 640×512 sensor suits most roof, solar and line inspections. Choose 1280×1024 if you need more detail at greater distance.' }
       ] }
     ],
-    targetKeywords: ['thermal camera', 'infrared cameras', 'infrared thermal camera', 'thermal camera australia', 'industrial thermal imaging camera']
+    targetKeywords: ['thermal camera', 'infrared cameras', 'infrared thermal camera', 'thermal camera australia', 'industrial thermal imaging camera', 'drone thermography', 'thermal imaging inspection']
   },
   {
     id: 'post-11',
@@ -549,7 +564,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: 'Learning to fly safely' },
       'Start in an open field away from people, trees and roads, in daylight and light wind. Learn the return-to-home button before anything else, keep the drone in sight and practise slow, gentle stick movements. Update the aircraft and controller firmware after unboxing. Read our [Australian drone buying guide](/blog/best-drone-for-sale-australia-2026-buyers-guide) for the wider range once you are ready to step up.',
       { h2: 'CASA basics for new pilots' },
-      'CASA standard operating conditions say to fly no higher than 120 m, keep the drone in visual line of sight, stay at least 30 m from other people, avoid crowds and fly in daylight. Drones heavier than 250 g also have to keep clear of controlled aerodromes. Rules can change, so check [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) before you fly. Our [FAQ](/faq) summarises the main points.',
+      'CASA standard operating conditions say to fly no higher than 120 m, keep the drone in visual line of sight, stay at least 30 m from other people, avoid crowds and fly in daylight. Drones heavier than 250 g also have to keep clear of controlled aerodromes. Rules can change, so check [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) before you fly. Our [FAQ](/faq) summarises the main points. Buying in the Black Friday week? Our [Black Friday drone buying guide](/blog/black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026) shows how to check the package before you pay.',
       { faq: [
         { q: 'What is the best drone for a complete beginner in Australia?', a: 'For most beginners the DJI Lito 1 or DJI Mini 4K is the easiest start, and the DJI Neo 2 suits selfies and follow-me shots. If you can spend more, the DJI Mini 4 Pro is the one you will not outgrow.' },
         { q: 'Do I need to register a drone under 250 g in Australia?', a: 'Recreational flying with a drone under 250 g does not need CASA registration or a licence, but you must still follow the standard operating conditions. Check the CASA website for the latest rules.' },
@@ -612,7 +627,7 @@ export const BLOG_POSTS: BlogPost[] = [
         '**Colour grading:** the Mini 4 Pro, because of its 10-bit D-Log M and HLG profiles.'
       ] },
       { h2: 'Accessories to add' },
-      'Every one of these drones is better with a spare battery. See [DJI Neo 2 batteries](/product/dji-neo-2-intelligent-flight-battery), [DJI Flip batteries](/product/dji-flip-intelligent-flight-battery) and [DJI Mini 4 Pro batteries](/product/dji-mini-4-pro-intelligent-flight-battery), plus the matching [charging hubs](/category/batteries/charging-hubs) and [propellers](/category/batteries/propellers-and-guards).',
+      'Every one of these drones is better with a spare battery. See [DJI Neo 2 batteries](/product/dji-neo-2-intelligent-flight-battery), [DJI Flip batteries](/product/dji-flip-intelligent-flight-battery) and [DJI Mini 4 Pro batteries](/product/dji-mini-4-pro-intelligent-flight-battery), plus the matching [charging hubs](/category/batteries/charging-hubs) and [propellers](/category/batteries/propellers-and-guards). Shopping a sale? Our [Black Friday drone buying guide](/blog/black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026) shows how to compare combos and check what is in the box.',
       { faq: [
         { q: 'Is the DJI Flip better than the DJI Neo 2?', a: 'The DJI Flip has a larger sensor and longer flight time, so it suits travel and vlogging. The DJI Neo 2 is smaller, lighter and easier to fly, so it suits quick selfies and follow-me shots.' },
         { q: 'Is the DJI Mini 4 Pro worth the extra cost over the Flip?', a: 'If you want 4K at up to 100 fps, 10-bit colour profiles, omnidirectional sensing and up to 34 minutes of flight, yes. If you mainly want a foldable travel drone, the Flip is enough.' },
@@ -670,7 +685,7 @@ export const BLOG_POSTS: BlogPost[] = [
         '**Firefighting support:** see hot spots and fire edges through smoke.',
         '**Wildlife surveys:** count and locate animals without disturbing them.'
       ] },
-      'Not sure whether you need a thermal drone or just a thermal camera? Read our guide to [thermal cameras vs thermal drones](/blog/thermal-camera-vs-thermal-drone-infrared-inspections).',
+      'Not sure whether you need a thermal drone or just a thermal camera? Read our guide to [thermal cameras vs thermal drones](/blog/thermal-camera-vs-thermal-drone-infrared-inspections), which also covers how to get a usable thermal image: palettes, reflections, weather and timing.',
       { h2: 'Which thermal drone for which job' },
       { ul: [
         '**Solar farms and roofs:** a long flight and a radiometric camera matter most. See our [solar farm inspection drone guide](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices).',
@@ -997,7 +1012,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: 'Accessories worth buying' },
       'Spare [batteries](/category/batteries/drone-batteries), a [charging hub](/category/batteries/charging-hubs), [ND filters and lenses](/category/batteries/filters-and-lenses) and a [bag](/category/batteries/bags-and-covers) turn a drone into a complete kit. Our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) explains how to match parts to your model.',
       { h2: 'Before you buy' },
-      'Consider battery needs, controller preference, how portable the kit needs to be and whether your flying is recreational or commercial. Commercial operators have extra CASA obligations; see our [enterprise drones guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide). If you are unsure which package suits you, [contact us](/contact) and we will help you choose.',
+      'Consider battery needs, controller preference, how portable the kit needs to be and whether your flying is recreational or commercial. Commercial operators have extra CASA obligations; see our [enterprise drones guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide). If you are unsure which package suits you, [contact us](/contact) and we will help you choose. Buying in the sale week? Our [Black Friday drone buying guide](/blog/black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026) shows how to compare packages and lists current prices.',
       { faq: [
         { q: 'Which DJI drone is best for most people?', a: 'For most buyers the DJI Mini 4 Pro or DJI Mini 5 Pro offers the best mix of image quality, portability and price. The DJI Air 3S suits creators who want a bigger camera and longer flights.' },
         { q: 'Do I need a licence to fly a DJI drone in Australia?', a: 'Recreational flying under 250 g does not need registration or a licence, but standard operating conditions apply. Commercial work has additional CASA requirements, so check the CASA website.' },
@@ -2184,7 +2199,7 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: `Current AUD prices by budget, five checks before any drone deal, and why the package matters more than the headline price.`,
     date: 'November 2026',
     dateISO: '2026-11-02',
-    modifiedISO: '2026-11-02',
+    modifiedISO: '2026-11-16',
     readTime: '9 min read',
     author: 'Flight Operations Team',
     tags: ['Black Friday', 'Buying Guide', 'Camera Drones'],
@@ -2211,7 +2226,7 @@ export const BLOG_POSTS: BlogPost[] = [
           ['Premium', '[DJI Mavic 4 Pro with RC 2](/product/dji-mavic-4-pro-dji-rc-2)', '$3,099', '100 MP Hasselblad camera, up to 51 minutes']
         ]
       } },
-      `Prices can change, so always check the product page on the day you order. If you want help choosing between these, our [best drone for sale in Australia buyer's guide](/blog/best-drone-for-sale-australia-2026-buyers-guide) and our list of the [best drones for beginners](/blog/best-drones-for-beginners-australia) narrow it down in plain language.`,
+      `We checked every price in this table against our catalogue on 16 November 2026. Prices can change, so always check the product page on the day you order. If you want help choosing between these, our [best drone for sale in Australia buyer's guide](/blog/best-drone-for-sale-australia-2026-buyers-guide) and our list of the [best drones for beginners](/blog/best-drones-for-beginners-australia) narrow it down in plain language.`,
       { h2: `Five checks before you buy any drone deal` },
       { ul: [
         `**Read exactly what is in the box.** The same drone is sold as drone only, with a basic controller, with a screen controller or as a Fly More Combo. A low headline price is often the drone-only listing.`,
