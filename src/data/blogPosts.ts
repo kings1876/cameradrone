@@ -875,8 +875,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'When a LiDAR drone is the right tool, when a photogrammetry camera does the job, and the payloads we supply.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-18',
-    readTime: '7 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '10 min read',
     author: 'Enterprise Systems Specialist',
     tags: ['LiDAR Drones', 'Drone Mapping', 'Surveying'],
     excerpt: 'LiDAR and photogrammetry both map the ground from a drone, but they work differently. We compare the Zenmuse L2 and Zenmuse P1 and explain how to choose.',
@@ -902,8 +902,57 @@ export const BLOG_POSTS: BlogPost[] = [
       } },
       { h2: 'DJI Zenmuse L2: LiDAR plus a camera' },
       'The [DJI Zenmuse L2](/product/dji-zenmuse-l2-lidar) combines a LiDAR module with a 4/3 CMOS 20 MP RGB camera. It records up to 240,000 points per second on a single return, supports up to five returns, detects objects up to 450 m away at 50% reflectivity and delivers about 4 cm vertical and 5 cm horizontal accuracy. It weighs about 905 g. See the [Worry-Free Basic Combo](/product/zenmuse-l2-worry-free-basic-combo) and [Worry-Free Plus Combo](/product/zenmuse-l2-worry-free-plus-combo) for the full kit, or browse [LiDAR sensors](/category/cameras-sensors/lidar-sensors).',
+      { h2: 'Zenmuse L2 published specifications' },
+      { table: {
+        head: ['Specification', 'DJI figure'],
+        rows: [
+          ['Point rate', 'Up to 240,000 points per second on a single return, up to 1,200,000 points per second with multiple returns (up to 5 returns)'],
+          ['Range', '450 m at 50% reflectivity, 250 m at 10% reflectivity in strong sunlight, 500 m maximum detection'],
+          ['Point cloud accuracy', '5 cm horizontal and 4 cm vertical at 150 m height; 8 cm horizontal and 4 cm vertical without the Optimize Point Cloud Accuracy option in DJI Terra'],
+          ['Scan patterns', 'Non-repetitive (70° × 75° field of view) or repetitive (70° × 3°)'],
+          ['RGB camera', '4/3 CMOS, 20 MP'],
+          ['Weight and rating', 'About 905 g, IP54'],
+          ['Aircraft', 'Matrice 400, Matrice 350 RTK and Matrice 300 RTK (DJI notes that the DJI RC Plus controller is required)']
+        ]
+      } },
+      'Point rate tells you less than point density, which is what a surveyor specifies. As a rough sum, the L2 non-repetitive scan covers 70° across the flight line, so at 100 m height the swath is about 140 m. The table divides DJI point rates by the area covered each second. It ignores overlap between lines and the terrain, so real density varies.',
+      { table: {
+        head: ['Flight speed at 100 m height', 'Single return (240,000 points/s)', 'Multiple returns (1,200,000 points/s)'],
+        rows: [
+          ['5 m/s', 'about 343 points per m²', 'about 1,714 points per m²'],
+          ['10 m/s', 'about 171 points per m²', 'about 857 points per m²'],
+          ['15 m/s', 'about 114 points per m²', 'about 571 points per m²']
+        ]
+      } },
+      'Flying faster covers more ground but thins the cloud, so set the speed from the density your deliverable needs. Note that the L2 accuracy figure applies at 150 m, while CASA standard operating conditions limit flight to 120 m, so confirm how your project is approved before you plan heights.',
       { h2: 'DJI Zenmuse P1: a full-frame mapping camera' },
       'The [DJI Zenmuse P1](/product/dji-zenmuse-p1) is a 45 MP full-frame camera with 24 mm, 35 mm and 50 mm f/2.8 lens options, a global mechanical shutter up to 1/2000 s and a minimum photo interval of 0.7 seconds. It is made for the Matrice 350 RTK and Matrice 300 RTK. Choose it when you need photogrammetry-grade imagery over open ground.',
+      { h2: 'What the Zenmuse P1 resolves' },
+      'DJI lists the P1 as a 35.9 × 24 mm full-frame sensor with 45 MP (8192 × 5460) and a 4.4 µm pixel size. DJI does not publish ground sample distance for each lens, so the table calculates it from those figures. GSD is the ground distance covered by one pixel. The calculation assumes the long side of the sensor lies across the flight line, with 75% front overlap and 55% side overlap as in the DJI accuracy test.',
+      { table: {
+        head: ['Lens', 'GSD at 100 m', 'Photo footprint at 100 m', 'Flight line spacing', 'Photo spacing along the line'],
+        rows: [
+          ['24 mm', 'about 1.83 cm', '150 × 100 m', 'about 67 m', 'about 25 m'],
+          ['35 mm', 'about 1.26 cm', '103 × 69 m', 'about 46 m', 'about 17 m'],
+          ['50 mm', 'about 0.88 cm', '72 × 48 m', 'about 32 m', 'about 12 m']
+        ]
+      } },
+      'GSD scales with height, so at 120 m the same lenses give about 2.2 cm, 1.5 cm and 1.1 cm. DJI quotes 3 cm horizontal and 5 cm vertical absolute accuracy for the P1 on a mission flown at 3 cm GSD, 15 m/s, 75% front overlap and 55% side overlap. The 0.7 second minimum photo interval is not the limit on speed: with the 35 mm lens at 100 m, photos 17 m apart at 15 m/s are about 1.1 seconds apart.',
+      { h2: 'Payload weight and cost' },
+      'Both payloads suit the same aircraft family, but they load it differently. DJI lists the Matrice 350 RTK at a 960 g maximum payload with a single gimbal damper, and the L2 weighs about 905 g while the P1 weighs about 800 g. DJI measures the 55 minute flight time with no payload, so expect less with either one. These are our current prices.',
+      { table: {
+        head: ['Item', 'Price (AUD)', 'Note'],
+        rows: [
+          ['[Zenmuse P1](/product/dji-zenmuse-p1)', '$11,400', 'Photogrammetry camera'],
+          ['[Zenmuse P1 and DJI Care Plus](/product/zenmuse-p1-and-dji-care-plus)', '$13,765', 'Adds care cover'],
+          ['[Zenmuse L2](/product/dji-zenmuse-l2-lidar)', '$23,880', 'LiDAR with a 4/3 RGB camera, about 2.1 times the price of the P1'],
+          ['[Zenmuse L2 Worry-Free Plus Combo](/product/zenmuse-l2-worry-free-plus-combo)', '$25,870', 'Combo package, see the product page for contents'],
+          ['[Zenmuse L3 Worry-Free Plus Combo](/product/zenmuse-l3-worry-free-plus-combo)', '$27,410', 'LiDAR payload combo package'],
+          ['[Phantom 4 Pro RTK SE](/product/dji-phantom-4-pro-rtk-se)', '$5,700', 'Complete RTK photogrammetry aircraft'],
+          ['[D-RTK 3 Multifunctional Station](/product/d-rtk-3-multifunctional-station)', '$2,320', 'RTK base station']
+        ]
+      } },
+      'The price gap shows why many teams start with photogrammetry on open sites and add LiDAR when forest or steep terrain defeats the camera. If you map for others, price the processing computer and DJI Terra licence as part of the system.',
       { h2: 'Other mapping options' },
       'Smaller teams can start with the [DJI Phantom 4 Pro RTK SE](/product/dji-phantom-4-pro-rtk-se) for RTK photogrammetry, or the [DJI Matrice 4 Enterprise](/product/dji-matrice-4-enterprise) for a portable multi-camera platform. Add an [RTK base station](/product/d-rtk-3-multifunctional-station) for centimetre-level positioning, and consider [Livox LiDAR](/product/livox-avia-lidar) modules for custom integrations.',
       { h2: 'Planning a mapping flight' },
@@ -920,10 +969,13 @@ export const BLOG_POSTS: BlogPost[] = [
       { faq: [
         { q: 'Is LiDAR better than photogrammetry?', a: 'Neither is better in every case. LiDAR captures ground under vegetation and processes quickly, while photogrammetry gives coloured, textured models over open ground.' },
         { q: 'What is the DJI Zenmuse L2 used for?', a: 'It is a LiDAR payload with an RGB camera, used for topographic survey, forestry, corridor mapping and any site where you need ground points through vegetation.' },
-        { q: 'Do I need an RTK base station for drone mapping?', a: 'For survey-grade accuracy, RTK positioning helps a lot. A base station or network RTK reduces the number of ground control points you need.' }
+        { q: 'Do I need an RTK base station for drone mapping?', a: 'For survey-grade accuracy, RTK positioning helps a lot. A base station or network RTK reduces the number of ground control points you need.' },
+        { q: 'How accurate is the DJI Zenmuse L2?', a: 'DJI lists 5 cm horizontal and 4 cm vertical point cloud accuracy at 150 m height. Without the Optimize Point Cloud Accuracy option in DJI Terra, horizontal accuracy is listed as 8 cm.' },
+        { q: 'What ground sample distance does the Zenmuse P1 give?', a: 'Calculated from the 4.4 µm pixel size, the 35 mm lens gives about 1.26 cm per pixel at 100 m and about 1.5 cm at 120 m. The 24 mm lens gives about 1.83 cm at 100 m and the 50 mm lens about 0.88 cm.' },
+        { q: 'Which aircraft carry the Zenmuse L2 and P1?', a: 'DJI lists the Matrice 400, Matrice 350 RTK and Matrice 300 RTK for both payloads. DJI also notes that the DJI RC Plus controller is required for the Matrice 300 RTK.' }
       ] }
     ],
-    targetKeywords: ['lidar drone', 'lidar drones', 'drone lidar scanner', 'drone mapping near me']
+    targetKeywords: ['lidar drone', 'lidar drones', 'drone lidar scanner', 'drone mapping near me', 'zenmuse l2', 'ground sample distance drone']
   },
   {
     id: 'post-9',
@@ -1067,8 +1119,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'Choosing an enterprise drone for inspection, mapping, surveying and thermal work.',
     date: 'August 2026',
     dateISO: '2026-08-01',
-    modifiedISO: '2026-10-18',
-    readTime: '8 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '11 min read',
     author: 'Enterprise Systems Specialist',
     tags: ['Enterprise Drones', 'Thermal Drones', 'Surveying'],
     excerpt: 'A practical overview of the DJI Matrice, Mavic 3 Enterprise and Phantom 4 lines and the kinds of work each is typically chosen for.',
@@ -1094,6 +1146,44 @@ export const BLOG_POSTS: BlogPost[] = [
           ['[DJI Phantom 4 Pro RTK SE](/product/dji-phantom-4-pro-rtk-se)', '1-inch 20 MP, centimetre-level RTK', 'About 30 min', '1,391 g', 'Surveying and mapping']
         ]
       } },
+      { h2: 'Published flight and camera specifications' },
+      'The table above gives the headline figures. These two tables add the operating limits and camera details from the DJI specification pages, which matter when you plan work in wind, cold or at distance.',
+      { table: {
+        head: ['Series', 'Max flight time', 'Wind limit', 'Operating temperature', 'RTK accuracy (RTK Fix)', 'Transmission (FCC / CE)'],
+        rows: [
+          ['Matrice 4 series', '49 min (46 min with low-noise propellers)', '12 m/s, takeoff and landing only', '-10 to 40°C', '1 cm + 1 ppm horizontal, 1.5 cm + 1 ppm vertical', '25 km / 12 km'],
+          ['Mavic 3 Enterprise series', '45 min (36 min with the EU C1 battery and low-noise propellers)', '12 m/s, takeoff and landing only', '-10 to 40°C', '1 cm + 1 ppm horizontal, 1.5 cm + 1 ppm vertical', '15 km / 8 km']
+        ]
+      } },
+      { table: {
+        head: ['Model', 'Wide camera', 'Tele camera', 'Thermal camera'],
+        rows: [
+          ['Matrice 4E', '4/3 CMOS, 20 MP (5280×3956)', '70 mm equivalent 48 MP and 168 mm equivalent 48 MP', 'None'],
+          ['Matrice 4T', '1/1.3-inch CMOS, 48 MP (8064×6048)', '70 mm equivalent 48 MP and 168 mm equivalent 48 MP', '640×512 uncooled VOx, 1280×1024 video with super resolution, plus a near-infrared light'],
+          ['Mavic 3 Enterprise', '4/3 CMOS, 20 MP, mechanical shutter 8 to 1/2000 s', '1/2-inch CMOS, 12 MP', 'None'],
+          ['Mavic 3 Thermal', '1/2-inch CMOS, 48 MP (8000×6000)', '1/2-inch CMOS, 12 MP', '640×512']
+        ]
+      } },
+      'Both Matrice 4 models also carry a laser rangefinder that DJI lists at up to 1,800 m on a 20% reflectivity target. The DJI specification pages list no ingress protection rating for the Matrice 4 series aircraft or the Mavic 3 Enterprise, so if you work in rain or dust, compare the weather rating on the [Matrice 30T](/product/dji-matrice-30t) before you buy.',
+      { h2: 'What each starting point costs' },
+      'This table lists our current prices, so you can see what a thermal camera, a combo or a dock adds. Prices are in Australian dollars.',
+      { table: {
+        head: ['Aircraft or system', 'Price (AUD)', 'What the price tells you'],
+        rows: [
+          ['[Mavic 3 Enterprise](/product/dji-mavic-3-enterprise)', '$6,049', 'Portable aircraft with a 4/3 mechanical-shutter camera'],
+          ['[Mavic 3 Thermal](/product/dji-mavic-3-thermal)', '$8,249', 'The thermal camera adds $2,200 over the Enterprise model'],
+          ['[Matrice 4 Enterprise](/product/dji-matrice-4-enterprise)', '$7,395', '168 mm equivalent tele camera and a rangefinder to 1,800 m'],
+          ['[Matrice 4 Thermal](/product/dji-matrice-4-thermal)', '$10,159', 'The thermal camera adds $2,764 over the Enterprise model'],
+          ['[Matrice 4E Plus Combo](/product/dji-matrice-4e-plus-combo)', '$8,360', 'The combo adds $965 to the aircraft price'],
+          ['[Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', '$11,248', 'The combo adds $1,089 to the aircraft price'],
+          ['[Matrice 30T](/product/dji-matrice-30t)', '$14,917', 'IP55 rugged aircraft with a radiometric thermal camera'],
+          ['[Phantom 4 Pro RTK SE](/product/dji-phantom-4-pro-rtk-se)', '$5,700', 'Complete aircraft with RTK positioning and a mechanical shutter'],
+          ['[DJI Dock 3](/product/dji-dock-3)', '$19,999', 'The dock only: it runs the Matrice 4D series, which is priced separately'],
+          ['[Dock 3 Thermal Package](/product/dji-dock-3-thermal-package)', '$34,278', 'Dock and thermal aircraft bundled'],
+          ['[Matrice 4 battery](/product/dji-matrice-4-battery)', '$280', 'A spare pack for longer days']
+        ]
+      } },
+      'Check the product page for what each combo contains before you compare, because a combo that includes extra batteries or a care plan changes the real cost of a day in the field.',
       { h2: 'DJI Matrice 4 series: the modern all-rounder' },
       'The DJI Matrice 4 series is the first stop for most new enterprise buyers. The [Matrice 4 Enterprise](/product/dji-matrice-4-enterprise) pairs a 4/3 CMOS mechanical-shutter wide camera with 48 MP medium tele and tele cameras and a laser rangefinder, while the [Matrice 4 Thermal](/product/dji-matrice-4-thermal) adds a 640×512 thermal camera. Both fly for up to 49 minutes at 1,219 g. See the [Matrice 4E Plus Combo](/product/dji-matrice-4e-plus-combo) and [Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo), and browse all [DJI Matrice](/category/enterprise-drones/dji-matrice) aircraft.',
       { h2: 'DJI Matrice 30 series: built for tough conditions' },
@@ -1104,8 +1194,22 @@ export const BLOG_POSTS: BlogPost[] = [
       'The [DJI Phantom 4 Pro RTK SE](/product/dji-phantom-4-pro-rtk-se) and the [Phantom 4 Multispectral](/product/dji-phantom-4-multispectral) remain a common choice for surveying and precision agriculture workflows, with centimetre-level RTK positioning and a mechanical shutter on the survey model.',
       { h2: 'Automate with DJI Dock' },
       'For repeat inspections, the [DJI Dock 3](/product/dji-dock-3) launches, lands and recharges an aircraft without an operator on site. It works with the Matrice 4D series, and the [Dock 3 Survey Package](/product/dji-dock-3-survey-package) and [Thermal Package](/product/dji-dock-3-thermal-package) bundle the dock for mapping and thermal work. See [DJI Dock](/category/enterprise-drones/dji-dock) and the older [DJI Dock 2](/product/dji-dock-2).',
+      'Plan the site before you buy a dock. DJI lists the Dock 3 at 55 kg without the aircraft and a 10 km maximum operating radius. The dock is rated IP56 and its aircraft IP55, and the dock operates from -30 to 50°C, with a landing wind limit of 12 m/s. It needs mains power (100 to 240 V AC, up to 800 W) and a network connection: Ethernet, or 4G with the DJI Cellular Dongle 2, which is sold separately. DJI lists 27 minutes to charge the aircraft from 15% to 95%.',
       { h2: 'Payloads, batteries and accessories' },
       'Enterprise aircraft are only as useful as their kit. Browse [enterprise accessories](/category/enterprise-drones/enterprise-accessories), [Zenmuse cameras](/category/cameras-sensors/dji-zenmuse-cameras), [LiDAR sensors](/category/cameras-sensors/lidar-sensors) and [thermal cameras](/category/cameras-sensors/thermal-cameras). Read our [thermal drones guide](/blog/thermal-drones-australia-guide) and the [LiDAR vs photogrammetry guide](/blog/lidar-vs-photogrammetry-drone-mapping-australia) to choose a payload.',
+      { h2: 'Which aircraft for which job' },
+      { table: {
+        head: ['Job', 'Start with', 'Why'],
+        rows: [
+          ['Facade, roof or tower inspection from a distance', 'Matrice 4 Enterprise', '168 mm equivalent tele camera and a rangefinder to 1,800 m'],
+          ['Thermal inspection and search work, day or night', 'Matrice 4 Thermal', '640×512 thermal camera and a near-infrared light'],
+          ['Portable mapping and site records', 'Mavic 3 Enterprise', '4/3 sensor with a mechanical shutter and RTK'],
+          ['Portable thermal checks', 'Mavic 3 Thermal', 'Folds small and flies for up to 45 minutes'],
+          ['Work in rain and dust', 'Matrice 30T', 'IP55 rating and a radiometric thermal camera'],
+          ['Survey with RTK positioning', 'Phantom 4 Pro RTK SE', 'Centimetre-level RTK and a mechanical shutter'],
+          ['Repeat inspections of the same site', 'Dock 3', 'Launches, lands and recharges without a person on site']
+        ]
+      } },
       { h2: 'How to compare enterprise drones' },
       'Start with the job, not the aircraft. Decide whether you need thermal imaging, a laser rangefinder, a mapping camera or a payload you can swap. Then compare positioning accuracy (RTK), weather rating, flight time, the software you will use and the care and training that come with the aircraft. Tell us the work you do and the sites you fly, and we will match the aircraft, payloads and accessories to your operation.',
       { h2: 'CASA obligations and getting a quote' },
@@ -1113,7 +1217,10 @@ export const BLOG_POSTS: BlogPost[] = [
       { faq: [
         { q: 'What is the best DJI enterprise drone for inspection?', a: 'For most teams the DJI Matrice 4 Enterprise or Matrice 4 Thermal is the best all-rounder. The Matrice 30T suits harsh conditions, and the Mavic 3 Enterprise suits portable work.' },
         { q: 'Do I need a licence to fly an enterprise drone commercially?', a: 'Commercial flying has CASA requirements that depend on the aircraft weight and the work. Check the CASA website, and tell us your use case so we can point you to the right setup.' },
-        { q: 'How do I buy an enterprise drone from you?', a: 'Enterprise products are supplied by quote. Send a quote request, and a specialist replies with pricing, availability and delivery, usually within one business day.' }
+        { q: 'How do I buy an enterprise drone from you?', a: 'Enterprise products are supplied by quote. Send a quote request, and a specialist replies with pricing, availability and delivery, usually within one business day.' },
+        { q: 'How windy can an enterprise drone fly?', a: 'DJI lists 12 m/s for takeoff and landing on the Matrice 4 series and the Mavic 3 Enterprise series. Check the flight manual for in-flight limits and plan around gusts, not only the average wind.' },
+        { q: 'How much more does a thermal version cost?', a: 'At our listed prices the Matrice 4 Thermal is $2,764 more than the Matrice 4 Enterprise, and the Mavic 3 Thermal is $2,200 more than the Mavic 3 Enterprise.' },
+        { q: 'What does a DJI Dock 3 need on site?', a: 'Mains power of 100 to 240 V AC (up to 800 W) and a network connection by Ethernet or by 4G with the DJI Cellular Dongle 2, which is sold separately. The dock weighs 55 kg without the aircraft.' }
       ] }
     ],
     targetKeywords: ['dji enterprise drones', 'dji matrice', 'thermal drone', 'thermal imaging drone', 'commercial drones for sale', 'drone mapping near me']

@@ -2155,8 +2155,8 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "subtitle": "When a LiDAR drone is the right tool, when a photogrammetry camera does the job, and the payloads we supply.",
     "date": "October 2026",
     "dateISO": "2026-10-18",
-    "modifiedISO": "2026-10-18",
-    "readTime": "7 min read",
+    "modifiedISO": "2026-11-16",
+    "readTime": "10 min read",
     "author": "Enterprise Systems Specialist",
     "tags": [
       "LiDAR Drones",
@@ -2176,9 +2176,11 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "lidar drone",
       "lidar drones",
       "drone lidar scanner",
-      "drone mapping near me"
+      "drone mapping near me",
+      "zenmuse l2",
+      "ground sample distance drone"
     ],
-    "wordCount": 825,
+    "wordCount": 1668,
     "faq": [
       {
         "q": "Is LiDAR better than photogrammetry?",
@@ -2191,6 +2193,18 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       {
         "q": "Do I need an RTK base station for drone mapping?",
         "a": "For survey-grade accuracy, RTK positioning helps a lot. A base station or network RTK reduces the number of ground control points you need."
+      },
+      {
+        "q": "How accurate is the DJI Zenmuse L2?",
+        "a": "DJI lists 5 cm horizontal and 4 cm vertical point cloud accuracy at 150 m height. Without the Optimize Point Cloud Accuracy option in DJI Terra, horizontal accuracy is listed as 8 cm."
+      },
+      {
+        "q": "What ground sample distance does the Zenmuse P1 give?",
+        "a": "Calculated from the 4.4 µm pixel size, the 35 mm lens gives about 1.26 cm per pixel at 100 m and about 1.5 cm at 120 m. The 24 mm lens gives about 1.83 cm at 100 m and the 50 mm lens about 0.88 cm."
+      },
+      {
+        "q": "Which aircraft carry the Zenmuse L2 and P1?",
+        "a": "DJI lists the Matrice 400, Matrice 350 RTK and Matrice 300 RTK for both payloads. DJI also notes that the DJI RC Plus controller is required for the Matrice 300 RTK."
       }
     ]
   },
@@ -2306,8 +2320,8 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "subtitle": "Choosing an enterprise drone for inspection, mapping, surveying and thermal work.",
     "date": "August 2026",
     "dateISO": "2026-08-01",
-    "modifiedISO": "2026-10-18",
-    "readTime": "8 min read",
+    "modifiedISO": "2026-11-16",
+    "readTime": "11 min read",
     "author": "Enterprise Systems Specialist",
     "tags": [
       "Enterprise Drones",
@@ -2329,7 +2343,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "commercial drones for sale",
       "drone mapping near me"
     ],
-    "wordCount": 832,
+    "wordCount": 1673,
     "faq": [
       {
         "q": "What is the best DJI enterprise drone for inspection?",
@@ -2342,6 +2356,18 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       {
         "q": "How do I buy an enterprise drone from you?",
         "a": "Enterprise products are supplied by quote. Send a quote request, and a specialist replies with pricing, availability and delivery, usually within one business day."
+      },
+      {
+        "q": "How windy can an enterprise drone fly?",
+        "a": "DJI lists 12 m/s for takeoff and landing on the Matrice 4 series and the Mavic 3 Enterprise series. Check the flight manual for in-flight limits and plan around gusts, not only the average wind."
+      },
+      {
+        "q": "How much more does a thermal version cost?",
+        "a": "At our listed prices the Matrice 4 Thermal is $2,764 more than the Matrice 4 Enterprise, and the Mavic 3 Thermal is $2,200 more than the Mavic 3 Enterprise."
+      },
+      {
+        "q": "What does a DJI Dock 3 need on site?",
+        "a": "Mains power of 100 to 240 V AC (up to 800 W) and a network connection by Ethernet or by 4G with the DJI Cellular Dongle 2, which is sold separately. The dock weighs 55 kg without the aircraft."
       }
     ]
   },
