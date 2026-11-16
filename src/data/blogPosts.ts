@@ -170,8 +170,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'Three jobs an agriculture drone does well, and the equipment that goes with each.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-27',
-    readTime: '8 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '11 min read',
     author: 'Agriculture Systems Lead',
     tags: ['Agricultural Drones', 'Weed Control', 'Seeding'],
     excerpt: 'Farming and drones go together for spraying, spreading and crop health checks. We explain weed control, aerial seeding and monitoring and the equipment each needs.',
@@ -193,10 +193,42 @@ export const BLOG_POSTS: BlogPost[] = [
       } },
       { h2: 'Agriculture drone spraying for weed control' },
       'Agriculture drone spraying lets you treat weeds without driving across wet ground, and it reaches steep or awkward blocks that ground machinery struggles with. A spraying drone for drone weed control carries a tank and nozzles and flies a programmed route, applying product at a set rate. Match the tank size to the area you treat: the [DJI Agras T25P](/product/dji-agras-t25p) carries 20 kg for small properties and orchards, the [Agras T50](/product/dji-agras-t50) carries 40 kg, and the [Agras T100](/product/dji-agras-t100) is the heavy-lift flagship with a 100 L spraying tank. See our [agricultural spraying drones guide](/blog/agricultural-spraying-drones-australia-guide) for a full comparison, or our [drone weed spraying buying guide](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost) for a priced setup.',
+      { h2: 'Weed control numbers from the DJI specifications' },
+      'Weed control is a coverage job, so three figures matter: how wide each pass is, how much the tank holds and how fast it empties. This table sets them side by side from the DJI specification pages, with the listed price of each aircraft.',
+      { table: {
+        head: ['Model', 'Tank', 'Spray width', 'Max flow', 'Aircraft price (AUD)'],
+        rows: [
+          ['[Agras T25P](/product/dji-agras-t25p)', '20 L', '4 to 7 m', '16 to 24 L/min', '$17,530'],
+          ['[Agras T50](/product/dji-agras-t50)', '40 L', '4 to 11 m', '16 to 24 L/min', '$21,999'],
+          ['[Agras T70P](/product/dji-agras-t70p)', '70 L', '4 to 11 m', '30 to 40 L/min', '$20,380'],
+          ['[Agras T100](/product/dji-agras-t100)', '100 L', '5 to 13 m', '30 to 40 L/min', '$30,380']
+        ]
+      } },
+      'Spray width is measured with the aircraft 3 m above the crop on the T25P and T50, and a wider pass means fewer passes across a paddock. Droplet size on the T25P, T50 and T70P can be set between 50 and 500 µm. Smaller droplets cover a surface more evenly with less liquid but drift further, and larger droplets fall faster, so the product label and the wind decide the setting. DJI lists a wind limit of 6 m/s on every one of these aircraft.',
+      'Weed problems are often patchy: a fence line, a creek bank or a few hectares of woody weeds. A compact aircraft such as the T25P suits this work because one person can fold it, carry it and treat small blocks without a crew. Larger aircraft earn their cost on whole paddocks, where the wider pass and bigger tank cut the number of loads.',
       { h2: 'Aerial seeding and fertiliser spreading' },
       'An aerial seeding drone swaps the spray tank for a spreading system that drops seed or granules over the paddock. This suits over-sowing pasture, cover crops and fertiliser top-ups, particularly where ground access is limited. The Agras range carries spreading systems as well as spray systems: the T25P has a 25 kg spreading payload, the T50 a 50 kg payload, and the T100 a 150 L spreading tank. Add the [T50 spreading system](/product/dji-agras-t50-spreading-system) or the [150L spreading system](/product/dji-150l-spreading-system) to match your aircraft.',
+      { table: {
+        head: ['Model', 'Spreading tank', 'Spread width', 'Max discharge'],
+        rows: [
+          ['Agras T25P', '30 L', '3 to 8 m', '190 kg/min (compound fertiliser)'],
+          ['Agras T50', '75 L', '8 m', 'Not listed'],
+          ['Agras T70P', '100 L', '3 to 10 m', '400 kg/min (compound fertiliser)'],
+          ['Agras T100', '150 L', '3 to 10 m', '400 kg/min (compound fertiliser)']
+        ]
+      } },
+      'The discharge figure is the maximum DJI quotes for compound fertiliser, not a per-hectare rate. The rate you apply depends on your flying speed, the width of each pass and the product, so test a small block and weigh what you apply before the main job. Seed and granules differ in size and weight, so calibrate for each product. The [T50 spreading system](/product/dji-agras-t50-spreading-system) is listed at $2,200 and the [150L spreading system](/product/dji-150l-spreading-system) at $3,010.',
       { h2: 'Crop monitoring with multispectral drones' },
       'Knowing where to act saves product and time. A multispectral drone captures light that the eye cannot see, such as near-infrared and red edge, to show plant vigour across a paddock. The [DJI Mavic 3 Multispectral](/product/dji-mavic-3-multispectral) carries four 5 MP multispectral cameras plus a 4/3 RGB camera and built-in RTK. Our [multispectral cameras](/category/cameras-sensors/multispectral-cameras) and [DJI Terra Agriculture](/product/dji-terra-agriculture-1-year-3-devices) software turn the images into maps you can use to plan treatments. Combine them with a sprayer for variable-rate work.',
+      'Most crop-health maps use a vegetation index. NDVI is calculated as near-infrared minus red, divided by near-infrared plus red, and runs from -1 to 1. Healthy leaves reflect strongly in near-infrared and absorb red light, so a higher value generally means more vigorous growth, while bare soil and stressed plants score lower. The map shows where plants differ, not why, so walk the low areas before you spray or spread.',
+      { ul: [
+        '**Fly** the paddock on a programmed route.',
+        '**Process** the images in DJI Terra Agriculture to produce a crop-health map.',
+        '**Plan** treatment zones from the map and check them on the ground.',
+        '**Treat** only the zones that need it with a spraying or spreading drone.',
+        '**Fly again** after treatment to see whether the zone has recovered.'
+      ] },
+      'Listed prices: the [Mavic 3 Multispectral](/product/dji-mavic-3-multispectral) is $7,919, the [Phantom 4 Multispectral](/product/dji-phantom-4-multispectral) is $9,299 and [DJI Terra Agriculture](/product/dji-terra-agriculture-1-year-3-devices) is $490 for one year on up to three devices. Compare the other sensors in our [multispectral drone camera guide](/blog/buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices).',
       { h2: 'What you need besides the aircraft' },
       { ul: [
         '**Batteries and charging:** heavy aircraft need several large batteries; see the Agras [batteries](/product/dji-agras-db1560-intelligent-flight-battery) and [C10000 power supply](/product/dji-c10000-intelligent-power-supply).',
@@ -215,10 +247,12 @@ export const BLOG_POSTS: BlogPost[] = [
         { q: 'What is the best agricultural drone for a small farm?', a: 'The DJI Agras T25P is the most practical for small properties and orchards because it folds and one person can handle it. Larger farms and contractors choose the T50, T70P or T100.' },
         { q: 'How does drone weed control work in Australia?', a: 'A spraying drone such as the DJI Agras T25P, T50 or T100 flies a programmed route and applies product at a set rate, treating weeds without driving over wet or steep ground. Commercial work needs the right CASA accreditation and chemical-use approvals, and you should read every product label first.' },
         { q: 'Can an agricultural drone spread seed as well as spray?', a: 'Yes. The Agras range carries spreading systems for seed and fertiliser as well as spraying systems.' },
-        { q: 'How does a multispectral drone help?', a: 'It maps plant health across a paddock so you can target treatments where they are needed instead of treating everything.' }
+        { q: 'How does a multispectral drone help?', a: 'It maps plant health across a paddock so you can target treatments where they are needed instead of treating everything.' },
+        { q: 'How wide is a drone spray pass?', a: 'DJI lists 4 to 7 m for the Agras T25P, 4 to 11 m for the T50 and T70P and 5 to 13 m for the T100. The T25P and T50 figures are measured with the aircraft 3 m above the crop.' },
+        { q: 'What is NDVI and why does it matter?', a: 'NDVI is a vegetation index calculated from near-infrared and red light, from -1 to 1. Higher values generally mean healthier, denser plants. It shows where plants differ, not the cause, so check low areas on the ground.' }
       ] }
     ],
-    targetKeywords: ['agricultural drone', 'agriculture drones', 'agriculture drone spraying', 'farming and drones', 'drone weed control', 'aerial seeding drone']
+    targetKeywords: ['agricultural drone', 'agriculture drones', 'agriculture drone spraying', 'farming and drones', 'drone weed control', 'aerial seeding drone', 'ndvi drone']
   },
   {
     id: 'post-13',
@@ -1096,8 +1130,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'An introduction to spraying drones and multispectral crop monitoring for Australian farms.',
     date: 'July 2026',
     dateISO: '2026-07-01',
-    modifiedISO: '2026-10-18',
-    readTime: '8 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '11 min read',
     author: 'Agriculture Systems Lead',
     tags: ['Spraying Drones', 'Agriculture', 'Multispectral'],
     excerpt: 'Spraying drones are changing how Australian growers cover paddocks and orchards. Here is what to consider when choosing a system.',
@@ -1122,6 +1156,39 @@ export const BLOG_POSTS: BlogPost[] = [
           ['[DJI Agras T100](/product/dji-agras-t100)', '100 L tank, 30 L/min (40 L/min with optional 4 nozzles)', '150 L tank, 400 kg/min', 'Lifting up to 100 kg, LiDAR, penta-vision and radar sensing']
         ]
       } },
+      { h2: 'What DJI publishes for each Agras model' },
+      'The figures below come from the DJI specification page for each aircraft, so you can compare like with like before you ask for a quote. Spray width is measured with the aircraft 3 m above the crop on the T25P and T50, and flow rates depend on how many nozzles are fitted.',
+      { table: {
+        head: ['Model', 'Spray tank', 'Max flow rate', 'Spray width', 'Droplet size'],
+        rows: [
+          ['[Agras T25P](/product/dji-agras-t25p)', '20 L', '16 L/min (2 nozzles), 24 L/min (4 nozzles)', '4 to 7 m', '50 to 500 µm'],
+          ['[Agras T50](/product/dji-agras-t50)', '40 L', '16 L/min (2 sprinklers), 24 L/min (4 sprinklers)', '4 to 11 m', '50 to 500 µm'],
+          ['[Agras T70P](/product/dji-agras-t70p)', '70 L', '30 L/min (2 sprays), 40 L/min (4 sprays, optional)', '4 to 11 m', '50 to 500 µm'],
+          ['[Agras T100](/product/dji-agras-t100)', '100 L', '30 L/min (2 nozzles), 40 L/min (4 nozzles, optional)', '5 to 13 m, depending on the scene', 'Not listed']
+        ]
+      } },
+      { table: {
+        head: ['Model', 'Spreading tank', 'Spread width', 'Battery', 'Charge time per battery'],
+        rows: [
+          ['T25P', '30 L', '3 to 8 m', 'DB800, 15,500 mAh', '9 to 12 min'],
+          ['T50', '75 L', '8 m', 'DB1560, 30,000 mAh', '9 to 12 min'],
+          ['T70P', '100 L', '3 to 10 m', 'DB1580 (30,000 mAh) or DB2160 (41,000 mAh)', '7 to 8 min (DB1580), 8 to 9 min (DB2160)'],
+          ['T100', '150 L', '3 to 10 m', 'DB2160 or DB2212, 41,000 mAh', '8 to 9 min (DB2160)']
+        ]
+      } },
+      'DJI quotes the charge times from 30% to 95% on the T25P, T70P and T100 pages, with the matching DJI charger or generator. DJI lists a wind limit of 6 m/s for all four aircraft (under 6 m/s on the T25P, T70P and T100), so the forecast decides the spray window as much as the aircraft does. The T25P, T70P and T100 pages list obstacle sensing out to 60 m under DJI Safety System 3.0.',
+      { h2: 'What the aircraft cost per litre of tank' },
+      'Tank size is the quickest way to compare value. This table divides the listed price of each aircraft by its spray tank.',
+      { table: {
+        head: ['Model', 'Price (AUD)', 'Spray tank', 'Aircraft price per litre of tank'],
+        rows: [
+          ['[Agras T25P](/product/dji-agras-t25p)', '$17,530', '20 L', 'about $877'],
+          ['[Agras T50](/product/dji-agras-t50)', '$21,999', '40 L', 'about $550'],
+          ['[Agras T70P](/product/dji-agras-t70p)', '$20,380', '70 L', 'about $291'],
+          ['[Agras T100](/product/dji-agras-t100)', '$30,380', '100 L', 'about $304']
+        ]
+      } },
+      'On our listed prices the T70P gives the most tank for the money and the T100 is close behind. The T25P costs the most per litre, but it is the compact, foldable choice for one operator. These are aircraft prices only, so ask which batteries and charger your package includes before you compare quotes.',
       { h2: 'DJI Agras T25P: the compact choice' },
       'The [DJI Agras T25P](/product/dji-agras-t25p) is foldable and designed so a single operator can handle it, with a 20 kg spraying payload and a 25 kg spreading payload. It suits smaller properties, orchards and operators who need to move between blocks.',
       { h2: 'DJI Agras T50 and T70P: the mid-size workhorses' },
@@ -1130,8 +1197,33 @@ export const BLOG_POSTS: BlogPost[] = [
       'The [DJI Agras T100](/product/dji-agras-t100) has a 100 L spraying tank, a 150 L spreading tank and can lift up to 100 kg, with LiDAR, penta-vision and millimetre-wave radar for obstacle sensing. It is aimed at large operations and contractors. See the [T100 mist nozzle package](/product/dji-agras-t100-mist-nozzle-package) and [T100 lift system kit](/product/dji-agras-t100-lift-system-kit).',
       { h2: 'XAG and BROUAV sprayers' },
       'We also supply the [XAG P30](/product/xag-p30-spraying-drone) and the BROUAV [D30L-8](/product/brouav-d30l-8-spraying-drone), [D52L-8](/product/brouav-d52l-8-spraying-drone) and [D72L-8](/product/brouav-d72l-8-spraying-drone) spraying drones for operators who want a different size or price point. Browse all [spraying drones](/category/spraying-drones/spraying-drones).',
+      { h2: 'How many hectares does one tank cover?' },
+      'The label of the product you apply sets the application rate in litres per hectare, so the sums below use example rates only. Divide the tank volume by the rate to see the area one load treats.',
+      { table: {
+        head: ['Tank', 'At 10 L/ha', 'At 15 L/ha', 'At 20 L/ha', 'At 30 L/ha'],
+        rows: [
+          ['20 L (T25P)', '2.0 ha', '1.3 ha', '1.0 ha', '0.7 ha'],
+          ['40 L (T50)', '4.0 ha', '2.7 ha', '2.0 ha', '1.3 ha'],
+          ['70 L (T70P)', '7.0 ha', '4.7 ha', '3.5 ha', '2.3 ha'],
+          ['100 L (T100)', '10.0 ha', '6.7 ha', '5.0 ha', '3.3 ha']
+        ]
+      } },
+      'A 40 ha paddock at 15 L/ha needs 600 L of mixed product, which is 30 loads with the T25P, 15 with the T50, 9 with the T70P and 6 with the T100. At full flow a tank empties quickly: 20 L at 24 L/min lasts about 50 seconds and 100 L at 40 L/min lasts 2.5 minutes. In practice the day is limited by how fast you can refill and swap batteries. DJI lists 7 to 12 minutes to charge one battery, so plan enough batteries to keep one aircraft flying while the others charge.',
       { h2: 'Batteries, chargers, generators and nozzles' },
       'Plan the whole system, not just the aircraft. See the Agras [batteries](/product/dji-agras-db1560-intelligent-flight-battery), the [C10000 power supply](/product/dji-c10000-intelligent-power-supply), the [D14000iE generator](/product/dji-d14000ie-multifunctional-inverter-generator) and the [spraying drone accessories](/category/spraying-drones/spraying-drone-accessories). Our [quote form](/quote) bundles batteries, a charger and set-up for your property.',
+      { table: {
+        head: ['Item', 'Price (AUD)', 'Used with'],
+        rows: [
+          ['[DB800 battery](/product/dji-agras-db800-intelligent-flight-battery)', '$3,190', 'Agras T25P'],
+          ['[DB1560 battery](/product/dji-agras-db1560-intelligent-flight-battery)', '$3,850', 'Agras T50'],
+          ['[DB2160 battery](/product/dji-agras-db2160-intelligent-flight-battery)', '$4,080', 'Agras T70P and T100'],
+          ['[C8000 battery station](/product/dji-c8000-intelligent-battery-station)', '$2,310', 'DB800 charging for the T25P'],
+          ['[C10000 power supply](/product/dji-c10000-intelligent-power-supply)', '$2,310', 'DB1560 charging for the T50'],
+          ['[C12000 power supply](/product/dji-c12000-intelligent-power-supply)', '$2,380', 'T70P and T100 charging'],
+          ['[D14000iE generator](/product/dji-d14000ie-multifunctional-inverter-generator)', '$5,190', 'Field charging for the T70P and T100']
+        ]
+      } },
+      'Batteries are a large share of the running cost, because a day of work needs several packs. Price the battery set and the charger as part of the system before you choose the aircraft.',
       { h2: 'Monitor crops with multispectral drones' },
       'Spraying is more effective when you know where to spray. The [DJI Mavic 3 Multispectral](/product/dji-mavic-3-multispectral) and the [multispectral cameras](/category/cameras-sensors/multispectral-cameras) we supply measure crop health from the air, and [DJI Terra Agriculture](/product/dji-terra-agriculture-1-year-3-devices) processes the data into prescription maps.',
       { h2: 'Set-up, training and running costs' },
@@ -1146,10 +1238,14 @@ export const BLOG_POSTS: BlogPost[] = [
       ] },
       { h2: 'CASA and chemical-use rules' },
       'Commercial spraying has CASA requirements and chemical-use rules that vary by state. Confirm your accreditation, any ReOC you need and local regulations before you operate, and keep records of what you apply. For broader enterprise options, read our [enterprise drones guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide).',
+      'Weight matters under CASA rules, which group aircraft by weight up to 150 kg for medium aircraft. DJI lists the T100 maximum takeoff weight for spraying as 175 kg in standard markets and 149.9 kg for Australia and Turkey, so a figure quoted from an overseas review may not match the Australian listing. Ask us for the payload limit of the exact aircraft you order. Chemical use is regulated by each state on top of CASA, and some states require a separate chemical rating or licence, so confirm yours with your state agriculture department before the first job.',
       { faq: [
         { q: 'Which DJI Agras is best for a small farm?', a: 'The DJI Agras T25P is the most practical for small properties and orchards: it folds and one operator can handle it. Larger farms and contractors move up to the T50, T70P or T100.' },
         { q: 'Can the DJI Agras spread seed and fertiliser?', a: 'Yes. The Agras range carries spreading systems for granules as well as spraying systems, with payload sizes that depend on the model.' },
-        { q: 'What else do I need besides the drone?', a: 'Plan for spare batteries, a fast charger or power supply, a generator for the field and the right nozzle or spreader package. We can quote the whole system.' }
+        { q: 'What else do I need besides the drone?', a: 'Plan for spare batteries, a fast charger or power supply, a generator for the field and the right nozzle or spreader package. We can quote the whole system.' },
+        { q: 'How many hectares does one spray drone tank cover?', a: 'Divide the tank volume by the application rate on the product label. At an example rate of 15 L/ha, a 40 L Agras T50 tank treats about 2.7 ha and a 100 L Agras T100 tank about 6.7 ha.' },
+        { q: 'How windy is too windy for a spray drone?', a: 'DJI lists a wind limit of 6 m/s for the Agras T25P, T50, T70P and T100. Spray drift is also governed by the product label, so check the label as well as the forecast.' },
+        { q: 'Which Agras has the lowest aircraft price per litre of tank?', a: 'On our listed prices the Agras T70P, at about $291 per litre of tank for the aircraft alone, followed by the T100 at about $304. Batteries and chargers are extra unless your package includes them.' }
       ] }
     ],
     targetKeywords: ['agricultural drones', 'spray drone', 'drone sprayer', 'crop spraying drone', 'multispectral drone']

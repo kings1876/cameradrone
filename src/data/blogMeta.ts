@@ -898,7 +898,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "subtitle": "Current AUD prices by budget, five checks before any drone deal, and why the package matters more than the headline price.",
     "date": "November 2026",
     "dateISO": "2026-11-02",
-    "modifiedISO": "2026-11-02",
+    "modifiedISO": "2026-11-16",
     "readTime": "9 min read",
     "author": "Flight Operations Team",
     "tags": [
@@ -922,7 +922,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "black friday sales drones",
       "drone sale black friday"
     ],
-    "wordCount": 1494,
+    "wordCount": 1508,
     "faq": [
       {
         "q": "When is Black Friday 2026 in Australia?",
@@ -1538,14 +1538,14 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "id": "post-10",
     "slug": "thermal-camera-vs-thermal-drone-infrared-inspections",
     "intent": "informational",
-    "title": "Thermal Camera vs Thermal Drone: Choosing an Infrared Camera for Inspections",
-    "metaTitle": "Thermal Camera vs Thermal Drone: Which to Buy?",
-    "metaDescription": "Thermal camera or thermal drone? Compare infrared cameras, payloads and DJI thermal aircraft for inspections in Australia, with specs and buying advice.",
+    "title": "Thermal Camera vs Thermal Drone: How to Choose and Use One for Inspections",
+    "metaTitle": "Thermal Camera vs Thermal Drone: Choose and Use One",
+    "metaDescription": "Thermal camera or thermal drone? How to choose one, then get a usable image: palettes, emissivity, reflections, weather and timing, plus DJI and FLIR options.",
     "subtitle": "When a thermal imaging camera on a drone beats a handheld, and which infrared cameras and aircraft we supply.",
     "date": "October 2026",
     "dateISO": "2026-10-18",
-    "modifiedISO": "2026-10-18",
-    "readTime": "8 min read",
+    "modifiedISO": "2026-11-16",
+    "readTime": "10 min read",
     "author": "Enterprise Systems Specialist",
     "tags": [
       "Thermal Camera",
@@ -1566,10 +1566,24 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "infrared cameras",
       "infrared thermal camera",
       "thermal camera australia",
-      "industrial thermal imaging camera"
+      "industrial thermal imaging camera",
+      "drone thermography",
+      "thermal imaging inspection"
     ],
-    "wordCount": 828,
+    "wordCount": 1321,
     "faq": [
+      {
+        "q": "When is the best time to fly a thermal inspection?",
+        "a": "There is no single best time. Stored heat is released after sunset and direct or reflected sunlight affects accuracy, so avoid strong sun where you can and test on your own asset before you plan a full survey."
+      },
+      {
+        "q": "Why does my thermal camera show a hot spot that is not there?",
+        "a": "It is often a reflection. Glass, bare metal and wet surfaces reflect heat from their surroundings. Change your viewing angle: a real hot spot stays on the object, and a reflection moves."
+      },
+      {
+        "q": "Does a thermal camera show moisture or damage?",
+        "a": "Not directly. It shows temperature differences, and a trained person has to interpret them and check the cause on site."
+      },
       {
         "q": "Is a thermal camera the same as an infrared camera?",
         "a": "In practice, yes. A thermal imaging camera is an infrared camera that detects heat radiation and shows it as an image. Radiometric versions also report temperatures."
@@ -1645,8 +1659,8 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "subtitle": "Three jobs an agriculture drone does well, and the equipment that goes with each.",
     "date": "October 2026",
     "dateISO": "2026-10-18",
-    "modifiedISO": "2026-10-27",
-    "readTime": "8 min read",
+    "modifiedISO": "2026-11-16",
+    "readTime": "11 min read",
     "author": "Agriculture Systems Lead",
     "tags": [
       "Agricultural Drones",
@@ -1668,9 +1682,10 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "agriculture drone spraying",
       "farming and drones",
       "drone weed control",
-      "aerial seeding drone"
+      "aerial seeding drone",
+      "ndvi drone"
     ],
-    "wordCount": 923,
+    "wordCount": 1565,
     "faq": [
       {
         "q": "What is the best agricultural drone for a small farm?",
@@ -1687,6 +1702,14 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       {
         "q": "How does a multispectral drone help?",
         "a": "It maps plant health across a paddock so you can target treatments where they are needed instead of treating everything."
+      },
+      {
+        "q": "How wide is a drone spray pass?",
+        "a": "DJI lists 4 to 7 m for the Agras T25P, 4 to 11 m for the T50 and T70P and 5 to 13 m for the T100. The T25P and T50 figures are measured with the aircraft 3 m above the crop."
+      },
+      {
+        "q": "What is NDVI and why does it matter?",
+        "a": "NDVI is a vegetation index calculated from near-infrared and red light, from -1 to 1. Higher values generally mean healthier, denser plants. It shows where plants differ, not the cause, so check low areas on the ground."
       }
     ]
   },
@@ -1933,7 +1956,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "affordable drones",
       "beginner drone with camera"
     ],
-    "wordCount": 963,
+    "wordCount": 984,
     "faq": [
       {
         "q": "What is the best drone for a complete beginner in Australia?",
@@ -1982,7 +2005,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji mini 4 pro",
       "dji flip vs neo"
     ],
-    "wordCount": 823,
+    "wordCount": 844,
     "faq": [
       {
         "q": "Is the DJI Flip better than the DJI Neo 2?",
@@ -2033,7 +2056,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "thermal imaging camera",
       "drone with thermal camera"
     ],
-    "wordCount": 1975,
+    "wordCount": 1990,
     "faq": [
       {
         "q": "What is the best thermal drone in Australia?",
@@ -2255,7 +2278,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji mini 4 pro",
       "dji mavic 3 pro"
     ],
-    "wordCount": 781,
+    "wordCount": 801,
     "faq": [
       {
         "q": "Which DJI drone is best for most people?",
@@ -2334,8 +2357,8 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "subtitle": "An introduction to spraying drones and multispectral crop monitoring for Australian farms.",
     "date": "July 2026",
     "dateISO": "2026-07-01",
-    "modifiedISO": "2026-10-18",
-    "readTime": "8 min read",
+    "modifiedISO": "2026-11-16",
+    "readTime": "11 min read",
     "author": "Agriculture Systems Lead",
     "tags": [
       "Spraying Drones",
@@ -2356,7 +2379,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "crop spraying drone",
       "multispectral drone"
     ],
-    "wordCount": 849,
+    "wordCount": 1801,
     "faq": [
       {
         "q": "Which DJI Agras is best for a small farm?",
@@ -2369,6 +2392,18 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       {
         "q": "What else do I need besides the drone?",
         "a": "Plan for spare batteries, a fast charger or power supply, a generator for the field and the right nozzle or spreader package. We can quote the whole system."
+      },
+      {
+        "q": "How many hectares does one spray drone tank cover?",
+        "a": "Divide the tank volume by the application rate on the product label. At an example rate of 15 L/ha, a 40 L Agras T50 tank treats about 2.7 ha and a 100 L Agras T100 tank about 6.7 ha."
+      },
+      {
+        "q": "How windy is too windy for a spray drone?",
+        "a": "DJI lists a wind limit of 6 m/s for the Agras T25P, T50, T70P and T100. Spray drift is also governed by the product label, so check the label as well as the forecast."
+      },
+      {
+        "q": "Which Agras has the lowest aircraft price per litre of tank?",
+        "a": "On our listed prices the Agras T70P, at about $291 per litre of tank for the aircraft alone, followed by the T100 at about $304. Batteries and chargers are extra unless your package includes them."
       }
     ]
   }
