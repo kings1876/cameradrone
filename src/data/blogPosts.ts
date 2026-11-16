@@ -104,8 +104,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'The Neo 2 comes in four kits. Here is what is in each one and who should buy which.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-18',
-    readTime: '6 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '9 min read',
     author: 'Flight Operations Team',
     tags: ['DJI Neo 2', 'Fly More Combo', 'Accessories'],
     excerpt: 'Confused by the DJI Neo 2 kits? We explain the drone-only, Fly More Combo, RC-N3 and Motion Fly More Combo options and who each one suits.',
@@ -126,6 +126,22 @@ export const BLOG_POSTS: BlogPost[] = [
           ['[DJI Neo 2 Motion Fly More Combo](/product/dji-neo-2-motion-fly-more-combo)', 'Aircraft, Goggles N3, motion controller, extra batteries', 'Motion controller', 'Immersive hand-motion flying']
         ]
       } },
+      { h2: 'Neo 2 published specifications' },
+      { table: {
+        head: ['Specification', 'DJI figure'],
+        rows: [
+          ['Weight', '151 g, or 160 g with the Digital Transceiver'],
+          ['Flight time', 'About 19 min, or about 17 min with the propeller guards'],
+          ['Battery', '1,606 mAh, about 46 g'],
+          ['Charge time', 'About 70 min in the aircraft, or about 68 min for three batteries in the Two-Way Charging Hub'],
+          ['Camera', '1/2-inch CMOS, 12 MP photos, 4K at 30, 50 and 60 fps, with a 100 fps slow-motion setting that needs a motion or remote controller'],
+          ['Obstacle sensing', 'Omnidirectional monocular vision, downward infrared and forward LiDAR'],
+          ['Speed', '8 m/s in Normal mode, 12 m/s in Sport mode'],
+          ['Maximum wind', '10.7 m/s (Level 5), about 39 km/h'],
+          ['Operating temperature', '-10 to 40°C']
+        ]
+      } },
+      'Both weights are under 250 g. At about 19 minutes per battery, a one-hour session needs four batteries, and four also covers the 17 minutes you get with the propeller guards. At 12 m/s in Sport mode against a 10.7 m/s wind limit, the Neo 2 has little speed to spare in a strong headwind, so choose calm days for your first flights.',
       { h2: 'Drone only: the simplest start' },
       'The drone-only kit gives you the aircraft and its battery, with no controller included. It is the cheapest way in and suits people who will fly with the app on their phone and only need short sessions. Be aware that one battery means a single 19-minute flight at most, so most owners add a spare [Neo 2 battery](/product/dji-neo-2-intelligent-flight-battery) soon after.',
       { h2: 'Neo 2 Fly More Combo (drone only)' },
@@ -134,6 +150,18 @@ export const BLOG_POSTS: BlogPost[] = [
       'The [Neo 2 Fly More Combo with the DJI RC-N3](/product/dji-neo-2-fly-more-combo-dji-rc-n3) is our recommended Neo 2 kit. It includes the RC-N3 controller, a digital transceiver and extra batteries, so you get proper stick control, a stronger link and plenty of flight time in one box. The RC-N3 uses your smartphone as the screen. The digital transceiver is what connects the Neo 2 to compatible controllers and goggles, and you can also buy it separately as the [DJI Neo 2 Digital Transceiver](/product/dji-neo-2-digital-transceiver).',
       { h2: 'Neo 2 Motion Fly More Combo' },
       'The [Motion Fly More Combo](/product/dji-neo-2-motion-fly-more-combo) adds Goggles N3, a motion controller and extra batteries. You steer by moving your hand, which makes immersive flying simple for beginners. Choose it if the first-person view is what attracts you to the Neo 2. See also our [FPV guide](/blog/dji-avata-360-vs-avata-2-fpv-drone-guide) for goggles and controllers.',
+      { h2: 'The price sums behind each kit' },
+      { table: {
+        head: ['Kit', 'Price (AUD)', 'Step from the kit above'],
+        rows: [
+          ['Drone only', '$409', 'Starting point'],
+          ['Fly More Combo (drone only)', '$549', '+$140'],
+          ['Fly More Combo (RC-N3)', '$709', '+$160'],
+          ['Motion Fly More Combo', '$989', '+$280']
+        ]
+      } },
+      'Buying the parts separately shows what each step gives you. The [DJI RC-N3](/product/dji-rc-n3-remote-controller) is $165 and the [Digital Transceiver](/product/dji-neo-2-digital-transceiver) is $59, together $224, while the step from the drone-only Fly More Combo to the RC-N3 combo is $160. Check the product page that the battery sets match, but on these prices the RC-N3 combo is the cheaper way to get a controller. The Motion kit swaps the RC-N3 for [Goggles N3](/product/dji-goggles-n3) ($359) and the [RC Motion 3](/product/dji-rc-motion-3) ($139), $498 separately, and costs $280 more than the RC-N3 combo.',
+      'Spare parts are priced separately: a [battery](/product/dji-neo-2-intelligent-flight-battery) is $129, which is about $6.79 per rated minute of flight, the [two-way charging hub](/product/dji-neo-2-two-way-charging-hub) is $79 and a set of [propellers](/product/dji-neo-2-propellers) is $24.',
       { h2: 'Accessories to add' },
       { ul: [
         'Spare [Neo 2 batteries](/product/dji-neo-2-intelligent-flight-battery) for longer sessions.',
@@ -142,6 +170,16 @@ export const BLOG_POSTS: BlogPost[] = [
         'A [controller or goggles](/category/batteries/controllers-and-goggles) if your kit did not include one.'
       ] },
       'Browse everything in [DJI Neo and FPV](/category/camera-drones/dji-neo-and-fpv). Our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) explains how to look after them.',
+      { h2: 'Planning a flying day' },
+      { table: {
+        head: ['Session', 'Rated airtime needed', 'Batteries needed'],
+        rows: [
+          ['A short shoot', '30 minutes', '2'],
+          ['A family event or an afternoon', '1 hour', '4'],
+          ['A full day of content', '2 hours', '7']
+        ]
+      } },
+      'The counts divide the airtime by the DJI rated 19 minutes per battery and round up, and they assume you recharge nothing in between. The hub charges three batteries in about 68 minutes, so a two-hour day with seven batteries needs about two and a half hub cycles. Real flights are shorter than the rated time, so add a battery to each session if you fly in wind.',
       { h2: 'Buying a Neo 2 kit from us' },
       'Every Neo 2 kit we sell is genuine Australian stock with the manufacturer warranty and Australian Consumer Law guarantees. Shipping is free across Australia, unopened hardware can be returned within 30 days and crypto payments get a 10% discount at checkout. If you are unsure which kit suits your plans, [contact us](/contact) and we will help you choose before you order.',
       { h2: 'Which Neo 2 kit should you buy?' },
@@ -155,7 +193,10 @@ export const BLOG_POSTS: BlogPost[] = [
       { faq: [
         { q: 'Does the DJI Neo 2 come with a controller?', a: 'Only some kits. The drone-only and the drone-only Fly More Combo have no controller, the RC-N3 combo includes one and the Motion combo includes a motion controller and goggles.' },
         { q: 'How long does a DJI Neo 2 battery last?', a: 'Up to about 19 minutes per battery, which is why the Fly More Combos with extra batteries are popular.' },
-        { q: 'Do I need the digital transceiver?', a: 'You need it to connect the Neo 2 to compatible controllers and goggles. The RC-N3 combo includes one, and you can also buy it separately.' }
+        { q: 'Do I need the digital transceiver?', a: 'You need it to connect the Neo 2 to compatible controllers and goggles. The RC-N3 combo includes one, and you can also buy it separately.' },
+        { q: 'How many Neo 2 batteries do I need for an hour of flying?', a: 'Four, at the DJI rated 19 minutes each, and four also covers the 17 minutes you get with the propeller guards. Real flights are shorter than the rated time, so many owners add a fifth.' },
+        { q: 'Can the Neo 2 fly in wind?', a: 'DJI lists 10.7 m/s (Level 5), about 39 km/h, as the maximum wind. Its top speed is 12 m/s in Sport mode, so a strong headwind leaves little margin to fly back.' },
+        { q: 'Is the RC-N3 combo cheaper than buying the parts?', a: 'On our prices the step from the drone-only Fly More Combo to the RC-N3 combo is $160, while the RC-N3 and Digital Transceiver cost $224 separately, provided the battery sets match.' }
       ] }
     ],
     targetKeywords: ['dji neo 2', 'dji neo 2 review', 'dji neo2 fly more combo', 'dji neo 2 motion fly more combo', 'dji neo 2 digital transceiver', 'dji neo 2 battery']
@@ -408,6 +449,34 @@ export const BLOG_POSTS: BlogPost[] = [
         ]
       } },
       'Our buying guides for the [Mini 5 Pro](/blog/buy-dji-mini-5-pro-australia-combos-prices), [Mini 4 Pro](/blog/buy-dji-mini-4-pro-australia-combos-batteries-accessories), [Air 3S](/blog/buy-dji-air-3s-australia-combos-vs-air-3), [Flip](/blog/buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro) and [Mavic 4 Pro and Mavic 3 Pro](/blog/buy-dji-mavic-australia-mavic-4-pro-vs-mavic-3-pro) compare the combos in full.',
+      { h2: 'RC 2 and RC Pro: the published specifications' },
+      'The two screen controllers look similar on paper, so this table sets out the figures from the DJI specification page for each.',
+      { table: {
+        head: ['Specification', 'DJI RC 2', 'DJI RC Pro'],
+        rows: [
+          ['Screen', '5.5 inch, 1920×1080, 700 nits', '5.5 inch, 1920×1080, 1,000 nits'],
+          ['Maximum operating time', '3 hours (tested with an Air 3 at 25°C)', '3 hours'],
+          ['Battery', '22.32 Wh (two 3,100 mAh cells)', '5,000 mAh at 7.2 V, about 36 Wh'],
+          ['Charging time', '1.5 hours with a 9V/3A charger', '2 hours at 12 V, 1.5 hours at 15 V'],
+          ['Weight', 'About 420 g', 'About 680 g'],
+          ['Storage', '32 GB plus microSD (about 21 GB available)', '32 GB plus microSD'],
+          ['Operating temperature', '-10 to 40°C', '-10 to 40°C'],
+          ['Price (AUD)', '$549', '$1,529']
+        ]
+      } },
+      'The RC Pro is 300 nits brighter, about 43% more, and about 260 g heavier, and it costs $980 more. Both run for about three hours, so the extra money buys sunlight readability, not battery life. The 36 Wh figure for the RC Pro is calculated from DJI capacity and voltage. DJI lists compatible aircraft on each controller page, and those lists can lag behind newer aircraft, so use the controller DJI pairs with your aircraft in its combo.',
+      { h2: 'What upgrading to the RC 2 costs inside a combo' },
+      'Several aircraft are sold with either the RC-N3 or the RC 2, which lets you see what the screen controller costs in a kit. On its own the RC 2 is $384 more than the RC-N3 ($549 against $165).',
+      { table: {
+        head: ['Aircraft', 'With RC-N3 (AUD)', 'With RC 2 (AUD)', 'Extra for the RC 2'],
+        rows: [
+          ['[Lito X1 Fly More Combo](/product/dji-lito-x1-fly-more-combo-dji-rc-n3)', '$899', '$1,069', '$170'],
+          ['[Flip](/product/dji-flip-dji-rc-n3)', '$559', '$759', '$200'],
+          ['[Mini 5 Pro Fly More Combo](/product/dji-mini-5-pro-fly-more-combo-dji-rc-n3)', '$1,419', '$1,699', '$280'],
+          ['[Air 3S Fly More Combo](/product/dji-air-3s-fly-more-combo-dji-rc-n3)', '$2,129', '$2,429', '$300']
+        ]
+      } },
+      'In every case the RC 2 costs $170 to $300 more inside the kit, against $384 more when you buy the two controllers separately. If you want a screen controller, choosing it with the aircraft is the cheaper route. Check each product page, because the contents of the two versions of a kit should otherwise match.',
       { h2: 'DJI controller prices in Australia' },
       'Prices for controllers sold on their own. All prices are in Australian dollars.',
       { table: {
@@ -443,7 +512,10 @@ export const BLOG_POSTS: BlogPost[] = [
         { q: 'Can I use any DJI controller with any drone?', a: 'No. Each controller works with specific aircraft, so check the compatibility on the product page before you buy.' },
         { q: 'What are the types of DJI controllers?', a: 'There are four main types: phone-based controllers such as the RC-N3, controllers with a built-in screen such as the RC 2 and RC, high-bright professional controllers such as the RC Pro and RC Plus, and motion and FPV controllers used with goggles.' },
         { q: 'How do I know which DJI controller works with my drone?', a: 'Use the controller DJI pairs with your aircraft in its combo, and check the compatibility on the product page. Send us your aircraft model through the contact page and we will confirm which controller fits.' },
-        { q: 'Which controller is best for FPV?', a: 'For immersive flying with goggles, a motion controller is the easiest to learn, and the FPV Remote Controller 3 gives stick control for manual flying.' }
+        { q: 'Which controller is best for FPV?', a: 'For immersive flying with goggles, a motion controller is the easiest to learn, and the FPV Remote Controller 3 gives stick control for manual flying.' },
+        { q: 'How long does the DJI RC 2 battery last?', a: 'DJI lists a maximum operating time of 3 hours, tested at 25°C with an Air 3 in normal flight. The battery is 22.32 Wh and takes about 1.5 hours to charge with a 9V/3A charger.' },
+        { q: 'How much brighter is the RC Pro than the RC 2?', a: 'DJI lists 1,000 nits for the RC Pro and 700 nits for the RC 2, about 43% brighter, on the same 5.5 inch 1080p screen size. The RC Pro costs $1,529 against $549 for the RC 2.' },
+        { q: 'Is the RC 2 cheaper in a combo than on its own?', a: 'Yes. On our prices the RC 2 adds $170 to $300 inside a combo, against $384 more than the RC-N3 when you buy the controllers separately.' }
       ] }
     ],
     targetKeywords: ['rc drone', 'remote dji', 'rc dji', 'uav controller', 'dji fpv controller 3', 'fpv controller']
@@ -561,8 +633,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'A practical checklist for buying a second hand drone, and when buying new is the safer choice.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-18',
-    readTime: '7 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '10 min read',
     author: 'Flight Operations Team',
     tags: ['Used Drones', 'Buying Guide', 'Warranty'],
     excerpt: 'Used drones for sale can look like a bargain, but condition and warranty matter. Here is what to check and when buying a new drone is the better deal.',
@@ -596,6 +668,47 @@ export const BLOG_POSTS: BlogPost[] = [
         '**Update the firmware** and make sure all the accessories are included.'
       ] },
       'If anything feels wrong, walk away. A cheap second hand drone is not a bargain if it cannot fly safely.',
+      { h2: 'What worn batteries cost to replace' },
+      'Batteries are the hidden cost, so work out what a replacement set costs before you agree a price. This table uses our current prices for the aircraft and for two spare batteries.',
+      { table: {
+        head: ['Model', 'New price (AUD)', 'Spare battery (AUD)', 'Two batteries as a share of the new price'],
+        rows: [
+          ['[Mini 5 Pro with RC-N3](/product/dji-mini-5-pro-dji-rc-n3)', '$1,119', '$99', 'about 18%'],
+          ['[Mavic 4 Pro with RC 2](/product/dji-mavic-4-pro-dji-rc-2)', '$3,099', '$279', 'about 18%'],
+          ['[Mini 4 Pro](/product/dji-mini-4-pro)', '$949', '$99', 'about 21%'],
+          ['[Air 3S with RC-N3](/product/dji-air-3s-dji-rc-n3)', '$1,699', '$219', 'about 26%'],
+          ['[Flip with RC-N3](/product/dji-flip-dji-rc-n3)', '$559', '$99', 'about 35%'],
+          ['[Neo 2](/product/dji-neo-2-drone-only)', '$409', '$129', 'about 63%']
+        ]
+      } },
+      'If a used aircraft is priced only a little below new, replacing its batteries can wipe out the saving. As an example, a used Air 3S offered at $1,200 is $499 below the new price of $1,699, but two new batteries cost $438, which leaves a saving of $61 for an aircraft with no warranty.',
+      { h2: 'What a worn battery does to flight time' },
+      'Battery wear shortens flights. This illustration scales the DJI rated flight time to 80% and 70% of capacity. Flight time does not fall in exact proportion to capacity, so treat the figures as a guide.',
+      { table: {
+        head: ['Model', 'Rated flight time', 'At 80% of capacity', 'At 70% of capacity'],
+        rows: [
+          ['Mini 4 Pro', '34 min', 'about 27 min', 'about 24 min'],
+          ['Air 3S', '45 min', 'about 36 min', 'about 32 min'],
+          ['Mavic 4 Pro', '51 min', 'about 41 min', 'about 36 min'],
+          ['Neo 2', '19 min', 'about 15 min', 'about 13 min']
+        ]
+      } },
+      'Ask the seller to show the battery information screen in the DJI app, and test every battery in a real flight: a pack that lands on warnings after a few minutes is one to price as a replacement.',
+      { h2: 'What a new Fly More Combo saves' },
+      'Buying new with a combo can close the gap. On our prices the [DJI Flip Fly More Combo with RC 2](/product/dji-flip-fly-more-combo-dji-rc-2) is $919, while the Flip with RC 2 ($759), two spare batteries ($99 each) and a charging hub ($69) cost $1,026 separately, so the combo saves $107. The original [Neo Fly More Combo](/product/dji-neo-fly-more-combo) is $459 against $532 for the parts, a saving of $73.',
+      { h2: 'Missing accessories add up' },
+      'A used listing often leaves out the controller, the charger or the hub. This table shows what the common ones cost new, so you can add them to the used price before you compare.',
+      { table: {
+        head: ['Item', 'Price (AUD)'],
+        rows: [
+          ['[DJI RC-N3 controller](/product/dji-rc-n3-remote-controller)', '$165'],
+          ['[DJI RC 2 controller](/product/dji-rc-2-remote-controller)', '$549'],
+          ['[Neo 2 Digital Transceiver](/product/dji-neo-2-digital-transceiver)', '$59'],
+          ['[DJI 65W portable charger](/product/dji-65w-portable-charger)', '$49'],
+          ['[Air 3 series charging hub](/product/dji-air-3-series-battery-charging-hub)', '$129']
+        ]
+      } },
+      'A used aircraft sold without its controller costs you $165 for an RC-N3 or $549 for an RC 2 on top of the price. Add that to the used price before you compare it with a new kit.',
       { h2: 'Your rights when you buy used' },
       'Under the Australian Consumer Law, consumer guarantees generally apply to goods bought from a business, but private sales are usually not covered in the same way. That means a faulty drone bought from a stranger may leave you with little recourse. Buying from a retailer gives you the manufacturer warranty and ACL guarantees. Check the ACCC website for the details that apply to your purchase.',
       { h2: 'When buying new is the better deal' },
@@ -611,7 +724,10 @@ export const BLOG_POSTS: BlogPost[] = [
       { faq: [
         { q: 'Is it safe to buy a second hand drone?', a: 'It can be, if you check the serial number, the battery condition, the gimbal and body and take a test flight. Without a warranty, the risk is higher than buying new.' },
         { q: 'Do second hand drones have a warranty in Australia?', a: 'Often not. Consumer guarantees generally apply to goods bought from a business, but private sales are usually not covered in the same way.' },
-        { q: 'What is the biggest hidden cost of a used drone?', a: 'Batteries. Worn batteries cut flight time, and replacements can add a lot to the real price.' }
+        { q: 'What is the biggest hidden cost of a used drone?', a: 'Batteries. Worn batteries cut flight time, and replacements can add a lot to the real price.' },
+        { q: 'How much does a replacement drone battery cost?', a: 'On our prices a spare battery is $99 for the Mini 4 Pro and Mini 5 Pro, $219 for the Air 3S and $279 for the Mavic 4 Pro. Price two replacements before you agree a used price.' },
+        { q: 'How much flight time does a worn battery lose?', a: 'It varies by battery. As an illustration, if a pack held 80% of its capacity, a Mini 4 Pro rated for 34 minutes might give roughly 27 minutes, so test every battery in the air.' },
+        { q: 'Is a used Air 3S at $1,200 a good deal?', a: 'Against a new price of $1,699 the gap is $499, and two new batteries cost $438, so the real saving can be small once you allow for worn packs and no warranty. The price is an example, not a listing.' }
       ] }
     ],
     targetKeywords: ['used drones for sale', 'second hand drones for sale', 'second hand drone', '2nd hand drones for sale']
@@ -626,8 +742,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'How to choose a first drone without overspending, and which DJI models suit new pilots best.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-18',
-    readTime: '7 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '10 min read',
     author: 'Flight Operations Team',
     tags: ['Drones for Beginners', 'Affordable Drones', 'DJI'],
     excerpt: 'Choosing your first drone? We compare five of the best drones for beginners in Australia by weight, camera, flight time and how forgiving they are to fly.',
@@ -650,12 +766,36 @@ export const BLOG_POSTS: BlogPost[] = [
         head: ['Drone', 'Weight', 'Camera and video', 'Flight time', 'Best for'],
         rows: [
           ['[DJI Mini 4K](/product/dji-mini-4k)', 'Under 250 g', '4K, 3-axis gimbal', 'See product page', 'Lowest-cost first drone'],
-          ['[DJI Lito 1](/product/dji-lito-1)', 'Under 249 g', '1/2-inch sensor, 4K up to 60 fps', 'See product page', 'Easy flying with obstacle sensing'],
+          ['[DJI Lito 1](/product/dji-lito-1)', 'Under 249 g', '1/2-inch sensor, 4K up to 60 fps', 'Up to 36 min', 'Easy flying with obstacle sensing'],
           ['[DJI Neo 2](/product/dji-neo-2-drone-only)', 'About 151 g', '4K up to 60 fps', 'Up to about 19 min', 'Selfies and follow-me shots'],
           ['[DJI Flip](/product/dji-flip-dji-rc-n3)', 'About 249 g', '1/1.3-inch 48 MP, 4K up to 60 fps', 'Up to 31 min', 'Travel and vlogging'],
           ['[DJI Mini 4 Pro](/product/dji-mini-4-pro)', 'Under 249 g', '1/1.3-inch 48 MP, 4K up to 100 fps', 'Up to 34 min', 'A first drone you will not outgrow']
         ]
       } },
+      { h2: 'Published specifications for the beginner picks' },
+      'These figures come from the DJI specification pages and our current prices. DJI measures flight time in a wind tunnel, so real flights are shorter.',
+      { table: {
+        head: ['Drone', 'Weight', 'Flight time', 'Maximum wind', 'Obstacle sensing', 'Price (AUD)'],
+        rows: [
+          ['[DJI Lito 1](/product/dji-lito-1)', 'About 249 g', '36 min, or 52 min with the Plus battery', '10.7 m/s', 'Forward 0.5 to 20 m, other directions 0.5 to 15 m', '$539'],
+          ['[DJI Neo 2](/product/dji-neo-2-drone-only)', '151 g', '19 min', '10.7 m/s', 'Omnidirectional vision with forward LiDAR', '$409'],
+          ['[DJI Flip](/product/dji-flip-dji-rc-n3)', 'Under 249 g', '31 min', '10.7 m/s', 'Forward infrared 0.3 to 8 m and downward vision', '$559 with RC-N3'],
+          ['[DJI Mini 4 Pro](/product/dji-mini-4-pro)', 'Under 249 g', '34 min, or 45 min with the Plus battery', '10.7 m/s', 'Omnidirectional, forward 0.5 to 18 m', '$949'],
+          ['[DJI Mini 4K](/product/dji-mini-4k)', 'Under 250 g', 'See the product page', 'See the product page', 'See the product page', '$449']
+        ]
+      } },
+      'Every aircraft with a published figure lists 10.7 m/s, about 39 km/h, as the maximum wind, so a breezy day is a day to practise on the ground. The Flip is the one to watch for obstacles: DJI lists forward infrared sensing out to 8 m and downward vision, not the all-round sensing of the Mini 4 Pro or the Lito 1. The Lito 1 lists 0 to 40°C as its operating range, against -10 to 40°C for the others.',
+      { h2: 'What the batteries cost to run' },
+      { table: {
+        head: ['Drone', 'Spare battery (AUD)', 'Rated flight time', 'Price per rated minute'],
+        rows: [
+          ['[Lito 1](/product/dji-lito-1-intelligent-flight-battery)', '$79', '36 min', 'about $2.19'],
+          ['[Mini 4 Pro](/product/dji-mini-4-pro-intelligent-flight-battery)', '$99', '34 min', 'about $2.91'],
+          ['[Flip](/product/dji-flip-intelligent-flight-battery)', '$99', '31 min', 'about $3.19'],
+          ['[Neo 2](/product/dji-neo-2-intelligent-flight-battery)', '$129', '19 min', 'about $6.79']
+        ]
+      } },
+      'A battery is the cost you pay again and again. The Lito 1 has the lowest cost per rated minute of the four and the Neo 2 the highest, which is the price of a palm-sized aircraft with a small battery.',
       { h2: 'DJI Mini 4K: the simplest affordable drone' },
       'The [DJI Mini 4K](/product/dji-mini-4k) is the entry point for beginners who want a real camera drone without a big spend. It stays under 250 g, records 4K video on a 3-axis gimbal, and the [Fly More Combo](/product/dji-mini-4k-fly-more-combo) adds extra batteries so you can keep flying. If budget is the main concern, start here.',
       { h2: 'DJI Lito 1: forgiving and easy to fly' },
@@ -666,6 +806,18 @@ export const BLOG_POSTS: BlogPost[] = [
       'The [DJI Flip](/product/dji-flip-dji-rc-n3) has a 1/1.3-inch 48 MP sensor, 4K up to 60 fps and up to 31 minutes of flight at about 249 g. The foldable design suits backpacks and holiday luggage, and it comes with the DJI RC-N3 controller that uses your smartphone as the screen.',
       { h2: 'DJI Mini 4 Pro: the one you will not outgrow' },
       'If you can stretch the budget, the [DJI Mini 4 Pro](/product/dji-mini-4-pro) is the best-value step up. It records 4K up to 100 fps with 10-bit D-Log M and HLG, offers up to 34 minutes of flight, senses obstacles in every direction and transmits video with DJI O4. It is also available with the [RC 2 controller](/product/dji-mini-4-pro-rc-2) and in [Fly More Combos](/product/dji-mini-4-pro-fly-more-combo). Our [Mini 4 Pro buying guide](/blog/buy-dji-mini-4-pro-australia-combos-batteries-accessories) covers the combos, batteries and accessories in more detail.',
+      { h2: 'Fly More Combo prices' },
+      { table: {
+        head: ['Combo', 'Price (AUD)'],
+        rows: [
+          ['[DJI Mini 4K Fly More Combo](/product/dji-mini-4k-fly-more-combo)', '$619'],
+          ['[DJI Neo 2 Fly More Combo with RC-N3](/product/dji-neo-2-fly-more-combo-dji-rc-n3)', '$709'],
+          ['[DJI Lito 1 Fly More Combo with RC-N3](/product/dji-lito-1-fly-more-combo-dji-rc-n3)', '$779'],
+          ['[DJI Flip Fly More Combo with RC 2](/product/dji-flip-fly-more-combo-dji-rc-2)', '$919'],
+          ['[DJI Mini 4 Pro Fly More Combo](/product/dji-mini-4-pro-fly-more-combo)', '$1,449']
+        ]
+      } },
+      'The controller differs between these combos, so compare what is in each box on the product page before you choose by price alone.',
       { h2: 'What to buy with your first drone' },
       { ul: [
         'A **Fly More Combo** or [spare batteries](/category/batteries/drone-batteries) so a flying session is not cut short.',
@@ -680,7 +832,10 @@ export const BLOG_POSTS: BlogPost[] = [
       { faq: [
         { q: 'What is the best drone for a complete beginner in Australia?', a: 'For most beginners the DJI Lito 1 or DJI Mini 4K is the easiest start, and the DJI Neo 2 suits selfies and follow-me shots. If you can spend more, the DJI Mini 4 Pro is the one you will not outgrow.' },
         { q: 'Do I need to register a drone under 250 g in Australia?', a: 'Recreational flying with a drone under 250 g does not need CASA registration or a licence, but you must still follow the standard operating conditions. Check the CASA website for the latest rules.' },
-        { q: 'Is a Fly More Combo worth it for a first drone?', a: 'Usually yes. The extra batteries and charging hub let you fly longer and practise more, and a combo is normally cheaper than buying the parts separately.' }
+        { q: 'Is a Fly More Combo worth it for a first drone?', a: 'Usually yes. The extra batteries and charging hub let you fly longer and practise more, and a combo is normally cheaper than buying the parts separately.' },
+        { q: 'How windy is too windy for a beginner drone?', a: 'DJI lists 10.7 m/s, about 39 km/h, as the maximum wind for the Lito 1, Neo 2, Flip and Mini 4 Pro. As a beginner, stay well below that and practise on calm days.' },
+        { q: 'Which beginner drone has the cheapest batteries?', a: 'On our prices and the DJI rated flight times, the Lito 1: its $79 battery works out at about $2.19 per rated minute, against about $2.91 for the Mini 4 Pro and about $6.79 for the Neo 2.' },
+        { q: 'Does the DJI Flip have obstacle sensing?', a: 'DJI lists forward 3D infrared sensing from 0.3 to 8 m and downward vision, so it senses less than the Mini 4 Pro, which lists omnidirectional sensing. Fly it in open space.' }
       ] }
     ],
     targetKeywords: ['best drones for beginners australia', 'drones for beginners', 'affordable drones', 'beginner drone with camera']
@@ -695,8 +850,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'Three small DJI drones, three different jobs. Here is how they compare and who each one suits.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-18',
-    readTime: '6 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '9 min read',
     author: 'Flight Operations Team',
     tags: ['DJI Neo 2', 'DJI Flip', 'DJI Mini 4 Pro'],
     excerpt: 'The DJI Neo 2, DJI Flip and DJI Mini 4 Pro are all small, easy to carry and sub-250 g class. Here is the difference in camera, flight time and use case.',
@@ -713,7 +868,7 @@ export const BLOG_POSTS: BlogPost[] = [
           ['Camera sensor', 'Compact, 4K up to 60 fps', '1/1.3-inch CMOS, 48 MP', '1/1.3-inch CMOS, 48 MP'],
           ['Best video', '4K up to 60 fps', '4K up to 60 fps', '4K up to 100 fps, 10-bit D-Log M and HLG'],
           ['Max flight time', 'Up to about 19 min', 'Up to 31 min', 'Up to 34 min'],
-          ['Obstacle sensing', 'Omnidirectional', 'See product page', 'Omnidirectional'],
+          ['Obstacle sensing', 'Omnidirectional', 'Forward infrared and downward vision', 'Omnidirectional'],
           ['Controller options', 'Drone only, RC-N3 or motion kits', 'DJI RC-N3 or RC 2', 'See product pages for kits']
         ]
       } },
@@ -723,6 +878,31 @@ export const BLOG_POSTS: BlogPost[] = [
       'In the DJI Flip vs Neo question, the Flip wins on camera and flight time while the Neo 2 wins on size and simplicity. The [DJI Flip](/product/dji-flip-dji-rc-n3) sits between the two. It has the same 1/1.3-inch 48 MP class sensor as the Mini 4 Pro, a foldable body at about 249 g and up to 31 minutes of flight. It is the best match for travellers and vloggers who want a proper camera without the price of a pro drone. It is available with the [DJI RC 2](/product/dji-flip-dji-rc-2) and as a [Fly More Combo](/product/dji-flip-fly-more-combo-dji-rc-2).',
       { h2: 'DJI Mini 4 Pro: the most capable of the three' },
       'The [DJI Mini 4 Pro](/product/dji-mini-4-pro) is the one for people who care about image quality and range. It records 4K up to 100 fps with 10-bit D-Log M and HLG for grading, flies for up to 34 minutes, handles winds up to 10.7 m/s and transmits video with DJI O4. It stays under 249 g, so it remains easy to carry. See all [DJI Mini and Air drones](/category/camera-drones/dji-mini-and-air).',
+      { h2: 'Published specifications side by side' },
+      'These figures come from the DJI specification page for each aircraft and our current prices.',
+      { table: {
+        head: ['Specification', 'DJI Neo 2', 'DJI Flip', 'DJI Mini 4 Pro'],
+        rows: [
+          ['Weight', '151 g, or 160 g with the Digital Transceiver', 'Under 249 g', 'Under 249 g'],
+          ['Rated flight time', '19 min, or 17 min with propeller guards', '31 min', '34 min, or 45 min with the Plus battery'],
+          ['Battery', '1,606 mAh', '3,110 mAh', '2,590 mAh (Plus 3,850 mAh)'],
+          ['Charge time for one battery', 'About 70 min in the aircraft', 'About 70 min in the aircraft, about 45 min in the hub', '70 min in the aircraft, 58 min in the hub'],
+          ['Sensor', '1/2-inch CMOS', '1/1.3-inch CMOS', '1/1.3-inch CMOS, 48 MP'],
+          ['Obstacle sensing', 'Omnidirectional vision with forward LiDAR', 'Forward infrared 0.3 to 8 m, downward vision', 'Omnidirectional binocular vision, forward 0.5 to 18 m'],
+          ['Maximum wind', '10.7 m/s', '10.7 m/s', '10.7 m/s'],
+          ['Top speed in Sport mode', '12 m/s', '12 m/s', '16 m/s'],
+          ['Price (AUD)', '$409', '$559 with RC-N3', '$949']
+        ]
+      } },
+      'Two sums come out of this table. The Neo 2 battery is $129 for a rated 19 minutes, about $6.79 per minute, against $99 for 34 minutes on the Mini 4 Pro, about $2.91 per minute, so the smallest drone has the dearest flying time, about 2.3 times as much. And top speed matters in wind: the Neo 2 and Flip reach 12 m/s in Sport mode against a 10.7 m/s wind limit, which would leave about 1.3 m/s over the ground flying into a limit-strength headwind, while the Mini 4 Pro at 16 m/s would still make about 5.3 m/s. Treat that as an illustration, not as a guide to flying in strong wind.',
+      { table: {
+        head: ['Drone', 'Fly More Combo (AUD)', 'Spare battery (AUD)', 'Charging hub (AUD)'],
+        rows: [
+          ['[DJI Neo 2](/product/dji-neo-2-fly-more-combo-dji-rc-n3)', '$709 with RC-N3', '$129', '$79'],
+          ['[DJI Flip](/product/dji-flip-fly-more-combo-dji-rc-2)', '$919 with RC 2', '$99', '$69'],
+          ['[DJI Mini 4 Pro](/product/dji-mini-4-pro-fly-more-combo)', '$1,449', '$99', '$69']
+        ]
+      } },
       { h2: 'Which should you buy?' },
       { ul: [
         '**Choose the DJI Neo 2** if you want the smallest, simplest and most affordable option for quick shots.',
@@ -730,6 +910,7 @@ export const BLOG_POSTS: BlogPost[] = [
         '**Choose the DJI Mini 4 Pro** if image quality, range and flight time matter most and you may want to grade your footage.'
       ] },
       'If you are still deciding, read our guide to the [best drones for beginners in Australia](/blog/best-drones-for-beginners-australia) or the wider [2026 DJI buyer guide](/blog/best-drone-for-sale-australia-2026-buyers-guide).',
+      'The Mini 4 Pro has an option the other two do not list: the [Plus battery](/product/dji-mini-4-pro-mini-3-series-intelligent-flight-battery-plus) is $149, which is $50 more than the standard $99 battery, and it adds 11 rated minutes (45 against 34). It also weighs about 121 g against 77.9 g, and DJI lists a higher takeoff weight with it, so check the weight rules where you fly before you choose it.',
       { h2: 'Quick answers by use case' },
       { ul: [
         '**Travel:** the Flip folds small and the Neo 2 fits in a pocket, so both travel well. The Mini 4 Pro adds the best image quality.',
@@ -743,7 +924,10 @@ export const BLOG_POSTS: BlogPost[] = [
       { faq: [
         { q: 'Is the DJI Flip better than the DJI Neo 2?', a: 'The DJI Flip has a larger sensor and longer flight time, so it suits travel and vlogging. The DJI Neo 2 is smaller, lighter and easier to fly, so it suits quick selfies and follow-me shots.' },
         { q: 'Is the DJI Mini 4 Pro worth the extra cost over the Flip?', a: 'If you want 4K at up to 100 fps, 10-bit colour profiles, omnidirectional sensing and up to 34 minutes of flight, yes. If you mainly want a foldable travel drone, the Flip is enough.' },
-        { q: 'Do these drones need registration in Australia?', a: 'Recreational flying under 250 g does not need CASA registration, but standard operating conditions still apply. Check the CASA website for current rules.' }
+        { q: 'Do these drones need registration in Australia?', a: 'Recreational flying under 250 g does not need CASA registration, but standard operating conditions still apply. Check the CASA website for current rules.' },
+        { q: 'Which of the three handles wind best?', a: 'DJI lists 10.7 m/s as the maximum wind for all three. The Mini 4 Pro has the most speed in Sport mode, 16 m/s against 12 m/s for the Neo 2 and Flip, so it has more margin to fly back into a headwind.' },
+        { q: 'Does the DJI Flip have all-round obstacle sensing?', a: 'No. DJI lists forward 3D infrared sensing from 0.3 to 8 m and downward vision. The Mini 4 Pro lists omnidirectional binocular vision and the Neo 2 omnidirectional vision with forward LiDAR.' },
+        { q: 'Which of the three costs the least to keep flying?', a: 'On our prices and the DJI rated flight times, the Mini 4 Pro battery is about $2.91 per rated minute, the Flip about $3.19 and the Neo 2 about $6.79.' }
       ] }
     ],
     targetKeywords: ['dji neo 2', 'dji flip', 'dji mini 4 pro', 'dji flip vs neo']
@@ -886,8 +1070,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'Two cinewhoop-style DJI FPV drones with very different cameras. Here is how to choose, and what goes in the box.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-18',
-    readTime: '6 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '9 min read',
     author: 'Flight Operations Team',
     tags: ['DJI Avata 360', 'DJI Avata 2', 'FPV Drones'],
     excerpt: 'The DJI Avata 360 records 8K 360-degree video, while the DJI Avata 2 is a proven 4K FPV drone. We compare them and explain the goggles and combo choices.',
@@ -904,10 +1088,28 @@ export const BLOG_POSTS: BlogPost[] = [
           ['Video', '8K 360-degree, reframe after flight', '4K up to 60 fps'],
           ['Take-off weight', 'About 455 g', 'About 377 g'],
           ['Max flight time', 'About 23 min', 'Up to 23 min'],
-          ['Obstacle sensing', 'Omnidirectional', 'See product page'],
+          ['Obstacle sensing', 'Omnidirectional', 'Downward and backward visual positioning'],
           ['Drone-only kit', 'No controller included', 'No controller included']
         ]
       } },
+      { h2: 'Published specifications compared' },
+      'These figures come from the DJI specification page for each aircraft. DJI measures flight time in a wind tunnel, so real flights are shorter.',
+      { table: {
+        head: ['Specification', 'DJI Avata 360', 'DJI Avata 2'],
+        rows: [
+          ['Camera sensors', 'Two 1/1.1-inch square CMOS sensors, 64 MP each', 'One 1/1.3-inch CMOS sensor, 12 MP'],
+          ['Best video', '360-degree 8K (7680×3840) up to 60 fps; single lens 4K up to 60 fps and 2.7K up to 120 fps', '4K at 30, 50, 60 and 100 fps'],
+          ['Photos', '360-degree up to 120 MP, with a 30 MP option', '4000×2256 or 4000×3000'],
+          ['Battery', '2,700 mAh or more, about 149 g', '2,150 mAh, about 145 g'],
+          ['Charge time for one battery', 'About 47 min in the 100W hub, about 73 min in the aircraft', 'About 45 min in the hub, about 88 min in the aircraft'],
+          ['Maximum wind', '10.7 m/s (Level 5)', '10.7 m/s (Level 5)'],
+          ['Operating temperature', '-10 to 40°C', '-10 to 40°C'],
+          ['Top speed', '18 m/s in Sport mode', '16 m/s in Sport mode, 27 m/s in Manual mode'],
+          ['Video link', 'O4+, up to 20 km (FCC) or 10 km (CE)', 'See the product page'],
+          ['Built-in storage', '42 GB', 'See the product page']
+        ]
+      } },
+      'The sensing difference matters most for a first FPV purchase. DJI lists omnidirectional vision with forward LiDAR on the Avata 360, with forward detection from 0.5 to 20 m. The Avata 2 page lists downward and backward visual positioning, with a downward range of 0.3 to 20 m and a backward range of 0.5 to 20 m, and gives no separate obstacle-avoidance specification. The Avata 2 page lists no forward obstacle sensing, so keep a clear path ahead on your early flights. Both aircraft list 10.7 m/s as the maximum wind, about 39 km/h, and both are rated for 23 minutes, so a three-battery kit gives about 69 minutes of rated flying.',
       { h2: 'DJI Avata 360: shoot first, frame later' },
       'The [DJI Avata 360](/product/dji-avata-360-drone-only) records 360-degree video with a dual-lens system at 8K and 60 fps with HDR. Because the camera captures everything around the drone, you choose the angle in editing, so you never miss the shot. It weighs about 455 g, offers about 23 minutes of flight and senses obstacles in every direction. Choose it if you want creative freedom, action footage and 360-degree content.',
       'It comes in several kits: the [drone only](/product/dji-avata-360-drone-only), with the [DJI RC 2](/product/dji-avata-360-dji-rc-2), and as a [Fly More Combo](/product/dji-avata-360-fly-more-combo-dji-rc-2) with extra batteries and a charging hub.',
@@ -915,6 +1117,21 @@ export const BLOG_POSTS: BlogPost[] = [
       'The [DJI Avata 2](/product/dji-avata-2-drone-only) has a 1/1.3-inch CMOS sensor and records 4K up to 60 fps. At about 377 g it is lighter than the Avata 360, with up to 23 minutes of flight. Choose it if you want a straightforward FPV drone, standard framed 4K footage and a lower weight. See the [Fly Smart Combo](/product/dji-avata-2-fly-smart-combo-single-battery) and [Fly More Combo](/product/dji-avata-2-fly-more-combo-three-batteries) kits.',
       { h2: 'Goggles and controllers' },
       'FPV flying needs goggles. The [DJI Goggles 3](/product/dji-goggles-3) are the premium option, while the [DJI Goggles N3](/product/dji-goggles-n3) is the lower-cost choice. Add a [DJI RC Motion 3](/product/dji-rc-motion-3) for intuitive motion flying or the [FPV Remote Controller 3](/product/dji-fpv-remote-controller-3) for stick control. Browse [controllers and goggles](/category/batteries/controllers-and-goggles).',
+      { h2: 'What each Avata kit costs' },
+      { table: {
+        head: ['Kit', 'Price (AUD)', 'What is in it'],
+        rows: [
+          ['[Avata 2 (drone only)](/product/dji-avata-2-drone-only)', '$649', 'No controller or goggles'],
+          ['[Avata 360 (drone only)](/product/dji-avata-360-drone-only)', '$799', 'The 360-degree camera adds $150 over the Avata 2 drone-only kit'],
+          ['[Avata 360 with DJI RC 2](/product/dji-avata-360-dji-rc-2)', '$1,159', 'Screen controller included'],
+          ['[Avata 360 Fly More Combo with RC 2](/product/dji-avata-360-fly-more-combo-dji-rc-2)', '$1,619', 'Extra batteries and a charging hub'],
+          ['[Avata 2 Fly Smart Combo, single battery](/product/dji-avata-2-fly-smart-combo-single-battery)', '$1,049', 'Goggles N3 and RC Motion 3'],
+          ['[Avata 2 Fly Smart Combo, three batteries](/product/dji-avata-2-fly-smart-combo-three-batteries)', '$1,279', 'Goggles N3, RC Motion 3, three batteries and a charging hub'],
+          ['[Avata 2 Fly More Combo, single battery](/product/dji-avata-2-fly-more-combo-single-battery)', '$1,269', 'Goggles 3 and RC Motion 3'],
+          ['[Avata 2 Fly More Combo, three batteries](/product/dji-avata-2-fly-more-combo-three-batteries)', '$1,559', 'Goggles 3, RC Motion 3 and three batteries']
+        ]
+      } },
+      'Two sums are worth doing before you choose. First, the goggles: the [Goggles 3](/product/dji-goggles-3) are $869 and the [Goggles N3](/product/dji-goggles-n3) are $359 on their own, a gap of $510. The single-battery Avata 2 Fly More Combo ($1,269) costs only $220 more than the single-battery Fly Smart Combo ($1,049), and it swaps the Goggles N3 for the Goggles 3, so the better goggles are cheaper inside a kit. Second, the batteries: a spare Avata battery is $119 and a charging hub is $79. The three-battery Fly Smart Combo is $230 above the single-battery kit, against $317 for two batteries and a hub bought separately, a saving of $87. At $119 for a rated 23 minutes, an Avata battery costs about $5.17 per rated minute, roughly 1.8 times the cost per minute of a Mini 4 Pro battery, so FPV flying costs more in batteries.',
       { h2: 'Building your DJI FPV drone kit' },
       { ul: [
         'The drone: [Avata 360](/product/dji-avata-360-drone-only) or [Avata 2](/product/dji-avata-2-drone-only).',
@@ -938,7 +1155,10 @@ export const BLOG_POSTS: BlogPost[] = [
       { faq: [
         { q: 'Is the DJI Avata 360 better than the DJI Avata 2?', a: 'They suit different jobs. The Avata 360 records 8K 360-degree video you can reframe, while the Avata 2 records 4K up to 60 fps in a lighter body. Choose by the footage you want.' },
         { q: 'Do I need goggles to fly the DJI Avata?', a: 'The goggles give the immersive FPV view and are part of the intended experience. Buy a combo that includes them, or add DJI Goggles 3 or Goggles N3 separately.' },
-        { q: 'How long do the Avata drones fly?', a: 'Both offer about 23 minutes per battery, so a Fly More Combo with spare batteries is worth considering.' }
+        { q: 'How long do the Avata drones fly?', a: 'Both offer about 23 minutes per battery, so a Fly More Combo with spare batteries is worth considering.' },
+        { q: 'Does the DJI Avata 2 have obstacle sensing?', a: 'DJI lists downward and backward visual positioning on the Avata 2 and gives no separate obstacle-avoidance specification, so keep a clear path ahead. The Avata 360 lists omnidirectional vision with forward LiDAR.' },
+        { q: 'What does the Avata 360 record in 360-degree mode?', a: 'DJI lists 8K (7680×3840) at up to 60 fps in 360-degree mode, and the aircraft has 42 GB of built-in storage.' },
+        { q: 'Is it cheaper to buy FPV goggles in a combo?', a: 'On our prices, yes. The Goggles 3 cost $869 on their own against $359 for the Goggles N3, but the single-battery Avata 2 Fly More Combo with the Goggles 3 is only $220 above the single-battery Fly Smart Combo with the Goggles N3.' }
       ] }
     ],
     targetKeywords: ['dji avata 360', 'dji avata 2', 'dji goggles 3', 'fpv drone kit']
@@ -1187,8 +1407,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'From sub-250 g travel drones to professional cinema platforms: how to choose between DJI Mini, Air, Mavic and Inspire.',
     date: 'September 2026',
     dateISO: '2026-09-01',
-    modifiedISO: '2026-10-18',
-    readTime: '8 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '11 min read',
     author: 'Flight Operations Team',
     tags: ['Drone Sales', 'DJI Drones For Sale', 'CASA Regulations'],
     excerpt: 'Searching for the best DJI drone for sale in Australia? Here is how the Mini, Air, Mavic and Inspire families differ, and what to check before you buy.',
@@ -1211,10 +1431,34 @@ export const BLOG_POSTS: BlogPost[] = [
           ['[DJI Mini 4 Pro](/product/dji-mini-4-pro)', '1/1.3-inch CMOS, 48 MP', 'Up to 34 min', 'Under 249 g'],
           ['[DJI Air 3S](/product/dji-air-3s-dji-rc-n3)', '1-inch 50 MP wide plus 48 MP medium tele', 'Up to 45 min', 'About 724 g'],
           ['[DJI Mavic 3 Pro](/product/dji-mavic-3-pro)', '4/3 20 MP wide plus two tele cameras', 'Up to 43 min', '958 g'],
-          ['[DJI Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2)', '100 MP 4/3 Hasselblad plus two tele cameras', 'Up to 51 min', 'See product page'],
+          ['[DJI Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2)', '100 MP 4/3 Hasselblad plus two tele cameras', 'Up to 51 min', 'About 1,063 g'],
           ['[DJI Inspire 3](/product/dji-inspire-3)', 'Full-frame Zenmuse X9-8K Air', 'Up to 28 min', 'See product page']
         ]
       } },
+      { h2: 'Published specifications and prices' },
+      'These figures come from the DJI specification page for each aircraft and our current prices. DJI measures flight time in a wind tunnel, so real flights are shorter.',
+      { table: {
+        head: ['Model', 'Maximum wind', 'Battery', 'Rated flight time', 'Price (AUD)'],
+        rows: [
+          ['[DJI Mini 4 Pro](/product/dji-mini-4-pro)', '10.7 m/s', '2,590 mAh', '34 min, or 45 min with the Plus battery', '$949'],
+          ['[DJI Mini 5 Pro](/product/dji-mini-5-pro-dji-rc-n3)', '12 m/s', '2,788 mAh', '36 min, or 52 min with the Plus battery', '$1,119 with RC-N3'],
+          ['[DJI Air 3S](/product/dji-air-3s-dji-rc-n3)', '12 m/s', '4,276 mAh', '45 min', '$1,699 with RC-N3'],
+          ['[DJI Mavic 3 Pro](/product/dji-mavic-3-pro)', '12 m/s', '5,000 mAh', '43 min', '$2,789'],
+          ['[DJI Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2)', '12 m/s', '6,654 mAh', '51 min', '$3,099 with RC 2']
+        ]
+      } },
+      'All five list -10 to 40°C as the operating range, and 12 m/s is about 43 km/h. DJI lists the Mini 5 Pro takeoff weight as 249.9 g with a tolerance of 4 g, and the Mini 4 Pro as under 249 g, so check the weight rules for where you fly. The Plus batteries add flight time and weight: see our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) for the sums.',
+      { h2: 'What each step up buys' },
+      { table: {
+        head: ['Step', 'What changes', 'Listed price difference'],
+        rows: [
+          ['Mini 4 Pro to Mini 5 Pro', 'A 1/1.3-inch 48 MP sensor becomes a 1-inch 50 MP sensor, 2 more rated minutes and a wind limit of 12 m/s instead of 10.7 m/s', '+$170'],
+          ['Mini 5 Pro to Air 3S', 'Adds a 48 MP medium tele camera, rated flight time rises from 36 to 45 minutes and weight rises to 724 g', '+$580'],
+          ['Air 3S to Mavic 3 Pro', 'A 4/3 20 MP Hasselblad main camera and 5.1K video, 958 g, rated flight time 43 minutes', '+$1,090'],
+          ['Mavic 3 Pro to Mavic 4 Pro', 'A 100 MP 4/3 main camera and 6K video, rated flight time 51 minutes, about 1,063 g', '+$310']
+        ]
+      } },
+      'The price differences are between the bundles named in the table above, and the controller differs between them (RC-N3 on the Mini 5 Pro and Air 3S, RC 2 on the Mavic 4 Pro), so compare the contents on each product page.',
       { h2: 'Compact drones: DJI Mini 5 Pro, Mini 4 Pro and Mini 4K' },
       'The [DJI Mini 5 Pro](/product/dji-mini-5-pro-dji-rc-n3) is the compact flagship. A 1-inch 50 MP sensor, up to 36 minutes of flight, omnidirectional obstacle sensing and a weight under 250 g make it the best small camera drone we stock. The [DJI Mini 4 Pro](/product/dji-mini-4-pro) remains an excellent value choice, and the [DJI Mini 4K](/product/dji-mini-4k) is the budget entry. All three sit under the CASA recreational exemption for drones below 250 g, though standard operating conditions still apply (120 m maximum height, visual line of sight, and 30 m from other people).',
       { h2: 'Easy flyers: DJI Lito, Neo 2 and Flip' },
@@ -1225,12 +1469,28 @@ export const BLOG_POSTS: BlogPost[] = [
       'For professional photo and video work, the [DJI Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2) leads with a 100 MP 4/3 Hasselblad main camera, two tele cameras, a rotating gimbal and up to 51 minutes of flight. The [DJI Mavic 3 Pro](/product/dji-mavic-3-pro) remains a flagship triple-camera option, available standalone or as a Fly More Combo with the DJI RC or RC Pro. At the top end, the [DJI Inspire 3](/product/dji-inspire-3) is a dedicated cinema platform with a full-frame 8K camera and dual-operator control.',
       { h2: 'Accessories worth buying' },
       'Spare [batteries](/category/batteries/drone-batteries), a [charging hub](/category/batteries/charging-hubs), [ND filters and lenses](/category/batteries/filters-and-lenses) and a [bag](/category/batteries/bags-and-covers) turn a drone into a complete kit. Our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) explains how to match parts to your model.',
+      { h2: 'Fly More Combo prices' },
+      { table: {
+        head: ['Kit', 'Price (AUD)'],
+        rows: [
+          ['[Mini 5 Pro Fly More Combo with RC-N3](/product/dji-mini-5-pro-fly-more-combo-dji-rc-n3)', '$1,419'],
+          ['[Mini 4 Pro Fly More Combo](/product/dji-mini-4-pro-fly-more-combo)', '$1,449'],
+          ['[Air 3S Fly More Combo with RC-N3](/product/dji-air-3s-fly-more-combo-dji-rc-n3)', '$2,129'],
+          ['[Mavic 3 Pro Fly More Combo with DJI RC](/product/dji-mavic-3-pro-fly-more-combo-dji-rc)', '$3,779'],
+          ['[Mavic 4 Pro Fly More Combo with RC 2](/product/dji-mavic-4-pro-fly-more-combo-dji-rc-2)', '$4,039'],
+          ['[Inspire 3 (aircraft)](/product/dji-inspire-3)', '$20,469']
+        ]
+      } },
+      'A combo adds the batteries and accessories most owners buy within weeks. The Air 3S Fly More Combo with RC-N3 is $430 above the Air 3S with RC-N3 ($2,129 against $1,699), and our listing includes extra batteries, a charging hub and a bag. Two spare batteries ($219 each) and the Air 3 series hub ($129) bought separately come to $567, so check on the product page how many batteries the combo holds before you compare.',
       { h2: 'Before you buy' },
       'Consider battery needs, controller preference, how portable the kit needs to be and whether your flying is recreational or commercial. Commercial operators have extra CASA obligations; see our [enterprise drones guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide). If you are unsure which package suits you, [contact us](/contact) and we will help you choose. Buying in the sale week? Our [Black Friday drone buying guide](/blog/black-friday-drone-sale-australia-how-to-buy-a-dji-drone-2026) shows how to compare packages and lists current prices.',
       { faq: [
         { q: 'Which DJI drone is best for most people?', a: 'For most buyers the DJI Mini 4 Pro or DJI Mini 5 Pro offers the best mix of image quality, portability and price. The DJI Air 3S suits creators who want a bigger camera and longer flights.' },
         { q: 'Do I need a licence to fly a DJI drone in Australia?', a: 'Recreational flying under 250 g does not need registration or a licence, but standard operating conditions apply. Commercial work has additional CASA requirements, so check the CASA website.' },
-        { q: 'Do your drones come with Australian warranty and free shipping?', a: 'Yes. Our drones are genuine Australian stock with Australian Consumer Law guarantees, and shipping is free across Australia.' }
+        { q: 'Do your drones come with Australian warranty and free shipping?', a: 'Yes. Our drones are genuine Australian stock with Australian Consumer Law guarantees, and shipping is free across Australia.' },
+        { q: 'Which DJI drone in this guide has the longest rated flight time?', a: 'With standard batteries the Mavic 4 Pro leads at 51 minutes, then the Air 3S at 45 minutes. The Mini 5 Pro is rated for 52 minutes with its Plus battery, which also adds weight.' },
+        { q: 'How much more is the Mini 5 Pro than the Mini 4 Pro?', a: 'On our listed prices the Mini 5 Pro with RC-N3 is $170 above the Mini 4 Pro and has a 1-inch 50 MP sensor against a 1/1.3-inch 48 MP sensor. Check the controller in each listing, because it can differ.' },
+        { q: 'Does the Mini 5 Pro stay under 250 g?', a: 'DJI lists its takeoff weight as 249.9 g with a tolerance of 4 g, so it sits right at the limit. Check the weight rules for where you fly.' }
       ] }
     ],
     targetKeywords: ['drone for sale', 'drone sales', 'dji drones for sale', 'dji drone for sale', 'dji mini 4 pro', 'dji mavic 3 pro']
