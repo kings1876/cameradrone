@@ -37,7 +37,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "solar panel thermal camera",
       "dji matrice 4t solar"
     ],
-    "wordCount": 1862,
+    "wordCount": 1882,
     "faq": [
       {
         "q": "What is the best drone for solar panel inspection in Australia?",
@@ -155,7 +155,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "drone for finding lost sheep",
       "farm drone with thermal camera"
     ],
-    "wordCount": 1484,
+    "wordCount": 1504,
     "faq": [
       {
         "q": "What is the best drone for livestock in Australia?",
@@ -273,7 +273,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji matrice 4t price",
       "thermal drone night search"
     ],
-    "wordCount": 1587,
+    "wordCount": 1607,
     "faq": [
       {
         "q": "What is the best drone for search and rescue in Australia?",
@@ -509,7 +509,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "thermal sensitivity",
       "how thermal imaging works"
     ],
-    "wordCount": 1525,
+    "wordCount": 1548,
     "faq": [
       {
         "q": "How does a thermal imager work?",
@@ -1471,8 +1471,8 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "subtitle": "Every thermal option we supply, from a portable Mavic 3 Thermal to a 1280×1024 Zenmuse payload, with what each costs and who it suits.",
     "date": "October 2026",
     "dateISO": "2026-10-27",
-    "modifiedISO": "2026-10-27",
-    "readTime": "9 min read",
+    "modifiedISO": "2026-11-16",
+    "readTime": "12 min read",
     "author": "Enterprise Systems Specialist",
     "tags": [
       "Thermal Drones",
@@ -1494,9 +1494,11 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "drone heat camera",
       "drone ir camera",
       "drone thermal vision",
-      "thermal drone camera"
+      "thermal drone camera",
+      "drone with infrared camera",
+      "thermal imaging drone"
     ],
-    "wordCount": 1514,
+    "wordCount": 2126,
     "faq": [
       {
         "q": "How much does a drone with a heat camera cost in Australia?",
@@ -1513,6 +1515,18 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       {
         "q": "Can I add a thermal camera to my own drone?",
         "a": "Only if your aircraft supports the payload. The Zenmuse H30T is for the Matrice 350 RTK and 300 RTK, and the FLIR VUE TZ20 is for the Matrice 200 series and Matrice 300. Tell us your aircraft and we will confirm."
+      },
+      {
+        "q": "What is the difference between a heat camera and a night vision camera?",
+        "a": "A heat camera senses infrared radiation and shows temperature differences, so it works in complete darkness. A night vision camera amplifies available light, needs some light to work and shows no temperature."
+      },
+      {
+        "q": "Does a drone heat camera work in the dark?",
+        "a": "Yes, because it senses heat and not light. Flying is a separate matter: CASA standard operating conditions say to fly in daylight, so night flying needs more than the standard conditions. Check the CASA website for your operation."
+      },
+      {
+        "q": "What is a radiometric drone camera?",
+        "a": "A radiometric thermal camera stores a temperature for each pixel, so you can measure a hot spot after the flight. DJI lists radiometric R-JPEG photos on the Mavic 3T and Matrice 4T."
       },
       {
         "q": "Do I need CASA approval to use a thermal drone?",

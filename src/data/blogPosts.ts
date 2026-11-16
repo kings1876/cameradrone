@@ -1314,8 +1314,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: `Every thermal option we supply, from a portable Mavic 3 Thermal to a 1280×1024 Zenmuse payload, with what each costs and who it suits.`,
     date: 'October 2026',
     dateISO: '2026-10-27',
-    modifiedISO: '2026-10-27',
-    readTime: '9 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '12 min read',
     author: 'Enterprise Systems Specialist',
     tags: ['Thermal Drones', 'Thermal Cameras', 'Enterprise Drones', 'Buying Guide'],
     excerpt: `A drone heat camera shows what the eye cannot. We compare the thermal drones and payloads we supply, with AUD prices, so you can match the kit to the job and the budget.`,
@@ -1326,6 +1326,18 @@ export const BLOG_POSTS: BlogPost[] = [
       `A drone heat camera lets a pilot see temperature instead of light, which turns a routine flight into an inspection, a search or a safety check. Roof surveyors find moisture, solar crews find failing cells, and fire and rescue teams find people in the dark. If you are ready to buy, the first question is not which camera is best but which route suits your budget: a complete thermal drone, a thermal payload for an aircraft you already own, or a dock for automated missions. This guide compares every thermal option we supply, with prices in Australian dollars, so you can match the kit to the work. For the technical background, our [thermal drones guide](/blog/thermal-drones-australia-guide) explains resolution, sensitivity and field of view in detail.`,
       { h2: `What a drone heat camera actually shows` },
       `A thermal camera measures infrared radiation and turns the differences into a picture, so hotter objects look brighter or take on a different colour. That is why drone thermal vision works in complete darkness and through haze that defeats a normal camera. It is also why people search for a drone IR camera or a thermal drone camera: they want to see heat, not detail. One point causes confusion. Some aircraft also carry a near-infrared auxiliary light, such as the one on the [DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal), which helps the visual camera at night. That is a light for the normal camera and a separate feature from the thermal sensor, which sees heat on its own. If you are not sure whether you need a thermal drone or just a handheld thermal camera, read our guide to [thermal cameras vs thermal drones](/blog/thermal-camera-vs-thermal-drone-infrared-inspections).`,
+      { h2: `Heat camera, IR camera, thermal camera: what the words mean` },
+      `Buyers use several names for related things, and the wrong one can lead to the wrong purchase. This table separates them.`,
+      { table: {
+        head: ['Term', 'What it usually means', 'What to buy'],
+        rows: [
+          ['Drone heat camera, thermal camera, thermal imager', 'A camera that senses long-wave infrared radiation (DJI lists 8 to 14 μm for the Mavic 3T) and shows temperature differences', 'A thermal drone or payload from the table below'],
+          ['Drone IR camera, infrared camera', 'Usually the same as a thermal camera. Sometimes it means a near-infrared light or a night mode on a visual camera, which does not show temperature', 'Check the specification for a thermal sensor, such as 640 by 512'],
+          ['Night vision camera', 'A visual camera that amplifies low light. It needs some light and shows no temperature', 'Not a substitute for a thermal camera'],
+          ['Radiometric thermal camera', 'A thermal camera that also stores a temperature for each pixel, so you can measure a hot spot after the flight. DJI lists R-JPEG photos on the Mavic 3T and Matrice 4T', 'A radiometric aircraft if your reports need numbers'],
+          ['Thermal drone, drone with thermal camera', 'A complete aircraft with the thermal camera built in', 'Route 1 below']
+        ]
+      } },
       { h2: `Thermal drones and payloads compared` },
       `This table lists every thermal option we supply, from the most portable aircraft to the highest-resolution payload. Prices are in Australian dollars.`,
       { table: {
@@ -1351,6 +1363,20 @@ export const BLOG_POSTS: BlogPost[] = [
       `If you own a DJI Mavic Pro and want thermal without buying a new aircraft, the [Mavic Pro FLIR Boson Thermal Ninja](/product/dji-mavic-pro-flir-boson-thermal-ninja) at $6,999 turns it into a thermal camera drone using a FLIR Boson core. It suits inspectors, roofers and researchers who want a small, low-cost thermal drone. The Boson resolution and lens options are confirmed on request, so contact us before you order and we will confirm the configuration for your job.`,
       { h2: `Route 3: automate thermal missions with a dock` },
       `For around-the-clock security or response, a dock launches, lands and charges the aircraft without a pilot on site. The [DJI Dock 3 Thermal Package](/product/dji-dock-3-thermal-package) at $34,278 bundles a Dock 3 with a thermal Matrice 4TD aircraft, Care Enterprise Plus, an AS1 speaker and an AL1 spotlight for automated thermal security and response missions. It is for emergency services and security teams planning drone-in-a-box operations. Browse the full [DJI Dock range](/category/enterprise-drones/dji-dock) and use the [quote form](/quote) to scope a deployment.`,
+      { h2: `What each route costs and what else you need` },
+      `The price of the camera is only part of the cost. This table shows the starting price of each route and what you need besides it. Prices are in Australian dollars.`,
+      { table: {
+        head: ['Route', 'What you need besides the price', 'From (AUD)'],
+        rows: [
+          ['Complete thermal drone', 'Spare batteries for longer jobs', '[Mavic 3T Worry-Free Basic Combo](/product/dji-mavic-3t-worry-free-basic-combo) $8,249'],
+          ['Complete drone for long flights and night work', 'The Plus Combo includes extra batteries; a charging hub is optional', '[Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo) $11,248'],
+          ['Weather-sealed drone', 'Care coverage and spare batteries', '[Matrice 30T Worry-Free Basic Combo](/product/matrice-30t-worry-free-basic-combo) $14,917'],
+          ['Thermal payload', 'A compatible Matrice you already own: a Matrice 350 RTK or 300 RTK for the Zenmuse H30T, or a Matrice 200 series or 300 for the FLIR VUE TZ20', '[Zenmuse H30T](/product/dji-zenmuse-h30t) $17,335 or [FLIR VUE TZ20](/product/flir-vue-tz20) $11,700'],
+          ['Conversion', 'A DJI Mavic Pro you already own', '[Thermal Ninja](/product/dji-mavic-pro-flir-boson-thermal-ninja) $6,999'],
+          ['Dock for automatic missions', 'A site with power and a network, and a planned mission', '[Dock 3 Thermal Package](/product/dji-dock-3-thermal-package) $34,278']
+        ]
+      } },
+      `A payload is only the cheaper route if you already own the aircraft. If you do not, add the price of a compatible aircraft to the payload before you compare. Our [Dock 3 vs Dock 2 guide](/blog/buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box) explains what the dock route involves.`,
       { h2: `A buying checklist for a drone heat camera` },
       { ul: [
         `**Define the job first:** roof and solar inspection, fire and rescue and long-range inspection need different sensors.`,
@@ -1361,6 +1387,8 @@ export const BLOG_POSTS: BlogPost[] = [
         `**Pair it with a good visual camera:** you still need to see what the heat is.`,
         `**Budget for batteries and care coverage:** a Plus or Worry-Free bundle can protect a large investment.`
       ] },
+      { h2: `Guides for specific thermal jobs` },
+      `If you know what you will use the camera for, these guides compare the aircraft for that job: [solar farm inspection](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices), [search and rescue](/blog/buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices) and [livestock and farm checks](/blog/buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices). For the aircraft side by side, read our [DJI thermal drone comparison](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) and our [thermal drones guide](/blog/thermal-drones-australia-guide), and for what resolution and sensitivity mean see [how a thermal imager works](/blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained).`,
       { h2: `Training, rules and getting a quote` },
       `Flying commercially may require CASA accreditation or a ReOC, depending on the aircraft weight and the work. Check [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), read our [FAQ on registering a drone and CASA rules](/faq) and tell us about your use case on the [quote form](/quote). We will confirm the right aircraft or payload, the batteries and the training you need.`,
       { h2: `How buying from Drones for Sale works` },
@@ -1370,10 +1398,13 @@ export const BLOG_POSTS: BlogPost[] = [
         { q: `What is the best drone heat camera to buy?`, a: `For most buyers the DJI Matrice 4 Thermal is the best all-rounder. The DJI Mavic 3 Thermal is the most portable, the Matrice 30T is the most rugged and the Zenmuse H30T has the highest resolution.` },
         { q: `Is a drone IR camera the same as a thermal camera?`, a: `A thermal camera sees heat. Some drones also have a near-infrared light that helps the visual camera at night, which is a separate feature. If you need to see temperature, buy a thermal camera.` },
         { q: `Can I add a thermal camera to my own drone?`, a: `Only if your aircraft supports the payload. The Zenmuse H30T is for the Matrice 350 RTK and 300 RTK, and the FLIR VUE TZ20 is for the Matrice 200 series and Matrice 300. Tell us your aircraft and we will confirm.` },
+        { q: `What is the difference between a heat camera and a night vision camera?`, a: `A heat camera senses infrared radiation and shows temperature differences, so it works in complete darkness. A night vision camera amplifies available light, needs some light to work and shows no temperature.` },
+        { q: `Does a drone heat camera work in the dark?`, a: `Yes, because it senses heat and not light. Flying is a separate matter: CASA standard operating conditions say to fly in daylight, so night flying needs more than the standard conditions. Check the CASA website for your operation.` },
+        { q: `What is a radiometric drone camera?`, a: `A radiometric thermal camera stores a temperature for each pixel, so you can measure a hot spot after the flight. DJI lists radiometric R-JPEG photos on the Mavic 3T and Matrice 4T.` },
         { q: `Do I need CASA approval to use a thermal drone?`, a: `Commercial flying may require CASA accreditation or a ReOC, depending on the aircraft weight and the work. Check the CASA website, or ask us when you request a quote.` }
       ] }
     ],
-    targetKeywords: ['drone heat camera', 'drone ir camera', 'drone thermal vision', 'thermal drone camera']
+    targetKeywords: ['drone heat camera', 'drone ir camera', 'drone thermal vision', 'thermal drone camera', 'drone with infrared camera', 'thermal imaging drone']
   },
   {
     id: 'post-20',
@@ -2803,7 +2834,7 @@ export const BLOG_POSTS: BlogPost[] = [
           ['Long-range, fine detail', '1280×1024', '[DJI Zenmuse H30T](/product/dji-zenmuse-h30t)', '$17,335']
         ]
       } },
-      `Resolution is not the only thing that sets the price: the aircraft, the visible cameras and the bundled Care coverage all count. Our [thermal drone buying guide](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) compares every thermal aircraft by price, and our [Zenmuse thermal payload guide](/blog/buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices) covers the H30T against the H30. If you only need to scan a switchboard or a wall, a handheld camera may be enough: see our guides to [thermal camera vs thermal drone](/blog/thermal-camera-vs-thermal-drone-infrared-inspections) and [buying a thermal imaging camera](/blog/buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras).`,
+      `Resolution is not the only thing that sets the price: the aircraft, the visible cameras and the bundled Care coverage all count. Our [thermal drone buying guide](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) compares every thermal aircraft by price, and our [Zenmuse thermal payload guide](/blog/buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices) covers the H30T against the H30. If you only need to scan a switchboard or a wall, a handheld camera may be enough: see our guides to [thermal camera vs thermal drone](/blog/thermal-camera-vs-thermal-drone-infrared-inspections) and [buying a thermal imaging camera](/blog/buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras). If you are comparing heat camera, IR camera and night vision terms, our [drone heat camera guide](/blog/buy-drone-heat-camera-australia-thermal-drones-payloads) sets out what each one means.`,
       { h2: `Not sure which thermal camera you need? Ask for a free quote` },
       `Tell us what you want to inspect or find, how far away it will be and whether you need measured temperatures, and we will recommend a camera and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on the products above or the [contact page](/contact), or place an order through the [order form](/order). Every order ships free by express courier across Australia, and our [FAQ](/faq) answers common questions about delivery and returns.`,
       { h2: `Rules before you fly for work` },
@@ -3223,7 +3254,7 @@ export const BLOG_POSTS: BlogPost[] = [
         `Sun-warmed rock and ground can mask a body in the middle of the day, so the best contrast is usually at night and in the cool of the morning.`,
         `Rain, fog and wind reduce range and image quality, so a weather rating and a good wind margin matter.`
       ] },
-      `Our guides to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and to [choosing a thermal drone](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper on the cameras and the aircraft.`,
+      `Our guides to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and to [choosing a thermal drone](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper on the cameras and the aircraft. For the buying routes (a complete drone, a payload, a conversion or a dock), see our [drone heat camera guide](/blog/buy-drone-heat-camera-australia-thermal-drones-payloads).`,
       { h2: `Before you buy: rules and training` },
       `Emergency services work under their own arrangements, so a private operator should not assume the same freedoms. Check what applies to your flying on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for the basics. Our [enterprise drone guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) explains how these aircraft fit into a team.`,
       { h2: `Spares and related equipment` },
@@ -3336,7 +3367,7 @@ export const BLOG_POSTS: BlogPost[] = [
         `Dirt, shading and soiling change panel temperature, so a hot patch is not always a failed cell.`,
         `Strong wind cools the panels and reduces the contrast between a fault and its surroundings.`
       ] },
-      `Our guides to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and to [choosing a thermal drone](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper on the cameras and the aircraft.`,
+      `Our guides to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and to [choosing a thermal drone](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper on the cameras and the aircraft. For the buying routes (a complete drone, a payload, a conversion or a dock), see our [drone heat camera guide](/blog/buy-drone-heat-camera-australia-thermal-drones-payloads).`,
       { h2: `Before you buy: rules and training` },
       `Flying for a client is commercial work, and large solar sites often have their own site rules and electrical safety requirements. Check what applies to your flying on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for the basics. Our [enterprise drone guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) explains how these aircraft fit into a business, and our [Matrice comparison](/blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price) covers the bigger platforms.`,
       { h2: `Spares and related equipment` },
@@ -3535,7 +3566,7 @@ export const BLOG_POSTS: BlogPost[] = [
         `Rain, fog and wind reduce range and image quality, so a weather rating and a wind margin matter.`,
         `Low, noisy flying can disturb stock. Start high, approach slowly and watch how the animals react.`
       ] },
-      `Our guides to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and to [choosing a thermal drone](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper on the cameras and the aircraft.`,
+      `Our guides to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and to [choosing a thermal drone](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper on the cameras and the aircraft. For the buying routes (a complete drone, a payload, a conversion or a dock), see our [drone heat camera guide](/blog/buy-drone-heat-camera-australia-thermal-drones-payloads).`,
       { h2: `Before you buy: rules and training` },
       `Flying on your own property still falls under CASA's rules. The standard operating conditions say to fly no higher than 120 m, keep the drone in sight and fly in daylight, so night checks and flights beyond line of sight need more than the standard conditions. Check what applies to your flying on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for the basics. Our [enterprise drone guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) explains how these aircraft fit into a business.`,
       { h2: `Spares and related equipment` },

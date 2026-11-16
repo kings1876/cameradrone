@@ -42,6 +42,7 @@ const BY_CATEGORY: Record<string, string[]> = {
     'best-drone-for-sale-australia-2026-buyers-guide'
   ],
   'enterprise-drones': [
+    'buy-drone-heat-camera-australia-thermal-drones-payloads',
     'buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices',
     'buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices',
     'buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices',
@@ -58,6 +59,7 @@ const BY_CATEGORY: Record<string, string[]> = {
     'waterproof-drones-ip-ratings-explained'
   ],
   'cameras-sensors': [
+    'buy-drone-heat-camera-australia-thermal-drones-payloads',
     'buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices',
     'how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained',
     'buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices',
@@ -89,7 +91,7 @@ const BY_CATEGORY: Record<string, string[]> = {
 };
 
 const BY_SUBCATEGORY: Record<string, string[]> = {
-  'Thermal Cameras': ['buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices', 'buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices', 'buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices', 'how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained', 'buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices', 'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices', 'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras', 'thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
+  'Thermal Cameras': ['buy-drone-heat-camera-australia-thermal-drones-payloads', 'buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices', 'buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices', 'buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices', 'how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained', 'buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices', 'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices', 'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras', 'thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
   'LiDAR Sensors': ['buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices', 'lidar-vs-photogrammetry-drone-mapping-australia', 'thermal-drones-australia-guide'],
   'DJI Dock': ['buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box', 'buy-dji-matrice-australia-matrice-4-30-400-compared-by-price', 'thermal-drones-australia-guide', 'enterprise-drones-matrice-mavic-3-enterprise-guide'],
   'DJI Zenmuse Cameras': ['buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices', 'buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices', 'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices', 'lidar-vs-photogrammetry-drone-mapping-australia'],
