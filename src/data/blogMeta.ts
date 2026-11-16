@@ -1723,8 +1723,8 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "subtitle": "What waterproof and water resistant really mean for a drone, and what to buy if you work in wet conditions.",
     "date": "October 2026",
     "dateISO": "2026-10-18",
-    "modifiedISO": "2026-10-18",
-    "readTime": "6 min read",
+    "modifiedISO": "2026-11-16",
+    "readTime": "9 min read",
     "author": "Enterprise Systems Specialist",
     "tags": [
       "Waterproof Drones",
@@ -1748,7 +1748,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "waterproof drones",
       "water drone"
     ],
-    "wordCount": 838,
+    "wordCount": 1472,
     "faq": [
       {
         "q": "Are DJI drones waterproof?",
@@ -1761,6 +1761,18 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       {
         "q": "Can I fly my drone in light rain?",
         "a": "Only if the manufacturer rates it for that. Otherwise avoid rain, spray and fog, which can damage the electronics."
+      },
+      {
+        "q": "What wind can a DJI Mini 4 Pro fly in?",
+        "a": "DJI lists a maximum wind of 10.7 m/s for the Mini 4 Pro, which is about 39 km/h. The Mini 5 Pro, Air 3S, Mavic 3 Pro and Mavic 4 Pro are listed at 12 m/s, about 43 km/h."
+      },
+      {
+        "q": "Can I fly a DJI drone in 40 degree heat?",
+        "a": "DJI lists 40°C as the top of the operating range for the Mini 4 Pro, Mini 5 Pro, Air 3S, Mavic 3 Pro, Mavic 4 Pro, Flip, Neo 2 and the Matrice 4 series. Above that you are outside the published limits, so fly in the cooler part of the day."
+      },
+      {
+        "q": "Which DJI equipment has an IP rating?",
+        "a": "DJI publishes IP55 for the Matrice 30T and the Matrice 350 RTK, IP56 for the Dock 3, IP54 for the Zenmuse L2 and IP55 for the Agras Relay. Small camera drones such as the Mini 4 Pro are not rated for rain."
       }
     ]
   },
@@ -1833,8 +1845,8 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "subtitle": "Which camera drone suits property marketing, and what to know before you take paid work.",
     "date": "October 2026",
     "dateISO": "2026-10-18",
-    "modifiedISO": "2026-10-18",
-    "readTime": "7 min read",
+    "modifiedISO": "2026-11-16",
+    "readTime": "10 min read",
     "author": "Flight Operations Team",
     "tags": [
       "Real Estate Drones",
@@ -1858,7 +1870,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "drone follow me",
       "gps drone"
     ],
-    "wordCount": 893,
+    "wordCount": 1502,
     "faq": [
       {
         "q": "What is the best drone for real estate photography?",
@@ -1871,6 +1883,18 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       {
         "q": "How many batteries do I need for a shoot?",
         "a": "Two or three is a practical minimum for a single property, so a Fly More Combo is usually the better value."
+      },
+      {
+        "q": "How windy is too windy for real estate drone photos?",
+        "a": "DJI lists 10.7 m/s (about 39 km/h) for the Mini 4 Pro and 12 m/s (about 43 km/h) for the Mini 5 Pro, Air 3S, Mavic 3 Pro and Mavic 4 Pro. Conditions at a hilltop or coastal property can be stronger than at ground level, so check them on site."
+      },
+      {
+        "q": "Which drone gives the highest resolution stills?",
+        "a": "The Mavic 4 Pro, with a 100 MP 4/3 Hasselblad main camera. The Mini 5 Pro and the Air 3S wide camera are 50 MP, and the Mini 4 Pro is 48 MP."
+      },
+      {
+        "q": "How much does a real estate drone kit cost?",
+        "a": "On our listed prices, Fly More Combos run from $1,419 for the Mini 5 Pro with RC-N3 to $4,039 for the Mavic 4 Pro with RC 2, with the Mini 4 Pro, Air 3S and Mavic 3 Pro between them."
       }
     ]
   },
@@ -2218,8 +2242,8 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     "subtitle": "Matching the right parts to your aircraft, what to carry on a flying day and how to look after your gear.",
     "date": "October 2026",
     "dateISO": "2026-10-18",
-    "modifiedISO": "2026-10-18",
-    "readTime": "6 min read",
+    "modifiedISO": "2026-11-16",
+    "readTime": "10 min read",
     "author": "Flight Operations Team",
     "tags": [
       "DJI Batteries",
@@ -2241,7 +2265,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji drone battery",
       "drone parts"
     ],
-    "wordCount": 812,
+    "wordCount": 1625,
     "faq": [
       {
         "q": "Can I use a Mavic 3 battery in a Mavic 4 Pro?",
@@ -2254,6 +2278,18 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       {
         "q": "Should I replace propellers one at a time?",
         "a": "Replace them as a matching set. Mixing worn and new propellers can affect balance and flight behaviour."
+      },
+      {
+        "q": "How long does a DJI battery take to charge?",
+        "a": "DJI lists about 45 to 115 minutes for one battery depending on the aircraft and the charger. The Mavic 4 Pro takes about 51 minutes on a 240W adapter and about 115 minutes through the aircraft, and the Air 3S takes about 60 minutes with a 100W adapter and hub."
+      },
+      {
+        "q": "Which DJI battery is the cheapest per minute of flight?",
+        "a": "On our listed prices and DJI rated flight times, the Mini 5 Pro standard battery is lowest at about $2.75 per rated minute, followed by the Mini 5 Pro Plus at about $2.87 and the Mini 4 Pro at about $2.91."
+      },
+      {
+        "q": "Does a Plus battery change the weight of a Mini drone?",
+        "a": "Yes. The Mini 4 Pro Plus battery weighs about 121 g against about 77.9 g for the standard pack, and DJI lists a higher takeoff weight with it. Check the weight rules where you fly before you choose it."
       }
     ]
   },

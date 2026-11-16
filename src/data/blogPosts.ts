@@ -264,8 +264,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'What waterproof and water resistant really mean for a drone, and what to buy if you work in wet conditions.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-18',
-    readTime: '6 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '9 min read',
     author: 'Enterprise Systems Specialist',
     tags: ['Waterproof Drones', 'IP Rating', 'Enterprise Drones'],
     excerpt: 'Most drones are not waterproof. We explain IP ratings, which enterprise aircraft are water resistant and how to protect your drone near water.',
@@ -280,13 +280,49 @@ export const BLOG_POSTS: BlogPost[] = [
         head: ['Rating', 'Dust', 'Water', 'In practice'],
         rows: [
           ['IP44', 'Protected against solid objects over 1 mm', 'Splashing water from any direction', 'Light rain or splashes only'],
-          ['IP55', 'Dust protected', 'Low-pressure water jets from any direction', 'Rain and wash-down, not submersion']
+          ['IP54', 'Dust protected', 'Splashing water from any direction', 'Light rain, not a sustained downpour'],
+          ['IP55', 'Dust protected', 'Low-pressure water jets from any direction', 'Rain and wash-down, not submersion'],
+          ['IP56', 'Dust protected', 'Powerful water jets from any direction', 'Heavy rain and driving spray'],
+          ['IP67', 'Dust tight', 'Immersion up to 1 m for 30 minutes', 'Can survive a temporary dip']
         ]
       } },
+      'The tests behind the numbers come from the international IEC 60529 standard. The IPX5 test uses a 6.3 mm nozzle at about 12.5 litres a minute, the IPX6 test uses a 12.5 mm nozzle at about 100 litres a minute, and IPX7 means immersion up to 1 m for 30 minutes. For dust, a 5 means limited dust that does not harm the equipment, and a 6 means none gets in.',
       { h2: 'Water resistant drone and waterproof UAV options in our range' },
       'The most capable water resistant drone we supply, and the nearest thing to a waterproof UAV for inspection work, is the [DJI Matrice 30T](/product/dji-matrice-30t), rated IP55 with a radiometric thermal camera, a 12 MP wide camera and a 48 MP zoom camera. It is built for industrial and public-safety teams who cannot wait for perfect weather. The [FLIR Vue TZ20](/product/flir-vue-tz20) thermal payload has an IP44 rating, which handles splashes but not heavy rain. Browse the [DJI Matrice range](/category/enterprise-drones/dji-matrice) for other enterprise aircraft and check each product page for its rating.',
+      { h2: 'Ingress ratings DJI publishes for enterprise equipment' },
+      { table: {
+        head: ['Equipment', 'Published rating', 'Note'],
+        rows: [
+          ['[Matrice 30T](/product/dji-matrice-30t)', 'IP55', 'Aircraft with a radiometric thermal camera'],
+          ['Matrice 350 RTK', 'IP55 aircraft, IP54 remote controller', 'Host aircraft for Zenmuse payloads'],
+          ['[DJI Dock 3](/product/dji-dock-3)', 'IP56 dock, IP55 aircraft', 'Operates from -30 to 50°C'],
+          ['[Zenmuse L2](/product/dji-zenmuse-l2-lidar)', 'IP54', 'LiDAR payload'],
+          ['[FLIR Vue TZ20](/product/flir-vue-tz20)', 'IP44', 'Thermal payload'],
+          ['[Agras T100](/product/dji-agras-t100)', 'Aircraft not listed; Relay IP55, D-RTK 3 AG IP67', 'DJI lists ratings for the accessories, not the aircraft'],
+          ['[Matrice 4 Enterprise](/product/dji-matrice-4-enterprise) and [Mavic 3 Enterprise](/product/dji-mavic-3-enterprise)', 'Not listed', 'The DJI specification pages give no rating']
+        ]
+      } },
+      'Read the table as a weakest-link rule: a payload rated IP54 on an aircraft rated IP55 gives you the protection of the lower rating, and an aircraft with no published rating should be treated as not rain-proof, whatever it carries.',
       { h2: 'Humid, coastal and dusty conditions' },
       'Water is not the only enemy. Salt air near the coast corrodes connectors and bearings, fine dust works into gimbals and fans, and humidity causes condensation inside a cold aircraft that is carried into a warm vehicle. After a coastal or dusty flight, wipe the aircraft with a slightly damp cloth, check the gimbal moves freely and let the drone dry fully before it goes back in its bag. Keep silica packs in the case and store batteries somewhere cool and dry.',
+      { h2: 'Wind and temperature limits matter as much as rain' },
+      'Water is only one of the conditions DJI publishes limits for. This table sets the maximum wind and the operating temperature range side by side, and these limits apply to aircraft that carry no ingress rating at all.',
+      { table: {
+        head: ['Aircraft', 'Maximum wind', 'Operating temperature'],
+        rows: [
+          ['DJI Mini 4 Pro', '10.7 m/s', '-10 to 40°C'],
+          ['DJI Flip', '10.7 m/s (Level 5)', '-10 to 40°C'],
+          ['DJI Neo 2', '10.7 m/s (Level 5)', '-10 to 40°C'],
+          ['DJI Mini 5 Pro', '12 m/s', '-10 to 40°C'],
+          ['DJI Air 3S', '12 m/s', '-10 to 40°C'],
+          ['DJI Mavic 3 Pro', '12 m/s', '-10 to 40°C'],
+          ['DJI Mavic 4 Pro', '12 m/s', '-10 to 40°C'],
+          ['Matrice 4 series and Mavic 3 Enterprise', '12 m/s, takeoff and landing only', '-10 to 40°C'],
+          ['Matrice 350 RTK', '12 m/s', '-20 to 50°C'],
+          ['Dock 3', '12 m/s landing wind', 'Dock -30 to 50°C, aircraft -20 to 50°C']
+        ]
+      } },
+      'A wind of 10.7 m/s is about 39 km/h and 12 m/s is about 43 km/h. Those are limits for the average wind, and gusts near the coast, cliffs and tall buildings can exceed them. The 40°C ceiling matters in Australia: on a hot summer day the air temperature can pass it, which is above the published limit for every consumer aircraft in this table, so plan flights for the cooler part of the day.',
       { h2: 'Choosing for emergency services and inspections' },
       'Teams that respond to incidents or inspect assets in all weather should treat an ingress rating as a requirement, not a bonus. Pair a rated aircraft with a rated payload and spare batteries so a shower does not end the mission, and keep a protective case in the vehicle. For planning a purchase, our team can match the aircraft, payload and accessories to your conditions.',
       { h2: 'Consumer drones and water' },
@@ -306,7 +342,10 @@ export const BLOG_POSTS: BlogPost[] = [
       { faq: [
         { q: 'Are DJI drones waterproof?', a: 'Most are not. Small DJI camera drones are not designed to get wet. Some enterprise aircraft, such as the Matrice 30T, carry an IP rating for water resistance.' },
         { q: 'What does IP55 mean on a drone?', a: 'It means the drone is dust protected and resists low-pressure water jets from any direction. It does not mean it can be submerged.' },
-        { q: 'Can I fly my drone in light rain?', a: 'Only if the manufacturer rates it for that. Otherwise avoid rain, spray and fog, which can damage the electronics.' }
+        { q: 'Can I fly my drone in light rain?', a: 'Only if the manufacturer rates it for that. Otherwise avoid rain, spray and fog, which can damage the electronics.' },
+        { q: 'What wind can a DJI Mini 4 Pro fly in?', a: 'DJI lists a maximum wind of 10.7 m/s for the Mini 4 Pro, which is about 39 km/h. The Mini 5 Pro, Air 3S, Mavic 3 Pro and Mavic 4 Pro are listed at 12 m/s, about 43 km/h.' },
+        { q: 'Can I fly a DJI drone in 40 degree heat?', a: 'DJI lists 40°C as the top of the operating range for the Mini 4 Pro, Mini 5 Pro, Air 3S, Mavic 3 Pro, Mavic 4 Pro, Flip, Neo 2 and the Matrice 4 series. Above that you are outside the published limits, so fly in the cooler part of the day.' },
+        { q: 'Which DJI equipment has an IP rating?', a: 'DJI publishes IP55 for the Matrice 30T and the Matrice 350 RTK, IP56 for the Dock 3, IP54 for the Zenmuse L2 and IP55 for the Agras Relay. Small camera drones such as the Mini 4 Pro are not rated for rain.' }
       ] }
     ],
     targetKeywords: ['waterproof drone', 'drones that are waterproof', 'water resistant drone', 'waterproof uav', 'waterproof drones', 'water drone']
@@ -419,8 +458,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'Which camera drone suits property marketing, and what to know before you take paid work.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-18',
-    readTime: '7 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '10 min read',
     author: 'Flight Operations Team',
     tags: ['Real Estate Drones', 'Aerial Photography', 'DJI'],
     excerpt: 'Property photography and video need sharp stills, steady footage and reliable flights. We compare the best DJI drones for real estate and aerial work.',
@@ -445,17 +484,53 @@ export const BLOG_POSTS: BlogPost[] = [
           ['[DJI Mini 5 Pro](/product/dji-mini-5-pro-dji-rc-n3)', '1-inch CMOS, 50 MP', 'Up to 36 min', 'Under 250 g', 'Best small camera drone'],
           ['[DJI Air 3S](/product/dji-air-3s-dji-rc-n3)', '1-inch 50 MP wide plus 48 MP medium tele, 4K up to 120 fps', 'Up to 45 min', 'About 724 g', 'Everyday paid work'],
           ['[DJI Mavic 3 Pro](/product/dji-mavic-3-pro)', '4/3 20 MP wide plus two tele cameras, 5.1K video', 'Up to 43 min', '958 g', 'High-end property video'],
-          ['[DJI Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2)', '100 MP 4/3 Hasselblad plus two tele cameras', 'Up to 51 min', 'See product page', 'Premium listings and developers']
+          ['[DJI Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2)', '100 MP 4/3 Hasselblad plus two tele cameras', 'Up to 51 min', '1,063 g', 'Premium listings and developers']
         ]
       } },
+      { h2: 'Published specifications and prices' },
+      'These figures come from the DJI specification page for each aircraft and our current prices. Slow-motion rates are recording rates, played back slowly.',
+      { table: {
+        head: ['Drone', 'Cameras', 'Best video', 'Maximum wind', 'Price (AUD)'],
+        rows: [
+          ['[Mini 4 Pro](/product/dji-mini-4-pro)', '1/1.3-inch 48 MP', '4K up to 60 fps, 100 fps slow motion', '10.7 m/s', '$949'],
+          ['[Mini 5 Pro](/product/dji-mini-5-pro-dji-rc-n3)', '1-inch 50 MP', '4K up to 60 fps, 120 fps slow motion', '12 m/s', '$1,119 with RC-N3'],
+          ['[Air 3S](/product/dji-air-3s-dji-rc-n3)', '1-inch 50 MP wide, 1/1.3-inch 48 MP medium tele', '4K up to 60 fps, 120 fps slow motion', '12 m/s', '$1,699 with RC-N3'],
+          ['[Mavic 3 Pro](/product/dji-mavic-3-pro)', '4/3 20 MP, 48 MP medium tele, 12 MP tele', '5.1K up to 50 fps', '12 m/s', '$2,789'],
+          ['[Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2)', '4/3 100 MP, 48 MP medium tele, 50 MP tele', '6K up to 60 fps', '12 m/s', '$3,099 with RC 2']
+        ]
+      } },
+      'All five weigh under 2 kg, from under 249 g for the Mini 4 Pro to about 1,063 g for the Mavic 4 Pro, and DJI lists -10 to 40°C as the operating range for each. The wind limit is worth a look before you book a shoot: 10.7 m/s is about 39 km/h and 12 m/s is about 43 km/h, and conditions at a hilltop or coastal property can be stronger than at your car. The Mavic 3 Pro is listed without a controller choice, so check the product page for the version you want.',
       { h2: 'DJI Air 3S: the all-round choice' },
       'For most agents and photographers, the [DJI Air 3S](/product/dji-air-3s-dji-rc-n3) is the best balance. Its 1-inch 50 MP wide camera and 48 MP medium tele camera give you a standard view and a compressed, flattering view of the property, and up to 45 minutes of flight covers a full shoot. It also shoots 4K up to 120 fps for smooth slow-motion. Choose a [Fly More Combo](/product/dji-air-3s-fly-more-combo-dji-rc-n3) for extra batteries.',
       { h2: 'Mini 4 Pro and Mini 5 Pro: small and capable' },
       'If you are starting out or fly in tight suburban blocks, the [Mini 4 Pro](/product/dji-mini-4-pro) and the [Mini 5 Pro](/product/dji-mini-5-pro-dji-rc-n3) give excellent image quality in a drone that fits in a jacket pocket. The Mini 5 Pro adds a 1-inch 50 MP sensor, which is the best small camera drone in our range. Both stay under the 250 g mark, which also helps with the paperwork around lighter aircraft.',
       { h2: 'Mavic 3 Pro and Mavic 4 Pro: premium video and stills' },
       'For higher-end property marketing, the [Mavic 3 Pro](/product/dji-mavic-3-pro) offers three cameras and 5.1K video, and the [Mavic 4 Pro](/product/dji-mavic-4-pro-dji-rc-2) adds a 100 MP Hasselblad main camera, a rotating gimbal and up to 51 minutes of flight. They suit developers, luxury listings and anyone selling aerial work as a premium service. Our [2026 DJI buyer guide](/blog/best-drone-for-sale-australia-2026-buyers-guide) compares the whole range.',
+      { h2: 'Which drone for which listing' },
+      { table: {
+        head: ['Listing', 'Start with', 'Why'],
+        rows: [
+          ['Standard suburban sale', 'Air 3S', 'Two cameras for a wide view and a compressed view, 45 minutes of rated flight'],
+          ['Tight block and a quick turnaround', 'Mini 5 Pro', '1-inch sensor in a 249.9 g aircraft that fits in a bag'],
+          ['First paid jobs on a small budget', 'Mini 4 Pro', '$949 with 4K at 60 fps and omnidirectional obstacle sensing'],
+          ['Acreage, rural and developer work', 'Mavic 4 Pro', '51 minutes of rated flight and a 100 MP main camera'],
+          ['Premium video and cinematic reveals', 'Mavic 3 Pro or Mavic 4 Pro', '5.1K and 6K video with three cameras']
+        ]
+      } },
       { h2: 'Real estate drone video and follow-me shots' },
       'Property videos usually use slow reveals, orbits and a flight down the street towards the front door. Practise the moves before the shoot, and keep a clear return-to-home height. If you also want a simple follow-me shot for a presenter walking the property, a small drone such as the [DJI Neo 2](/product/dji-neo-2-drone-only) can do it, and its drone follow me mode keeps the presenter in frame. A GPS drone holds position accurately for stills, and enabling the gimbal level helps keep horizons straight.',
+      { h2: 'What the full kit costs' },
+      { table: {
+        head: ['Kit', 'Price (AUD)', 'Spare battery (AUD)'],
+        rows: [
+          ['[Mini 5 Pro Fly More Combo with RC-N3](/product/dji-mini-5-pro-fly-more-combo-dji-rc-n3)', '$1,419', '$99'],
+          ['[Mini 4 Pro Fly More Combo](/product/dji-mini-4-pro-fly-more-combo)', '$1,449', '$99'],
+          ['[Air 3S Fly More Combo with RC-N3](/product/dji-air-3s-fly-more-combo-dji-rc-n3)', '$2,129', '$219'],
+          ['[Mavic 3 Pro Fly More Combo with DJI RC](/product/dji-mavic-3-pro-fly-more-combo-dji-rc)', '$3,779', 'See the product page'],
+          ['[Mavic 4 Pro Fly More Combo with RC 2](/product/dji-mavic-4-pro-fly-more-combo-dji-rc-2)', '$4,039', '$279']
+        ]
+      } },
+      'A kit for paid work is more than the aircraft. Add the [ND filters](/product/dji-air-3s-nd-filter-set-nd8-32-128) for your aircraft, which cost $159 for the Air 3S set, and a protective case, and treat a spare battery as essential: at the rated flight times above a single property is rarely a one-battery job.',
       { h2: 'Accessories that improve results' },
       { ul: [
         '[ND filters](/category/batteries/filters-and-lenses) to control shutter speed in bright light.',
@@ -468,7 +543,10 @@ export const BLOG_POSTS: BlogPost[] = [
       { faq: [
         { q: 'What is the best drone for real estate photography?', a: 'For most people the DJI Air 3S is the best balance of camera, flight time and portability. The Mini 5 Pro is the best compact option and the Mavic 4 Pro suits premium listings.' },
         { q: 'Do I need a licence to take real estate drone photos for money?', a: 'Commercial flying has CASA requirements. Drones under 2 kg can operate in the excluded category after CASA operator accreditation; heavier aircraft need a licence and certificate. Check the CASA website.' },
-        { q: 'How many batteries do I need for a shoot?', a: 'Two or three is a practical minimum for a single property, so a Fly More Combo is usually the better value.' }
+        { q: 'How many batteries do I need for a shoot?', a: 'Two or three is a practical minimum for a single property, so a Fly More Combo is usually the better value.' },
+        { q: 'How windy is too windy for real estate drone photos?', a: 'DJI lists 10.7 m/s (about 39 km/h) for the Mini 4 Pro and 12 m/s (about 43 km/h) for the Mini 5 Pro, Air 3S, Mavic 3 Pro and Mavic 4 Pro. Conditions at a hilltop or coastal property can be stronger than at ground level, so check them on site.' },
+        { q: 'Which drone gives the highest resolution stills?', a: 'The Mavic 4 Pro, with a 100 MP 4/3 Hasselblad main camera. The Mini 5 Pro and the Air 3S wide camera are 50 MP, and the Mini 4 Pro is 48 MP.' },
+        { q: 'How much does a real estate drone kit cost?', a: 'On our listed prices, Fly More Combos run from $1,419 for the Mini 5 Pro with RC-N3 to $4,039 for the Mavic 4 Pro with RC 2, with the Mini 4 Pro, Air 3S and Mavic 3 Pro between them.' }
       ] }
     ],
     targetKeywords: ['best drone photography', 'real estate drone video', 'real estate drone photography pricing', 'drone photography near me', 'drone follow me', 'gps drone']
@@ -987,8 +1065,8 @@ export const BLOG_POSTS: BlogPost[] = [
     subtitle: 'Matching the right parts to your aircraft, what to carry on a flying day and how to look after your gear.',
     date: 'October 2026',
     dateISO: '2026-10-18',
-    modifiedISO: '2026-10-18',
-    readTime: '6 min read',
+    modifiedISO: '2026-11-16',
+    readTime: '10 min read',
     author: 'Flight Operations Team',
     tags: ['DJI Batteries', 'Charging Hubs', 'Drone Accessories'],
     excerpt: 'Batteries, chargers and propellers are the parts you will buy most. Here is how to pick the right ones for your DJI drone and keep them in good shape.',
@@ -1011,8 +1089,39 @@ export const BLOG_POSTS: BlogPost[] = [
           ['DJI Neo 2', '[Neo 2 battery](/product/dji-neo-2-intelligent-flight-battery)', '[Two-way hub](/product/dji-neo-2-two-way-charging-hub)']
         ]
       } },
+      { h2: 'Battery capacity, flight time and cost per minute' },
+      'Capacity and rated flight time come from the DJI specification page for each aircraft. The last column divides our listed battery price by the rated flight time. DJI measures flight time in a wind tunnel with constant speed and no wind, so real flights are shorter, but the ranking between batteries still holds.',
+      { table: {
+        head: ['Aircraft and battery', 'Capacity', 'Rated flight time', 'Price (AUD)', 'Price per rated minute'],
+        rows: [
+          ['Mini 5 Pro, standard', '2,788 mAh', '36 min', '$99', 'about $2.75'],
+          ['Mini 5 Pro, Plus', '4,680 mAh', '52 min', '$149', 'about $2.87'],
+          ['Mini 4 Pro, standard', '2,590 mAh', '34 min', '$99', 'about $2.91'],
+          ['Flip', '3,110 mAh', '31 min', '$99', 'about $3.19'],
+          ['Mini 4 Pro, Plus', '3,850 mAh', '45 min', '$149', 'about $3.31'],
+          ['Air 3S', '4,276 mAh', '45 min', '$219', 'about $4.87'],
+          ['Mavic 4 Pro', '6,654 mAh (95.3 Wh)', '51 min', '$279', 'about $5.47'],
+          ['Neo 2', '1,606 mAh', '19 min', '$129', 'about $6.79']
+        ]
+      } },
+      'The Plus batteries cost a little more per minute (about $2.87 against $2.75 on the Mini 5 Pro, and $3.31 against $2.91 on the Mini 4 Pro) but add 16 and 11 minutes of rated flight, so one pack can cover a whole shoot. They also weigh more: the Mini 5 Pro Plus pack is about 117 g against 71.2 g, and the Mini 4 Pro Plus pack is about 121 g against 77.9 g. DJI lists a higher takeoff weight with the Plus battery, so check the weight rules where you fly. DJI also notes that the Plus battery is not sold in Europe.',
       { h2: 'How many batteries do you need?' },
       'One battery is a short outing. Most pilots find two or three the practical minimum, so a Fly More Combo is usually the better value. Enterprise pilots working a full day should carry enough batteries to finish the job without waiting for a recharge. A charging hub lets you charge several batteries at once, either in sequence or in parallel depending on the model.',
+      'To size a kit, divide the airtime you want by the rated flight time and round up. Two hours of rated airtime needs four Mini 4 Pro, Mini 5 Pro or Flip batteries, three Air 3S, Mavic 3 Pro or Mavic 4 Pro batteries, and seven Neo 2 batteries. That is the minimum before you land with a reserve, so add one.',
+      { h2: 'How long batteries take to charge' },
+      { table: {
+        head: ['Aircraft', 'Charging method', 'Time listed by DJI'],
+        rows: [
+          ['Mini 4 Pro', 'One battery in the aircraft; one battery in the Two-Way Charging Hub with a 30 W charger', '70 min; 58 min'],
+          ['Mini 5 Pro', 'One battery through the aircraft with the DJI 65W Portable Charger', 'about 69 min (Plus: about 94 min)'],
+          ['Flip', 'One battery in the aircraft; one battery in the Charging Hub', 'about 70 min; about 45 min'],
+          ['Neo 2', 'In the aircraft; three batteries in the Two-Way Charging Hub', 'about 70 min; about 68 min for all three'],
+          ['Air 3S', '65W Portable Charger; 100W adapter with the Battery Charging Hub', 'about 80 min; about 60 min'],
+          ['Mavic 3 Pro', '65W Portable Charger; 100W adapter with the Battery Charging Hub', 'about 96 min; about 70 min'],
+          ['Mavic 4 Pro', 'One battery, 240W adapter; three batteries, 240W adapter; one battery, 100W adapter', 'about 51 min; about 90 min; about 80 min']
+        ]
+      } },
+      'A hub saves real time. On the Neo 2, the hub charges three batteries in about 68 minutes, roughly the time one battery takes in the aircraft. On the Mavic 4 Pro, three batteries take about 90 minutes together, against about 153 minutes if you charge them one at a time. Hub prices range from $69 for the [Flip](/product/dji-flip-parallel-charging-hub) and [Mini 4 Pro](/product/dji-mini-4-pro-mini-3-series-two-way-charging-hub) hubs to $159 for the [Mavic 4 Pro parallel hub](/product/dji-mavic-4-pro-parallel-charging-hub).',
       { h2: 'Charging habits that protect batteries' },
       { ul: [
         'Charge on a hard, non-flammable surface and never leave batteries charging unattended.',
@@ -1035,6 +1144,22 @@ export const BLOG_POSTS: BlogPost[] = [
       'Genuine DJI batteries, hubs and propellers are made to work with your aircraft\'s power management and flight controller. All items in our batteries and accessories range are genuine DJI parts, listed with the aircraft they fit, so you can order with confidence.',
       { h2: 'Propellers: replace them as a set' },
       'Propellers wear and chip. Check them for nicks, cracks or bends before every flight, and replace them as a matching set rather than one at a time. Keep a spare set in your bag. Browse the [propellers and guards](/category/batteries/propellers-and-guards) for your aircraft, such as the [Air 3 series low-noise propellers](/product/dji-air-3-series-low-noise-propellers) or the [Mavic 4 Pro propellers](/product/dji-mavic-4-pro-propellers). A [propeller guard](/product/dji-air-3-series-propeller-guard) is worth fitting if you fly near obstacles.',
+      { h2: 'Spares price list' },
+      { table: {
+        head: ['Item', 'Price (AUD)'],
+        rows: [
+          ['[Neo propellers](/product/dji-neo-propellers)', '$8'],
+          ['[Flip propellers](/product/dji-flip-propellers)', '$19'],
+          ['[Mini 5 Pro propeller](/product/dji-mini-5-pro-propeller)', '$19'],
+          ['[Neo 2 propellers](/product/dji-neo-2-propellers)', '$24'],
+          ['[Mavic 4 Pro propellers](/product/dji-mavic-4-pro-propellers)', '$29'],
+          ['[Air 3 series low-noise propellers](/product/dji-air-3-series-low-noise-propellers)', '$39'],
+          ['[Air 3 series propeller guard](/product/dji-air-3-series-propeller-guard)', '$38'],
+          ['[Mini 4 Pro 360° propeller guard](/product/dji-mini-4-pro-360-propeller-guard)', '$49'],
+          ['[DJI 65W portable charger](/product/dji-65w-portable-charger)', '$49']
+        ]
+      } },
+      'Prices are per listing, so check the product page for how many propellers each pack holds. A set of propellers costs far less than the repair bill for a drone that lost one in flight, which is why replacing worn ones early is the cheapest maintenance you can do.',
       { h2: 'Other accessories worth carrying' },
       'ND filters help you keep a cinematic shutter speed in bright light, and wide-angle lenses add flexibility. See [filters and lenses](/category/batteries/filters-and-lenses). A good [bag or cover](/category/batteries/bags-and-covers) protects the drone in transit, and a [controller](/category/batteries/controllers-and-goggles) spare saves a flying day if one fails.',
       { h2: 'Going further' },
@@ -1042,7 +1167,10 @@ export const BLOG_POSTS: BlogPost[] = [
       { faq: [
         { q: 'Can I use a Mavic 3 battery in a Mavic 4 Pro?', a: 'No. Parts for different models are not interchangeable. Always match the battery to the exact aircraft model named on the product page.' },
         { q: 'How many DJI batteries should I buy?', a: 'Two or three is a practical minimum for regular flying, which is why a Fly More Combo is usually the better value than a drone on its own.' },
-        { q: 'Should I replace propellers one at a time?', a: 'Replace them as a matching set. Mixing worn and new propellers can affect balance and flight behaviour.' }
+        { q: 'Should I replace propellers one at a time?', a: 'Replace them as a matching set. Mixing worn and new propellers can affect balance and flight behaviour.' },
+        { q: 'How long does a DJI battery take to charge?', a: 'DJI lists about 45 to 115 minutes for one battery depending on the aircraft and the charger. The Mavic 4 Pro takes about 51 minutes on a 240W adapter and about 115 minutes through the aircraft, and the Air 3S takes about 60 minutes with a 100W adapter and hub.' },
+        { q: 'Which DJI battery is the cheapest per minute of flight?', a: 'On our listed prices and DJI rated flight times, the Mini 5 Pro standard battery is lowest at about $2.75 per rated minute, followed by the Mini 5 Pro Plus at about $2.87 and the Mini 4 Pro at about $2.91.' },
+        { q: 'Does a Plus battery change the weight of a Mini drone?', a: 'Yes. The Mini 4 Pro Plus battery weighs about 121 g against about 77.9 g for the standard pack, and DJI lists a higher takeoff weight with it. Check the weight rules where you fly before you choose it.' }
       ] }
     ],
     targetKeywords: ['dji battery', 'dji charger', 'dji drone battery', 'drone parts']
