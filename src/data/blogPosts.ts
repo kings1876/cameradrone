@@ -981,7 +981,7 @@ export const BLOG_POSTS: BlogPost[] = [
         '**Firefighting support:** see hot spots and fire edges through smoke.',
         '**Wildlife surveys:** count and locate animals without disturbing them.'
       ] },
-      'Not sure whether you need a thermal drone or just a thermal camera? Read our guide to [thermal cameras vs thermal drones](/blog/thermal-camera-vs-thermal-drone-infrared-inspections), which also covers how to get a usable thermal image: palettes, reflections, weather and timing.',
+      'Not sure whether you need a thermal drone or just a thermal camera? Read our guide to [thermal cameras vs thermal drones](/blog/thermal-camera-vs-thermal-drone-infrared-inspections), which also covers how to get a usable thermal image: palettes, reflections, weather and timing. For roof and building work see our [roof inspection drone guide](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices), and for utilities see our [power line inspection drone guide](/blog/buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices).',
       { h2: 'Which thermal drone for which job' },
       { ul: [
         '**Solar farms and roofs:** a long flight and a radiometric camera matter most. See our [solar farm inspection drone guide](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices).',
@@ -1584,7 +1584,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'For repeat inspections, the [DJI Dock 3](/product/dji-dock-3) launches, lands and recharges an aircraft without an operator on site. It works with the Matrice 4D series, and the [Dock 3 Survey Package](/product/dji-dock-3-survey-package) and [Thermal Package](/product/dji-dock-3-thermal-package) bundle the dock for mapping and thermal work. See [DJI Dock](/category/enterprise-drones/dji-dock) and the older [DJI Dock 2](/product/dji-dock-2).',
       'Plan the site before you buy a dock. DJI lists the Dock 3 at 55 kg without the aircraft and a 10 km maximum operating radius. The dock is rated IP56 and its aircraft IP55, and the dock operates from -30 to 50°C, with a landing wind limit of 12 m/s. It needs mains power (100 to 240 V AC, up to 800 W) and a network connection: Ethernet, or 4G with the DJI Cellular Dongle 2, which is sold separately. DJI lists 27 minutes to charge the aircraft from 15% to 95%.',
       { h2: 'Payloads, batteries and accessories' },
-      'Enterprise aircraft are only as useful as their kit. Browse [enterprise accessories](/category/enterprise-drones/enterprise-accessories), [Zenmuse cameras](/category/cameras-sensors/dji-zenmuse-cameras), [LiDAR sensors](/category/cameras-sensors/lidar-sensors) and [thermal cameras](/category/cameras-sensors/thermal-cameras). Read our [thermal drones guide](/blog/thermal-drones-australia-guide) and the [LiDAR vs photogrammetry guide](/blog/lidar-vs-photogrammetry-drone-mapping-australia) to choose a payload.',
+      'Enterprise aircraft are only as useful as their kit. Browse [enterprise accessories](/category/enterprise-drones/enterprise-accessories), [Zenmuse cameras](/category/cameras-sensors/dji-zenmuse-cameras), [LiDAR sensors](/category/cameras-sensors/lidar-sensors) and [thermal cameras](/category/cameras-sensors/thermal-cameras). Read our [thermal drones guide](/blog/thermal-drones-australia-guide) and the [LiDAR vs photogrammetry guide](/blog/lidar-vs-photogrammetry-drone-mapping-australia) to choose a payload. For specific inspection work, see our guides to [roof and building inspection](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices) and [power line inspection](/blog/buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices).',
       { h2: 'Which aircraft for which job' },
       { table: {
         head: ['Job', 'Start with', 'Why'],
@@ -1722,7 +1722,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: 'Monitor crops with multispectral drones' },
       'Spraying is more effective when you know where to spray. The [DJI Mavic 3 Multispectral](/product/dji-mavic-3-multispectral) and the [multispectral cameras](/category/cameras-sensors/multispectral-cameras) we supply measure crop health from the air, and [DJI Terra Agriculture](/product/dji-terra-agriculture-1-year-3-devices) processes the data into prescription maps.',
       { h2: 'Set-up, training and running costs' },
-      'Budget beyond the aircraft. A spraying system needs several batteries, a fast charger or power supply, a generator for the field, spare nozzles or spreader parts and time to learn the flight and spray settings. Train every operator before the busy season, keep a maintenance routine for nozzles, pumps and filters, and plan for battery wear over time. We can quote the aircraft, batteries, charger and set-up together so the whole system works from day one. Our [drone weed spraying buying guide](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost) puts prices on two complete setups.',
+      'Budget beyond the aircraft. A spraying system needs several batteries, a fast charger or power supply, a generator for the field, spare nozzles or spreader parts and time to learn the flight and spray settings. Train every operator before the busy season, keep a maintenance routine for nozzles, pumps and filters, and plan for battery wear over time. We can quote the aircraft, batteries, charger and set-up together so the whole system works from day one. Our [drone weed spraying buying guide](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost) puts prices on two complete setups. Buying the compact aircraft? See our [DJI Agras T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone).',
       { h2: 'A quick buying checklist' },
       { ul: [
         'How many hectares do you need to cover in a day, and how often?',
@@ -1994,7 +1994,7 @@ export const BLOG_POSTS: BlogPost[] = [
         `**Budget for batteries and care coverage:** a Plus or Worry-Free bundle can protect a large investment.`
       ] },
       { h2: `Guides for specific thermal jobs` },
-      `If you know what you will use the camera for, these guides compare the aircraft for that job: [solar farm inspection](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices), [search and rescue](/blog/buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices) and [livestock and farm checks](/blog/buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices). For the aircraft side by side, read our [DJI thermal drone comparison](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) and our [thermal drones guide](/blog/thermal-drones-australia-guide), and for what resolution and sensitivity mean see [how a thermal imager works](/blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained).`,
+      `If you know what you will use the camera for, these guides compare the aircraft for that job: [solar farm inspection](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices), [search and rescue](/blog/buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices), [livestock and farm checks](/blog/buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices), [roof and building inspection](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices) and [power line inspection](/blog/buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices). For the aircraft side by side, read our [DJI thermal drone comparison](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) and our [thermal drones guide](/blog/thermal-drones-australia-guide), and for what resolution and sensitivity mean see [how a thermal imager works](/blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained).`,
       { h2: `Training, rules and getting a quote` },
       `Flying commercially may require CASA accreditation or a ReOC, depending on the aircraft weight and the work. Check [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), read our [FAQ on registering a drone and CASA rules](/faq) and tell us about your use case on the [quote form](/quote). We will confirm the right aircraft or payload, the batteries and the training you need.`,
       { h2: `How buying from Drones for Sale works` },
@@ -3016,7 +3016,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: `Spraying, spreading and mapping your fields` },
       `The Agras T25P, T50, T70P and T100 are all listed with spreading capacity, which turns the same drone into a seeding and fertilising tool. If you want to map crop health before you spray, see our guide to [agricultural drones for weed control, seeding and crop monitoring](/blog/agricultural-drones-weed-control-seeding-crop-monitoring) and the [multispectral cameras category](/category/cameras-sensors/multispectral-cameras), which runs from $4,900 to $28,999. Our [LiDAR vs photogrammetry guide](/blog/lidar-vs-photogrammetry-drone-mapping-australia) explains the mapping options.`,
       { h2: `Rules, licences and training` },
-      `Spraying with a drone is commercial flying and also involves chemical application, which is regulated and varies by state. You will normally need the right drone accreditation or licence and an operator certificate, and you may need a chemical application licence for your state or territory. Rules change, so confirm what applies on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) and with your state regulator, and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules). We can discuss training and set-up when you ask for a quote.`,
+      `Spraying with a drone is commercial flying and also involves chemical application, which is regulated and varies by state. You will normally need the right drone accreditation or licence and an operator certificate, and you may need a chemical application licence for your state or territory. Rules change, so confirm what applies on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) and with your state regulator, and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules). We can discuss training and set-up when you ask for a quote. If the T25P is your pick, our [DJI Agras T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) sets out the tank sums and the cost of a working kit.`,
       { h2: `How buying from Drones for Sale works` },
       `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For a spray drone we recommend a written quote so we confirm the aircraft, batteries, charging and freight together: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply. Browse all [spraying drones](/category/spraying-drones).`,
       { faq: [
@@ -3281,7 +3281,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: `Looking after Agras batteries` },
       `High-capacity batteries are expensive, so treat them carefully: keep them cool and dry, charge them with the correct charger, and follow DJI's guidance for storage and transport. Our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) covers the principles for DJI batteries, and our [agricultural spraying drone guide](/blog/agricultural-spraying-drones-australia-guide) explains how power planning fits into a spraying operation. If you also plan to map crop health before you spray, see our [multispectral buying guide](/blog/buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices). Our shipping policy states that high-capacity batteries are shipped in line with Australian IATA air cargo regulations.`,
       { h2: `Rules and training` },
-      `Spraying with a drone is commercial flying and involves chemical application, which varies by state. You will normally need the right drone accreditation or licence and an operator certificate, and you may need a chemical application licence for your state or territory. Rules change, so confirm what applies on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) and with your state regulator, and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for common questions.`,
+      `Spraying with a drone is commercial flying and involves chemical application, which varies by state. You will normally need the right drone accreditation or licence and an operator certificate, and you may need a chemical application licence for your state or territory. Rules change, so confirm what applies on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) and with your state regulator, and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for common questions. For a priced T25P setup with batteries and a charger, see our [DJI Agras T25P guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone).`,
       { h2: `How buying from Drones for Sale works` },
       `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For batteries and charging equipment we recommend a written quote so we confirm compatibility, quantities and freight together: use the [quote form](/quote), the [order form](/order) or the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply. Browse all [spraying drones](/category/spraying-drones).`,
       { faq: [
@@ -3977,7 +3977,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: `Before you buy: rules and training` },
       `Flying for a client is commercial work, and large solar sites often have their own site rules and electrical safety requirements. Check what applies to your flying on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for the basics. Our [enterprise drone guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) explains how these aircraft fit into a business, and our [Matrice comparison](/blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price) covers the bigger platforms.`,
       { h2: `Spares and related equipment` },
-      `Browse the full [DJI Matrice range](/category/enterprise-drones/dji-matrice), the [Mavic 3 Enterprise aircraft](/category/enterprise-drones/dji-mavic-3-enterprise), the [enterprise accessories](/category/enterprise-drones/enterprise-accessories) and the [thermal cameras](/category/cameras-sensors/thermal-cameras). If you also search for people or animals with the same aircraft, see our [search and rescue drone guide](/blog/buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices).`,
+      `Browse the full [DJI Matrice range](/category/enterprise-drones/dji-matrice), the [Mavic 3 Enterprise aircraft](/category/enterprise-drones/dji-mavic-3-enterprise), the [enterprise accessories](/category/enterprise-drones/enterprise-accessories) and the [thermal cameras](/category/cameras-sensors/thermal-cameras). If you also search for people or animals with the same aircraft, see our [search and rescue drone guide](/blog/buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices). The same aircraft also inspect [roofs and buildings](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices) and [power lines and substations](/blog/buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices).`,
       { h2: `Get a free quote on a solar inspection drone` },
       `Tell us the size of the sites you inspect, how often and the weather you fly in, and we will recommend an aircraft and the spare batteries and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below, and we will confirm compatibility and availability before you pay.`,
       { h2: `How buying from Drones for Sale works` },
@@ -4190,5 +4190,372 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['drone for livestock', 'thermal drone for farm', 'thermal drone cattle', 'drone for counting cattle', 'drone for finding lost sheep', 'farm drone with thermal camera']
+  },
+  {
+    id: 'post-43',
+    slug: 'buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices',
+    intent: 'transactional',
+    title: `Buy a Roof and Building Inspection Drone in Australia: Visual and Thermal Drones Compared by Price`,
+    metaTitle: `Roof Inspection Drone Australia: Thermal Drone Prices`,
+    metaDescription: `Buying a roof inspection drone in Australia? Compare the Mavic 3 Enterprise, Mavic 3T, Matrice 4E and Matrice 4T by price, camera and thermal resolution.`,
+    subtitle: `Which drone checks roofs and buildings from the air, when a thermal camera is worth the extra cost and what a complete inspection kit adds up to.`,
+    date: 'November 2026',
+    dateISO: '2026-11-18',
+    modifiedISO: '2026-11-18',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['Thermal Drones', 'Buying Guide', 'Building Inspection'],
+    excerpt: `A drone inspects a roof without a ladder or scaffold. We compare visual and thermal drones for roof and building work by price, camera and flight time, and show when thermal is worth the extra money.`,
+    image: '/images/blog-roof-inspection-drone-guide.webp',
+    imageAlt: `DJI Mavic 3 Thermal, DJI Matrice 4 Thermal and DJI Matrice 30T, three drones used for roof and building inspection`,
+    relatedProducts: ['dji-mavic-3-enterprise', 'dji-mavic-3t-worry-free-basic-combo', 'dji-matrice-4e-plus-combo', 'dji-matrice-4t-plus-combo'],
+    content: [
+      `A roof is slow, risky and expensive to inspect by ladder or scaffold. A drone flies the whole roof in minutes, photographs every section and sends the pictures to a client or an insurer without anyone leaving the ground. If you have searched for a roof inspection drone in Australia, the real questions are whether a visual drone is enough or you need thermal, and what a working kit costs. This guide sets out what each aircraft costs, how they compare on the figures that matter and what a complete setup adds up to. You can check the figures on DJI's official specification pages for the [Mavic 3 Enterprise series](https://enterprise.dji.com/mavic-3-enterprise/specs) and the [Matrice 4 series](https://enterprise.dji.com/matrice-4-series/specs).`,
+      { h2: `What a drone shows on a roof or building` },
+      { ul: [
+        `**Visible damage:** cracked or slipped tiles, lifted sheeting, rusted fixings, blocked gutters and loose flashing. A zoom camera shows these from a safe distance.`,
+        `**Moisture and insulation problems (thermal):** wet or missing insulation can hold or release heat differently from dry areas, which a thermal camera shows as a pattern on the surface.`,
+        `**Heat loss and air leaks (thermal):** warm or cool patches on a building envelope can point to gaps worth checking from the inside.`,
+        `**Hot equipment (thermal):** rooftop air conditioning, switchboards and solar panels can show a failing component as a hot spot.`
+      ] },
+      `A thermal image shows surface temperature differences, not moisture or damage directly, so every finding is checked on site, for example with a moisture meter. Our guide to [thermal cameras and thermal drones for inspections](/blog/thermal-camera-vs-thermal-drone-infrared-inspections) explains how to get a usable thermal image.`,
+      { img: { src: '/images/blog-roof-inspection-drone-guide-inline-1.webp', alt: `DJI Mavic 3 Enterprise and DJI Mavic 3 Thermal side by side, the visual and thermal versions of one portable aircraft`, caption: `The Mavic 3 Enterprise (visual) and Mavic 3 Thermal (thermal) are the two portable starting points for roof work.` } },
+      { h2: `Do you need thermal for roof work?` },
+      `Many roof jobs need only a good camera. Thermal earns its price when the question is about heat, not appearance.`,
+      { table: {
+        head: ['Job', 'Is a visual drone enough?', 'What thermal adds'],
+        rows: [
+          ['Tile, sheeting, gutter and flashing condition', 'Yes, with a zoom camera', 'Little'],
+          ['A photo record for an insurer or a sale', 'Yes', 'Little'],
+          ['Wet insulation or trapped moisture on a flat roof', 'No', 'Shows temperature patterns to check with a moisture meter'],
+          ['Heat loss and air leaks', 'No', 'Shows surface temperature differences'],
+          ['Rooftop electrical and air conditioning', 'Partly', 'Shows hot connections and failing units'],
+          ['Solar panels on the roof', 'Partly', 'Shows hot cells and failed strings']
+        ]
+      } },
+      `Thermal also costs more. At our listed prices the [Mavic 3 Thermal](/product/dji-mavic-3t-worry-free-basic-combo) at $8,249 is $2,200 above the [Mavic 3 Enterprise](/product/dji-mavic-3-enterprise) at $6,049, and the [Matrice 4 Thermal](/product/dji-matrice-4-thermal) at $10,159 is $2,764 above the [Matrice 4 Enterprise](/product/dji-matrice-4-enterprise) at $7,395. If most of your work is visual, buy the visual aircraft. If you will sell thermal reports, buy thermal from the start.`,
+      { h2: `When to fly a thermal roof inspection` },
+      `A thermal camera reads surface temperature, so the conditions on the day decide whether the image is useful.`,
+      { ul: [
+        `**Avoid direct and reflected sunlight.** Long sunny periods let a roof absorb heat, which can make a fault hard to separate from its surroundings.`,
+        `**Expect the contrast to change after sunset.** Stored heat is released as the roof cools, so the time you fly changes what you see. There is no single best time for every roof, so test on yours.`,
+        `**Watch for reflections.** Glass, bare metal and wet surfaces reflect heat and can give a wrong reading. Paint or corrosion changes how a metal surface behaves, so change your viewing angle to tell a real hot spot from a reflection.`,
+        `**Allow for weather.** Rain, strong wind and smoke reduce what the camera can read, and rain narrows the temperature differences between areas.`,
+        `**Fly closer for measurements.** Accuracy falls as distance grows, and warm, humid air makes a reading look colder than the true surface temperature.`
+      ] },
+      `CASA standard operating conditions call for flying in daylight, so check the CASA website before you plan a survey after dark.`,
+      { h2: `Roof inspection drone prices in Australia` },
+      `These are current listed prices in Australian dollars.`,
+      { table: {
+        head: ['Product', 'What it is', 'Price (AUD)'],
+        rows: [
+          ['[DJI Mavic 3 Enterprise](/product/dji-mavic-3-enterprise)', 'Portable visual aircraft with a 4/3 mechanical-shutter camera', '$6,049'],
+          ['[DJI Mavic 3T Worry-Free Basic Combo](/product/dji-mavic-3t-worry-free-basic-combo)', 'Portable thermal drone with Care Enterprise Basic', '$8,249'],
+          ['[DJI Mavic 3T Worry-Free Plus Combo](/product/dji-mavic-3t-worry-free-plus-combo)', 'The same aircraft with Care Enterprise Plus', '$10,679'],
+          ['[DJI Matrice 4E Plus Combo](/product/dji-matrice-4e-plus-combo)', 'Visual aircraft with two tele cameras and a laser rangefinder', '$8,360'],
+          ['[DJI Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', 'Thermal aircraft with two tele cameras and a laser rangefinder', '$11,248'],
+          ['[DJI Matrice 30T Worry-Free Basic Combo](/product/matrice-30t-worry-free-basic-combo)', 'Weather-sealed thermal drone, IP55', '$14,917']
+        ]
+      } },
+      { h2: `Mavic 3 and Matrice 4 compared for building work` },
+      `This table uses the figures on DJI's own specification pages. Flight times are DJI's no-wind laboratory figures, so plan on less on a windy roof.`,
+      { table: {
+        head: ['', 'Mavic 3 Enterprise', 'Mavic 3T', 'Matrice 4E', 'Matrice 4T'],
+        rows: [
+          ['Wide camera', '4/3 CMOS, 20 MP, mechanical shutter', '1/2-inch CMOS, 48 MP', '4/3 CMOS, 20 MP', '1/1.3-inch CMOS, 48 MP'],
+          ['Tele camera', '1/2-inch, 12 MP', '1/2-inch, 12 MP', '70 mm and 168 mm equivalent, 48 MP each', '70 mm and 168 mm equivalent, 48 MP each'],
+          ['Thermal camera', 'None', '640 by 512', 'None', '640 by 512, 1280 by 1024 with super resolution'],
+          ['Maximum flight time', '45 min', '45 min', '49 min', '49 min'],
+          ['Maximum wind (takeoff and landing)', '12 m/s', '12 m/s', '12 m/s', '12 m/s'],
+          ['Weight', '915 g', '920 g', '1,219 g', '1,219 g']
+        ]
+      } },
+      `The Matrice 4 pair add a 168 mm equivalent tele camera, which lets you read fixings and cracks from a distance and keep the aircraft clear of roof edges and aerials, and a laser rangefinder that DJI lists at up to 1,800 m. The Mavic 3 pair fold small and suit a pilot who works out of a car. The Matrice 4T also adds a near-infrared light for dim scenes.`,
+      { img: { src: '/images/blog-roof-inspection-drone-guide-inline-2.webp', alt: `DJI Matrice 4 Enterprise and DJI Matrice 4 Thermal side by side, two aircraft with tele cameras and a laser rangefinder`, caption: `The Matrice 4 Enterprise (visual) and Matrice 4 Thermal share the same airframe, tele cameras and rangefinder.` } },
+      { h2: `What a roof inspection kit costs` },
+      `Three worked examples from current listed prices show the range. Spare batteries matter on a day with several roofs, so we include them.`,
+      { table: {
+        head: ['Setup', 'What is in it', 'Total (AUD)'],
+        rows: [
+          ['Visual starter', '[Mavic 3 Enterprise](/product/dji-mavic-3-enterprise) $6,049 and [Mavic 3 Enterprise Battery Kit](/product/dji-mavic-3-enterprise-battery-kit) $990', '$7,039'],
+          ['Thermal starter', '[Mavic 3T Worry-Free Basic Combo](/product/dji-mavic-3t-worry-free-basic-combo) $8,249 and the same battery kit $990', '$9,239'],
+          ['Long-flight thermal kit', '[Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo) $11,248, two extra [Matrice 4 batteries](/product/dji-matrice-4-battery) at $280 each and a [charging hub](/product/dji-matrice-4-series-charging-hub-200w) $140', '$11,948']
+        ]
+      } },
+      { img: { src: '/images/blog-roof-inspection-drone-guide-inline-3.webp', alt: `DJI Mavic 3 Enterprise Battery Kit, spare batteries for a day of roof inspections`, caption: `A battery kit keeps a Mavic 3 flying between roofs without a long wait to recharge.` } },
+      { h2: `Reports and deliverables` },
+      `The Mavic 3T and Matrice 4T save radiometric R-JPEG thermal photos, which carry temperature data so you can measure an area after the flight and not only see it. A useful report pairs each thermal image with a visual photo of the same spot and notes the time, the sky, the wind and the air temperature. DJI lists RTK Fix accuracy of 1 cm plus 1 ppm horizontal on both families, so check whether your kit includes the RTK module if you want to return to the same positions on a repeat inspection.`,
+      { h2: `Which roof inspection drone should you buy?` },
+      { ul: [
+        `**Visual roof checks and photo records:** the [Mavic 3 Enterprise](/product/dji-mavic-3-enterprise) at $6,049, or the [Matrice 4E Plus Combo](/product/dji-matrice-4e-plus-combo) at $8,360 for the 168 mm tele camera.`,
+        `**Thermal reports on a budget:** the [Mavic 3T Worry-Free Basic Combo](/product/dji-mavic-3t-worry-free-basic-combo) at $8,249.`,
+        `**Thermal reports with long zoom and longer flights:** the [Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo) at $11,248.`,
+        `**Wet, dusty or exposed sites:** the [Matrice 30T Worry-Free Basic Combo](/product/matrice-30t-worry-free-basic-combo) at $14,917 for the IP55 rating.`
+      ] },
+      { h2: `What a drone cannot do on a roof` },
+      { ul: [
+        `It cannot see through roofing, so hidden damage under a surface needs a ground or roof-space check.`,
+        `A thermal camera cannot confirm moisture. It shows a temperature pattern that a person has to check.`,
+        `Reflections from glass, shiny metal and wet surfaces can look like hot spots.`,
+        `Strong wind and rain reduce thermal contrast and make some days unsuitable.`
+      ] },
+      `Our guides to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and to [choosing a thermal drone](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper on the cameras and the aircraft. If your roofs carry solar panels, see our [solar farm inspection drone guide](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices). For the buying routes (a complete drone, a payload, a conversion or a dock), read our [drone heat camera guide](/blog/buy-drone-heat-camera-australia-thermal-drones-payloads), and for how thermal sensors work see [how a thermal imager works](/blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained).`,
+      { h2: `Rules, privacy and permission` },
+      `Inspecting a roof for a client is commercial flying. CASA standard operating conditions say to fly no higher than 120 m, keep the aircraft in visual line of sight, stay at least 30 m from other people and fly in daylight. Confirm what applies to your operation on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq). Get the property owner's permission before you fly, and be careful about photographing neighbouring properties.`,
+      { h2: `Spares and related equipment` },
+      `Browse the full [DJI Matrice range](/category/enterprise-drones/dji-matrice), the [Mavic 3 Enterprise aircraft](/category/enterprise-drones/dji-mavic-3-enterprise), the [enterprise accessories](/category/enterprise-drones/enterprise-accessories) and the [thermal cameras](/category/cameras-sensors/thermal-cameras). Our [enterprise drone guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) explains how these aircraft fit into a business, and our [Matrice comparison](/blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price) covers the larger platforms.`,
+      { h2: `Get a free quote on a roof inspection drone` },
+      `Tell us the kind of buildings you inspect, whether you need thermal and how many jobs you do in a day, and we will recommend an aircraft and the spare batteries and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below, and we will confirm compatibility and availability before you pay.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For an enterprise aircraft we recommend asking for a written quote first, so we confirm the configuration, availability and delivery before you pay: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `What is the best drone for roof inspections in Australia?`, a: `For visual checks, the Mavic 3 Enterprise at $6,049 is the lowest-cost choice and the Matrice 4E adds a 168 mm equivalent tele camera. For thermal reports, the Mavic 3T starts at $8,249 and the Matrice 4T Plus Combo is $11,248.` },
+        { q: `Do I need a thermal camera to inspect a roof?`, a: `Not for visual checks of tiles, sheeting and gutters. Thermal is useful for wet insulation, heat loss and hot equipment. At our prices it adds $2,200 on the Mavic 3 and $2,764 on the Matrice 4.` },
+        { q: `Can a drone find a roof leak?`, a: `A thermal camera can show temperature patterns that point to trapped moisture, but it does not confirm a leak. A person checks the area with a moisture meter or other tests.` },
+        { q: `When is the best time to fly a thermal roof inspection?`, a: `There is no single best time. Avoid direct and reflected sunlight, and note that stored heat is released after sunset, which changes the contrast. Test on your own roof and check the CASA daylight condition.` },
+        { q: `How much does a roof inspection drone kit cost?`, a: `A visual starter with a spare battery kit is $7,039, a thermal starter with the Mavic 3T is $9,239 and a long-flight thermal kit with the Matrice 4T is $11,948. All prices are in Australian dollars.` }
+      ] }
+    ],
+    targetKeywords: ['roof inspection drone', 'drone roof inspection', 'building inspection drone', 'thermal drone for roof inspection', 'drone for building inspection', 'dji mavic 3t roof inspection']
+  },
+  {
+    id: 'post-44',
+    slug: 'buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices',
+    intent: 'transactional',
+    title: `Buy a Power Line Inspection Drone in Australia: Zoom, Thermal and Rangefinder Drones Compared by Price`,
+    metaTitle: `Power Line Inspection Drone Australia: Prices`,
+    metaDescription: `Buying a power line inspection drone in Australia? Compare the Matrice 4E, Matrice 4T and Zenmuse H30 and H30T payloads by zoom, thermal and price.`,
+    subtitle: `Which aircraft and camera read hardware on poles and towers from a safe distance, when thermal is worth the cost and what a complete kit adds up to.`,
+    date: 'November 2026',
+    dateISO: '2026-11-18',
+    modifiedISO: '2026-11-18',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['Thermal Drones', 'Buying Guide', 'Utility Inspection'],
+    excerpt: `Zoom, a laser rangefinder and a thermal camera let a drone check poles, towers and substations without a climb. We compare the Matrice 4E, Matrice 4T and the Zenmuse H30 and H30T by price, zoom and flight time.`,
+    image: '/images/blog-power-line-inspection-drone-guide.webp',
+    imageAlt: `DJI Matrice 4 Enterprise, DJI Matrice 4 Thermal and DJI Zenmuse H30T, equipment used for power line and substation inspection`,
+    relatedProducts: ['dji-matrice-4e-plus-combo', 'dji-matrice-4t-plus-combo', 'dji-zenmuse-h30', 'dji-zenmuse-h30t'],
+    content: [
+      `Climbing a pole or a tower to look at a clamp, an insulator or a joint is slow and carries risk. A drone with a strong zoom camera can read the hardware from a distance, a laser rangefinder can put a number on how far away it is, and a thermal camera can show a connection that is running hot. If you have searched for a power line inspection drone in Australia, the question is which aircraft and camera give you the zoom, the thermal view and the flight time you need, and what the kit costs. This guide sets out the options and the prices. You can check the figures on DJI's specification pages for the [Matrice 4 series](https://enterprise.dji.com/matrice-4-series/specs) and the [Matrice 350 RTK](https://enterprise.dji.com/matrice-350-rtk/specs).`,
+      { h2: `What a drone finds on a power line or substation` },
+      { ul: [
+        `**Hot joints, connectors and clamps (thermal):** a poor connection heats up under load, which a visible camera cannot show.`,
+        `**Damaged hardware (zoom):** broken strands, corrosion, missing fittings and damaged insulators are often visible with a strong zoom camera.`,
+        `**Vegetation near the line (visual):** a drone shows where growth is close to a conductor, and a LiDAR scan can map it. See our [LiDAR drone buying guide](/blog/buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices).`,
+        `**Distance to a target (rangefinder):** a laser rangefinder measures how far the aircraft is from the point it is looking at.`
+      ] },
+      `A connection only heats when current flows, so a line carrying little load can hide a fault, and a thermal image shows where to look, not the cause. Findings are confirmed by the line owner's own procedures. Our guide to [thermal cameras and thermal drones for inspections](/blog/thermal-camera-vs-thermal-drone-infrared-inspections) explains how to get a usable thermal image.`,
+      { img: { src: '/images/blog-power-line-inspection-drone-guide-inline-1.webp', alt: `DJI Matrice 4E Plus Combo and DJI Matrice 4T Plus Combo side by side, the visual and thermal aircraft for utility inspection`, caption: `The Matrice 4E (visual) and Matrice 4T (thermal) both carry a 168 mm equivalent tele camera and a laser rangefinder.` } },
+      { h2: `Zoom, rangefinder or thermal: what each camera does` },
+      { table: {
+        head: ['Capability', 'What it does for a line inspection', 'Where you find it'],
+        rows: [
+          ['168 mm equivalent tele camera, 48 MP', 'Reads hardware and damage from a distance', 'Matrice 4E and Matrice 4T'],
+          ['34x optical zoom, 40 MP', 'Reaches further from the aircraft', 'Zenmuse H30 and H30T'],
+          ['Laser rangefinder', 'Measures the distance to the point you are viewing', 'Up to 1,800 m on the Matrice 4 pair; 3 to 3,000 m on the Zenmuse H30 and H30T'],
+          ['Thermal camera', 'Shows hot connections and equipment', '640 by 512 on the Matrice 4T; 1280 by 1024 on the Zenmuse H30T'],
+          ['Near-infrared light', 'Helps in dim scenes', 'Matrice 4T, Zenmuse H30 and H30T']
+        ]
+      } },
+      { h2: `Power line inspection drone prices in Australia` },
+      `These are current listed prices in Australian dollars.`,
+      { table: {
+        head: ['Product', 'What it is', 'Price (AUD)'],
+        rows: [
+          ['[DJI Matrice 4E Plus Combo](/product/dji-matrice-4e-plus-combo)', 'Visual aircraft with two tele cameras and a laser rangefinder', '$8,360'],
+          ['[DJI Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', 'The same aircraft with a thermal camera', '$11,248'],
+          ['[DJI Matrice 30T Worry-Free Basic Combo](/product/matrice-30t-worry-free-basic-combo)', 'Weather-sealed thermal drone, IP55', '$14,917'],
+          ['[DJI Zenmuse H30](/product/dji-zenmuse-h30)', 'Wide, 34x zoom and laser rangefinder payload', '$8,495'],
+          ['[DJI Zenmuse H30T](/product/dji-zenmuse-h30t)', 'The H30 plus a 1280 by 1024 thermal camera', '$17,335'],
+          ['[DJI Matrice 4 battery](/product/dji-matrice-4-battery)', 'Spare battery', '$280'],
+          ['[DJI Dock 3](/product/dji-dock-3)', 'Automatic launch and recharge for a repeat site', '$19,999']
+        ]
+      } },
+      { h2: `Matrice 4E vs Matrice 4T vs the Zenmuse payloads` },
+      `This table uses the figures on DJI's own specification pages and our current prices. The Zenmuse payloads fly on a Matrice 350 RTK or Matrice 300 RTK, which we price individually.`,
+      { table: {
+        head: ['', 'Matrice 4E', 'Matrice 4T', 'Zenmuse H30', 'Zenmuse H30T'],
+        rows: [
+          ['Zoom', '168 mm equivalent tele, 48 MP', '168 mm equivalent tele, 48 MP, 112x hybrid zoom', '40 MP, 34x optical', '40 MP, 34x optical'],
+          ['Laser rangefinder', 'Up to 1,800 m', 'Up to 1,800 m', '3 to 3,000 m', '3 to 3,000 m'],
+          ['Thermal camera', 'None', '640 by 512', 'None', '1280 by 1024'],
+          ['Flight time', '49 min', '49 min', 'Host aircraft', 'Host aircraft'],
+          ['Weight', '1,219 g aircraft', '1,219 g aircraft', '920 g payload', '920 g payload'],
+          ['Price', '$8,360 (Plus Combo)', '$11,248 (Plus Combo)', '$8,495', '$17,335']
+        ]
+      } },
+      `The Matrice 350 RTK is the usual host for the Zenmuse payloads. DJI lists a 55 minute flight time with no payload, an IP55 aircraft rating, a 12 m/s wind limit, an operating range of -20 to 50°C and a maximum payload of 960 g with a single gimbal damper. Both Zenmuse payloads weigh 920 g, so they fit within that limit, but flight time falls with a payload, so expect less than 55 minutes. If you do not already own a Matrice 350 RTK, the complete Matrice 4 aircraft is the cheaper route: the H30 alone is $8,495 before you buy the aircraft to carry it.`,
+      { img: { src: '/images/blog-power-line-inspection-drone-guide-inline-2.webp', alt: `DJI Zenmuse H30T payload, a thermal camera with 34x optical zoom and a laser rangefinder for utility inspection`, caption: `The Zenmuse H30T adds a 1280 by 1024 thermal camera to a 34x zoom camera and a rangefinder that measures to 3,000 m.` } },
+      { h2: `Rules that shape corridor work` },
+      `Power lines run for kilometres, so range matters, but the legal limit comes before the radio limit. DJI lists video transmission of up to 25 km on the Matrice 4 series under FCC rules and 12 km under CE rules, in unobstructed conditions, yet CASA standard operating conditions require you to keep the aircraft in visual line of sight, fly no higher than 120 m and stay at least 30 m from other people. Flying beyond visual line of sight needs separate approval, so plan a long corridor as a series of legs and check the requirements on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules). Network owners also set their own access, safety and clearance rules, so confirm them with the line owner before you quote. Read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for the basics.`,
+      { h2: `Wind, weather and temperature` },
+      `DJI lists 12 m/s, about 43 km/h, for takeoff and landing on the Matrice 4 series, and -10 to 40°C as the operating range. DJI lists no ingress protection rating for the Matrice 4 aircraft, so for exposed sites in rain or dust compare the IP55 [Matrice 30T](/product/matrice-30t-worry-free-basic-combo) at $14,917. Our guide to [waterproof drones and IP ratings](/blog/waterproof-drones-ip-ratings-explained) sets out the wind, temperature and rating limits across the range.`,
+      { h2: `What a power line inspection kit costs` },
+      `Three worked examples from current listed prices show the range. Spare batteries matter on a long corridor day, so we include them.`,
+      { table: {
+        head: ['Setup', 'What is in it', 'Total (AUD)'],
+        rows: [
+          ['Visual corridor kit', '[Matrice 4E Plus Combo](/product/dji-matrice-4e-plus-combo) $8,360, two extra [Matrice 4 batteries](/product/dji-matrice-4-battery) at $280 each and a [charging hub](/product/dji-matrice-4-series-charging-hub-200w) $140', '$9,060'],
+          ['Thermal corridor kit', '[Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo) $11,248 with the same two batteries and hub', '$11,948'],
+          ['Payload route', '[Zenmuse H30](/product/dji-zenmuse-h30) $8,495 or [Zenmuse H30T](/product/dji-zenmuse-h30t) $17,335, plus a compatible Matrice priced on quote', 'On quote']
+        ]
+      } },
+      { h2: `Substations and repeat sites: the dock route` },
+      `For a site you inspect often, a dock launches, lands and recharges the aircraft without a person on site. The [DJI Dock 3](/product/dji-dock-3) is $19,999. DJI lists a 10 km maximum operating radius, an IP56 dock, an IP55 aircraft, a landing wind limit of 12 m/s, and a power supply of 100 to 240 V AC with Ethernet or 4G with the DJI Cellular Dongle 2, sold separately. The Dock 3 runs the Matrice 4D series, which is priced separately, and the [Dock 3 Thermal Package](/product/dji-dock-3-thermal-package) is $34,278. Our [Dock 3 vs Dock 2 guide](/blog/buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box) explains how it works.`,
+      { img: { src: '/images/blog-power-line-inspection-drone-guide-inline-3.webp', alt: `DJI Dock 3, an automatic launch and charging dock for repeat inspections of a substation or other fixed site`, caption: `The DJI Dock 3 launches, lands and recharges an aircraft at a site you inspect often.` } },
+      { h2: `Which power line inspection drone should you buy?` },
+      { ul: [
+        `**Visual inspection of poles, towers and hardware:** the [Matrice 4E Plus Combo](/product/dji-matrice-4e-plus-combo) at $8,360.`,
+        `**Visual and thermal in one aircraft:** the [Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo) at $11,248.`,
+        `**Hardware checks at the longest zoom range, with a Matrice 350 RTK:** the [Zenmuse H30](/product/dji-zenmuse-h30) at $8,495.`,
+        `**Long-range thermal on a Matrice 350 RTK:** the [Zenmuse H30T](/product/dji-zenmuse-h30t) at $17,335. Our [H30T guide](/blog/buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices) compares it with the H30.`,
+        `**Exposed sites in rain and dust:** the [Matrice 30T Worry-Free Basic Combo](/product/matrice-30t-worry-free-basic-combo) at $14,917.`
+      ] },
+      { h2: `What a drone cannot do on a power line` },
+      { ul: [
+        `It cannot replace the line owner's outage tests and electrical procedures. A drone finds where to look.`,
+        `A thermal image shows surface temperature, and a line carrying a light load can hide a fault.`,
+        `Reflections, sun and wind can create false readings, so confirm doubtful findings with the zoom camera.`,
+        `A drone is not a way around access, safety and clearance rules: follow the line owner's requirements.`
+      ] },
+      `Our guides to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and to [choosing a thermal drone](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper on the cameras and the aircraft, our [Matrice comparison](/blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price) covers the bigger platforms and our [enterprise drone guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) explains how they fit into a business. For the buying routes (a complete drone, a payload, a conversion or a dock), see our [drone heat camera guide](/blog/buy-drone-heat-camera-australia-thermal-drones-payloads). If you also inspect solar sites or roofs, see our [solar farm inspection drone guide](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices) and our [roof and building inspection drone guide](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices).`,
+      { h2: `Spares and related equipment` },
+      `Browse the full [DJI Matrice range](/category/enterprise-drones/dji-matrice), the [enterprise accessories](/category/enterprise-drones/enterprise-accessories), the [Zenmuse cameras](/category/cameras-sensors/dji-zenmuse-cameras) and the [thermal cameras](/category/cameras-sensors/thermal-cameras).`,
+      { h2: `Get a free quote on a power line inspection drone` },
+      `Tell us the lines or sites you inspect, how long each corridor is and whether you need thermal, and we will recommend an aircraft or payload and the spare batteries and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below, and we will confirm compatibility and availability before you pay.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For an enterprise aircraft or payload we recommend asking for a written quote first, so we confirm the configuration, compatibility and delivery before you pay: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `What is the best drone for power line inspection in Australia?`, a: `For most teams the Matrice 4E or Matrice 4T, which carry a 168 mm equivalent tele camera and a laser rangefinder, with thermal on the 4T. If you already own a Matrice 350 RTK, the Zenmuse H30 or H30T adds 34x optical zoom and a rangefinder that measures to 3,000 m.` },
+        { q: `How much does a power line inspection drone cost?`, a: `A Matrice 4E Plus Combo is $8,360 and a Matrice 4T Plus Combo is $11,248. The Zenmuse H30 payload is $8,495 and the H30T is $17,335, and they need a compatible Matrice. All prices are in Australian dollars.` },
+        { q: `Can a drone find a hot joint on a power line?`, a: `A thermal camera shows a connection that runs hotter than its neighbours under load, which points to a joint worth checking. It shows where to look, and the line owner confirms the fault with its own procedures.` },
+        { q: `Can I fly a power line corridor beyond line of sight?`, a: `Not under the standard operating conditions, which require the aircraft to stay in visual line of sight. DJI lists transmission of up to 25 km on the Matrice 4 series, but range is not permission. Check the CASA website for approvals.` },
+        { q: `Do I need the line owner's permission to inspect a power line?`, a: `Network owners set their own access, safety and clearance rules, so confirm them with the line owner before you fly or quote. Commercial flying also carries CASA requirements.` }
+      ] }
+    ],
+    targetKeywords: ['power line inspection drone', 'drone for power line inspection', 'powerline inspection drone', 'utility inspection drone', 'substation inspection drone', 'dji zenmuse h30 power line']
+  },
+  {
+    id: 'post-45',
+    slug: 'buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone',
+    intent: 'transactional',
+    title: `Buy a DJI Agras T25P in Australia: Price, Setup Cost and Whether This Spray Drone Suits Your Farm`,
+    metaTitle: `DJI Agras T25P Price Australia: Setup Cost Guide`,
+    metaDescription: `DJI Agras T25P price in Australia: $17,530. See tank sums, battery and charger costs, what a working kit adds up to and when to step up to a bigger Agras.`,
+    subtitle: `What the compact Agras spray drone costs, how many hectares one tank covers, what a working kit adds up to and when a bigger Agras makes more sense.`,
+    date: 'November 2026',
+    dateISO: '2026-11-18',
+    modifiedISO: '2026-11-18',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['Agricultural Drones', 'Buying Guide', 'Spraying Drones'],
+    excerpt: `The DJI Agras T25P is the compact spray drone most small farms and orchards start with. We set out its price, its published specifications, the tank and battery sums and what a working kit costs.`,
+    image: '/images/blog-agras-t25p-guide.webp',
+    imageAlt: `DJI Agras T25P spray drone with its DB800 battery and C8000 battery station`,
+    relatedProducts: ['dji-agras-t25p', 'dji-agras-db800-intelligent-flight-battery', 'dji-c8000-intelligent-battery-station', 'dji-agras-t50'],
+    content: [
+      `The DJI Agras T25P is the compact aircraft in the Agras range, built for a single operator to fold, carry and fly. If you have searched for a DJI Agras T25P price in Australia, the useful answer is more than the sticker price: it is what a working kit costs, how much area one tank covers and whether this size suits your property or a bigger Agras is the better buy. This guide sets out the T25P price, its published specifications, the tank and battery sums and the setup cost. You can check the figures on DJI's [Agras T25P specification page](https://ag.dji.com/t25p/specs).`,
+      { h2: `DJI Agras T25P at a glance` },
+      `The aircraft is listed at $17,530 in Australian dollars. These are the figures DJI publishes.`,
+      { table: {
+        head: ['Specification', 'DJI figure'],
+        rows: [
+          ['Spray tank', '20 L'],
+          ['Maximum flow rate', '16 L/min with 2 nozzles, 24 L/min with 4 nozzles'],
+          ['Spray width', '4 to 7 m, with the aircraft 3 m above the crop'],
+          ['Droplet size', '50 to 500 µm'],
+          ['Spreading tank and width', '30 L, 3 to 8 m effective width'],
+          ['Maximum spreading rate', '190 kg/min of compound fertiliser'],
+          ['Maximum takeoff weight', '53 kg for spraying, 60 kg for spreading'],
+          ['Battery', 'DB800, 15,500 mAh'],
+          ['Battery charge time', '9 to 12 min from 30% to 95%, with the D6000i generator or the C8000 power supply'],
+          ['Obstacle sensing', 'Front and rear phased array radar with a tri-camera vision system, up to 60 m'],
+          ['Wind limit', 'Under 6 m/s (Level 3)']
+        ]
+      } },
+      { img: { src: '/images/blog-agras-t25p-guide-inline-1.webp', alt: `DJI Agras T25P foldable agricultural spray drone`, caption: `The Agras T25P folds for transport and is designed for one operator.` } },
+      { h2: `Is the T25P the right size for your property?` },
+      `The label of the product you apply sets the rate in litres per hectare, so these sums use example rates only. Divide the tank volume by the rate to see the area one 20 L load treats.`,
+      { table: {
+        head: ['Application rate', 'Area per 20 L tank'],
+        rows: [
+          ['10 L/ha', '2.0 ha'],
+          ['15 L/ha', '1.3 ha'],
+          ['20 L/ha', '1.0 ha'],
+          ['30 L/ha', '0.7 ha']
+        ]
+      } },
+      `Property size shows where the T25P stops being practical. At 15 L/ha, a 5 ha block needs 75 L of mixed product, a 20 ha paddock needs 300 L and a 50 ha property needs 750 L.`,
+      { table: {
+        head: ['Area at 15 L/ha', 'Product needed', 'Loads with the T25P (20 L)', 'Loads with the Agras T50 (40 L)'],
+        rows: [
+          ['5 ha', '75 L', '4', '2'],
+          ['20 ha', '300 L', '15', '8'],
+          ['50 ha', '750 L', '38', '19']
+        ]
+      } },
+      `At full flow of 24 L/min a 20 L tank empties in about 50 seconds, and DJI lists 9 to 12 minutes to charge one battery, so the day is limited by refills and battery swaps more than by flight time. Plan enough batteries to keep one aircraft working while the others charge.`,
+      { h2: `What a T25P setup costs` },
+      `The aircraft is only part of the cost. These are the listed prices of the power equipment it uses.`,
+      { table: {
+        head: ['Item', 'Price (AUD)', 'Note'],
+        rows: [
+          ['[DJI Agras T25P](/product/dji-agras-t25p)', '$17,530', 'The aircraft'],
+          ['[DB800 battery](/product/dji-agras-db800-intelligent-flight-battery)', '$3,190', '15,500 mAh, one per flight pack'],
+          ['[C8000 battery station](/product/dji-c8000-intelligent-battery-station)', '$2,310', 'Charges the DB800 in 9 to 12 minutes per DJI']
+        ]
+      } },
+      `Two worked examples show how the total grows. They assume the batteries and the charger are bought separately, so ask what your package already includes, because a package that includes them is cheaper.`,
+      { table: {
+        head: ['Setup', 'What is in it', 'Total (AUD)'],
+        rows: [
+          ['Aircraft with two extra batteries and a charger', '[T25P](/product/dji-agras-t25p) $17,530, two [DB800 batteries](/product/dji-agras-db800-intelligent-flight-battery) $6,380 and a [C8000](/product/dji-c8000-intelligent-battery-station) $2,310', '$26,220'],
+          ['Aircraft with three extra batteries and a charger', '[T25P](/product/dji-agras-t25p) $17,530, three DB800 batteries $9,570 and a C8000 $2,310', '$29,410']
+        ]
+      } },
+      { img: { src: '/images/blog-agras-t25p-guide-inline-2.webp', alt: `DJI Agras DB800 Intelligent Flight Battery and DJI C8000 Intelligent Battery Station for the Agras T25P`, caption: `The DB800 battery and the C8000 battery station are the power equipment a T25P day depends on.` } },
+      `Our guide to [Agras batteries, chargers and power supplies](/blog/buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100) explains how to size the charging side for a larger operation.`,
+      { h2: `When to step up from the T25P` },
+      `The T25P has the highest aircraft price per litre of tank in the range, but it is the compact, foldable choice for one operator. Larger aircraft cost less per litre and cut the number of loads on a big property.`,
+      { table: {
+        head: ['Model', 'Price (AUD)', 'Spray tank', 'Aircraft price per litre of tank', 'Loads for 40 ha at 15 L/ha'],
+        rows: [
+          ['[Agras T25P](/product/dji-agras-t25p)', '$17,530', '20 L', 'about $877', '30'],
+          ['[Agras T50](/product/dji-agras-t50)', '$21,999', '40 L', 'about $550', '15'],
+          ['[Agras T70P](/product/dji-agras-t70p)', '$20,380', '70 L', 'about $291', '9'],
+          ['[Agras T100](/product/dji-agras-t100)', '$30,380', '100 L', 'about $304', '6']
+        ]
+      } },
+      { img: { src: '/images/blog-agras-t25p-guide-inline-3.webp', alt: `DJI Agras T50 and DJI Agras T70P, the larger Agras models above the T25P`, caption: `The Agras T50 and T70P carry 40 L and 70 L tanks for larger properties.` } },
+      `Stay with the T25P if you spray small blocks, orchards or scattered paddocks and one person does the work. Step up if you treat tens of hectares in a season and the number of loads and battery swaps becomes the limit. Our [T25P vs T50 vs T100 guide](/blog/buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices) compares the range in detail.`,
+      { h2: `What the T25P can spread` },
+      `The T25P also spreads granules. DJI lists a 30 L spreading tank, an effective width of 3 to 8 m and a maximum discharge of 190 kg/min for compound fertiliser. The discharge figure is a maximum, not a per-hectare rate, so calibrate the rate for each product on a small block before the main job. Ask us which spreading system fits your aircraft when you request a quote, and read our [spreader drone guide](/blog/buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared) for seed and fertiliser work.`,
+      { h2: `Where the T25P is used` },
+      `The compact size suits orchards and tree crops, weed control on fence lines and patchy infestations, and pasture work on blocks that a larger machine cannot reach. See our guides to [orchard spray drones](/blog/buy-orchard-spray-drone-australia-dji-agras-t25p-t50-t70p-t100-tree-crop-prices) and to [drone weed spraying](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost), and our wider [agricultural spraying drones guide](/blog/agricultural-spraying-drones-australia-guide) and [agricultural drones guide](/blog/agricultural-drones-weed-control-seeding-crop-monitoring). DJI lists a wind limit of under 6 m/s, so the forecast decides your spray window, and the product label governs drift.`,
+      { h2: `Rules, licences and training` },
+      `Spraying with a drone is commercial flying and involves chemical application, which varies by state. At 53 kg maximum takeoff weight for spraying, the T25P is a heavy aircraft by CASA's weight groups, so confirm what that means for your accreditation and operator certificate on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules). You may also need a chemical application licence for your state or territory, and you should keep records of what you apply. Read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq). We can discuss training and set-up when you ask for a quote.`,
+      { h2: `Which setup should you buy?` },
+      { ul: [
+        `**One operator on small blocks or orchards:** the [Agras T25P](/product/dji-agras-t25p) with at least two extra batteries and a [C8000](/product/dji-c8000-intelligent-battery-station).`,
+        `**A contractor or a larger property:** compare the [Agras T50](/product/dji-agras-t50), [T70P](/product/dji-agras-t70p) and [T100](/product/dji-agras-t100) on price per litre and loads.`,
+        `**Tree crops needing fine mist:** see the mist options in our [orchard guide](/blog/buy-orchard-spray-drone-australia-dji-agras-t25p-t50-t70p-t100-tree-crop-prices).`,
+        `**Crop health before you spray:** a [multispectral drone](/blog/buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices) shows where to treat.`
+      ] },
+      { h2: `Spares and related equipment` },
+      `Browse every [spraying drone](/category/spraying-drones/spraying-drones) and [spraying accessory](/category/spraying-drones/spraying-drone-accessories) we supply, and the wider [spraying drones category](/category/spraying-drones).`,
+      { h2: `Get a free quote on a DJI Agras T25P` },
+      `Tell us the size of your property, the crops or weeds you treat and whether you also want to spread, and we will recommend a setup with the right batteries and charger and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below, and we will confirm what is in the package and the freight before you pay.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For a spray drone we recommend a written quote so we confirm the aircraft, batteries, charging and freight together: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `How much does a DJI Agras T25P cost in Australia?`, a: `The aircraft is $17,530. With two extra DB800 batteries ($3,190 each) and a C8000 battery station ($2,310) the total is $26,220, if the batteries and charger are bought separately. Ask us what your package includes.` },
+        { q: `How many hectares does one T25P tank cover?`, a: `Divide the 20 L tank by the application rate on the product label. At an example rate of 15 L/ha, one tank treats about 1.3 ha, and at 10 L/ha about 2 ha.` },
+        { q: `How fast does a DJI Agras T25P battery charge?`, a: `DJI lists 9 to 12 minutes to charge one DB800 battery from 30% to 95% with the D6000i generator or the C8000 power supply.` },
+        { q: `Can the DJI Agras T25P spread fertiliser and seed?`, a: `Yes. DJI lists a 30 L spreading tank, a 3 to 8 m effective width and a maximum discharge of 190 kg/min for compound fertiliser. Calibrate the rate for each product, and ask us which spreading system fits.` },
+        { q: `What wind can the DJI Agras T25P spray in?`, a: `DJI lists a wind limit of under 6 m/s (Level 3). Spray drift is also governed by the product label, so check the label as well as the forecast.` }
+      ] }
+    ],
+    targetKeywords: ['dji agras t25p', 'dji agras t25p price', 'agras t25p australia', 'small farm spray drone', 'dji t25p spray drone', 'agras t25p battery']
   }
 ];
