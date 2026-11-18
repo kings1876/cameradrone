@@ -1,4 +1,5 @@
 import { Block } from '../types';
+import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST } from './imageSets';
 
 export type Inline = { text: string; href?: string; bold?: boolean };
 
@@ -74,6 +75,8 @@ export function blocksToHtml(blocks: Block[]): string {
       html += `<table><thead><tr>${b.table.head.map(h => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${b.table.rows
         .map(r => `<tr>${r.map((c, i) => (i === 0 ? `<th scope="row">${inlineHtml(c)}</th>` : `<td>${inlineHtml(c)}</td>`)).join('')}</tr>`)
         .join('')}</tbody></table>`;
+    else if ('img' in b)
+      html += `<figure><picture><source type="image/avif" srcset="${respSet(b.img.src, 'avif', BLOG_WIDTHS, BLOG_FULL)}" sizes="${BLOG_SIZES_POST}"><img src="${b.img.src}" srcset="${respSet(b.img.src, 'webp', BLOG_WIDTHS, BLOG_FULL)}" sizes="${BLOG_SIZES_POST}" alt="${esc(b.img.alt)}" width="1600" height="900" loading="lazy" decoding="async"></picture>${b.img.caption ? `<figcaption>${esc(b.img.caption)}</figcaption>` : ''}</figure>`;
     else if ('faq' in b) html += `<h2 id="faq">Frequently asked questions</h2>${b.faq.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}`;
   }
   return html;

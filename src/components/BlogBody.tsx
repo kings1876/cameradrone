@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Block } from '../types';
 import { parseInline, headingId, tocItems } from '../lib/richText';
+import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST } from '../lib/imageSets';
 
 const Inline: React.FC<{ text: string }> = ({ text }) => (
   <>
@@ -73,6 +74,16 @@ export const BlogBody: React.FC<{ blocks: Block[]; cta?: React.ReactNode }> = ({
                 </tbody>
               </table>
             </div>
+          );
+        if ('img' in b)
+          return (
+            <figure key={i} className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50">
+              <picture>
+                <source srcSet={respSet(b.img.src, 'avif', BLOG_WIDTHS, BLOG_FULL)} sizes={BLOG_SIZES_POST} type="image/avif" />
+                <img src={b.img.src} srcSet={respSet(b.img.src, 'webp', BLOG_WIDTHS, BLOG_FULL)} sizes={BLOG_SIZES_POST} alt={b.img.alt} width={1600} height={900} loading="lazy" decoding="async" className="w-full h-auto" />
+              </picture>
+              {b.img.caption && <figcaption className="px-4 py-2.5 text-xs sm:text-sm text-slate-400 text-center">{b.img.caption}</figcaption>}
+            </figure>
           );
         return (
           <section key={i} aria-labelledby="faq" className="space-y-3">

@@ -68,6 +68,7 @@ export type Block =
   | { h3: string }
   | { ul: string[] }
   | { table: { head: string[]; rows: string[][] } }
+  | { img: { src: string; alt: string; caption?: string } }
   | { faq: { q: string; a: string }[] };
 
 export interface BlogPost {
