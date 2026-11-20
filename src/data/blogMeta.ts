@@ -3,6 +3,124 @@ import { BlogSummary } from '../types';
 
 export const BLOG_SUMMARIES: BlogSummary[] = [
   {
+    "id": "post-46",
+    "slug": "buy-dji-mavic-3t-australia-price-worry-free-combos-thermal-drone-setup-cost",
+    "intent": "transactional",
+    "title": "Buy a DJI Mavic 3T in Australia: Price, Combos and Setup Cost for a Portable Thermal Drone",
+    "metaTitle": "DJI Mavic 3T Price Australia: Combos and Setup Cost",
+    "metaDescription": "DJI Mavic 3T price in Australia from $8,249. Compare the Worry-Free Basic and Plus combos, spare batteries and what the thermal camera adds over the Mavic 3E.",
+    "subtitle": "What the portable thermal drone costs, which combo to pick, how it compares with the Matrice 4T and what a working kit adds up to.",
+    "date": "November 2026",
+    "dateISO": "2026-11-20",
+    "modifiedISO": "2026-11-20",
+    "readTime": "10 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Thermal Drones",
+      "Buying Guide",
+      "Mavic 3T"
+    ],
+    "excerpt": "The DJI Mavic 3T is the lowest-cost current thermal drone in our range. We set out its price, its published specifications, the two combos and what a working kit costs.",
+    "image": "/images/blog-mavic-3t-guide.webp",
+    "imageAlt": "DJI Mavic 3 Thermal drone shown three ways, the portable thermal drone from DJI Enterprise",
+    "relatedProducts": [
+      "dji-mavic-3t-worry-free-basic-combo",
+      "dji-mavic-3t-worry-free-plus-combo",
+      "dji-mavic-3-enterprise-battery-kit",
+      "dji-matrice-4t-plus-combo"
+    ],
+    "targetKeywords": [
+      "dji mavic 3t",
+      "mavic 3t price",
+      "mavic 3 thermal australia",
+      "dji mavic 3 thermal",
+      "mavic 3t worry free combo",
+      "portable thermal drone"
+    ],
+    "wordCount": 1633,
+    "faq": [
+      {
+        "q": "How much does a DJI Mavic 3T cost in Australia?",
+        "a": "The Mavic 3T Worry-Free Basic Combo is $8,249 and the Worry-Free Plus Combo is $10,679. A Mavic 3 Enterprise Battery Kit is $990. All prices are in Australian dollars."
+      },
+      {
+        "q": "What is the difference between the Mavic 3T and the Mavic 3 Enterprise?",
+        "a": "The Mavic 3T adds a 640 by 512 thermal camera and has a 1/2-inch 48 MP wide camera, while the Mavic 3 Enterprise has a 4/3 20 MP mechanical-shutter wide camera and no thermal camera. At our prices the Mavic 3T is $2,200 higher."
+      },
+      {
+        "q": "What thermal resolution does the Mavic 3T have?",
+        "a": "DJI lists 640 by 512 with a 12 µm pixel pitch, 50 mK or better sensitivity and a 61° diagonal field of view. Photos are saved as radiometric R-JPEG files."
+      },
+      {
+        "q": "How long does the Mavic 3T fly?",
+        "a": "DJI lists a maximum flight time of 45 minutes with no wind, so plan on less in the field. Two hours of rated flying needs three batteries before a landing reserve."
+      },
+      {
+        "q": "Is the Mavic 3T waterproof?",
+        "a": "The DJI specification page lists no ingress protection rating, so treat it as not rain-proof. For wet or dusty sites compare the IP55 Matrice 30T."
+      }
+    ]
+  },
+  {
+    "id": "post-47",
+    "slug": "buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading",
+    "intent": "transactional",
+    "title": "Buy a DJI Agras T50 in Australia: Price, Setup Cost, Batteries and Spreading Options",
+    "metaTitle": "DJI Agras T50 Price Australia: Setup Cost Guide",
+    "metaDescription": "DJI Agras T50 price in Australia: $21,999. See tank sums, battery and charger costs, spreading and sprinkler add-ons and what a working kit adds up to.",
+    "subtitle": "What the mid-size Agras costs, how many hectares one tank covers, what a working kit adds up to and how it compares with the T25P and the bigger Agras models.",
+    "date": "November 2026",
+    "dateISO": "2026-11-20",
+    "modifiedISO": "2026-11-20",
+    "readTime": "10 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Agricultural Drones",
+      "Buying Guide",
+      "Spraying Drones"
+    ],
+    "excerpt": "The DJI Agras T50 carries a 40 L tank for spraying and a 75 L tank for spreading. We set out its price, its published specifications, the tank and battery sums and what a working kit costs.",
+    "image": "/images/blog-agras-t50-guide.webp",
+    "imageAlt": "DJI Agras T50 spray drone with its DB1560 battery and C10000 power supply",
+    "relatedProducts": [
+      "dji-agras-t50",
+      "dji-agras-db1560-intelligent-flight-battery",
+      "dji-c10000-intelligent-power-supply",
+      "dji-agras-t50-spreading-system"
+    ],
+    "targetKeywords": [
+      "dji agras t50",
+      "dji agras t50 price",
+      "agras t50 australia",
+      "dji t50 spray drone",
+      "agras t50 battery",
+      "agras t50 spreading system"
+    ],
+    "wordCount": 1590,
+    "faq": [
+      {
+        "q": "How much does a DJI Agras T50 cost in Australia?",
+        "a": "The aircraft is $21,999. With two DB1560 batteries ($3,850 each) and a C10000 power supply ($2,310) the total is $32,009, if the batteries and charger are bought separately. Ask us what your package includes."
+      },
+      {
+        "q": "How many hectares does one T50 tank cover?",
+        "a": "Divide the 40 L tank by the application rate on the product label. At an example rate of 15 L/ha, one tank treats about 2.7 ha, and at 10 L/ha about 4 ha."
+      },
+      {
+        "q": "How fast does a DJI Agras T50 battery charge?",
+        "a": "DJI lists 9 to 12 minutes to fully charge one DB1560 battery with the C10000 Intelligent Power Supply."
+      },
+      {
+        "q": "Can the DJI Agras T50 spread seed and fertiliser?",
+        "a": "Yes. DJI lists a 75 L spreading tank with a 50 kg internal load and an 8 m spread width. The T50 Spreading System is $2,200, and the rate should be calibrated for each product."
+      },
+      {
+        "q": "What wind can the DJI Agras T50 spray in?",
+        "a": "DJI lists a maximum wind resistance of 6 m/s. Spray drift is also governed by the product label, so check the label as well as the forecast."
+      }
+    ]
+  },
+  {
     "id": "post-43",
     "slug": "buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices",
     "intent": "transactional",
@@ -37,7 +155,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "drone for building inspection",
       "dji mavic 3t roof inspection"
     ],
-    "wordCount": 1871,
+    "wordCount": 1888,
     "faq": [
       {
         "q": "What is the best drone for roof inspections in Australia?",
@@ -155,7 +273,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji t25p spray drone",
       "agras t25p battery"
     ],
-    "wordCount": 1481,
+    "wordCount": 1497,
     "faq": [
       {
         "q": "How much does a DJI Agras T25P cost in Australia?",
@@ -214,7 +332,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "solar panel thermal camera",
       "dji matrice 4t solar"
     ],
-    "wordCount": 1895,
+    "wordCount": 1911,
     "faq": [
       {
         "q": "What is the best drone for solar panel inspection in Australia?",
@@ -982,7 +1100,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "ag drone sprayer",
       "dji agricultural drones"
     ],
-    "wordCount": 1485,
+    "wordCount": 1500,
     "faq": [
       {
         "q": "How much is a DJI Agras drone in Australia?",
@@ -2317,7 +2435,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "thermal imaging camera",
       "drone with thermal camera"
     ],
-    "wordCount": 2011,
+    "wordCount": 2036,
     "faq": [
       {
         "q": "What is the best thermal drone in Australia?",
@@ -2702,7 +2820,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "crop spraying drone",
       "multispectral drone"
     ],
-    "wordCount": 1814,
+    "wordCount": 1823,
     "faq": [
       {
         "q": "Which DJI Agras is best for a small farm?",

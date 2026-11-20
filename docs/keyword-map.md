@@ -931,3 +931,13 @@ Three transactional guides, all `intent: transactional` so they end with the enq
 | /blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices | solar inspection drone; solar panel inspection drone; thermal drone for solar panels; drone solar farm inspection; solar panel thermal camera; dji matrice 4t solar |
 | /blog/buy-orchard-spray-drone-australia-dji-agras-t25p-t50-t70p-t100-tree-crop-prices | orchard spray drone; drone orchard spraying; dji agras orchard; agricultural drone for orchards; mist sprinkler drone; orchard spraying drone price |
 | /blog/buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices | drone for livestock; thermal drone for farm; thermal drone cattle; drone for counting cattle; drone for finding lost sheep; farm drone with thermal camera |
+
+
+## Model-specific buying guides: Mavic 3T and Agras T50 (20 Nov 2026)
+
+Two transactional guides, both `intent: transactional` so they end with the enquiry panel and product cards with quote and cart buttons, each with a cover and three inline images. They mirror the T25P guide: one aircraft, its published specifications, price sums and setup cost. Search volumes not measured.
+
+| Post | Primary / supporting keywords |
+|---|---|
+| /blog/buy-dji-mavic-3t-australia-price-worry-free-combos-thermal-drone-setup-cost | dji mavic 3t; mavic 3t price; mavic 3 thermal australia; dji mavic 3 thermal; mavic 3t worry free combo; portable thermal drone |
+| /blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading | dji agras t50; dji agras t50 price; agras t50 australia; dji t50 spray drone; agras t50 battery; agras t50 spreading system |
