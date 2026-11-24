@@ -941,3 +941,14 @@ Two transactional guides, both `intent: transactional` so they end with the enqu
 |---|---|
 | /blog/buy-dji-mavic-3t-australia-price-worry-free-combos-thermal-drone-setup-cost | dji mavic 3t; mavic 3t price; mavic 3 thermal australia; dji mavic 3 thermal; mavic 3t worry free combo; portable thermal drone |
 | /blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading | dji agras t50; dji agras t50 price; agras t50 australia; dji t50 spray drone; agras t50 battery; agras t50 spreading system |
+
+
+## Livox sensors, Matrice 4T and Agras T70P transactional guides (24 Nov 2026)
+
+Three transactional guides, all `intent: transactional` so they end with the enquiry panel and product cards with quote and cart buttons, each with a cover and three inline images. The Livox guide follows a real customer enquiry (one Avia 2 for R&D, then ten): it sets out the Avia vs Avia 2 differences in weight, power and supply voltage from Livox's published specification pages. The Matrice 4T and T70P figures come from DJI's specification pages. Search volumes not measured.
+
+| Post | Primary / supporting keywords |
+|---|---|
+| /blog/buy-livox-lidar-australia-avia-2-vs-avia-tele-15-mid-70-mid-360s-prices | livox avia 2; livox avia 2 price; livox lidar australia; livox avia vs avia 2; livox tele-15; livox mid-360s |
+| /blog/buy-dji-matrice-4t-australia-price-plus-combo-thermal-enterprise-drone-setup-cost | dji matrice 4t; dji matrice 4t price; matrice 4t australia; matrice 4t plus combo; matrice 4t thermal drone; matrice 4t vs 4e |
+| /blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading | dji agras t70p; dji agras t70p price; agras t70p australia; dji t70p spray drone; agras t70p battery; agras t70p charger |

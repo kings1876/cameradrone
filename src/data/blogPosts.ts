@@ -981,7 +981,7 @@ export const BLOG_POSTS: BlogPost[] = [
         '**Firefighting support:** see hot spots and fire edges through smoke.',
         '**Wildlife surveys:** count and locate animals without disturbing them.'
       ] },
-      'Not sure whether you need a thermal drone or just a thermal camera? Read our guide to [thermal cameras vs thermal drones](/blog/thermal-camera-vs-thermal-drone-infrared-inspections), which also covers how to get a usable thermal image: palettes, reflections, weather and timing. For roof and building work see our [roof inspection drone guide](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices), and for utilities see our [power line inspection drone guide](/blog/buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices). If the Mavic 3T is your pick, our [DJI Mavic 3T price and setup guide](/blog/buy-dji-mavic-3t-australia-price-worry-free-combos-thermal-drone-setup-cost) sets out the combos and what a working kit costs.',
+      'Not sure whether you need a thermal drone or just a thermal camera? Read our guide to [thermal cameras vs thermal drones](/blog/thermal-camera-vs-thermal-drone-infrared-inspections), which also covers how to get a usable thermal image: palettes, reflections, weather and timing. For roof and building work see our [roof inspection drone guide](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices), and for utilities see our [power line inspection drone guide](/blog/buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices). If the Mavic 3T is your pick, our [DJI Mavic 3T price and setup guide](/blog/buy-dji-mavic-3t-australia-price-worry-free-combos-thermal-drone-setup-cost) sets out the combos and what a working kit costs. If you want the thermal Matrice, see our [DJI Matrice 4T price and setup guide](/blog/buy-dji-matrice-4t-australia-price-plus-combo-thermal-enterprise-drone-setup-cost).',
       { h2: 'Which thermal drone for which job' },
       { ul: [
         '**Solar farms and roofs:** a long flight and a radiometric camera matter most. See our [solar farm inspection drone guide](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices).',
@@ -1584,7 +1584,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'For repeat inspections, the [DJI Dock 3](/product/dji-dock-3) launches, lands and recharges an aircraft without an operator on site. It works with the Matrice 4D series, and the [Dock 3 Survey Package](/product/dji-dock-3-survey-package) and [Thermal Package](/product/dji-dock-3-thermal-package) bundle the dock for mapping and thermal work. See [DJI Dock](/category/enterprise-drones/dji-dock) and the older [DJI Dock 2](/product/dji-dock-2).',
       'Plan the site before you buy a dock. DJI lists the Dock 3 at 55 kg without the aircraft and a 10 km maximum operating radius. The dock is rated IP56 and its aircraft IP55, and the dock operates from -30 to 50°C, with a landing wind limit of 12 m/s. It needs mains power (100 to 240 V AC, up to 800 W) and a network connection: Ethernet, or 4G with the DJI Cellular Dongle 2, which is sold separately. DJI lists 27 minutes to charge the aircraft from 15% to 95%.',
       { h2: 'Payloads, batteries and accessories' },
-      'Enterprise aircraft are only as useful as their kit. Browse [enterprise accessories](/category/enterprise-drones/enterprise-accessories), [Zenmuse cameras](/category/cameras-sensors/dji-zenmuse-cameras), [LiDAR sensors](/category/cameras-sensors/lidar-sensors) and [thermal cameras](/category/cameras-sensors/thermal-cameras). Read our [thermal drones guide](/blog/thermal-drones-australia-guide) and the [LiDAR vs photogrammetry guide](/blog/lidar-vs-photogrammetry-drone-mapping-australia) to choose a payload. For specific inspection work, see our guides to [roof and building inspection](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices) and [power line inspection](/blog/buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices).',
+      'Enterprise aircraft are only as useful as their kit. Browse [enterprise accessories](/category/enterprise-drones/enterprise-accessories), [Zenmuse cameras](/category/cameras-sensors/dji-zenmuse-cameras), [LiDAR sensors](/category/cameras-sensors/lidar-sensors) and [thermal cameras](/category/cameras-sensors/thermal-cameras). Read our [thermal drones guide](/blog/thermal-drones-australia-guide) and the [LiDAR vs photogrammetry guide](/blog/lidar-vs-photogrammetry-drone-mapping-australia) to choose a payload. For specific inspection work, see our guides to [roof and building inspection](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices) and [power line inspection](/blog/buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices). For the thermal Matrice on its own, see our [DJI Matrice 4T price and setup guide](/blog/buy-dji-matrice-4t-australia-price-plus-combo-thermal-enterprise-drone-setup-cost), and for bare LiDAR sensors see our [Livox LiDAR buying guide](/blog/buy-livox-lidar-australia-avia-2-vs-avia-tele-15-mid-70-mid-360s-prices).',
       { h2: 'Which aircraft for which job' },
       { table: {
         head: ['Job', 'Start with', 'Why'],
@@ -1722,7 +1722,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: 'Monitor crops with multispectral drones' },
       'Spraying is more effective when you know where to spray. The [DJI Mavic 3 Multispectral](/product/dji-mavic-3-multispectral) and the [multispectral cameras](/category/cameras-sensors/multispectral-cameras) we supply measure crop health from the air, and [DJI Terra Agriculture](/product/dji-terra-agriculture-1-year-3-devices) processes the data into prescription maps.',
       { h2: 'Set-up, training and running costs' },
-      'Budget beyond the aircraft. A spraying system needs several batteries, a fast charger or power supply, a generator for the field, spare nozzles or spreader parts and time to learn the flight and spray settings. Train every operator before the busy season, keep a maintenance routine for nozzles, pumps and filters, and plan for battery wear over time. We can quote the aircraft, batteries, charger and set-up together so the whole system works from day one. Our [drone weed spraying buying guide](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost) puts prices on two complete setups. Buying the compact aircraft? See our [DJI Agras T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) or the [DJI Agras T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading).',
+      'Budget beyond the aircraft. A spraying system needs several batteries, a fast charger or power supply, a generator for the field, spare nozzles or spreader parts and time to learn the flight and spray settings. Train every operator before the busy season, keep a maintenance routine for nozzles, pumps and filters, and plan for battery wear over time. We can quote the aircraft, batteries, charger and set-up together so the whole system works from day one. Our [drone weed spraying buying guide](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost) puts prices on two complete setups. Buying the compact aircraft? See our [DJI Agras T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) the [DJI Agras T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading) or the [DJI Agras T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading).',
       { h2: 'A quick buying checklist' },
       { ul: [
         'How many hectares do you need to cover in a day, and how often?',
@@ -3016,7 +3016,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: `Spraying, spreading and mapping your fields` },
       `The Agras T25P, T50, T70P and T100 are all listed with spreading capacity, which turns the same drone into a seeding and fertilising tool. If you want to map crop health before you spray, see our guide to [agricultural drones for weed control, seeding and crop monitoring](/blog/agricultural-drones-weed-control-seeding-crop-monitoring) and the [multispectral cameras category](/category/cameras-sensors/multispectral-cameras), which runs from $4,900 to $28,999. Our [LiDAR vs photogrammetry guide](/blog/lidar-vs-photogrammetry-drone-mapping-australia) explains the mapping options.`,
       { h2: `Rules, licences and training` },
-      `Spraying with a drone is commercial flying and also involves chemical application, which is regulated and varies by state. You will normally need the right drone accreditation or licence and an operator certificate, and you may need a chemical application licence for your state or territory. Rules change, so confirm what applies on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) and with your state regulator, and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules). We can discuss training and set-up when you ask for a quote. If the T25P is your pick, our [DJI Agras T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) sets out the tank sums and the cost of a working kit, and our [DJI Agras T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading) does the same for the T50.`,
+      `Spraying with a drone is commercial flying and also involves chemical application, which is regulated and varies by state. You will normally need the right drone accreditation or licence and an operator certificate, and you may need a chemical application licence for your state or territory. Rules change, so confirm what applies on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) and with your state regulator, and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules). We can discuss training and set-up when you ask for a quote. If the T25P is your pick, our [DJI Agras T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) sets out the tank sums and the cost of a working kit, and our [DJI Agras T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading) does the same for the T50 and our [DJI Agras T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading) covers the 70 L aircraft.`,
       { h2: `How buying from Drones for Sale works` },
       `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For a spray drone we recommend a written quote so we confirm the aircraft, batteries, charging and freight together: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply. Browse all [spraying drones](/category/spraying-drones).`,
       { faq: [
@@ -3281,7 +3281,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: `Looking after Agras batteries` },
       `High-capacity batteries are expensive, so treat them carefully: keep them cool and dry, charge them with the correct charger, and follow DJI's guidance for storage and transport. Our [battery, charger and propeller guide](/blog/dji-drone-battery-charger-propeller-guide) covers the principles for DJI batteries, and our [agricultural spraying drone guide](/blog/agricultural-spraying-drones-australia-guide) explains how power planning fits into a spraying operation. If you also plan to map crop health before you spray, see our [multispectral buying guide](/blog/buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices). Our shipping policy states that high-capacity batteries are shipped in line with Australian IATA air cargo regulations.`,
       { h2: `Rules and training` },
-      `Spraying with a drone is commercial flying and involves chemical application, which varies by state. You will normally need the right drone accreditation or licence and an operator certificate, and you may need a chemical application licence for your state or territory. Rules change, so confirm what applies on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) and with your state regulator, and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for common questions. For a priced T25P setup with batteries and a charger, see our [DJI Agras T25P guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone).`,
+      `Spraying with a drone is commercial flying and involves chemical application, which varies by state. You will normally need the right drone accreditation or licence and an operator certificate, and you may need a chemical application licence for your state or territory. Rules change, so confirm what applies on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) and with your state regulator, and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq) for common questions. For a priced T25P setup with batteries and a charger, see our [DJI Agras T25P guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone), and for the DB2160 battery and the power the C12000 charger needs, see our [DJI Agras T70P guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading).`,
       { h2: `How buying from Drones for Sale works` },
       `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For batteries and charging equipment we recommend a written quote so we confirm compatibility, quantities and freight together: use the [quote form](/quote), the [order form](/order) or the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply. Browse all [spraying drones](/category/spraying-drones).`,
       { faq: [
@@ -3537,7 +3537,7 @@ export const BLOG_POSTS: BlogPost[] = [
       } },
       `If you already own a Matrice 350 RTK or 300 RTK, the L2 on its own is $23,880, or $25,870 with Care Plus. Add the [survey pole and tripod kit](/product/d-rtk-3-survey-pole-and-tripod-kit) at $460 for the RTK station.`,
       { h2: `Livox sensors for integrators and developers` },
-      `The five Livox LiDAR sensors in our range are bare sensors for developers and integrators building their own payloads, not turnkey survey systems. The [Mid-360S](/product/livox-mid-360s-lidar) at $899 has a 360-degree horizontal field of view for mobile mapping and robotics. The [Mid-70](/product/livox-mid-70-lidar) at $1,699 has a 70.4-degree circular field of view for drone mapping. The [TELE-15](/product/livox-tele-15-lidar) at $2,099 has a long-range, narrow field of view for corridor mapping such as power lines. The [Avia](/product/livox-avia-lidar) at $2,499 records up to 240,000 points a second, and the [Avia 2](/product/livox-avia-2-lidar) at $4,720 is its next-generation successor. Browse the [LiDAR sensors category](/category/cameras-sensors/lidar-sensors), and ask us if you need help matching a sensor to an aircraft.`,
+      `The five Livox LiDAR sensors in our range are bare sensors for developers and integrators building their own payloads, not turnkey survey systems. The [Mid-360S](/product/livox-mid-360s-lidar) at $899 has a 360-degree horizontal field of view for mobile mapping and robotics. The [Mid-70](/product/livox-mid-70-lidar) at $1,699 has a 70.4-degree circular field of view for drone mapping. The [TELE-15](/product/livox-tele-15-lidar) at $2,099 has a long-range, narrow field of view for corridor mapping such as power lines. The [Avia](/product/livox-avia-lidar) at $2,499 records up to 240,000 points a second, and the [Avia 2](/product/livox-avia-2-lidar) at $4,720 is its next-generation successor. Browse the [LiDAR sensors category](/category/cameras-sensors/lidar-sensors), and ask us if you need help matching a sensor to an aircraft. Our [Livox LiDAR buying guide](/blog/buy-livox-lidar-australia-avia-2-vs-avia-tele-15-mid-70-mid-360s-prices) compares all five sensors by range, weight and power and costs one unit or ten.`,
       { h2: `Which LiDAR option should you buy?` },
       { ul: [
         `**You already own a Matrice 350 RTK or 300 RTK:** the [Zenmuse L2](/product/dji-zenmuse-l2-lidar) at $23,880.`,
@@ -4299,7 +4299,7 @@ export const BLOG_POSTS: BlogPost[] = [
         `Reflections from glass, shiny metal and wet surfaces can look like hot spots.`,
         `Strong wind and rain reduce thermal contrast and make some days unsuitable.`
       ] },
-      `Our guides to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and to [choosing a thermal drone](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper on the cameras and the aircraft, and our [DJI Mavic 3T price and setup guide](/blog/buy-dji-mavic-3t-australia-price-worry-free-combos-thermal-drone-setup-cost) covers the portable thermal drone on its own. If your roofs carry solar panels, see our [solar farm inspection drone guide](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices). For the buying routes (a complete drone, a payload, a conversion or a dock), read our [drone heat camera guide](/blog/buy-drone-heat-camera-australia-thermal-drones-payloads), and for how thermal sensors work see [how a thermal imager works](/blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained).`,
+      `Our guides to [thermal drones in Australia](/blog/thermal-drones-australia-guide) and to [choosing a thermal drone](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper on the cameras and the aircraft, and our [DJI Mavic 3T price and setup guide](/blog/buy-dji-mavic-3t-australia-price-worry-free-combos-thermal-drone-setup-cost) covers the portable thermal drone on its own, and our [DJI Matrice 4T price and setup guide](/blog/buy-dji-matrice-4t-australia-price-plus-combo-thermal-enterprise-drone-setup-cost) does the same for the Matrice 4T. If your roofs carry solar panels, see our [solar farm inspection drone guide](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices). For the buying routes (a complete drone, a payload, a conversion or a dock), read our [drone heat camera guide](/blog/buy-drone-heat-camera-australia-thermal-drones-payloads), and for how thermal sensors work see [how a thermal imager works](/blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained).`,
       { h2: `Rules, privacy and permission` },
       `Inspecting a roof for a client is commercial flying. CASA standard operating conditions say to fly no higher than 120 m, keep the aircraft in visual line of sight, stay at least 30 m from other people and fly in daylight. Confirm what applies to your operation on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), and read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq). Get the property owner's permission before you fly, and be careful about photographing neighbouring properties.`,
       { h2: `Spares and related equipment` },
@@ -4528,7 +4528,7 @@ export const BLOG_POSTS: BlogPost[] = [
         ]
       } },
       { img: { src: '/images/blog-agras-t25p-guide-inline-3.webp', alt: `DJI Agras T50 and DJI Agras T70P, the larger Agras models above the T25P`, caption: `The Agras T50 and T70P carry 40 L and 70 L tanks for larger properties.` } },
-      `Stay with the T25P if you spray small blocks, orchards or scattered paddocks and one person does the work. Step up if you treat tens of hectares in a season and the number of loads and battery swaps becomes the limit. Our [T25P vs T50 vs T100 guide](/blog/buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices) compares the range in detail. For the mid-size aircraft on its own, see our [DJI Agras T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading).`,
+      `Stay with the T25P if you spray small blocks, orchards or scattered paddocks and one person does the work. Step up if you treat tens of hectares in a season and the number of loads and battery swaps becomes the limit. Our [T25P vs T50 vs T100 guide](/blog/buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices) compares the range in detail. For the mid-size aircraft on its own, see our [DJI Agras T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading), and for the 70 L aircraft see our [DJI Agras T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading).`,
       { h2: `What the T25P can spread` },
       `The T25P also spreads granules. DJI lists a 30 L spreading tank, an effective width of 3 to 8 m and a maximum discharge of 190 kg/min for compound fertiliser. The discharge figure is a maximum, not a per-hectare rate, so calibrate the rate for each product on a small block before the main job. Ask us which spreading system fits your aircraft when you request a quote, and read our [spreader drone guide](/blog/buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared) for seed and fertiliser work.`,
       { h2: `Where the T25P is used` },
@@ -4629,7 +4629,7 @@ export const BLOG_POSTS: BlogPost[] = [
           ['Price', '$8,249 (Worry-Free Basic Combo)', '$11,248 (Plus Combo)']
         ]
       } },
-      `The Mavic 3T has the wider thermal view, which covers more ground in each frame, and it is $2,999 cheaper than the Matrice 4T Plus Combo. The Matrice 4T has the narrower view with the super-resolution mode, the longer zoom and four more minutes of flight. For a first thermal drone, a single site or a pilot who needs to travel light, the Mavic 3T is the sensible start. Our [thermal drone comparison](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) covers the Matrice 30T as well.`,
+      `The Mavic 3T has the wider thermal view, which covers more ground in each frame, and it is $2,999 cheaper than the Matrice 4T Plus Combo. The Matrice 4T has the narrower view with the super-resolution mode, the longer zoom and four more minutes of flight. For a first thermal drone, a single site or a pilot who needs to travel light, the Mavic 3T is the sensible start. Our [thermal drone comparison](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) covers the Matrice 30T as well, and our [DJI Matrice 4T price and setup guide](/blog/buy-dji-matrice-4t-australia-price-plus-combo-thermal-enterprise-drone-setup-cost) sets out the 4T on its own.`,
       { img: { src: '/images/blog-mavic-3t-guide-inline-2.webp', alt: `DJI Mavic 3 Thermal and DJI Matrice 4 Thermal side by side, the portable and the larger thermal aircraft`, caption: `The Mavic 3T (left) is the lightest thermal aircraft in the range; the Matrice 4T is larger, with longer zoom.` } },
       { h2: `What a Mavic 3T setup costs` },
       `Three worked examples from current listed prices show the range. A battery kit matters on any job longer than one flight, so we include it.`,
@@ -4794,7 +4794,7 @@ export const BLOG_POSTS: BlogPost[] = [
         `**Seed and fertiliser work as well:** add the [T50 Spreading System](/product/dji-agras-t50-spreading-system).`,
         `**Orchards and tree crops:** add the [Atomized Sprinkler Package](/product/dji-agras-t50-atomized-sprinkler-package).`,
         `**Small blocks and a single operator:** consider the [Agras T25P](/product/dji-agras-t25p).`,
-        `**Large areas:** compare the [Agras T70P](/product/dji-agras-t70p) and [T100](/product/dji-agras-t100).`
+        `**Large areas:** compare the [Agras T70P](/product/dji-agras-t70p), set out in our [T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading), and the [T100](/product/dji-agras-t100).`
       ] },
       { h2: `Spares and related equipment` },
       `Browse every [spraying drone](/category/spraying-drones/spraying-drones) and [spraying accessory](/category/spraying-drones/spraying-drone-accessories) we supply, and the wider [spraying drones category](/category/spraying-drones). A [multispectral drone](/blog/buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices) shows where to treat before you spray.`,
@@ -4811,5 +4811,408 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['dji agras t50', 'dji agras t50 price', 'agras t50 australia', 'dji t50 spray drone', 'agras t50 battery', 'agras t50 spreading system']
+  },
+  {
+    id: 'post-48',
+    slug: 'buy-livox-lidar-australia-avia-2-vs-avia-tele-15-mid-70-mid-360s-prices',
+    intent: 'transactional',
+    title: `Buy a Livox LiDAR in Australia: Avia 2 vs Avia, TELE-15, Mid-70 and Mid-360S Compared by Price`,
+    metaTitle: `Livox Avia 2 Price Australia: Avia, TELE-15 Compared`,
+    metaDescription: `Livox Avia 2 price in Australia: $4,720. Compare it with the Avia, TELE-15, Mid-70 and Mid-360S by range, weight and power, with costs for 1, 5 and 10 units.`,
+    subtitle: `What each Livox sensor costs, what the Avia 2 changes from the Avia and TELE-15, and how to order one unit for development or a quantity for production.`,
+    date: 'November 2026',
+    dateISO: '2026-11-24',
+    modifiedISO: '2026-11-24',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['LiDAR', 'Buying Guide', 'Enterprise Drones'],
+    excerpt: `The Livox Avia 2 is $4,720 and reaches 800 m or more in Focus mode, but it is about three times heavier than the Avia and draws 50 W. We compare all five Livox sensors and cost one unit or ten.`,
+    image: '/images/blog-livox-lidar-guide.webp',
+    imageAlt: `Livox Avia 2, Livox Avia and Livox TELE-15 LiDAR sensors`,
+    relatedProducts: ['livox-avia-2-lidar', 'livox-avia-lidar', 'livox-tele-15-lidar', 'livox-mid-360s-lidar'],
+    content: [
+      `The Livox Avia 2 is listed at $4,720 in Australian dollars, and it is the most expensive of the five Livox LiDAR sensors we supply. If you have searched for a Livox Avia 2 price in Australia, or you are deciding whether to move an existing design from the Avia or the TELE-15, the useful answer is a comparison of the published specifications. The Avia 2 reaches much further and has a wider view, but it is also about three times heavier and draws about 50 W, so it is not a drop-in swap. This guide sets out the figures Livox publishes for all five sensors, what changes between the Avia and the Avia 2, what the sensors cost from one unit to ten and how to order a single unit for development or a quantity for production.`,
+      { h2: `Livox LiDAR sensors compared` },
+      `All five sensors are bare sensors for developers and integrators who build their own payloads, robots or fixed installations. They are not complete survey systems. These are the figures Livox publishes, in order of price. Detection range is quoted at the reflectivity Livox states for each sensor, so compare the reflectivity as well as the distance.`,
+      { table: {
+        head: ['Sensor', 'Price (AUD)', 'Detection range', 'Field of view', 'Point rate'],
+        rows: [
+          ['[Livox Mid-360S](/product/livox-mid-360s-lidar)', '$899', '40 m at 10% reflectivity (typical), 100 m cut-off', '360° horizontal, -7° to 52° vertical', '200,000 points/s'],
+          ['[Livox Mid-70](/product/livox-mid-70-lidar)', '$1,699', '90 m at 10%, 130 m at 20%, 260 m at 80%', '70.4° circular', '100,000 points/s (200,000 dual return)'],
+          ['[Livox TELE-15](/product/livox-tele-15-lidar)', '$2,099', '320 m at 10%, 500 m at 50%', '14.5° × 16.2°', '240,000 points/s (480,000 dual return)'],
+          ['[Livox Avia](/product/livox-avia-lidar)', '$2,499', '190 m at 10%, 230 m at 20%, 320 m at 80% (in 100 klx daylight)', '70.4° × 77.2° non-repetitive, 70.4° × 4.5° repetitive line', '240,000 points/s (720,000 triple return)'],
+          ['[Livox Avia 2](/product/livox-avia-2-lidar)', '$4,720', 'Normal mode 400 m at 5%; Focus mode 800 m or more at 10%', 'Normal 80° × 80°, Focus 15° × 15°', 'Normal 350,000, Focus 100,000 points/s']
+        ]
+      } },
+      `Size, power and protection matter as much as range once the sensor goes on a mount, so this second table sets them side by side.`,
+      { table: {
+        head: ['Sensor', 'Weight', 'Power', 'Supply voltage', 'Protection'],
+        rows: [
+          ['Mid-360S', '265 g', '6.5 W', '9 to 27 V DC', 'IP67'],
+          ['Mid-70', '580 g', '8 W average', '10 to 15 V DC (9 to 30 V with Converter 2.0)', 'IP67'],
+          ['TELE-15', '1,500 g without the self-dissipation module, 1,600 g with it', '12 W typical', '10 to 15 V DC (9 to 30 V with Converter 2.0)', 'IP67'],
+          ['Avia', '498 g without cables', '8 to 9 W (16 W at startup)', '10 to 15 V DC (9 to 30 V with Converter 2.0)', 'IP67'],
+          ['Avia 2', '1.5 kg or less without the fan, 1.8 kg or less with it', '50 W steady, 55 W at startup', '9 to 27 V DC', 'IP66']
+        ]
+      } },
+      `The figures come from Livox's specification pages for the [Avia 2](https://www.livoxtech.com/avia-2/specs), [Avia](https://www.livoxtech.com/avia/specs), [TELE-15](https://www.livoxtech.com/tele-15/specs), [Mid-70](https://www.livoxtech.com/mid-70/specs) and [Mid-360S](https://www.livoxtech.com/mid-360s/specs). Livox measures range and precision in controlled conditions, so results in the field vary.`,
+      { img: { src: '/images/blog-livox-lidar-guide-inline-1.webp', alt: `Livox Avia 2 ultra-long-range LiDAR sensor`, caption: `The Livox Avia 2 uses a 1535 nm laser and offers Normal and Focus modes.` } },
+      { h2: `Livox Avia 2: what the specifications say` },
+      `Livox describes the Avia 2 as an ultra-long-range sensor built around a 1535 nm laser, which sits in the eye-safe band and is rated Class 1. These are the published figures.`,
+      { ul: [
+        `**Range:** in Normal mode, 400 m at 5% reflectivity, which Livox says is equivalent to about 600 m at 10%, with a 400 m cut-off. In Focus mode, 800 m or more at 10% reflectivity, with a 1,000 m cut-off measured on a 20% target.`,
+        `**Two fields of view:** 80° × 80° in Normal mode for coverage and 15° × 15° in Focus mode for reach.`,
+        `**Point rate:** 350,000 points a second in Normal mode and 100,000 in Focus mode, with strongest, first and dual return modes.`,
+        `**Precision:** range precision of 4 cm or better (1σ) from 5 to 400 m and 6 cm or better from 400 to 700 m, with angular precision of 0.02° or better.`,
+        `**Small beam:** a 0.25 × 0.25 mrad beam divergence, which Livox calculates as a 2.5 cm spot at 100 m, so thin objects such as wires and branches show up at distance.`,
+        `**Weather and environment:** a rain and fog noise removal algorithm (Livox says the rain function is designed for light to medium rain), IP66 protection and an operating range of -20 °C to 65 °C.`,
+        `**Interfaces:** 100 Mbps Ethernet, GPS (PPS and GPRMC), PTP and NTP time synchronisation, a built-in IMU and a 9 to 27 V DC supply.`
+      ] },
+      `Livox lists power line security, wayside condition maintenance, bulk material volume measurement and waterways as application scenarios for the Avia 2.`,
+      { h2: `Moving from the Avia or TELE-15 to the Avia 2: what changes` },
+      `If an existing design uses the Avia or the TELE-15, the Avia 2 is a larger step than the name suggests. This table sets the published Avia and Avia 2 figures side by side.`,
+      { table: {
+        head: ['Item', 'Livox Avia', 'Livox Avia 2'],
+        rows: [
+          ['Laser', '905 nm', '1535 nm'],
+          ['Detection range', '190 m at 10% reflectivity (100 klx)', '400 m at 5% (Normal), 800 m or more at 10% (Focus)'],
+          ['Field of view', '70.4° × 77.2° non-repetitive, 70.4° × 4.5° repetitive line', '80° × 80° Normal, 15° × 15° Focus'],
+          ['Point rate', '240,000 points/s', '350,000 points/s Normal, 100,000 Focus'],
+          ['Returns', 'Up to triple', 'Strongest, first or dual'],
+          ['Weight', '498 g', '1.5 kg or less (1.8 kg or less with fan)'],
+          ['Dimensions', '91 × 61.2 × 64.8 mm', '146 × 113 × 103 mm without fan, 146 × 113 × 139 mm with fan'],
+          ['Power', '8 to 9 W', '50 W steady, 55 W at startup'],
+          ['Supply voltage', '10 to 15 V DC', '9 to 27 V DC'],
+          ['Protection', 'IP67', 'IP66'],
+          ['Data', '100 Mbps Ethernet', '100 Mbps Ethernet']
+        ]
+      } },
+      `Three things need planning before you order. **Weight:** the Avia 2 is about three times the weight of the Avia (1.5 kg against 498 g, or 3.6 times with the 1.8 kg fan version, both calculated), so check the mount and the payload limit of whatever carries it. **Power:** a 30-minute run uses about 25 Wh at the Avia 2's steady 50 W and about 4.5 Wh at the Avia's 9 W (both calculated), and the supply must also cope with the 55 W startup figure. **Size and cooling:** the housing is larger and the fan version is taller, so the mounting footprint changes. The TELE-15 is closer to the Avia 2 in weight at 1.5 to 1.6 kg, but its 12 W typical power is still far below the Avia 2's 50 W, so the same checks apply.`,
+      `Because the supply range, size and mounting differ, we suggest buying one Avia 2 for development first and ordering a production quantity once your design works with it. Send us your interface and mounting requirements when you ask for a quote and we will check them against the published specifications before you pay.`,
+      { img: { src: '/images/blog-livox-lidar-guide-inline-2.webp', alt: `Livox Avia and Livox TELE-15 LiDAR sensors`, caption: `The Livox Avia and TELE-15 are the sensors most designs start from before moving to the Avia 2.` } },
+      { h2: `What the sensors cost from one unit to ten` },
+      `These totals are calculated from the listed prices, before any quantity pricing. If you plan to buy five or ten, ask for a quote rather than assuming the list price.`,
+      { table: {
+        head: ['Sensor', '1 unit', '5 units', '10 units'],
+        rows: [
+          ['[Livox Mid-360S](/product/livox-mid-360s-lidar)', '$899', '$4,495', '$8,990'],
+          ['[Livox Mid-70](/product/livox-mid-70-lidar)', '$1,699', '$8,495', '$16,990'],
+          ['[Livox TELE-15](/product/livox-tele-15-lidar)', '$2,099', '$10,495', '$20,990'],
+          ['[Livox Avia](/product/livox-avia-lidar)', '$2,499', '$12,495', '$24,990'],
+          ['[Livox Avia 2](/product/livox-avia-2-lidar)', '$4,720', '$23,600', '$47,200']
+        ]
+      } },
+      `The Avia 2 costs $2,221 more than the Avia, about 1.9 times the price (calculated). What that buys is range, a wider view and a higher point rate. If your application works within the Avia's 190 to 320 m, the Avia at $2,499 may already do the job at lower weight and power.`,
+      { h2: `Which Livox sensor suits which job` },
+      { ul: [
+        `**Long reach over wide areas:** the [Avia 2](/product/livox-avia-2-lidar), with its Focus mode and 1,000 m cut-off, for corridors, waterways and large stockpiles.`,
+        `**Compact payloads at lower weight:** the [Avia](/product/livox-avia-lidar) at 498 g, with the repetitive line scanning mode Livox suggests for mapping fields, forests and slopes.`,
+        `**Long range in a narrow view:** the [TELE-15](/product/livox-tele-15-lidar), with a 14.5° × 16.2° view and 320 m at 10% reflectivity.`,
+        `**A wide circular view at modest cost:** the [Mid-70](/product/livox-mid-70-lidar), with a 70.4° circular view at 580 g.`,
+        `**All-round perception for robots and short-range mapping:** the [Mid-360S](/product/livox-mid-360s-lidar), a 360° horizontal view at 265 g and the lowest price in the range.`
+      ] },
+      { img: { src: '/images/blog-livox-lidar-guide-inline-3.webp', alt: `Livox Mid-70 and Livox Mid-360S LiDAR sensors`, caption: `The Mid-70 and Mid-360S cover short-range and all-round perception at the lower end of the range.` } },
+      { h2: `Payload weight and the aircraft` },
+      `A sensor is only useful if the aircraft can lift it together with its power supply and mount. As a reference point, DJI lists a maximum payload of 200 g for the Matrice 4 series on its [specification page](https://enterprise.dji.com/matrice-4-series/specs), which is below even the 265 g Mid-360S, so compact enterprise aircraft are not a platform for these sensors. If you want LiDAR on a drone without building a payload, our [LiDAR drone buying guide](/blog/buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices) sets out turnkey DJI systems, with a complete setup from $44,420, and our guide to [LiDAR vs photogrammetry](/blog/lidar-vs-photogrammetry-drone-mapping-australia) explains when LiDAR is worth the cost.`,
+      { h2: `Rules and handling` },
+      `A LiDAR payload does not change the basic drone rules. The standard CASA conditions are flying in daylight, within visual line of sight, below 120 m and at least 30 m from people, and you can check what applies to you on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules). If you build your own payload, the weight of the finished aircraft matters for registration and operator requirements, so read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq).`,
+      `Livox also advises avoiding pointing strong external lasers near 1535 nm at the Avia 2 and not aiming it at highly reflective targets such as low-E glass or corner-cube retroreflectors at close range, because intense light can damage the receiver.`,
+      { h2: `Which sensor should you buy?` },
+      { ul: [
+        `**One sensor for research and development:** the [Avia 2](/product/livox-avia-2-lidar) at $4,720 if you need range, or the [Avia](/product/livox-avia-lidar) at $2,499 if weight and power are tight.`,
+        `**A production run of the same design:** ask for a quote on five or ten units and say when you need them.`,
+        `**A robot or a short-range mapper:** the [Mid-360S](/product/livox-mid-360s-lidar) from $899.`,
+        `**A complete drone mapping system:** compare the [Zenmuse L2](/product/dji-zenmuse-l2-lidar) and the [Matrice 400 combo](/product/dji-matrice-400-worry-free-plus-combo) in our LiDAR guide.`
+      ] },
+      { h2: `Spares and related equipment` },
+      `Browse every [LiDAR sensor](/category/cameras-sensors/lidar-sensors) we supply and the wider [cameras and sensors category](/category/cameras-sensors). For a mapping aircraft, see our guide to the [DJI Matrice range compared by price](/blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price).`,
+      { h2: `Get a free quote on a Livox sensor` },
+      `Tell us which sensor you need, the quantity (one for development, or a production quantity such as ten) and your interface and mounting requirements, and we will send a written quote and confirm availability and delivery before you pay. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For a sensor order we recommend a written quote so we confirm the quantity, availability and freight together: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `How much does the Livox Avia 2 cost in Australia?`, a: `One Livox Avia 2 is $4,720. At list prices five units are $23,600 and ten are $47,200 (calculated). For a quantity, ask for a quote.` },
+        { q: `What is the difference between the Livox Avia and Avia 2?`, a: `The Avia 2 uses a 1535 nm laser and detects 400 m at 5% reflectivity in Normal mode and 800 m or more at 10% in Focus mode, against 190 m at 10% for the Avia. It also has an 80° × 80° view, a 350,000 points/s rate in Normal mode and a larger body: 1.5 kg or less and 50 W against 498 g and 8 to 9 W.` },
+        { q: `Can the Avia 2 replace an Avia or TELE-15 in an existing design?`, a: `Not as a drop-in. The weight, size, power draw and supply range all differ, so check the mount, the power supply and the interface. We suggest buying one for development before ordering a quantity.` },
+        { q: `Do Livox sensors come as a complete mapping system?`, a: `No. They are bare sensors for developers and integrators. For a turnkey drone LiDAR system, see the DJI Zenmuse L2 and the Matrice 400 in our LiDAR drone buying guide.` },
+        { q: `How far can the Livox Avia 2 detect?`, a: `Livox publishes 400 m at 5% reflectivity in Normal mode, equivalent to about 600 m at 10%, and 800 m or more at 10% in Focus mode, with a 1,000 m cut-off measured on a 20% target.` }
+      ] }
+    ],
+    targetKeywords: ['livox avia 2', 'livox avia 2 price', 'livox lidar australia', 'livox avia vs avia 2', 'livox tele-15', 'livox mid-360s']
+  },
+  {
+    id: 'post-49',
+    slug: 'buy-dji-matrice-4t-australia-price-plus-combo-thermal-enterprise-drone-setup-cost',
+    intent: 'transactional',
+    title: `Buy a DJI Matrice 4T in Australia: Price, Plus Combo and Setup Cost for a Thermal Enterprise Drone`,
+    metaTitle: `DJI Matrice 4T Price Australia: Plus Combo and Kit Cost`,
+    metaDescription: `DJI Matrice 4T price in Australia: $10,159, or $11,248 as the Plus Combo. See flight time, thermal camera figures, kit costs and 4T vs 4E vs Mavic 3T.`,
+    subtitle: `What the thermal Matrice costs, what the Plus Combo adds, what a working kit adds up to and how the 4T compares with the 4E and the Mavic 3T.`,
+    date: 'November 2026',
+    dateISO: '2026-11-24',
+    modifiedISO: '2026-11-24',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['Thermal Drones', 'Buying Guide', 'Enterprise Drones'],
+    excerpt: `The DJI Matrice 4T flies up to 49 minutes with a 640 × 512 thermal camera, a 168 mm tele and a laser rangefinder. We set out its price, its published specifications and what a working kit costs.`,
+    image: '/images/blog-matrice-4t-guide.webp',
+    imageAlt: `DJI Matrice 4T thermal enterprise drone, Plus Combo and spare battery`,
+    relatedProducts: ['dji-matrice-4-thermal', 'dji-matrice-4t-plus-combo', 'dji-matrice-4-battery', 'dji-al1-spotlight'],
+    content: [
+      `The DJI Matrice 4T is the thermal aircraft most Australian inspection and public-safety teams compare everything else against. It flies for up to 49 minutes, carries a wide camera, a 70 mm medium tele and a 168 mm tele alongside a 640 × 512 thermal camera and a laser rangefinder, and folds to 260.6 × 113.7 × 138.4 mm. If you have searched for a DJI Matrice 4T price in Australia, the useful answer is more than the sticker price: it is what the Plus Combo adds, what a working kit costs and how the 4T compares with the Matrice 4E and the Mavic 3T. This guide sets out the prices, DJI's published specifications and the sums.`,
+      { h2: `DJI Matrice 4T at a glance` },
+      `The aircraft is listed at $10,159 in Australian dollars, and the Plus Combo is $11,248. These are the figures DJI publishes on its [Matrice 4 series specification page](https://enterprise.dji.com/matrice-4-series/specs).`,
+      { table: {
+        head: ['Specification', 'DJI figure'],
+        rows: [
+          ['Flight time', 'Up to 49 min with standard propellers, 46 min with low-noise propellers (no wind, about 9 m/s, no payload)'],
+          ['Hover time', '42 min standard, 39 min low-noise'],
+          ['Weight', '1,219 g takeoff weight with propellers, 1,420 g maximum takeoff weight'],
+          ['Folded size', '260.6 × 113.7 × 138.4 mm'],
+          ['Wind limit', '12 m/s, during takeoff and landing'],
+          ['Operating temperature', '-10 °C to 40 °C'],
+          ['Wide camera', '1/1.3-inch CMOS, 48 MP, 24 mm equivalent, f/1.7'],
+          ['Medium tele camera', '1/1.3-inch CMOS, 48 MP, 70 mm equivalent, 35° field of view'],
+          ['Telephoto camera', '1/1.5-inch CMOS, 48 MP, 168 mm equivalent, up to 112× hybrid zoom'],
+          ['Laser rangefinder', 'Up to 1,800 m at 20% reflectivity (1 Hz), 1 m blind zone'],
+          ['Obstacle sensing', 'Omnidirectional binocular vision with a bottom 3D infrared sensor; forward range 0.4 to 200 m'],
+          ['Accessories', 'E-Port for official accessories, maximum payload 200 g'],
+          ['Battery', '6,741 mAh, 99.5 Wh, 401 g, 200 cycles'],
+          ['Video link', 'O4 Enterprise: up to 25 km (FCC) or 12 km (CE, SRRC, MIC), unobstructed'],
+          ['Supported controller', 'DJI RC Plus 2 Enterprise, 7.02-inch 1,400 nit screen']
+        ]
+      } },
+      { img: { src: '/images/blog-matrice-4t-guide-inline-1.webp', alt: `DJI Matrice 4T Plus Combo thermal enterprise drone`, caption: `The Matrice 4T carries wide, medium tele and tele cameras plus a thermal camera and a laser rangefinder.` } },
+      { h2: `What the thermal camera does` },
+      `The T in the name is the thermal camera. These are DJI's published figures for it.`,
+      { table: {
+        head: ['Thermal figure', 'DJI specification'],
+        rows: [
+          ['Sensor', 'Uncooled vanadium oxide (VOx), 640 × 512, 12 µm pixel pitch, 30 Hz'],
+          ['Super Resolution', '1280 × 1024 photos and video with Super Resolution enabled'],
+          ['Sensitivity', '50 mK or better at f/1.0'],
+          ['Field of view', '45° diagonal, 53 mm equivalent focal length'],
+          ['Wavelength', '8 to 14 µm'],
+          ['Temperature measurement', 'Spot meter and area measurement'],
+          ['Temperature range', 'High gain -20 °C to 150 °C, low gain 0 °C to 550 °C'],
+          ['Accuracy', 'High gain ±2 °C or ±2%, low gain ±5 °C or ±3%, whichever is greater'],
+          ['Digital zoom', '28×'],
+          ['Photo format', 'JPEG (8-bit) and R-JPEG (16-bit)']
+        ]
+      } },
+      `Native resolution is 640 × 512, which is 327,680 pixels (calculated). The 1280 × 1024 output is available with Super Resolution enabled, so plan inspection distances around the native figure. Our guide to [how a thermal imager works](/blog/how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained) explains what resolution and sensitivity mean in practice, and our [thermal camera vs thermal drone guide](/blog/thermal-camera-vs-thermal-drone-infrared-inspections) covers the alternatives.`,
+      { h2: `DJI Matrice 4T price: the aircraft, the Plus Combo and the kit around it` },
+      `These are the listed prices of the aircraft and the equipment it uses.`,
+      { table: {
+        head: ['Item', 'Price (AUD)', 'Note'],
+        rows: [
+          ['[DJI Matrice 4 Thermal](/product/dji-matrice-4-thermal)', '$10,159', 'The aircraft (Matrice 4T)'],
+          ['[DJI Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', '$11,248', 'Plus bundle with Care coverage and extra batteries'],
+          ['[DJI Matrice 4 Battery](/product/dji-matrice-4-battery)', '$280', 'Spare intelligent flight battery for the Matrice 4 series'],
+          ['[Matrice 4 Series Charging Hub (200W)](/product/dji-matrice-4-series-charging-hub-200w)', '$140', 'Charging hub for the batteries'],
+          ['[DJI AL1 Spotlight](/product/dji-al1-spotlight)', '$460', 'For night work'],
+          ['[DJI AS1 Speaker](/product/dji-as1-speaker)', '$340', 'Broadcasts messages from the aircraft'],
+          ['[Matrice 4 Obstacle Sensing Module](/product/dji-matrice-4-obstacle-sensing-module)', '$2,380', 'Replacement sensing module']
+        ]
+      } },
+      `The Plus Combo costs $1,089 more than the aircraft alone (calculated). It adds Care coverage and extra batteries, and a spare battery alone costs $280, so ask us what is in the package and how many batteries it includes before you choose. Three worked examples show how the total grows.`,
+      { table: {
+        head: ['Setup', 'What is in it', 'Total (AUD)'],
+        rows: [
+          ['Aircraft with two spare batteries and a hub', '[Matrice 4T](/product/dji-matrice-4-thermal) $10,159, two [batteries](/product/dji-matrice-4-battery) $560 and a [charging hub](/product/dji-matrice-4-series-charging-hub-200w) $140', '$10,859'],
+          ['Plus Combo as listed', '[Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', '$11,248'],
+          ['Night search kit', '[Plus Combo](/product/dji-matrice-4t-plus-combo) $11,248, [AL1 Spotlight](/product/dji-al1-spotlight) $460 and [AS1 Speaker](/product/dji-as1-speaker) $340', '$12,048']
+        ]
+      } },
+      `A spare battery costs $280 for a rated 49 minutes of flight, about $5.71 per rated minute (calculated). Three batteries give 147 rated minutes, but real flights end earlier because DJI's figure is for no wind and no payload. Our guide to [batteries, chargers and propellers](/blog/dji-drone-battery-charger-propeller-guide) explains how to plan batteries for a working day.`,
+      { img: { src: '/images/blog-matrice-4t-guide-inline-2.webp', alt: `DJI Matrice 4 Battery and Matrice 4 Series Charging Hub`, caption: `A spare battery and a charging hub keep the aircraft flying through a working day.` } },
+      { h2: `Matrice 4T, Matrice 4E or Mavic 3T?` },
+      `Three aircraft cover most buyers. This table compares their listed combo prices with DJI's camera and flight time figures.`,
+      { table: {
+        head: ['Aircraft', 'Price (AUD)', 'Cameras', 'Flight time'],
+        rows: [
+          ['[Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo)', '$11,248', '48 MP wide, 70 mm and 168 mm tele, 640 × 512 thermal', 'Up to 49 min'],
+          ['[Matrice 4E Plus Combo](/product/dji-matrice-4e-plus-combo)', '$8,360', '20 MP 4/3-inch wide with mechanical shutter, 70 mm and 168 mm tele, no thermal', 'Up to 49 min'],
+          ['[Mavic 3T Worry-Free Basic Combo](/product/dji-mavic-3t-worry-free-basic-combo)', '$8,249', '48 MP wide, 162 mm tele, 640 × 512 thermal', 'Up to 45 min']
+        ]
+      } },
+      `The 4E costs $2,888 less than the 4T Plus Combo (calculated) and suits mapping and visual inspection, while the 4T adds the thermal camera. The Mavic 3T is $2,999 cheaper than the 4T Plus Combo (calculated) and has the wider thermal view, 61° against 45°, but the 4T has the Super Resolution mode, the longer zoom (112× hybrid against 56×) and four more minutes of flight. Our [Mavic 3T price guide](/blog/buy-dji-mavic-3t-australia-price-worry-free-combos-thermal-drone-setup-cost) and the [Mavic 3T vs Matrice 4T vs Matrice 30T comparison](/blog/buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices) go deeper. If you want the thermal Matrice to launch from a dock, the [Matrice 4TD Worry-Free Flagship Combo](/product/dji-matrice-4td-worry-free-flagship-combo) is listed at $15,470, and our [Dock 3 guide](/blog/buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box) explains the dock options.`,
+      { h2: `Night work: spotlight and speaker` },
+      `Two accessories matter once a job moves into the dark. The [AL1 Spotlight](/product/dji-al1-spotlight) at $460 lights the scene below the aircraft: DJI lists it at a maximum of 32 W, with 17 lux at 50 m and 4.3 lux at 100 m measured in a laboratory. The [AS1 Speaker](/product/dji-as1-speaker) at $340 broadcasts messages from the aircraft. We confirm that each accessory fits your aircraft when we quote. Our [search and rescue drone guide](/blog/buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices) shows how these fit a night search kit.`,
+      { img: { src: '/images/blog-matrice-4t-guide-inline-3.webp', alt: `DJI AL1 Spotlight and DJI AS1 Speaker accessories`, caption: `The AL1 spotlight and AS1 speaker turn a thermal drone into a night search tool.` } },
+      { h2: `Where the Matrice 4T is used` },
+      `The 4T is used for [roof and building inspection](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices), [power line inspection](/blog/buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices), [solar farm inspection](/blog/buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices), [search and rescue](/blog/buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices) and [livestock checks](/blog/buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices). Our [thermal drones guide](/blog/thermal-drones-australia-guide) covers how to get a usable thermal image.`,
+      { h2: `Limits to know before you buy` },
+      { ul: [
+        `**Weather:** DJI lists no standard ingress protection level for the Matrice 4 series, so do not plan to fly in rain. For a weather-rated platform, compare the larger aircraft in our [Matrice range guide](/blog/buy-dji-matrice-australia-matrice-4-30-400-compared-by-price).`,
+        `**Wind:** the 12 m/s figure is for takeoff and landing, not for the whole flight.`,
+        `**Temperature range:** DJI lists -10 °C to 40 °C, which matters in a Top End summer or a high-country winter.`,
+        `**Payload:** the maximum payload is 200 g through the E-Port, so check any accessory weight.`,
+        `**Measurement accuracy:** high gain accuracy is ±2 °C or ±2%, whichever is greater, so treat spot temperatures as indicative and follow your own inspection procedure for formal reports.`
+      ] },
+      { h2: `Rules, licences and training` },
+      `Commercial inspection and public-safety flying has extra requirements beyond the standard rules, which are daylight, visual line of sight, 120 m maximum height and at least 30 m from people. Check what applies to you on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq). We can discuss set-up when you ask for a quote.`,
+      { h2: `Which setup should you buy?` },
+      { ul: [
+        `**A thermal inspection aircraft with a spare battery:** the [Matrice 4T](/product/dji-matrice-4-thermal) with a [spare battery](/product/dji-matrice-4-battery) and a [charging hub](/product/dji-matrice-4-series-charging-hub-200w).`,
+        `**Care coverage and extra batteries in one purchase:** the [Matrice 4T Plus Combo](/product/dji-matrice-4t-plus-combo).`,
+        `**Night search or response:** the Plus Combo with the [AL1 Spotlight](/product/dji-al1-spotlight) and [AS1 Speaker](/product/dji-as1-speaker).`,
+        `**Mapping and visual inspection only:** the [Matrice 4E Plus Combo](/product/dji-matrice-4e-plus-combo).`,
+        `**A lower-cost portable thermal drone:** the [Mavic 3T](/product/dji-mavic-3t-worry-free-basic-combo).`
+      ] },
+      { h2: `Spares and related equipment` },
+      `Browse every [DJI Matrice aircraft](/category/enterprise-drones/dji-matrice) and [enterprise accessory](/category/enterprise-drones/enterprise-accessories) we supply, plus [thermal cameras](/category/cameras-sensors/thermal-cameras) for aircraft you already own. Our [enterprise drones guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide) explains how the range fits together.`,
+      { h2: `Get a free quote on a DJI Matrice 4T` },
+      `Tell us what you inspect or search, how many flights a day you plan and whether you need night tools, and we will recommend a setup with the right batteries and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below, and we will confirm what is in the package and the freight before you pay.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For an enterprise aircraft we recommend a written quote so we confirm the package, batteries and freight together: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `How much does a DJI Matrice 4T cost in Australia?`, a: `The aircraft is $10,159 and the Matrice 4T Plus Combo is $11,248. A night search kit with the AL1 spotlight and AS1 speaker is $12,048 (calculated). Ask us what each package includes.` },
+        { q: `What does the Plus Combo add?`, a: `It is $1,089 more than the aircraft alone and adds Care coverage and extra batteries. A spare battery alone is $280, so ask how many batteries the package includes.` },
+        { q: `How long does the Matrice 4T fly?`, a: `DJI lists up to 49 minutes with standard propellers and 46 minutes with low-noise propellers, with no wind and no payload. Real flights are shorter.` },
+        { q: `What resolution is the Matrice 4T thermal camera?`, a: `640 × 512 native with a 12 µm pixel pitch and 50 mK or better sensitivity, and 1280 × 1024 with Super Resolution enabled.` },
+        { q: `Can the Matrice 4T fly in rain or strong wind?`, a: `DJI lists no standard ingress protection level, so avoid rain. The 12 m/s wind figure applies to takeoff and landing only.` }
+      ] }
+    ],
+    targetKeywords: ['dji matrice 4t', 'dji matrice 4t price', 'matrice 4t australia', 'matrice 4t plus combo', 'matrice 4t thermal drone', 'matrice 4t vs 4e']
+  },
+  {
+    id: 'post-50',
+    slug: 'buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading',
+    intent: 'transactional',
+    title: `Buy a DJI Agras T70P in Australia: Price, Setup Cost, Batteries, Charger and Spreading`,
+    metaTitle: `DJI Agras T70P Price Australia: Setup Cost Guide`,
+    metaDescription: `DJI Agras T70P price in Australia: $20,380. See the 70 L tank sums, why the DB2160 battery matters, C12000 charger power needs and what a working kit costs.`,
+    subtitle: `What the 70 L Agras costs, which battery fills the tank, what power the charger needs, what a working kit adds up to and how the T70P compares with the T50 and T100.`,
+    date: 'November 2026',
+    dateISO: '2026-11-24',
+    modifiedISO: '2026-11-24',
+    readTime: '11 min read',
+    author: 'Flight Operations Team',
+    tags: ['Agricultural Drones', 'Buying Guide', 'Spraying Drones'],
+    excerpt: `The DJI Agras T70P carries a 70 L spray tank and a 100 L spreading tank. We set out its price, its published specifications, why the DB2160 battery matters, the charger power it needs and what a working kit costs.`,
+    image: '/images/blog-agras-t70p-guide.webp',
+    imageAlt: `DJI Agras T70P spray drone with its DB2160 battery and C12000 charger`,
+    relatedProducts: ['dji-agras-t70p', 'dji-agras-db2160-intelligent-flight-battery', 'dji-c12000-intelligent-power-supply', 'dji-agras-t100'],
+    content: [
+      `The DJI Agras T70P is the large-tank aircraft in the Agras range that sits between the T50 and the T100, and on our listed prices it costs less than the T50 while carrying 70 L instead of 40 L. If you have searched for a DJI Agras T70P price in Australia, the useful answer is more than the sticker price. It is which battery actually lets you fill the tank, what power the charger needs on your property and what a working kit costs. This guide sets out the T70P price, its published specifications, those sums and how the T70P compares with the other Agras models.`,
+      { h2: `DJI Agras T70P at a glance` },
+      `The aircraft is listed at $20,380 in Australian dollars. These are the figures DJI publishes on its [T70P specification page](https://ag.dji.com/t70p/specs).`,
+      { table: {
+        head: ['Specification', 'DJI figure'],
+        rows: [
+          ['Spray tank', '70 L, 70 kg operating payload'],
+          ['Maximum flow rate', '30 L/min with 2 sprinklers (standard), 40 L/min with 4 (optional)'],
+          ['Spray width and droplets', '4 to 11 m, 50 to 500 µm'],
+          ['Spreading', '100 L tank, centrifugal disc, up to 70 kg inside the spreading box, 400 kg/min maximum discharge (compound fertiliser), 3 to 10 m effective width'],
+          ['Lifting', '65 kg load capacity including rope and hook, 10 m cable as standard'],
+          ['Aircraft weight', '52 kg with the DB1580 battery, 56 kg with the DB2160 (battery included)'],
+          ['Maximum takeoff weight, spraying (2 nozzles)', '102 kg with the DB1580, 126 kg with the DB2160'],
+          ['Batteries', 'DB1580: 30,000 mAh, 52 V, 11.7 kg. DB2160: 41,000 mAh, 52 V, 14.7 kg'],
+          ['Safety system', 'Millimetre-wave radar front and rear plus tri-eye vision, range up to 60 m, avoidance speed up to 13.8 m/s, safe distance 2.5 m'],
+          ['Hover accuracy', '±10 cm horizontal and vertical with RTK'],
+          ['Wind and temperature', 'Wind under 6 m/s, 0 °C to 40 °C'],
+          ['Controller', 'TKPL 2 with a 7-inch 1,400 cd/m² screen']
+        ]
+      } },
+      { img: { src: '/images/blog-agras-t70p-guide-inline-1.webp', alt: `DJI Agras T70P agricultural spray drone`, caption: `The Agras T70P carries a 70 L spray tank or a 100 L spreading tank.` } },
+      { h2: `Which battery? Why the DB2160 fills the tank` },
+      `DJI lists two batteries for the T70P, and the choice changes how much liquid the aircraft can carry. Subtracting the aircraft weight from the maximum takeoff weight DJI lists for spraying gives the payload each battery allows. These figures are calculated, and DJI notes that its app recommends the loading weight for the conditions, so treat them as limits and not targets.`,
+      { table: {
+        head: ['Battery', 'Capacity', 'Aircraft weight', 'Max takeoff weight (spraying, 2 nozzles)', 'Payload allowed (calculated)'],
+        rows: [
+          ['DB1580', '30,000 mAh at 52 V', '52 kg', '102 kg', '50 kg'],
+          ['[DB2160](/product/dji-agras-db2160-intelligent-flight-battery)', '41,000 mAh at 52 V', '56 kg', '126 kg', '70 kg, a full 70 L tank of water']
+        ]
+      } },
+      `With the DB2160 the figures add up to a full tank: 56 kg plus 70 kg is 126 kg. With the DB1580, 102 kg minus 52 kg leaves 50 kg. The DB2160 also stores about 2.13 kWh (41 Ah at 52 V, calculated). We list the [DB2160 at $4,080](/product/dji-agras-db2160-intelligent-flight-battery); ask us whether the DB1580 is available if you want to compare.`,
+      { h2: `Is the T70P the right size for your property?` },
+      `The label of the product you apply sets the rate in litres per hectare, so these sums use example rates only. Divide the tank volume by the rate to see the area one 70 L load treats.`,
+      { table: {
+        head: ['Application rate', 'Area per 70 L tank'],
+        rows: [
+          ['10 L/ha', '7.0 ha'],
+          ['15 L/ha', '4.7 ha'],
+          ['20 L/ha', '3.5 ha'],
+          ['30 L/ha', '2.3 ha']
+        ]
+      } },
+      `At 15 L/ha, a 20 ha paddock needs 300 L of mixed product, which is 5 loads of the T70P, a 50 ha property needs 750 L or 11 loads and a 100 ha property needs 1,500 L or 22 loads. At the full 30 L/min flow a 70 L tank empties in about 140 seconds, and at 40 L/min in about 105 seconds (both calculated), so the working day is set by refills and battery changes more than by flight time. Our [T25P vs T50 vs T100 guide](/blog/buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices) counts loads for every model.`,
+      { h2: `Charging: the C12000 and the power you need` },
+      `The charger is where a T70P purchase can go wrong, because fast charging needs a large power supply. The [C12000 Intelligent Power Supply](/product/dji-c12000-intelligent-power-supply) is $2,380. DJI lists these figures for it.`,
+      { table: {
+        head: ['C12000 figure', 'DJI specification'],
+        rows: [
+          ['Output', '62 V, 194 A'],
+          ['Rated power', '12,000 W on a three-phase 380 V input, 3,000 W on a single-phase 220 V input'],
+          ['Input range', 'Three-phase 175 to 520 V AC or single-phase 200 to 264 V AC'],
+          ['Charge time, 30% to 95%', '7 to 8 min for the DB1580, 8 to 9 min for the DB2160'],
+          ['Test conditions', 'Sea level, 15 °C to 40 °C, varies with input power and starting charge']
+        ]
+      } },
+      `Moving 65% of a 2.13 kWh battery is about 1.39 kWh, so charging in 8 to 9 minutes means an average of roughly 9 to 10 kW (calculated). That is why DJI quotes the fast times against the three-phase rating. A single-phase supply is limited to 3,000 W, which would take at least about 28 minutes for the same charge, before any losses (calculated), so expect slower charging and ask an electrician what your site can supply. DJI also lists a D14000iE generator for field charging; ask us about it. Our guide to [Agras batteries, chargers and power supplies](/blog/buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100) explains how to size the charging side.`,
+      { h2: `What a T70P setup costs` },
+      `The aircraft is only part of the cost. These are the listed prices of the equipment it uses.`,
+      { table: {
+        head: ['Item', 'Price (AUD)', 'Note'],
+        rows: [
+          ['[DJI Agras T70P](/product/dji-agras-t70p)', '$20,380', 'The aircraft'],
+          ['[DB2160 battery](/product/dji-agras-db2160-intelligent-flight-battery)', '$4,080', '41,000 mAh, about 2.13 kWh'],
+          ['[C12000 power supply](/product/dji-c12000-intelligent-power-supply)', '$2,380', 'Charges the DB2160 in 8 to 9 minutes on a three-phase supply per DJI']
+        ]
+      } },
+      `Two worked examples show how the total grows. They assume the batteries and the charger are bought separately, so ask what your package already includes, because a package that includes them is cheaper.`,
+      { table: {
+        head: ['Setup', 'What is in it', 'Total (AUD)'],
+        rows: [
+          ['Aircraft with two batteries and a charger', '[T70P](/product/dji-agras-t70p) $20,380, two [DB2160 batteries](/product/dji-agras-db2160-intelligent-flight-battery) $8,160 and a [C12000](/product/dji-c12000-intelligent-power-supply) $2,380', '$30,920'],
+          ['Aircraft with three batteries and a charger', '[T70P](/product/dji-agras-t70p) $20,380, three DB2160 batteries $12,240 and a C12000 $2,380', '$35,000']
+        ]
+      } },
+      `For comparison, the three-battery T50 kit with its charger is $35,859, so the T70P kit costs $859 less for 70 L of tank instead of 40 L (calculated from our listed prices). Read the [T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading) for that kit.`,
+      { img: { src: '/images/blog-agras-t70p-guide-inline-2.webp', alt: `DJI Agras DB2160 Intelligent Flight Battery and DJI C12000 Intelligent Power Supply`, caption: `The DB2160 battery and the C12000 power supply are the power equipment a T70P day depends on.` } },
+      { h2: `Spreading and lifting` },
+      `The T70P spreads and lifts as well as sprays. DJI lists a 100 L spreading tank with up to 70 kg inside the box, a centrifugal disc and an effective width of 3 to 10 m (measured at 3 m height and 1,100 rpm). The standard configuration includes an extra-large auger for 0.5 to 10 mm granules such as fertiliser, wheat and feed and a medium auger for 4 to 6 mm granules such as rice, and DJI lists large and small augers as options. At the maximum discharge rate of 400 kg/min, a 70 kg load would empty in about 10.5 seconds (calculated), which is why the rate must be calibrated for each product on a small block before the main job. Our [spreader drone guide](/blog/buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared) covers seeding and fertiliser spreading in more detail.`,
+      `For lifting, DJI lists a 65 kg load capacity including the rope and hook, with a 10 m cable as standard and 10 to 15 m recommended. Ask us which spreading and lifting configuration is in the package you want, because it changes the price.`,
+      { h2: `T70P or a different Agras?` },
+      `The T70P sits between the T50 and the T100. This table compares the aircraft prices and the spray tanks.`,
+      { table: {
+        head: ['Model', 'Price (AUD)', 'Spray tank', 'Aircraft price per litre of tank'],
+        rows: [
+          ['[Agras T25P](/product/dji-agras-t25p)', '$17,530', '20 L', 'about $877'],
+          ['[Agras T50](/product/dji-agras-t50)', '$21,999', '40 L', 'about $550'],
+          ['[Agras T70P](/product/dji-agras-t70p)', '$20,380', '70 L', 'about $291'],
+          ['[Agras T100](/product/dji-agras-t100)', '$30,380', '100 L', 'about $304']
+        ]
+      } },
+      { img: { src: '/images/blog-agras-t70p-guide-inline-3.webp', alt: `DJI Agras T50 and DJI Agras T100 spray drones, the models either side of the Agras T70P`, caption: `The Agras T50 and T100 sit either side of the T70P in the range.` } },
+      `On our listed prices the T70P gives more tank for less money than the T50 and the lowest price per litre of tank in the range. The T100 carries 100 L but costs $10,000 more. Choose the T70P if you treat large areas and can supply the charging power. Stay with the [T50](/product/dji-agras-t50) or the [T25P](/product/dji-agras-t25p) if your blocks are smaller and a lighter aircraft is easier to handle; our [T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) covers the smallest model.`,
+      { h2: `Where the T70P is used` },
+      `The T70P is used for weed control across large paddocks and fence lines, crop and pasture spraying, orchard and tree-crop work, and spreading seed and fertiliser. See our guides to [drone weed spraying](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost), [orchard spray drones](/blog/buy-orchard-spray-drone-australia-dji-agras-t25p-t50-t70p-t100-tree-crop-prices) and the wider [agricultural spraying drones guide](/blog/agricultural-spraying-drones-australia-guide).`,
+      { h2: `Rules, licences and training` },
+      `Spraying with a drone is commercial flying and involves chemical application, which varies by state. At up to 126 kg maximum takeoff weight, the T70P is a heavy aircraft by CASA's weight groups, so confirm what that means for your accreditation and operator certificate on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules). You may also need a chemical application licence for your state or territory, and you should keep records of what you apply. Read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq). We can discuss training and set-up when you ask for a quote.`,
+      { h2: `Which setup should you buy?` },
+      { ul: [
+        `**Large paddocks with one aircraft:** the [Agras T70P](/product/dji-agras-t70p) with at least two [DB2160 batteries](/product/dji-agras-db2160-intelligent-flight-battery) and a [C12000](/product/dji-c12000-intelligent-power-supply), once you have confirmed your site power.`,
+        `**A full 70 L tank on every load:** choose the DB2160, because the DB1580 limits the spray payload to about 50 kg.`,
+        `**Seed and fertiliser work as well:** ask us which spreading configuration is in your package.`,
+        `**Smaller blocks:** consider the [Agras T50](/product/dji-agras-t50) or [T25P](/product/dji-agras-t25p).`,
+        `**The largest areas:** compare the [Agras T100](/product/dji-agras-t100).`
+      ] },
+      { h2: `Spares and related equipment` },
+      `Browse every [spraying drone](/category/spraying-drones/spraying-drones) and [spraying accessory](/category/spraying-drones/spraying-drone-accessories) we supply, and the wider [spraying drones category](/category/spraying-drones). A [multispectral drone](/blog/buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices) shows where to treat before you spray.`,
+      { h2: `Get a free quote on a DJI Agras T70P` },
+      `Tell us the size of your property, the crops or weeds you treat, whether you also want to spread and what power supply you have on site, and we will recommend a setup with the right batteries and charger and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below, and we will confirm what is in the package and the freight before you pay.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For a spray drone we recommend a written quote so we confirm the aircraft, batteries, charging and freight together: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `How much does a DJI Agras T70P cost in Australia?`, a: `The aircraft is $20,380. With two DB2160 batteries ($4,080 each) and a C12000 power supply ($2,380) the total is $30,920, if the batteries and charger are bought separately. Ask us what your package includes.` },
+        { q: `Which battery should I use with the DJI Agras T70P?`, a: `DJI lists the DB1580 and the DB2160. Subtracting the aircraft weight from DJI's maximum takeoff weight gives about 50 kg of spray payload with the DB1580 and 70 kg with the DB2160, so the DB2160 is the one that fills the 70 L tank (calculated).` },
+        { q: `How fast does a T70P battery charge?`, a: `DJI lists 8 to 9 minutes for the DB2160 from 30% to 95% with the C12000 on a three-phase supply. A single-phase input is limited to 3,000 W, so charging is slower.` },
+        { q: `Can the DJI Agras T70P spread seed and fertiliser?`, a: `Yes. DJI lists a 100 L spreading tank with up to 70 kg in the box, a 400 kg/min maximum discharge and a 3 to 10 m effective width. The rate should be calibrated for each product.` },
+        { q: `What wind can the DJI Agras T70P spray in?`, a: `DJI lists a maximum wind resistance of under 6 m/s. Spray drift is also governed by the product label, so check the label as well as the forecast.` }
+      ] }
+    ],
+    targetKeywords: ['dji agras t70p', 'dji agras t70p price', 'agras t70p australia', 'dji t70p spray drone', 'agras t70p battery', 'agras t70p charger']
   }
 ];
