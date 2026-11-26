@@ -962,3 +962,62 @@ Two transactional guides, both `intent: transactional` so they end with the enqu
 |---|---|
 | /blog/buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading | dji agras t100; dji agras t100 price; agras t100 australia; dji t100 spray drone; agras t100 149.9 kg; agras t100 spreading system |
 | /blog/buy-dji-matrice-30t-australia-price-worry-free-combos-ip55-thermal-drone-setup-cost | dji matrice 30t; dji matrice 30t price; matrice 30t australia; matrice 30t worry free combo; matrice 30t ip55; matrice 30t vs 4t |
+
+
+## Measured search volumes, Australia (OpenSEO, 26 Nov 2026)
+
+One OpenSEO lookup of 62 keywords (primary keywords of all 52 posts plus model and price variants), Australian market, English, cost 21 credits (325 to 304). Monthly Google searches. KD is OpenSEO keyword difficulty (0 to 100); it reads 0 for most of these, so treat it as "low", not "zero". A blank or "not returned" means OpenSEO has no volume for the keyword, which is not the same as zero. Search volumes are Google Ads grouped volumes and can merge close variants.
+
+| Keyword | Monthly searches | KD | Intent |
+|---|---|---|---|
+| dji neo 2 | 14,800 | 0 | transactional |
+| thermal camera | 6,600 | 0 | transactional |
+| dji flip | 4,400 | 0 | transactional |
+| dji mini 4k drone | 3,600 | 0 | transactional |
+| dji avata 360 | 2,900 | 0 | transactional |
+| drone for sale | 2,900 | 1 | transactional |
+| thermal imaging camera | 2,900 | 0 | transactional |
+| dji mini 3 fly more combo | 1,900 | 0 | transactional |
+| dji mini pro 5 | 1,300 | 0 | transactional |
+| thermal drone | 1,300 | 0 | transactional |
+| thermal imager | 1,000 | 8 | transactional |
+| agricultural drone / agricultural drones | 880 each | 10 / 7 | transactional / commercial |
+| dji matrice 4t | 880 | n/a | informational |
+| spray drone / drone sprayer | 880 each | 0 | transactional |
+| dji matrice | 590 | 5 | transactional |
+| dji agras t100 | 480 | 0 | transactional |
+| dji battery | 480 | 0 | transactional |
+| dji thermal drone | 480 | 7 | transactional |
+| fpv goggles | 480 | 13 | transactional |
+| best drone photography | 390 | 17 | informational |
+| drone lidar / lidar drone | 390 each | 0 | transactional |
+| rc drone | 390 | 0 | transactional |
+| waterproof drone | 390 | 3 | transactional |
+| best drones for beginners australia | 260 | 0 | commercial |
+| dji agras t50 | 260 | 0 | transactional |
+| register drone australia | 170 | 0 | navigational |
+| roof inspection drone | 170 | 0 | commercial |
+| dji matrice 30t | 140 | 5 | transactional |
+| thermal drone australia | 140 | 0 | commercial |
+| black friday drone sale | 110 | 0 | transactional |
+| dji agras t100 price | 110 | 0 | transactional |
+| dji enterprise drones | 110 | 0 | commercial |
+| dji mavic 3t | 110 | 6 | transactional |
+| drone weed spraying | 110 | 0 | commercial |
+| precision agriculture drones | 110 | 0 | commercial |
+| search and rescue drone | 110 | 0 | transactional |
+| dji mini 4 pro price australia | 90 | 0 | commercial |
+| used drones for sale | 90 | 0 | transactional |
+| dji matrice 4t price | 50 | n/a | commercial |
+| dji dock 3 price | 30 | n/a | commercial |
+| dji matrice 30t price | 20 | n/a | commercial |
+| livox lidar | 20 | 50 | transactional |
+| aerial seeding drone, dji agras t30 battery, dji mavic fly more, power line inspection drone, solar inspection drone | 10 each | n/a to 0 | mixed |
+
+Not returned by OpenSEO (no volume data): livox avia 2, livox avia 2 price, livox mid-360, dji agras t70p, dji agras t70p price, orchard spray drone, drone for livestock, zenmuse h30t, air 3s, dji mini... and the remaining keywords of the 62 not listed above.
+
+What this says about the plan:
+- Consumer models carry the demand: dji neo 2 (14,800), dji flip (4,400), dji mini 4k drone (3,600), dji avata 360 (2,900) and dji mini 3 fly more combo (1,900) are 4 to 30 times the demand of any enterprise model keyword.
+- "thermal camera" (6,600), "thermal imaging camera" (2,900) and "thermal drone" (1,300) are the biggest thermal terms; the enterprise model terms are small: dji matrice 4t 880, dji agras t100 480, dji matrice 30t 140.
+- No dedicated post targets "dji mini 3 fly more combo" (1,900) and no post targets "spray drone / drone sprayer" (880 each) as a primary keyword.
+- Enterprise terms are small but valuable: thermal imager costs about 6.17 per click and roof inspection drone about 8.47 (OpenSEO CPC, currency as reported by OpenSEO).
