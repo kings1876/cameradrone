@@ -1,28 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Block } from '../types';
-import { parseInline, headingId, tocItems } from '../lib/richText';
+import { parseInline, headingId, tocItems, splitParagraph } from '../lib/richText';
 import { respSet, BLOG_WIDTHS, BLOG_FULL, BLOG_SIZES_POST } from '../lib/imageSets';
 
 const Inline: React.FC<{ text: string }> = ({ text }) => (
   <>
-    {parseInline(text).map((p, i) =>
-      p.href ? (
+    {parseInline(text).map((p, i) => {
+      const node = p.href ? (
         p.href.startsWith('/') ? (
-          <Link key={i} to={p.href} className="text-amber-400 underline underline-offset-2 hover:text-amber-300">
+          <Link to={p.href} className="text-amber-400 underline underline-offset-2 hover:text-amber-300">
             {p.text}
           </Link>
         ) : (
-          <a key={i} href={p.href} className="text-amber-400 underline underline-offset-2 hover:text-amber-300" target="_blank" rel="noopener">
+          <a href={p.href} className="text-amber-400 underline underline-offset-2 hover:text-amber-300" target="_blank" rel="noopener">
             {p.text}
           </a>
         )
-      ) : p.bold ? (
-        <strong key={i} className="text-white">{p.text}</strong>
       ) : (
-        <React.Fragment key={i}>{p.text}</React.Fragment>
-      )
-    )}
+        <>{p.text}</>
+      );
+      return p.bold ? <strong key={i} className="text-white">{node}</strong> : <React.Fragment key={i}>{node}</React.Fragment>;
+    })}
   </>
 );
 
@@ -47,7 +46,7 @@ export const BlogBody: React.FC<{ blocks: Block[]; cta?: React.ReactNode }> = ({
         </nav>
       )}
       {blocks.map((b, i) => (<React.Fragment key={i}>{((): React.ReactNode => {
-        if (typeof b === 'string') return <p key={i}><Inline text={b} /></p>;
+        if (typeof b === 'string') return <>{splitParagraph(b).map((p, k) => <p key={k}><Inline text={p} /></p>)}</>;
         if ('h2' in b) return <h2 key={i} id={headingId(b.h2)} className="pt-4 text-xl sm:text-2xl font-black text-white font-display scroll-mt-28">{b.h2}</h2>;
         if ('h3' in b) return <h3 key={i} className="text-lg font-bold text-white font-display">{b.h3}</h3>;
         if ('ul' in b)

@@ -12,7 +12,7 @@ export function parseInline(text: string): Inline[] {
   while ((m = re.exec(text))) {
     if (m.index > last) out.push({ text: text.slice(last, m.index) });
     if (m[1]) out.push({ text: m[1], href: m[2] });
-    else out.push({ text: m[3], bold: true });
+    else for (const p of parseInline(m[3])) out.push({ ...p, bold: true });
     last = m.index + m[0].length;
   }
   if (last < text.length) out.push({ text: text.slice(last) });
@@ -21,6 +21,42 @@ export function parseInline(text: string): Inline[] {
 
 /** Plain text of a string that may contain inline markup. */
 export const plain = (text: string): string => parseInline(text).map(p => p.text).join('');
+
+/** Longest paragraph shown as one block; longer ones are split at sentence ends so they stay quick to scan. */
+export const MAX_PARAGRAPH_CHARS = 380;
+
+/** Splits a long paragraph into shorter ones at sentence ends, never inside a link or bold span. */
+export function splitParagraph(text: string, max = MAX_PARAGRAPH_CHARS): string[] {
+  if (plain(text).length <= max) return [text];
+  const spans: [number, number][] = [];
+  const markup = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*/g;
+  let m: RegExpExecArray | null;
+  while ((m = markup.exec(text))) spans.push([m.index, m.index + m[0].length]);
+  const inSpan = (i: number) => spans.some(([a, b]) => i > a && i < b);
+  const cuts: number[] = [];
+  const sentenceEnd = /[.!?](?=\s+[A-Z[*$0-9])/g;
+  while ((m = sentenceEnd.exec(text))) {
+    const before = text.slice(Math.max(0, m.index - 4), m.index).toLowerCase();
+    if (inSpan(m.index) || /(^|[\s.])(e\.g|i\.e|vs|approx|no|st)$/.test(before) || /(^|\s)[A-Z]$/.test(text.slice(Math.max(0, m.index - 2), m.index))) continue;
+    cuts.push(m.index + 1);
+  }
+  const parts: string[] = [];
+  let start = 0;
+  let lastCut = -1;
+  for (const c of cuts) {
+    if (plain(text.slice(start, c)).length > max && lastCut > start) {
+      parts.push(text.slice(start, lastCut).trim());
+      start = lastCut;
+    }
+    lastCut = c;
+  }
+  parts.push(text.slice(start).trim());
+  if (parts.length > 1 && plain(parts[parts.length - 1]).length < 100) {
+    const tail = parts.pop() as string;
+    parts[parts.length - 1] += ' ' + tail;
+  }
+  return parts.filter(Boolean);
+}
 
 export const headingId = (text: string): string =>
   plain(text)
@@ -56,7 +92,10 @@ const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 
 export const inlineHtml = (text: string): string =>
   parseInline(text)
-    .map(p => (p.href ? `<a href="${esc(p.href)}"${p.href.startsWith('/') ? '' : ' target="_blank" rel="noopener"'}>${esc(p.text)}</a>` : p.bold ? `<strong>${esc(p.text)}</strong>` : esc(p.text)))
+    .map(p => {
+      const html = p.href ? `<a href="${esc(p.href)}"${p.href.startsWith('/') ? '' : ' target="_blank" rel="noopener"'}>${esc(p.text)}</a>` : esc(p.text);
+      return p.bold ? `<strong>${html}</strong>` : html;
+    })
     .join('');
 
 /** Static HTML for the article body, used by the prerender so crawlers see the same content as the React page. */
@@ -67,7 +106,7 @@ export function blocksToHtml(blocks: Block[]): string {
     html += `<nav aria-label="In this article"><h2>In this article</h2><ul>${toc.map(t => `<li><a href="#${t.id}">${esc(t.text)}</a></li>`).join('')}</ul></nav>`;
   }
   for (const b of blocks) {
-    if (typeof b === 'string') html += `<p>${inlineHtml(b)}</p>`;
+    if (typeof b === 'string') html += splitParagraph(b).map(p => `<p>${inlineHtml(p)}</p>`).join('');
     else if ('h2' in b) html += `<h2 id="${headingId(b.h2)}">${esc(plain(b.h2))}</h2>`;
     else if ('h3' in b) html += `<h3>${esc(plain(b.h3))}</h3>`;
     else if ('ul' in b) html += `<ul>${b.ul.map(x => `<li>${inlineHtml(x)}</li>`).join('')}</ul>`;

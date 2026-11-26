@@ -49,7 +49,7 @@ function header(): string {
 function footer(): string {
   return (
     `<footer><nav aria-label="Footer"><ul>` +
-    [['/shipping', 'Shipping Policy'], ['/refund', 'Refund Policy'], ['/privacy', 'Privacy Notice'], ['/terms', 'Terms of Service']]
+    [['/all-products', 'All Products A–Z'], ['/shipping', 'Shipping Policy'], ['/refund', 'Refund Policy'], ['/privacy', 'Privacy Notice'], ['/terms', 'Terms of Service']]
       .map(([h, t]) => `<li>${link(h, t)}</li>`).join('') +
     `</ul></nav><p>${esc(BUSINESS.name)} · ${esc(BUSINESS.abnDisplay)} · Australia · <a href="mailto:${esc(BUSINESS.email)}">${esc(BUSINESS.email)}</a></p></footer>`
   );
