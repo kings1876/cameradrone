@@ -952,3 +952,13 @@ Three transactional guides, all `intent: transactional` so they end with the enq
 | /blog/buy-livox-lidar-australia-avia-2-vs-avia-tele-15-mid-70-mid-360s-prices | livox avia 2; livox avia 2 price; livox lidar australia; livox avia vs avia 2; livox tele-15; livox mid-360s |
 | /blog/buy-dji-matrice-4t-australia-price-plus-combo-thermal-enterprise-drone-setup-cost | dji matrice 4t; dji matrice 4t price; matrice 4t australia; matrice 4t plus combo; matrice 4t thermal drone; matrice 4t vs 4e |
 | /blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading | dji agras t70p; dji agras t70p price; agras t70p australia; dji t70p spray drone; agras t70p battery; agras t70p charger |
+
+
+## DJI Agras T100 and Matrice 30T transactional guides (26 Nov 2026)
+
+Two transactional guides, both `intent: transactional` so they end with the enquiry panel and product cards with quote and cart buttons, each with a cover and three inline images. The T100 guide is built on DJI footnote that Australian operation keeps maximum takeoff weight at 149.9 kg: payload left in each configuration is calculated (149.9 kg minus aircraft weight) and labelled as such. The Matrice 30T guide notes DJI states guaranteed software updates until 31 Dec 2024 and tells buyers to ask about firmware support. Figures from DJI specification pages read 26 Nov 2026. Search volumes not measured.
+
+| Post | Primary / supporting keywords |
+|---|---|
+| /blog/buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading | dji agras t100; dji agras t100 price; agras t100 australia; dji t100 spray drone; agras t100 149.9 kg; agras t100 spreading system |
+| /blog/buy-dji-matrice-30t-australia-price-worry-free-combos-ip55-thermal-drone-setup-cost | dji matrice 30t; dji matrice 30t price; matrice 30t australia; matrice 30t worry free combo; matrice 30t ip55; matrice 30t vs 4t |

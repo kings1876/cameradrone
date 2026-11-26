@@ -3,6 +3,124 @@ import { BlogSummary } from '../types';
 
 export const BLOG_SUMMARIES: BlogSummary[] = [
   {
+    "id": "post-51",
+    "slug": "buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading",
+    "intent": "transactional",
+    "title": "Buy a DJI Agras T100 in Australia: Price, the 149.9 kg Limit, Batteries and Setup Cost",
+    "metaTitle": "DJI Agras T100 Price Australia: Setup Cost Guide",
+    "metaDescription": "DJI Agras T100 price in Australia: $30,380. See what the 149.9 kg limit leaves for liquid, battery and charger costs, add-ons and what a working kit costs.",
+    "subtitle": "What the 100 L Agras costs, why DJI caps it at 149.9 kg in Australia, what that does to each load, what a working kit adds up to and how it compares with the T70P.",
+    "date": "November 2026",
+    "dateISO": "2026-11-26",
+    "modifiedISO": "2026-11-26",
+    "readTime": "11 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Agricultural Drones",
+      "Buying Guide",
+      "Spraying Drones"
+    ],
+    "excerpt": "The DJI Agras T100 has a 100 L tank, but DJI says to keep its takeoff weight to 149.9 kg in Australia, which leaves about 75 kg for liquid. We set out the price, the specifications, the sums and the kit cost.",
+    "image": "/images/blog-agras-t100-guide.webp",
+    "imageAlt": "DJI Agras T100 spray drone with its 150 L spreading system and lift system kit",
+    "relatedProducts": [
+      "dji-agras-t100",
+      "dji-agras-db2160-intelligent-flight-battery",
+      "dji-c12000-intelligent-power-supply",
+      "dji-150l-spreading-system"
+    ],
+    "targetKeywords": [
+      "dji agras t100",
+      "dji agras t100 price",
+      "agras t100 australia",
+      "dji t100 spray drone",
+      "agras t100 149.9 kg",
+      "agras t100 spreading system"
+    ],
+    "wordCount": 2135,
+    "faq": [
+      {
+        "q": "How much does a DJI Agras T100 cost in Australia?",
+        "a": "The aircraft is $30,380. With two DB2160 batteries ($4,080 each) and a C12000 power supply ($2,380) the total is $40,920, if the batteries and charger are bought separately. Ask us what your package includes."
+      },
+      {
+        "q": "How much liquid does the T100 carry in Australia?",
+        "a": "DJI says to keep the maximum takeoff weight at 149.9 kg in Australia. Subtracting the 75 kg aircraft weight leaves about 74.9 kg, so roughly 75 L of water-based spray per load, not 100 L (calculated)."
+      },
+      {
+        "q": "How fast does a T100 battery charge?",
+        "a": "DJI lists 8 to 9 minutes for the DB2160 from 30% to 95% with the C12000 on a three-phase supply. A single-phase input is limited to 3,000 W, so charging is slower."
+      },
+      {
+        "q": "Can the DJI Agras T100 spread and lift?",
+        "a": "Yes. DJI lists a 150 L spreading tank with up to 100 kg in the box and a lifting system with a 100 kg load capacity. At the Australian weight limit both are lower, about 74.9 kg for spreading and 84.9 kg for lifting (calculated)."
+      },
+      {
+        "q": "What wind can the DJI Agras T100 spray in?",
+        "a": "DJI lists a maximum wind resistance of under 6 m/s. Spray drift is also governed by the product label, so check the label as well as the forecast."
+      }
+    ]
+  },
+  {
+    "id": "post-52",
+    "slug": "buy-dji-matrice-30t-australia-price-worry-free-combos-ip55-thermal-drone-setup-cost",
+    "intent": "transactional",
+    "title": "Buy a DJI Matrice 30T in Australia: Price, Worry-Free Combos and Setup Cost for a Rugged Thermal Drone",
+    "metaTitle": "DJI Matrice 30T Price Australia: Combos and Kit Guide",
+    "metaDescription": "DJI Matrice 30T price in Australia: $14,917, or $15,473 as the Plus Combo. See IP55 and thermal specs, Matrice 30T vs 30 vs 4T and what to check before buying.",
+    "subtitle": "What the weather-rated thermal Matrice costs, how the Basic and Plus combos differ, how it compares with the Matrice 30 and Matrice 4T and what to check before you buy.",
+    "date": "November 2026",
+    "dateISO": "2026-11-26",
+    "modifiedISO": "2026-11-26",
+    "readTime": "10 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Thermal Drones",
+      "Buying Guide",
+      "Enterprise Drones"
+    ],
+    "excerpt": "The DJI Matrice 30T is rated IP55, flies from -20 °C to 50 °C and carries a 640 × 512 thermal camera and a 113 to 405 mm zoom. We set out its price, its published specifications and how it compares with the Matrice 4T.",
+    "image": "/images/blog-matrice-30t-guide.webp",
+    "imageAlt": "DJI Matrice 30T weather-rated thermal enterprise drone, Plus Combo and Matrice 30",
+    "relatedProducts": [
+      "dji-matrice-30t",
+      "matrice-30t-worry-free-plus-combo",
+      "dji-matrice-30",
+      "dji-matrice-4t-plus-combo"
+    ],
+    "targetKeywords": [
+      "dji matrice 30t",
+      "dji matrice 30t price",
+      "matrice 30t australia",
+      "matrice 30t worry free combo",
+      "matrice 30t ip55",
+      "matrice 30t vs 4t"
+    ],
+    "wordCount": 1747,
+    "faq": [
+      {
+        "q": "How much does a DJI Matrice 30T cost in Australia?",
+        "a": "The aircraft is $14,917 and the Worry-Free Plus Combo is $15,473. The Plus Combo is $556 more than the Basic Combo (calculated). Ask us what each package includes."
+      },
+      {
+        "q": "Is the DJI Matrice 30T waterproof?",
+        "a": "DJI lists an IP55 rating, which covers dust and water jets, with the note that the rating is not permanent and may reduce over time. It is not a submersible rating."
+      },
+      {
+        "q": "How long does the Matrice 30T fly?",
+        "a": "DJI lists up to 41 minutes of flight and 36 minutes of hover in lab conditions, with two TB30 batteries. Real flights are shorter."
+      },
+      {
+        "q": "What resolution is the Matrice 30T thermal camera?",
+        "a": "640 × 512 native with a 12 µm pixel pitch and 50 mK or better sensitivity, and 1280 × 1024 in super-resolution mode."
+      },
+      {
+        "q": "Matrice 30T or Matrice 4T?",
+        "a": "The 30T is rated IP55 and works from -20 °C to 50 °C, but it weighs about three times as much, flies for up to 41 minutes against 49 and costs $4,225 more in the Plus Combo (calculated). The 4T suits lighter, fair-weather work."
+      }
+    ]
+  },
+  {
     "id": "post-48",
     "slug": "buy-livox-lidar-australia-avia-2-vs-avia-tele-15-mid-70-mid-360s-prices",
     "intent": "transactional",
@@ -96,7 +214,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "matrice 4t thermal drone",
       "matrice 4t vs 4e"
     ],
-    "wordCount": 1751,
+    "wordCount": 1757,
     "faq": [
       {
         "q": "How much does a DJI Matrice 4T cost in Australia?",
@@ -155,7 +273,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "agras t70p battery",
       "agras t70p charger"
     ],
-    "wordCount": 2045,
+    "wordCount": 2063,
     "faq": [
       {
         "q": "How much does a DJI Agras T70P cost in Australia?",
@@ -273,7 +391,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "agras t50 battery",
       "agras t50 spreading system"
     ],
-    "wordCount": 1600,
+    "wordCount": 1608,
     "faq": [
       {
         "q": "How much does a DJI Agras T50 cost in Australia?",
@@ -745,7 +863,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji matrice 4t price",
       "thermal drone night search"
     ],
-    "wordCount": 1607,
+    "wordCount": 1619,
     "faq": [
       {
         "q": "What is the best drone for search and rescue in Australia?",
@@ -1158,7 +1276,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji agras t50 battery",
       "dji agras charger"
     ],
-    "wordCount": 1397,
+    "wordCount": 1412,
     "faq": [
       {
         "q": "How much is a DJI Agras battery in Australia?",
@@ -1277,7 +1395,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "ag drone sprayer",
       "dji agricultural drones"
     ],
-    "wordCount": 1514,
+    "wordCount": 1533,
     "faq": [
       {
         "q": "How much is a DJI Agras drone in Australia?",
@@ -2232,7 +2350,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "waterproof drones",
       "water drone"
     ],
-    "wordCount": 1472,
+    "wordCount": 1489,
     "faq": [
       {
         "q": "Are DJI drones waterproof?",
@@ -2612,7 +2730,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "thermal imaging camera",
       "drone with thermal camera"
     ],
-    "wordCount": 2051,
+    "wordCount": 2065,
     "faq": [
       {
         "q": "What is the best thermal drone in Australia?",
@@ -2997,7 +3115,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "crop spraying drone",
       "multispectral drone"
     ],
-    "wordCount": 1831,
+    "wordCount": 1843,
     "faq": [
       {
         "q": "Which DJI Agras is best for a small farm?",
