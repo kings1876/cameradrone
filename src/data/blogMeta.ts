@@ -96,7 +96,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "matrice 30t ip55",
       "matrice 30t vs 4t"
     ],
-    "wordCount": 1747,
+    "wordCount": 1758,
     "faq": [
       {
         "q": "How much does a DJI Matrice 30T cost in Australia?",
