@@ -37,7 +37,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "agras t100 149.9 kg",
       "agras t100 spreading system"
     ],
-    "wordCount": 2135,
+    "wordCount": 2146,
     "faq": [
       {
         "q": "How much does a DJI Agras T100 cost in Australia?",
@@ -117,6 +117,124 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       {
         "q": "Matrice 30T or Matrice 4T?",
         "a": "The 30T is rated IP55 and works from -20 °C to 50 °C, but it weighs about three times as much, flies for up to 41 minutes against 49 and costs $4,225 more in the Plus Combo (calculated). The 4T suits lighter, fair-weather work."
+      }
+    ]
+  },
+  {
+    "id": "post-53",
+    "slug": "buy-dji-mini-3-fly-more-combo-australia-price-dji-rc-battery-sums-vs-mini-4-pro",
+    "intent": "transactional",
+    "title": "Buy a DJI Mini 3 Fly More Combo in Australia: Price, What You Get and Spare Battery Costs",
+    "metaTitle": "DJI Mini 3 Fly More Combo Australia: Price and Kit Guide",
+    "metaDescription": "DJI Mini 3 Fly More Combo price in Australia: $839 with the DJI RC. See battery sums, flight time, what it adds over the $659 kit and Mini 3 vs Mini 4 Pro.",
+    "subtitle": "What the Mini 3 Fly More Combo costs, what it adds over the single kit, how the spare batteries add up and how the Mini 3 compares with the Mini 4K and Mini 4 Pro.",
+    "date": "November 2026",
+    "dateISO": "2026-11-26",
+    "modifiedISO": "2026-11-26",
+    "readTime": "9 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Camera Drones",
+      "Buying Guide",
+      "DJI Mini"
+    ],
+    "excerpt": "The DJI Mini 3 Fly More Combo with the DJI RC is $839. We set out what it adds over the $659 kit, the spare battery sums, DJI's published specifications and how it compares with the Mini 4K and Mini 4 Pro.",
+    "image": "/images/blog-mini-3-fly-more-combo-guide.webp",
+    "imageAlt": "DJI Mini 3 Fly More Combo with the DJI RC, a spare battery and the Two-Way Charging Hub",
+    "relatedProducts": [
+      "dji-mini-3-fly-more-combo-dji-rc",
+      "dji-mini-3-dji-rc",
+      "dji-mini-3-series-intelligent-flight-battery",
+      "dji-mini-4-pro-mini-3-series-two-way-charging-hub"
+    ],
+    "targetKeywords": [
+      "dji mini 3 fly more combo",
+      "dji mini 3 fly more combo price",
+      "dji mini 3 australia",
+      "dji mini 3 dji rc",
+      "mini 3 spare battery",
+      "dji mini 3 vs mini 4 pro"
+    ],
+    "wordCount": 1540,
+    "faq": [
+      {
+        "q": "How much is the DJI Mini 3 Fly More Combo in Australia?",
+        "a": "The Fly More Combo with the DJI RC is $839, which is $180 more than the Mini 3 with the DJI RC at $659. Shipping is free."
+      },
+      {
+        "q": "What is in the DJI Mini 3 Fly More Combo?",
+        "a": "The aircraft, the DJI RC screen controller, spare batteries, a charging hub and a shoulder bag. We confirm the exact contents when you ask for a quote."
+      },
+      {
+        "q": "How long does the Mini 3 fly?",
+        "a": "DJI rates it at up to 38 minutes with the standard battery and 51 minutes with the Plus battery, in a wind tunnel. Real flights are shorter."
+      },
+      {
+        "q": "Is the DJI Mini 3 under 249 g?",
+        "a": "DJI lists 248 g with the standard battery. With the Intelligent Flight Battery Plus it weighs about 290 g, so check the CASA rules before using it."
+      },
+      {
+        "q": "How long does delivery to Western Australia take?",
+        "a": "Western Australian addresses typically arrive in 2 to 4 business days from dispatch, and shipping is free by express courier with signature on delivery."
+      }
+    ]
+  },
+  {
+    "id": "post-54",
+    "slug": "buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost",
+    "intent": "transactional",
+    "title": "Buy a Spray Drone in Australia: How to Choose by Tank Size, Price and Setup Cost",
+    "metaTitle": "Spray Drone Price Australia: How to Choose a Size",
+    "metaDescription": "Spray drone price in Australia from $17,530. Compare four DJI Agras sizes by tank, loads per hectare, battery and charger costs and what a working kit costs.",
+    "subtitle": "Four DJI Agras spray drones compared by tank size, price, loads per hectare and the cost of a working kit, with a guide to each model.",
+    "date": "November 2026",
+    "dateISO": "2026-11-26",
+    "modifiedISO": "2026-11-26",
+    "readTime": "11 min read",
+    "author": "Flight Operations Team",
+    "tags": [
+      "Agricultural Drones",
+      "Buying Guide",
+      "Spraying Drones"
+    ],
+    "excerpt": "A spray drone costs from $17,530 for the aircraft and $29,410 with batteries and a charger. We compare the DJI Agras T25P, T50, T70P and T100 by tank, loads per hectare and kit cost.",
+    "image": "/images/blog-spray-drone-guide.webp",
+    "imageAlt": "DJI Agras T25P, DJI Agras T70P and DJI Agras T100 spray drones",
+    "relatedProducts": [
+      "dji-agras-t25p",
+      "dji-agras-t50",
+      "dji-agras-t70p",
+      "dji-agras-t100"
+    ],
+    "targetKeywords": [
+      "spray drone",
+      "drone sprayer",
+      "spray drone for sale",
+      "spray drone price australia",
+      "best spray drone",
+      "spray drone for farm"
+    ],
+    "wordCount": 1456,
+    "faq": [
+      {
+        "q": "How much does a spray drone cost in Australia?",
+        "a": "The DJI Agras aircraft we list run from $17,530 (T25P) to $30,380 (T100). With three batteries and a charger the kits total $29,410, $35,859, $35,000 and $45,000 for the T25P, T50, T70P and T100, if the batteries and charger are bought separately."
+      },
+      {
+        "q": "Which spray drone is best for 50 hectares?",
+        "a": "At an example rate of 15 L/ha, 50 ha needs 750 L, which is 38 loads of the T25P, 19 of the T50, 11 of the T70P or about 10 of the T100 in Australia (calculated). Check the product label for your actual rate."
+      },
+      {
+        "q": "What do I need besides the drone?",
+        "a": "Flight batteries, a charger, a water supply and mixing set-up, a trained operator, the right accreditation and a chemical application licence for your state or territory."
+      },
+      {
+        "q": "Can a spray drone spread seed and fertiliser?",
+        "a": "Yes. DJI lists spreading tanks of 30 L (T25P), 75 L (T50), 100 L (T70P) and 150 L (T100), and the spreading systems are priced separately."
+      },
+      {
+        "q": "What wind can a spray drone work in?",
+        "a": "DJI lists a maximum wind resistance of 6 m/s or less for the aircraft we compare. The product label sets drift limits as well, so check the label and the forecast."
       }
     ]
   },
@@ -273,7 +391,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "agras t70p battery",
       "agras t70p charger"
     ],
-    "wordCount": 2063,
+    "wordCount": 2076,
     "faq": [
       {
         "q": "How much does a DJI Agras T70P cost in Australia?",
@@ -391,7 +509,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "agras t50 battery",
       "agras t50 spreading system"
     ],
-    "wordCount": 1608,
+    "wordCount": 1618,
     "faq": [
       {
         "q": "How much does a DJI Agras T50 cost in Australia?",
@@ -568,7 +686,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji t25p spray drone",
       "agras t25p battery"
     ],
-    "wordCount": 1512,
+    "wordCount": 1524,
     "faq": [
       {
         "q": "How much does a DJI Agras T25P cost in Australia?",
@@ -1854,7 +1972,7 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
       "dji mini 3 review",
       "dj1 mini 4k drone"
     ],
-    "wordCount": 2037,
+    "wordCount": 2064,
     "faq": [
       {
         "q": "How much does the DJI Mini 4K cost in Australia?",
@@ -3110,12 +3228,10 @@ export const BLOG_SUMMARIES: BlogSummary[] = [
     ],
     "targetKeywords": [
       "agricultural drones",
-      "spray drone",
-      "drone sprayer",
       "crop spraying drone",
       "multispectral drone"
     ],
-    "wordCount": 1843,
+    "wordCount": 1858,
     "faq": [
       {
         "q": "Which DJI Agras is best for a small farm?",

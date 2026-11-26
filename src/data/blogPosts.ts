@@ -1722,7 +1722,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: 'Monitor crops with multispectral drones' },
       'Spraying is more effective when you know where to spray. The [DJI Mavic 3 Multispectral](/product/dji-mavic-3-multispectral) and the [multispectral cameras](/category/cameras-sensors/multispectral-cameras) we supply measure crop health from the air, and [DJI Terra Agriculture](/product/dji-terra-agriculture-1-year-3-devices) processes the data into prescription maps.',
       { h2: 'Set-up, training and running costs' },
-      'Budget beyond the aircraft. A spraying system needs several batteries, a fast charger or power supply, a generator for the field, spare nozzles or spreader parts and time to learn the flight and spray settings. Train every operator before the busy season, keep a maintenance routine for nozzles, pumps and filters, and plan for battery wear over time. We can quote the aircraft, batteries, charger and set-up together so the whole system works from day one. Our [drone weed spraying buying guide](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost) puts prices on two complete setups. Buying the compact aircraft? See our [DJI Agras T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) the [DJI Agras T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading) the [DJI Agras T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading) or, for the largest aircraft, the [DJI Agras T100 price and setup guide](/blog/buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading).',
+      'Budget beyond the aircraft. A spraying system needs several batteries, a fast charger or power supply, a generator for the field, spare nozzles or spreader parts and time to learn the flight and spray settings. Train every operator before the busy season, keep a maintenance routine for nozzles, pumps and filters, and plan for battery wear over time. We can quote the aircraft, batteries, charger and set-up together so the whole system works from day one. Our [drone weed spraying buying guide](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost) puts prices on two complete setups. Buying the compact aircraft? See our [DJI Agras T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) the [DJI Agras T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading) the [DJI Agras T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading) or, for the largest aircraft, the [DJI Agras T100 price and setup guide](/blog/buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading). To compare all four Agras sizes side by side, see our [spray drone buying guide](/blog/buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost).',
       { h2: 'A quick buying checklist' },
       { ul: [
         'How many hectares do you need to cover in a day, and how often?',
@@ -1743,7 +1743,7 @@ export const BLOG_POSTS: BlogPost[] = [
         { q: 'Which Agras has the lowest aircraft price per litre of tank?', a: 'On our listed prices the Agras T70P, at about $291 per litre of tank for the aircraft alone, followed by the T100 at about $304. Batteries and chargers are extra unless your package includes them.' }
       ] }
     ],
-    targetKeywords: ['agricultural drones', 'spray drone', 'drone sprayer', 'crop spraying drone', 'multispectral drone']
+    targetKeywords: ['agricultural drones', 'crop spraying drone', 'multispectral drone']
   },
   {
     id: 'post-17',
@@ -2169,7 +2169,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: `DJI Mini 3 with the DJI RC: the no-phone option` },
       `The [DJI Mini 3 with the DJI RC](/product/dji-mini-3-dji-rc) at $659 is the same aircraft with a screen controller included. The built-in screen means there is no phone to mount, no app to open on your own device and a quicker set-up when the light is changing. It is the best choice for Mini 3 buyers who want a screen controller from the start, and it pairs naturally with the Fly More Combo if you plan to fly often.`,
       { h2: `DJI Mini 3 Fly More Combo: the travel kit` },
-      `The [DJI Mini 3 Fly More Combo with the DJI RC](/product/dji-mini-3-fly-more-combo-dji-rc) at $839 adds extra Intelligent Flight Batteries, a charging hub and a shoulder bag to the screen-controller package. The extra batteries make the compact Mini 3 practical for a full day of travel flying, and the bag keeps everything together in a small footprint. It is ideal for travellers who want spare power and a screen controller in a single, light kit.`,
+      `The [DJI Mini 3 Fly More Combo with the DJI RC](/product/dji-mini-3-fly-more-combo-dji-rc) at $839 adds extra Intelligent Flight Batteries, a charging hub and a shoulder bag to the screen-controller package. The extra batteries make the compact Mini 3 practical for a full day of travel flying, and the bag keeps everything together in a small footprint. It is ideal for travellers who want spare power and a screen controller in a single, light kit. Our [DJI Mini 3 Fly More Combo price guide](/blog/buy-dji-mini-3-fly-more-combo-australia-price-dji-rc-battery-sums-vs-mini-4-pro) sets out the battery sums, flight times and how the Mini 3 compares with the Mini 4 Pro.`,
       { h2: `DJI Mini 4K vs DJI Mini 3: which should you buy?` },
       `The two aircraft are close enough that the right choice comes down to your budget and how much you care about the camera. The table sets out what we can tell you about each.`,
       { table: {
@@ -4528,7 +4528,7 @@ export const BLOG_POSTS: BlogPost[] = [
         ]
       } },
       { img: { src: '/images/blog-agras-t25p-guide-inline-3.webp', alt: `DJI Agras T50 and DJI Agras T70P, the larger Agras models above the T25P`, caption: `The Agras T50 and T70P carry 40 L and 70 L tanks for larger properties.` } },
-      `Stay with the T25P if you spray small blocks, orchards or scattered paddocks and one person does the work. Step up if you treat tens of hectares in a season and the number of loads and battery swaps becomes the limit. Our [T25P vs T50 vs T100 guide](/blog/buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices) compares the range in detail. For the mid-size aircraft on its own, see our [DJI Agras T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading), and for the 70 L aircraft see our [DJI Agras T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading).`,
+      `Stay with the T25P if you spray small blocks, orchards or scattered paddocks and one person does the work. Step up if you treat tens of hectares in a season and the number of loads and battery swaps becomes the limit. Our [T25P vs T50 vs T100 guide](/blog/buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices) compares the range in detail. For the mid-size aircraft on its own, see our [DJI Agras T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading), and for the 70 L aircraft see our [DJI Agras T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading). To compare all four Agras sizes, see our [spray drone buying guide](/blog/buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost).`,
       { h2: `What the T25P can spread` },
       `The T25P also spreads granules. DJI lists a 30 L spreading tank, an effective width of 3 to 8 m and a maximum discharge of 190 kg/min for compound fertiliser. The discharge figure is a maximum, not a per-hectare rate, so calibrate the rate for each product on a small block before the main job. Ask us which spreading system fits your aircraft when you request a quote, and read our [spreader drone guide](/blog/buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared) for seed and fertiliser work.`,
       { h2: `Where the T25P is used` },
@@ -4794,7 +4794,7 @@ export const BLOG_POSTS: BlogPost[] = [
         `**Seed and fertiliser work as well:** add the [T50 Spreading System](/product/dji-agras-t50-spreading-system).`,
         `**Orchards and tree crops:** add the [Atomized Sprinkler Package](/product/dji-agras-t50-atomized-sprinkler-package).`,
         `**Small blocks and a single operator:** consider the [Agras T25P](/product/dji-agras-t25p).`,
-        `**Large areas:** compare the [Agras T70P](/product/dji-agras-t70p), set out in our [T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading), and the [T100](/product/dji-agras-t100), covered in our [T100 price and setup guide](/blog/buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading).`
+        `**Large areas:** compare the [Agras T70P](/product/dji-agras-t70p), set out in our [T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading), and the [T100](/product/dji-agras-t100), covered in our [T100 price and setup guide](/blog/buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading). Our [spray drone buying guide](/blog/buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost) compares all four Agras sizes.`
       ] },
       { h2: `Spares and related equipment` },
       `Browse every [spraying drone](/category/spraying-drones/spraying-drones) and [spraying accessory](/category/spraying-drones/spraying-drone-accessories) we supply, and the wider [spraying drones category](/category/spraying-drones). A [multispectral drone](/blog/buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices) shows where to treat before you spray.`,
@@ -5186,7 +5186,7 @@ export const BLOG_POSTS: BlogPost[] = [
         ]
       } },
       { img: { src: '/images/blog-agras-t70p-guide-inline-3.webp', alt: `DJI Agras T50 and DJI Agras T100 spray drones, the models either side of the Agras T70P`, caption: `The Agras T50 and T100 sit either side of the T70P in the range.` } },
-      `On our listed prices the T70P gives more tank for less money than the T50 and the lowest price per litre of tank in the range. The T100 carries 100 L but costs $10,000 more, and our [DJI Agras T100 price and setup guide](/blog/buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading) explains what Australia's 149.9 kg limit leaves for liquid. Choose the T70P if you treat large areas and can supply the charging power. Stay with the [T50](/product/dji-agras-t50) or the [T25P](/product/dji-agras-t25p) if your blocks are smaller and a lighter aircraft is easier to handle; our [T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) covers the smallest model.`,
+      `On our listed prices the T70P gives more tank for less money than the T50 and the lowest price per litre of tank in the range. The T100 carries 100 L but costs $10,000 more, and our [DJI Agras T100 price and setup guide](/blog/buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading) explains what Australia's 149.9 kg limit leaves for liquid. For all four sizes side by side, see our [spray drone buying guide](/blog/buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost). Choose the T70P if you treat large areas and can supply the charging power. Stay with the [T50](/product/dji-agras-t50) or the [T25P](/product/dji-agras-t25p) if your blocks are smaller and a lighter aircraft is easier to handle; our [T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) covers the smallest model.`,
       { h2: `Where the T70P is used` },
       `The T70P is used for weed control across large paddocks and fence lines, crop and pasture spraying, orchard and tree-crop work, and spreading seed and fertiliser. See our guides to [drone weed spraying](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost), [orchard spray drones](/blog/buy-orchard-spray-drone-australia-dji-agras-t25p-t50-t70p-t100-tree-crop-prices) and the wider [agricultural spraying drones guide](/blog/agricultural-spraying-drones-australia-guide).`,
       { h2: `Rules, licences and training` },
@@ -5319,7 +5319,7 @@ export const BLOG_POSTS: BlogPost[] = [
           ['[Agras T100](/product/dji-agras-t100)', '$30,380', '100 L', 'about $304', '74.9 kg, about $406 per litre']
         ]
       } },
-      `On tank volume the two cost about the same per litre. On the Australian payload the T100 costs about $406 per litre against $291, so the extra $10,000 buys about 5 kg more liquid per load (calculated). It also buys a wider 5 to 13 m spray width against 4 to 11 m, a 150 L spreading tank against 100 L, a 100 kg lifting capacity against 65 kg and a laser radar. Choose the T100 if you spread or lift as well as spray, or want the wider swath. Choose the [T70P](/product/dji-agras-t70p) if spraying is the job and price matters; our [T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading) covers it. The [T50 guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading) and [T25P guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) cover the smaller aircraft.`,
+      `On tank volume the two cost about the same per litre. On the Australian payload the T100 costs about $406 per litre against $291, so the extra $10,000 buys about 5 kg more liquid per load (calculated). It also buys a wider 5 to 13 m spray width against 4 to 11 m, a 150 L spreading tank against 100 L, a 100 kg lifting capacity against 65 kg and a laser radar. Choose the T100 if you spread or lift as well as spray, or want the wider swath. Choose the [T70P](/product/dji-agras-t70p) if spraying is the job and price matters; our [T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading) covers it. The [T50 guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading) and [T25P guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) cover the smaller aircraft, and our [spray drone buying guide](/blog/buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost) compares all four Agras sizes.`,
       { h2: `Where the T100 is used` },
       `The T100 suits large paddocks, contractors who treat many properties and operations that also spread seed or fertiliser. See our guides to [drone weed spraying](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost), [orchard spray drones](/blog/buy-orchard-spray-drone-australia-dji-agras-t25p-t50-t70p-t100-tree-crop-prices) and the wider [agricultural spraying drones guide](/blog/agricultural-spraying-drones-australia-guide).`,
       { h2: `Rules, licences and training` },
@@ -5477,5 +5477,213 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['dji matrice 30t', 'dji matrice 30t price', 'matrice 30t australia', 'matrice 30t worry free combo', 'matrice 30t ip55', 'matrice 30t vs 4t']
+  },
+  {
+    id: 'post-53',
+    slug: 'buy-dji-mini-3-fly-more-combo-australia-price-dji-rc-battery-sums-vs-mini-4-pro',
+    intent: 'transactional',
+    title: `Buy a DJI Mini 3 Fly More Combo in Australia: Price, What You Get and Spare Battery Costs`,
+    metaTitle: `DJI Mini 3 Fly More Combo Australia: Price and Kit Guide`,
+    metaDescription: `DJI Mini 3 Fly More Combo price in Australia: $839 with the DJI RC. See battery sums, flight time, what it adds over the $659 kit and Mini 3 vs Mini 4 Pro.`,
+    subtitle: `What the Mini 3 Fly More Combo costs, what it adds over the single kit, how the spare batteries add up and how the Mini 3 compares with the Mini 4K and Mini 4 Pro.`,
+    date: 'November 2026',
+    dateISO: '2026-11-26',
+    modifiedISO: '2026-11-26',
+    readTime: '9 min read',
+    author: 'Flight Operations Team',
+    tags: ['Camera Drones', 'Buying Guide', 'DJI Mini'],
+    excerpt: `The DJI Mini 3 Fly More Combo with the DJI RC is $839. We set out what it adds over the $659 kit, the spare battery sums, DJI's published specifications and how it compares with the Mini 4K and Mini 4 Pro.`,
+    image: '/images/blog-mini-3-fly-more-combo-guide.webp',
+    imageAlt: `DJI Mini 3 Fly More Combo with the DJI RC, a spare battery and the Two-Way Charging Hub`,
+    relatedProducts: ['dji-mini-3-fly-more-combo-dji-rc', 'dji-mini-3-dji-rc', 'dji-mini-3-series-intelligent-flight-battery', 'dji-mini-4-pro-mini-3-series-two-way-charging-hub'],
+    content: [
+      `The DJI Mini 3 Fly More Combo with the DJI RC screen controller is listed at $839 in Australian dollars, with free express shipping to any Australian address. If you have searched for a DJI Mini 3 Fly More Combo price in Australia, the useful answer is more than the sticker price: it is what the combo adds over the single kit, how the spare batteries add up and whether the Mini 3 is still the right choice against the Mini 4K and the Mini 4 Pro. This guide sets out the prices, DJI's published specifications and the sums, including one detail about the Plus battery that affects the aircraft's weight.`,
+      { h2: `DJI Mini 3 at a glance` },
+      `These are the figures DJI publishes on its [Mini 3 specification page](https://www.dji.com/global/mini-3/specs).`,
+      { table: {
+        head: ['Specification', 'DJI figure'],
+        rows: [
+          ['Takeoff weight', '248 g with the standard battery; about 290 g with the Intelligent Flight Battery Plus'],
+          ['Flight time', 'Up to 38 min with the standard battery, up to 51 min with the Plus battery (rated, in a wind tunnel)'],
+          ['Hover time and range', '33 min hover and 18 km with the standard battery; 44 min and 25 km with the Plus battery'],
+          ['Camera', '1/1.3-inch CMOS, 48 MP, 24 mm equivalent lens, f/1.7'],
+          ['Video', '4K at 24, 25 or 30 fps; 2.7K and 1080p up to 60 fps; 100 Mbps; HDR at 24 to 30 fps'],
+          ['Gimbal', '3-axis, with True Vertical Shooting'],
+          ['Wind resistance', '10.7 m/s (Level 5)'],
+          ['Operating temperature', '-10 °C to 40 °C'],
+          ['Obstacle sensing', 'Downward vision system only'],
+          ['Video link', 'DJI O2: up to 10 km (FCC) or 6 km (CE), 720p live view'],
+          ['Battery', '2,453 mAh, 18.1 Wh, about 80.5 g (Plus: 3,850 mAh, 28.4 Wh, about 121 g)'],
+          ['Charging', '64 min on the aircraft or 56 min in the Two-Way Charging Hub with a 30 W charger']
+        ]
+      } },
+      { img: { src: '/images/blog-mini-3-fly-more-combo-guide-inline-1.webp', alt: `DJI Mini 3 Fly More Combo with the DJI RC screen controller and spare batteries`, caption: `The Mini 3 Fly More Combo with the DJI RC adds spare batteries to the screen-controller kit.` } },
+      { h2: `What the Fly More Combo adds` },
+      `The Mini 3 is sold in three packages. These are the listed prices.`,
+      { table: {
+        head: ['Package', 'Price (AUD)', 'What is in it'],
+        rows: [
+          ['[DJI Mini 3 (DJI RC-N1)](/product/dji-mini-3-dji-rc-n1)', '$509', 'Aircraft with the phone-based RC-N1 controller'],
+          ['[DJI Mini 3 (DJI RC)](/product/dji-mini-3-dji-rc)', '$659', 'Aircraft with the DJI RC screen controller'],
+          ['[DJI Mini 3 Fly More Combo (DJI RC)](/product/dji-mini-3-fly-more-combo-dji-rc)', '$839', 'The DJI RC kit plus extra batteries, a charging hub and a shoulder bag']
+        ]
+      } },
+      `The Fly More Combo costs $180 more than the DJI RC kit and $330 more than the RC-N1 kit (both calculated). The product photo shows the aircraft, the DJI RC and two spare batteries, and we confirm the exact contents when you ask for a quote. Buying separately, a spare [battery](/product/dji-mini-3-series-intelligent-flight-battery) is $99 and the [Two-Way Charging Hub](/product/dji-mini-4-pro-mini-3-series-two-way-charging-hub) is $69, so if the combo includes two spare batteries and a hub, the same items would cost $267 separately (calculated), $87 more than the $180 the combo adds.`,
+      { h2: `Spare batteries: standard or Plus` },
+      `Flight time is what the Mini 3 buyer runs out of first. This table compares the two batteries on DJI's figures and our prices.`,
+      { table: {
+        head: ['Battery', 'Price (AUD)', 'Rated flight time', 'Price per rated minute (calculated)', 'Weight'],
+        rows: [
+          ['[Standard battery](/product/dji-mini-3-series-intelligent-flight-battery)', '$99', '38 min', 'about $2.61', 'About 80.5 g'],
+          ['[Intelligent Flight Battery Plus](/product/dji-mini-4-pro-mini-3-series-intelligent-flight-battery-plus)', '$149', '51 min', 'about $2.92', 'About 121 g']
+        ]
+      } },
+      { img: { src: '/images/blog-mini-3-fly-more-combo-guide-inline-2.webp', alt: `DJI Mini 3 series Intelligent Flight Battery and Intelligent Flight Battery Plus`, caption: `The standard battery keeps the Mini 3 under 249 g; the Plus battery adds flight time and weight.` } },
+      `The Plus battery gives 13 more rated minutes for $50 more, but it takes the aircraft to about 290 g, above the 249 g class, and DJI advises against mounting extra items such as a propeller guard with it. If staying under 249 g matters to you, check what that means on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) before you choose the Plus battery. Charging takes 56 minutes per standard battery in the hub, so three batteries take about 2 hours 48 minutes one after another (calculated), because the hub charges them in sequence. A pilot with three standard batteries has 114 rated minutes in the air (3 × 38, calculated), and real flights are shorter. Our guide to [batteries, chargers and propellers](/blog/dji-drone-battery-charger-propeller-guide) explains how to plan a day of flying.`,
+      { h2: `Controller: DJI RC or RC-N1` },
+      `The DJI RC has a built-in screen and runs the DJI Fly app itself, so there is no phone to mount, and the Fly More Combo we list includes it. The RC-N1 uses your own phone, which costs less at $509 for the kit but ties up your phone while you fly, and DJI lists the RC-N1 with a 6-hour operating time that drops to 4 hours when it charges a phone. Choose the DJI RC if you want a quick, self-contained set-up.`,
+      { img: { src: '/images/blog-mini-3-fly-more-combo-guide-inline-3.webp', alt: `DJI Mini 3 with the DJI RC screen controller and DJI Mini 3 with the RC-N1 controller`, caption: `The DJI RC has a built-in screen; the RC-N1 uses your phone.` } },
+      { h2: `Mini 3, Mini 4K or Mini 4 Pro?` },
+      `The Mini 3 is no longer the newest Mini, so compare it before you buy. This table uses the Fly More Combo prices we list and DJI's published figures for the Mini 3 and Mini 4 Pro.`,
+      { table: {
+        head: ['Aircraft', 'Fly More Combo (AUD)', 'Rated flight time', 'Obstacle sensing', 'Video'],
+        rows: [
+          ['[Mini 4K](/product/dji-mini-4k-fly-more-combo)', '$619', 'See our Mini 4K guide', 'See our Mini 4K guide', 'See our Mini 4K guide'],
+          ['[Mini 3](/product/dji-mini-3-fly-more-combo-dji-rc)', '$839', '38 min (51 with Plus)', 'Downward only', '4K up to 30 fps'],
+          ['[Mini 4 Pro](/product/dji-mini-4-pro-fly-more-combo)', '$1,449', '34 min (45 with Plus)', 'Omnidirectional', '4K up to 100 fps']
+        ]
+      } },
+      `The Mini 4K Fly More Combo is $220 less than the Mini 3 combo (calculated); our [Mini 4K vs Mini 3 guide](/blog/buy-dji-mini-4k-vs-mini-3-australia-prices) compares them in full. The Mini 4 Pro costs $610 more (calculated) and adds omnidirectional obstacle sensing and 4K at up to 100 fps, though DJI rates its flight time lower than the Mini 3's; see our [Mini 4 Pro guide](/blog/buy-dji-mini-4-pro-australia-combos-batteries-accessories). For the newest model see the [Mini 5 Pro guide](/blog/buy-dji-mini-5-pro-australia-combos-prices). The Mini 3 suits a first drone or a travel drone when you want a large 1/1.3-inch sensor, long rated flight time and a low price.`,
+      { h2: `Limits to know before you buy` },
+      { ul: [
+        `**Obstacle sensing:** the Mini 3 senses downward only, so it does not detect obstacles ahead, behind or beside it. Fly in open areas and keep it in sight.`,
+        `**Wind:** DJI lists 10.7 m/s (Level 5) as the maximum wind resistance. Check the forecast, because a light drone moves quickly in gusts.`,
+        `**Live view:** the DJI O2 link gives 720p live view, which is enough to frame shots but not to judge fine detail.`,
+        `**Weight with the Plus battery:** about 290 g, above 249 g, with the CASA implications above.`
+      ] },
+      { h2: `Rules, registration and where to fly` },
+      `The standard CASA conditions are flying in daylight, within visual line of sight, below 120 m and at least 30 m from people. Check what applies to you on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq).`,
+      { h2: `Which Mini 3 package should you buy?` },
+      { ul: [
+        `**A first drone on a tight budget:** the [Mini 3 with the RC-N1](/product/dji-mini-3-dji-rc-n1) at $509.`,
+        `**A self-contained screen controller:** the [Mini 3 with the DJI RC](/product/dji-mini-3-dji-rc) at $659.`,
+        `**Travel and full-day flying:** the [Fly More Combo](/product/dji-mini-3-fly-more-combo-dji-rc) at $839.`,
+        `**More obstacle sensing and 4K at 100 fps:** the [Mini 4 Pro](/product/dji-mini-4-pro).`,
+        `**The lowest price:** the [Mini 4K Fly More Combo](/product/dji-mini-4k-fly-more-combo).`
+      ] },
+      { h2: `Spares and related equipment` },
+      `Browse every [DJI Mini and Air drone](/category/camera-drones/dji-mini-and-air) we supply, plus [batteries](/category/batteries) and [propellers](/product/dji-mini-3-lito-series-propellers) for the Mini 3. Our [best drones for beginners guide](/blog/best-drones-for-beginners-australia) and [best DJI drone buyers guide](/blog/best-drone-for-sale-australia-2026-buyers-guide) compare the whole range.`,
+      { h2: `Get a free quote on a DJI Mini 3 Fly More Combo` },
+      `Tell us which package you want, whether you want a Plus battery and where you live, and we will send a written quote and confirm the contents, availability and delivery before you pay. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars, and Western Australian addresses typically arrive in 2 to 4 business days. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. You can place an order through the [order form](/order), request a quote on the [quote page](/quote) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `How much is the DJI Mini 3 Fly More Combo in Australia?`, a: `The Fly More Combo with the DJI RC is $839, which is $180 more than the Mini 3 with the DJI RC at $659. Shipping is free.` },
+        { q: `What is in the DJI Mini 3 Fly More Combo?`, a: `The aircraft, the DJI RC screen controller, spare batteries, a charging hub and a shoulder bag. We confirm the exact contents when you ask for a quote.` },
+        { q: `How long does the Mini 3 fly?`, a: `DJI rates it at up to 38 minutes with the standard battery and 51 minutes with the Plus battery, in a wind tunnel. Real flights are shorter.` },
+        { q: `Is the DJI Mini 3 under 249 g?`, a: `DJI lists 248 g with the standard battery. With the Intelligent Flight Battery Plus it weighs about 290 g, so check the CASA rules before using it.` },
+        { q: `How long does delivery to Western Australia take?`, a: `Western Australian addresses typically arrive in 2 to 4 business days from dispatch, and shipping is free by express courier with signature on delivery.` }
+      ] }
+    ],
+    targetKeywords: ['dji mini 3 fly more combo', 'dji mini 3 fly more combo price', 'dji mini 3 australia', 'dji mini 3 dji rc', 'mini 3 spare battery', 'dji mini 3 vs mini 4 pro']
+  },
+  {
+    id: 'post-54',
+    slug: 'buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost',
+    intent: 'transactional',
+    title: `Buy a Spray Drone in Australia: How to Choose by Tank Size, Price and Setup Cost`,
+    metaTitle: `Spray Drone Price Australia: How to Choose a Size`,
+    metaDescription: `Spray drone price in Australia from $17,530. Compare four DJI Agras sizes by tank, loads per hectare, battery and charger costs and what a working kit costs.`,
+    subtitle: `Four DJI Agras spray drones compared by tank size, price, loads per hectare and the cost of a working kit, with a guide to each model.`,
+    date: 'November 2026',
+    dateISO: '2026-11-26',
+    modifiedISO: '2026-11-26',
+    readTime: '11 min read',
+    author: 'Flight Operations Team',
+    tags: ['Agricultural Drones', 'Buying Guide', 'Spraying Drones'],
+    excerpt: `A spray drone costs from $17,530 for the aircraft and $29,410 with batteries and a charger. We compare the DJI Agras T25P, T50, T70P and T100 by tank, loads per hectare and kit cost.`,
+    image: '/images/blog-spray-drone-guide.webp',
+    imageAlt: `DJI Agras T25P, DJI Agras T70P and DJI Agras T100 spray drones`,
+    relatedProducts: ['dji-agras-t25p', 'dji-agras-t50', 'dji-agras-t70p', 'dji-agras-t100'],
+    content: [
+      `A spray drone for sale in Australia costs from $17,530 for the aircraft alone, and a working setup with batteries and a charger costs from $29,410. If you have searched for a spray drone or a drone sprayer, the useful question is not which one is best, it is which size matches the area you treat, because the tank, the batteries and the charger all scale together. We supply four DJI Agras aircraft, from a 20 L tank to a 100 L tank. This guide compares them by price, tank, loads per hectare and kit cost, and points to the full guide for each.`,
+      { h2: `Spray drones compared: four DJI Agras sizes` },
+      `These are the figures DJI publishes and our listed aircraft prices.`,
+      { table: {
+        head: ['Model', 'Aircraft price (AUD)', 'Spray tank', 'Maximum flow rate', 'Spray width', 'Spreading tank'],
+        rows: [
+          ['[Agras T25P](/product/dji-agras-t25p)', '$17,530', '20 L', '16 L/min, 24 L/min with 4 nozzles', '4 to 7 m', '30 L'],
+          ['[Agras T50](/product/dji-agras-t50)', '$21,999', '40 L', '16 L/min, 24 L/min with 4 sprinklers', '4 to 11 m', '75 L (50 kg load)'],
+          ['[Agras T70P](/product/dji-agras-t70p)', '$20,380', '70 L', '30 L/min, 40 L/min with 4 sprinklers', '4 to 11 m', '100 L (70 kg load)'],
+          ['[Agras T100](/product/dji-agras-t100)', '$30,380', '100 L', '30 L/min, 40 L/min with 4 nozzles', '5 to 13 m', '150 L (100 kg load)']
+        ]
+      } },
+      { img: { src: '/images/blog-spray-drone-guide-inline-1.webp', alt: `DJI Agras T25P and DJI Agras T50 spray drones`, caption: `The T25P and T50 suit small and mid-size properties.` } },
+      `The T70P is listed below the T50 on our prices while carrying 70 L instead of 40 L, so compare them before you decide. For the Australian takeoff limit that applies to the T100, see its guide below.`,
+      { h2: `How many loads does a property need?` },
+      `The label of the product you apply sets the rate in litres per hectare, so these sums use an example rate of 15 L/ha. The loads are the number of tank fills needed to cover each property size.`,
+      { table: {
+        head: ['Area at 15 L/ha', 'Product needed', 'T25P (20 L)', 'T50 (40 L)', 'T70P (70 L)', 'T100 in Australia (about 75 L)'],
+        rows: [
+          ['20 ha', '300 L', '15 loads', '8 loads', '5 loads', '4 loads'],
+          ['50 ha', '750 L', '38 loads', '19 loads', '11 loads', '10 loads'],
+          ['100 ha', '1,500 L', '75 loads', '38 loads', '22 loads', '20 loads']
+        ]
+      } },
+      `Every load means a refill and a battery change, so the time you save with a bigger tank is mostly time not spent on the ground. The T100's 100 L tank carries about 75 L in Australia because DJI says to keep the maximum takeoff weight at 149.9 kg here, which we explain in our [T100 guide](/blog/buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading). Our [T25P vs T50 vs T100 guide](/blog/buy-dji-agras-spray-drone-australia-t25p-vs-t50-vs-t100-prices) counts loads for every model.`,
+      { h2: `What a working kit costs` },
+      `The aircraft is only part of the price. Each model needs flight batteries and a charger, and the price of those depends on the model. This table sums an aircraft with three batteries and a charger from our listed prices.`,
+      { table: {
+        head: ['Model', 'Batteries and charger', 'Kit total (AUD)'],
+        rows: [
+          ['[T25P](/product/dji-agras-t25p)', 'Three [DB800 batteries](/product/dji-agras-db800-intelligent-flight-battery) $9,570 and a C8000 battery station $2,310', '$29,410'],
+          ['[T50](/product/dji-agras-t50)', 'Three [DB1560 batteries](/product/dji-agras-db1560-intelligent-flight-battery) $11,550 and a [C10000](/product/dji-c10000-intelligent-power-supply) $2,310', '$35,859'],
+          ['[T70P](/product/dji-agras-t70p)', 'Three [DB2160 batteries](/product/dji-agras-db2160-intelligent-flight-battery) $12,240 and a [C12000](/product/dji-c12000-intelligent-power-supply) $2,380', '$35,000'],
+          ['[T100](/product/dji-agras-t100)', 'Three DB2160 batteries $12,240 and a C12000 $2,380', '$45,000']
+        ]
+      } },
+      `These totals assume the batteries and the charger are bought separately, so ask what your package already includes, because a package that includes them is cheaper. The T70P and T100 charge from a C12000 that rates 12,000 W on a three-phase supply but only 3,000 W on single-phase, so check your site power before you buy; our [T70P guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading) sets out the charging sums.`,
+      { h2: `Price per litre of tank` },
+      `Comparing aircraft price with tank size shows where the value sits.`,
+      { table: {
+        head: ['Model', 'Price (AUD)', 'Spray tank', 'Aircraft price per litre of tank'],
+        rows: [
+          ['[Agras T25P](/product/dji-agras-t25p)', '$17,530', '20 L', 'about $877'],
+          ['[Agras T50](/product/dji-agras-t50)', '$21,999', '40 L', 'about $550'],
+          ['[Agras T70P](/product/dji-agras-t70p)', '$20,380', '70 L', 'about $291'],
+          ['[Agras T100](/product/dji-agras-t100)', '$30,380', '100 L', 'about $304']
+        ]
+      } },
+      { img: { src: '/images/blog-spray-drone-guide-inline-2.webp', alt: `DJI Agras T70P and DJI Agras T100 spray drones`, caption: `The T70P and T100 are the large-tank aircraft in the range.` } },
+      `The T70P has the lowest price per litre of tank on our prices. Price per litre is not the only measure: a larger aircraft needs more charging power, a heavier case and more space to transport, and the T100's price per litre of Australian payload is about $406 (calculated from the 149.9 kg limit).`,
+      { h2: `Spreading, mist and lifting options` },
+      `All four aircraft can spread granular products as well as spray, and the options we list are priced separately. The [T50 Spreading System](/product/dji-agras-t50-spreading-system) is $2,200 and the [T50 Atomized Sprinkler Package](/product/dji-agras-t50-atomized-sprinkler-package) is $1,100. For the T100, the [150L Spreading System](/product/dji-150l-spreading-system) is $3,010, the [Mist Nozzle Package](/product/dji-agras-t100-mist-nozzle-package) is $2,170 and the [Lift System Kit](/product/dji-agras-t100-lift-system-kit) is $1,460. Ask us which configuration is in the package you want, because it changes the price. Our [spreader drone guide](/blog/buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared) covers seeding and fertiliser work in detail.`,
+      { img: { src: '/images/blog-spray-drone-guide-inline-3.webp', alt: `DJI Agras T50 Spreading System and DJI 150L Spreading System`, caption: `Spreading systems let the same aircraft apply seed and granular fertiliser.` } },
+      { h2: `Choose by the work you do` },
+      { ul: [
+        `**Small blocks, orchards and one operator:** the [T25P](/product/dji-agras-t25p). Read our [T25P price and setup guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone).`,
+        `**Tens of hectares a season:** the [T50](/product/dji-agras-t50). Read our [T50 price and setup guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading).`,
+        `**Large paddocks where price per litre matters:** the [T70P](/product/dji-agras-t70p). Read our [T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading).`,
+        `**Contractors, spreading and lifting as well as spraying:** the [T100](/product/dji-agras-t100). Read our [T100 price and setup guide](/blog/buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading).`
+      ] },
+      { h2: `What else you need before the first flight` },
+      `A spray drone is commercial flying with chemical application, which varies by state. You will need an operator with the right accreditation, an operator certificate where required, a chemical application licence for your state or territory and records of what you apply. DJI lists a wind limit of 6 m/s or less for the aircraft we compare, and the product label sets spray drift limits as well, so check the label and the forecast. The T70P and T100 are heavy aircraft by CASA's weight groups, so confirm your obligations on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules). Read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq). We can discuss training and set-up when you ask for a quote.`,
+      { h2: `Where spray drones are used` },
+      `Spray drones are used for [weed control](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost), crop and pasture spraying, [orchard and tree-crop work](/blog/buy-orchard-spray-drone-australia-dji-agras-t25p-t50-t70p-t100-tree-crop-prices) and spreading seed and fertiliser. Our [agricultural spraying drones guide](/blog/agricultural-spraying-drones-australia-guide) covers the wider picture, and a [multispectral drone](/blog/buy-multispectral-drone-camera-australia-mavic-3m-phantom-4-micasense-prices) shows where to treat before you spray.`,
+      { h2: `Spares and related equipment` },
+      `Browse every [spraying drone](/category/spraying-drones/spraying-drones) and [spraying accessory](/category/spraying-drones/spraying-drone-accessories) we supply, and the wider [spraying drones category](/category/spraying-drones). Our guide to [Agras batteries, chargers and power supplies](/blog/buy-dji-agras-batteries-chargers-power-supply-australia-t30-t40-t50-t100) explains how to size the charging side.`,
+      { h2: `Get a free quote on a spray drone` },
+      `Tell us the size of your property, the crops or weeds you treat, whether you also want to spread and what power supply you have on site, and we will recommend the right aircraft with the right batteries and charger and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below, and we will confirm what is in the package and the freight before you pay.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For a spray drone we recommend a written quote so we confirm the aircraft, batteries, charging and freight together: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `How much does a spray drone cost in Australia?`, a: `The DJI Agras aircraft we list run from $17,530 (T25P) to $30,380 (T100). With three batteries and a charger the kits total $29,410, $35,859, $35,000 and $45,000 for the T25P, T50, T70P and T100, if the batteries and charger are bought separately.` },
+        { q: `Which spray drone is best for 50 hectares?`, a: `At an example rate of 15 L/ha, 50 ha needs 750 L, which is 38 loads of the T25P, 19 of the T50, 11 of the T70P or about 10 of the T100 in Australia (calculated). Check the product label for your actual rate.` },
+        { q: `What do I need besides the drone?`, a: `Flight batteries, a charger, a water supply and mixing set-up, a trained operator, the right accreditation and a chemical application licence for your state or territory.` },
+        { q: `Can a spray drone spread seed and fertiliser?`, a: `Yes. DJI lists spreading tanks of 30 L (T25P), 75 L (T50), 100 L (T70P) and 150 L (T100), and the spreading systems are priced separately.` },
+        { q: `What wind can a spray drone work in?`, a: `DJI lists a maximum wind resistance of 6 m/s or less for the aircraft we compare. The product label sets drift limits as well, so check the label and the forecast.` }
+      ] }
+    ],
+    targetKeywords: ['spray drone', 'drone sprayer', 'spray drone for sale', 'spray drone price australia', 'best spray drone', 'spray drone for farm']
   }
 ];

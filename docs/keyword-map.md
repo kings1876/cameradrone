@@ -1021,3 +1021,15 @@ What this says about the plan:
 - "thermal camera" (6,600), "thermal imaging camera" (2,900) and "thermal drone" (1,300) are the biggest thermal terms; the enterprise model terms are small: dji matrice 4t 880, dji agras t100 480, dji matrice 30t 140.
 - No dedicated post targets "dji mini 3 fly more combo" (1,900) and no post targets "spray drone / drone sprayer" (880 each) as a primary keyword.
 - Enterprise terms are small but valuable: thermal imager costs about 6.17 per click and roof inspection drone about 8.47 (OpenSEO CPC, currency as reported by OpenSEO).
+
+
+## DJI Mini 3 Fly More Combo and spray drone buying guides (26 Nov 2026)
+
+Two transactional guides chosen from the OpenSEO volumes above: "dji mini 3 fly more combo" (1,900 a month, no post owned it) and "spray drone" (880 a month). Both are `intent: transactional` with the enquiry panel, quote and cart buttons, a cover and three inline images.
+
+**Keyword ownership change:** "spray drone" and "drone sprayer" were supporting keywords of the agricultural spraying guide. They now belong to the new spray drone buying guide, and the agricultural guide keeps "agricultural drones", "crop spraying drone" and "multispectral drone". The older guide links to the new one.
+
+| Post | Primary / supporting keywords (monthly AU volume where measured) |
+|---|---|
+| /blog/buy-dji-mini-3-fly-more-combo-australia-price-dji-rc-battery-sums-vs-mini-4-pro | dji mini 3 fly more combo (1,900); dji mini 3 fly more combo price; dji mini 3 australia; dji mini 3 dji rc; mini 3 spare battery; dji mini 3 vs mini 4 pro |
+| /blog/buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost | spray drone (880); drone sprayer (880); spray drone for sale; spray drone price australia; best spray drone; spray drone for farm |
