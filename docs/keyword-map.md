@@ -966,7 +966,7 @@ Two transactional guides, both `intent: transactional` so they end with the enqu
 
 ## Measured search volumes, Australia (OpenSEO, 26 Nov 2026)
 
-One OpenSEO lookup of 62 keywords (primary keywords of all 52 posts plus model and price variants), Australian market, English, cost 21 credits (325 to 304). Monthly Google searches. KD is OpenSEO keyword difficulty (0 to 100); it reads 0 for most of these, so treat it as "low", not "zero". A blank or "not returned" means OpenSEO has no volume for the keyword, which is not the same as zero. Search volumes are Google Ads grouped volumes and can merge close variants.
+One OpenSEO lookup of 61 keywords (primary keywords of all 52 posts plus model and price variants; 50 returned data), Australian market, English, cost 21 credits (325 to 304). Monthly Google searches. KD is OpenSEO keyword difficulty (0 to 100); it reads 0 for most of these, so treat it as "low", not "zero". A blank or "not returned" means OpenSEO has no volume for the keyword, which is not the same as zero (it usually means a very low volume). Search volumes are Google Ads grouped volumes and can merge close variants.
 
 | Keyword | Monthly searches | KD | Intent |
 |---|---|---|---|
@@ -1014,7 +1014,7 @@ One OpenSEO lookup of 62 keywords (primary keywords of all 52 posts plus model a
 | livox lidar | 20 | 50 | transactional |
 | aerial seeding drone, dji agras t30 battery, dji mavic fly more, power line inspection drone, solar inspection drone | 10 each | n/a to 0 | mixed |
 
-Not returned by OpenSEO (no volume data): livox avia 2, livox avia 2 price, livox mid-360, dji agras t70p, dji agras t70p price, orchard spray drone, drone for livestock, zenmuse h30t, air 3s, dji mini... and the remaining keywords of the 62 not listed above.
+Not returned by OpenSEO (no volume data, 11 of the 61): livox avia 2, livox avia 2 price, livox mid-360, dji agras t70p, dji agras t70p price, dji agras t25p, orchard spray drone, drone for livestock, zenmuse h30t, air 3s, drone heat camera.
 
 What this says about the plan:
 - Consumer models carry the demand: dji neo 2 (14,800), dji flip (4,400), dji mini 4k drone (3,600), dji avata 360 (2,900) and dji mini 3 fly more combo (1,900) are 4 to 30 times the demand of any enterprise model keyword.
