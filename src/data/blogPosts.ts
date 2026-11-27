@@ -476,7 +476,7 @@ export const BLOG_POSTS: BlogPost[] = [
           ['[Air 3S Fly More Combo](/product/dji-air-3s-fly-more-combo-dji-rc-n3)', '$2,129', '$2,429', '$300']
         ]
       } },
-      'In every case the RC 2 costs $170 to $300 more inside the kit, against $384 more when you buy the two controllers separately. If you want a screen controller, choosing it with the aircraft is the cheaper route. Check each product page, because the contents of the two versions of a kit should otherwise match.',
+      'In every case the RC 2 costs $170 to $300 more inside the kit, against $384 more when you buy the two controllers separately. If you want a screen controller, choosing it with the aircraft is the cheaper route. Our [DJI Lito X1 price guide](/blog/buy-dji-lito-x1-vs-lito-1-australia-price-fly-more-combos-rc-n3-rc-2-batteries) sets out every Lito package with each controller. Check each product page, because the contents of the two versions of a kit should otherwise match.',
       { h2: 'DJI controller prices in Australia' },
       'Prices for controllers sold on their own. All prices are in Australian dollars.',
       { table: {
@@ -1584,7 +1584,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'For repeat inspections, the [DJI Dock 3](/product/dji-dock-3) launches, lands and recharges an aircraft without an operator on site. It works with the Matrice 4D series, and the [Dock 3 Survey Package](/product/dji-dock-3-survey-package) and [Thermal Package](/product/dji-dock-3-thermal-package) bundle the dock for mapping and thermal work. See [DJI Dock](/category/enterprise-drones/dji-dock) and the older [DJI Dock 2](/product/dji-dock-2).',
       'Plan the site before you buy a dock. DJI lists the Dock 3 at 55 kg without the aircraft and a 10 km maximum operating radius. The dock is rated IP56 and its aircraft IP55, and the dock operates from -30 to 50°C, with a landing wind limit of 12 m/s. It needs mains power (100 to 240 V AC, up to 800 W) and a network connection: Ethernet, or 4G with the DJI Cellular Dongle 2, which is sold separately. DJI lists 27 minutes to charge the aircraft from 15% to 95%.',
       { h2: 'Payloads, batteries and accessories' },
-      'Enterprise aircraft are only as useful as their kit. Browse [enterprise accessories](/category/enterprise-drones/enterprise-accessories), [Zenmuse cameras](/category/cameras-sensors/dji-zenmuse-cameras), [LiDAR sensors](/category/cameras-sensors/lidar-sensors) and [thermal cameras](/category/cameras-sensors/thermal-cameras). Read our [thermal drones guide](/blog/thermal-drones-australia-guide) and the [LiDAR vs photogrammetry guide](/blog/lidar-vs-photogrammetry-drone-mapping-australia) to choose a payload. For specific inspection work, see our guides to [roof and building inspection](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices) and [power line inspection](/blog/buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices). For the thermal Matrice on its own, see our [DJI Matrice 4T price and setup guide](/blog/buy-dji-matrice-4t-australia-price-plus-combo-thermal-enterprise-drone-setup-cost), and for bare LiDAR sensors see our [Livox LiDAR buying guide](/blog/buy-livox-lidar-australia-avia-2-vs-avia-tele-15-mid-70-mid-360s-prices).',
+      'Enterprise aircraft are only as useful as their kit. Browse [enterprise accessories](/category/enterprise-drones/enterprise-accessories), [Zenmuse cameras](/category/cameras-sensors/dji-zenmuse-cameras), [LiDAR sensors](/category/cameras-sensors/lidar-sensors) and [thermal cameras](/category/cameras-sensors/thermal-cameras). Read our [thermal drones guide](/blog/thermal-drones-australia-guide) and the [LiDAR vs photogrammetry guide](/blog/lidar-vs-photogrammetry-drone-mapping-australia) to choose a payload. For specific inspection work, see our guides to [roof and building inspection](/blog/buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices) and [power line inspection](/blog/buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices). For the thermal Matrice on its own, see our [DJI Matrice 4T price and setup guide](/blog/buy-dji-matrice-4t-australia-price-plus-combo-thermal-enterprise-drone-setup-cost), and for bare LiDAR sensors see our [Livox LiDAR buying guide](/blog/buy-livox-lidar-australia-avia-2-vs-avia-tele-15-mid-70-mid-360s-prices). For heavy cargo, see our [DJI FlyCart delivery drone guide](/blog/buy-dji-flycart-100-vs-flycart-30-australia-price-delivery-drone-payload-150-kg-limit).',
       { h2: 'Which aircraft for which job' },
       { table: {
         head: ['Job', 'Start with', 'Why'],
@@ -2169,7 +2169,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { h2: `DJI Mini 3 with the DJI RC: the no-phone option` },
       `The [DJI Mini 3 with the DJI RC](/product/dji-mini-3-dji-rc) at $659 is the same aircraft with a screen controller included. The built-in screen means there is no phone to mount, no app to open on your own device and a quicker set-up when the light is changing. It is the best choice for Mini 3 buyers who want a screen controller from the start, and it pairs naturally with the Fly More Combo if you plan to fly often.`,
       { h2: `DJI Mini 3 Fly More Combo: the travel kit` },
-      `The [DJI Mini 3 Fly More Combo with the DJI RC](/product/dji-mini-3-fly-more-combo-dji-rc) at $839 adds extra Intelligent Flight Batteries, a charging hub and a shoulder bag to the screen-controller package. The extra batteries make the compact Mini 3 practical for a full day of travel flying, and the bag keeps everything together in a small footprint. It is ideal for travellers who want spare power and a screen controller in a single, light kit. Our [DJI Mini 3 Fly More Combo price guide](/blog/buy-dji-mini-3-fly-more-combo-australia-price-dji-rc-battery-sums-vs-mini-4-pro) sets out the battery sums, flight times and how the Mini 3 compares with the Mini 4 Pro.`,
+      `The [DJI Mini 3 Fly More Combo with the DJI RC](/product/dji-mini-3-fly-more-combo-dji-rc) at $839 adds extra Intelligent Flight Batteries, a charging hub and a shoulder bag to the screen-controller package. The extra batteries make the compact Mini 3 practical for a full day of travel flying, and the bag keeps everything together in a small footprint. It is ideal for travellers who want spare power and a screen controller in a single, light kit. Our [DJI Mini 3 Fly More Combo price guide](/blog/buy-dji-mini-3-fly-more-combo-australia-price-dji-rc-battery-sums-vs-mini-4-pro) sets out the battery sums, flight times and how the Mini 3 compares with the Mini 4 Pro, and our [DJI Lito X1 price guide](/blog/buy-dji-lito-x1-vs-lito-1-australia-price-fly-more-combos-rc-n3-rc-2-batteries) covers the newer Lito line.`,
       { h2: `DJI Mini 4K vs DJI Mini 3: which should you buy?` },
       `The two aircraft are close enough that the right choice comes down to your budget and how much you care about the camera. The table sets out what we can tell you about each.`,
       { table: {
@@ -5319,7 +5319,7 @@ export const BLOG_POSTS: BlogPost[] = [
           ['[Agras T100](/product/dji-agras-t100)', '$30,380', '100 L', 'about $304', '74.9 kg, about $406 per litre']
         ]
       } },
-      `On tank volume the two cost about the same per litre. On the Australian payload the T100 costs about $406 per litre against $291, so the extra $10,000 buys about 5 kg more liquid per load (calculated). It also buys a wider 5 to 13 m spray width against 4 to 11 m, a 150 L spreading tank against 100 L, a 100 kg lifting capacity against 65 kg and a laser radar. Choose the T100 if you spread or lift as well as spray, or want the wider swath. Choose the [T70P](/product/dji-agras-t70p) if spraying is the job and price matters; our [T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading) covers it. The [T50 guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading) and [T25P guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) cover the smaller aircraft, and our [spray drone buying guide](/blog/buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost) compares all four Agras sizes.`,
+      `On tank volume the two cost about the same per litre. On the Australian payload the T100 costs about $406 per litre against $291, so the extra $10,000 buys about 5 kg more liquid per load (calculated). It also buys a wider 5 to 13 m spray width against 4 to 11 m, a 150 L spreading tank against 100 L, a 100 kg lifting capacity against 65 kg and a laser radar. Choose the T100 if you spread or lift as well as spray, or want the wider swath. Choose the [T70P](/product/dji-agras-t70p) if spraying is the job and price matters; our [T70P price and setup guide](/blog/buy-dji-agras-t70p-australia-price-setup-cost-spray-drone-batteries-charger-spreading) covers it. The [T50 guide](/blog/buy-dji-agras-t50-australia-price-setup-cost-spray-drone-batteries-spreading) and [T25P guide](/blog/buy-dji-agras-t25p-australia-price-setup-cost-small-farm-spray-drone) cover the smaller aircraft, and our [spray drone buying guide](/blog/buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost) compares all four Agras sizes. For moving cargo instead of spraying, see our [DJI FlyCart delivery drone guide](/blog/buy-dji-flycart-100-vs-flycart-30-australia-price-delivery-drone-payload-150-kg-limit), since the FlyCart 100 has the same listed dimensions.`,
       { h2: `Where the T100 is used` },
       `The T100 suits large paddocks, contractors who treat many properties and operations that also spread seed or fertiliser. See our guides to [drone weed spraying](/blog/buy-drone-for-weed-spraying-australia-dji-agras-weed-control-setup-cost), [orchard spray drones](/blog/buy-orchard-spray-drone-australia-dji-agras-t25p-t50-t70p-t100-tree-crop-prices) and the wider [agricultural spraying drones guide](/blog/agricultural-spraying-drones-australia-guide).`,
       { h2: `Rules, licences and training` },
@@ -5553,7 +5553,7 @@ export const BLOG_POSTS: BlogPost[] = [
           ['[Mini 4 Pro](/product/dji-mini-4-pro-fly-more-combo)', '$1,449', '34 min (45 with Plus)', 'Omnidirectional', '4K up to 100 fps']
         ]
       } },
-      `The Mini 4K Fly More Combo is $220 less than the Mini 3 combo (calculated); our [Mini 4K vs Mini 3 guide](/blog/buy-dji-mini-4k-vs-mini-3-australia-prices) compares them in full. The Mini 4 Pro costs $610 more (calculated) and adds omnidirectional obstacle sensing and 4K at up to 100 fps, though DJI rates its flight time lower than the Mini 3's; see our [Mini 4 Pro guide](/blog/buy-dji-mini-4-pro-australia-combos-batteries-accessories). For the newest model see the [Mini 5 Pro guide](/blog/buy-dji-mini-5-pro-australia-combos-prices). The Mini 3 suits a first drone or a travel drone when you want a large 1/1.3-inch sensor, long rated flight time and a low price.`,
+      `The Mini 4K Fly More Combo is $220 less than the Mini 3 combo (calculated); our [Mini 4K vs Mini 3 guide](/blog/buy-dji-mini-4k-vs-mini-3-australia-prices) compares them in full. The Mini 4 Pro costs $610 more (calculated) and adds omnidirectional obstacle sensing and 4K at up to 100 fps, though DJI rates its flight time lower than the Mini 3's; see our [Mini 4 Pro guide](/blog/buy-dji-mini-4-pro-australia-combos-batteries-accessories). For the newest model see the [Mini 5 Pro guide](/blog/buy-dji-mini-5-pro-australia-combos-prices), and for the Lito line that sits between the Mini 3 and Mini 4 Pro on price see our [DJI Lito X1 guide](/blog/buy-dji-lito-x1-vs-lito-1-australia-price-fly-more-combos-rc-n3-rc-2-batteries). The Mini 3 suits a first drone or a travel drone when you want a large 1/1.3-inch sensor, long rated flight time and a low price.`,
       { h2: `Limits to know before you buy` },
       { ul: [
         `**Obstacle sensing:** the Mini 3 senses downward only, so it does not detect obstacles ahead, behind or beside it. Fly in open areas and keep it in sight.`,
@@ -5657,7 +5657,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { img: { src: '/images/blog-spray-drone-guide-inline-2.webp', alt: `DJI Agras T70P and DJI Agras T100 spray drones`, caption: `The T70P and T100 are the large-tank aircraft in the range.` } },
       `The T70P has the lowest price per litre of tank on our prices. Price per litre is not the only measure: a larger aircraft needs more charging power, a heavier case and more space to transport, and the T100's price per litre of Australian payload is about $406 (calculated from the 149.9 kg limit).`,
       { h2: `Spreading, mist and lifting options` },
-      `All four aircraft can spread granular products as well as spray, and the options we list are priced separately. The [T50 Spreading System](/product/dji-agras-t50-spreading-system) is $2,200 and the [T50 Atomized Sprinkler Package](/product/dji-agras-t50-atomized-sprinkler-package) is $1,100. For the T100, the [150L Spreading System](/product/dji-150l-spreading-system) is $3,010, the [Mist Nozzle Package](/product/dji-agras-t100-mist-nozzle-package) is $2,170 and the [Lift System Kit](/product/dji-agras-t100-lift-system-kit) is $1,460. Ask us which configuration is in the package you want, because it changes the price. Our [spreader drone guide](/blog/buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared) covers seeding and fertiliser work in detail.`,
+      `All four aircraft can spread granular products as well as spray, and the options we list are priced separately. The [T50 Spreading System](/product/dji-agras-t50-spreading-system) is $2,200 and the [T50 Atomized Sprinkler Package](/product/dji-agras-t50-atomized-sprinkler-package) is $1,100. For the T100, the [150L Spreading System](/product/dji-150l-spreading-system) is $3,010, the [Mist Nozzle Package](/product/dji-agras-t100-mist-nozzle-package) is $2,170 and the [Lift System Kit](/product/dji-agras-t100-lift-system-kit) is $1,460. Ask us which configuration is in the package you want, because it changes the price. Our [spreader drone guide](/blog/buy-dji-agras-spreader-drone-australia-seeding-fertiliser-spreading-systems-compared) covers seeding and fertiliser work in detail, and our [DJI FlyCart guide](/blog/buy-dji-flycart-100-vs-flycart-30-australia-price-delivery-drone-payload-150-kg-limit) covers moving cargo instead of spraying.`,
       { img: { src: '/images/blog-spray-drone-guide-inline-3.webp', alt: `DJI Agras T50 Spreading System and DJI 150L Spreading System`, caption: `Spreading systems let the same aircraft apply seed and granular fertiliser.` } },
       { h2: `Choose by the work you do` },
       { ul: [
@@ -5685,5 +5685,229 @@ export const BLOG_POSTS: BlogPost[] = [
       ] }
     ],
     targetKeywords: ['spray drone', 'drone sprayer', 'spray drone for sale', 'spray drone price australia', 'best spray drone', 'spray drone for farm']
+  },
+  {
+    id: 'post-55',
+    slug: 'buy-dji-lito-x1-vs-lito-1-australia-price-fly-more-combos-rc-n3-rc-2-batteries',
+    intent: 'transactional',
+    title: `Buy a DJI Lito X1 or Lito 1 in Australia: Prices, Fly More Combos and Which to Choose`,
+    metaTitle: `DJI Lito X1 Price Australia: Combos and Lito 1 Compared`,
+    metaDescription: `DJI Lito X1 price in Australia from $619, Lito 1 from $539. Compare the Fly More Combos, spare batteries, the Plus battery weight note and the Mini 4 Pro.`,
+    subtitle: `What each Lito package costs, what the X1 adds over the Lito 1, how the spare batteries add up and how the Lito X1 compares with the Mini 3 and Mini 4 Pro.`,
+    date: 'November 2026',
+    dateISO: '2026-11-28',
+    modifiedISO: '2026-11-28',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['Camera Drones', 'Buying Guide', 'DJI Lito'],
+    excerpt: `The DJI Lito X1 starts at $619 and the Lito 1 at $539. We set out every Lito package and battery price, DJI's published specifications and how the Lito X1 compares with the Mini 3 and Mini 4 Pro.`,
+    image: '/images/blog-lito-guide.webp',
+    imageAlt: `DJI Lito X1, DJI Lito X1 Fly More Combo Plus and DJI Lito 1 Fly More Combo`,
+    relatedProducts: ['dji-lito-x1', 'dji-lito-x1-fly-more-combo-dji-rc-n3', 'dji-lito-1', 'dji-lito-series-intelligent-flight-battery-plus'],
+    content: [
+      `The DJI Lito X1 is listed from $619 in Australian dollars, and the Lito 1 from $539, with free express shipping to any Australian address. If you have searched for a DJI Lito X1 price in Australia, the useful answer is more than the sticker price: it is which of the six Lito packages to buy, what the X1 adds over the Lito 1, how the spare batteries add up and how the Lito compares with the Mini range. This guide sets out the prices, DJI's published specifications and the sums, including one detail about the Plus battery that changes the aircraft's weight.`,
+      { h2: `DJI Lito X1 at a glance` },
+      `These are the figures DJI publishes on its [Lito X1 specification page](https://www.dji.com/global/lito-x1/specs).`,
+      { table: {
+        head: ['Specification', 'DJI figure'],
+        rows: [
+          ['Takeoff weight', 'About 249 g with the standard battery; about 340 g maximum with propeller guards, battery, ND filter and microSD card'],
+          ['Flight time', 'Up to 36 min with the standard battery, up to 52 min with the Plus battery (rated, in a wind tunnel); typical 23 min and 37 min'],
+          ['Camera', '1/1.3-inch CMOS, 48 MP, 24 mm equivalent lens, f/1.7, 82.1° field of view'],
+          ['Video', '4K up to 60 fps (100 fps slow motion), D-Log M 10-bit, vertical shooting, up to 130 Mbps'],
+          ['Speed and wind', '18 m/s in Sport mode, 12 m/s in Normal mode; wind resistance 10.7 m/s'],
+          ['Obstacle sensing', 'Omnidirectional monocular vision, forward-facing LiDAR (0.5 to 36 m) and a bottom infrared sensor'],
+          ['Storage', '42 GB internal'],
+          ['Video link', 'DJI O4, up to 15 km (IC) or 8 km (CE, SRRC, MIC), 1080p/60 live view'],
+          ['Battery', '2,788 mAh, about 74 g (Plus battery: 4,680 mAh, about 118 g)'],
+          ['Operating temperature', '-10 °C to 40 °C']
+        ]
+      } },
+      { img: { src: '/images/blog-lito-guide-inline-1.webp', alt: `DJI Lito X1 Fly More Combo with the RC-N3 controller, batteries and shoulder bag`, caption: `The Lito X1 Fly More Combo pictured with the RC-N3 controller, three batteries and a shoulder bag.` } },
+      { h2: `Lito X1 vs Lito 1: what the extra $80 buys` },
+      `The two aircraft share the same weight class, flight time, speed and wind rating. The differences are the camera, the sensing and the storage, and they cost $80 on the aircraft and $120 in the Fly More Combo (both calculated).`,
+      { table: {
+        head: ['Item', 'DJI Lito 1', 'DJI Lito X1'],
+        rows: [
+          ['Price, aircraft (AUD)', '[$539](/product/dji-lito-1)', '[$619](/product/dji-lito-x1)'],
+          ['Price, Fly More Combo with RC-N3 (AUD)', '[$779](/product/dji-lito-1-fly-more-combo-dji-rc-n3)', '[$899](/product/dji-lito-x1-fly-more-combo-dji-rc-n3)'],
+          ['Camera sensor', '1/2-inch CMOS, 48 MP', '1/1.3-inch CMOS, 48 MP'],
+          ['Lens', '26.2 mm equivalent, f/1.8, 79°', '24 mm equivalent, f/1.7, 82.1°'],
+          ['Closest focus', '4 m', '1 m'],
+          ['Obstacle sensing', 'Omnidirectional monocular vision and a bottom infrared sensor', 'The same, plus forward-facing LiDAR'],
+          ['Internal storage', 'None', '42 GB'],
+          ['Rated flight time', '36 min (52 min with Plus battery)', '36 min (52 min with Plus battery)'],
+          ['Standard battery', '2,590 mAh, about 79 g, [$79](/product/dji-lito-1-intelligent-flight-battery)', '2,788 mAh, about 74 g, [$99](/product/dji-lito-x1-intelligent-flight-battery)']
+        ]
+      } },
+      `The X1 has the larger sensor and the brighter lens, which matters at dusk and indoors, and the forward LiDAR, which helps it detect obstacles ahead. The Lito 1 has no internal storage, so it needs a microSD card. Choose the [Lito 1](/product/dji-lito-1) if budget is the limit and you fly in good light. Choose the [Lito X1](/product/dji-lito-x1) if you want the better camera and forward sensing for $80 more.`,
+      { h2: `DJI Lito prices and Fly More Combos` },
+      `These are the listed prices of every Lito package.`,
+      { table: {
+        head: ['Package', 'Price (AUD)', 'Notes'],
+        rows: [
+          ['[DJI Lito 1](/product/dji-lito-1)', '$539', 'Aircraft'],
+          ['[DJI Lito 1 Fly More Combo (RC-N3)](/product/dji-lito-1-fly-more-combo-dji-rc-n3)', '$779', 'Fly More Combo with the RC-N3 controller'],
+          ['[DJI Lito X1](/product/dji-lito-x1)', '$619', 'Aircraft'],
+          ['[DJI Lito X1 Fly More Combo (RC-N3)](/product/dji-lito-x1-fly-more-combo-dji-rc-n3)', '$899', 'Fly More Combo with the RC-N3 controller'],
+          ['[DJI Lito X1 Fly More Combo (RC 2)](/product/dji-lito-x1-fly-more-combo-dji-rc-2)', '$1,069', 'Fly More Combo with the RC 2 screen controller'],
+          ['[DJI Lito X1 Fly More Combo Plus (RC 2)](/product/dji-lito-x1-fly-more-combo-plus-dji-rc-2)', '$1,199', 'The Plus combo, which DJI pairs with the Plus battery']
+        ]
+      } },
+      `Choosing the RC 2 screen controller adds $170 to the X1 combo, and the Plus combo adds another $130, so $300 more than the RC-N3 combo in total (all calculated). The listing photos show three batteries and a shoulder bag with each Fly More Combo and a charging hub with the X1 combos, and we confirm the exact contents when you ask for a quote. Our [controllers guide](/blog/dji-controllers-explained-rc-n3-rc-2-rc-pro) explains whether the RC 2 is worth it.`,
+      { img: { src: '/images/blog-lito-guide-inline-3.webp', alt: `DJI Lito X1 Fly More Combo with RC 2 and DJI Lito X1 Fly More Combo Plus with RC 2`, caption: `The RC 2 combos add a screen controller; the Plus combo adds the larger battery.` } },
+      { h2: `Spare batteries: standard or Plus` },
+      `Flight time is what small-drone buyers run out of first. This table compares the batteries on DJI's rated figures and our prices.`,
+      { table: {
+        head: ['Battery', 'Price (AUD)', 'Rated flight time', 'Price per rated minute (calculated)'],
+        rows: [
+          ['[Lito 1 battery](/product/dji-lito-1-intelligent-flight-battery)', '$79', '36 min', 'about $2.19'],
+          ['[Lito X1 battery](/product/dji-lito-x1-intelligent-flight-battery)', '$99', '36 min', 'about $2.75'],
+          ['[Lito Series Plus battery](/product/dji-lito-series-intelligent-flight-battery-plus)', '$159', '52 min', 'about $3.06']
+        ]
+      } },
+      { img: { src: '/images/blog-lito-guide-inline-2.webp', alt: `DJI Lito X1 Intelligent Flight Battery and DJI Lito Series Intelligent Flight Battery Plus`, caption: `The Plus battery adds 16 rated minutes but also weight.` } },
+      `The Plus battery costs $60 more than the X1 battery for 16 more rated minutes, which is $3.75 per added minute (calculated). It also changes the aircraft's weight class: DJI says the aircraft weighs more than 249 g with the Plus battery, and in the EU and UK the Plus battery is only compliant with the Lito X1 Fly More Combo Plus. In Australia, check what that means for you on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules) before choosing it. The [Lito X1 charging hub](/product/dji-lito-x1-charging-hub) and the [Lito 1 charging hub](/product/dji-lito-1-charging-hub) are $69 each. Our guide to [batteries, chargers and propellers](/blog/dji-drone-battery-charger-propeller-guide) explains how to plan a day of flying.`,
+      { h2: `Lito X1 vs Mini 3 and Mini 4 Pro` },
+      `The Lito sits between the cheapest Minis and the Mini 4 Pro. This table uses the Fly More Combo prices we list and DJI's published figures.`,
+      { table: {
+        head: ['Aircraft', 'Fly More Combo (AUD)', 'Rated flight time', 'Obstacle sensing', '4K video'],
+        rows: [
+          ['[Mini 3](/product/dji-mini-3-fly-more-combo-dji-rc)', '$839', '38 min (51 with Plus)', 'Downward only', 'Up to 30 fps'],
+          ['[Lito X1](/product/dji-lito-x1-fly-more-combo-dji-rc-n3)', '$899 with RC-N3, $1,069 with RC 2', '36 min (52 with Plus)', 'Omnidirectional monocular vision plus forward LiDAR', 'Up to 100 fps (slow motion)'],
+          ['[Mini 4 Pro](/product/dji-mini-4-pro-fly-more-combo)', '$1,449', '34 min (45 with Plus)', 'Omnidirectional binocular vision plus 3D infrared', 'Up to 100 fps (slow motion)']
+        ]
+      } },
+      `The Lito X1 combo with the RC-N3 is $60 more than the Mini 3 Fly More Combo (calculated), and it adds omnidirectional sensing and 4K slow motion at 100 fps, where the Mini 3 tops out at 30 fps. The Mini 4 Pro combo is $380 more than the Lito X1 combo with the RC 2 and $550 more than the one with the RC-N3 (both calculated). See our guides to the [Mini 3 Fly More Combo](/blog/buy-dji-mini-3-fly-more-combo-australia-price-dji-rc-battery-sums-vs-mini-4-pro), the [Mini 4K vs Mini 3](/blog/buy-dji-mini-4k-vs-mini-3-australia-prices), the [Mini 4 Pro](/blog/buy-dji-mini-4-pro-australia-combos-batteries-accessories), the [Mini 5 Pro](/blog/buy-dji-mini-5-pro-australia-combos-prices) and the [Flip](/blog/buy-dji-flip-australia-combos-prices-vs-neo-2-mini-4-pro).`,
+      { h2: `Limits to know before you buy` },
+      { ul: [
+        `**Wind:** DJI lists 10.7 m/s as the maximum wind resistance, so check the forecast.`,
+        `**Weight with accessories:** the 340 g maximum takeoff weight is with propeller guards, an ND filter and a card, and the Plus battery takes the aircraft above 249 g.`,
+        `**Storage on the Lito 1:** it has no internal storage, so budget for a microSD card.`,
+        `**Rated flight times:** these are wind tunnel figures, and DJI's typical flight times are shorter: 23 minutes with the standard battery and 37 minutes with the Plus.`
+      ] },
+      { h2: `Rules, registration and where to fly` },
+      `The standard CASA conditions are flying in daylight, within visual line of sight, below 120 m and at least 30 m from people. Check what applies to you on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq).`,
+      { h2: `Which Lito should you buy?` },
+      { ul: [
+        `**The lowest price:** the [Lito 1](/product/dji-lito-1) at $539.`,
+        `**A better camera and forward sensing:** the [Lito X1](/product/dji-lito-x1) at $619.`,
+        `**Travel and full-day flying:** the [Lito X1 Fly More Combo](/product/dji-lito-x1-fly-more-combo-dji-rc-n3) at $899.`,
+        `**A screen controller:** the [Fly More Combo with RC 2](/product/dji-lito-x1-fly-more-combo-dji-rc-2) at $1,069.`,
+        `**More flight time:** the [Plus combo](/product/dji-lito-x1-fly-more-combo-plus-dji-rc-2) at $1,199, once you have checked the weight note.`
+      ] },
+      { h2: `Spares and related equipment` },
+      `Browse every [DJI Lito aircraft](/category/camera-drones/dji-lito) we supply, plus [batteries](/category/batteries) and [propellers](/product/dji-mini-3-lito-series-propellers). Our [best drones for beginners guide](/blog/best-drones-for-beginners-australia) and [best DJI drone buyers guide](/blog/best-drone-for-sale-australia-2026-buyers-guide) compare the whole range.`,
+      { h2: `Get a free quote on a DJI Lito` },
+      `Tell us which package you want, whether you want a Plus battery and where you live, and we will send a written quote and confirm the contents, availability and delivery before you pay. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars, and Western Australian addresses typically arrive in 2 to 4 business days. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. You can place an order through the [order form](/order), request a quote on the [quote page](/quote) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `How much is the DJI Lito X1 in Australia?`, a: `The Lito X1 aircraft is $619, the Fly More Combo with the RC-N3 is $899, with the RC 2 it is $1,069 and the Plus combo with the RC 2 is $1,199. Shipping is free.` },
+        { q: `What is the difference between the DJI Lito 1 and Lito X1?`, a: `The X1 has a 1/1.3-inch sensor with an f/1.7 lens against 1/2-inch and f/1.8, adds forward-facing LiDAR and has 42 GB of internal storage, while the Lito 1 has none. Both are rated for 36 minutes of flight. The X1 costs $80 more.` },
+        { q: `How long does the DJI Lito fly?`, a: `DJI rates it at up to 36 minutes with the standard battery and 52 minutes with the Plus battery, in a wind tunnel. Typical flights are 23 and 37 minutes.` },
+        { q: `Is the DJI Lito under 249 g?`, a: `DJI lists about 249 g with the standard battery. With the Plus battery it weighs more than 249 g, so check the CASA rules before using it.` },
+        { q: `Is the DJI Lito X1 better than the Mini 3?`, a: `The Lito X1 combo with the RC-N3 is $60 more than the Mini 3 Fly More Combo and adds omnidirectional sensing and forward LiDAR, where the Mini 3 senses downward only. DJI rates the Mini 3 slightly longer on the standard battery at 38 minutes against 36.` }
+      ] }
+    ],
+    targetKeywords: ['dji lito x1', 'dji lito', 'dji lito 1', 'dji lito x1 fly more combo', 'dji lito x1 price', 'dji lito x1 vs mini 4 pro']
+  },
+  {
+    id: 'post-56',
+    slug: 'buy-dji-flycart-100-vs-flycart-30-australia-price-delivery-drone-payload-150-kg-limit',
+    intent: 'transactional',
+    title: `Buy a DJI FlyCart Delivery Drone in Australia: FlyCart 100 vs FlyCart 30 Prices and Payload`,
+    metaTitle: `DJI FlyCart 100 vs FlyCart 30: Price and Payload Guide`,
+    metaDescription: `DJI FlyCart 30 is $26,830 and the FlyCart 100 Basic Package $53,130. Compare payload, range, winch options and DJI's 150 kg Australian limit, with free quotes.`,
+    subtitle: `What each delivery drone costs, what each can carry, why DJI restricts the FlyCart 100 to 150 kg in Australia and which one suits your site.`,
+    date: 'November 2026',
+    dateISO: '2026-11-28',
+    modifiedISO: '2026-11-28',
+    readTime: '10 min read',
+    author: 'Flight Operations Team',
+    tags: ['Enterprise Drones', 'Buying Guide', 'Delivery Drones'],
+    excerpt: `The DJI FlyCart 30 is $26,830 and the FlyCart 100 Basic Package is $53,130. We set out DJI's published payload and range figures, the Australian weight limit and what each drone suits.`,
+    image: '/images/blog-flycart-guide.webp',
+    imageAlt: `DJI FlyCart 30, DJI FlyCart 100 Basic Package and DJI Dual Battery Lifting System`,
+    relatedProducts: ['dji-flycart-30', 'dji-flycart-100-basic-package', 'dji-dual-battery-lifting-system', 'dji-agras-db2160-intelligent-flight-battery'],
+    content: [
+      `A delivery drone moves heavy loads across ground a vehicle cannot cross quickly: a gully, a river, a rough paddock or a remote site. We supply two from DJI, the FlyCart 30 at $26,830 and the FlyCart 100 Basic Package at $53,130. If you have searched for a delivery drone or a DJI FlyCart price in Australia, the useful answer is how much each can actually carry and how far, and DJI's page for the FlyCart 100 carries a note that matters here: its takeoff weight is restricted to 150 kg in Australia. This guide sets out the prices, DJI's published figures, what that limit leaves for cargo and which drone suits which job.`,
+      { h2: `DJI FlyCart 30 vs FlyCart 100 at a glance` },
+      `These are the figures DJI publishes on its [FlyCart 30](https://www.dji.com/global/flycart-30/specs) and [FlyCart 100](https://www.dji.com/global/flycart-100/specs) specification pages.`,
+      { table: {
+        head: ['Specification', 'DJI FlyCart 30', 'DJI FlyCart 100'],
+        rows: [
+          ['Price (AUD)', '[$26,830](/product/dji-flycart-30)', '[$53,130](/product/dji-flycart-100-basic-package) (Basic Package)'],
+          ['Weight without payload', '42.5 kg without batteries, 65 kg with two DB2000 batteries', '55.2 kg with the lifting system, 60.2 kg with the winch (excluding batteries, battery compartment, cable and hook)'],
+          ['Maximum takeoff weight', '95 kg', '170 kg, restricted to 150 kg in Australia'],
+          ['Batteries', 'Two DB2000: 38,000 mAh, 52.22 V, 1,984.4 Wh and about 11.3 kg each', 'DB2160: 41 Ah, 52 V, 14.7 kg; dual or single battery configuration'],
+          ['Flight time with a load', '18 min with 30 kg (dual battery)', '14 min at 149.9 kg takeoff weight (dual battery)'],
+          ['Range with a load', '16 km with 30 kg (dual battery); 28 km empty', '12 km at 149.9 kg takeoff weight (dual battery)'],
+          ['Cargo options', 'Cargo case up to 40 kg; optional winch with a 20 m cable', 'Winch with a 0 to 30 m cable, or the dual-battery lifting system with a 10 m cable'],
+          ['Parachute', 'For loads up to 95 kg, minimum opening height 60 m', 'Minimum opening height 100 m, touchdown speed up to 7 m/s'],
+          ['Weather and wind', 'IP55, -20 °C to 45 °C, 12 m/s', 'IP55, -20 °C to 40 °C, 12 m/s at takeoff and landing'],
+          ['Maximum speed', '20 m/s', '20 m/s'],
+          ['Video link', 'O3, up to 20 km (FCC) or 8 km (CE)', 'O4, up to 20 km (FCC) or 10 km (CE)']
+        ]
+      } },
+      { img: { src: '/images/blog-flycart-guide-inline-1.webp', alt: `DJI FlyCart 30 delivery drone`, caption: `The FlyCart 30 carries a cargo case or a winch under an eight-rotor airframe.` } },
+      { h2: `FlyCart 30: payload and the winch` },
+      `DJI lists a 95 kg maximum takeoff weight for the FlyCart 30. Subtract the 65 kg aircraft weight with two batteries and 30 kg is left for cargo (calculated), which matches DJI's dual-battery payload figure. In dual-battery mode DJI lists 18 minutes of flight and 16 km with a 30 kg load. In single-battery mode the payload rises to 40 kg but flight time falls to 9 minutes and range to 8 km. The optional winch lowers cargo on a 20 m cable at up to 0.8 m/s retraction speed, with touchdown release and swing control, so the aircraft does not have to land. DJI's page states guaranteed software updates until 31 December 2026, so ask us about current support before you buy.`,
+      { h2: `FlyCart 100: what the Australian limit leaves` },
+      `DJI lists a 170 kg maximum takeoff weight for the FlyCart 100 and a note that it is restricted to 150 kg in Brazil, Japan, Australia, Turkey, Saudi Arabia and Argentina. DJI's flight time and range figures are measured at a 149.9 kg takeoff weight. Subtracting the aircraft and battery weights from 149.9 kg gives the most cargo that can be carried here. These sums are calculated, and DJI excludes the battery compartment, cable and hook weights from its figure, so the real payload is lower.`,
+      { table: {
+        head: ['Configuration', 'Aircraft weight (without batteries)', 'Two DB2160 batteries', 'Cargo at 149.9 kg, at most (calculated)'],
+        rows: [
+          ['Lifting system', '55.2 kg', '29.4 kg', '65.3 kg'],
+          ['Winch system', '60.2 kg', '29.4 kg', '60.3 kg']
+        ]
+      } },
+      `So the FlyCart 100 carries at most about 65 kg in Australia with the lifting system and about 60 kg with the winch, against 30 kg for the FlyCart 30. It flies for 14 minutes and 12 km at that weight in dual-battery mode. Ask us to confirm the exact payload for your configuration before you order.`,
+      { img: { src: '/images/blog-flycart-guide-inline-2.webp', alt: `DJI FlyCart 100 Basic Package delivery drone`, caption: `The FlyCart 100 has the same listed dimensions as the Agras T100 and is restricted to 150 kg in Australia.` } },
+      { h2: `DJI FlyCart prices and options` },
+      `These are the listed prices.`,
+      { table: {
+        head: ['Item', 'Price (AUD)', 'Note'],
+        rows: [
+          ['[DJI FlyCart 30](/product/dji-flycart-30)', '$26,830', 'The aircraft; ask what is in the package'],
+          ['[DJI FlyCart 100 (Basic Package)](/product/dji-flycart-100-basic-package)', '$53,130', 'Ask what is in the package'],
+          ['[DJI Dual Battery Lifting System](/product/dji-dual-battery-lifting-system)', '$3,990', 'For the DJI FlyCart; ask us to confirm the model it fits'],
+          ['[DJI Agras DB2160 battery](/product/dji-agras-db2160-intelligent-flight-battery)', '$4,080', 'The DB2160 DJI lists for the FlyCart 100']
+        ]
+      } },
+      `The FlyCart 100 Basic Package costs $26,300 more than the FlyCart 30 (calculated). For that you carry at most about twice the cargo in Australia, since 65.3 kg is 2.2 times 30 kg, and the aircraft price is 2.0 times higher (both calculated). Two DB2160 batteries bought separately would be $8,160 (calculated), so ask whether the package includes them. The FlyCart 30 uses the DB2000 battery and C8000 charger, so ask us about them when you quote.`,
+      { img: { src: '/images/blog-flycart-guide-inline-3.webp', alt: `DJI Dual Battery Lifting System for the DJI FlyCart`, caption: `A lifting system or winch carries the cargo under the airframe.` } },
+      { h2: `Charging and power` },
+      `The FlyCart 30 battery stores 1.98 kWh, so a pair holds about 3.97 kWh (calculated). DJI lists the C8000 charger at 7,200 W with dual input and 3,600 W with a single input, and a maximum charging power of 5,700 W for the DB2000. Plan the supply for your site with an electrician. The FlyCart 100 uses the DB2160 at 41 Ah and 52 V, about 2.13 kWh (calculated), and our [Agras T100 guide](/blog/buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading) explains the charging power that battery needs.`,
+      { h2: `Which delivery drone suits which job` },
+      { ul: [
+        `**Loads up to 30 kg over short distances:** the [FlyCart 30](/product/dji-flycart-30), such as parts, bags of feed or medical supplies.`,
+        `**Heavier loads, about 60 kg:** the [FlyCart 100](/product/dji-flycart-100-basic-package), if you can use the extra range and cargo and can manage a 150 kg aircraft.`,
+        `**Delivery without landing:** a winch, which lowers the load and releases it on touchdown.`,
+        `**Spraying as well as lifting:** compare the [Agras T100](/product/dji-agras-t100), which has the same listed dimensions, in our [spray drone buying guide](/blog/buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost).`
+      ] },
+      { h2: `Rules, approvals and training` },
+      `Delivery drones are heavy aircraft and carrying and releasing loads brings extra obligations, including operator certification and, for many jobs, approvals beyond the standard rules. Check what applies to your operation on [the CASA website](https://www.casa.gov.au/drones/drone-rules/drone-safety-rules), read our guide to [whether you need to register a drone in Australia](/blog/do-i-need-to-register-a-drone-in-australia-casa-rules) and the [FAQ](/faq). We can discuss training and set-up when you ask for a quote.`,
+      { h2: `Which setup should you buy?` },
+      { ul: [
+        `**A first delivery drone for light loads:** the [FlyCart 30](/product/dji-flycart-30).`,
+        `**The heaviest loads we supply:** the [FlyCart 100 Basic Package](/product/dji-flycart-100-basic-package) with a [lifting system](/product/dji-dual-battery-lifting-system) or winch.`,
+        `**A multi-use enterprise platform instead:** see our [enterprise drones guide](/blog/enterprise-drones-matrice-mavic-3-enterprise-guide).`
+      ] },
+      { h2: `Spares and related equipment` },
+      `Browse every [delivery drone](/category/enterprise-drones/delivery-drones) and [enterprise accessory](/category/enterprise-drones/enterprise-accessories) we supply, and the wider [enterprise drones category](/category/enterprise-drones).`,
+      { h2: `Get a free quote on a DJI FlyCart` },
+      `Tell us what you need to carry, how far and how often, and the power supply you have on site, and we will recommend the right aircraft with the right batteries and cargo system and send a written quote. Quotes are free. Use the [quote form](/quote), the buttons on each product above or the form below, and we will confirm what is in the package and the freight before you pay.`,
+      { h2: `How buying from Drones for Sale works` },
+      `Every order ships free to any Australian address by express courier, with signature on delivery and transit insurance. Prices are in Australian dollars. You can pay by cryptocurrency with a 10% discount, or by bank transfer, PayID or Osko. For a delivery drone we recommend a written quote so we confirm the aircraft, batteries, cargo system and freight together: use the [quote form](/quote). You can also place an order through the [order form](/order) or ask a question on the [contact page](/contact). Unopened hardware in its original packaging can be returned within 30 days of receipt, and Australian Consumer Law guarantees apply.`,
+      { faq: [
+        { q: `How much does a DJI FlyCart cost in Australia?`, a: `The FlyCart 30 is $26,830 and the FlyCart 100 Basic Package is $53,130. The Dual Battery Lifting System is $3,990. Ask us what each package includes.` },
+        { q: `How much can the DJI FlyCart 100 carry in Australia?`, a: `DJI restricts its takeoff weight to 150 kg in Australia. Subtracting the aircraft and two DB2160 batteries from 149.9 kg leaves at most about 65 kg with the lifting system and about 60 kg with the winch, before the weights DJI excludes (calculated).` },
+        { q: `How much can the DJI FlyCart 30 carry?`, a: `30 kg in dual-battery mode, with 18 minutes of flight and 16 km range at that load. In single-battery mode DJI lists up to 40 kg with 9 minutes and 8 km.` },
+        { q: `Is the DJI FlyCart waterproof?`, a: `DJI lists IP55 for both aircraft, with the note that the rating is not permanent and may decline with wear. It is not a submersible rating.` },
+        { q: `Do I need approval to fly a delivery drone in Australia?`, a: `Heavy aircraft and cargo operations carry extra obligations beyond the standard rules. Check the CASA website and speak to us about training and set-up.` }
+      ] }
+    ],
+    targetKeywords: ['dji flycart 100', 'dji flycart 30', 'dji flycart 30 price', 'delivery drone', 'heavy lift drone', 'flycart 100 australia']
   }
 ];

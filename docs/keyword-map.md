@@ -1033,3 +1033,13 @@ Two transactional guides chosen from the OpenSEO volumes above: "dji mini 3 fly 
 |---|---|
 | /blog/buy-dji-mini-3-fly-more-combo-australia-price-dji-rc-battery-sums-vs-mini-4-pro | dji mini 3 fly more combo (1,900); dji mini 3 fly more combo price; dji mini 3 australia; dji mini 3 dji rc; mini 3 spare battery; dji mini 3 vs mini 4 pro |
 | /blog/buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost | spray drone (880); drone sprayer (880); spray drone for sale; spray drone price australia; best spray drone; spray drone for farm |
+
+
+## DJI Lito and DJI FlyCart transactional guides (28 Nov 2026)
+
+Two transactional guides chosen from OpenSEO volumes (Australia, 28 Nov 2026), both `intent: transactional` with the enquiry panel, quote and cart buttons, a cover and three inline images. Neither topic had a dedicated post before. Figures come from DJI's Lito 1, Lito X1, FlyCart 30 and FlyCart 100 specification pages. The FlyCart 100 cargo figures are calculated from DJI's note that takeoff weight is restricted to 150 kg in Australia and are labelled as maximums.
+
+| Post | Primary / supporting keywords (monthly AU volume where measured) |
+|---|---|
+| /blog/buy-dji-lito-x1-vs-lito-1-australia-price-fly-more-combos-rc-n3-rc-2-batteries | dji lito x1 (3,600); dji lito (1,000); dji lito 1 (720); dji lito x1 fly more combo (590); dji lito x1 price (140); dji lito x1 vs mini 4 pro (90) |
+| /blog/buy-dji-flycart-100-vs-flycart-30-australia-price-delivery-drone-payload-150-kg-limit | dji flycart 100 (320); dji flycart 30 (210); dji flycart 30 price (20); delivery drone (720, KD 21); heavy lift drone (170); flycart 100 australia |

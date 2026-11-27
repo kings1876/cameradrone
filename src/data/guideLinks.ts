@@ -3,6 +3,8 @@
 import { BLOG_POSTS } from './content';
 
 const HOME = [
+  'buy-dji-lito-x1-vs-lito-1-australia-price-fly-more-combos-rc-n3-rc-2-batteries',
+  'buy-dji-flycart-100-vs-flycart-30-australia-price-delivery-drone-payload-150-kg-limit',
   'buy-dji-mini-3-fly-more-combo-australia-price-dji-rc-battery-sums-vs-mini-4-pro',
   'buy-spray-drone-australia-how-to-choose-dji-agras-t25p-t50-t70p-t100-prices-and-setup-cost',
   'buy-dji-agras-t100-australia-price-setup-cost-spray-drone-149-9-kg-limit-batteries-spreading',
@@ -41,6 +43,7 @@ const HOME = [
 
 const BY_CATEGORY: Record<string, string[]> = {
   'camera-drones': [
+    'buy-dji-lito-x1-vs-lito-1-australia-price-fly-more-combos-rc-n3-rc-2-batteries',
     'buy-dji-mini-3-fly-more-combo-australia-price-dji-rc-battery-sums-vs-mini-4-pro',
     'buy-dji-mavic-australia-mavic-4-pro-vs-mavic-3-pro',
     'best-drones-for-beginners-australia',
@@ -56,6 +59,7 @@ const BY_CATEGORY: Record<string, string[]> = {
     'best-drone-for-sale-australia-2026-buyers-guide'
   ],
   'enterprise-drones': [
+    'buy-dji-flycart-100-vs-flycart-30-australia-price-delivery-drone-payload-150-kg-limit',
     'buy-dji-matrice-30t-australia-price-worry-free-combos-ip55-thermal-drone-setup-cost',
     'buy-dji-matrice-4t-australia-price-plus-combo-thermal-enterprise-drone-setup-cost',
     'buy-dji-mavic-3t-australia-price-worry-free-combos-thermal-drone-setup-cost',
@@ -116,6 +120,8 @@ const BY_CATEGORY: Record<string, string[]> = {
 };
 
 const BY_SUBCATEGORY: Record<string, string[]> = {
+  'DJI Lito': ['buy-dji-lito-x1-vs-lito-1-australia-price-fly-more-combos-rc-n3-rc-2-batteries'],
+  'Delivery Drones': ['buy-dji-flycart-100-vs-flycart-30-australia-price-delivery-drone-payload-150-kg-limit'],
   'Thermal Cameras': ['buy-dji-matrice-30t-australia-price-worry-free-combos-ip55-thermal-drone-setup-cost', 'buy-dji-matrice-4t-australia-price-plus-combo-thermal-enterprise-drone-setup-cost', 'buy-dji-mavic-3t-australia-price-worry-free-combos-thermal-drone-setup-cost', 'buy-roof-and-building-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-prices', 'buy-power-line-inspection-drone-australia-thermal-zoom-drones-matrice-4-zenmuse-h30-prices', 'buy-drone-heat-camera-australia-thermal-drones-payloads', 'buy-solar-farm-inspection-drone-australia-thermal-drones-mavic-3t-matrice-4t-h30t-prices', 'buy-thermal-drone-for-livestock-australia-cattle-sheep-counting-strays-prices', 'buy-search-and-rescue-drone-australia-thermal-drones-matrice-4t-m30t-mavic-3t-prices', 'how-does-a-thermal-imager-work-thermal-drone-camera-resolution-sensitivity-explained', 'buy-dji-zenmuse-h30t-thermal-payload-australia-h30t-vs-h30-prices', 'buy-dji-thermal-drone-australia-mavic-3t-vs-matrice-4t-vs-matrice-30t-prices', 'buy-thermal-imaging-camera-australia-flir-vs-dji-thermal-cameras', 'thermal-drones-australia-guide', 'thermal-camera-vs-thermal-drone-infrared-inspections'],
   'LiDAR Sensors': ['buy-livox-lidar-australia-avia-2-vs-avia-tele-15-mid-70-mid-360s-prices', 'buy-lidar-drone-australia-zenmuse-l2-vs-l3-matrice-400-livox-prices', 'lidar-vs-photogrammetry-drone-mapping-australia', 'thermal-drones-australia-guide'],
   'DJI Dock': ['buy-dji-dock-3-vs-dock-2-australia-price-packages-drone-in-a-box', 'buy-dji-matrice-australia-matrice-4-30-400-compared-by-price', 'thermal-drones-australia-guide', 'enterprise-drones-matrice-mavic-3-enterprise-guide'],
